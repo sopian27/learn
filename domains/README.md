@@ -25,4 +25,4 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 # Domains Currently Registered
 
 - `software-engineering` — see `domains/software-engineering/DOMAIN.md` (pointer to existing `ai-los/`, `standards/`, `courses/` content — nothing duplicated).
-- `personal-finance` — provisionally registered — pending roadmap approval, see `courses/personal-finance/roadmap.md`. See `domains/personal-finance/DOMAIN.md`.
+- `personal-finance` — see `domains/personal-finance/DOMAIN.md`. Active course: `courses/personal-finance/roadmap.md` (approved 2026-08-06).

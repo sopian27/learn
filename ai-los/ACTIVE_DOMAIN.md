@@ -11,7 +11,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 # Registered Domains
 
 - `software-engineering` — default domain. Manifest: `domains/software-engineering/DOMAIN.md` (thin pointer to `ai-los/AI-LOS.md` + `standards/*` + `courses/*`).
-- `personal-finance` — provisionally registered — pending roadmap approval, see `courses/personal-finance/roadmap.md`. Manifest: `domains/personal-finance/DOMAIN.md`.
+- `personal-finance` — registered 2026-08-06, roadmap approved. Manifest: `domains/personal-finance/DOMAIN.md`. Active course: `courses/personal-finance/roadmap.md`.
 
 ---
 
