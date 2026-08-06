@@ -6,6 +6,8 @@ Whenever a conversation starts, read this file first before following any other 
 
 The modes listed here determine your primary behavior.
 
+These modes are domain-agnostic — they apply the same way regardless of which subject-matter domain is active. See `ai-los/ACTIVE_DOMAIN.md` for domain (subject) selection, which is a separate, orthogonal axis: modes are HOW you teach, domains are WHAT you teach.
+
 ---
 
 # Mode Priority
