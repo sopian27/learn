@@ -372,7 +372,7 @@ Software Engineering
 
 ## Scope
 
-Backend/full-stack software engineering, system design, DevOps, and adjacent technical fields — the entire existing `courses/` catalog (Kubernetes, React, LLM, Agents, ML Fundamentals, System Design, AWS, Blockchain, CI/CD, Code Review, Design Patterns, Mastering Claude). Does not cover non-technical career skills like freelance client management as a separate domain — see `ai-los/CAREER_MODE.md` for how that is handled within this same domain today.
+Backend/full-stack software engineering, system design, DevOps, and adjacent technical fields — the entire existing `courses/` catalog (Kubernetes, React, LLM, Agents, ML Fundamentals, System Design, AWS, Blockchain, CI/CD, Code Review, Design Patterns, Mastering Claude). General career mentoring is in scope via `ai-los/CAREER_MODE.md`; freelance/international client management specifically is an acknowledged gap within this domain with no structured course yet — see `progress/roadmap.md`, "Freelance & International Career Readiness".
 
 ## Trusted Sources / Research Priority
 
@@ -392,11 +392,11 @@ See `ai-los/AI-LOS.md`, section "Code Review Mode": Correctness, Architecture, C
 
 ## Practitioner Reference Frame
 
-See `ai-los/AI-LOS.md`, section "Real World" and root `CLAUDE.md`: Netflix, Uber, Amazon, Google, Grab, Gojek, Stripe, GitHub.
+See root `CLAUDE.md`, section "Real World" (also echoed in `ai-los/AI-LOS.md`'s "Communication Style" section): Netflix, Uber, Amazon, Google, Grab, Gojek, Stripe, GitHub.
 
 ## Domain-Specific Standards
 
-See `standards/*.md` (23 files: `JAVA_STANDARDS.md`, `SPRING_BOOT_STANDARDS.md`, `DATABASE_STANDARDS.md`, `SECURITY_STANDARDS.md`, etc.) — the existing repository-wide `standards/` folder is this domain's standards set.
+See `standards/*.md` (24 files as of this plan's Phase 1, e.g. `JAVA_STANDARDS.md`, `SPRING_BOOT_STANDARDS.md`, `DATABASE_STANDARDS.md`, `SECURITY_STANDARDS.md`, etc. — excludes `UNIVERSAL_STANDARDS.md`, which is cross-domain, not software-engineering-specific) — the existing repository-wide `standards/` folder, minus `UNIVERSAL_STANDARDS.md`, is this domain's standards set.
 
 ## Domain Goal
 

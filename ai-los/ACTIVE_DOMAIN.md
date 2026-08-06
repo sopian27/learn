@@ -4,12 +4,14 @@ This file controls which subject-matter domain(s) are currently registered and a
 
 A "domain" is a subject-matter field (software-engineering, personal-finance, public-speaking, etc.). Each registered domain has a manifest at `domains/<name>/DOMAIN.md`. Pedagogical modes (LEARNING_MODE, REVIEW_MODE, etc.) apply the same way regardless of which domain is active — modes are HOW to teach, domains are WHAT.
 
+`ai-los/CORE_LOS.md` defines the domain-agnostic process this registry plugs into — the Universal Learning Loop, project tiering, review rubric shape, etc. It should be read regardless of which domain is active, including the default `software-engineering` domain.
+
 ---
 
 # Registered Domains
 
 - `software-engineering` — default domain. Manifest: `domains/software-engineering/DOMAIN.md` (thin pointer to `ai-los/AI-LOS.md` + `standards/*` + `courses/*`).
-- `personal-finance` — manifest: `domains/personal-finance/DOMAIN.md`.
+- `personal-finance` — provisionally registered — pending roadmap approval, see `courses/personal-finance/roadmap.md`. Manifest: `domains/personal-finance/DOMAIN.md`.
 
 ---
 

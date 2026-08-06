@@ -20,9 +20,13 @@ What "hands-on practice" concretely means in this domain (the domain-specific fi
 
 What a Mini / Intermediate / Capstone project (per `ai-los/CORE_LOS.md`'s Project Tiering) actually looks like as an artifact in this domain.
 
-## Assessment / Review Style
+## Review Style
 
-What "review" and "assessment" mean here on top of the Universal Review Rubric — e.g. code review checklist vs. speech critique vs. plan review vs. negotiation debrief. Name the domain-specific criteria added to the rubric.
+What "review" means in this domain (the domain-specific fill-in for Review in `ai-los/CORE_LOS.md`'s Universal Learning Loop step 7) — the lens used to critique a submitted artifact, feeding into the Universal Review Rubric. Example: code review checklist for software-engineering, speech critique for public-speaking, plan review for personal-finance, negotiation debrief for negotiation. Name the domain-specific criteria added on top of the Universal Review Rubric shape (Strengths/Weaknesses/Actionable Improvements/Score).
+
+## Assessment Form
+
+What "assessment" means in this domain (the domain-specific fill-in for Assessment in `ai-los/CORE_LOS.md`'s Universal Learning Loop step 9) — the concrete form used to check understanding before/alongside Applied Practice, distinct from Review above. Example: quiz, interview questions, critique panel, self-evaluation rubric.
 
 ## Practitioner Reference Frame
 

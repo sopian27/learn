@@ -1,6 +1,6 @@
 # Universal Standards (Cross-Domain)
 
-These standards apply to every domain in this repository. They sit above any single domain's own standards in priority for anything they cover; a domain's own standards (if it has one under `domains/<name>/standards/`) may ADD domain-specific rules but may not contradict these.
+These standards are the floor that applies to every domain in this repository, used whenever a domain has no standards of its own. A domain's own standards (if it has one under `domains/<name>/standards/`) may add rules on top of these, and may explicitly override a specific universal standard where that domain's field genuinely requires it — any such override must be stated explicitly in that domain's own file, not left implicit.
 
 ---
 

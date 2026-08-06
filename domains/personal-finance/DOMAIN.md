@@ -1,3 +1,5 @@
+# Personal Finance — Domain Pack
+
 ## Domain Name
 
 Personal Finance
@@ -26,7 +28,7 @@ Producing or revising a real (or realistic) personal-finance artifact every less
 - **Intermediate Project** (per major section): a multi-part plan combining several modules' skills — e.g. a combined emergency-fund + debt-payoff plan, or a full Investment Policy Statement (goals, risk tolerance, target asset allocation, rebalancing rule).
 - **Capstone / Portfolio Project** (end of course): a complete personal financial plan document integrating cash flow, emergency fund, debt strategy, insurance review, investment policy statement, and a retirement projection into one presentable artifact, saved to `portofolio/`.
 
-## Assessment / Review Style
+## Review Style
 
 On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Improvements / Score 0–100), every plan review additionally checks:
 
@@ -34,6 +36,10 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 - **Risk Alignment** — does the investment/insurance strategy match the stated risk tolerance and time horizon, not a generic template?
 - **Completeness** — are all required components present for that project tier (see Project Tiers above)?
 - **Actionability** — could the learner literally execute the next step tomorrow, or is it too abstract to act on?
+
+## Assessment Form
+
+A short set of concept-check questions after each lesson's theory portion (verifying the theory before Applied Practice begins), plus a self-evaluation pass against the four Review Style criteria above (Feasibility, Risk Alignment, Completeness, Actionability) before submitting the Applied Practice artifact for review.
 
 ## Practitioner Reference Frame
 
@@ -45,4 +51,4 @@ None yet — `standards/UNIVERSAL_STANDARDS.md` is sufficient for this domain to
 
 ## Domain Goal
 
-To be refined with the learner when `courses/personal-finance/roadmap.md` is approved (see Task 10) — provisionally: produce a complete, feasible, risk-aligned personal financial plan the learner can explain and defend every decision in, and be equipped to keep it updated independently afterward.
+To be refined with the learner when `courses/personal-finance/roadmap.md` is approved (see `courses/personal-finance/roadmap.md`) — provisionally: produce a complete, feasible, risk-aligned personal financial plan the learner can explain and defend every decision in, and be equipped to keep it updated independently afterward.

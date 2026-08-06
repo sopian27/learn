@@ -37,7 +37,6 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 * **Machine Learning & AI Fundamentals** — `courses/ml-fundamentals/roadmap.md` — Status: In Progress (Module 1) — di-approve & dimulai 2026-08-06
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: In Progress (2/8 module selesai) — track paralel/praktis (bukan jalur utama), dimulai 2026-08-06 dari kebutuhan langsung user; Module 3-5 (Claude Code Mendalam, Skills & Plugins, Claude Cowork) baru diriset & disusun, menunggu approval user untuk mulai; Module 7-8 (Vibe Coding: filosofi, risiko, spec-driven development, agentic engineering) ditambahkan 2026-08-06 atas permintaan user ("belajar vibe coding dari 0 sampai expert"), digabung ke course ini alih-alih course terpisah, juga menunggu approval
 * **CI/CD Mastery — dari Permukaan ke Expert** — `courses/ci-cd/roadmap.md` — Status: In Progress (Module 1, Lesson 1.1) — dimulai 2026-08-06 atas permintaan langsung user ("tahu CI/CD hanya kulitnya"); tool utama GitLab CI, konsep universal tetap diajarkan generik dulu; mengisi gap DevOps yang belum tercakup di Gap Analysis awal, beririsan dengan `courses/kubernetes` (deploy target) yang sedang paused
-* **Personal Finance — dari 0 sampai Punya Rencana Keuangan Lengkap** — `courses/personal-finance/roadmap.md` — Domain: personal-finance — Status: Not Started, menunggu approval roadmap (dibuat sebagai pilot domain non-SWE pertama, lihat `ai-los/ARCHITECTURE_UNIVERSAL_LOS.md`)
 
 # Course Paused
 
@@ -60,6 +59,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 
 * **Software & System Architecture** — `courses/system-design/roadmap.md` — mengisi slot "System Design Mastery" di Gap Analysis (bukan course terpisah lagi). Scope dikalibrasi ke Software/System Architecture single-system (bukan Enterprise/Solution Architecture penuh): layering, Clean/Hexagonal Architecture, DDD, monolith-vs-microservices, komunikasi antar-service, data-at-scale (sharding/CAP), resiliency, event-driven architecture, API/deployment/security architecture, ditutup system design interview practice + capstone. 14 modul. Status: Not Started, roadmap menunggu approval.
 * **Scrum Master** — `courses/scrum-master/roadmap.md` — course baru terpisah (bukan digabung ke Software & System Architecture, sesuai kalibrasi user). Scrum Guide 2020, peran Scrum Master (servant leadership, 4 stance), fasilitasi event, backlog & estimasi, coaching & fasilitasi tim, metrik Agile, Kanban, scaling framework, Agile enterprise, tooling (Jira, pakai `templates/JIRA_TASK_TEMPLATE.md`), persiapan PSM I. 12 modul, non-coding — dirancang jalan paralel tanpa bersaing energi dengan course teknis. Status: Not Started, roadmap menunggu approval.
+* **Personal Finance — dari 0 sampai Punya Rencana Keuangan Lengkap** — `courses/personal-finance/roadmap.md` — Domain: personal-finance — dibuat sebagai pilot domain non-SWE pertama, lihat `ai-los/ARCHITECTURE_UNIVERSAL_LOS.md`. Status: Not Started, roadmap menunggu approval.
 
 # Course Belum Dibuat (gap dari Master Goal)
 

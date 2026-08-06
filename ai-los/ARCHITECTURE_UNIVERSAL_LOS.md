@@ -32,7 +32,7 @@ Layer 2 — DOMAIN REGISTRY (one manifest per subject-matter domain)
 
 Layer 3 — CONTENT (unchanged)
   courses/<topic>/roadmap.md        → actual curricula, format already generic
-  standards/*.md (23 files)         → become the software-engineering domain pack's own standards
+  standards/*.md (24 files)         → become the software-engineering domain pack's own standards
   ai-los/AI-LOS.md, LEARNING_MODE.md, etc. → stay exactly as-is; this IS the software-engineering
                                               domain pack's content, referenced by a thin pointer
 ```
@@ -58,7 +58,7 @@ Layer 3 — CONTENT (unchanged)
 | `CLAUDE.md` | Add to "Session Start": also read `ai-los/ACTIVE_DOMAIN.md`. Add a short note: the Role section's SWE framing and stack list apply when domain = `software-engineering` (the default); when another domain is active, persona composition uses `ai-los/CORE_LOS.md` + `domains/<active>/DOMAIN.md` instead. |
 | `ai-los/ACTIVE_MODE.md` | One clarifying line: pedagogical modes here are domain-agnostic and apply regardless of which domain is active; subject-matter domain is governed separately by `ACTIVE_DOMAIN.md`. |
 
-No file is deleted. No folder is restructured. `courses/`, `standards/*.md` (the 23 SWE docs), `templates/*`, `progress/*`, `portofolio/` are untouched in this design.
+No file is deleted. No folder is restructured. `courses/`, `standards/*.md` (the 24 SWE docs), `templates/*`, `progress/*`, `portofolio/` are untouched in this design.
 
 ## Domain-Switch Workflow
 
