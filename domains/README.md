@@ -6,7 +6,7 @@ This folder holds one subfolder per subject-matter domain this repository can te
 
 # The Domain Pack Contract
 
-A `DOMAIN.md` must define, at minimum, every section in `templates/DOMAIN_TEMPLATE.md`: Domain Name, Scope, Trusted Sources, Applied Practice Definition, Project Tiers, Assessment/Review Style, Practitioner Reference Frame — plus optional Domain-Specific Standards and Domain Goal.
+A `DOMAIN.md` must define, at minimum, every section in `templates/DOMAIN_TEMPLATE.md`: Domain Name, Scope, Trusted Sources, Applied Practice Definition, Project Tiers, Review Style, Assessment Form, Practitioner Reference Frame — plus optional Domain-Specific Standards and Domain Goal.
 
 ---
 

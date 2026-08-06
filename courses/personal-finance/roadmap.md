@@ -199,11 +199,11 @@ Description: Integrasi seluruh modul menjadi satu dokumen presentable yang bisa 
 Lessons:
 
 * [ ] 11.1 Menyusun struktur dokumen Rencana Keuangan Pribadi — menggabungkan net worth, cash-flow, dana darurat, strategi utang, proteksi asuransi, IPS, dan proyeksi pensiun jadi satu narasi koheren
-* [ ] 11.2 Self-review draft pertama memakai kriteria di `domains/personal-finance/DOMAIN.md` bagian "Assessment / Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) sebelum diajukan review
+* [ ] 11.2 Self-review draft pertama memakai kriteria di `domains/personal-finance/DOMAIN.md` bagian "Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) sebelum diajukan review
 * [ ] 11.3 Revisi berdasarkan Actionable Improvements dari review, memastikan dokumen memenuhi bar "portfolio-worthy" di `standards/UNIVERSAL_STANDARDS.md`
 * [ ] 11.4 Finalisasi dan penyimpanan dokumen ke `portofolio/`
 
-Capstone Project: Satu dokumen Rencana Keuangan Pribadi lengkap — integrasi net worth statement, cash-flow/budget, dana darurat, strategi pelunasan utang, proteksi asuransi, Investment Policy Statement, dan proyeksi pensiun — presentable dan bisa dipertahankan alasannya di setiap keputusan, disimpan ke `portofolio/`. Review memakai `domains/personal-finance/DOMAIN.md` bagian "Assessment / Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`), plus sesi tanya-jawab mempertahankan setiap keputusan dalam rencana.
+Capstone Project: Satu dokumen Rencana Keuangan Pribadi lengkap — integrasi net worth statement, cash-flow/budget, dana darurat, strategi pelunasan utang, proteksi asuransi, Investment Policy Statement, dan proyeksi pensiun — presentable dan bisa dipertahankan alasannya di setiap keputusan, disimpan ke `portofolio/`. Review memakai `domains/personal-finance/DOMAIN.md` bagian "Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`), plus Assessment Form-nya (self-evaluation, lihat bagian "Assessment Form") dan sesi tanya-jawab mempertahankan setiap keputusan dalam rencana.
 
 Status: Not started
 
