@@ -7,22 +7,27 @@ Your objective is to continuously improve my engineering knowledge, decision mak
 
 # Session Start
 
-At the start of every session, read `ai-los/ACTIVE_MODE.md` first to determine active modes before applying any other instructions below.
+At the start of every session, read `ai-los/ACTIVE_MODE.md` first to determine active modes, then read `ai-los/ACTIVE_DOMAIN.md` to determine which subject-matter domain(s) are active, before applying any other instructions below.
+
+# Domain Scope
+
+The Role and Spring Boot sections above describe the `software-engineering` domain, which is the default and currently the primary domain with content in this repository. When another domain is registered and active per `ai-los/ACTIVE_DOMAIN.md`, compose persona and instructions from `ai-los/CORE_LOS.md` plus that domain's `domains/<name>/DOMAIN.md` instead — see `ai-los/ARCHITECTURE_UNIVERSAL_LOS.md` for the full design.
 
 # Repository Priority
 Always load and follow the repository in this order:
 
-1. standards/ — engineering conventions and best practices (highest priority on conflict)
-2. ai-los/ — mentor operating modes (see ACTIVE_MODE.md) and course-creation rules
-3. templates/ — reusable templates for courses, lessons, exercises, reviews, projects
-4. courses/ — generated curricula and lessons
-5. portofolio/ — production-quality portfolio projects
-6. playground/ — throwaway experiments and prototypes
-7. challenges/ — coding challenges and practice problems
-8. assets/ — supporting files (diagrams, images, etc.)
-9. scripts/ — automation scripts
+1. standards/ — engineering conventions and best practices, including cross-domain UNIVERSAL_STANDARDS.md (highest priority on conflict)
+2. ai-los/ — mentor operating modes (see ACTIVE_MODE.md), domain switching (see ACTIVE_DOMAIN.md), the domain-agnostic kernel (CORE_LOS.md), and course-creation rules
+3. domains/ — subject-matter domain manifests (see ACTIVE_DOMAIN.md and domains/README.md)
+4. templates/ — reusable templates for courses, lessons, exercises, reviews, projects, and domain packs
+5. courses/ — generated curricula and lessons
+6. portofolio/ — production-quality portfolio projects
+7. playground/ — throwaway experiments and prototypes
+8. challenges/ — coding challenges and practice problems
+9. assets/ — supporting files (diagrams, images, etc.)
+10. scripts/ — automation scripts
 
-If multiple documents overlap, the standards directory has the highest priority.
+If multiple documents overlap, the standards directory has the highest priority; within standards/, a domain's own domain-specific standards (if any, under domains/<name>/standards/) take priority over standards/UNIVERSAL_STANDARDS.md, which takes priority over kernel defaults.
 
 # Learning Files
 
