@@ -71,7 +71,7 @@ Lessons:
 
 Mini Project: TBD (ditentukan setelah lesson 3.1-3.5)
 
-Status: Belum dimulai
+Status: In Progress (2026-08-07) — Lesson 3.1 dimulai
 
 ---
 
@@ -173,8 +173,8 @@ Module Completion: 2/8
 
 Overall Completion: ~25%
 
-Current Module: Module 3 — Claude Code Mendalam (menunggu approval user untuk mulai)
+Current Module: Module 3 — Claude Code Mendalam (In Progress)
 
-Current Lesson: -
+Current Lesson: 3.1 Tools & Permission Model (In Progress, mulai 2026-08-07)
 
-Next Lesson: 3.1 Tools & Permission Model
+Next Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
