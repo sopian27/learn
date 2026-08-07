@@ -29,6 +29,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 - `film-criticism` — Manifest: `domains/film-criticism/DOMAIN.md`. Course: `courses/film-criticism/roadmap.md`.
 - `korean` — Manifest: `domains/korean/DOMAIN.md`. Course: `courses/korean/roadmap.md`.
 - `cryptocurrency` — Manifest: `domains/cryptocurrency/DOMAIN.md`. Course: `courses/cryptocurrency/roadmap.md`.
+- `conspiracy-theories` — registered 2026-08-08, domain pack approved. Manifest: `domains/conspiracy-theories/DOMAIN.md`. No course roadmap yet — user chose to register paused first; build `courses/conspiracy-theories/roadmap.md` (with approval before Lesson 1, per `ai-los/COURSE_CREATION.md`) when this domain is activated.
 
 ---
 

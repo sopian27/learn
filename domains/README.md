@@ -36,3 +36,4 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `film-criticism` — see `domains/film-criticism/DOMAIN.md`. Active course: `courses/film-criticism/roadmap.md` (approved 2026-08-07).
 - `korean` — see `domains/korean/DOMAIN.md`. Active course: `courses/korean/roadmap.md` (approved 2026-08-07).
 - `cryptocurrency` — see `domains/cryptocurrency/DOMAIN.md`. Active course: `courses/cryptocurrency/roadmap.md` (approved 2026-08-07).
+- `conspiracy-theories` — see `domains/conspiracy-theories/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
