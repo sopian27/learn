@@ -50,6 +50,8 @@ Referensi riset yang dipakai menyusun roadmap ini: *Effective Java* (Joshua Bloc
 
 Description: Membongkar kebiasaan Java yang "jalan tapi bukan idiom yang benar" — titik awal paling umum dari fondasi yang terasa rapuh. Fokus ke generics, collections internals, dan exception handling sesuai `standards/JAVA_STANDARDS.md`.
 
+Status: Not Started
+
 Lessons:
 
 * [ ] Generics mendalam: bounded type, wildcard (`? extends`/`? super`), type erasure — dan bug yang muncul kalau salah paham erasure

@@ -53,7 +53,7 @@ Lessons:
 
 Mini Project: Exploratory Data Analysis (EDA) lengkap pada dataset nyata (mis. Titanic atau housing prices) — load, bersihkan, visualisasikan, temukan insight awal.
 
-Status: In Progress (Lesson 1.1)
+Status: Not Started
 
 ---
 
@@ -236,8 +236,8 @@ Module Completion: 0/10
 
 Overall Completion: 0%
 
-Current Module: Module 1 — Peta Besar AI & Python untuk Data Science (In Progress)
+Current Module: menunggu approval
 
-Current Lesson: 1.1 — AI vs Machine Learning vs Deep Learning vs LLM
+Current Lesson: -
 
-Next Lesson: Module 1, Lesson 1.2 — Setup environment data science (Python venv, Jupyter/VS Code, uv/pip)
+Next Lesson: Module 1, Lesson 1.1 — AI vs Machine Learning vs Deep Learning vs LLM

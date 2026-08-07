@@ -26,3 +26,13 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 
 - `software-engineering` — see `domains/software-engineering/DOMAIN.md` (pointer to existing `ai-los/`, `standards/`, `courses/` content — nothing duplicated).
 - `personal-finance` — see `domains/personal-finance/DOMAIN.md`. Active course: `courses/personal-finance/roadmap.md` (approved 2026-08-06).
+- `n8n-automation` — see `domains/n8n-automation/DOMAIN.md`. Active course: `courses/n8n-automation/roadmap.md` (approved 2026-08-06).
+- `communication-skills` — see `domains/communication-skills/DOMAIN.md`. Active course: `courses/communication-skills/roadmap.md` (approved 2026-08-06).
+- `critical-thinking` — see `domains/critical-thinking/DOMAIN.md`. Active course: `courses/critical-thinking/roadmap.md` (approved 2026-08-06).
+- `character-development` — see `domains/character-development/DOMAIN.md`. Active course: `courses/character-development/roadmap.md` (approved 2026-08-07).
+- `world-history` — see `domains/world-history/DOMAIN.md`. Active course: `courses/world-history/roadmap.md` (approved 2026-08-07).
+- `guitar` — see `domains/guitar/DOMAIN.md`. Active course: `courses/guitar/roadmap.md` (approved 2026-08-07).
+- `self-love` — see `domains/self-love/DOMAIN.md`. Active course: `courses/self-love/roadmap.md` (approved 2026-08-07).
+- `film-criticism` — see `domains/film-criticism/DOMAIN.md`. Active course: `courses/film-criticism/roadmap.md` (approved 2026-08-07).
+- `korean` — see `domains/korean/DOMAIN.md`. Active course: `courses/korean/roadmap.md` (approved 2026-08-07).
+- `cryptocurrency` — see `domains/cryptocurrency/DOMAIN.md`. Active course: `courses/cryptocurrency/roadmap.md` (approved 2026-08-07).

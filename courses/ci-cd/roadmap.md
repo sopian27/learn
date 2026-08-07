@@ -53,7 +53,7 @@ Lessons:
 
 Mini Project: Gambar (diagram) anatomi pipeline untuk 1 aplikasi Spring Boot sederhana, dari commit sampai production, lengkap dengan branching strategy yang dipilih + alasan.
 
-Status: In Progress — Lesson 1.1
+Status: Not started
 
 ---
 
@@ -199,8 +199,8 @@ Module Completion: 0/9
 
 Overall Completion: 0%
 
-Current Module: Module 1 — CI/CD Fundamentals & Mental Model
+Current Module: menunggu approval
 
-Current Lesson: 1.1 CI vs Continuous Delivery vs Continuous Deployment
+Current Lesson: -
 
-Next Lesson: 1.2 Masalah yang dipecahkan CI/CD
+Next Lesson: 1.1 CI vs Continuous Delivery vs Continuous Deployment

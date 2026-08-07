@@ -319,8 +319,8 @@ Module Completion: 0/14
 
 Overall Completion: 0%
 
-Current Module: -
+Current Module: Belum dimulai — roadmap **disetujui 2026-08-07**, siap mulai kapan saja
 
 Current Lesson: -
 
-Next Lesson: Menunggu approval roadmap ini dari user sebelum mulai Module 1, Lesson 1
+Next Lesson: Module 1, Lesson 1 — Architecture vs Design: kenapa keputusan arsitektur sulit diubah

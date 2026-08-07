@@ -10,8 +10,25 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 # Registered Domains
 
-- `software-engineering` — default domain. Manifest: `domains/software-engineering/DOMAIN.md` (thin pointer to `ai-los/AI-LOS.md` + `standards/*` + `courses/*`).
-- `personal-finance` — registered 2026-08-06, roadmap approved. Manifest: `domains/personal-finance/DOMAIN.md`. Active course: `courses/personal-finance/roadmap.md`.
+**Update 2026-08-07:** Active domains narrowed to 2, at user request, to save tokens (mirrors `progress/roadmap.md` "Course Aktif" narrowing). All other registered domains below are marked Paused — not deregistered, resume any of them anytime by asking. Full goal descriptions for paused domains live in their own `domains/<name>/DOMAIN.md` manifest.
+
+## Active
+
+- `software-engineering` — default domain. Manifest: `domains/software-engineering/DOMAIN.md` (thin pointer to `ai-los/AI-LOS.md` + `standards/*` + `courses/*`). Covers `courses/mastering-claude/roadmap.md`.
+- `character-development` — registered 2026-08-07, roadmap approved. Manifest: `domains/character-development/DOMAIN.md`. Active course: `courses/character-development/roadmap.md`. Goal: build genuine humility (accurate self-view + real feedback-seeking, not self-deprecation), sustainable work ethic (not burnout-driven grind), and consistent respect for others (no belittling), tested through real applied practice rather than theory alone.
+
+## Paused (2026-08-07, hemat token — resume anytime)
+
+- `personal-finance` — Manifest: `domains/personal-finance/DOMAIN.md`. Course: `courses/personal-finance/roadmap.md`.
+- `n8n-automation` — Manifest: `domains/n8n-automation/DOMAIN.md`. Course: `courses/n8n-automation/roadmap.md`.
+- `communication-skills` — Manifest: `domains/communication-skills/DOMAIN.md`. Course: `courses/communication-skills/roadmap.md`.
+- `critical-thinking` — Manifest: `domains/critical-thinking/DOMAIN.md`. Course: `courses/critical-thinking/roadmap.md`.
+- `world-history` — Manifest: `domains/world-history/DOMAIN.md`. Course: `courses/world-history/roadmap.md`.
+- `guitar` — Manifest: `domains/guitar/DOMAIN.md`. Course: `courses/guitar/roadmap.md`.
+- `self-love` — Manifest: `domains/self-love/DOMAIN.md`. Course: `courses/self-love/roadmap.md`.
+- `film-criticism` — Manifest: `domains/film-criticism/DOMAIN.md`. Course: `courses/film-criticism/roadmap.md`.
+- `korean` — Manifest: `domains/korean/DOMAIN.md`. Course: `courses/korean/roadmap.md`.
+- `cryptocurrency` — Manifest: `domains/cryptocurrency/DOMAIN.md`. Course: `courses/cryptocurrency/roadmap.md`.
 
 ---
 

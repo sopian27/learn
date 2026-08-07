@@ -35,7 +35,7 @@ Lessons:
 
 Mini Project: Menyusun net worth statement dan cash-flow statement pribadi (atau skenario realistis) periode 1 bulan terakhir, lengkap dengan 3 tujuan keuangan terukur.
 
-Status: In Progress — Lesson 1.1
+Status: Not started
 
 ---
 
@@ -225,8 +225,8 @@ Module Completion: 0/11
 
 Overall Completion: 0%
 
-Current Module: Module 1 — Financial Foundations & Mindset — roadmap di-approve 2026-08-06
+Current Module: menungggu approval
 
-Current Lesson: 1.1 Net worth statement — aset vs liabilitas, cara menghitung net worth pribadi secara jujur
+Current Lesson: -
 
-Next Lesson: 1.2 Cash-flow statement — membedakan income, fixed expense, variable expense, dan "phantom spending"
+Next Lesson: 1.1 Net worth statement — aset vs liabilitas, cara menghitung net worth pribadi secara jujur

@@ -35,7 +35,7 @@ Lessons:
 
 Mini Project: Analisis 1 PR review nyata (bisa dari open-source) — identifikasi mana feedback yang efektif, mana yang sekadar nitpick.
 
-Status: In Progress
+Status: Not Started
 
 ---
 
@@ -197,8 +197,8 @@ Module Completion: 0/9
 
 Overall Completion: 0%
 
-Current Module: Module 1 — Foundations & Review Mindset
+Current Module: menunggu approval
 
-Current Lesson: Lesson 3 — Psychological safety & blameless culture dalam review
+Current Lesson: -
 
-Next Lesson: Module 1 Mini Project — Analisis 1 PR review nyata
+Next Lesson: Lesson 1 — Tujuan sebenarnya dari code review (defect prevention, knowledge sharing, konsistensi, mentoring)

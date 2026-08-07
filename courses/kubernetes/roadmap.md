@@ -57,7 +57,7 @@ Lessons:
 
 Mini Project: Dockerize aplikasi Spring Boot + Postgres, image kecil dan aman.
 
-Status: In Progress — Lesson 1.1
+Status: Not started
 
 ---
 
@@ -207,8 +207,8 @@ Module Completion: 0/8
 
 Overall Completion: 0%
 
-Current Module: Module 1 — Docker Fundamentals
+Current Module: menunggu approval
 
-Current Lesson: 1.1 Container vs VM, arsitektur Docker Engine
+Current Lesson: -
 
-Next Lesson: 1.2 Docker CLI dasar & lifecycle container
+Next Lesson: 1.1 Container vs VM, arsitektur Docker Engine
