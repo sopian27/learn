@@ -37,3 +37,6 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `korean` — see `domains/korean/DOMAIN.md`. Active course: `courses/korean/roadmap.md` (approved 2026-08-07).
 - `cryptocurrency` — see `domains/cryptocurrency/DOMAIN.md`. Active course: `courses/cryptocurrency/roadmap.md` (approved 2026-08-07).
 - `conspiracy-theories` — see `domains/conspiracy-theories/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
+- `japanese` — see `domains/japanese/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
+- `stoicism` — see `domains/stoicism/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
+- `pornography-recovery` — see `domains/pornography-recovery/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused; course roadmap built at user's request — see `courses/pornography-recovery/roadmap.md`.
