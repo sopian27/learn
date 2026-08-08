@@ -40,3 +40,4 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `japanese` — see `domains/japanese/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
 - `stoicism` — see `domains/stoicism/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
 - `pornography-recovery` — see `domains/pornography-recovery/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused; course roadmap built at user's request — see `courses/pornography-recovery/roadmap.md`.
+- `english` — see `domains/english/DOMAIN.md` (domain pack + course roadmap approved 2026-08-08). Registered paused, course roadmap ready — see `courses/english/roadmap.md`.
