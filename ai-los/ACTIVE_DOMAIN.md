@@ -30,6 +30,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 - `korean` — Manifest: `domains/korean/DOMAIN.md`. Course: `courses/korean/roadmap.md`.
 - `cryptocurrency` — Manifest: `domains/cryptocurrency/DOMAIN.md`. Course: `courses/cryptocurrency/roadmap.md`.
 - `conspiracy-theories` — registered 2026-08-08, domain pack approved. Manifest: `domains/conspiracy-theories/DOMAIN.md`. No course roadmap yet — user chose to register paused first; build `courses/conspiracy-theories/roadmap.md` (with approval before Lesson 1, per `ai-los/COURSE_CREATION.md`) when this domain is activated.
+- `japanese` — registered 2026-08-08, domain pack approved. Manifest: `domains/japanese/DOMAIN.md`. Bahasa Jepang dari 0 sampai Expert, dikalibrasi ke JLPT N5-N1 (pola sejajar dengan `korean`). No course roadmap yet — user chose to register paused first (konsisten dengan narrowing 2026-08-07); build `courses/japanese/roadmap.md` (dengan riset + approval sebelum Lesson 1, per `ai-los/COURSE_CREATION.md`) saat domain ini diaktifkan.
 
 ---
 
