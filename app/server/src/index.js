@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import { fileURLToPath } from 'node:url';
 import { PORT } from './config.js';
 
 export function createApp() {
@@ -14,7 +15,7 @@ export function createApp() {
   return app;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const app = createApp();
   app.listen(PORT, () => {
     console.log(`learning-os-server listening on http://localhost:${PORT}`);
