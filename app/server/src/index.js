@@ -7,6 +7,7 @@ import { createSubmissionsRouter } from './routes/submissions.js';
 import { createReviewsRouter } from './routes/reviews.js';
 import { createProgressRouter } from './routes/progress.js';
 import { createCoursesRouter } from './routes/courses.js';
+import { createMentorRouter } from './routes/mentor.js';
 
 export function createApp() {
   const app = express();
@@ -22,6 +23,7 @@ export function createApp() {
   app.use('/api/courses', createReviewsRouter(LEARN_ROOT));
   app.use('/api/courses', createProgressRouter(LEARN_ROOT));
   app.use('/api/courses', createCoursesRouter(LEARN_ROOT));
+  app.use('/api', createMentorRouter(LEARN_ROOT));
 
   return app;
 }
