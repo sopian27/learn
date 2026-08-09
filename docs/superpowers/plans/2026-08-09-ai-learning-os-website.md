@@ -1773,18 +1773,23 @@ export default function Review() {
 
   useEffect(() => {
     let cancelled = false;
+    let interval;
 
     async function poll() {
+      if (cancelled) return;
       try {
         const result = await getReview(COURSE, slug);
-        if (!cancelled) setReview(result);
+        if (!cancelled) {
+          setReview(result);
+          clearInterval(interval);
+        }
       } catch (err) {
         if (!err.pending) throw err;
       }
     }
 
     poll();
-    const interval = setInterval(poll, 3000);
+    interval = setInterval(poll, 3000);
 
     return () => {
       cancelled = true;
@@ -1804,24 +1809,7 @@ export default function Review() {
 }
 ```
 
-Note: the effect must stop calling `getReview` again once `review` is set — since `slug` doesn't change after mount and `setReview` triggers a re-render but not a re-run of this effect (dependency is only `[slug]`), the `setInterval` would otherwise keep firing after success. Add a guard:
-
-```jsx
-    async function poll() {
-      if (cancelled) return;
-      try {
-        const result = await getReview(COURSE, slug);
-        if (!cancelled) {
-          setReview(result);
-          clearInterval(interval);
-        }
-      } catch (err) {
-        if (!err.pending) throw err;
-      }
-    }
-```
-
-(This requires declaring `let interval;` before `poll` and assigning `interval = setInterval(poll, 3000);` after — reorder the function body accordingly so `interval` is in scope inside `poll`.)
+`interval` is declared with `let` before `poll` so the closure can see it, and assigned via `setInterval` right after the first synchronous `poll()` call — by the time that first call's `await` resolves (a microtask, always after the current synchronous code finishes), `interval` already holds a real id, so `clearInterval(interval)` on success works correctly even for the very first poll.
 
 - [ ] **Step 4: Run test to verify it passes**
 
