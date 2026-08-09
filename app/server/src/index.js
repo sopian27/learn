@@ -5,6 +5,7 @@ import { PORT, LEARN_ROOT } from './config.js';
 import { createLessonsRouter } from './routes/lessons.js';
 import { createSubmissionsRouter } from './routes/submissions.js';
 import { createReviewsRouter } from './routes/reviews.js';
+import { createProgressRouter } from './routes/progress.js';
 import { createCoursesRouter } from './routes/courses.js';
 
 export function createApp() {
@@ -19,6 +20,7 @@ export function createApp() {
   app.use('/api/courses', createLessonsRouter(LEARN_ROOT));
   app.use('/api/courses', createSubmissionsRouter(LEARN_ROOT));
   app.use('/api/courses', createReviewsRouter(LEARN_ROOT));
+  app.use('/api/courses', createProgressRouter(LEARN_ROOT));
   app.use('/api/courses', createCoursesRouter(LEARN_ROOT));
 
   return app;
