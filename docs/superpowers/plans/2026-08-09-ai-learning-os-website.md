@@ -1080,17 +1080,29 @@ export function createProgressRouter(learnRoot) {
   router.get('/:course/progress', (req, res) => {
     const { course } = req.params;
 
-    const progressPath = resolveSafe(learnRoot, path.join('progress', 'progress.md'));
-    const progress = fs.existsSync(progressPath)
-      ? fs.readFileSync(progressPath, 'utf8')
-      : '';
+    let progress = '';
+    try {
+      const progressPath = resolveSafe(learnRoot, path.join('progress', 'progress.md'));
+      if (fs.existsSync(progressPath)) {
+        progress = fs.readFileSync(progressPath, 'utf8');
+      }
+    } catch {
+      // resolveSafe rejection or read failure — degrade to empty progress
+      // rather than erroring; this route never fails the client.
+    }
 
-    const skillsPath = resolveSafe(learnRoot, path.join('progress', course, 'skills.yml'));
-    // js-yaml's load() uses DEFAULT_SCHEMA and is safe by default (unlike
-    // PyYAML's load()) — it cannot construct arbitrary types.
-    const skills = fs.existsSync(skillsPath)
-      ? yaml.load(fs.readFileSync(skillsPath, 'utf8')) ?? {}
-      : {};
+    let skills = {};
+    try {
+      const skillsPath = resolveSafe(learnRoot, path.join('progress', course, 'skills.yml'));
+      if (fs.existsSync(skillsPath)) {
+        // js-yaml's load() uses DEFAULT_SCHEMA and is safe by default (unlike
+        // PyYAML's load()) — it cannot construct arbitrary types.
+        skills = yaml.load(fs.readFileSync(skillsPath, 'utf8')) ?? {};
+      }
+    } catch {
+      // resolveSafe rejection or malformed YAML — degrade to an empty skills
+      // map rather than erroring; a corrupt local file shouldn't 500 the route.
+    }
 
     res.json({ progress, skills });
   });
