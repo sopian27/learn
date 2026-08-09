@@ -753,6 +753,38 @@ test('GET review returns the review once the file exists', async () => {
   assert.equal(res.body.data.score, 85);
   assert.match(res.body.content, /Good use of hooks/);
 });
+
+test('GET review does not match a different slug that shares a hyphenated suffix', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  writeMarkdown(
+    path.join(root, 'reviews/mastering-claude/2026-08-09-custom-hooks-review.md'),
+    { data: { score: 70 }, content: 'Review for the custom-hooks lesson.' }
+  );
+
+  const res = await request(buildApp(root)).get(
+    '/api/courses/mastering-claude/reviews/hooks'
+  );
+  assert.equal(res.status, 404);
+  assert.equal(res.body.pending, true);
+});
+
+test('GET review returns the latest when multiple reviews exist for the same slug', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  writeMarkdown(
+    path.join(root, 'reviews/mastering-claude/2026-08-07-hooks-review.md'),
+    { data: { score: 60 }, content: 'Older review.' }
+  );
+  writeMarkdown(
+    path.join(root, 'reviews/mastering-claude/2026-08-09-hooks-review.md'),
+    { data: { score: 90 }, content: 'Newer review.' }
+  );
+
+  const res = await request(buildApp(root)).get(
+    '/api/courses/mastering-claude/reviews/hooks'
+  );
+  assert.equal(res.status, 200);
+  assert.equal(res.body.data.score, 90);
+});
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -779,14 +811,20 @@ export function createReviewsRouter(learnRoot) {
     try {
       const dirAbsPath = resolveSafe(learnRoot, dirRelPath);
       const entries = fs.existsSync(dirAbsPath) ? fs.readdirSync(dirAbsPath) : [];
-      const match = entries.find((f) => f.endsWith(`-${slug}-review.md`));
+      const SUFFIX = '-review.md';
+      const DATE_PREFIX_LENGTH = 11; // 'YYYY-MM-DD-'
+      const matches = entries.filter((f) => {
+        if (!f.endsWith(SUFFIX)) return false;
+        return f.slice(0, -SUFFIX.length).slice(DATE_PREFIX_LENGTH) === slug;
+      });
 
-      if (!match) {
+      if (matches.length === 0) {
         res.status(404).json({ pending: true });
         return;
       }
 
-      const { data, content } = readMarkdown(path.join(dirAbsPath, match));
+      const latest = matches.sort().at(-1);
+      const { data, content } = readMarkdown(path.join(dirAbsPath, latest));
       res.json({ data, content });
     } catch (err) {
       res.status(400).json({ error: err.message });
