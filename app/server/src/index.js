@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import { fileURLToPath } from 'node:url';
-import { PORT } from './config.js';
+import { PORT, LEARN_ROOT } from './config.js';
+import { createLessonsRouter } from './routes/lessons.js';
 
 export function createApp() {
   const app = express();
@@ -11,6 +12,8 @@ export function createApp() {
   app.get('/api/health', (req, res) => {
     res.json({ status: 'ok' });
   });
+
+  app.use('/api/courses', createLessonsRouter(LEARN_ROOT));
 
   return app;
 }
