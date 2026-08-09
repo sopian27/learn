@@ -6,7 +6,7 @@ import path from 'node:path';
 import { readMarkdown, writeMarkdown } from '../../src/lib/markdown.js';
 
 test('readMarkdown parses frontmatter and content', () => {
-  const fixture = path.resolve('test/fixtures/mastering-claude/modules/01-fondasi/lesson.md');
+  const fixture = path.resolve('test/fixtures/courses/mastering-claude/modules/01-fondasi/lesson.md');
   const { data, content } = readMarkdown(fixture);
   assert.equal(data.title, 'Fondasi Mental Model & Prompting');
   assert.equal(data.order, 1);
