@@ -139,6 +139,10 @@ Atas permintaan user "ajarkan saya course berikut dari 0 sampai expert" untuk 15
 
 Semua 8 course baru + 3 proposed extension module di atas **menunggu approval user** sebelum ada yang mulai Lesson 1, sesuai `ai-los/COURSE_CREATION.md`. Tidak ada yang otomatis jadi "Course Aktif" ketiga — tetap 2 sesuai kebijakan hemat-token.
 
+## 2026-08-09 — Football Tactical Analysis
+
+* **Football Tactical Analysis — dari Penonton Biasa sampai Membaca Taktik Setara Analyst** — `courses/football-tactics/roadmap.md` (approved 2026-08-09, atas permintaan user "ingin berkembang jadi seseorang yang bisa membaca struktur permainan sepak bola, membedah taktik, dan memberi kritik tajam tapi masuk akal seperti analyst/coach") — Domain baru non-SWE: `domains/football-tactics/DOMAIN.md` (approved 2026-08-09, registered paused di `ai-los/ACTIVE_DOMAIN.md`). Kalibrasi user: mode analisis memakai pertandingan terkenal yang sudah terdokumentasi luas (bukan nonton live bareng — mentor tidak bisa menonton video real-time), anchor liga Premier League, scope eksplisit TIDAK mencakup bermain bola/coaching drill, FIFA/eFootball, fantasy football, judi/taruhan bola. 9 modul: fondasi formasi vs shape aktual, peran taktik tiap pemain, struktur menyerang (build-up/progression/chance creation), struktur bertahan (shape/pressing/transisi), membaca perubahan taktik live (substitusi/momentum), **diagnosis sistem-vs-eksekusi & taktik-vs-eksekusi (Module 6, skill inti utama yang diminta user)**, profil taktik tim & head-to-head, menyusun kritik & saran realistis, capstone Match Tactical Report kualitas portofolio. Status: **Approved 2026-08-09, Not Started** — user memilih approve roadmap tapi paused dulu (mengikuti kebijakan hemat-token "Course Aktif" dibatasi 2), lanjut kapan saja atas permintaan "lanjut course Football Tactical Analysis".
+
 # Course Belum Dibuat (gap dari Master Goal)
 
 * Freelance & International Career Readiness — belum ada folder `courses/`, lihat Gap Analysis di atas — bisa mulai paralel begitu ada portofolio awal

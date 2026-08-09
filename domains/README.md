@@ -48,3 +48,5 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `content-creation` — see `domains/content-creation/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/content-creation/roadmap.md`.
 - `affiliate-marketing` — see `domains/affiliate-marketing/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/affiliate-marketing/roadmap.md`.
 - `media-literacy` — see `domains/media-literacy/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/media-literacy/roadmap.md`.
+- `vocal-coaching` — see `domains/vocal-coaching/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/vocal-coaching/roadmap.md`.
+- `football-tactics` — see `domains/football-tactics/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/football-tactics/roadmap.md`.
