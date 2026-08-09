@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { PORT, LEARN_ROOT } from './config.js';
 import { createLessonsRouter } from './routes/lessons.js';
 import { createSubmissionsRouter } from './routes/submissions.js';
+import { createReviewsRouter } from './routes/reviews.js';
 
 export function createApp() {
   const app = express();
@@ -16,6 +17,7 @@ export function createApp() {
 
   app.use('/api/courses', createLessonsRouter(LEARN_ROOT));
   app.use('/api/courses', createSubmissionsRouter(LEARN_ROOT));
+  app.use('/api/courses', createReviewsRouter(LEARN_ROOT));
 
   return app;
 }

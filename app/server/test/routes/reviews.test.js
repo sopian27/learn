@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import express from 'express';
+import request from 'supertest';
+import { createReviewsRouter } from '../../src/routes/reviews.js';
+import { writeMarkdown } from '../../src/lib/markdown.js';
+
+function buildApp(root) {
+  const app = express();
+  app.use('/api/courses', createReviewsRouter(root));
+  return app;
+}
+
+test('GET review returns pending 404 when file does not exist', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  const res = await request(buildApp(root)).get(
+    '/api/courses/mastering-claude/reviews/hooks'
+  );
+  assert.equal(res.status, 404);
+  assert.equal(res.body.pending, true);
+});
+
+test('GET review returns the review once the file exists', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  writeMarkdown(
+    path.join(root, 'reviews/mastering-claude/2026-08-09-hooks-review.md'),
+    { data: { score: 85, submission_ref: 'submissions/mastering-claude/2026-08-09-hooks.md' },
+      content: '## Strength\n\nGood use of hooks.' }
+  );
+
+  const res = await request(buildApp(root)).get(
+    '/api/courses/mastering-claude/reviews/hooks'
+  );
+  assert.equal(res.status, 200);
+  assert.equal(res.body.data.score, 85);
+  assert.match(res.body.content, /Good use of hooks/);
+});
