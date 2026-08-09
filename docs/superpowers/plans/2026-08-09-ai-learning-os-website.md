@@ -95,7 +95,7 @@ Content generation for the real `courses/mastering-claude/modules/03-.../{lesson
   "scripts": {
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
-    "test": "node --test test/**/*.test.js"
+    "test": "node --test test/"
   },
   "dependencies": {
     "express": "^4.19.2",
@@ -154,6 +154,7 @@ Expected: FAIL — `createApp` is not exported / module not found.
 ```js
 import express from 'express';
 import cors from 'cors';
+import { fileURLToPath } from 'node:url';
 import { PORT } from './config.js';
 
 export function createApp() {
@@ -168,13 +169,15 @@ export function createApp() {
   return app;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const app = createApp();
   app.listen(PORT, () => {
     console.log(`learning-os-server listening on http://localhost:${PORT}`);
   });
 }
 ```
+
+(`fileURLToPath` normalizes `import.meta.url` to a platform-native path before comparing against `process.argv[1]` — the naive `import.meta.url === \`file://${process.argv[1]}\`` string comparison never matches on Windows, where paths use backslashes and `import.meta.url` is percent-encoded.)
 
 - [ ] **Step 7: Run test to verify it passes**
 
