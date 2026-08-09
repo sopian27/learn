@@ -209,6 +209,27 @@ Status: Not started
 
 ---
 
+## Module 1.5 — Psychology of Money (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-09 atas permintaan "ajarkan saya Psychology of Money dari 0 sampai expert" — dipetakan sebagai perluasan domain `personal-finance` (bukan domain baru), karena isinya murni psikologi & perilaku uang, bukan mekanika finansial teknis baru. Module 1 di atas sudah menyentuh bias psikologis umum (loss aversion, lifestyle inflation, mental accounting) secara singkat di Lesson 1.3 — modul ini memperdalam khusus lewat kerangka buku *The Psychology of Money* (Morgan Housel), yang punya beberapa tesis unik yang belum tercakup di Module 1. **Belum masuk hitungan progress course** sampai disetujui — penomoran "1.5" menandakan posisi logis (setelah Module 1 fondasi, sebelum Module 2 budgeting) tapi urutan final/apakah di-renumber ditentukan user saat approval.
+
+Description: Kenapa dua orang dengan pengetahuan finansial identik bisa mengambil keputusan uang yang sangat berbeda — karena mengelola uang lebih banyak soal perilaku daripada matematika. Melengkapi (bukan mengulang) Module 1: Module 1 mengenalkan istilah bias, modul ini membangun kerangka utuh soal *kenapa* orang rasional bisa berperilaku tidak rasional soal uang, dan bagaimana mendesain keputuran finansial di sekitar kelemahan itu alih-alih melawannya.
+
+Lessons:
+
+* [ ] 1.5.1 "Reasonable > Rational" — keputusan finansial yang bisa Anda pertahankan secara emosional jangka panjang mengalahkan keputusan yang optimal secara matematis tapi tidak tertahankan
+* [ ] 1.5.2 Risiko ekor (tail events) & "Man in the Car Paradox" — mayoritas hasil finansial (baik & buruk) didorong sebagian kecil kejadian ekstrem, bukan rata-rata; kenapa flexing kekayaan justru sinyal yang salah dibaca orang lain
+* [ ] 1.5.3 "Room for Error" sebagai strategi, bukan tanda kurang percaya diri — margin of safety dalam keputusan finansial personal, beda dari analisis risk-return standar Module 6
+* [ ] 1.5.4 Menabung tanpa harus punya alasan spesifik, dan "kebebasan" (freedom/otonomi waktu) sebagai dividen tertinggi yang dibayar uang — dikontraskan dengan mengejar status/flexing
+
+Mini Project: Tulis refleksi 1 halaman yang mengaudit satu keputusan finansial masa lalu (baik atau buruk hasilnya) lewat lensa "reasonable vs rational" dan "room for error" — apakah keputusan itu didorong matematika murni atau daya tahan emosional, dan apa yang akan diubah dengan kerangka ini.
+
+Referensi riset: *The Psychology of Money* — Morgan Housel (2020), disilangkan ke sumber akademik domain ini (Bogleheads, CFP Board topic list) sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" — buku ini sumber sintesis/naratif, bukan riset primer, jadi setiap klaim di modul ini diperiksa tidak bertentangan dengan sumber 1-3 domain tersebut.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 11 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 11 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").

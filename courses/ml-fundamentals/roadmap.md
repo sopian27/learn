@@ -214,6 +214,29 @@ Status: Not Started
 
 ---
 
+## Module 11 — MLOps in Practice (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-09 sebagai hasil kalibrasi atas permintaan "ajarkan saya MLOps dari 0 sampai expert" — daripada membuat course terpisah `courses/mlops`, user memilih memperluas course ini karena Module 10 di atas sudah menyentuh MLOps sebagai *peta konsep* ("tidak dipraktikkan mendalam"). Modul ini adalah versi hands-on yang sebelumnya sengaja dilewati. **Belum masuk hitungan progress course** sampai disetujui — kalau disetujui, modul ini logically ditempatkan setelah Module 10 (sebelum "Enterprise Project"), atau capstone Module 10 diperluas untuk memasukkan sebagian isinya. Prioritas & posisi final ditentukan user.
+
+Description: Membawa model dari "berhasil di notebook" ke sistem production yang bisa dipercaya, diulang, dan dipantau — disiplin yang membedakan ML Engineer dari Data Scientist yang cuma bisa `model.fit()`. Sengaja tidak mengulang `courses/cloud-devops-foundations` (CI/CD & IaC generik sudah diajarkan di sana, dirujuk balik bukan diulang) maupun `courses/ci-cd` (pipeline GitLab CI generik) — modul ini fokus pada apa yang *spesifik-ML* dalam CI/CD: data/model versioning, continuous training, dan model monitoring, yang tidak ada padanannya di software delivery biasa.
+
+Lessons:
+
+* [ ] 11.1 Prinsip MLOps: kenapa "CI/CD software biasa" tidak cukup untuk ML — tiga lapisan tambahan (data, model, code) yang harus divalidasi bersama, berbasis kerangka Google Cloud "MLOps: Continuous delivery and automation pipelines in Machine Learning" (level 0/1/2 MLOps maturity)
+* [ ] 11.2 Experiment tracking & model registry dengan MLflow — mencatat parameter/metric/artifact tiap eksperimen, versioning model, promosi model dari staging ke production
+* [ ] 11.3 Data & pipeline versioning: DVC (Data Version Control) secukupnya untuk reproduksibilitas — kenapa `git` saja tidak cukup untuk dataset besar
+* [ ] 11.4 Continuous Training (CT): trigger retraining otomatis (jadwal vs data-drift-triggered), orkestrasi pipeline (overview Airflow/Kubeflow Pipelines — cukup untuk paham perannya, tidak mendalam seperti course orkestrasi khusus)
+* [ ] 11.5 Model monitoring & drift detection di production: data drift vs concept drift, metric yang dipantau (prediction distribution, feature distribution, performance decay), alerting (menyambung ke prinsip SLI/SLO `courses/cloud-devops-foundations` Module 6, tidak mengulang)
+* [ ] 11.6 Deployment pattern khusus ML: shadow deployment, canary untuk model, A/B test model lama vs baru, rollback berbasis metric bisnis bukan cuma error rate
+
+Mini Project: Setup MLflow tracking untuk model dari Module 5/6 (eksperimen dicatat, model terbaik di-registry), plus simulasi monitoring drift sederhana (bandingkan distribusi data training vs data "production" sintetis, picu alert kalau bergeser signifikan).
+
+Referensi riset: [Google Cloud — "MLOps: Continuous delivery and automation pipelines in machine learning"](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning) (kerangka maturity level, dipakai sebagai struktur modul ini), [MLflow official documentation](https://mlflow.org/docs/latest/index.html) (tracking, model registry), [DVC official documentation](https://dvc.org/doc).
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Enterprise Project
 
 Description: **Full ML Project Simulation** — pilih 1 masalah nyata (mis. prediksi churn pelanggan, deteksi fraud, atau klasifikasi gambar) dan selesaikan end-to-end: (1) EDA & data cleaning, (2) minimal 2 model dibandingkan (satu classical ML dari Module 5/6, satu deep learning dari Module 8/9), (3) evaluasi rigorous dengan metric yang tepat, (4) deployment dasar sebagai API (FastAPI/Flask + Docker), (5) 1 halaman "Model Card" yang menjelaskan trade-off, limitasi, dan asumsi model.

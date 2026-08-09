@@ -41,3 +41,7 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `stoicism` — see `domains/stoicism/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused, no course roadmap yet.
 - `pornography-recovery` — see `domains/pornography-recovery/DOMAIN.md` (domain pack approved 2026-08-08). Registered paused; course roadmap built at user's request — see `courses/pornography-recovery/roadmap.md`.
 - `english` — see `domains/english/DOMAIN.md` (domain pack + course roadmap approved 2026-08-08). Registered paused, course roadmap ready — see `courses/english/roadmap.md`.
+- `geospatial-technology` — see `domains/geospatial-technology/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/geospatial-technology/roadmap.md`.
+- `physics-for-software-engineers` — see `domains/physics-for-software-engineers/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/physics-for-software-engineers/roadmap.md`.
+- `relativity` — see `domains/relativity/DOMAIN.md` (domain pack existed since 2026-08-08, registry entry corrected 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/relativity/roadmap.md`.
+- `intelligence-studies` — see `domains/intelligence-studies/DOMAIN.md` (domain pack existed since 2026-08-08, registry entry corrected 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/intelligence-studies/roadmap.md`.
