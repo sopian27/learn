@@ -14,14 +14,20 @@ export function createReviewsRouter(learnRoot) {
     try {
       const dirAbsPath = resolveSafe(learnRoot, dirRelPath);
       const entries = fs.existsSync(dirAbsPath) ? fs.readdirSync(dirAbsPath) : [];
-      const match = entries.find((f) => f.endsWith(`-${slug}-review.md`));
+      const SUFFIX = '-review.md';
+      const DATE_PREFIX_LENGTH = 11; // 'YYYY-MM-DD-'
+      const matches = entries.filter((f) => {
+        if (!f.endsWith(SUFFIX)) return false;
+        return f.slice(0, -SUFFIX.length).slice(DATE_PREFIX_LENGTH) === slug;
+      });
 
-      if (!match) {
+      if (matches.length === 0) {
         res.status(404).json({ pending: true });
         return;
       }
 
-      const { data, content } = readMarkdown(path.join(dirAbsPath, match));
+      const latest = matches.sort().at(-1);
+      const { data, content } = readMarkdown(path.join(dirAbsPath, latest));
       res.json({ data, content });
     } catch (err) {
       res.status(400).json({ error: err.message });
