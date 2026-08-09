@@ -43,7 +43,7 @@ app/
         progress.js                 # Task 8
         mentor.js                   # Task 9
     test/
-      fixtures/mastering-claude/... # shared test fixture course tree (Task 2)
+      fixtures/courses/mastering-claude/... # shared test fixture course tree (Task 2)
       lib/fsPaths.test.js
       lib/markdown.test.js
       routes/lessons.test.js
@@ -198,14 +198,14 @@ git commit -m "feat(server): scaffold Express app with health endpoint"
 **Files:**
 - Create: `app/server/src/lib/fsPaths.js`
 - Create: `app/server/test/lib/fsPaths.test.js`
-- Create: `app/server/test/fixtures/mastering-claude/roadmap.md`
-- Create: `app/server/test/fixtures/mastering-claude/modules/01-fondasi/lesson.md`
-- Create: `app/server/test/fixtures/mastering-claude/modules/01-fondasi/exercise.md`
-- Create: `app/server/test/fixtures/mastering-claude/modules/01-fondasi/rubric.md`
+- Create: `app/server/test/fixtures/courses/mastering-claude/roadmap.md`
+- Create: `app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/lesson.md`
+- Create: `app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/exercise.md`
+- Create: `app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/rubric.md`
 
 **Interfaces:**
 - Consumes: nothing from earlier tasks.
-- Produces: `resolveSafe(root, relativePath)` — `(string, string) => string`, returns an absolute path, throws `Error('Path escapes root: <relativePath>')` if the resolved path is not inside `root`. All later route files import this from `../lib/fsPaths.js`. The fixture tree at `test/fixtures/mastering-claude/` is the `LEARN_ROOT`-relative course tree every later route test points its `LEARN_ROOT` at (via `path.join(__dirname, '../fixtures')`).
+- Produces: `resolveSafe(root, relativePath)` — `(string, string) => string`, returns an absolute path, throws `Error('Path escapes root: <relativePath>')` if the resolved path is not inside `root`. All later route files import this from `../lib/fsPaths.js`. The fixture tree at `test/fixtures/` mimics the shape of the real `LEARN_ROOT` (repo root) — course content sits under a `courses/` subdirectory, exactly as it does in the real repo, so route code that always does `path.join('courses', course, ...)` resolves correctly against it. Every later route test that exercises course/lesson/module paths points its `learnRoot` argument at `path.join(__dirname, '../fixtures')` and expects the tree at `test/fixtures/courses/mastering-claude/`.
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -269,14 +269,14 @@ Expected: PASS
 - [ ] **Step 5: Create fixture course tree**
 
 ```markdown
-<!-- app/server/test/fixtures/mastering-claude/roadmap.md -->
+<!-- app/server/test/fixtures/courses/mastering-claude/roadmap.md -->
 # Mastering Claude — Roadmap
 
 Fixture roadmap for tests.
 ```
 
 ```markdown
-<!-- app/server/test/fixtures/mastering-claude/modules/01-fondasi/lesson.md -->
+<!-- app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/lesson.md -->
 ---
 title: Fondasi Mental Model & Prompting
 module: "Module 1 — Fondasi"
@@ -294,7 +294,7 @@ Fixture theory content.
 ```
 
 ```markdown
-<!-- app/server/test/fixtures/mastering-claude/modules/01-fondasi/exercise.md -->
+<!-- app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/exercise.md -->
 # Exercise
 
 ## Title
@@ -307,7 +307,7 @@ Fixture Exercise
 ```
 
 ```yaml
-# app/server/test/fixtures/mastering-claude/modules/01-fondasi/rubric.md
+# app/server/test/fixtures/courses/mastering-claude/modules/01-fondasi/rubric.md
 ---
 criteria:
   - name: Correctness
@@ -349,7 +349,7 @@ import path from 'node:path';
 import { readMarkdown, writeMarkdown } from '../../src/lib/markdown.js';
 
 test('readMarkdown parses frontmatter and content', () => {
-  const fixture = path.resolve('test/fixtures/mastering-claude/modules/01-fondasi/lesson.md');
+  const fixture = path.resolve('test/fixtures/courses/mastering-claude/modules/01-fondasi/lesson.md');
   const { data, content } = readMarkdown(fixture);
   assert.equal(data.title, 'Fondasi Mental Model & Prompting');
   assert.equal(data.order, 1);
@@ -788,7 +788,7 @@ git commit -m "feat(server): add review lookup route with pending state"
 - Create: `app/server/src/routes/courses.js`
 - Create: `app/server/test/routes/courses.test.js`
 - Modify: `app/server/src/index.js` (mount route)
-- Create: `app/server/test/fixtures/mastering-claude/modules/02-token-economy/lesson.md` (second fixture module, needed to test ordering)
+- Create: `app/server/test/fixtures/courses/mastering-claude/modules/02-token-economy/lesson.md` (second fixture module, needed to test ordering)
 
 **Interfaces:**
 - Consumes: `resolveSafe`, `readMarkdown`.
@@ -797,7 +797,7 @@ git commit -m "feat(server): add review lookup route with pending state"
 - [ ] **Step 1: Add second fixture module**
 
 ```markdown
-<!-- app/server/test/fixtures/mastering-claude/modules/02-token-economy/lesson.md -->
+<!-- app/server/test/fixtures/courses/mastering-claude/modules/02-token-economy/lesson.md -->
 ---
 title: Token Economy Claude Code
 module: "Module 2 — Token Economy"
@@ -913,7 +913,7 @@ import { createCoursesRouter } from './routes/courses.js';
 - [ ] **Step 7: Commit**
 
 ```bash
-git add app/server/src/routes/courses.js app/server/test/routes/courses.test.js app/server/test/fixtures/mastering-claude/modules/02-token-economy app/server/src/index.js
+git add app/server/src/routes/courses.js app/server/test/routes/courses.test.js app/server/test/fixtures/courses/mastering-claude/modules/02-token-economy app/server/src/index.js
 git commit -m "feat(server): add course summary route with module listing"
 ```
 
