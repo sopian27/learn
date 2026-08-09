@@ -22,6 +22,13 @@ export function createSubmissionsRouter(learnRoot) {
 
     try {
       const absPath = resolveSafe(learnRoot, relPath);
+      const expectedDir = resolveSafe(learnRoot, path.join('submissions', course));
+
+      if (path.dirname(absPath) !== expectedDir) {
+        res.status(400).json({ error: 'slug/date must not contain path separators' });
+        return;
+      }
+
       const data = { lesson, module, date: submissionDate, status: 'pending' };
       writeMarkdown(absPath, { data, content });
       res.status(201).json({ path: relPath, data });

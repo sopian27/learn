@@ -49,3 +49,32 @@ test('POST submission defaults date to today when omitted', async () => {
   assert.equal(res.status, 201);
   assert.equal(res.body.data.date, today);
 });
+
+test('POST submission returns 400 when a required field is missing', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+
+  const res = await request(buildApp(root))
+    .post('/api/courses/mastering-claude/submissions')
+    .send({ lesson: 'L', module: 'M', content: 'C' }); // slug missing
+
+  assert.equal(res.status, 400);
+});
+
+test('POST submission rejects a slug that attempts path traversal', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+
+  const res = await request(buildApp(root))
+    .post('/api/courses/mastering-claude/submissions')
+    .send({
+      slug: '../../../../courses/mastering-claude/modules/foo/lesson',
+      lesson: 'L',
+      module: 'M',
+      content: 'malicious overwrite attempt',
+    });
+
+  assert.equal(res.status, 400);
+  assert.equal(
+    fs.existsSync(path.join(root, 'courses/mastering-claude/modules/foo/lesson.md')),
+    false
+  );
+});
