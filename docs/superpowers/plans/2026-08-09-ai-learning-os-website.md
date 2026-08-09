@@ -591,6 +591,35 @@ test('POST submission defaults date to today when omitted', async () => {
   assert.equal(res.status, 201);
   assert.equal(res.body.data.date, today);
 });
+
+test('POST submission returns 400 when a required field is missing', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+
+  const res = await request(buildApp(root))
+    .post('/api/courses/mastering-claude/submissions')
+    .send({ lesson: 'L', module: 'M', content: 'C' }); // slug missing
+
+  assert.equal(res.status, 400);
+});
+
+test('POST submission rejects a slug that attempts path traversal', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+
+  const res = await request(buildApp(root))
+    .post('/api/courses/mastering-claude/submissions')
+    .send({
+      slug: '../../../../courses/mastering-claude/modules/foo/lesson',
+      lesson: 'L',
+      module: 'M',
+      content: 'malicious overwrite attempt',
+    });
+
+  assert.equal(res.status, 400);
+  assert.equal(
+    fs.existsSync(path.join(root, 'courses/mastering-claude/modules/foo/lesson.md')),
+    false
+  );
+});
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -625,6 +654,13 @@ export function createSubmissionsRouter(learnRoot) {
 
     try {
       const absPath = resolveSafe(learnRoot, relPath);
+      const expectedDir = resolveSafe(learnRoot, path.join('submissions', course));
+
+      if (path.dirname(absPath) !== expectedDir) {
+        res.status(400).json({ error: 'slug/date must not contain path separators' });
+        return;
+      }
+
       const data = { lesson, module, date: submissionDate, status: 'pending' };
       writeMarkdown(absPath, { data, content });
       res.status(201).json({ path: relPath, data });
@@ -636,6 +672,8 @@ export function createSubmissionsRouter(learnRoot) {
   return router;
 }
 ```
+
+`resolveSafe` alone only guarantees the resolved path stays under `learnRoot` — it does not confine writes to `submissions/<course>/`. A `slug` or `date` containing `../` segments (e.g. `slug: '../../../../courses/mastering-claude/modules/foo/lesson'`) can normalize to a path elsewhere under `learnRoot` (like a real lesson file) and `resolveSafe` would allow it, since that path never escapes the root. The `path.dirname(absPath) !== expectedDir` check closes this: it verifies the resolved write target is a direct child of the expected `submissions/<course>/` directory, regardless of what characters `slug`/`date` contain — no regex allow-list to get subtly wrong.
 
 - [ ] **Step 4: Run test to verify it passes**
 
