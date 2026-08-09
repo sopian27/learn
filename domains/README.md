@@ -46,3 +46,4 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `relativity` — see `domains/relativity/DOMAIN.md` (domain pack existed since 2026-08-08, registry entry corrected 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/relativity/roadmap.md`.
 - `intelligence-studies` — see `domains/intelligence-studies/DOMAIN.md` (domain pack existed since 2026-08-08, registry entry corrected 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/intelligence-studies/roadmap.md`.
 - `content-creation` — see `domains/content-creation/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/content-creation/roadmap.md`.
+- `affiliate-marketing` — see `domains/affiliate-marketing/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/affiliate-marketing/roadmap.md`.
