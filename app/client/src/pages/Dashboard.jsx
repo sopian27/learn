@@ -6,12 +6,14 @@ import { COURSE } from '../App.jsx';
 export default function Dashboard() {
   const [course, setCourse] = useState(null);
   const [progress, setProgress] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    getCourse(COURSE).then(setCourse);
-    getProgress(COURSE).then(setProgress);
+    getCourse(COURSE).then(setCourse).catch(setError);
+    getProgress(COURSE).then(setProgress).catch(setError);
   }, []);
 
+  if (error) return <p>Something went wrong loading the dashboard.</p>;
   if (!course || !progress) return <p>Loading…</p>;
 
   const nextModule = course.modules.find((m) => m.status !== 'completed');

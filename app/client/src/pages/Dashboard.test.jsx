@@ -30,3 +30,17 @@ test('Dashboard shows the first non-completed module and completion percentage',
   });
   expect(screen.getByText(/50%/)).toBeInTheDocument();
 });
+
+test('Dashboard shows an error message when fetching course data fails', async () => {
+  vi.spyOn(api, 'getCourse').mockRejectedValue(new Error('network error'));
+
+  render(
+    <MemoryRouter>
+      <Dashboard />
+    </MemoryRouter>
+  );
+
+  await waitFor(() => {
+    expect(screen.getByText(/something went wrong loading the dashboard/i)).toBeInTheDocument();
+  });
+});
