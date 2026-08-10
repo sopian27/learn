@@ -1,6 +1,7 @@
 import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
+import yaml from 'js-yaml';
 import { resolveSafe } from '../lib/fsPaths.js';
 
 function readIfExists(absPath) {
@@ -46,6 +47,21 @@ export function createMentorRouter(learnRoot) {
       // to no recent reviews rather than erroring.
     }
 
+    let skillsText = '';
+    try {
+      const skillsPath = resolveSafe(learnRoot, path.join('progress', course, 'skills.yml'));
+      if (fs.existsSync(skillsPath)) {
+        // js-yaml's load() uses DEFAULT_SCHEMA and is safe by default (unlike
+        // PyYAML's load()) — it cannot construct arbitrary types.
+        const skills = yaml.load(fs.readFileSync(skillsPath, 'utf8')) ?? {};
+        skillsText = Object.entries(skills)
+          .map(([name, value]) => `- ${name}: ${value}%`)
+          .join('\n');
+      }
+    } catch {
+      // resolveSafe rejection or malformed YAML — degrade to no skills data.
+    }
+
     const context = [
       '## Profile',
       profile,
@@ -53,6 +69,8 @@ export function createMentorRouter(learnRoot) {
       goals,
       '## Recent Reviews',
       recentReviews,
+      '## Skills',
+      skillsText,
     ].join('\n\n');
 
     res.json({ context });

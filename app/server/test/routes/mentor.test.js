@@ -19,4 +19,6 @@ test('GET mentor-context assembles profile, goals, reviews, and tolerates missin
   assert.match(res.body.context, /## Recent Reviews/);
   assert.match(res.body.context, /Good grasp of pre\/post tool call hooks/);
   assert.match(res.body.context, /## Profile/);
+  assert.match(res.body.context, /## Skills/);
+  assert.match(res.body.context, /functions: 90%/);
 });
