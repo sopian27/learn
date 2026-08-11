@@ -10,23 +10,33 @@ export default function Lesson() {
   const [lesson, setLesson] = useState(null);
   const [answer, setAnswer] = useState('');
   const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState(null);
+  const [submitError, setSubmitError] = useState(null);
 
   useEffect(() => {
-    getLesson(COURSE, moduleSlug).then(setLesson);
+    getLesson(COURSE, moduleSlug).then(setLesson).catch(setError);
   }, [moduleSlug]);
 
+  if (error) return <p>Something went wrong loading this lesson.</p>;
   if (!lesson) return <p>Loading…</p>;
 
   async function handleSubmit(e) {
     e.preventDefault();
     setSubmitting(true);
-    await postSubmission(COURSE, {
-      slug: moduleSlug,
-      lesson: lesson.data.title,
-      module: lesson.data.module,
-      content: answer,
-    });
-    navigate(`/review/${moduleSlug}`);
+    setSubmitError(null);
+    try {
+      await postSubmission(COURSE, {
+        slug: moduleSlug,
+        lesson: lesson.data.title,
+        module: lesson.data.module,
+        content: answer,
+      });
+      navigate(`/review/${moduleSlug}`);
+    } catch (err) {
+      setSubmitError(err);
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -43,6 +53,7 @@ export default function Lesson() {
         />
         <button type="submit" disabled={submitting}>Submit for Review</button>
       </form>
+      {submitError && <p>Something went wrong submitting your answer.</p>}
     </div>
   );
 }

@@ -41,3 +41,46 @@ test('Lesson renders content and submits an answer', async () => {
     content: 'My submission text',
   });
 });
+
+test('Lesson shows an error message when fetching the lesson fails', async () => {
+  vi.spyOn(api, 'getLesson').mockRejectedValue(new Error('network error'));
+
+  render(
+    <MemoryRouter initialEntries={['/lesson/02-hooks']}>
+      <Routes>
+        <Route path="/lesson/:moduleSlug" element={<Lesson />} />
+        <Route path="/review/:slug" element={<div>Review page</div>} />
+      </Routes>
+    </MemoryRouter>
+  );
+
+  await waitFor(() => {
+    expect(screen.getByText(/something went wrong loading this lesson/i)).toBeInTheDocument();
+  });
+});
+
+test('Lesson shows a submission error and re-enables submit when postSubmission fails', async () => {
+  vi.spyOn(api, 'postSubmission').mockRejectedValue(new Error('network error'));
+  const user = userEvent.setup();
+
+  render(
+    <MemoryRouter initialEntries={['/lesson/02-hooks']}>
+      <Routes>
+        <Route path="/lesson/:moduleSlug" element={<Lesson />} />
+        <Route path="/review/:slug" element={<div>Review page</div>} />
+      </Routes>
+    </MemoryRouter>
+  );
+
+  await waitFor(() => expect(screen.getByText('Hooks')).toBeInTheDocument());
+
+  await user.type(screen.getByLabelText(/your answer/i), 'My submission text');
+  const submitButton = screen.getByRole('button', { name: /submit for review/i });
+  await user.click(submitButton);
+
+  await waitFor(() => {
+    expect(screen.getByText(/something went wrong submitting your answer/i)).toBeInTheDocument();
+  });
+  expect(submitButton).not.toBeDisabled();
+  expect(screen.queryByText('Review page')).not.toBeInTheDocument();
+});
