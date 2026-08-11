@@ -11,7 +11,7 @@ import { createMentorRouter } from './routes/mentor.js';
 
 export function createApp() {
   const app = express();
-  app.use(cors());
+  app.use(cors({ origin: 'http://localhost:5173' }));
   app.use(express.json());
 
   app.get('/api/health', (req, res) => {
