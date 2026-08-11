@@ -41,3 +41,25 @@ test('Review page polls until the review is ready, then renders it', async () =>
   await waitFor(() => expect(screen.getByText(/Great work on hooks/)).toBeInTheDocument());
   expect(screen.getByText(/85/)).toBeInTheDocument();
 });
+
+test('Review page stops polling and shows an error on a non-pending failure', async () => {
+  const serverError = Object.assign(new Error('server error'), { status: 500 });
+  const getReview = vi.spyOn(api, 'getReview').mockRejectedValueOnce(serverError);
+
+  render(
+    <MemoryRouter initialEntries={['/review/02-hooks']}>
+      <Routes>
+        <Route path="/review/:slug" element={<Review />} />
+      </Routes>
+    </MemoryRouter>
+  );
+
+  expect(await screen.findByText(/something went wrong loading the review/i)).toBeInTheDocument();
+  const callCountAfterError = getReview.mock.calls.length;
+
+  await act(async () => {
+    vi.advanceTimersByTime(3000);
+  });
+
+  expect(getReview.mock.calls.length).toBe(callCountAfterError);
+});
