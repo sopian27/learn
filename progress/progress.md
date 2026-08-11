@@ -6,15 +6,15 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Module 3 — Claude Code Mendalam (menunggu approval user untuk mulai; Module 1-2 sudah selesai)
-Current Lesson: -
+Current Module: Module 3 — Claude Code Mendalam (In Progress; Module 1-2 sudah selesai)
+Current Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
 Course Completion: 2/8 module selesai (25%)
 
 | Module | Status |
 | ------ | ------ |
 | 1. Fondasi: Mental Model & Prompting | Selesai (2026-08-06) |
 | 2. Token Economy Claude Code | Selesai (2026-08-06) |
-| 3. Claude Code Mendalam | Not started — menunggu approval |
+| 3. Claude Code Mendalam | In Progress — Lesson 3.1 selesai (2026-08-07), lanjut 3.2 |
 | 4-8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
@@ -80,7 +80,7 @@ Revision Needed: -
 * Personal Finance — `courses/personal-finance/roadmap.md` — Module 1, Lesson 1.1
 * n8n Automation — `courses/n8n-automation/roadmap.md` — Module 1, Lesson 1.1
 * Communication Skills — `courses/communication-skills/roadmap.md` — Module 1, Lesson 1.1
-* Critical Thinking & Problem Solving — `courses/critical-thinking/roadmap.md` — Module 1, Lesson 1.1
+* Critical Thinking & Problem Solving — `courses/critical-thinking/roadmap.md` — Module 1, Lesson 1.1. Domain Goal dikunci final 2026-08-09 di `domains/critical-thinking/DOMAIN.md` (Einstein/Musk/Buffett/Edison/Tesla sebagai referensi prinsip berpikir, bukan panutan utuh — lihat bagian "Tokoh Referensi" di domain pack) — status tetap Paused, resume kapan saja diminta.
 * World History & Historical Discernment — `courses/world-history/roadmap.md` — Module 1, Lesson 1.1
 * Gitar — `courses/guitar/roadmap.md` — Module 1, Lesson 1.1
 * Self-Love — `courses/self-love/roadmap.md` — Module 1, Lesson 1.1
@@ -88,3 +88,10 @@ Revision Needed: -
 * Film Criticism & Analysis — `courses/film-criticism/roadmap.md` — Module 1, Lesson 1.1
 * Bahasa Korea — `courses/korean/roadmap.md` — Module 1, Lesson 1.1
 * Cryptocurrency — `courses/cryptocurrency/roadmap.md` — Module 1, Lesson 1.1
+
+*Didaftarkan paused sejak awal 2026-08-08 (konsisten dengan narrowing 2026-08-07), roadmap dibangun lengkap atas permintaan user meski belum aktif:*
+
+* Pornography Recovery — `courses/pornography-recovery/roadmap.md` — Module 1, Lesson 1.1. Domain pack: `domains/pornography-recovery/DOMAIN.md`. House rule anti-shame eksplisit + eskalasi wajib ke profesional untuk indikasi klinis — lihat domain pack sebelum resume.
+* Media & Political Literacy — `courses/media-literacy/roadmap.md` — Module 1, Lesson 1.1. Domain pack: `domains/media-literacy/DOMAIN.md`. Analisis berita/pernyataan pemerintah/kebijakan/isu politik kritis & berbasis bukti, tanpa fanatik ke kelompok/ideologi mana pun. House rule paling ketat: mentor tidak pernah mengambil posisi politik — lihat domain pack sebelum resume.
+* Vocal Coaching — `courses/vocal-coaching/roadmap.md` — Module 1, Lesson 1.1. Domain pack: `domains/vocal-coaching/DOMAIN.md`. Teknik vokal pop/CCM dari 0 untuk suara bass/baritone, sesi via instruksi verbal + self-report (bukan rekaman, mentor tidak bisa mendengar langsung). House rule paling ketat: hard boundary eskalasi kesehatan vokal (nyeri/serak berkepanjangan/kehilangan suara mendadak → wajib rujuk THT/laringolog) — lihat domain pack sebelum resume.
+* Football Tactical Analysis — `courses/football-tactics/roadmap.md` — Module 1, Lesson 1.1. Domain pack: `domains/football-tactics/DOMAIN.md`. Membaca taktik sepak bola dari 0 (anchor liga Premier League), skill inti membedakan kesalahan pemain vs sistem dan taktik vs eksekusi (Module 6). Mode analisis memakai pertandingan terkenal yang sudah terdokumentasi luas, bukan nonton live bareng — lihat domain pack sebelum resume.

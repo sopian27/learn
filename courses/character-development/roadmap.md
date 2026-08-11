@@ -30,14 +30,14 @@ Description: Sebelum melatih apa pun, harus jelas dulu target sebenarnya — ker
 
 Lessons:
 
-* [ ] 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat (intellectual humility research) vs self-deprecation toxic, dan cara membedakannya
-* [ ] 1.2 Level 5 Leadership (Jim Collins) — kerendahan hati pribadi + tekad profesional kuat, dua sisi yang sering dikira kontradiktif tapi justru saling menguatkan
-* [ ] 1.3 Growth mindset (Dweck) sebagai mesin "fokus memperbaiki diri" — ego sebagai penghalang utama belajar dari kesalahan
+* [x] 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat (intellectual humility research) vs self-deprecation toxic, dan cara membedakannya
+* [x] 1.2 Level 5 Leadership (Jim Collins) — kerendahan hati pribadi + tekad profesional kuat, dua sisi yang sering dikira kontradiktif tapi justru saling menguatkan
+* [x] 1.3 Growth mindset (Dweck) sebagai mesin "fokus memperbaiki diri" — ego sebagai penghalang utama belajar dari kesalahan
 * [ ] 1.4 Mengenali sinyal ego diri sendiri secara real-time — defensif saat dikritik, kebutuhan selalu benar, validasi lewat membandingkan diri ke atas orang lain
 
 Mini Project: Audit satu momen minggu ini saat merasa sombong/defensif, DAN satu momen saat merasa "tidak berharga" — tuliskan keduanya, lalu identifikasi mana ego dan mana self-deprecation memakai peta Lesson 1.1.
 
-Status: In Progress — Lesson 1.1
+Status: In Progress — Lesson 1.4
 
 ---
 
@@ -126,6 +126,27 @@ Status: Not started
 
 ---
 
+## Module 7 — Atomic Habits: Sistem Kebiasaan (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-09 atas permintaan "ajarkan saya Atomic Habits dari 0 sampai expert" — dipetakan sebagai perluasan domain `character-development`, karena isinya adalah mekanika pembentukan kebiasaan yang mendukung langsung tujuan domain ini (etos kerja berkelanjutan). Module 3 (Etos Kerja & Disiplin) sudah menyebut "habit stacking dan identity-based habits" secara singkat di Lesson 3.2 — modul ini membangun kerangka utuh James Clear (*Atomic Habits*) yang belum tercakup: habit loop, Four Laws of Behavior Change, dan environment design. **Belum masuk hitungan progress course** — course sedang In Progress (Module 1, Lesson 1.4), jadi modul ini ditambahkan sebagai Module 7 (append, tidak menyisipkan/renumber modul yang sudah berjalan). Kalau disetujui, secara logis paling berguna dipelajari **setelah Module 3** (memperdalam mekanika disiplin) dan **sebelum Module 6 capstone** — urutan aktual/apakah di-renumber ditentukan user saat approval, tanpa mengganggu progress Module 1 yang sudah berjalan.
+
+Description: Module 3 menjawab "kenapa" disiplin berkelanjutan penting (grit, anti-burnout); modul ini menjawab "bagaimana" secara mekanis — kebiasaan baik/buruk sebagai hasil sistem, bukan hasil motivasi/willpower, dan cara mendesain ulang sistem itu secara sadar.
+
+Lessons:
+
+* [ ] 7.1 Aggregation of marginal gains — kenapa perbaikan 1% konsisten mengalahkan perubahan drastis yang tidak bertahan, dan "plateau of latent potential" (kenapa hasil sering tidak terlihat sebelum tiba-tiba terlihat)
+* [ ] 7.2 Habit loop (cue → craving → response → reward) — mekanisme di balik setiap kebiasaan, dibedah satu per satu
+* [ ] 7.3 Four Laws of Behavior Change untuk membangun kebiasaan baik (make it obvious, attractive, easy, satisfying) dan inversinya untuk menghentikan kebiasaan buruk
+* [ ] 7.4 Identity-based habits secara mendalam (perluasan Lesson 3.2) & environment design — mendesain lingkungan fisik/digital supaya kebiasaan baik jadi pilihan termudah, bukan mengandalkan willpower harian
+
+Mini Project: Pilih 1 kebiasaan baik yang ingin dibangun dan 1 kebiasaan buruk yang ingin dihentikan (boleh menyambung ke sistem disiplin Module 3) — petakan masing-masing lewat habit loop, lalu rancang minimal 2 intervensi konkret dari Four Laws untuk tiap kebiasaan (mis. "make it obvious" + "make it easy" untuk kebiasaan baik).
+
+Referensi riset: *Atomic Habits* — James Clear (2018), disilangkan ke riset yang sudah jadi Trusted Source domain ini (Growth Mindset/Dweck, Grit/Duckworth di `domains/character-development/DOMAIN.md`) — buku ini sumber sintesis populer, bukan riset primer, sehingga setiap klaim mekanistik (mis. "21 hari membentuk kebiasaan") diperiksa dulu terhadap literatur akademik sebelum diajarkan sebagai fakta.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 6 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 6 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/character-development/DOMAIN.md` bagian "Project Tiers".
@@ -144,6 +165,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Fondasi: Kerendahan Hati Sejati vs Ego & Self-Deprecation — roadmap di-approve 2026-08-07
 
-Current Lesson: 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat vs self-deprecation toxic, dan cara membedakannya
+Current Lesson: 1.4 Mengenali sinyal ego diri sendiri secara real-time — defensif saat dikritik, kebutuhan selalu benar, validasi lewat membandingkan diri ke atas orang lain
 
-Next Lesson: 1.2 Level 5 Leadership (Jim Collins) — kerendahan hati pribadi + tekad profesional kuat, dua sisi yang sering dikira kontradiktif tapi justru saling menguatkan
+Next Lesson: Mini Project Module 1 (audit momen sombong/defensif + momen self-deprecation)

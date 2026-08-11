@@ -63,7 +63,7 @@ Description: Arsitektur CLI Claude Code di luar sekadar chat — bagaimana tools
 
 Lessons:
 
-* [ ] 3.1 Tools & Permission Model (bagaimana tool call disetujui, sandboxing)
+* [x] 3.1 Tools & Permission Model (bagaimana tool call disetujui, sandboxing)
 * [ ] 3.2 Hooks — automasi event-driven (pre/post tool call)
 * [ ] 3.3 Plan Mode — Opus merencanakan, model lain eksekusi
 * [ ] 3.4 MCP Servers — integrasi tool eksternal, biaya context-nya
@@ -71,7 +71,7 @@ Lessons:
 
 Mini Project: TBD (ditentukan setelah lesson 3.1-3.5)
 
-Status: In Progress (2026-08-07) — Lesson 3.1 dimulai
+Status: In Progress (2026-08-07) — Lesson 3.1 selesai, lanjut 3.2
 
 ---
 
@@ -175,6 +175,6 @@ Overall Completion: ~25%
 
 Current Module: Module 3 — Claude Code Mendalam (In Progress)
 
-Current Lesson: 3.1 Tools & Permission Model (In Progress, mulai 2026-08-07)
+Current Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
 
-Next Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
+Next Lesson: 3.3 Plan Mode — Opus merencanakan, model lain eksekusi
