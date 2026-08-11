@@ -1,7 +1,7 @@
 import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
-import { resolveSafe } from '../lib/fsPaths.js';
+import { resolveSafe, assertSegment } from '../lib/fsPaths.js';
 import { readMarkdown } from '../lib/markdown.js';
 
 export function createCoursesRouter(learnRoot) {
@@ -9,6 +9,13 @@ export function createCoursesRouter(learnRoot) {
 
   router.get('/:course', (req, res) => {
     const { course } = req.params;
+
+    try {
+      assertSegment('course', course);
+    } catch (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
 
     let roadmap;
     try {

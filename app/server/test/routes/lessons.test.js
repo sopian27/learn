@@ -28,3 +28,17 @@ test('GET lesson returns 404 when module has no lesson.md', async () => {
   );
   assert.equal(res.status, 404);
 });
+
+test('GET lesson rejects a course containing an encoded traversal segment', async () => {
+  const res = await request(buildApp()).get(
+    '/api/courses/..%2Fsecrets/modules/01-fondasi/lesson'
+  );
+  assert.equal(res.status, 400);
+});
+
+test('GET lesson rejects a moduleSlug containing an encoded traversal segment', async () => {
+  const res = await request(buildApp()).get(
+    '/api/courses/mastering-claude/modules/..%2F..%2Fpackage/lesson'
+  );
+  assert.equal(res.status, 400);
+});

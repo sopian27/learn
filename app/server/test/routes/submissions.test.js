@@ -78,3 +78,42 @@ test('POST submission rejects a slug that attempts path traversal', async () => 
     false
   );
 });
+
+test('POST submission rejects a date that attempts path traversal', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+
+  const res = await request(buildApp(root))
+    .post('/api/courses/mastering-claude/submissions')
+    .send({
+      slug: 'hooks',
+      lesson: 'L',
+      module: 'M',
+      content: 'malicious overwrite attempt',
+      date: '../../../../evil',
+    });
+
+  assert.equal(res.status, 400);
+  assert.equal(fs.existsSync(path.join(root, 'evil.md')), false);
+});
+
+test('POST submission rejects a course containing an encoded traversal segment and does not escape submissions/', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  fs.mkdirSync(path.join(root, 'secrets'), { recursive: true });
+
+  // The literal request path segment is "..%2Fsecrets" — Express decodes
+  // %2F into a literal "/" when populating req.params.course, so the
+  // route still sees this as a single URL path segment even though the
+  // decoded param value contains "../secrets".
+  const res = await request(buildApp(root))
+    .post('/api/courses/..%2Fsecrets/submissions')
+    .send({
+      slug: 'file',
+      lesson: 'L',
+      module: 'M',
+      content: 'malicious overwrite attempt',
+      date: 'a',
+    });
+
+  assert.equal(res.status, 400);
+  assert.equal(fs.existsSync(path.join(root, 'secrets', 'a-file.md')), false);
+});

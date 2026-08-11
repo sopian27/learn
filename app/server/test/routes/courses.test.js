@@ -28,3 +28,8 @@ test('GET course returns 404 for unknown course', async () => {
   const res = await request(buildApp()).get('/api/courses/does-not-exist');
   assert.equal(res.status, 404);
 });
+
+test('GET course rejects a course containing an encoded traversal segment', async () => {
+  const res = await request(buildApp()).get('/api/courses/..%2Fsecrets');
+  assert.equal(res.status, 400);
+});

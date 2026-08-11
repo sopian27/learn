@@ -32,6 +32,13 @@ test('GET progress returns empty skills object when skills.yml is missing', asyn
   assert.deepEqual(res.body.skills, {});
 });
 
+test('GET progress rejects a course containing an encoded traversal segment', async () => {
+  const res = await request(buildApp(FIXTURES)).get(
+    '/api/courses/..%2Fsecrets/progress'
+  );
+  assert.equal(res.status, 400);
+});
+
 test('GET progress degrades to empty skills when skills.yml is malformed', async () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
   fs.mkdirSync(path.join(root, 'progress', 'broken-skills-course'), { recursive: true });

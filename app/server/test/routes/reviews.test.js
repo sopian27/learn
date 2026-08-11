@@ -53,6 +53,22 @@ test('GET review does not match a different slug that shares a hyphenated suffix
   assert.equal(res.body.pending, true);
 });
 
+test('GET review rejects a course containing an encoded traversal segment', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  const res = await request(buildApp(root)).get(
+    '/api/courses/..%2Fsecrets/reviews/hooks'
+  );
+  assert.equal(res.status, 400);
+});
+
+test('GET review rejects a slug containing an encoded traversal segment', async () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
+  const res = await request(buildApp(root)).get(
+    '/api/courses/mastering-claude/reviews/..%2F..%2Fsecrets'
+  );
+  assert.equal(res.status, 400);
+});
+
 test('GET review returns the latest when multiple reviews exist for the same slug', async () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'learning-os-'));
   writeMarkdown(

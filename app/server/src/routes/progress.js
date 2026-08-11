@@ -2,13 +2,20 @@ import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
-import { resolveSafe } from '../lib/fsPaths.js';
+import { resolveSafe, assertSegment } from '../lib/fsPaths.js';
 
 export function createProgressRouter(learnRoot) {
   const router = express.Router();
 
   router.get('/:course/progress', (req, res) => {
     const { course } = req.params;
+
+    try {
+      assertSegment('course', course);
+    } catch (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
 
     let progress = '';
     try {

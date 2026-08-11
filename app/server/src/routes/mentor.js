@@ -2,7 +2,7 @@ import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
-import { resolveSafe } from '../lib/fsPaths.js';
+import { resolveSafe, assertSegment } from '../lib/fsPaths.js';
 
 function readIfExists(absPath) {
   try {
@@ -17,6 +17,13 @@ export function createMentorRouter(learnRoot) {
 
   router.get('/mentor-context', (req, res) => {
     const course = req.query.course ?? '';
+
+    try {
+      assertSegment('course', course, { allowEmpty: true });
+    } catch (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
 
     let profile = '';
     try {

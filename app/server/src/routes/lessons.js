@@ -1,6 +1,6 @@
 import express from 'express';
 import path from 'node:path';
-import { resolveSafe } from '../lib/fsPaths.js';
+import { resolveSafe, assertSegment } from '../lib/fsPaths.js';
 import { readMarkdown } from '../lib/markdown.js';
 
 export function createLessonsRouter(learnRoot) {
@@ -8,11 +8,14 @@ export function createLessonsRouter(learnRoot) {
 
   router.get('/:course/modules/:moduleSlug/lesson', (req, res) => {
     const { course, moduleSlug } = req.params;
-    const relPath = path.join(
-      'courses', course, 'modules', moduleSlug, 'lesson.md'
-    );
 
     try {
+      assertSegment('course', course);
+      assertSegment('moduleSlug', moduleSlug);
+
+      const relPath = path.join(
+        'courses', course, 'modules', moduleSlug, 'lesson.md'
+      );
       const absPath = resolveSafe(learnRoot, relPath);
       const { data, content } = readMarkdown(absPath);
       res.json({ data, content });

@@ -1,7 +1,7 @@
 import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
-import { resolveSafe } from '../lib/fsPaths.js';
+import { resolveSafe, assertSegment } from '../lib/fsPaths.js';
 import { readMarkdown } from '../lib/markdown.js';
 
 export function createReviewsRouter(learnRoot) {
@@ -9,9 +9,12 @@ export function createReviewsRouter(learnRoot) {
 
   router.get('/:course/reviews/:slug', (req, res) => {
     const { course, slug } = req.params;
-    const dirRelPath = path.join('reviews', course);
 
     try {
+      assertSegment('course', course);
+      assertSegment('slug', slug);
+
+      const dirRelPath = path.join('reviews', course);
       const dirAbsPath = resolveSafe(learnRoot, dirRelPath);
       const entries = fs.existsSync(dirAbsPath) ? fs.readdirSync(dirAbsPath) : [];
       const SUFFIX = '-review.md';
