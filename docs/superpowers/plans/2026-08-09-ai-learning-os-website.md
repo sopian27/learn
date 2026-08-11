@@ -1140,9 +1140,9 @@ git commit -m "feat(server): add progress + skills route"
 - Create: `app/server/src/routes/mentor.js`
 - Create: `app/server/test/routes/mentor.test.js`
 - Modify: `app/server/src/index.js` (mount route)
-- Create: `app/server/test/fixtures/progress/profile.md`
 - Create: `app/server/test/fixtures/progress/roadmap.md`
 - Create: `app/server/test/fixtures/reviews/mastering-claude/2026-08-07-hooks-review.md`
+- (No `profile.md` fixture — deliberately absent; see Step 1's note. Task 8 already created `app/server/test/fixtures/progress/mastering-claude/skills.yml`, reused here for the Skills section.)
 
 **Interfaces:**
 - Consumes: `resolveSafe`, `fs`.
@@ -1193,6 +1193,8 @@ test('GET mentor-context assembles profile, goals, reviews, and tolerates missin
   assert.match(res.body.context, /## Recent Reviews/);
   assert.match(res.body.context, /Good grasp of pre\/post tool call hooks/);
   assert.match(res.body.context, /## Profile/);
+  assert.match(res.body.context, /## Skills/);
+  assert.match(res.body.context, /functions: 90%/);
 });
 ```
 
@@ -1207,6 +1209,7 @@ Expected: FAIL — module not found.
 import express from 'express';
 import fs from 'node:fs';
 import path from 'node:path';
+import yaml from 'js-yaml';
 import { resolveSafe } from '../lib/fsPaths.js';
 
 function readIfExists(absPath) {
@@ -1252,6 +1255,21 @@ export function createMentorRouter(learnRoot) {
       // to no recent reviews rather than erroring.
     }
 
+    let skillsText = '';
+    try {
+      const skillsPath = resolveSafe(learnRoot, path.join('progress', course, 'skills.yml'));
+      if (fs.existsSync(skillsPath)) {
+        // js-yaml's load() uses DEFAULT_SCHEMA and is safe by default (unlike
+        // PyYAML's load()) — it cannot construct arbitrary types.
+        const skills = yaml.load(fs.readFileSync(skillsPath, 'utf8')) ?? {};
+        skillsText = Object.entries(skills)
+          .map(([name, value]) => `- ${name}: ${value}%`)
+          .join('\n');
+      }
+    } catch {
+      // resolveSafe rejection or malformed YAML — degrade to no skills data.
+    }
+
     const context = [
       '## Profile',
       profile,
@@ -1259,6 +1277,8 @@ export function createMentorRouter(learnRoot) {
       goals,
       '## Recent Reviews',
       recentReviews,
+      '## Skills',
+      skillsText,
     ].join('\n\n');
 
     res.json({ context });
