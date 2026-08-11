@@ -50,3 +50,5 @@ See "Registering a New Domain" in `ai-los/ACTIVE_DOMAIN.md` for the full workflo
 - `media-literacy` — see `domains/media-literacy/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/media-literacy/roadmap.md`.
 - `vocal-coaching` — see `domains/vocal-coaching/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/vocal-coaching/roadmap.md`.
 - `football-tactics` — see `domains/football-tactics/DOMAIN.md` (domain pack approved 2026-08-09). Registered paused, course roadmap built at user's request — see `courses/football-tactics/roadmap.md`.
+- `life-mastery` — see `domains/life-mastery/DOMAIN.md` (domain pack + course roadmap approved 2026-08-11). Cross-domain orchestrator for the 14-stop "Life Mastery" curriculum — see `courses/life-mastery/roadmap.md`.
+- `astronomy-and-life-in-the-universe` — see `domains/astronomy-and-life-in-the-universe/DOMAIN.md` (domain pack + course roadmap approved 2026-08-11). Sibling of `physics-for-software-engineers`/`relativity` — see `courses/astronomy-and-life-in-the-universe/roadmap.md`.
