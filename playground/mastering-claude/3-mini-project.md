@@ -98,3 +98,17 @@ Design-only, gak ada kode dieksekusi. Verifikasi desain ini benar via review man
 }
 
 log : Running module3-project tests..
+
+## 4. MCP Servers
+
+- Query 1 (`resolve-library-id`, libraryName "Spring Boot", query "request body validation @Valid @NotBlank Bean Validation") → resolve ke `/websites/spring_io_spring-boot_3_5` (cocok versi parent pom, Spring Boot 3.5.0).
+- Query 2 (`query-docs`, libraryId `/websites/spring_io_spring-boot_3_5`, query "validate request body with @Valid and Bean Validation starter dependency") → hasil dominan soal `@ConfigurationProperties` + `@Validated` (bukan target), tapi konfirmasi `ValidationAutoConfiguration` otomatis nyediain `Validator` bean begitu `spring-boot-starter-validation` ada di classpath, dan pola anotasi standar dari `jakarta.validation.constraints` (mis. `@NotNull`, `@NotEmpty`).
+- Query 3 (`query-docs`, query "spring-boot-starter-validation dependency for @RequestBody @Valid in REST controller") → hasil nunjukin pola `@RestController` standar (`@RequestMapping`, `@PathVariable`, dll), belum ada contoh literal `@RequestBody @Valid` — context7 gak punya snippet controller-validation persis, tapi cukup buat konfirmasi: (1) starter `spring-boot-starter-validation` yang benar buat auto-config validator, (2) `jakarta.validation.constraints.NotBlank` paket yang benar buat Spring Boot 3.x (bukan `javax.validation`, yang udah deprecated sejak Spring Boot 3 pindah ke Jakarta EE 9+).
+
+**Keputusan kode yang ditentukan hasil query:**
+
+1. `pom.xml` — tambah dependency `spring-boot-starter-validation` (bukan taruh manual `jakarta.validation` API, biar auto-config `ValidationAutoConfiguration` jalan).
+2. `NoteController.NoteRequest` — `@NotBlank` dari `jakarta.validation.constraints` di field `title`.
+3. `NoteController.create()` — `@Valid` di depan `@RequestBody NoteRequest request`, gak perlu custom exception handler karena Spring udah auto-return `400 Bad Request` (`MethodArgumentNotValidException`) begitu `@Valid` gagal.
+
+**Verifikasi:** test baru `createWithoutTitleReturnsBadRequest` (POST title `null`) → `mvn test` PASS (3 test total), log konfirmasi `MethodArgumentNotValidException` ke-trigger dan direspon `400`.

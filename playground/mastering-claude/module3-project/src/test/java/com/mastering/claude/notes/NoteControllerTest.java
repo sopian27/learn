@@ -47,6 +47,15 @@ class NoteControllerTest {
         assertThat(afterDelete.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
     }
 
+    @Test
+    void createWithoutTitleReturnsBadRequest() {
+        var payload = new NoteRequest(null, "Isi catatan");
+
+        ResponseEntity<String> response = rest.postForEntity(url("/notes"), payload, String.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+    }
+
     private String url(String path) {
         return "http://localhost:" + port + path;
     }

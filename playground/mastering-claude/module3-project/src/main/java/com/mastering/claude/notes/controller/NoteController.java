@@ -4,6 +4,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -23,10 +26,10 @@ public class NoteController {
     private final Map<Long, Note> store = new ConcurrentHashMap<>();
     private final AtomicLong sequence = new AtomicLong(0);
 
-    record NoteRequest(String title, String content) {}
+    record NoteRequest(@NotBlank String title, String content) {}
 
     @PostMapping
-    public ResponseEntity<Note> create(@RequestBody NoteRequest request) {
+    public ResponseEntity<Note> create(@Valid @RequestBody NoteRequest request) {
         // in-memory sequence only, resets on restart
         long id = sequence.incrementAndGet();
         Note note = new Note(id, request.title(), request.content());
