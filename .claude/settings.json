@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Edit(playground/mastering-claude/module3-project/src/**)",
+            "command": "mvn -f playground/mastering-claude/module3-project/pom.xml test -q",
+            "statusMessage": "Running module3-project tests..."
+          },
+          {
+            "type": "command",
+            "if": "Write(playground/mastering-claude/module3-project/src/**)",
+            "command": "mvn -f playground/mastering-claude/module3-project/pom.xml test -q",
+            "statusMessage": "Running module3-project tests..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -71,3 +71,30 @@ Design-only, gak ada kode dieksekusi. Verifikasi desain ini benar via review man
   - acceptEdits
 - Catatan:
   - ketika permission belum ada di .claude/settings.local.json
+
+## 4: Hooks
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Edit(playground/mastering-claude/module3-project/src/**)",
+            "command": "mvn -f playground/mastering-claude/module3-project/pom.xml test -q",
+            "statusMessage": "Running module3-project tests..."
+          },
+          {
+            "type": "command",
+            "if": "Write(playground/mastering-claude/module3-project/src/**)",
+            "command": "mvn -f playground/mastering-claude/module3-project/pom.xml test -q",
+            "statusMessage": "Running module3-project tests..."
+          }
+        ]
+      }
+    ]
+  }
+}
+
+log : Running module3-project tests..
