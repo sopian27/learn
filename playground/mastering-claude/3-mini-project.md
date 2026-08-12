@@ -59,3 +59,15 @@ Karena storage nempel di controller (bukan repository terpisah), relasi paling f
 ## Verifikasi
 
 Design-only, gak ada kode dieksekusi. Verifikasi desain ini benar via review manual: cocokkan field/endpoint/package di atas sama Task 1 Step 2 di `module3-mini-project-plan.md` (copy-paste hasil ini ke `playground/mastering-claude/3-mini-project.md` bagian "## 1. Plan Mode"), lanjut Task 2 (TDD implementasi) baru run `mvn test` buat verifikasi nyata.
+
+
+## 2. Tools & Permission
+
+- Tool call yang meminta approval:
+  - ketika membuat plan di ## 1. Plan Mode
+- Tool call yang auto-allow:
+  - write dan run unit test
+- Permission mode saat ini:
+  - acceptEdits
+- Catatan:
+  - ketika permission belum ada di .claude/settings.local.json
