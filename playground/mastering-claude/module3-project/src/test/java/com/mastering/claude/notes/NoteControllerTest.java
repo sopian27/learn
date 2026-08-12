@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -54,6 +55,35 @@ class NoteControllerTest {
         ResponseEntity<String> response = rest.postForEntity(url("/notes"), payload, String.class);
 
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+    }
+
+    @Test
+    void getByIdWhenNotFoundReturnsNotFound() {
+        ResponseEntity<Note> response = rest.getForEntity(url("/notes/999999999"), Note.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void listWhenEmptyReturnsEmptyList() {
+        // drain any notes left behind by other tests sharing this context's in-memory
+        // store, so this assertion reflects a genuinely empty list regardless of order.
+        ResponseEntity<Note[]> existing = rest.getForEntity(url("/notes"), Note[].class);
+        for (Note note : existing.getBody()) {
+            rest.delete(url("/notes/" + note.id()));
+        }
+
+        ResponseEntity<Note[]> listed = rest.getForEntity(url("/notes"), Note[].class);
+
+        assertThat(listed.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(listed.getBody()).isEmpty();
+    }
+
+    @Test
+    void deleteWhenIdNotFoundReturnsNoContent() {
+        ResponseEntity<Void> response = rest.exchange(url("/notes/999999999"), HttpMethod.DELETE, null, Void.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
     }
 
     private String url(String path) {

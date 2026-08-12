@@ -112,3 +112,43 @@ log : Running module3-project tests..
 3. `NoteController.create()` — `@Valid` di depan `@RequestBody NoteRequest request`, gak perlu custom exception handler karena Spring udah auto-return `400 Bad Request` (`MethodArgumentNotValidException`) begitu `@Valid` gagal.
 
 **Verifikasi:** test baru `createWithoutTitleReturnsBadRequest` (POST title `null`) → `mvn test` PASS (3 test total), log konfirmasi `MethodArgumentNotValidException` ke-trigger dan direspon `400`.
+
+## 5. Background Agent
+
+### Task
+
+Dispatch `general-purpose` agent, `run_in_background: true`, buat tulis JUnit test tambahan edge case Note API di `NoteControllerTest.java`:
+
+1. GET id yang gak ketemu
+2. GET list pas kosong
+3. DELETE id yang gak ada
+
+Constraint: gak boleh ubah production code, cuma tambah/ubah test yang perlu, gak boleh karang hasil test.
+
+### Agent Result
+
+File diubah: `NoteControllerTest.java` doang (test-only, prod code gak disentuh — dicek `git status` module3-project cuma munculin file ini).
+
+Agent baca dulu `NoteController.java` sebelum nulis assertion (gak nebak status code):
+
+- `GET /notes/{id}` id gak ada → `404 Not Found`
+- `GET /notes` kosong → `200 OK`, body kosong
+- `DELETE /notes/{id}` id gak ada → controller gak ada existence check, `store.remove()` unconditional → selalu `204 No Content` (bukan 404)
+
+Test ditambah (3):
+
+1. `getByIdWhenNotFoundReturnsNotFound` — GET id `999999999` → assert `404`
+2. `listWhenEmptyReturnsEmptyList` — drain store dulu via DELETE (biar gak kena residual data test lain di shared `ConcurrentHashMap`) → assert `GET /notes` `200` + body kosong
+3. `deleteWhenIdNotFoundReturnsNoContent` — DELETE id `999999999` → assert `204` (sesuai behavior nyata, bukan asumsi 404)
+
+Import baru: `org.springframework.http.HttpMethod` (buat `rest.exchange(..., DELETE, ...)`).
+
+`mvn test` → `Tests run: 6, Failures: 0, Errors: 0` — BUILD SUCCESS (3 test lama + 3 baru, semua hijau).
+
+### Review
+
+- Diff: `+30` baris, cuma di `NoteControllerTest.java`, 1 file. Sesuai constraint no-prod-code.
+- Konsisten gaya file existing: `TestRestTemplate` + `ResponseEntity`, gak introduce MockMvc.
+- Assertion dicocokkan ke behavior nyata controller (baca kode dulu), bukan tebakan — sesuai constraint "jangan mengarang hasil test".
+- Temuan sampingan (bukan bug fix, cuma catatan): DELETE id-gak-ada balikin `204`, bukan `404`. Ini sesuai desain awal (§1 endpoint table: "delete idempotent... rekomendasi 204 selalu"), jadi bukan bug — cocok sama keputusan desain, tinggal dikonfirmasi test-nya emang nangkep itu.
+- Verifikasi: `mvn test` run nyata, 6/6 pass, bukan klaim tanpa bukti.
