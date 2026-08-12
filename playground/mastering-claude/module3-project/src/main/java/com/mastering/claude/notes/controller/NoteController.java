@@ -31,4 +31,15 @@ public class NoteController {
         Note note = store.get(id);
         return note == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(note);
     }
+
+    @GetMapping
+    public ResponseEntity<java.util.Collection<Note>> list() {
+        return ResponseEntity.ok(store.values());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> delete(@PathVariable Long id) {
+        store.remove(id);
+        return ResponseEntity.noContent().build();
+    }
 }

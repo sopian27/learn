@@ -34,6 +34,19 @@ class NoteControllerTest {
         assertThat(fetched.getBody().title()).isEqualTo("Judul");
     }
 
+    @Test
+    void listThenDeleteRemovesNote() {
+        var payload = new NoteRequest("A", "B");
+        Long id = rest.postForEntity(url("/notes"), payload, Note.class).getBody().id();
+
+        ResponseEntity<Note[]> listed = rest.getForEntity(url("/notes"), Note[].class);
+        assertThat(listed.getBody()).isNotEmpty();
+
+        rest.delete(url("/notes/" + id));
+        ResponseEntity<Note> afterDelete = rest.getForEntity(url("/notes/" + id), Note.class);
+        assertThat(afterDelete.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+    }
+
     private String url(String path) {
         return "http://localhost:" + port + path;
     }
