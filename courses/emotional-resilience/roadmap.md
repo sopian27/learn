@@ -2,11 +2,11 @@
 
 ## Course Information
 
-* Course Name: Emotional Resilience — dari 0 sampai Expert
-* Category: Ketahanan Emosional terhadap Kritik, Penolakan, dan Kejadian Sulit (Domain: emotional-resilience — lihat `domains/emotional-resilience/DOMAIN.md`)
-* Difficulty: Level 0 (mudah terguncang oleh kritik/penolakan, sering salah tafsir, butuh validasi luas) → Level 4 (mampu menerima kritik/penolakan tanpa terguncang identitas, memisahkan fakta dari interpretasi secara konsisten, dan meregulasi emosi secara aktif saat kejadian sulit nyata)
-* Estimated Duration: 10 modul, 4 lesson/modul (40 lesson) — pace mengikuti kemunculan kejadian nyata (kritik/penolakan/kejadian sulit) untuk Applied Practice, jadi realistis bukan dikebut
-* Prerequisites: Tidak ada prasyarat teknis. Kesediaan mengisi Reaction Log nyata tiap modul dari kejadian hidup yang benar-benar dialami (bukan hipotetis) — sesuai `domains/emotional-resilience/DOMAIN.md` bagian "Applied Practice Definition". Skenario studi kasus hanya jembatan sementara bila kejadian nyata belum muncul di modul awal.
+* Course Name: Emotional Resilience & Mental Toughness — dari 0 sampai Expert
+* Category: Ketahanan Emosional terhadap Kritik, Penolakan, Kejadian Sulit, Overthinking Masa Lalu, dan Keberanian Sosial (Domain: emotional-resilience — lihat `domains/emotional-resilience/DOMAIN.md`)
+* Difficulty: Level 0 (mudah terguncang oleh kritik/penolakan, sering salah tafsir, butuh validasi luas, sering overthinking kejadian lama, menghindari ngobrol karena takut dinilai) → Level 4 (mampu menerima kritik/penolakan tanpa terguncang identitas, memisahkan fakta dari interpretasi secara konsisten, meregulasi emosi secara aktif saat kejadian sulit nyata, memutus rumination masa lalu, dan berani memulai percakapan nyata)
+* Estimated Duration: 12 modul, 4 lesson/modul (48 lesson) — pace mengikuti kemunculan kejadian nyata (kritik/penolakan/kejadian sulit/episode overthinking/kesempatan ngobrol) untuk Applied Practice, jadi realistis bukan dikebut
+* Prerequisites: Tidak ada prasyarat teknis. Kesediaan mengisi Reaction Log/Rumination Interrupt Log/Conversation Exposure Log nyata tiap modul dari kejadian hidup yang benar-benar dialami (bukan hipotetis) — sesuai `domains/emotional-resilience/DOMAIN.md` bagian "Applied Practice Definition". Skenario studi kasus hanya jembatan sementara bila kejadian nyata belum muncul di modul awal. Module 11 (keberanian ngobrol) butuh kesediaan mencoba percakapan nyata dengan orang lain (aman & wajar), bukan hanya latihan mental.
 
 ---
 
@@ -31,6 +31,8 @@ Ketiga asumsi di atas menunggu konfirmasi/koreksi user saat approval roadmap, se
 * [ ] Melepas kebutuhan disetujui/disukai semua orang (REBT — Ellis) berbasis bukti "liking gap" (Gilovich & Savitsky), tanpa berhenti peduli pada feedback valid
 * [ ] Meregulasi emosi intens secara aktif saat kejadian sulit nyata (cognitive reappraisal — Gross; distress tolerance — Linehan/DBT), bukan menekan atau meledak
 * [ ] Berlapang dada — proses memaafkan (model REACH — Worthington) tanpa memaksakan rekonsiliasi atau melupakan luka nyata
+* [ ] Memutus siklus overthinking/rumination terhadap kejadian masa lalu (Nolen-Hoeksema) — mengalihkan dari pemrosesan abstrak-evaluatif ke konkret-konstruktif (Watkins)
+* [ ] Berani memulai & menjalani percakapan nyata meski ada rasa canggung/takut dinilai, berbasis kalibrasi ulang prediksi vs realita (Epley & Schroeder) dan exposure bertahap (Heimberg/Barlow)
 * [ ] Menyusun dan menjalankan Personal Emotional Resilience System yang teruji lewat kejadian nyata
 
 ---
@@ -198,18 +200,52 @@ Status: Not started
 
 ---
 
-## Module 10 — Advanced & Capstone
+## Module 10 — Melepas Overthinking Masa Lalu (Rumination)
 
-Description: Menggabungkan semua skill untuk menangani kejadian paling menantang, lalu menutup course dengan Personal Emotional Resilience System yang teruji lewat penerapan nyata berkelanjutan.
+Description: Menyasar overthinking spesifik tentang kejadian yang sudah lewat (menyesal, malu, "andai saja") — berbasis Response Styles Theory (Nolen-Hoeksema) dan pembedaan rumination abstrak-evaluatif vs pemrosesan konkret-konstruktif (Watkins), bukan sekadar "berhenti mikirin masa lalu" tanpa teknik.
 
 Lessons:
 
-* [ ] 10.1 Menangani kejadian sulit majemuk — kritik + penolakan + tekanan waktu terjadi bersamaan
-* [ ] 10.2 Fleksibilitas coping (Bonanno) — memilih strategi yang tepat untuk situasi yang tepat, bukan satu teknik untuk semua
-* [ ] 10.3 Menyusun Personal Emotional Resilience System — protokol pribadi lengkap dari deteksi distorsi sampai toolkit regulasi emosi
-* [ ] 10.4 Menjalankan sistem selama 3-4 minggu nyata dan merevisi berdasarkan hasil penerapan
+* [ ] 10.1 Response Styles Theory (Nolen-Hoeksema) — kenapa rumination memperpanjang & memperparah distres, beda dari problem-solving aktif
+* [ ] 10.2 Rumination abstrak-evaluatif ("kenapa ini terjadi padaku") vs pemrosesan konkret-konstruktif ("apa langkah kecil berikutnya") — kerangka Watkins
+* [ ] 10.3 Teknik interupsi rumination — mengalihkan ke konkret-spesifik, dijadwalkan ("worry/rumination window"), dan tindakan mikro
+* [ ] 10.4 Membedakan rumination yang ditarget dari refleksi sehat yang tetap boleh dilakukan (house rule domain)
 
-Capstone Project: **Personal Emotional Resilience System** — protokol pribadi terkodifikasi (deteksi distorsi kognitif diri sendiri, cara menerima kritik tanpa defensif, cara merespons penolakan tanpa rejection-sensitivity spiral, cara melepas kebutuhan validasi universal, toolkit regulasi emosi), diuji lewat 3-4 minggu Reaction Log penerapan nyata, disimpan ke `portofolio/`.
+Mini Project: Rumination Interrupt Log — tangkap satu episode nyata mengulang-ulang kejadian masa lalu, klasifikasi abstrak-evaluatif vs konkret-konstruktif, terapkan satu teknik interupsi, dokumentasikan hasilnya.
+
+Status: Not started
+
+---
+
+## Module 11 — Keberanian Memulai & Menjalani Percakapan
+
+Description: Sisi keberanian (bukan mekanika) dari mengobrol — mengapa orang meremehkan seberapa lancar/menyenangkan obrolan akan berjalan (Epley & Schroeder), dan cara menaiki exposure hierarchy bertahap (Heimberg/Barlow) supaya rasa takut dinilai tidak mencegah memulai percakapan.
+
+Lessons:
+
+* [ ] 11.1 Riset misprediction percakapan (Epley & Schroeder) — kenapa prediksi kecemasan sebelum ngobrol biasanya jauh lebih buruk dari kenyataannya
+* [ ] 11.2 Menyusun exposure hierarchy pribadi — dari percakapan risiko-rendah (basa-basi singkat) sampai lebih menantang, dinaikkan bertahap
+* [ ] 11.3 Prinsip graduated exposure & habituation curve (Heimberg/Barlow) diterapkan pada exposure ngobrol non-klinis
+* [ ] 11.4 Menghadapi momen canggung/ditolak saat ngobrol tanpa menariknya jadi verdict harga diri (menyilang balik ke Module 6)
+
+Mini Project: Conversation Exposure Log — pilih satu target dari exposure hierarchy, catat prediksi kecemasan sebelum percakapan, jalankan percakapan nyata, catat realita sesudahnya dan gap-nya.
+
+Status: Not started
+
+---
+
+## Module 12 — Advanced & Capstone
+
+Description: Menggabungkan semua skill (termasuk memutus rumination dan keberanian ngobrol) untuk menangani kejadian paling menantang, lalu menutup course dengan Personal Emotional Resilience System yang teruji lewat penerapan nyata berkelanjutan.
+
+Lessons:
+
+* [ ] 12.1 Menangani kejadian sulit majemuk — kritik + penolakan + tekanan waktu terjadi bersamaan
+* [ ] 12.2 Fleksibilitas coping (Bonanno) — memilih strategi yang tepat untuk situasi yang tepat, bukan satu teknik untuk semua
+* [ ] 12.3 Menyusun Personal Emotional Resilience System — protokol pribadi lengkap dari deteksi distorsi, interupsi rumination, sampai exposure hierarchy ngobrol
+* [ ] 12.4 Menjalankan sistem selama 3-4 minggu nyata dan merevisi berdasarkan hasil penerapan
+
+Capstone Project: **Personal Emotional Resilience System** — protokol pribadi terkodifikasi (deteksi distorsi kognitif diri sendiri, cara menerima kritik tanpa defensif, cara merespons penolakan tanpa rejection-sensitivity spiral, cara melepas kebutuhan validasi universal, toolkit regulasi emosi, protokol interupsi rumination masa lalu, dan exposure hierarchy ngobrol yang sudah dinaiki minimal beberapa tingkat), diuji lewat 3-4 minggu Reaction Log penerapan nyata, disimpan ke `portofolio/`.
 
 Status: Not started
 
@@ -217,11 +253,11 @@ Status: Not started
 
 # Resources
 
-Lihat `domains/emotional-resilience/DOMAIN.md` bagian "Trusted Sources / Research Priority" untuk daftar lengkap dan urutan prioritas: Beck & Burns (CBT, distorsi kognitif), Ellis (REBT), Gross (Process Model of Emotion Regulation), Downey (Rejection Sensitivity), Kip Williams (Ostracism/Cyberball), Linehan (DBT), Lee Ross (Fundamental Attribution Error), Worthington (REACH forgiveness model), Bonanno (Resilience & Coping Flexibility), Gilovich & Savitsky (Liking Gap), Rosenberg (Nonviolent Communication), Epictetus (dichotomy of control).
+Lihat `domains/emotional-resilience/DOMAIN.md` bagian "Trusted Sources / Research Priority" untuk daftar lengkap dan urutan prioritas: Beck & Burns (CBT, distorsi kognitif), Ellis (REBT), Gross (Process Model of Emotion Regulation), Downey (Rejection Sensitivity), Kip Williams (Ostracism/Cyberball), Linehan (DBT), Lee Ross (Fundamental Attribution Error), Worthington (REACH forgiveness model), Bonanno (Resilience & Coping Flexibility), Gilovich & Savitsky (Liking Gap), Rosenberg (Nonviolent Communication), Epictetus (dichotomy of control), Nolen-Hoeksema (Response Styles Theory/rumination), Watkins (Rumination-Focused CBT), Epley & Schroeder (misprediction percakapan dengan orang asing), Heimberg & Barlow (graduated exposure untuk kecemasan sosial).
 
 # Projects
 
-10 Mini Project (satu per modul) + 1 Intermediate Project (checkpoint Module 1-4) + 1 Capstone Project (Personal Emotional Resilience System, disimpan ke `portofolio/`). Rincian tiap project ada di modul masing-masing di atas.
+12 Mini Project (satu per modul) + 1 Intermediate Project (checkpoint Module 1-4) + 1 Capstone Project (Personal Emotional Resilience System, disimpan ke `portofolio/`). Rincian tiap project ada di modul masing-masing di atas.
 
 # Interview
 
@@ -229,4 +265,4 @@ Ditambahkan saat course mendekati Capstone: simulasi skenario "diberi kritik taj
 
 # Final Exam
 
-Capstone Project (Module 10.4) berfungsi sebagai final exam — dinilai memakai Universal Review Rubric plus empat kriteria Review Style domain ini (Fact vs Interpretation Check, Suppression vs Regulation, Authenticity of Acceptance, Approval-Independence Check).
+Capstone Project (Module 12.4) berfungsi sebagai final exam — dinilai memakai Universal Review Rubric plus enam kriteria Review Style domain ini (Fact vs Interpretation Check, Suppression vs Regulation, Authenticity of Acceptance, Approval-Independence Check, Rumination vs Reflection Check, Prediction vs Reality Gap).
