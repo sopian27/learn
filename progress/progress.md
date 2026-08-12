@@ -6,15 +6,15 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Module 3 — Claude Code Mendalam (In Progress; Module 1-2 sudah selesai)
-Current Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
-Course Completion: 2/8 module selesai (25%)
+Current Module: Module 4 — Skills & Plugins (belum dimulai; Module 1-3 sudah selesai)
+Current Lesson: 4.1 Anatomi Skill
+Course Completion: 3/8 module selesai (37%)
 
 | Module | Status |
 | ------ | ------ |
 | 1. Fondasi: Mental Model & Prompting | Selesai (2026-08-06) |
 | 2. Token Economy Claude Code | Selesai (2026-08-06) |
-| 3. Claude Code Mendalam | In Progress — Lesson 3.1 selesai (2026-08-07), lanjut 3.2 |
+| 3. Claude Code Mendalam | Selesai (2026-08-13) — Mini Project: Note CRUD API pakai 5 mekanisme, bukti di `playground/mastering-claude/3-mini-project.md` |
 | 4-8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`

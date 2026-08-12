@@ -152,3 +152,15 @@ Import baru: `org.springframework.http.HttpMethod` (buat `rest.exchange(..., DEL
 - Assertion dicocokkan ke behavior nyata controller (baca kode dulu), bukan tebakan — sesuai constraint "jangan mengarang hasil test".
 - Temuan sampingan (bukan bug fix, cuma catatan): DELETE id-gak-ada balikin `204`, bukan `404`. Ini sesuai desain awal (§1 endpoint table: "delete idempotent... rekomendasi 204 selalu"), jadi bukan bug — cocok sama keputusan desain, tinggal dikonfirmasi test-nya emang nangkep itu.
 - Verifikasi: `mvn test` run nyata, 6/6 pass, bukan klaim tanpa bukti.
+
+
+## Refleksi
+1. Plan Mode — menentukan rencana sebelum implementasi. Claude memahami requirement, memetakan perubahan, dan menunggu approval sebelum melakukan perubahan.
+
+2. Tools & Permission — mengontrol kemampuan Claude untuk melakukan tindakan. Read-only, Edit/Write.
+
+3. Hooks — menjalankan automation berdasarkan event. Dalam mini-project ini, setiap Edit/Write pada source module3-project memicu Maven test secara otomatis melalui PostToolUse.
+
+4. MCP — memperluas kemampuan Claude dengan sumber/tool eksternal. Context7 digunakan untuk mencari dokumentasi Spring Boot terkini sebelum menentukan implementasi validation dengan @Valid dan @NotBlank.
+
+5. Background Agent — memungkinkan pekerjaan yang independen dan panjang didelegasikan secara asynchronous. Agent dapat menulis unit test sementara sesi utama tetap digunakan untuk pekerjaan lain. Hasilnya tetap harus diverifikasi melalui diff dan test.

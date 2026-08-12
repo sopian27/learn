@@ -64,14 +64,14 @@ Description: Arsitektur CLI Claude Code di luar sekadar chat — bagaimana tools
 Lessons:
 
 * [x] 3.1 Tools & Permission Model (bagaimana tool call disetujui, sandboxing)
-* [ ] 3.2 Hooks — automasi event-driven (pre/post tool call)
-* [ ] 3.3 Plan Mode — Opus merencanakan, model lain eksekusi
-* [ ] 3.4 MCP Servers — integrasi tool eksternal, biaya context-nya
-* [ ] 3.5 Background Agents & Monitor — kerja paralel tanpa blokir sesi utama
+* [x] 3.2 Hooks — automasi event-driven (pre/post tool call)
+* [x] 3.3 Plan Mode — Opus merencanakan, model lain eksekusi
+* [x] 3.4 MCP Servers — integrasi tool eksternal, biaya context-nya
+* [x] 3.5 Background Agents & Monitor — kerja paralel tanpa blokir sesi utama
 
-Mini Project: TBD (ditentukan setelah lesson 3.1-3.5)
+Mini Project: Build 1 Fitur, Pakai 5 Mekanisme — CRUD Note API kecil di Spring Boot, sengaja memicu Plan Mode + Tools/Permission + Hooks + MCP + Background Agent dalam satu alur kerja. Spec lengkap: `courses/mastering-claude/module3-mini-project.md`. Log & bukti: `playground/mastering-claude/3-mini-project.md`.
 
-Status: In Progress (2026-08-07) — Lesson 3.1 selesai, lanjut 3.2
+Status: Selesai (2026-08-13)
 
 ---
 
@@ -169,12 +169,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 2/8
+Module Completion: 3/8
 
-Overall Completion: ~25%
+Overall Completion: ~37%
 
-Current Module: Module 3 — Claude Code Mendalam (In Progress)
+Current Module: Module 4 — Skills & Plugins (belum dimulai)
 
-Current Lesson: 3.2 Hooks — automasi event-driven (pre/post tool call)
+Current Lesson: 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
 
-Next Lesson: 3.3 Plan Mode — Opus merencanakan, model lain eksekusi
+Next Lesson: 4.1 Anatomi Skill
