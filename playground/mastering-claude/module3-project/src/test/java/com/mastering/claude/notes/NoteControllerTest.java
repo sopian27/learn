@@ -1,5 +1,6 @@
 package com.mastering.claude.notes;
 
+import com.mastering.claude.notes.controller.NoteController;
 import com.mastering.claude.notes.model.Note;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -84,6 +85,15 @@ class NoteControllerTest {
         ResponseEntity<Void> response = rest.exchange(url("/notes/999999999"), HttpMethod.DELETE, null, Void.class);
 
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
+    }
+
+    @Test
+    void deleteWithNullIdReturnsBadRequest() {
+        NoteController controller = new NoteController();
+
+        ResponseEntity<Void> response = controller.delete(null);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
     }
 
     private String url(String path) {

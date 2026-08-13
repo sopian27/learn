@@ -50,6 +50,9 @@ public class NoteController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
+        if (id == null) {
+            return ResponseEntity.badRequest().build();
+        }
         store.remove(id);
         return ResponseEntity.noContent().build();
     }
