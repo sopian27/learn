@@ -41,3 +41,27 @@ Aturan singkat:
 * Delegasikan riset verbose (banyak file, log panjang) ke subagent — hasil ringkas yang balik ke context utama, bukan raw dump.
 * CLAUDE.md jaga <200 baris; instruksi spesifik-per-tugas taruh di Skill (on-demand), bukan di CLAUDE.md (selalu dimuat).
 * Prompt spesifik (Goal/Context/Constraint/Format) di awal > prompt umum + banyak iterasi klarifikasi.
+
+---
+
+## Claude Code — Anatomi Skill (Progressive Disclosure)
+
+```text
+skill-name/
+  SKILL.md          # wajib — frontmatter (name, description) + body
+  references/*.md    # opsional, detail besar/jarang dipakai
+  scripts/*           # opsional, executable
+```
+
+```text
+Level 1: name + description   -> SELALU di context (semua skill terdaftar)
+Level 2: isi SKILL.md body    -> load sekali pas description match & di-invoke
+Level 3: references/*, scripts/* -> load hanya kalau body eksplisit merujuknya
+```
+
+Aturan singkat:
+
+* `description` = satu-satunya sinyal Claude putuskan "pakai skill ini atau tidak" SEBELUM baca body — gagal di sini bersifat silent (skill gak pernah dipanggil, gak ada error).
+* Pola description kuat: "Use when [trigger kondisi konkret]" + kalau perlu scope boundary eksplisit ("skip when...") biar gak collide sama skill mirip topik.
+* Isi bulk/jarang dipakai taruh di `references/`, bukan numpuk di SKILL.md body — Level 2 harus tetap murah tiap kali trigger.
+* Skill vs subagent vs slash command: skill = load ke context main thread (probabilistik, dipilih dari description); subagent = context terisolasi (proteksi context utama, laporan akhir aja yang balik); slash command = trigger deterministik (user panggil nama langsung, gak lewat keputusan model).

@@ -81,7 +81,7 @@ Description: Skill sebagai folder instruksi dengan 3-level progressive loading (
 
 Lessons:
 
-* [ ] 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
+* [x] 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
 * [ ] 4.2 Membuat Skill Custom — workflow authoring, testing di sesi baru
 * [ ] 4.3 Plugin — Bundling & Distribusi (marketplace, git repo, `.claude-plugin/plugin.json`)
 * [ ] 4.4 Best Practices & Keamanan (description harus spesifik, audit skill dari sumber tak dikenal)
@@ -173,8 +173,8 @@ Module Completion: 3/8
 
 Overall Completion: ~37%
 
-Current Module: Module 4 — Skills & Plugins (belum dimulai)
+Current Module: Module 4 — Skills & Plugins (in progress, 1/4 lesson selesai)
 
-Current Lesson: 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
+Current Lesson: 4.2 Membuat Skill Custom — workflow authoring, testing di sesi baru
 
-Next Lesson: 4.1 Anatomi Skill
+Next Lesson: 4.2 Membuat Skill Custom
