@@ -2,7 +2,7 @@
 
 ## Course Information
 
-* Course Name: Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert
+* Course Name: Character Development — Rendah Hati, Etos Kerja, Rasa Hormat, dan Ketenangan Batin, dari 0 sampai Expert
 * Category: Character Development (Domain: character-development — lihat `domains/character-development/DOMAIN.md`)
 * Difficulty: Level 0 (ego reaktif tanpa sadar — mudah defensif/sombong tanpa disadari, disiplin naik-turun ikut mood, kadang meremehkan orang lain tanpa sadar) → Level 4 (kerendahan hati genuine jadi default, proaktif mencari feedback jujur, etos kerja berkelanjutan tanpa burnout, menghormati semua orang tanpa syarat status)
 * Estimated Duration: 6 modul, 4 lesson/modul (24 lesson), pace mengikuti ritme praktik nyata (jurnal refleksi, feedback dari orang nyata, log disiplin mingguan) — bukan dikebut, karena Applied Practice-nya butuh waktu berjalan di kehidupan nyata untuk terlihat hasilnya
@@ -18,6 +18,8 @@
 * [ ] Merancang dan menjalankan sistem disiplin/kerja keras yang realistis dan berkelanjutan (bukan burst semangat yang berujung burnout)
 * [ ] Mengenali dan menghentikan pola meremehkan orang lain (sarkasme menyasar orang, gosip merendahkan, perbandingan sosial merendahkan) yang sering jadi blind spot
 * [ ] Menerapkan kerangka filosofis Stoic (dikotomi kendali, ketidaktergantungan validasi eksternal) sebagai alat manajemen ego sehari-hari, disilangkan ke riset psikologi modern
+* [ ] Mengenali sumber-sumber haus validasi/gila hormat/mencari perhatian pada diri sendiri (contingent self-worth, sociometer theory, social rank theory), dan membangun sumber self-worth yang tidak bergantung penilaian orang lain *(Module 8, menunggu approval)*
+* [ ] Mengoreksi bias spotlight effect ("semua orang memperhatikan saya") dengan bukti nyata, dan melatih ketenangan batin/equanimity lewat praktik terstruktur (MBSR, non-attachment) *(Module 9, menunggu approval)*
 * [ ] Menghasilkan Personal Character Operating System sebagai Capstone Project, diuji lewat penerapan nyata minimal 4 minggu
 
 ---
@@ -142,6 +144,49 @@ Lessons:
 Mini Project: Pilih 1 kebiasaan baik yang ingin dibangun dan 1 kebiasaan buruk yang ingin dihentikan (boleh menyambung ke sistem disiplin Module 3) — petakan masing-masing lewat habit loop, lalu rancang minimal 2 intervensi konkret dari Four Laws untuk tiap kebiasaan (mis. "make it obvious" + "make it easy" untuk kebiasaan baik).
 
 Referensi riset: *Atomic Habits* — James Clear (2018), disilangkan ke riset yang sudah jadi Trusted Source domain ini (Growth Mindset/Dweck, Grit/Duckworth di `domains/character-development/DOMAIN.md`) — buku ini sumber sintesis populer, bukan riset primer, sehingga setiap klaim mekanistik (mis. "21 hari membentuk kebiasaan") diperiksa dulu terhadap literatur akademik sebelum diajarkan sebagai fakta.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 8 — Haus Validasi, Gila Hormat, Mencari Perhatian, dan Iri Hati/Dengki (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-13 atas permintaan "buat course melatih kerendahan hati dan ketenangan batin: atasi sombong, haus validasi, gila hormat, mencari perhatian, self-centeredness" — dipetakan sebagai perluasan domain `character-development` (dikonfirmasi user lewat AskUserQuestion, extend domain ini alih-alih domain baru) karena sombong/ego sudah dicover Module 1-5, tapi sisi "haus validasi eksternal" (approval, status, perhatian) belum punya modul sendiri. Lesson 8.5 (iri hati vs dengki) ditambahkan susulan hari yang sama atas pertanyaan lanjutan user "apakah iri hati atau dengki sudah ada". **Belum masuk hitungan progress course** — course sedang In Progress (Module 1, Lesson 1.4), jadi modul ini ditambahkan sebagai append (tidak menyisipkan/renumber modul yang sudah berjalan). Kalau disetujui, secara logis paling berguna dipelajari **setelah Module 5** (melengkapi kerangka Stoic soal ketidaktergantungan validasi eksternal dengan riset psikologi sosial kontemporer) dan **sebelum Module 6 capstone** — urutan aktual ditentukan user saat approval.
+
+Description: Module 1-5 fokus pada sombong/ego-terhadap-diri-sendiri dan cara memperlakukan orang lain. Modul ini membedah sisi lain ego yang sama: kebutuhan diakui/dihormati/diperhatikan oleh orang lain — dari mana asalnya secara psikologis, kapan itu normal (manusia memang makhluk sosial), dan kapan itu berubah jadi pola yang merugikan diri sendiri (mood rapuh, keputusan didikte citra, hubungan jadi transaksional).
+
+Lessons:
+
+* [ ] 8.1 Contingencies of Self-Worth (Crocker & Wolfe) — memetakan di mana harga diri sendiri "digantungkan" (approval, penampilan, kompetisi, status), dan kenapa self-worth kontingen membuat mood naik-turun ikut penilaian orang lain
+* [ ] 8.2 Sociometer Theory (Leary & Baumeister) — self-esteem sebagai meteran penerimaan sosial bawaan, kenapa haus validasi bukan tanda "lemah" tapi mekanisme evolusioner yang bisa lepas kendali
+* [ ] 8.3 Social Rank Theory (Paul Gilbert) — akar evolusioner "gila hormat"/obsesi status, dan kapan dorongan status berubah jadi sumber kecemasan/perbandingan sosial yang merusak
+* [ ] 8.4 Mencari perhatian & self-centeredness — mengenali pola perilaku (mendominasi percakapan, selalu mengarahkan topik ke diri sendiri, butuh jadi pusat perhatian) sebagai gejala permukaan dari Lesson 8.1-8.3, bukan sifat terpisah
+* [ ] 8.5 Iri hati vs dengki (Social Comparison Theory — Festinger; Benign vs Malicious Envy — van de Ven, Zeelenberg, Pieters) — membedah kenapa perbandingan sosial memicu iri, dan garis tegas antara iri yang memotivasi diri naik level (sehat) vs dengki yang ingin menjatuhkan orang lain (ditolak domain ini)
+
+Mini Project: Audit satu minggu — catat momen mencari validasi/pengakuan/perhatian secara sadar (medsos, percakapan, kerja) DAN momen merasa iri pada orang lain, petakan tiap momen ke salah satu domain contingent self-worth (Lesson 8.1) atau ke benign/malicious envy (Lesson 8.5), lalu tuliskan satu sumber self-worth alternatif yang tidak bergantung penilaian orang lain.
+
+Referensi riset: lihat sumber 11-14, 17-18 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 9 — Spotlight Effect dan Ketenangan Batin (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-13, bagian sama dengan Module 8 (lihat catatan asal di atas). Modul ini menutup dua elemen terakhir dari permintaan: "rasa seolah semua orang memperhatikan saya" (bias kognitif spesifik, berbeda dari haus validasi Module 8) dan "ketenangan batin" sebagai tujuan akhir gabungan Module 1-9. Secara logis dipelajari **setelah Module 8** (paling berguna sesudah paham sumber-sumber haus validasi) dan **sebelum Module 6 capstone**.
+
+Description: Module 8 menjawab kenapa manusia haus validasi/status; modul ini menjawab bias spesifik yang membuat itu terasa lebih intens dari kenyataan ("semua orang merhatiin saya"), lalu menutup dengan kerangka terlatih untuk tenang meski dorongan ego itu tetap muncul — equanimity sebagai skill, bukan kepribadian bawaan.
+
+Lessons:
+
+* [ ] 9.1 Spotlight Effect & Illusion of Transparency (Gilovich, Medvec, Savitsky) — bukti eksperimental orang secara sistematis melebih-lebihkan seberapa besar dirinya diperhatikan/dinilai orang lain
+* [ ] 9.2 Kenapa bias ini muncul — egocentric attention (perhatian sendiri ke diri sendiri disalahartikan sebagai perhatian orang lain ke diri kita), dan cara mengecek ulang asumsi "semua orang lihat saya" dengan bukti nyata
+* [ ] 9.3 Mindfulness-Based Stress Reduction (Kabat-Zinn) — praktik terstruktur melatih ketenangan batin secara nyata (bukan konsep abstrak "harus woles"), dipraktikkan bukan cuma dibaca
+* [ ] 9.4 Non-attachment (Sahdra, Shaver, Brown) menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3) — melepaskan kelekatan pada citra/pengakuan tanpa jadi apatis, equanimity sebagai titik keseimbangan
+
+Mini Project: Praktik MBSR ringan (body scan atau breathing meditation, 10 menit/hari) selama 1 minggu, DITAMBAH satu log "spotlight check" — momen merasa "semua orang merhatiin saya", lalu cek ulang bukti nyata seberapa besar itu benar.
+
+Referensi riset: lihat sumber 13, 15-16 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
 Status: Draft — menunggu approval, belum dimulai
 

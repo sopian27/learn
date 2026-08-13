@@ -2,11 +2,11 @@
 
 ## Domain Name
 
-Character Development (Kerendahan Hati, Etos Kerja, dan Rasa Hormat pada Orang Lain)
+Character Development (Kerendahan Hati, Etos Kerja, Rasa Hormat pada Orang Lain, dan Ketenangan Batin)
 
 ## Scope
 
-Membangun karakter yang genuinely rendah hati (bukan pura-pura), terus fokus memperbaiki diri berdasarkan feedback nyata, punya etos kerja/disiplin yang berkelanjutan (bukan semangat meledak lalu padam/burnout), dan memperlakukan orang lain dengan hormat (tidak meremehkan/merendahkan) — sebagai fondasi karakter yang berlaku lintas konteks (kerja, belajar, relasi). Fokus pada pembentukan kebiasaan mental & perilaku nyata yang teruji di dunia nyata, bukan sekadar pengetahuan filosofis yang dihafal.
+Membangun karakter yang genuinely rendah hati (bukan pura-pura), terus fokus memperbaiki diri berdasarkan feedback nyata, punya etos kerja/disiplin yang berkelanjutan (bukan semangat meledak lalu padam/burnout), dan memperlakukan orang lain dengan hormat (tidak meremehkan/merendahkan) — sebagai fondasi karakter yang berlaku lintas konteks (kerja, belajar, relasi). **Diperluas 2026-08-13** mencakup sisi lain dari ego yang sama: ketergantungan pada validasi eksternal (haus validasi, gila hormat/status, mencari perhatian), self-centeredness, bias spotlight effect ("rasa semua orang memperhatikan saya"), dan ketenangan batin (equanimity) sebagai lawan dari kegelisahan ego yang terus-menerus butuh diakui/diperhatikan. Fokus pada pembentukan kebiasaan mental & perilaku nyata yang teruji di dunia nyata, bukan sekadar pengetahuan filosofis yang dihafal.
 
 Secara eksplisit TIDAK mencakup:
 
@@ -28,8 +28,16 @@ Secara eksplisit TIDAK mencakup:
 8. **Ray Dalio — *Principles*** — kerangka praktisi (pendiri hedge fund) soal radical open-mindedness & kerendahan hati dalam pengambilan keputusan. Bias komersial dicatat (mempromosikan budaya perusahaannya sendiri) — selalu disilangkan ke sumber akademis sebelum dipakai.
 9. **Robert Greenleaf — Servant Leadership** — kerangka praktisi soal memimpin lewat melayani, bukan status/ego; melengkapi riset Level 5 Leadership (sumber 1).
 10. **Dale Carnegie — *How to Win Friends and Influence People*** — teks klasik (1936) soal menghormati orang lain, menghindari kritik/kontemp. Sudah tua dan non-empiris — selalu disilangkan ke riset kontemp modern (riset "Four Horsemen"/contempt milik Gottman, sudah divalidasi di `domains/relationships/DOMAIN.md`) sebelum dipakai.
+11. **Jennifer Crocker & Connie Wolfe — Contingencies of Self-Worth (University of Michigan, peer-reviewed, 2001)** — riset inti untuk "haus validasi": memetakan area mana harga diri seseorang digantungkan (approval orang lain, penampilan, kompetisi/perbandingan, dll) dan kenapa self-worth yang kontingen pada faktor eksternal justru membuat mood & motivasi rapuh. Dasar ilmiah paling langsung untuk membedakan validasi sehat dari haus validasi.
+12. **Mark Leary & Roy Baumeister — Sociometer Theory (peer-reviewed)** — self-esteem sebagai "meteran" internal penerimaan sosial, bukan ukuran nilai diri absolut; menjelaskan secara evolusioner kenapa manusia secara default sensitif pada penilaian orang lain (dan kenapa itu bisa lepas kendali jadi haus validasi/gila hormat).
+13. **Thomas Gilovich, Victoria Medvec, Kenneth Savitsky — riset Spotlight Effect & Illusion of Transparency (Cornell, peer-reviewed, *Journal of Personality and Social Psychology* 2000)** — bukti eksperimental bahwa orang secara sistematis melebih-lebihkan seberapa besar orang lain benar-benar memperhatikan mereka. Sumber utama untuk "rasa seolah semua orang memperhatikan saya".
+14. **Paul Gilbert — Social Rank Theory (peer-reviewed, psikologi evolusioner/klinis)** — status dan peringkat sosial sebagai sistem motivasi bawaan manusia; menjelaskan akar "gila hormat" secara evolusioner sekaligus kapan dorongan status jadi maladaptif (memicu kecemasan/depresi saat dirasa kalah).
+15. **Jon Kabat-Zinn — Mindfulness-Based Stress Reduction/MBSR (peer-reviewed, UMass Medical School)** — protokol mindfulness terverifikasi klinis untuk melatih ketenangan batin (equanimity) secara terstruktur, bukan sekadar konsep "harus tenang". Dasar ilmiah utama untuk elemen "ketenangan batin" domain ini.
+16. **Baljinder Sahdra, Phillip Shaver, Kirk Warren Brown — Nonattachment Scale (peer-reviewed)** — instrumen riset yang mengukur non-attachment (melepaskan kelekatan pada hasil/citra diri/pengakuan) sebagai trait psikologis terukur yang berkorelasi dengan kesejahteraan — melengkapi dikotomi kendali Stoic (Module 5) dengan validasi psikologi kontemporer.
+17. **Leon Festinger — Social Comparison Theory (peer-reviewed, 1954, klasik fondasional)** — manusia menilai diri sendiri secara bawaan lewat perbandingan ke orang lain (bukan patokan absolut). Dasar teoretis akar iri hati/dengki: iri muncul saat perbandingan sosial terasa mengancam self-worth (silang ke sumber 11-12).
+18. **Niels van de Ven, Marcel Zeelenberg, Rik Pieters — riset Benign vs Malicious Envy (Tilburg University, peer-reviewed, *Emotion* 2009)** — pembeda empiris paling penting untuk topik ini: benign envy ("iri" yang memotivasi diri naik ke level orang yang diirikan, sehat) vs malicious envy ("dengki" yang justru ingin menjatuhkan orang lain, destruktif). Dasar ilmiah utama untuk membedakan iri hati sehat dari dengki.
 
-Tidak pernah membangun satu lesson hanya dari sumber non-riset (6-10) tanpa menyilangkan ke sumber riset peer-reviewed (1-4).
+Tidak pernah membangun satu lesson hanya dari sumber non-riset (6-10) tanpa menyilangkan ke sumber riset peer-reviewed (1-4, 11-18).
 
 ## Applied Practice Definition
 
@@ -56,7 +64,7 @@ Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment
 
 ## Practitioner Reference Frame
 
-Bandingkan beberapa lensa untuk topik yang sama: Jim Collins (Level 5 Leadership — riset performa empiris) vs Carol Dweck/Angela Duckworth (psikologi akademis — growth mindset & grit) vs filosofi Stoic (kerangka manajemen ego klasik) vs Ray Dalio (praktisi bisnis — radical transparency) — dikontraskan eksplisit dengan pola toxic yang ditolak domain ini: humble-bragging, self-deprecation performatif, dan "grind culture" yang mengorbankan kesehatan demi citra kerja keras.
+Bandingkan beberapa lensa untuk topik yang sama: Jim Collins (Level 5 Leadership — riset performa empiris) vs Carol Dweck/Angela Duckworth (psikologi akademis — growth mindset & grit) vs filosofi Stoic (kerangka manajemen ego klasik) vs Ray Dalio (praktisi bisnis — radical transparency) vs Crocker & Wolfe/Leary & Baumeister (psikologi sosial akademis — sumber harga diri & sociometer theory) vs Kabat-Zinn/Gilbert (klinis — mindfulness & social rank theory) vs Festinger/van de Ven (psikologi sosial klasik & kontemporer — perbandingan sosial, benign vs malicious envy) — dikontraskan eksplisit dengan pola toxic yang ditolak domain ini: humble-bragging, self-deprecation performatif, "grind culture" yang mengorbankan kesehatan demi citra kerja keras, dan validation-seeking/attention-seeking yang menyamar sebagai "percaya diri".
 
 ## Domain-Specific Standards
 
@@ -66,6 +74,9 @@ Bandingkan beberapa lensa untuk topik yang sama: Jim Collins (Level 5 Leadership
 - **Kerja keras harus berkelanjutan.** Rencana disiplin yang secara sistematis mengorbankan tidur/istirahat ditandai dan direvisi, tidak dipuji sebagai "dedikasi".
 - **Menolak total** taktik apa pun yang merendahkan orang lain supaya diri terlihat/merasa lebih baik — termasuk humor sarkastik yang menyasar orang, gossip merendahkan, atau perbandingan sosial yang merendahkan.
 - **Eskalasi ke profesional**: jika refleksi menunjukkan indikasi depresi klinis, self-worth yang mengganggu fungsi harian, atau sebaliknya pola narsistik yang merusak kerja/relasi secara signifikan, mentor mengarahkan ke psikolog/psikiater berlisensi — bukan menganggap ini cukup diselesaikan lewat course ini saja.
+- **Spotlight effect bukan alasan mengabaikan kecemasan sosial nyata.** Materi "rasa semua orang memperhatikan saya" (sumber 13) menjelaskan bias kognitif normal — bukan diagnosis. Jika pola ini disertai kecemasan sosial yang mengganggu fungsi harian (menghindari interaksi, serangan panik), diarahkan ke profesional, bukan ditutup dengan "itu cuma bias kognitif, jangan dipikirkan".
+- **Ketenangan batin ≠ mati rasa/menekan emosi.** Equanimity (sumber 15-16) berarti tidak reaktif berlebihan terhadap penilaian orang lain — bukan berhenti peduli sama sekali atau menyupresi emosi asli. Dibedakan tegas dari detachment yang jadi alasan cuek/apatis terhadap orang lain, konsisten dengan house rule "menolak taktik merendahkan orang lain" di atas.
+- **Iri hati (benign envy) ≠ dengki (malicious envy).** Merasa iri lalu termotivasi naik level (sumber 18) TIDAK ditolak domain ini — justru bentuk sehat dorongan perbaikan diri, disilangkan ke growth mindset (sumber 3). Yang ditolak tegas hanya dengki: keinginan menjatuhkan/merugikan orang yang diirikan, atau senang saat orang itu gagal (bersinggungan dengan house rule "menolak taktik merendahkan orang lain" di atas).
 
 ## Domain Goal
 
