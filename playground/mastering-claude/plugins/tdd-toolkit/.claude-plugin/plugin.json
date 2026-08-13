@@ -1,0 +1,6 @@
+{
+    "name":"tdd-toolkit",
+    "version":"1.0.0",
+    "description":"Enforce observable RED-GREEN TDD loop before implementation claims",
+    "author":{"name":"sopian"}
+}

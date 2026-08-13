@@ -7,7 +7,7 @@
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
 Current Module: Module 4 — Skills & Plugins (in progress; Module 1-3 sudah selesai)
-Current Lesson: 4.3 Plugin — Bundling & Distribusi
+Current Lesson: 4.4 Best Practices & Keamanan
 Course Completion: 3/8 module selesai (37%)
 
 | Module | Status |
@@ -15,7 +15,7 @@ Course Completion: 3/8 module selesai (37%)
 | 1. Fondasi: Mental Model & Prompting | Selesai (2026-08-06) |
 | 2. Token Economy Claude Code | Selesai (2026-08-06) |
 | 3. Claude Code Mendalam | Selesai (2026-08-13) — Mini Project: Note CRUD API pakai 5 mekanisme, bukti di `playground/mastering-claude/3-mini-project.md` |
-| 4. Skills & Plugins | In Progress — 4.1 & 4.2 selesai (2026-08-13). 4.2: bikin skill `tdd-workflow` nyata, ketemu & fix bug frontmatter tanpa `---` fence + description anti-pattern (nyimpulin workflow bukan trigger doang), lulus positive-trigger test (RED-GREEN nyata: NPE di `NoteController.delete(null)`, guard clause fix) & negative-trigger test. Log: `playground/mastering-claude/4.2.md`, `.fix.md`, `.fix1.md` |
+| 4. Skills & Plugins | In Progress — 4.1-4.3 selesai (2026-08-13/14). 4.2: bikin skill `tdd-workflow` nyata, ketemu & fix bug frontmatter tanpa `---` fence + description anti-pattern (nyimpulin workflow bukan trigger doang), lulus positive-trigger test (RED-GREEN nyata: NPE di `NoteController.delete(null)`, guard clause fix) & negative-trigger test. 4.3: bundle skill `tdd-workflow` jadi plugin lokal `tdd-toolkit@sopian-local` (`playground/mastering-claude/plugins/tdd-toolkit/`), install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global (`~/.claude/plugins/cache/...`) bukan repo — folder skill manual lama dihapus, no double-load. Ketemu gotcha real: path case-mismatch (`D:\learn` vs `d:\learn`) bikin duplicate install entry di project scope. Log: `playground/mastering-claude/4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md` |
 | 5-8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`

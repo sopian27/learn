@@ -1,0 +1,8 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sopian-local",
+  "owner": { "name": "sopian" },
+  "plugins": [
+    { "name": "tdd-toolkit", "source": "./", "category": "workflow" }
+  ]
+}

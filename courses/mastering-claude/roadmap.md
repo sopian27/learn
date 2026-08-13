@@ -83,7 +83,7 @@ Lessons:
 
 * [x] 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
 * [x] 4.2 Membuat Skill Custom — workflow authoring, testing di sesi baru
-* [ ] 4.3 Plugin — Bundling & Distribusi (marketplace, git repo, `.claude-plugin/plugin.json`)
+* [x] 4.3 Plugin — Bundling & Distribusi (marketplace, git repo, `.claude-plugin/plugin.json`)
 * [ ] 4.4 Best Practices & Keamanan (description harus spesifik, audit skill dari sumber tak dikenal)
 
 Mini Project: Buat 1 skill custom untuk workflow pribadi (misal skill review PR ala kantor sendiri)
@@ -173,8 +173,8 @@ Module Completion: 3/8
 
 Overall Completion: ~37%
 
-Current Module: Module 4 — Skills & Plugins (in progress, 2/4 lesson selesai)
+Current Module: Module 4 — Skills & Plugins (in progress, 3/4 lesson selesai)
 
-Current Lesson: 4.3 Plugin — Bundling & Distribusi
+Current Lesson: 4.4 Best Practices & Keamanan
 
-Next Lesson: 4.3 Plugin — Bundling & Distribusi
+Next Lesson: 4.4 Best Practices & Keamanan
