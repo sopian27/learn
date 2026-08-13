@@ -6,16 +6,16 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Module 4 — Skills & Plugins (in progress; Module 1-3 sudah selesai)
-Current Lesson: 4.4 Best Practices & Keamanan
-Course Completion: 3/8 module selesai (37%)
+Current Module: Module 5 — Claude Cowork (belum dimulai; Module 1-4 sudah selesai)
+Current Lesson: 5.1 Cowork Overview & Positioning
+Course Completion: 4/8 module selesai (50%)
 
 | Module | Status |
 | ------ | ------ |
 | 1. Fondasi: Mental Model & Prompting | Selesai (2026-08-06) |
 | 2. Token Economy Claude Code | Selesai (2026-08-06) |
 | 3. Claude Code Mendalam | Selesai (2026-08-13) — Mini Project: Note CRUD API pakai 5 mekanisme, bukti di `playground/mastering-claude/3-mini-project.md` |
-| 4. Skills & Plugins | In Progress — 4.1-4.3 selesai (2026-08-13/14). 4.2: bikin skill `tdd-workflow` nyata, ketemu & fix bug frontmatter tanpa `---` fence + description anti-pattern (nyimpulin workflow bukan trigger doang), lulus positive-trigger test (RED-GREEN nyata: NPE di `NoteController.delete(null)`, guard clause fix) & negative-trigger test. 4.3: bundle skill `tdd-workflow` jadi plugin lokal `tdd-toolkit@sopian-local` (`playground/mastering-claude/plugins/tdd-toolkit/`), install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global (`~/.claude/plugins/cache/...`) bukan repo — folder skill manual lama dihapus, no double-load. Ketemu gotcha real: path case-mismatch (`D:\learn` vs `d:\learn`) bikin duplicate install entry di project scope. Log: `playground/mastering-claude/4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md` |
+| 4. Skills & Plugins | Selesai (2026-08-14) — 4.1-4.3: bikin skill `tdd-workflow` nyata + bundle jadi plugin lokal `tdd-toolkit@sopian-local`, install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global. 4.4: audit keamanan `tdd-toolkit` (checklist description/body/hook/MCP/bundled script/source pinning/least privilege) — koreksi 1 putaran (exercise awal salah tandai 5 poin "aman karena unknown", diperbaiki jadi verified-per-file). Mini Project Module 4 dipenuhi oleh `tdd-toolkit` (keputusan user, tidak bikin skill terpisah). Log: `playground/mastering-claude/4.1.md`, `.fix.md`, `4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md`, `4.4.md` |
 | 5-8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`

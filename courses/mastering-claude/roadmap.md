@@ -84,11 +84,11 @@ Lessons:
 * [x] 4.1 Anatomi Skill — `SKILL.md`, frontmatter, progressive disclosure
 * [x] 4.2 Membuat Skill Custom — workflow authoring, testing di sesi baru
 * [x] 4.3 Plugin — Bundling & Distribusi (marketplace, git repo, `.claude-plugin/plugin.json`)
-* [ ] 4.4 Best Practices & Keamanan (description harus spesifik, audit skill dari sumber tak dikenal)
+* [x] 4.4 Best Practices & Keamanan (description harus spesifik, audit skill dari sumber tak dikenal)
 
-Mini Project: Buat 1 skill custom untuk workflow pribadi (misal skill review PR ala kantor sendiri)
+Mini Project: Buat 1 skill custom untuk workflow pribadi (misal skill review PR ala kantor sendiri) — dipenuhi oleh skill `tdd-workflow` (dibangun 4.2) yang dibundle jadi plugin `tdd-toolkit` (dibangun 4.3), sengaja dihitung ulang sebagai mini project ini alih-alih bikin skill terpisah (keputusan user 2026-08-14). Log lengkap: `playground/mastering-claude/4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md`, `4.4.md`.
 
-Status: Belum dimulai
+Status: Selesai (2026-08-14)
 
 ---
 
@@ -169,12 +169,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 3/8
+Module Completion: 4/8
 
-Overall Completion: ~37%
+Overall Completion: 50%
 
-Current Module: Module 4 — Skills & Plugins (in progress, 3/4 lesson selesai)
+Current Module: Module 5 — Claude Cowork (belum dimulai)
 
-Current Lesson: 4.4 Best Practices & Keamanan
+Current Lesson: -
 
-Next Lesson: 4.4 Best Practices & Keamanan
+Next Lesson: 5.1 Cowork Overview & Positioning (beda dari Claude Code & chat biasa)
