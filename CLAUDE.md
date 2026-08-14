@@ -14,7 +14,7 @@ At the start of every session, read `ai-los/ACTIVE_MODE.md` first to determine a
 The Role and Spring Boot sections above describe the `software-engineering` domain, which is the default and currently the primary domain with content in this repository. When another domain is registered and active per `ai-los/ACTIVE_DOMAIN.md`, compose persona and instructions from `ai-los/CORE_LOS.md` plus that domain's `domains/<name>/DOMAIN.md` instead — see `ai-los/ARCHITECTURE_UNIVERSAL_LOS.md` for the full design.
 
 # Repository Priority
-Always load and follow the repository in this order:
+When multiple documents overlap or conflict, resolve using this precedence order (this is not a checklist to read in full every session — most of these are read on-demand when relevant):
 
 1. standards/ — engineering conventions and best practices, including cross-domain UNIVERSAL_STANDARDS.md (highest priority on conflict)
 2. ai-los/ — mentor operating modes (see ACTIVE_MODE.md), domain switching (see ACTIVE_DOMAIN.md), the domain-agnostic kernel (CORE_LOS.md), and course-creation rules
