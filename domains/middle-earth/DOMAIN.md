@@ -83,3 +83,7 @@ Quiz identifikasi (ras/artefak/gelar/Rings of Power), drill silsilah (mengisi fa
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/middle-earth/roadmap.md` di-approve — sementara: mampu menjelaskan kosmogoni Arda (Ainulindalë s.d. penciptaan) secara koheren, memetakan Valar/Maiar dan tiga ras utama dari ingatan, menyusun silsilah House of Finwë/Line of Elros/Line of Isildur secara akurat, menjelaskan penempaan Rings of Power dan konsekuensinya, menganalisis Kejatuhan Númenor dan War of the Ring lewat bukti tekstual, membedakan lapisan canon (terbit vs kompilasi vs draft vs adaptasi) secara konsisten, dan mengartikulasikan filosofi besar Tolkien (applicability vs allegory, evil sebagai privation of good, providence/eucatastrophe, kematian sebagai anugerah) dengan bukti tekstual — sambil selalu sadar garis tegas antara fiksi dan dunia nyata.
+
+## Registration History
+
+Registered 2026-08-14, domain pack + course roadmap dibangun atas permintaan user ("Buat course Middle-earth 0–expert: Ainulindalë, Valar, Elves, Men, Dwarves, Sauron, Númenor, Gondor, Arnor, Rings of Power, perang, timeline, lore, dan filosofi Tolkien."). Roadmap approved 2026-08-14, tetap Status: Paused mengikuti kebijakan cap 2-course-aktif — lanjut kapan saja atas permintaan "lanjut course Middle-earth".

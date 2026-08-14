@@ -73,3 +73,7 @@ Quiz identifikasi (region/House/sigil/motto), drill silsilah (mengisi family tre
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/westeros-history/roadmap.md` di-approve — sementara: mampu menjelaskan sejarah Westeros secara koheren dari Dawn Age sampai War of Five Kings, memetakan geografi dan silsilah Great Houses beserta Targaryen dari ingatan, menganalisis perang dan krisis suksesi lewat lensa strategi dan politik, mengartikulasikan filosofi kekuasaan yang GRRM eksplorasi lewat karyanya — sambil selalu sadar lapisan canon (novel vs companion book vs TV show) dan garis tegas antara fiksi dan dunia nyata.
+
+## Registration History
+
+Registered 2026-08-13, domain pack + course roadmap dibangun atas permintaan user ("Buat course sejarah Westeros 0–expert: geografi, Great Houses, Age of Heroes, Targaryen, naga, perang, suksesi, politik, agama, silsilah, strategi, dan filosofi kekuasaan"). Registered paused mengikuti kebijakan cap 2-course-aktif, menunggu approval user sebelum Lesson 1.

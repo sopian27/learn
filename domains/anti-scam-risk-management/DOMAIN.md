@@ -94,3 +94,7 @@ Bandingkan empat lensa berbeda untuk kasus yang sama:
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/anti-scam-risk-management/roadmap.md` di-approve — sementara: mampu mengenali taktik manipulasi psikologis di balik penipuan apa pun (dipetakan ke prinsip Cialdini), mengenali red flag scam lintas kategori (finansial, kepercayaan, transaksi, digital), melakukan verifikasi & due diligence nyata sebelum komitmen finansial/kontrak, mengambil keputusan tenang dan terkalibrasi di bawah tekanan FOMO/urgency, membaca red flag dasar dalam kontrak/perjanjian, mengelola risiko finansial secara sadar sebagai pertahanan (bukan perencanaan keuangan penuh), dan tahu persis langkah response/recovery yang benar kalau sudah terlanjur jadi korban — dibuktikan lewat Personal Anti-Scam & Risk Management System yang nyata dan bisa dipakai berulang seumur hidup, bukan sekadar teori.
+
+## Registration History
+
+Registered 2026-08-14, domain pack + course roadmap dibangun atas permintaan user ("Buat course Anti-Scam & Risk Management: kenali manipulasi, red flag, scam, due diligence, verifikasi, financial risk, decision-making, FOMO, kontrak, dan recovery kerugian."). Roadmap approved 2026-08-14, tetap Status: Paused mengikuti kebijakan cap 2-course-aktif — lanjut kapan saja atas permintaan "lanjut course Anti-Scam & Risk Management".

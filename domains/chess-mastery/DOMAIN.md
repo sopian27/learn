@@ -76,3 +76,7 @@ Bandingkan beberapa tradisi pelatihan untuk isu yang sama — "bagaimana pemain 
 ## Domain Goal
 
 Learner memiliki kekuatan catur praktis yang teruji nyata — memahami aturan & notasi sepenuhnya, mengenali pola taktik umum dengan cepat & akurat, punya repertoar opening yang dipahami (bukan dihafal), mampu mengkalkulasi posisi kompleks lewat metode candidate moves terstruktur, mengevaluasi posisi lewat elemen/imbalance yang konkret, menguasai teknik endgame fundamental sampai lanjut, memahami strategi & struktur pion jangka panjang, sudah mempelajari partai master secara mendalam (bukan sekadar menonton), mampu bermain turnamen dengan manajemen jam & rutinitas yang matang, menganalisis partainya sendiri secara disiplin (manual dulu, engine kedua), dan punya peta jalan pribadi realistis menuju gelar FIDE berikutnya — dibuktikan lewat data rating/puzzle terukur dan sistem latihan pribadi yang benar-benar berjalan, bukan cuma rasa percaya diri.
+
+## Registration History
+
+Registered 2026-08-13, domain pack + course roadmap dibangun atas permintaan user ("Buat course catur dari 0 hingga expert: aturan dasar, opening, tactics, calculation, positional play, endgame, strategy, master games, tournament training, analisis engine, dan roadmap menuju level GM"). Roadmap approved 2026-08-13, tetap Status: Paused mengikuti kebijakan cap 2-course-aktif — lanjut kapan saja atas permintaan "lanjut course Chess Mastery".

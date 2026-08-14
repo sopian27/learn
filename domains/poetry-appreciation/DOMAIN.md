@@ -95,3 +95,7 @@ Course ini sengaja menampilkan ketegangan antar-metode (New Criticism "teks berd
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/poetry-appreciation/roadmap.md` di-approve — sementara: mampu membaca puisi apa pun (termasuk puisi yang belum pernah dibahas course ini) secara aktif dan bernuansa — mengenali makna literal vs figuratif, mengidentifikasi simbol/metafora secara tepat istilah, mengartikulasikan emosi/tone dengan presisi, menempatkan puisi dalam konteksnya tanpa reduksi biografis, memahami filosofi yang dibawa tiap tradisi puitik, dan menyusun tafsir orisinal yang berjangkar bukti tekstual — setara pembaca sastra terlatih yang menikmati puisi lebih dalam, bukan cuma "suka/tidak suka".
+
+## Registration History
+
+Registered 2026-08-13, domain pack + course roadmap dibangun atas permintaan user ("Buat course apresiasi puisi Indonesia & dunia: Gibran, Chairil, Sapardi, Rendra, Pinurbo, Rumi, Neruda, Shakespeare, Dickinson, Frost, Poe, Whitman, Dante, Hafez; ajarkan makna, simbol, metafora, emosi, konteks, filosofi, interpretasi"). Registered paused mengikuti kebijakan cap 2-course-aktif, menunggu approval user sebelum Lesson 1.

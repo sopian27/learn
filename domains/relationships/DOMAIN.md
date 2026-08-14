@@ -81,3 +81,7 @@ Bandingkan beberapa lensa untuk topik yang sama: pendekatan Gottman Institute (r
 ## Domain Goal
 
 Learner memiliki sistem cinta sehat yang teruji nyata sepanjang siklus hubungan: kesiapan diri yang tidak bergantung validasi pasangan, kemampuan membedakan atraksi nyata dari mitos/infatuasi, kriteria & evaluasi kecocokan calon pasangan berbasis riset, komunikasi yang menguatkan (bukan merusak) kedekatan, boundaries yang sehat tanpa mengorbankan otonomi siapa pun, trust yang dibangun dan bisa diperbaiki, konflik yang dikelola lewat repair bukan Four Horsemen, intimacy yang terjaga jangka panjang, keputusan commitment besar berdasarkan kesiapan nyata bukan tekanan/ketakutan, dan kapasitas menghadapi penolakan/patah hati secara sehat ketika hubungan tidak berjalan — dituangkan dalam Personal Healthy Love System sebagai bukti konkret.
+
+## Registration History
+
+Domain pack ini sebenarnya sudah ada sejak sebelumnya (awalnya bernama "Relationships & Marriage Readiness"), tapi terlewat tidak pernah ditambahkan ke registry `ai-los/ACTIVE_DOMAIN.md` — dikoreksi 2026-08-12. Domain diperluas pada tanggal yang sama (2026-08-12) atas permintaan user ("Buat course tentang cinta sehat: self-love, attraction, memilih pasangan, komunikasi, boundaries, trust, konflik, intimacy, commitment, dan menghadapi penolakan/patah hati"), dikonfirmasi lewat AskUserQuestion untuk extend domain ini alih-alih membuat domain baru terpisah — menghindari duplikasi cakupan "memilih pasangan"/"commitment" yang sudah dalam.

@@ -75,3 +75,7 @@ Quiz identifikasi (mantra/makhluk/rumah/simbol), drill silsilah (mengisi family 
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/harry-potter/roadmap.md` di-approve — sementara: mampu menjelaskan sejarah dunia sihir secara koheren dari pendirian Hogwarts sampai Battle of Hogwarts, memetakan Hogwarts dan silsilah keluarga penyihir utama dari ingatan, menjelaskan sistem sihir (mantra/ramuan/makhluk/Horcrux/Deathly Hallows) secara internally consistent, menganalisis Ministry of Magic dan dua Wizarding War lewat bukti tekstual, dan mengartikulasikan filosofi/tema besar (kematian, cinta, kekuasaan, pilihan, prasangka) yang Rowling eksplorasi lewat karyanya — sambil selalu sadar lapisan canon dan garis tegas antara fiksi dan dunia nyata.
+
+## Registration History
+
+Registered 2026-08-14, domain pack + course roadmap dibangun atas permintaan user ("Buat course Harry Potter 0–expert: sejarah dunia sihir, Hogwarts, keluarga, Ministry, perang Voldemort, karakter, magic system, timeline, lore, simbol, dan filosofi."). Roadmap approved 2026-08-14, tetap Status: Paused mengikuti kebijakan cap 2-course-aktif — lanjut kapan saja atas permintaan "lanjut course Harry Potter".

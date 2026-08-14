@@ -99,3 +99,7 @@ Course ini sengaja menampilkan ketegangan antar-metode (formalisme Greenberg "me
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/art-appreciation/roadmap.md` di-approve — sementara: mampu melihat & menganalisis karya seni visual apa pun (termasuk yang belum pernah dibahas course ini) secara aktif dan bernuansa — mengenali elemen formal (garis, warna, komposisi) dan efeknya, mengidentifikasi simbol/ikonografi secara tepat istilah & konvensi periode, menempatkan karya dalam konteksnya tanpa reduksi biografis, memahami filosofi seni lintas periode, dan menyusun tafsir/kritik orisinal yang berjangkar bukti visual — setara penonton terlatih yang menikmati seni lebih dalam dan punya selera seni personal yang *informed*, bukan cuma "suka/tidak suka".
+
+## Registration History
+
+Registered 2026-08-13, domain pack + course roadmap dibangun atas permintaan user ("Buat course art appreciation 0-expert: belajar melihat, warna, komposisi, simbol, filosofi, sejarah seni, konteks, interpretasi, masterpiece, kritik seni, dan membangun selera seni"). Registered paused mengikuti kebijakan cap 2-course-aktif, menunggu approval user sebelum Lesson 1.
