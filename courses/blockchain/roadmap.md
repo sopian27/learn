@@ -1,4 +1,4 @@
-# Course Roadmap
+﻿# Course Roadmap
 
 ## Course Information
 
@@ -47,10 +47,10 @@ Description: Titik awal mutlak dari nol. Sebelum menyentuh kode, Anda harus paha
 
 Lessons:
 
-* [ ] Apa itu blockchain sebenarnya: distributed ledger, kenapa "terdesentralisasi" itu penting (dan kapan tidak penting)
-* [ ] Trust tanpa perantara: masalah double-spending dan bagaimana blockchain menyelesaikannya secara konseptual
-* [ ] Anatomi block & chain secara high-level (header, hash, previous hash, transaksi) — belum coding, cukup diagram
-* [ ] Blockchain publik vs privat/permissioned, dan use case di luar cryptocurrency (supply chain, identity, dll) — sekilas, supaya tidak salah kira blockchain = crypto saja
+* [ ] 1.1 Apa itu blockchain sebenarnya: distributed ledger, kenapa "terdesentralisasi" itu penting (dan kapan tidak penting)
+* [ ] 1.2 Trust tanpa perantara: masalah double-spending dan bagaimana blockchain menyelesaikannya secara konseptual
+* [ ] 1.3 Anatomi block & chain secara high-level (header, hash, previous hash, transaksi) — belum coding, cukup diagram
+* [ ] 1.4 Blockchain publik vs privat/permissioned, dan use case di luar cryptocurrency (supply chain, identity, dll) — sekilas, supaya tidak salah kira blockchain = crypto saja
 
 Mini Project: Diagram tangan (atau tool diagram) yang menjelaskan alur "Alice kirim 5 koin ke Bob" dari mulai transaksi dibuat sampai masuk block — tanpa kode, murni untuk validasi pemahaman konsep.
 
@@ -64,10 +64,10 @@ Description: Tiga primitif kriptografi yang jadi fondasi segala sesuatu di block
 
 Lessons:
 
-* [ ] Hash function (SHA-256): properti kunci (deterministic, avalanche effect, one-way, collision resistance) — praktik hashing di Java (`MessageDigest`)
-* [ ] Merkle tree: kenapa dipakai untuk merangkum banyak transaksi jadi satu hash, cara build & verify di Java
-* [ ] Public-key cryptography: asymmetric encryption, digital signature (ECDSA), cara kerja sign & verify — praktik pakai Java `KeyPairGenerator`/`Signature`
-* [ ] Menghubungkan ketiganya: bagaimana hash + Merkle tree + signature membentuk fondasi integrity & authenticity di blockchain
+* [ ] 2.1 Hash function (SHA-256): properti kunci (deterministic, avalanche effect, one-way, collision resistance) — praktik hashing di Java (`MessageDigest`)
+* [ ] 2.2 Merkle tree: kenapa dipakai untuk merangkum banyak transaksi jadi satu hash, cara build & verify di Java
+* [ ] 2.3 Public-key cryptography: asymmetric encryption, digital signature (ECDSA), cara kerja sign & verify — praktik pakai Java `KeyPairGenerator`/`Signature`
+* [ ] 2.4 Menghubungkan ketiganya: bagaimana hash + Merkle tree + signature membentuk fondasi integrity & authenticity di blockchain
 
 Mini Project: Class Java `CryptoUtils` yang bisa hashing, generate key pair, sign pesan, dan verify signature — akan dipakai ulang di Module 3-6.
 
@@ -81,10 +81,10 @@ Description: Inti dari pendekatan fundamentals-first yang Anda pilih. Anda menul
 
 Lessons:
 
-* [ ] Struktur `Block`: index, timestamp, data, previousHash, hash — implementasi Java memakai `CryptoUtils` dari Module 2
-* [ ] Membentuk `Blockchain` (list of blocks) & method `addBlock`
-* [ ] Validasi integrity: method `isChainValid()` yang mendeteksi tampering
-* [ ] Kenapa hash saja tidak cukup untuk mencegah spam block — pengantar ke proof-of-work (jembatan ke Module 4)
+* [ ] 3.1 Struktur `Block`: index, timestamp, data, previousHash, hash — implementasi Java memakai `CryptoUtils` dari Module 2
+* [ ] 3.2 Membentuk `Blockchain` (list of blocks) & method `addBlock`
+* [ ] 3.3 Validasi integrity: method `isChainValid()` yang mendeteksi tampering
+* [ ] 3.4 Kenapa hash saja tidak cukup untuk mencegah spam block — pengantar ke proof-of-work (jembatan ke Module 4)
 
 Mini Project: Blockchain Java berjalan di memory (belum P2P, belum consensus sungguhan) yang bisa menambah block, lalu didemokan: ubah data 1 block lama secara sengaja, tunjukkan `isChainValid()` mendeteksinya.
 
@@ -98,10 +98,10 @@ Description: Bagaimana banyak node yang tidak saling percaya bisa sepakat pada s
 
 Lessons:
 
-* [ ] Proof-of-Work mendalam: mining, difficulty target, nonce — implementasi mining sederhana di `Block` dari Module 3
-* [ ] Proof-of-Stake: cara kerja, kenapa Ethereum bermigrasi dari PoW ke PoS (The Merge), trade-off energi vs keamanan
-* [ ] Byzantine Fault Tolerance & consensus lain sekilas (PBFT, Nakamoto consensus) — cukup untuk paham istilah yang sering muncul
-* [ ] Serangan & masalah consensus: 51% attack, fork (soft fork vs hard fork), longest chain rule
+* [ ] 4.1 Proof-of-Work mendalam: mining, difficulty target, nonce — implementasi mining sederhana di `Block` dari Module 3
+* [ ] 4.2 Proof-of-Stake: cara kerja, kenapa Ethereum bermigrasi dari PoW ke PoS (The Merge), trade-off energi vs keamanan
+* [ ] 4.3 Byzantine Fault Tolerance & consensus lain sekilas (PBFT, Nakamoto consensus) — cukup untuk paham istilah yang sering muncul
+* [ ] 4.4 Serangan & masalah consensus: 51% attack, fork (soft fork vs hard fork), longest chain rule
 
 Mini Project: Tambahkan proof-of-work mining ke blockchain Module 3 (dengan difficulty yang bisa diatur), lalu ukur & catat waktu mining di beberapa level difficulty berbeda.
 
@@ -115,10 +115,10 @@ Description: Blockchain nyata bukan satu program yang berjalan sendirian — ini
 
 Lessons:
 
-* [ ] Konsep jaringan P2P vs client-server, kenapa blockchain butuh P2P
-* [ ] Membangun komunikasi antar-node sederhana di Java (socket atau REST endpoint minimal) untuk broadcast block baru
-* [ ] Resolusi konflik antar-node: longest chain rule dalam praktik — node menerima chain mana ketika ada dua versi berbeda
-* [ ] Keterbatasan implementasi sendiri vs jaringan produksi (network partition, latency, Sybil attack) — didiskusikan, tidak perlu diimplementasikan penuh
+* [ ] 5.1 Konsep jaringan P2P vs client-server, kenapa blockchain butuh P2P
+* [ ] 5.2 Membangun komunikasi antar-node sederhana di Java (socket atau REST endpoint minimal) untuk broadcast block baru
+* [ ] 5.3 Resolusi konflik antar-node: longest chain rule dalam praktik — node menerima chain mana ketika ada dua versi berbeda
+* [ ] 5.4 Keterbatasan implementasi sendiri vs jaringan produksi (network partition, latency, Sybil attack) — didiskusikan, tidak perlu diimplementasikan penuh
 
 Mini Project: Jalankan 2-3 instance node Java blockchain Anda secara lokal (port berbeda), broadcast block baru dari satu node, dan tunjukkan node lain ikut sinkron dan menyelesaikan konflik chain.
 
@@ -132,10 +132,10 @@ Description: Sejauh ini "data" di block Anda masih sembarang string. Modul ini m
 
 Lessons:
 
-* [ ] Struktur transaksi: sender, receiver, amount, signature — menandatangani transaksi dengan `CryptoUtils` dari Module 2
-* [ ] Wallet sederhana: key pair sebagai identitas, address dari public key
-* [ ] UTXO model (Bitcoin): cara kerja, kenapa didesain begitu, kelebihan/kekurangannya
-* [ ] Account-based model (Ethereum): cara kerja, beda dengan UTXO, kenapa Ethereum memilih ini (relevan untuk smart contract di Module 8+)
+* [ ] 6.1 Struktur transaksi: sender, receiver, amount, signature — menandatangani transaksi dengan `CryptoUtils` dari Module 2
+* [ ] 6.2 Wallet sederhana: key pair sebagai identitas, address dari public key
+* [ ] 6.3 UTXO model (Bitcoin): cara kerja, kenapa didesain begitu, kelebihan/kekurangannya
+* [ ] 6.4 Account-based model (Ethereum): cara kerja, beda dengan UTXO, kenapa Ethereum memilih ini (relevan untuk smart contract di Module 8+)
 
 Mini Project: Tambahkan transaksi bertanda tangan (bukan string sembarang) ke blockchain Java Anda, dengan validasi signature sebelum transaksi diterima ke block — proyek Java Anda sekarang punya wallet, transaksi, mining, dan P2P sinkron: blockchain toy yang lengkap secara konsep.
 
@@ -149,9 +149,9 @@ Description: Modul singkat untuk menempatkan apa yang sudah Anda bangun ke dalam
 
 Lessons:
 
-* [ ] Bitcoin whitepaper (Satoshi Nakamoto) — walkthrough poin-poin kunci, dihubungkan ke apa yang sudah dibangun di Module 3-6
-* [ ] Bitcoin scripting overview (Script bukan Turing-complete) — kenapa ini jadi motivasi Ethereum menambahkan smart contract
-* [ ] Mempool, transaction fee, block reward & halving — konsep ekonomi dasar sebuah blockchain
+* [ ] 7.1 Bitcoin whitepaper (Satoshi Nakamoto) — walkthrough poin-poin kunci, dihubungkan ke apa yang sudah dibangun di Module 3-6
+* [ ] 7.2 Bitcoin scripting overview (Script bukan Turing-complete) — kenapa ini jadi motivasi Ethereum menambahkan smart contract
+* [ ] 7.3 Mempool, transaction fee, block reward & halving — konsep ekonomi dasar sebuah blockchain
 
 Mini Project: Tidak ada coding baru — tulis ringkasan 1 halaman (di `progress/notes.md`) yang memetakan setiap komponen blockchain toy Anda (Module 3-6) ke komponen setara di Bitcoin sungguhan.
 
@@ -165,10 +165,10 @@ Description: Transisi dari "blockchain yang Anda bangun sendiri" ke Ethereum sun
 
 Lessons:
 
-* [ ] Kenapa Ethereum lahir: keterbatasan Bitcoin scripting, visi "world computer"
-* [ ] Ethereum Virtual Machine (EVM): apa itu, bytecode, gas sebagai mekanisme anti-spam/DoS
-* [ ] Account types (EOA vs Contract Account), nonce, transaction lifecycle di Ethereum
-* [ ] Ethereum network: mainnet, testnet (Sepolia), local network (Hardhat/Anvil) — setup wallet (MetaMask) & dapatkan testnet ETH dari faucet
+* [ ] 8.1 Kenapa Ethereum lahir: keterbatasan Bitcoin scripting, visi "world computer"
+* [ ] 8.2 Ethereum Virtual Machine (EVM): apa itu, bytecode, gas sebagai mekanisme anti-spam/DoS
+* [ ] 8.3 Account types (EOA vs Contract Account), nonce, transaction lifecycle di Ethereum
+* [ ] 8.4 Ethereum network: mainnet, testnet (Sepolia), local network (Hardhat/Anvil) — setup wallet (MetaMask) & dapatkan testnet ETH dari faucet
 
 Mini Project: Setup MetaMask, hubungkan ke testnet Sepolia, kirim 1 transaksi testnet, dan telusuri transaksinya di block explorer (Etherscan) — memetakan field yang terlihat di explorer ke konsep dari modul ini.
 
@@ -182,11 +182,11 @@ Description: Bahasa pemrograman smart contract pertama Anda, dimulai dari nol. A
 
 Lessons:
 
-* [ ] Setup Remix IDE, struktur file `.sol`, compiler & pragma version
-* [ ] Tipe data, state variable vs local variable, visibility (`public`, `private`, `internal`, `external`)
-* [ ] Function: modifier, `view`/`pure`, parameter, return value
-* [ ] Constructor, `msg.sender`, `msg.value`, cara kontrak menerima & mengirim Ether
-* [ ] Deploy kontrak pertama ke local network (Hardhat/Anvil) dari Remix atau CLI
+* [ ] 9.1 Setup Remix IDE, struktur file `.sol`, compiler & pragma version
+* [ ] 9.2 Tipe data, state variable vs local variable, visibility (`public`, `private`, `internal`, `external`)
+* [ ] 9.3 Function: modifier, `view`/`pure`, parameter, return value
+* [ ] 9.4 Constructor, `msg.sender`, `msg.value`, cara kontrak menerima & mengirim Ether
+* [ ] 9.5 Deploy kontrak pertama ke local network (Hardhat/Anvil) dari Remix atau CLI
 
 Mini Project: Kontrak `SimpleStorage` atau `SimpleBank` (deposit/withdraw Ether) — deploy ke local network, interaksi lewat Remix.
 
@@ -200,11 +200,11 @@ Description: Struktur data & pola yang dipakai di hampir semua smart contract pr
 
 Lessons:
 
-* [ ] Struct, array, mapping — kombinasi umum untuk merepresentasikan data on-chain
-* [ ] Events & logging, custom error (`revert`, `require`, `assert` — bedanya & kapan pakai yang mana)
-* [ ] Inheritance & interface di Solidity, `abstract contract`
-* [ ] Standar ERC-20 (fungible token): baca spesifikasinya, implementasikan dari nol (tanpa library dulu, supaya paham detailnya)
-* [ ] OpenZeppelin: kenapa industri pakai library ini, migrasi implementasi ERC-20 Anda ke versi OpenZeppelin
+* [ ] 10.1 Struct, array, mapping — kombinasi umum untuk merepresentasikan data on-chain
+* [ ] 10.2 Events & logging, custom error (`revert`, `require`, `assert` — bedanya & kapan pakai yang mana)
+* [ ] 10.3 Inheritance & interface di Solidity, `abstract contract`
+* [ ] 10.4 Standar ERC-20 (fungible token): baca spesifikasinya, implementasikan dari nol (tanpa library dulu, supaya paham detailnya)
+* [ ] 10.5 OpenZeppelin: kenapa industri pakai library ini, migrasi implementasi ERC-20 Anda ke versi OpenZeppelin
 
 Mini Project: Deploy token ERC-20 Anda sendiri (nama & simbol custom) ke testnet Sepolia, verifikasi source code di Etherscan.
 
@@ -218,11 +218,11 @@ Description: Yang membedakan "bisa menulis Solidity" dengan "bisa dipercaya menu
 
 Lessons:
 
-* [ ] Reentrancy attack: cara kerja (studi kasus The DAO hack), pola Checks-Effects-Interactions, `ReentrancyGuard`
-* [ ] Integer overflow/underflow (konteks Solidity 0.8+ built-in check), access control yang salah (`onlyOwner`, role-based access dengan OpenZeppelin `AccessControl`)
-* [ ] Gas optimization: storage vs memory vs calldata, packing struct, kesalahan umum yang boros gas
-* [ ] Standar ERC-721 (NFT): spesifikasi, implementasi pakai OpenZeppelin
-* [ ] Upgradeability overview (proxy pattern) — konsep & risikonya, tidak perlu diimplementasikan penuh
+* [ ] 11.1 Reentrancy attack: cara kerja (studi kasus The DAO hack), pola Checks-Effects-Interactions, `ReentrancyGuard`
+* [ ] 11.2 Integer overflow/underflow (konteks Solidity 0.8+ built-in check), access control yang salah (`onlyOwner`, role-based access dengan OpenZeppelin `AccessControl`)
+* [ ] 11.3 Gas optimization: storage vs memory vs calldata, packing struct, kesalahan umum yang boros gas
+* [ ] 11.4 Standar ERC-721 (NFT): spesifikasi, implementasi pakai OpenZeppelin
+* [ ] 11.5 Upgradeability overview (proxy pattern) — konsep & risikonya, tidak perlu diimplementasikan penuh
 
 Mini Project: Audit checklist sendiri — ambil 1 kontrak yang sengaja punya bug (reentrancy atau access control), temukan & perbaiki bug-nya, dokumentasikan prosesnya.
 
@@ -236,10 +236,10 @@ Description: Alur kerja profesional untuk menulis, menguji, dan men-deploy smart
 
 Lessons:
 
-* [ ] Hardhat atau Foundry: setup project, struktur folder, compile & deploy script
-* [ ] Testing smart contract: unit test kontrak (JavaScript/TypeScript dengan Hardhat, atau Solidity test dengan Foundry)
-* [ ] `ethers.js`: berinteraksi dengan kontrak dari kode (read/write, listen ke events)
-* [ ] Menghubungkan dApp ke frontend: koneksi wallet (MetaMask) via `ethers.js`, kirim transaksi dari UI sederhana
+* [ ] 12.1 Hardhat atau Foundry: setup project, struktur folder, compile & deploy script
+* [ ] 12.2 Testing smart contract: unit test kontrak (JavaScript/TypeScript dengan Hardhat, atau Solidity test dengan Foundry)
+* [ ] 12.3 `ethers.js`: berinteraksi dengan kontrak dari kode (read/write, listen ke events)
+* [ ] 12.4 Menghubungkan dApp ke frontend: koneksi wallet (MetaMask) via `ethers.js`, kirim transaksi dari UI sederhana
 
 Mini Project: Bungkus kontrak ERC-20/ERC-721 dari Module 10-11 dengan test suite (Hardhat/Foundry) yang hijau, plus halaman web sederhana yang bisa connect wallet dan memanggil fungsi kontrak.
 
@@ -253,10 +253,10 @@ Description: Modul penutup — menyatukan semua yang sudah dipelajari jadi 1 pro
 
 Lessons:
 
-* [ ] Checklist deploy production-grade ke testnet: verifikasi Etherscan, dokumentasi kontrak (NatSpec comments)
-* [ ] Overview ekosistem lanjutan: Layer 2 (Arbitrum, Optimism, Base) — kenapa ada, bagaimana bedanya dengan L1
-* [ ] Overview DeFi & pola umum (DEX, lending, staking) sebagai wawasan lanjutan — konsep saja, tidak diimplementasikan
-* [ ] Cara tetap up-to-date: sumber bacaan (ethereum.org, Solidity changelog), audit report sebagai bahan belajar (contoh kasus hack terkenal)
+* [ ] 13.1 Checklist deploy production-grade ke testnet: verifikasi Etherscan, dokumentasi kontrak (NatSpec comments)
+* [ ] 13.2 Overview ekosistem lanjutan: Layer 2 (Arbitrum, Optimism, Base) — kenapa ada, bagaimana bedanya dengan L1
+* [ ] 13.3 Overview DeFi & pola umum (DEX, lending, staking) sebagai wawasan lanjutan — konsep saja, tidak diimplementasikan
+* [ ] 13.4 Cara tetap up-to-date: sumber bacaan (ethereum.org, Solidity changelog), audit report sebagai bahan belajar (contoh kasus hack terkenal)
 
 Portfolio Project: Lihat "Enterprise Project" di bawah.
 
