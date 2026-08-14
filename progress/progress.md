@@ -7,7 +7,7 @@
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
 Current Module: Module 5 — Claude Cowork (In Progress)
-Current Lesson: 5.2 Scheduled & Unattended Tasks
+Current Lesson: 5.3 Computer Use / Dispatch
 Course Completion: 4/8 module selesai (50%)
 
 | Module | Status |
@@ -16,7 +16,7 @@ Course Completion: 4/8 module selesai (50%)
 | 2. Token Economy Claude Code | Selesai (2026-08-06) |
 | 3. Claude Code Mendalam | Selesai (2026-08-13) — Mini Project: Note CRUD API pakai 5 mekanisme, bukti di `playground/mastering-claude/3-mini-project.md` |
 | 4. Skills & Plugins | Selesai (2026-08-14) — 4.1-4.3: bikin skill `tdd-workflow` nyata + bundle jadi plugin lokal `tdd-toolkit@sopian-local`, install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global. 4.4: audit keamanan `tdd-toolkit` (checklist description/body/hook/MCP/bundled script/source pinning/least privilege) — koreksi 1 putaran (exercise awal salah tandai 5 poin "aman karena unknown", diperbaiki jadi verified-per-file). Mini Project Module 4 dipenuhi oleh `tdd-toolkit` (keputusan user, tidak bikin skill terpisah). Log: `playground/mastering-claude/4.1.md`, `.fix.md`, `4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md`, `4.4.md` |
-| 5. Claude Cowork | In Progress — 5.1 Selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi (Q3 reasoning diperbaiki dari salah framing "dev environment" jadi "VM isolasi + overhead orkestrasi subagent"). Log: `playground/mastering-claude/5.1.md`, `.fix.md` |
+| 5. Claude Cowork | In Progress — 5.1 Selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi (Q3 reasoning diperbaiki dari salah framing "dev environment" jadi "VM isolasi + overhead orkestrasi subagent"). 5.2 Selesai (2026-08-14), skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam ke mekanisme failure detector). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md` |
 | 6-8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
