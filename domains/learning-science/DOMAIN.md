@@ -69,3 +69,7 @@ Bandingkan bagaimana peneliti motivasi (lab Deci & Ryan, SDT), learning scientis
 ## Domain Goal
 
 Learner memiliki sistem belajar pribadi yang membuat proses belajar (termasuk seluruh course lain di repo AI-LOS ini) terasa menyenangkan, bermakna, dan berkelanjutan — bukan beban yang dipaksakan — dibuktikan lewat penerapan nyata ke minimal satu course aktif selama beberapa minggu, dituangkan dalam Personal Joyful Learning System sebagai bukti konkret, bukan sekadar teori yang dibaca lalu dilupakan.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("buat course tentang teknik agar belajar terasa menyenangkan, membahagiakan, dan tidak menjadi beban — fokus psikologi, kebiasaan, motivasi, flow, dan praktik nyata").

@@ -69,3 +69,7 @@ Bandingkan bagaimana cognitive psychology lab (Bjork Learning & Forgetting Lab U
 ## Domain Goal
 
 Learner memiliki Personal Long-Term Memory System yang benar-benar berjalan lawan materi course aktif nyata di repo ini, dibuktikan lewat data retensi asli (skor kuis before-after dari waktu ke waktu) — bukan sekadar tahu teori active recall/spacing/Feynman/elaboration/tidur tanpa pernah menerapkannya secara konsisten.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("buat course tentang cara membangun ingatan jangka panjang yang kuat, ajarkan active recall, spaced repetition, Feynman, elaborasi, praktik, tidur, dan teknik penerapannya").

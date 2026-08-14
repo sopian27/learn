@@ -77,3 +77,7 @@ Sumber craft-theory (McKee, Truby, Vogler, Snyder, Yorke, Swain, Sanderson) dipa
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/storytelling/roadmap.md` di-approve — sementara: mampu merancang dan menulis cerita naratif orisinal yang utuh (karakter dengan arc jelas, konflik berlapis, plot terstruktur, dialog dengan subtext, worldbuilding konsisten, tema yang muncul lewat show-don't-tell, scene yang punya goal-conflict, pacing yang dikendalikan sengaja, dan simbolisme yang memperkuat makna) — setara level penulis serius yang siap mengembangkan karya ke tahap revisi/submission, dengan Tolkien/GRRM/Steven Knight sebagai kerangka pembanding kualitas.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("buat course storytelling dari level 0 hingga expert — karakter, konflik, plot, dialogue, worldbuilding, theme, scene, pacing, symbolism, advanced storytelling, dengan Tolkien, GRRM, dan Steven Knight sebagai studi kasus").

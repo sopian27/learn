@@ -80,3 +80,7 @@ Bandingkan beberapa tradisi untuk isu yang sama — "kapan intuisi bisa dipercay
 ## Domain Goal
 
 Learner memiliki sistem intuisi yang teruji nyata — mampu melakukan observasi terstruktur yang menangkap detail yang biasanya terlewat, membangun pattern library dari pengalaman nyata di domain pilihannya, membuat prediksi eksplisit dengan confidence level yang terkalibrasi akurat (bukan overconfident/underconfident), membaca situasi sosial berbasis sinyal terverifikasi (bukan proyeksi), membedakan sinyal intuisi pattern-based dari sinyal anxiety difus secara konsisten, membuat keputusan cepat yang teruji kualitas prosesnya di bawah tekanan waktu, tahu kapan lingkungan cukup "kind" untuk dipercaya intuisinya dan kapan harus beralih ke reasoning deliberatif, dan menutup loop feedback secara berkelanjutan supaya intuisinya makin valid dari waktu ke waktu — dibuktikan lewat track record kalibrasi nyata (skor Brier/akurasi prediksi terukur), bukan cuma rasa percaya diri.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("Buat course untuk melatih intuisi: observasi, pattern recognition, prediksi, membaca situasi sosial, membedakan intuisi vs anxiety, decision-making, dan evaluasi feedback").

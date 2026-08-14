@@ -74,3 +74,7 @@ Bandingkan lima lensa berbeda untuk rapat yang sama:
 ## Domain Goal
 
 Mampu mengikuti rapat apa pun secara real-time dan mengubahnya jadi pemahaman mendalam: mendengarkan aktif, menyaring signal dari noise di tengah tekanan waktu, mencatat terstruktur, memahami konteks & dinamika kekuasaan yang tidak terucap, bertanya tepat pada momen yang tepat, mensintesis catatan mentah jadi ringkasan actionable (ala Pyramid Principle), melacak keputusan & tindak lanjut sampai tuntas, dan menganalisis efektivitas rapat dari waktu ke waktu — setara kemampuan seorang meeting analyst/chief-of-staff/executive assistant profesional, dibuktikan lewat Notulen Log nyata dari rapat sungguhan, bukan latihan hipotetis semata.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("Buat course notulen dari 0 hingga expert. Ajarkan active listening, membedakan signal vs noise, note-taking, memahami konteks, questioning, synthesis, decision/action tracking, dan meeting analysis. Sertakan latihan nyata bertahap sampai mampu memahami meeting secara mendalam.").

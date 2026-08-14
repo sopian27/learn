@@ -92,3 +92,7 @@ Concept-check singkat setelah teori (termasuk uji klasifikasi epistemik terhadap
 ## Domain Goal
 
 Learner mampu membangun sendiri komponen inti orbit simulator (integrator numerik tervalidasi terhadap data nyata JPL Horizons/REBOUND) DAN bernalar secara Bayesian/epistemically-disciplined tentang pertanyaan kehidupan di alam semesta — dibuktikan lewat dua capstone (Planetary-Orbit Simulator + Fermi Paradox Research Paper) yang secara eksplisit tidak pernah overclaim kesimpulan di luar bukti yang tersedia. Ini eksplisit BUKAN kredensial astronomi formal — kemampuan applied engineering + reasoning-under-uncertainty yang menghubungkan latar belakang software engineering learner dengan domain astronomi dan astrobiologi.
+
+## Registration History
+
+Registered 2026-08-11, domain pack + course roadmap approved. Dibangun sebagai bagian roadmap `life-mastery` (Stop 9).

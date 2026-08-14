@@ -79,3 +79,7 @@ Bandingkan beberapa lensa untuk topik yang sama: Gabriele Oettingen/Peter Gollwi
 ## Domain Goal
 
 Learner memiliki sistem manifestasi realistis yang teruji nyata terhadap satu tujuan sungguhan — mampu mengenali tujuan yang otentik (bukan validasi eksternal), memakai journaling & scripting sebagai alat pemrosesan emosi dan kejelasan tujuan (bukan mantra magis tanpa proses reflektif), memvisualisasikan tujuan lewat mental contrasting (bukan fantasi murni yang melemahkan motivasi), mengubah mindset ke arah growth/self-efficacy, melepaskan kontrol atas hasil yang tidak bisa dikendalikan tanpa berhenti bertindak pada yang bisa dikendalikan, mengelola emosi spesifik seputar proses mengejar tujuan, dan menerjemahkan semua itu jadi tindakan konkret lewat implementation intentions — dibuktikan lewat penerapan nyata 4-6 minggu, dituangkan dalam Personal Realistic Manifestation System.
+
+## Registration History
+
+Registered 2026-08-13, domain pack + course roadmap approved 2026-08-13 atas permintaan user ("Buat course tentang detachment, journaling, scripting, dan manifestasi realistis: kelola emosi, lepaskan kontrol, kenali diri, visualisasi tujuan, ubah mindset, dan ambil tindakan").

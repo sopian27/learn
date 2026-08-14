@@ -68,3 +68,7 @@ Karl Popper (falsifiability) dan Thomas Kuhn (paradigma) untuk fondasi filsafat 
 ## Domain Goal
 
 Learner mampu menjalankan siklus riset ilmiah penuh secara mandiri — dari menemukan research gap, merumuskan research question, literature review, memilih metodologi, menjalankan analisis statistik lewat kode, sampai menulis paper IMRaD yang jujur secara evidence dan reproducible — dibuktikan lewat satu Original Research Paper nyata di Capstone, bukan sekadar hafal istilah metodologi.
+
+## Registration History
+
+Registered 2026-08-12, domain pack + course roadmap dibangun atas permintaan user ("Buat course menjadi researcher dari 0 hingga expert. Ajarkan research mindset, critical thinking, research questions, literature review, methodology, statistics, experimentation, data analysis, scientific writing, citation, reproducibility, dan menemukan research gap. Gunakan proyek nyata bertahap.").
