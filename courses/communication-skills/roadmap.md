@@ -4,8 +4,8 @@
 
 * Course Name: Communication Skills — dari 0 sampai Lancar Berkomunikasi dengan Orang Baru
 * Category: Communication Skills (Domain: communication-skills — lihat `domains/communication-skills/DOMAIN.md`)
-* Difficulty: Level 0 (introvert, canggung memulai percakapan dengan orang baru) → Level 3 (mampu memulai, menjaga, dan memperdalam percakapan dengan orang baru — termasuk konteks romantis — secara nyaman dan otentik)
-* Estimated Duration: 8 modul, 4 lesson/modul, pace disesuaikan karena Applied Practice-nya adalah percakapan nyata (butuh kesempatan sosial, bukan sekadar waktu belajar)
+* Difficulty: Level 0 (introvert, canggung memulai percakapan dengan orang baru) → Level 3 (mampu memulai, menjaga, dan memperdalam percakapan dengan orang baru — termasuk konteks romantis, meminta kontak, dan kencan pertama — secara nyaman dan otentik)
+* Estimated Duration: 9 modul, 4 lesson/modul, pace disesuaikan karena Applied Practice-nya adalah percakapan nyata (butuh kesempatan sosial, bukan sekadar waktu belajar)
 * Prerequisites: Tidak ada prasyarat teknis. Kesediaan mencoba percakapan nyata bertahap (mulai dari yang berisiko rendah) sesuai `domains/communication-skills/DOMAIN.md` bagian "Applied Practice Definition". Jika kecemasan sosial terasa sangat berat sejak awal (panic attack, menghindari total situasi sosial dasar), baca dulu catatan eskalasi profesional di bagian "Domain-Specific Standards" domain pack sebelum mulai.
 
 ---
@@ -17,6 +17,7 @@
 * [ ] Memulai percakapan (small talk) secara natural dan mengubahnya jadi percakapan yang lebih dalam lewat active listening dan conversational threading
 * [ ] Membangun rapport, bercerita dengan menarik, dan berpartisipasi dalam dinamika kelompok kecil tanpa canggung
 * [ ] Menerapkan prinsip yang sama secara etis pada percakapan berkonteks ketertarikan romantis — otentik, menghormati consent, bukan skrip manipulatif
+* [ ] Meminta kontak secara sopan dan menjalani kencan pertama dengan percaya diri, termasuk membaca apakah lanjut atau tidak setelahnya
 * [ ] Menghasilkan reflection portfolio sebagai Capstone Project yang menunjukkan penurunan kecemasan sosial terukur dari waktu ke waktu
 
 ---
@@ -142,18 +143,35 @@ Status: Not started
 
 ---
 
-## Module 8 — Capstone: Membangun Kebiasaan Sosial Berkelanjutan
+## Module 8 — Dari Percakapan ke Kencan: Meminta Kontak & Kencan Pertama
+
+Description: Langkah lanjutan setelah percakapan romantis Module 7 mengalir baik — meminta kontak tanpa memaksa, follow-up yang natural, dan menjalani kencan pertama. Norma sosial seputar dating (siapa mengajak, siapa bayar, ghosting) dirujuk ke `domains/unwritten-social-rules/DOMAIN.md`, bukan diulang di sini. Kalau berkembang jadi hubungan berjalan, arahkan ke `domains/relationships/DOMAIN.md`.
+
+Lessons:
+
+* [ ] 8.1 Meminta kontak — momen yang tepat, cara sopan menanyakan, menerima jawaban apa pun (ya/tidak/ragu) tanpa memaksa atau merajuk
+* [ ] 8.2 Follow-up chat pertama setelah dapat kontak, dan mengajak kencan tanpa terasa terburu-buru atau menekan
+* [ ] 8.3 Kencan pertama — persiapan ringan, menjaga percakapan mengalir di venue baru, menerapkan active listening & storytelling dari Module 4-5 di konteks kencan
+* [ ] 8.4 Setelah kencan — membaca apakah lawan bicara ingin lanjut atau tidak, follow-up yang etis, dan menerima dengan legawa kalau tidak berlanjut
+
+Mini Project: Satu momen nyata meminta kontak (atau roleplay terstruktur sebagai jembatan bila belum ada kesempatan), dicatat di conversation log — termasuk hasilnya, diterima atau ditolak, dan bagaimana meresponsnya.
+
+Status: Not started
+
+---
+
+## Module 9 — Capstone: Membangun Kebiasaan Sosial Berkelanjutan
 
 Description: Mengintegrasikan seluruh conversation log jadi satu reflection portfolio, mengikuti `domains/communication-skills/DOMAIN.md` bagian "Project Tiers" untuk definisi Capstone/Portfolio Project di domain ini.
 
 Lessons:
 
-* [ ] 8.1 Menyusun social practice plan pribadi — frekuensi, jenis interaksi, target bertahap untuk 4-8 minggu ke depan
-* [ ] 8.2 Self-review pola dari seluruh conversation log Module 1-7 — melihat comfort progression dari waktu ke waktu, bukan cuma snapshot terakhir
-* [ ] 8.3 Mengenali red flag yang butuh eskalasi ke profesional (kecemasan yang mengganggu fungsi harian) vs yang cukup terus dilatih mandiri
-* [ ] 8.4 Finalisasi reflection portfolio dan menyimpannya ke `portofolio/`
+* [ ] 9.1 Menyusun social practice plan pribadi — frekuensi, jenis interaksi, target bertahap untuk 4-8 minggu ke depan
+* [ ] 9.2 Self-review pola dari seluruh conversation log Module 1-8 — melihat comfort progression dari waktu ke waktu, bukan cuma snapshot terakhir
+* [ ] 9.3 Mengenali red flag yang butuh eskalasi ke profesional (kecemasan yang mengganggu fungsi harian) vs yang cukup terus dilatih mandiri
+* [ ] 9.4 Finalisasi reflection portfolio dan menyimpannya ke `portofolio/`
 
-Capstone Project: Reflection portfolio berisi rangkuman seluruh conversation log, grafik/narasi comfort progression (kecemasan sosial) dari Module 1 sampai 7, dan social practice plan lanjutan untuk 2 bulan ke depan. Review memakai `domains/communication-skills/DOMAIN.md` bagian "Review Style" (Presence, Authenticity, Reciprocity, Comfort Progression) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
+Capstone Project: Reflection portfolio berisi rangkuman seluruh conversation log, grafik/narasi comfort progression (kecemasan sosial) dari Module 1 sampai 8, dan social practice plan lanjutan untuk 2 bulan ke depan. Review memakai `domains/communication-skills/DOMAIN.md` bagian "Review Style" (Presence, Authenticity, Reciprocity, Comfort Progression) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
 Status: Not started
 
@@ -171,7 +189,7 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/8
+Module Completion: 0/9
 
 Overall Completion: 0%
 

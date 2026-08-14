@@ -6,7 +6,7 @@ Communication Skills (Interpersonal / Conversational)
 
 ## Scope
 
-Percakapan langsung satu-lawan-satu dan kelompok kecil dengan orang baru maupun orang yang sudah dikenal: memulai percakapan, active listening, bahasa tubuh, membangun rapport, memperdalam percakapan (small talk → percakapan bermakna), dinamika kelompok kecil, dan percakapan dalam konteks ketertarikan romantis — semuanya dari perspektif melatih keterampilan sosial nyata, termasuk kalibrasi khusus untuk introvert yang mengalami kecemasan sosial ringan-menengah.
+Percakapan langsung satu-lawan-satu dan kelompok kecil dengan orang baru maupun orang yang sudah dikenal: memulai percakapan, active listening, bahasa tubuh, membangun rapport, memperdalam percakapan (small talk → percakapan bermakna), dinamika kelompok kecil, percakapan dalam konteks ketertarikan romantis, dan langkah lanjutannya — meminta kontak secara sopan serta kencan pertama — semuanya dari perspektif melatih keterampilan sosial nyata, termasuk kalibrasi khusus untuk introvert yang mengalami kecemasan sosial ringan-menengah.
 
 Secara eksplisit TIDAK mencakup:
 
@@ -14,6 +14,9 @@ Secara eksplisit TIDAK mencakup:
 - **Komunikasi profesional formal** (negosiasi bisnis, fasilitasi rapat, resolusi konflik kerja) — kandidat domain terpisah di masa depan (mis. `professional-communication`), tidak digabung ke sini supaya scope tidak melebar.
 - **Diagnosis atau terapi klinis** untuk gangguan kecemasan sosial (Social Anxiety Disorder) atau kondisi kesehatan mental lain. Domain ini mengajarkan latihan keterampilan dan teknik self-help berbasis CBT/exposure yang didukung riset, tapi bukan pengganti bantuan profesional — lihat "Domain-Specific Standards" untuk kapan wajib eskalasi.
 - **Teknik pickup-artist/seduction-community** (negging, manufactured scarcity/jealousy, skrip manipulatif) — ditolak secara eksplisit, lihat "Domain-Specific Standards".
+- **Strategi hubungan jangka panjang** (memilih pasangan, boundaries, trust, konflik, intimacy, commitment) — itu `domains/relationships/DOMAIN.md`. Domain ini berhenti di kencan pertama/awal; begitu berkembang jadi hubungan berjalan, arahkan ke `relationships`.
+- **Norma/etiket tak tertulis seputar dating** (siapa mengajak, siapa bayar, follow-up setelah kencan, ghosting) — itu `domains/unwritten-social-rules/DOMAIN.md`. Domain ini mengajarkan SKILL melakukannya (cara meminta kontak, menjaga obrolan di kencan), bukan norma sosialnya.
+- **Rejection sensitivity & regulasi emosi mendalam pasca ditolak** — itu `domains/emotional-resilience/DOMAIN.md`. Domain ini hanya menyentuh reframing singkat saat ditolak dalam momen itu sendiri (Module 3, 7), tidak membangun ulang riset rejection sensitivity secara penuh.
 
 ## Trusted Sources / Research Priority
 
@@ -63,4 +66,4 @@ Bandingkan empat lensa berbeda untuk situasi percakapan yang sama: pendekatan Da
 
 ## Domain Goal
 
-Akan disepakati final bersama learner saat `courses/communication-skills/roadmap.md` di-approve — sementara: mampu memulai, menjaga, dan memperdalam percakapan dengan orang baru (termasuk orang yang menarik secara romantis) secara nyaman sebagai introvert, lewat rapport otentik bukan skrip/manipulasi, dengan kecemasan sosial yang terukur menurun dari waktu ke waktu (dilacak lewat conversation log).
+Akan disepakati final bersama learner saat `courses/communication-skills/roadmap.md` di-approve — sementara: mampu memulai, menjaga, dan memperdalam percakapan dengan orang baru (termasuk orang yang menarik secara romantis, sampai meminta kontak dan kencan pertama) secara nyaman sebagai introvert, lewat rapport otentik bukan skrip/manipulasi, dengan kecemasan sosial yang terukur menurun dari waktu ke waktu (dilacak lewat conversation log).
