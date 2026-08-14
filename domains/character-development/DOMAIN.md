@@ -81,3 +81,7 @@ Bandingkan beberapa lensa untuk topik yang sama: Jim Collins (Level 5 Leadership
 ## Domain Goal
 
 Learner memiliki sistem karakter yang teruji nyata — kerendahan hati yang genuine (penilaian diri akurat + terbuka pada feedback), etos kerja yang berkelanjutan (bukan burst semangat lalu padam), dan cara memperlakukan orang lain dengan hormat secara konsisten (tidak merendahkan) — dibangun dari praktik nyata yang terdokumentasi, bukan teori yang tak pernah diuji, dituangkan dalam Personal Character Operating System sebagai bukti konkret.
+
+## Registration History
+
+Registered 2026-08-07, roadmap approved. Extended 2026-08-13 at the user's request ("buat course melatih kerendahan hati dan ketenangan batin: atasi sombong, haus validasi, gila hormat, mencari perhatian, self-centeredness, dan rasa seolah semua orang memperhatikan saya"), confirmed via AskUserQuestion to extend this domain rather than create a separate one — avoiding duplication with the ego/sombong material already covered in depth in Modules 1-5.

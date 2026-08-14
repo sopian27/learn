@@ -14,18 +14,18 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Active
 
-- `software-engineering` — default domain. Manifest: `domains/software-engineering/DOMAIN.md` (thin pointer to `ai-los/AI-LOS.md` + `standards/*` + `courses/*`). Covers `courses/mastering-claude/roadmap.md`.
-- `character-development` — registered 2026-08-07, roadmap approved, **diperluas 2026-08-13** atas permintaan user ("buat course melatih kerendahan hati dan ketenangan batin: atasi sombong, haus validasi, gila hormat, mencari perhatian, self-centeredness, dan rasa seolah semua orang memperhatikan saya"), dikonfirmasi lewat AskUserQuestion untuk extend domain ini alih-alih domain baru terpisah (menghindari duplikasi topik ego/sombong yang sudah dalam di Module 1-5). Manifest: `domains/character-development/DOMAIN.md`. Active course: `courses/character-development/roadmap.md`. Goal: build genuine humility (accurate self-view + real feedback-seeking, not self-deprecation), sustainable work ethic (not burnout-driven grind), consistent respect for others (no belittling), freedom from external validation-seeking/status-chasing/attention-seeking (Crocker & Wolfe contingent self-worth, Leary & Baumeister sociometer theory, Gilbert social rank theory), correcting the spotlight-effect bias of feeling constantly watched (Gilovich), and genuine inner calm/equanimity (Kabat-Zinn MBSR, nonattachment research) — tested through real applied practice rather than theory alone. Module 7 (Atomic Habits), 8 (Validasi/Status/Perhatian), dan 9 (Spotlight Effect & Ketenangan Batin) berstatus Draft menunggu approval user sebelum Lesson 1, per `ai-los/COURSE_CREATION.md`.
+- `software-engineering` — domains/software-engineering/DOMAIN.md — Status: Active — Course: courses/mastering-claude/roadmap.md
+- `character-development` — domains/character-development/DOMAIN.md — Status: Active — Course: courses/character-development/roadmap.md
 
 ## Paused (2026-08-07, hemat token — resume anytime)
 
-- `personal-finance` — Manifest: `domains/personal-finance/DOMAIN.md`. Course: `courses/personal-finance/roadmap.md`.
-- `n8n-automation` — Manifest: `domains/n8n-automation/DOMAIN.md`. Course: `courses/n8n-automation/roadmap.md`.
-- `communication-skills` — Manifest: `domains/communication-skills/DOMAIN.md`. Course: `courses/communication-skills/roadmap.md`.
-- `critical-thinking` — Manifest: `domains/critical-thinking/DOMAIN.md`. Course: `courses/critical-thinking/roadmap.md`.
-- `world-history` — Manifest: `domains/world-history/DOMAIN.md`. Course: `courses/world-history/roadmap.md`.
-- `guitar` — Manifest: `domains/guitar/DOMAIN.md`. Course: `courses/guitar/roadmap.md`.
-- `self-love` — Manifest: `domains/self-love/DOMAIN.md`. Course: `courses/self-love/roadmap.md`.
+- `personal-finance` — domains/personal-finance/DOMAIN.md — Status: Paused — Course: courses/personal-finance/roadmap.md
+- `n8n-automation` — domains/n8n-automation/DOMAIN.md — Status: Paused — Course: courses/n8n-automation/roadmap.md
+- `communication-skills` — domains/communication-skills/DOMAIN.md — Status: Paused — Course: courses/communication-skills/roadmap.md
+- `critical-thinking` — domains/critical-thinking/DOMAIN.md — Status: Paused — Course: courses/critical-thinking/roadmap.md
+- `world-history` — domains/world-history/DOMAIN.md — Status: Paused — Course: courses/world-history/roadmap.md
+- `guitar` — domains/guitar/DOMAIN.md — Status: Paused — Course: courses/guitar/roadmap.md
+- `self-love` — domains/self-love/DOMAIN.md — Status: Paused — Course: courses/self-love/roadmap.md
 - `film-criticism` — Manifest: `domains/film-criticism/DOMAIN.md`. Course: `courses/film-criticism/roadmap.md`.
 - `korean` — Manifest: `domains/korean/DOMAIN.md`. Course: `courses/korean/roadmap.md`.
 - `cryptocurrency` — Manifest: `domains/cryptocurrency/DOMAIN.md`. Course: `courses/cryptocurrency/roadmap.md`.
