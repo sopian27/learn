@@ -17,6 +17,7 @@
 - Within any task that edits `ai-los/ACTIVE_DOMAIN.md` more than once, always re-locate a domain's current line via `Grep "^- \`<domain>\`" ai-los/ACTIVE_DOMAIN.md` immediately before editing it — do not reuse a line number read earlier in the same task, since prior edits in the same task shift subsequent line numbers.
 - Registration History format (established in Task 5, reused verbatim in Tasks 6-9): a new `## Registration History` heading appended after the domain's existing `## Domain Goal` section (or at end of file if no `Domain Goal` section exists), containing only the parts of the old `ACTIVE_DOMAIN.md` paragraph NOT already covered by that file's own `## Scope` section — typically: registration date, the user's original request quote, and any "diperluas"/extend-vs-new-domain reasoning.
 - Index line format (established in Task 5, reused verbatim in Tasks 6-9): `- \`<name>\` — domains/<name>/DOMAIN.md — Status: Active|Paused — Course: courses/<name>/roadmap.md` (or `Course: none yet` if no roadmap file exists).
+- Course-module build status (e.g. "Module 7/8/9 still Draft, pending approval") is course-progress data, not domain-registration provenance — it belongs in `courses/<name>/roadmap.md` (where it's already tracked in more detail), not in `Registration History`. If an old `ACTIVE_DOMAIN.md` entry mentions module/lesson status, that's fine to drop from the migration entirely; it isn't data loss since the index line's `Course:` pointer leads there. (Ruling from Task 5 review — see ledger.)
 
 ---
 
