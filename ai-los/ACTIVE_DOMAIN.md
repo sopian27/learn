@@ -76,8 +76,9 @@ Whenever I ask to learn a new subject that isn't already registered (e.g. "belaj
 
 1. Check whether `domains/<name>/DOMAIN.md` already exists.
 2. If not, scaffold it from `templates/DOMAIN_TEMPLATE.md`, research trusted sources the same way `ai-los/COURSE_CREATION.md` requires for course roadmaps, and wait for my approval before treating it as final.
-3. Once approved, add it to the "Registered Domains" list above.
-4. Build the course as usual under `courses/<name>/roadmap.md`, following `templates/COURSE_TEMPLATE.md` — the course structure itself never changes between domains, only the domain pack's Applied Practice / Assessment / Trusted Sources content does.
+3. Once approved, add ONE line to the "Registered Domains" list below, in this exact format: `- \`<name>\` — domains/<name>/DOMAIN.md — Status: Active|Paused — Course: courses/<name>/roadmap.md (or "none yet")`. Do not add a paragraph here.
+4. Write the registration's provenance (date, original request, why this domain vs. an existing one) into the new `domains/<name>/DOMAIN.md`'s own `## Registration History` section — never back into this file.
+5. Build the course as usual under `courses/<name>/roadmap.md`, following `templates/COURSE_TEMPLATE.md` — the course structure itself never changes between domains, only the domain pack's Applied Practice / Assessment / Trusted Sources content does.
 
 ---
 
