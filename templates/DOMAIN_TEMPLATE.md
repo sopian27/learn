@@ -39,3 +39,7 @@ If this domain needs its own `domains/<name>/standards/` files (analogous to `st
 ## Domain Goal (optional)
 
 This domain's own overarching goal, if it has one distinct from any single course (parallel to the "Master Goal" `progress/roadmap.md` tracks for software-engineering).
+
+## Registration History (optional)
+
+When this domain was registered/approved, the original request that prompted it (quote if useful), and — if this domain was extended later rather than a new domain being created — the reasoning for extending vs. splitting. This is provenance, not scope: if something belongs in `## Scope` instead, put it there and don't duplicate it here.
