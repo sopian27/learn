@@ -72,7 +72,7 @@ Bandingkan beberapa tradisi pelatihan performa untuk isu yang sama — "bagaiman
 
 ## Domain-Specific Standards
 
-`domains/f1-focus-performance/standards/` belum ada file terpisah, tapi domain ini punya house rule eksplisit:
+`domains/f1-focus-situational-awareness/standards/` belum ada file terpisah, tapi domain ini punya house rule eksplisit:
 
 - **Bukan kelas mengemudi.** Domain ini tidak pernah menyuruh learner mempraktikkan drill apa pun di mobil sungguhan atau di jalan raya. Semua drill memakai proxy aman (game, sim racing non-jalan-raya, aplikasi, drill fisik biasa). Kebutuhan belajar mengemudi sungguhan diarahkan ke `driving`.
 - **Data lebih penting dari rasa.** Mengikuti prinsip Measurement Validity Check di atas: klaim peningkatan tanpa angka/skor/waktu terukur ditandai eksplisit sebagai belum cukup bukti, bukan otomatis diterima.

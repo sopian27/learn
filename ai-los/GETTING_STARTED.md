@@ -6,12 +6,12 @@ Tutorial ini menjelaskan cara memakai sistem AI-LOS di repo ini, dengan contoh k
 
 ## 1. Apa yang Terjadi di Setiap Sesi
 
-Setiap sesi baru, Claude membaca urutan ini secara otomatis (lihat root `CLAUDE.md`):
+Setiap sesi baru, Claude membaca urutan ini secara otomatis (lihat root `CLAUDE.md`, "Session Start"):
 
-1. `standards/` — konvensi engineering (prioritas tertinggi kalau ada konflik)
-2. `ai-los/ACTIVE_MODE.md` — mode mentor mana yang aktif
-3. `ai-los/AI-LOS.md` — manifesto lengkap cara mengajar
-4. Folder lain sesuai kebutuhan (`templates/`, `courses/`, dll)
+1. `ai-los/ACTIVE_MODE.md` — mode mentor mana yang aktif
+2. `ai-los/ACTIVE_DOMAIN.md` — domain (subject) mana yang aktif
+3. `ai-los/CORE_LOS.md` — proses belajar domain-agnostik, plus domain aktifnya `domains/<name>/DOMAIN.md`
+4. Folder lain (`standards/`, `templates/`, `courses/`, dll) dibaca on-demand saat relevan — bukan dipaksa tiap sesi
 
 Anda tidak perlu melakukan apa pun untuk langkah ini — otomatis.
 
@@ -54,7 +54,7 @@ Sesuai `ai-los/COURSE_CREATION.md`, Claude TIDAK langsung mengajar. Urutannya:
 Anda bisa minta ubah urutan, tambah/hapus topik, atau atur level target (pemula/menengah/lanjut) sebelum lanjut.
 
 ### Langkah 4 — Lesson per Lesson
-Setiap lesson mengikuti format tetap (`ai-los/LESSON_RULES.md`):
+Setiap lesson mengikuti format tetap (`ai-los/CORE_LOS.md` § Universal Learning Loop):
 
 ```
 Objective → Prerequisite → Theory → Diagram → Example
@@ -71,7 +71,7 @@ Porsi: **20% teori, 80% praktik** — tiap lesson wajib ada coding, bukan cuma b
 
 | Folder | Isi |
 |---|---|
-| `courses/react/` | Roadmap, modul, dan lesson React (format `templates/COURSE_TEMPLATE.md`) |
+| `courses/react/` | Roadmap, modul, dan lesson React (format `templates/ROADMAP_TEMPLATE.md`) |
 | `progress/` | `roadmap.md`, `progress.md`, `notes.md`, `cheatsheet.md`, dll — di-update berjalan |
 | `playground/` | Eksperimen/latihan cepat per lesson, tidak perlu rapi |
 | `portofolio/` | Proyek React kelas produksi di akhir course |
@@ -80,8 +80,6 @@ Porsi: **20% teori, 80% praktik** — tiap lesson wajib ada coding, bukan cuma b
 ---
 
 ## 5. Shortcut Prompt yang Bisa Dipakai
-
-Dari `ai-los/PROMPTS.md`:
 
 - `Create Course` — mulai course baru
 - `Review My Code` — minta review kode

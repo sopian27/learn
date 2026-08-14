@@ -30,9 +30,9 @@ $content = Get-Content -LiteralPath $SourceFile -Raw -Encoding UTF8
 # * [ ] 10.1 Lesson Title
 $pattern = '(?m)^\s*\*\s*\[[ xX]\]\s+(\d+\.\d+)\s+(.+?)\s*$'
 
-$matches = [regex]::Matches($content, $pattern)
+$lessonMatches = [regex]::Matches($content, $pattern)
 
-if ($matches.Count -eq 0) {
+if ($lessonMatches.Count -eq 0) {
     Write-Warning "Tidak ditemukan lesson dengan format seperti 1.1, 1.2, 10.1, dst."
     exit 0
 }
@@ -40,7 +40,7 @@ if ($matches.Count -eq 0) {
 $created = 0
 $skipped = 0
 
-foreach ($match in $matches) {
+foreach ($match in $lessonMatches) {
 
     $lessonNumber = $match.Groups[1].Value
     $lessonTitle  = $match.Groups[2].Value.Trim()

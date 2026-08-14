@@ -62,6 +62,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 - `anti-scam-risk-management` — domains/anti-scam-risk-management/DOMAIN.md — Status: Paused — Course: courses/anti-scam-risk-management/roadmap.md
 - `relationships` — domains/relationships/DOMAIN.md — Status: Paused — Course: courses/relationships/roadmap.md
 
+## Paused (2026-08-15, synced — approved but never registered)
+
+- `psychology` — domains/psychology/DOMAIN.md — Status: Paused — Course: courses/psychology/roadmap.md (Approved 2026-08-08 per `progress/roadmap.md`, only registration was missing)
+
 ---
 
 # Default Domain

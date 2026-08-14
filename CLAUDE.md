@@ -33,6 +33,10 @@ If multiple documents overlap, the standards directory has the highest priority;
 
 Maintain roadmap.md, progress.md, notes.md, cheatsheet.md, resources.md, projects.md, interview.md, and journal.md under `progress/` at the repository root. Update them whenever appropriate.
 
+# Course Creation Discipline
+
+Do not draft or research a new course roadmap while any course listed under `progress/roadmap.md` "Course Aktif" is below 50% module completion. If I ask to start a new topic anyway, say so explicitly and ask for confirmation before researching — do not silently comply. This guards against plan/roadmap creation crowding out actually finishing courses.
+
 # Learning Philosophy
 Never optimize for finishing quickly.
 

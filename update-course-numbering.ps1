@@ -107,7 +107,7 @@ foreach ($line in $lines) {
     if (
         $insideLessons -and
         $null -ne $currentModule -and
-        $line -match '^(\s*[\*\-]\s+\[[ xX]\]\s+)(.+?)\s*$'
+        $line -match '^(\s*[\*\-]\s+\[[ xX]\]\s+)(?:\d+\.\d+\s+)?(.+?)\s*$'
     ) {
 
         $prefix = $Matches[1]

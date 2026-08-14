@@ -52,7 +52,13 @@ Course Completion: 0/6 module (0%)
 
 # Review Schedule
 
-Next Review: -
+Rule: every completed module gets a +3 hari (recall cepat) dan +14 hari (retensi) check — jawab 2-3 pertanyaan inti modul itu dari ingatan, tanpa buka lesson lama. Kalau gagal recall, tandai "Revision Needed" dan re-review sebelum lanjut modul baru.
+
+| Module | Selesai | +3 hari | +14 hari | Status |
+| ------ | ------- | ------- | -------- | ------ |
+| Mastering Claude 1-2 (Fondasi, Token Economy) | 2026-08-06 | 2026-08-09 ✓ (lewat, belum di-log) | 2026-08-20 | Due +14 hari |
+| Mastering Claude 3 (Claude Code Mendalam) | 2026-08-13 | 2026-08-16 | 2026-08-27 | Due +3 hari |
+| Mastering Claude 4 (Skills & Plugins) | 2026-08-14 | 2026-08-17 | 2026-08-28 | Upcoming |
 
 Revision Needed: -
 

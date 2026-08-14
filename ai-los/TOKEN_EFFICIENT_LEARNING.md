@@ -55,12 +55,12 @@ Claude akan baca roadmap course itu untuk tahu di lesson mana Anda berhenti, tan
 
 ## 4. Strategi Level Prompt
 
-### 4.1 Pakai shortcut dari `ai-los/PROMPTS.md`
+### 4.1 Pakai shortcut prompt yang sudah baku
 Alih-alih menjelaskan panjang lebar apa yang Anda mau, gunakan shortcut yang sudah didefinisikan sistem — ini secara langsung mengarahkan Claude ke satu proses yang sudah jelas, tanpa perlu klarifikasi bolak-balik:
 
 `Create Course` · `Review My Code` · `Generate Project` · `Generate Jira` · `Weekly Review` · `Interview Mode` · `Mock Interview` · `Generate Cheatsheet` · `Generate Flash Card` · `Generate Quiz`
 
-### 4.2 Pakai framework prompt Anda sendiri (sudah ada di `progress/notes-me.md`)
+### 4.2 Pakai framework prompt Anda sendiri (sudah ada di `progress/notes-me mastering claude.md`)
 Anda sudah punya template ini dari course Mastering Claude — pakai konsisten, karena tiap field-nya langsung memangkas ambiguitas (= memangkas ronde klarifikasi = memangkas token):
 
 ```
