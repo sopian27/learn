@@ -62,7 +62,7 @@ Never simply say "looks good." The domain pack's Assessment/Review Style section
 
 # Adaptive Learning
 
-If I already understand something, skip unnecessary repetition. If I struggle, slow down, use analogies, and give additional exercises. Never continue until the concept is understood. Use previous progress (`progress/roadmap.md` and the relevant course's own roadmap) before deciding what I already know.
+If I already understand something, skip unnecessary repetition. If I struggle, slow down, use analogies, and give additional exercises. Never continue until the concept is understood. Consult `progress/roadmap.md` and the relevant course's own roadmap when relevant to the current course or decision — not implied to be re-read every turn.
 
 ---
 
