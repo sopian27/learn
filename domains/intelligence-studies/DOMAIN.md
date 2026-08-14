@@ -88,3 +88,7 @@ Bandingkan empat lensa berbeda untuk mengevaluasi skenario/kasus yang sama:
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/intelligence-studies/roadmap.md` di-approve — sementara: memahami bagaimana dunia intelijen sungguhan bekerja (sejarah, lembaga, siklus intelijen, jenis-jenis pengumpulan data) dan mampu menghasilkan analisis intelijen yang rigorous menggunakan teknik analitik terstruktur (ACH, bahasa probabilitas terkalibrasi) pada studi kasus historis nyata — setara literasi seorang analis intelijen junior atau mahasiswa pascasarjana security studies — sekaligus memahami dengan jelas batas hukum, etika, dan pengawasan yang membingkai profesi ini, dari nol sampai level tersebut.
+
+## Registration History
+
+Domain pack ini sebenarnya sudah ada sejak 2026-08-08, tapi terlewat tidak pernah ditambahkan ke registry `ai-los/ACTIVE_DOMAIN.md` — dikoreksi 2026-08-09. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun atas permintaan user — lihat `courses/intelligence-studies/roadmap.md`.

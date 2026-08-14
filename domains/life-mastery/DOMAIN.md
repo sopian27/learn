@@ -138,3 +138,7 @@ Bandingkan lensa berbeda per pilar untuk masalah yang sama:
 ## Domain Goal
 
 Learner memiliki: (1) pemahaman power/pengaruh yang evidence-aware dan anti-manipulatif, teruji lewat pipeline Principle→Defense yang bisa dijalankan mandiri pada situasi baru; (2) sistem regulasi emosi & makna yang membedakan tegas antara teknik ber-evidence (ACT, WOOP, cognitive reappraisal) dan framework filosofis/populer (ikhlas, Four Agreements, Think Like a Monk) tanpa mencampur keduanya sebagai fakta setara; (3) roadmap finansial Rp1 Miliar yang realistis dengan skenario karier terbandingkan; (4) pemahaman jalur location-independent income yang applicable dan world-travel plan yang hanya direkomendasikan saat fondasi finansial cukup kuat — seluruhnya disintesis jadi Personal Life Operating System di `portofolio/` sebagai capstone SELURUH kurikulum life-mastery, bukan hanya domain ini sendiri.
+
+## Registration History
+
+Domain ini registered 2026-08-11, domain pack + course roadmap approved. Course roadmap lengkap dengan 14 stop sudah dibangun (`courses/life-mastery/roadmap.md`); status pacing mengikuti kebijakan cap 2-course-aktif — lihat `progress/roadmap.md`.

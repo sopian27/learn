@@ -84,3 +84,7 @@ Bandingkan beberapa lensa berbeda untuk mendekati topik yang sama:
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/relativity/roadmap.md` dibuat dan di-approve (domain ini didaftarkan Paused dulu, roadmap belum dibuat) — sementara: mampu memahami dan menurunkan sendiri hasil-hasil kunci Relativitas Khusus dan Umum dari prinsip dasar (bukan menghafal rumus), menghubungkannya ke bukti eksperimental nyata (GPS, LIGO, presesi Merkurius), dan mampu mengimplementasikan/mensimulasikan konsepnya secara numerik — dari titik nol (belum tahu apa-apa soal relativitas) sampai level yang setara mahasiswa pascasarjana awal fisika teoretis yang bisa membaca paper GR tingkat pengantar secara mandiri.
+
+## Registration History
+
+Domain pack ini sebenarnya sudah ada sejak 2026-08-08, tapi terlewat tidak pernah ditambahkan ke registry `ai-los/ACTIVE_DOMAIN.md` — dikoreksi 2026-08-09. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun atas permintaan user — lihat `courses/relativity/roadmap.md`.

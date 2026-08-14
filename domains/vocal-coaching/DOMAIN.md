@@ -70,3 +70,7 @@ Checklist self-diagnostic terstruktur tiap modul (skala 1-5 untuk kontrol napas,
 ## Domain Goal
 
 Dari benar-benar nol (belum pernah dilatih) → mampu menyanyikan repertoar pop/CCM dengan breath support terkontrol, akurasi pitch bersih, transisi chest-ke-head/mixed voice yang mulus di seluruh range nyaman (baik ujung rendah maupun tinggi untuk suara bass/baritone), pemahaman fungsional kapan memakai chest/head/mixed voice, rutinitas warm-up/cool-down yang benar, dan kebiasaan menjaga suara yang mencegah tegang/cedera — percaya diri menyanyikan lagu pop penuh tanpa suara patah, fals, atau hilang.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack + course roadmap approved via permintaan user langsung membangun course roadmap-nya. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga — lihat `courses/vocal-coaching/roadmap.md`.

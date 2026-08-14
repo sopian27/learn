@@ -95,3 +95,7 @@ Keempat lensa ini sering menekankan hal berbeda untuk topik yang sama (mis. inte
 ## Domain Goal
 
 Learner mampu membaca dan membangun sendiri komponen inti dari physics engine, particle simulator, ray tracer sederhana, atau skrip kinematika robotika — dengan pemahaman yang benar tentang fisika klasik yang mendasarinya (kinematika, dinamika, energi/momentum, rotasi) DAN metode numerik yang tepat untuk mensimulasikannya secara stabil (Euler/semi-implicit Euler/Verlet/RK4) — dibuktikan lewat capstone project di portofolio yang mengintegrasikan fisika + numerik + kode produksi-sadar (production-aware). Ini eksplisit BUKAN kredensial fisika/teknik formal — murni kemampuan applied engineering yang menghubungkan latar belakang software engineering learner dengan domain physics engine, computer graphics, dan robotika.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack approved via permintaan user langsung membangun course roadmap-nya. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga atas permintaan user — lihat `courses/physics-for-software-engineers/roadmap.md`.

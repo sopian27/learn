@@ -73,3 +73,7 @@ Bandingkan empat lensa analisis berbeda untuk pertandingan yang sama:
 ## Domain Goal
 
 Mampu memahami apa yang sebenarnya terjadi di lapangan dan mengapa sebuah tim bermain dengan cara tertentu — membaca struktur permainan, memahami peran taktik setiap pemain, menganalisis kekuatan/kelemahan tim, membaca taktik menyerang & bertahan serta perubahannya selama pertandingan — lalu menyampaikan penilaian itu sebagai kritik yang tajam tapi masuk akal disertai saran perbaikan yang realistis, dengan kemampuan inti membedakan kesalahan pemain dari kesalahan sistem dan masalah taktik dari masalah eksekusi, sehingga bisa melakukan analisis pertandingan secara mandiri setara seorang analyst atau coach.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack + course roadmap approved via permintaan user langsung membangun course roadmap-nya. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga — lihat `courses/football-tactics/roadmap.md`.

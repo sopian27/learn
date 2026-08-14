@@ -73,3 +73,7 @@ Bandingkan beberapa lensa untuk topik yang sama: panduan resmi platform (YouTube
 ## Domain Goal
 
 Learner mampu membangun sistem produksi konten faceless yang berkelanjutan dan lintas platform dari nol — mulai dari tidak punya skill editing sama sekali dan tidak berani tampil wajah, sampai bisa merancang hook, mengumpulkan aset (voiceover, screen recording, B-roll/stock, animasi), mengedit dengan software nyata (dari cut dasar sampai ritme/pacing yang matang), dan merepurpose satu ide jadi banyak format lintas platform (YouTube long-form, Shorts/Reels/TikTok, teks) — dibuktikan lewat konten nyata yang benar-benar dipublikasikan dan dianalisis datanya, bukan sekadar skrip di atas kertas.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack approved. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga atas permintaan user — lihat `courses/content-creation/roadmap.md`.

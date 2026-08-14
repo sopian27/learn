@@ -71,3 +71,7 @@ Bandingkan beberapa lensa untuk topik yang sama: pendekatan SEO/white-hat jangka
 ## Domain Goal
 
 Learner mampu, dari nol pemahaman, memilih niche berbasis riset permintaan nyata, mendaftar dan memahami aturan network afiliasi yang relevan, membangun konten/kampanye yang menyasar buyer intent dengan disclosure dan compliance yang benar, mengoptimalkan discoverability dasar, membaca data funnel nyata (klik → konversi → komisi), dan membedakan taktik afiliasi yang sah secara jangka panjang dari skema hasil-instan/MLM — dibuktikan lewat properti afiliasi nyata yang benar-benar berjalan dengan data sungguhan, bukan sekadar rencana di atas kertas.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack approved. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga atas permintaan user — lihat `courses/affiliate-marketing/roadmap.md`.

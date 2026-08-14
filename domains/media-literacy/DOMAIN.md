@@ -92,3 +92,7 @@ Bandingkan empat lensa berbeda untuk menganalisis klaim/isu yang sama:
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/media-literacy/roadmap.md` di-approve — sementara: mampu menganalisis berita, pernyataan pemerintah, kebijakan publik, isu politik, dan perdebatan sosial apa pun secara mandiri, kritis, objektif, dan berbasis bukti — memisahkan fakta dari nilai, memverifikasi klaim lewat SIFT/lateral reading, mengenali teknik propaganda, dan memahami (bukan sekadar menoleransi) sudut pandang yang berbeda lewat Moral Foundations — sehingga tidak otomatis percaya maupun otomatis curiga, bersedia mengubah kesimpulan kalau bukti baru menunjukkan salah, dan tidak menjadi fanatik pembela kelompok/ideologi mana pun — setara literasi seorang fact-checker profesional atau analis kebijakan nonpartisan, dari nol sampai level tersebut.
+
+## Registration History
+
+Domain ini registered 2026-08-09, domain pack approved via permintaan user langsung membangun course roadmap-nya. Registered paused mengikuti kebijakan hemat-token 2026-08-07, namun course roadmap tetap dibangun saat itu juga atas permintaan user — lihat `courses/media-literacy/roadmap.md`.
