@@ -7,7 +7,7 @@
 * Course Name: Wirausaha & Penghasilan Sampingan — dari 0 sampai Expert (Weekend-Only)
 * Category: Entrepreneurship (Domain: entrepreneurship — lihat `domains/entrepreneurship/DOMAIN.md`, draft)
 * Difficulty: Level 0 (belum pernah punya bisnis sendiri) → Level 3 (mampu menjalankan bisnis sampingan nyata dengan revenue berulang, playbook bisa diulang untuk ide berikutnya)
-* Estimated Duration: 12 modul, 3-4 lesson/modul, **dirancang khusus untuk waktu Sabtu-Minggu saja** (~2-4 jam efektif/weekend, setelah kerja full-time Senin-Jumat). Estimasi kasar 1 modul ≈ 2-3 minggu weekend. Total course realistis 6-9 bulan sampai capstone punya revenue nyata — pace disesuaikan sambil jalan, tidak dipaksakan.
+* Estimated Duration: 13 modul, 3-4 lesson/modul, **dirancang khusus untuk waktu Sabtu-Minggu saja** (~2-4 jam efektif/weekend, setelah kerja full-time Senin-Jumat). Estimasi kasar 1 modul ≈ 2-3 minggu weekend. Total course realistis 6-9 bulan sampai capstone punya revenue nyata — pace disesuaikan sambil jalan, tidak dipaksakan.
 * Prerequisites: Tidak ada prasyarat bisnis formal. Tidak wajib bisa coding (Module 2 membandingkan opsi yang leverage skill developer maupun yang tidak, sesuai hasil kalibrasi: "campuran/belum yakin, mau dipetakan dulu"). Yang wajib: kesediaan mengecek kontrak kerja/kebijakan perusahaan soal moonlighting sebelum mulai (dibahas eksplisit di Module 1), dan modal kecil untuk testing (nominal fleksibel, dibahas di Module 4).
 
 ---
@@ -160,16 +160,35 @@ Status: Not started
 
 ---
 
-## Module 9 — Operasional, Legal & Pajak (Indonesia)
+## Module 9 — Negotiation Fundamentals
+
+Description: Melengkapi Module 8 (closing penjualan & objection handling) dengan kerangka negosiasi yang lebih luas — bukan sekadar teknik jualan, tapi skill negosiasi umum yang sama-sama dipakai untuk gaji, kontrak, dan deal bisnis, mengacu ke sumber standar negosiasi (Getting to Yes — Fisher & Ury; Never Split the Difference — Chris Voss; Harvard Program on Negotiation) yang dicek silang dengan `domains/entrepreneurship/DOMAIN.md` bagian "Trusted Sources" sebelum dijadikan lesson.
+
+Lessons:
+
+* [ ] 9.1 Prinsip dasar negosiasi — positional bargaining vs principled negotiation (Getting to Yes), kenapa "fokus ke kepentingan, bukan posisi" mengalahkan tawar-menawar keras
+* [ ] 9.2 BATNA (Best Alternative to a Negotiated Agreement) — cara menghitung BATNA sendiri, kenapa ini sumber kekuatan tawar sebenarnya, dan alasan berjalan pergi dari deal buruk bukan kegagalan
+* [ ] 9.3 Active listening & tactical empathy ala Chris Voss — labeling, mirroring, calibrated questions untuk menggali kepentingan asli lawan bicara
+* [ ] 9.4 Negosiasi gaji — riset angka pasar, framing kontribusi/value, dan cara merespons counter-offer tanpa kehilangan leverage
+* [ ] 9.5 Negosiasi kontrak & deal bisnis — term sheet, negosiasi dengan supplier/klien/mitra, mana yang bisa ditawar dan mana yang jadi dealbreaker
+* [ ] 9.6 Negosiasi dengan leverage rendah — taktik saat posisi tawar lemah (BATNA lemah/tidak ada), dan kapan walk-away tetap jadi opsi valid meski terasa berisiko
+
+Mini Project: Simulasi negosiasi nyata (roleplay terstruktur dengan pasangan latihan, atau negosiasi sungguhan seperti gaji/rate freelance/kontrak supplier/klien) — dicatat lengkap: BATNA yang disiapkan sebelum masuk ruangan, taktik yang dipakai, hasil akhir, dan refleksi apa yang akan diubah di negosiasi berikutnya.
+
+Status: Not Started
+
+---
+
+## Module 10 — Operasional, Legal & Pajak (Indonesia)
 
 Description: Memastikan bisnis yang mulai menghasilkan uang berjalan sesuai kewajiban dasar, sebelum masalah legal/pajak menumpuk.
 
 Lessons:
 
-* [ ] 9.1 Struktur legal dasar: usaha perorangan vs UMKM vs CV vs PT — kapan tiap level dibutuhkan, mengacu OSS/Kemenkumham
-* [ ] 9.2 NIB & izin usaha dasar lewat OSS — gambaran proses, bukan tutorial lengkap tiap kasus
-* [ ] 9.3 Kewajiban pajak UMKM (PPh Final PP 55/2022, tarif final 0.5%) — konsep dasar, mengacu DJP, sebatas cukup untuk keputusan sehari-hari
-* [ ] 9.4 Pemisahan keuangan bisnis vs pribadi (rekening terpisah) — begitu terpisah, pengelolaan uang pribadi hasilnya adalah wilayah `domains/personal-finance/DOMAIN.md`, bukan course ini
+* [ ] 10.1 Struktur legal dasar: usaha perorangan vs UMKM vs CV vs PT — kapan tiap level dibutuhkan, mengacu OSS/Kemenkumham
+* [ ] 10.2 NIB & izin usaha dasar lewat OSS — gambaran proses, bukan tutorial lengkap tiap kasus
+* [ ] 10.3 Kewajiban pajak UMKM (PPh Final PP 55/2022, tarif final 0.5%) — konsep dasar, mengacu DJP, sebatas cukup untuk keputusan sehari-hari
+* [ ] 10.4 Pemisahan keuangan bisnis vs pribadi (rekening terpisah) — begitu terpisah, pengelolaan uang pribadi hasilnya adalah wilayah `domains/personal-finance/DOMAIN.md`, bukan course ini
 
 Mini Project: Checklist compliance (status NIB/izin, kewajiban pajak yang berlaku) + rekening/pencatatan bisnis yang sudah terpisah dari pribadi.
 
@@ -177,16 +196,16 @@ Status: Not started
 
 ---
 
-## Module 10 — Keeping Score: Cash Flow & Metrics Bisnis
+## Module 11 — Keeping Score: Cash Flow & Metrics Bisnis
 
 Description: Bookkeeping sederhana dan metrik kunci supaya keputusan bisnis berikutnya berbasis angka, bukan perasaan.
 
 Lessons:
 
-* [ ] 10.1 Bookkeeping sederhana: mencatat income, expense, dan margin per periode tanpa perlu akuntansi penuh
-* [ ] 10.2 Metrik kunci sesuai model bisnis terpilih: CAC & repeat rate untuk produk/jasa berulang, MRR untuk produk digital berlangganan, margin per transaksi untuk model sekali beli
-* [ ] 10.3 Weekly/monthly business review ringkas — format review 15-30 menit yang realistis untuk solo weekend operator
-* [ ] 10.4 Membaca tren dari beberapa siklus review — kapan angka menunjukkan momentum, kapan menunjukkan masalah yang harus diatasi
+* [ ] 11.1 Bookkeeping sederhana: mencatat income, expense, dan margin per periode tanpa perlu akuntansi penuh
+* [ ] 11.2 Metrik kunci sesuai model bisnis terpilih: CAC & repeat rate untuk produk/jasa berulang, MRR untuk produk digital berlangganan, margin per transaksi untuk model sekali beli
+* [ ] 11.3 Weekly/monthly business review ringkas — format review 15-30 menit yang realistis untuk solo weekend operator
+* [ ] 11.4 Membaca tren dari beberapa siklus review — kapan angka menunjukkan momentum, kapan menunjukkan masalah yang harus diatasi
 
 Mini Project: Sheet/dashboard keuangan bisnis sederhana + hasil 1 siklus weekly/monthly review dengan catatan keputusan yang diambil dari angkanya.
 
@@ -194,16 +213,16 @@ Status: Not started
 
 ---
 
-## Module 11 — Scaling, Sistemisasi & Keputusan Lanjut
+## Module 12 — Scaling, Sistemisasi & Keputusan Lanjut
 
 Description: Menghadapi bottleneck paling nyata di bisnis sampingan — waktu — dan mengambil keputusan besar berbasis data yang sudah terkumpul, bukan lagi asumsi awal Module 1.
 
 Lessons:
 
-* [ ] 11.1 Kapan otomasi/delegasi masuk akal walau masih berstatus sampingan, dan batasan waktu weekend sebagai bottleneck eksplisit yang harus direncanakan
-* [ ] 11.2 Review ulang exit criteria dari Module 1 dengan data nyata Module 8-10 — apakah target penghasilan tercapai, mendekati, atau perlu direvisi
-* [ ] 11.3 Kapan mempertimbangkan transisi ke bisnis penuh waktu vs tetap sampingan selamanya vs pivot ke ide lain — kerangka keputusan, bukan dorongan emosional
-* [ ] 11.4 Jebakan "shiny object syndrome" — disiplin fokus vs diversifikasi, dan kapan menambah lini produk/jasa baru justru masuk akal
+* [ ] 12.1 Kapan otomasi/delegasi masuk akal walau masih berstatus sampingan, dan batasan waktu weekend sebagai bottleneck eksplisit yang harus direncanakan
+* [ ] 12.2 Review ulang exit criteria dari Module 1 dengan data nyata Module 8, 10, dan 11 — apakah target penghasilan tercapai, mendekati, atau perlu direvisi
+* [ ] 12.3 Kapan mempertimbangkan transisi ke bisnis penuh waktu vs tetap sampingan selamanya vs pivot ke ide lain — kerangka keputusan, bukan dorongan emosional
+* [ ] 12.4 Jebakan "shiny object syndrome" — disiplin fokus vs diversifikasi, dan kapan menambah lini produk/jasa baru justru masuk akal
 
 Mini Project: Rencana 90 hari ke depan + satu keputusan eksplisit (lanjut/scale/pivot/stop) dengan alasan berbasis data dari modul-modul sebelumnya.
 
@@ -211,16 +230,16 @@ Status: Not started
 
 ---
 
-## Module 12 — Capstone: Bisnis Sampingan Berjalan Nyata
+## Module 13 — Capstone: Bisnis Sampingan Berjalan Nyata
 
 Description: Integrasi seluruh modul menjadi satu studi kasus bisnis sampingan yang benar-benar berjalan, mengikuti `domains/entrepreneurship/DOMAIN.md` bagian "Project Tiers" untuk definisi Capstone/Portfolio Project di domain ini.
 
 Lessons:
 
-* [ ] 12.1 Menyusun struktur studi kasus: masalah, validasi, MVP, marketing, angka finansial (Module 8-10), dan pelajaran yang didapat, jadi satu narasi koheren
-* [ ] 12.2 Self-review draft pertama memakai kriteria `domains/entrepreneurship/DOMAIN.md` bagian "Review Style" (Validation Rigor, Unit Economics, Time Feasibility, Legal/Compliance) sebelum diajukan review
-* [ ] 12.3 Revisi berdasarkan Actionable Improvements dari review, memastikan studi kasus memenuhi bar "Portfolio-Worthy" di `standards/UNIVERSAL_STANDARDS.md`
-* [ ] 12.4 Finalisasi studi kasus dan penyimpanan ke `portofolio/`, plus rencana operasional bisnis berjalan setelah course selesai (mengacu keputusan Module 11)
+* [ ] 13.1 Menyusun struktur studi kasus: masalah, validasi, MVP, marketing, angka finansial (Module 8, 10, dan 11), dan pelajaran yang didapat, jadi satu narasi koheren
+* [ ] 13.2 Self-review draft pertama memakai kriteria `domains/entrepreneurship/DOMAIN.md` bagian "Review Style" (Validation Rigor, Unit Economics, Time Feasibility, Legal/Compliance) sebelum diajukan review
+* [ ] 13.3 Revisi berdasarkan Actionable Improvements dari review, memastikan studi kasus memenuhi bar "Portfolio-Worthy" di `standards/UNIVERSAL_STANDARDS.md`
+* [ ] 13.4 Finalisasi studi kasus dan penyimpanan ke `portofolio/`, plus rencana operasional bisnis berjalan setelah course selesai (mengacu keputusan Module 12)
 
 Capstone Project: Satu bisnis sampingan yang benar-benar berjalan minimal beberapa minggu, dengan revenue nyata (sekecil apapun), didokumentasikan sebagai studi kasus lengkap (Lean Canvas, bukti validasi, MVP, channel marketing, transaksi penjualan, compliance legal/pajak, cash-flow & metrik, keputusan lanjut) dan disimpan ke `portofolio/`. Review memakai `domains/entrepreneurship/DOMAIN.md` bagian "Review Style" di atas Universal Review Rubric (`ai-los/CORE_LOS.md`), plus Assessment Form-nya (gut-check pitch review) dan sesi tanya-jawab mempertahankan setiap keputusan bisnis yang diambil.
 
@@ -230,7 +249,7 @@ Status: Not started
 
 # Capstone Project
 
-Description: Lihat Module 12 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 12 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/entrepreneurship/DOMAIN.md` bagian "Project Tiers".
+Description: Lihat Module 13 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 13 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/entrepreneurship/DOMAIN.md` bagian "Project Tiers".
 
 Acceptance Criteria: Memenuhi keempat kriteria domain (Validation Rigor, Unit Economics, Time Feasibility, Legal/Compliance) plus Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) dari `ai-los/CORE_LOS.md`, dan memenuhi bar "Portfolio-Worthy" (Complete, Reviewed, Presentable, Original) di `standards/UNIVERSAL_STANDARDS.md`. Revenue nyata tidak harus besar — yang wajib adalah nyata dan terdokumentasi.
 
@@ -240,7 +259,7 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/12
+Module Completion: 0/13
 
 Overall Completion: 0%
 

@@ -5,7 +5,7 @@
 * Course Name: Personal Finance — dari 0 sampai Punya Rencana Keuangan Lengkap
 * Category: Personal Finance (Domain: personal-finance — lihat `domains/personal-finance/DOMAIN.md`)
 * Difficulty: Level 0 (belum pernah menyusun rencana keuangan formal) → Level 3 (mampu menyusun & mempertahankan satu Rencana Keuangan Pribadi lengkap, feasible, dan sesuai profil risiko sendiri)
-* Estimated Duration: 11 modul, 3-5 lesson/modul, ~30-40 menit/lesson. Pace disesuaikan sambil jalan.
+* Estimated Duration: 12 modul, 3-5 lesson/modul, ~30-40 menit/lesson. Pace disesuaikan sambil jalan.
 * Prerequisites: Tidak ada prasyarat teknis. Cukup kesediaan membuka angka keuangan pribadi sendiri (atau memakai skenario realistis berlabel jelas bila belum mau berbagi angka asli), sesuai `domains/personal-finance/DOMAIN.md` bagian "Applied Practice Definition".
 
 ---
@@ -141,16 +141,35 @@ Status: Not started
 
 ---
 
-## Module 8 — Retirement Planning
+## Module 8 — Leverage & Debt as a Tool
+
+Description: Memperdalam Module 4 (Debt Management) dari sudut berlawanan — bukan cara melunasi utang, tapi cara memakai utang secara sengaja dan terukur untuk memperbesar hasil investasi (leverage finansial, margin, OPM/Other People's Money, leverage properti), sekaligus memahami kenapa alat yang sama bisa menghancurkan net worth kalau dipakai sembarangan. Dibangun di atas fondasi risk-return Module 6 dan portfolio construction Module 7 — leverage sengaja tidak dibahas sebelum learner paham dasar risk-return.
+
+Lessons:
+
+* [ ] 8.1 Leverage finansial — konsep dasar: bagaimana utang mengalikan return (dan kerugian) dari modal sendiri, dan bedanya leverage strategis dari utang konsumtif di Module 4
+* [ ] 8.2 Margin trading — cara kerja margin loan di pasar saham, margin call, dan kenapa leverage tinggi jadi penyebab umum kerugian besar/likuidasi paksa
+* [ ] 8.3 OPM (Other People's Money) — memakai modal investor/mitra/utang bisnis untuk scaling, kelebihan dan kewajiban yang menyertainya
+* [ ] 8.4 Leverage properti — mortgage/KPR sebagai leverage, cash-on-cash return, dan efek leverage terhadap swing nilai equity (loan-to-value/LTV)
+* [ ] 8.5 Risk of over-leverage — studi kasus margin call, foreclosure, dan kebangkrutan bisnis akibat utang berlebihan
+* [ ] 8.6 Kapan leverage worth it vs kapan berbahaya — kerangka keputusan: cash-flow coverage, volatilitas aset yang dibeli, horizon waktu, dan toleransi risiko pribadi dari Module 6
+
+Mini Project: Analisis satu keputusan leverage nyata atau skenario realistis berlabel jelas (margin trading, KPR, atau modal usaha dari utang) — hitung estimasi upside/downside dan tentukan "worth it atau tidak" memakai kerangka keputusan Lesson 8.6.
+
+Status: Not Started
+
+---
+
+## Module 9 — Retirement Planning
 
 Description: Memproyeksikan kebutuhan dana pensiun dari sekarang, bukan menunda perhitungan sampai mendekati usia pensiun.
 
 Lessons:
 
-* [ ] 8.1 Menghitung kebutuhan dana pensiun — metode replacement ratio dan metode expense-based (4% rule sebagai titik awal, bukan hukum mutlak)
-* [ ] 8.2 Instrumen pensiun yang relevan di yurisdiksi learner (mis. BPJS Ketenagakerjaan/DPLK untuk Indonesia) — apa yang dicover dan apa yang tidak
-* [ ] 8.3 Strategi kontribusi: menentukan berapa persen income yang harus disisihkan untuk mencapai target dana pensiun pada usia tertentu
-* [ ] 8.4 Strategi penarikan dana saat pensiun (withdrawal strategy) dan risiko sequence-of-returns di fase pensiun
+* [ ] 9.1 Menghitung kebutuhan dana pensiun — metode replacement ratio dan metode expense-based (4% rule sebagai titik awal, bukan hukum mutlak)
+* [ ] 9.2 Instrumen pensiun yang relevan di yurisdiksi learner (mis. BPJS Ketenagakerjaan/DPLK untuk Indonesia) — apa yang dicover dan apa yang tidak
+* [ ] 9.3 Strategi kontribusi: menentukan berapa persen income yang harus disisihkan untuk mencapai target dana pensiun pada usia tertentu
+* [ ] 9.4 Strategi penarikan dana saat pensiun (withdrawal strategy) dan risiko sequence-of-returns di fase pensiun
 
 Mini Project: Proyeksi kebutuhan dana pensiun pribadi (target angka pada usia pensiun pilihan) beserta persentase kontribusi bulanan yang dibutuhkan untuk mencapainya.
 
@@ -158,16 +177,16 @@ Status: Not started
 
 ---
 
-## Module 9 — Tax Basics
+## Module 10 — Tax Basics
 
 Description: Memahami dampak pajak terhadap keputusan keuangan pribadi secara konseptual — cukup untuk membuat keputusan lebih baik, bukan menggantikan konsultan pajak berlisensi.
 
 Lessons:
 
-* [ ] 9.1 Konsep dasar pajak penghasilan pribadi dan bagaimana dia mempengaruhi net income yang tersedia untuk budget/investasi
-* [ ] 9.2 Instrumen dengan perlakuan pajak berbeda (mis. reksadana vs deposito vs instrumen pensiun) — kenapa tax-efficiency masuk pertimbangan alokasi
-* [ ] 9.3 Kewajiban pelaporan dasar yang relevan untuk individu (mengacu sumber resmi yurisdiksi learner, mis. DJP untuk Indonesia) — sebatas konsep, bukan pengisian formulir lengkap
-* [ ] 9.4 Kapan wajib berkonsultasi dengan profesional pajak berlisensi — batas jelas antara "cukup tahu konsepnya" dan "butuh nasihat legal spesifik"
+* [ ] 10.1 Konsep dasar pajak penghasilan pribadi dan bagaimana dia mempengaruhi net income yang tersedia untuk budget/investasi
+* [ ] 10.2 Instrumen dengan perlakuan pajak berbeda (mis. reksadana vs deposito vs instrumen pensiun) — kenapa tax-efficiency masuk pertimbangan alokasi
+* [ ] 10.3 Kewajiban pelaporan dasar yang relevan untuk individu (mengacu sumber resmi yurisdiksi learner, mis. DJP untuk Indonesia) — sebatas konsep, bukan pengisian formulir lengkap
+* [ ] 10.4 Kapan wajib berkonsultasi dengan profesional pajak berlisensi — batas jelas antara "cukup tahu konsepnya" dan "butuh nasihat legal spesifik"
 
 Mini Project: Menulis ringkasan 1 halaman bagaimana pajak mempengaruhi 2 keputusan keuangan dari modul-modul sebelumnya (mis. alokasi investasi dan strategi pensiun) milik sendiri.
 
@@ -175,16 +194,16 @@ Status: Not started
 
 ---
 
-## Module 10 — Estate & Legacy Basics
+## Module 11 — Estate & Legacy Basics
 
 Description: Memastikan rencana keuangan yang sudah dibangun tetap berjalan sesuai keinginan learner meski terjadi hal tak terduga.
 
 Lessons:
 
-* [ ] 10.1 Konsep dasar wasiat (will) — kenapa penting bahkan untuk orang yang belum "kaya"
-* [ ] 10.2 Penunjukan ahli waris/beneficiary pada instrumen finansial (asuransi, rekening investasi, dana pensiun) — celah paling umum yang terlewat
-* [ ] 10.3 Konsep dasar estate planning: apa yang termasuk estate, dan gambaran umum proses transfer aset ke ahli waris
-* [ ] 10.4 Kapan wajib berkonsultasi dengan notaris/penasihat hukum berlisensi untuk dokumen legal formal
+* [ ] 11.1 Konsep dasar wasiat (will) — kenapa penting bahkan untuk orang yang belum "kaya"
+* [ ] 11.2 Penunjukan ahli waris/beneficiary pada instrumen finansial (asuransi, rekening investasi, dana pensiun) — celah paling umum yang terlewat
+* [ ] 11.3 Konsep dasar estate planning: apa yang termasuk estate, dan gambaran umum proses transfer aset ke ahli waris
+* [ ] 11.4 Kapan wajib berkonsultasi dengan notaris/penasihat hukum berlisensi untuk dokumen legal formal
 
 Mini Project: Membuat daftar aset & beneficiary yang seharusnya ditunjuk (beneficiary checklist) untuk seluruh instrumen finansial yang dimiliki, plus catatan dokumen legal apa yang masih perlu dikonsultasikan ke profesional.
 
@@ -192,16 +211,16 @@ Status: Not started
 
 ---
 
-## Module 11 — Capstone: Rencana Keuangan Pribadi Lengkap
+## Module 12 — Capstone: Rencana Keuangan Pribadi Lengkap
 
 Description: Integrasi seluruh modul menjadi satu dokumen presentable yang bisa dipertahankan alasannya di setiap keputusan, mengikuti `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" untuk definisi Capstone/Portfolio Project di domain ini.
 
 Lessons:
 
-* [ ] 11.1 Menyusun struktur dokumen Rencana Keuangan Pribadi — menggabungkan net worth, cash-flow, dana darurat, strategi utang, proteksi asuransi, IPS, dan proyeksi pensiun jadi satu narasi koheren
-* [ ] 11.2 Self-review draft pertama memakai kriteria di `domains/personal-finance/DOMAIN.md` bagian "Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) sebelum diajukan review
-* [ ] 11.3 Revisi berdasarkan Actionable Improvements dari review, memastikan dokumen memenuhi bar "portfolio-worthy" di `standards/UNIVERSAL_STANDARDS.md`
-* [ ] 11.4 Finalisasi dan penyimpanan dokumen ke `portofolio/`
+* [ ] 12.1 Menyusun struktur dokumen Rencana Keuangan Pribadi — menggabungkan net worth, cash-flow, dana darurat, strategi utang, proteksi asuransi, IPS, dan proyeksi pensiun jadi satu narasi koheren
+* [ ] 12.2 Self-review draft pertama memakai kriteria di `domains/personal-finance/DOMAIN.md` bagian "Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) sebelum diajukan review
+* [ ] 12.3 Revisi berdasarkan Actionable Improvements dari review, memastikan dokumen memenuhi bar "portfolio-worthy" di `standards/UNIVERSAL_STANDARDS.md`
+* [ ] 12.4 Finalisasi dan penyimpanan dokumen ke `portofolio/`
 
 Capstone Project: Satu dokumen Rencana Keuangan Pribadi lengkap — integrasi net worth statement, cash-flow/budget, dana darurat, strategi pelunasan utang, proteksi asuransi, Investment Policy Statement, dan proyeksi pensiun — presentable dan bisa dipertahankan alasannya di setiap keputusan, disimpan ke `portofolio/`. Review memakai `domains/personal-finance/DOMAIN.md` bagian "Review Style" (Feasibility, Risk Alignment, Completeness, Actionability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`), plus Assessment Form-nya (self-evaluation, lihat bagian "Assessment Form") dan sesi tanya-jawab mempertahankan setiap keputusan dalam rencana.
 
@@ -232,7 +251,7 @@ Status: Draft — menunggu approval, belum dimulai
 
 # Capstone Project
 
-Description: Lihat Module 11 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 11 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").
+Description: Lihat Module 12 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 12 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").
 
 Acceptance Criteria: Memenuhi keempat kriteria domain (Feasibility, Risk Alignment, Completeness, Actionability) plus Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) dari `ai-los/CORE_LOS.md`, dan memenuhi bar "Portfolio-Worthy" (Complete, Reviewed, Presentable, Original) di `standards/UNIVERSAL_STANDARDS.md`.
 
@@ -242,7 +261,7 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/11
+Module Completion: 0/12
 
 Overall Completion: 0%
 

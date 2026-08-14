@@ -5,7 +5,7 @@
 * Course Name: Fisika Terapan untuk Software Engineer — dari Kinematika sampai Physics Engine, Ray Tracer & Robot Kinematics
 * Category: Physics for Software Engineers (Domain: physics-for-software-engineers — lihat `domains/physics-for-software-engineers/DOMAIN.md`)
 * Difficulty: Level 0 (bisa coding, tapi fisika SMA/awal kuliah sudah lama tidak dipakai — apalagi dipakai untuk kode) → Level 3 (mampu membangun DAN memvalidasi secara numerik komponen inti physics engine, ray tracer, atau skrip kinematika robotika sendiri)
-* Estimated Duration: 11 modul (10 modul konten + 1 modul capstone), 4-5 lesson/modul, pace disesuaikan karena Applied Practice di domain ini SELALU berupa kode yang benar-benar dijalankan & divalidasi numerik (energy/momentum check, dsb) — bukan sekadar baca teori
+* Estimated Duration: 15 modul (14 modul konten + 1 modul capstone), 4-5 lesson/modul, pace disesuaikan karena Applied Practice di domain ini SELALU berupa kode yang benar-benar dijalankan & divalidasi numerik (energy/momentum check, dsb) — bukan sekadar baca teori
 * Prerequisites: Bisa coding di minimal satu bahasa (Python/JS/C++/dst) dengan dasar OOP dan array/vector; aljabar & trigonometri tingkat SMA. TIDAK butuh kalkulus lanjut di awal — turunan/integral secukupnya diperkenalkan saat dibutuhkan di Module 1 & 6. Domain ini murni mekanika klasik/Newtonian (v << c); pertanyaan yang menyentuh efek relativistik (mis. koreksi GPS) akan diarahkan eksplisit ke domain terpisah `relativity`, bukan dijawab di sini.
 
 ---
@@ -19,6 +19,10 @@
 * [ ] Membangun komponen rigid body dynamics dan collision detection/response dari nol mengikuti pola Millington & Ericson, cukup untuk memahami cara kerja Box2D/Bullet/PhysX
 * [ ] Membangun ray tracer minimal (ray-object intersection, reflection/refraction, shading dasar) mengikuti kerangka MIT 6.837 & Real-Time Rendering
 * [ ] Memiliki literasi elektromagnetisme/sensor (Ohm's law, accelerometer/gyroscope/LIDAR) dan kinematika robotika dasar secukupnya untuk menulis firmware/software yang menginterpretasi hardware dengan benar
+* [ ] Memahami osilasi (SHM, damped/driven oscillation, resonansi) dan gelombang mekanik (superposisi, interferensi) secukupnya untuk memodelkan sistem berosilasi dan menjembatani ke pemrosesan sinyal dasar
+* [ ] Memahami mekanika fluida secukupnya (tekanan, buoyancy, hukum Bernoulli, viskositas/bilangan Reynolds) untuk membangun simulasi fluida dasar bergaya graphics/game (particle-based maupun grid-based)
+* [ ] Memahami termodinamika secukupnya (Hukum Termodinamika I & II, perpindahan kalor) untuk mensimulasikan sistem termal sederhana (mis. difusi kalor) dan melengkapi literasi sensor suhu
+* [ ] Menguasai dasar feedback control & PID controller untuk menstabilkan/mengendalikan sistem fisis (mis. inverted pendulum, lengan robot) secara real-time, bukan cuma mensimulasikannya secara pasif
 * [ ] Menghasilkan Capstone Project (Physics Engine 2D / Ray Tracer / Robot Kinematics Simulator) yang production-aware, dengan validasi numerik eksplisit dan dokumentasi trade-off desain
 
 ---
@@ -198,16 +202,84 @@ Status: Not started
 
 ---
 
-## Module 11 — Capstone: Physics Engine, Ray Tracer, atau Robot Kinematics Simulator
+## Module 11 — Osilasi & Gelombang: Simple Harmonic Motion, Resonansi, dan Superposisi
 
-Description: Mengintegrasikan seluruh artefak Module 1-10 jadi satu capstone project portofolio, mengikuti `domains/physics-for-software-engineers/DOMAIN.md` bagian "Project Tiers" — learner memilih SATU dari tiga jalur capstone yang tersedia.
+Description: Perluasan dari energi (Module 3) dan rotasi (Module 5) ke sistem yang berosilasi — fondasi "gelombang" yang belum tersentuh Module 9 (Module 9 fokus optik/ray tracing, bukan gelombang mekanik itu sendiri). Mengikuti struktur MIT OCW 8.01SC bagian Oscillations, dan menjembatani ke pemrosesan sinyal dasar yang relevan untuk sensor (Module 10) & audio software.
 
 Lessons:
 
-* [ ] 11.1 Menentukan jalur capstone & scope: Physics Engine 2D lengkap / Ray Tracer dengan light transport dasar / Robot Kinematics Simulator (forward + dasar inverse kinematics)
-* [ ] 11.2 Desain & implementasi artefak capstone, mengintegrasikan modul-modul yang relevan dengan jalur terpilih
-* [ ] 11.3 Validasi numerik menyeluruh sesuai jalur — kekekalan energi/momentum & non-penetrasi (Physics Engine), akurasi geometris pantulan/bias (Ray Tracer), atau round-trip error forward-inverse kinematics (Robot Kinematics)
-* [ ] 11.4 Dokumentasi tertulis keputusan desain fisika/numerik & trade-off yang diambil, disimpan ke `portofolio/`
+* [ ] 11.1 Simple Harmonic Motion (SHM) — persamaan gerak osilator harmonik, hubungan dengan gerak melingkar & rotasi (Module 5)
+* [ ] 11.2 Osilasi teredam (damped oscillation) & osilasi terpaksa (driven oscillation) — resonansi dan kenapa itu penting (mis. resonansi struktural, filter sinyal)
+* [ ] 11.3 Gelombang mekanik: persamaan gelombang, kecepatan rambat, superposisi & interferensi — fondasi konsep gelombang di luar optik
+* [ ] 11.4 Dari gelombang mekanik ke sinyal digital: sampling & aliasing secukupnya untuk memahami cara sensor/audio software merepresentasikan gelombang (jembatan ke pemrosesan sinyal, bukan DSP penuh)
+
+Mini Project: Mass-spring-damper oscillator simulator — simulasikan SHM murni, lalu tambahkan damping & driving force, plot amplitude vs waktu untuk beberapa nilai damping ratio. Validasi numerik: bandingkan frekuensi osilasi & amplitude decay hasil simulasi terhadap solusi analitik SHM teredam (underdamped case), dan tunjukkan resonansi terjadi saat frekuensi driving mendekati frekuensi natural sistem (amplitude puncak sesuai prediksi analitik).
+
+Status: Not started
+
+---
+
+## Module 12 — Fluida: Mekanika Fluida & Simulasi
+
+Description: Perluasan dari partikel/rigid body (Module 7, 8) ke medium kontinu — fluida statis (tekanan, buoyancy) dan fluida dinamis secukupnya untuk fluid simulation bergaya graphics/game (mis. smoke/water sim sederhana), konsisten dengan Applied Practice domain ini (kode dulu, bukan teori murni), gaya "Fluid Simulation for Computer Graphics" (Robert Bridson) sebagai kerangka bagian simulasi grafis.
+
+Lessons:
+
+* [ ] 12.1 Fluida statis: tekanan, hukum Pascal, gaya apung (buoyancy) — Hukum Archimedes
+* [ ] 12.2 Fluida dinamis dasar: persamaan kontinuitas, hukum Bernoulli — kapan berlaku & batasannya (aliran ideal, incompressible)
+* [ ] 12.3 Viskositas & bilangan Reynolds — kenapa aliran nyata tidak selalu ideal, pengantar aliran laminar vs turbulen
+* [ ] 12.4 Model fluida untuk simulasi grafis: particle-based (Smoothed Particle Hydrodynamics/SPH) secukupnya vs grid-based — trade-off performa vs akurasi (analog dengan trade-off integrator di Module 6)
+
+Mini Project: Simulator buoyancy sederhana (benda mengapung/tenggelam dalam fluida statis, validasi terhadap Hukum Archimedes: gaya apung = berat fluida yang dipindahkan) DAN simulasi partikel fluida 2D minimal berbasis SPH sederhana (segelintir partikel) untuk mendemonstrasikan perilaku fluida dasar (mis. partikel menyebar & mencari permukaan datar). Validasi numerik: gaya apung hasil simulasi sesuai prediksi Archimedes dalam toleransi kecil, dan total massa/jumlah partikel fluida tetap konsisten sepanjang simulasi (tidak ada partikel hilang/muncul tiba-tiba).
+
+Status: Not started
+
+---
+
+## Module 13 — Termodinamika untuk Sistem & Simulasi
+
+Description: Perluasan dari energi (Module 3) ke sistem termal — temperatur, kalor, dan Hukum Termodinamika secukupnya untuk simulasi thermal (mis. heat diffusion) dan melengkapi literasi sensor suhu (melengkapi Module 10).
+
+Lessons:
+
+* [ ] 13.1 Temperatur & kalor — beda konsep, kapasitas kalor, kalor jenis
+* [ ] 13.2 Hukum Termodinamika I: kekekalan energi dengan kalor & kerja — perluasan dari Module 3
+* [ ] 13.3 Perpindahan kalor: konduksi, konveksi, radiasi secukupnya — persamaan difusi kalor (heat equation) sebagai PDE sederhana
+* [ ] 13.4 Hukum Termodinamika II & entropi secukupnya — kenapa proses punya arah (irreversibility), relevansi untuk memahami disipasi energi di simulasi (kontraskan dengan Module 2/3 soal gaya disipatif)
+
+Mini Project: Simulator difusi kalor 1D sederhana (mis. batang logam dengan distribusi suhu awal, diselesaikan lewat diskritisasi finite-difference dari heat equation). Validasi numerik: distribusi suhu hasil simulasi konvergen menuju kesetimbangan termal yang sesuai prediksi analitik (mis. energi total kekal karena sistem terisolasi, sesuai Hukum Termodinamika I), dan bandingkan terhadap solusi analitik heat equation untuk kasus sederhana bila tersedia.
+
+Status: Not started
+
+---
+
+## Module 14 — Kontrol: Feedback Control & PID untuk Sistem Fisis
+
+Description: Menutup loop sense-model-control dari Module 10 (sensor) & Module 5 (kinematika robotika) — bagaimana software benar-benar mengendalikan sistem fisis secara real-time, bukan cuma mensimulasikannya secara pasif, gaya "Feedback Systems" (Åström & Murray, tersedia gratis) sebagai kerangka pengantar kontrol untuk software engineer.
+
+Lessons:
+
+* [ ] 14.1 Konsep feedback control loop: sensor → controller → aktuator, open-loop vs closed-loop
+* [ ] 14.2 Kontroler Proportional-Integral-Derivative (PID) — makna tiap term & efeknya terhadap respons sistem
+* [ ] 14.3 Tuning PID secukupnya (mis. Ziegler-Nichols secukupnya) & masalah umum (overshoot, oscillation, steady-state error)
+* [ ] 14.4 Menerapkan PID ke sistem fisis sederhana dari modul sebelumnya (mis. menstabilkan pendulum terbalik/inverted pendulum, atau mengontrol posisi lengan robot dari Module 5/10)
+
+Mini Project: PID controller untuk menstabilkan sistem inverted pendulum sederhana (simulasi, bukan hardware fisik) ATAU mengontrol lengan robot dari Module 10 agar mencapai sudut target dengan smooth (tanpa overshoot berlebihan). Validasi numerik: plot respons sistem (posisi/sudut vs waktu) menunjukkan sistem konvergen ke target tanpa divergen, ukur overshoot & settling time secara eksplisit, dan bandingkan performa untuk minimal dua set parameter PID berbeda (analog dengan perbandingan integrator di Module 6).
+
+Status: Not started
+
+---
+
+## Module 15 — Capstone: Physics Engine, Ray Tracer, atau Robot Kinematics Simulator
+
+Description: Mengintegrasikan seluruh artefak Module 1-14 jadi satu capstone project portofolio, mengikuti `domains/physics-for-software-engineers/DOMAIN.md` bagian "Project Tiers" — learner memilih SATU dari tiga jalur capstone yang tersedia.
+
+Lessons:
+
+* [ ] 15.1 Menentukan jalur capstone & scope: Physics Engine 2D lengkap / Ray Tracer dengan light transport dasar / Robot Kinematics Simulator (forward + dasar inverse kinematics)
+* [ ] 15.2 Desain & implementasi artefak capstone, mengintegrasikan modul-modul yang relevan dengan jalur terpilih
+* [ ] 15.3 Validasi numerik menyeluruh sesuai jalur — kekekalan energi/momentum & non-penetrasi (Physics Engine), akurasi geometris pantulan/bias (Ray Tracer), atau round-trip error forward-inverse kinematics (Robot Kinematics)
+* [ ] 15.4 Dokumentasi tertulis keputusan desain fisika/numerik & trade-off yang diambil, disimpan ke `portofolio/`
 
 Capstone Project: Pilih SATU — (A) **Physics Engine 2D kecil yang lengkap**: integrator terpilih (Module 6) + broad/narrow-phase collision detection (Module 8) + constraint/impulse resolution (Module 8) untuk beberapa bentuk (lingkaran/kotak), divalidasi lewat kekekalan momentum & non-penetrasi. (B) **Ray tracer dengan light transport dasar**: beberapa primitif, multiple bounce refleksi/refraksi, BRDF sederhana (Module 9), divalidasi lewat kasus uji geometris analitik. (C) **Simulator kinematika robotika**: forward + dasar inverse kinematics untuk lengan robot sederhana (Module 5 & 10), divalidasi lewat round-trip error posisi end-effector. Semua jalur disertai penjelasan tertulis singkat tentang keputusan desain fisika/numerik yang diambil dan trade-off-nya (mis. kenapa integrator X dipilih, kenapa BRDF disederhanakan, dst).
 
@@ -217,7 +289,7 @@ Status: Not started
 
 # Capstone Project
 
-Description: Lihat Module 11 di atas untuk rincian lengkap tiga jalur capstone (Physics Engine 2D / Ray Tracer / Robot Kinematics Simulator). Capstone course ini SATU dengan Capstone Project Module 11 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/physics-for-software-engineers/DOMAIN.md` bagian "Project Tiers".
+Description: Lihat Module 15 di atas untuk rincian lengkap tiga jalur capstone (Physics Engine 2D / Ray Tracer / Robot Kinematics Simulator). Capstone course ini SATU dengan Capstone Project Module 15 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/physics-for-software-engineers/DOMAIN.md` bagian "Project Tiers".
 
 Acceptance Criteria: Memenuhi Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) dari `ai-los/CORE_LOS.md` DITAMBAH keempat lensa Review Style domain ini dari `domains/physics-for-software-engineers/DOMAIN.md`: **Physical Correctness** (hukum fisika yang mendasari terpenuhi, mis. energi/momentum kekal pada sistem tertutup), **Numerical Stability** (integrator stabil untuk skenario yang disimulasikan, trade-off dijelaskan sadar bukan kebetulan), **Code-Physics Fidelity** (kode benar-benar mengimplementasikan fisika yang dipahami, bukan angka di-fudge supaya "terlihat benar"), dan **Real-Time/Production Awareness** (kesadaran budget waktu per frame, floating-point precision, stabilitas pada timestep variabel). Disimpan ke `portofolio/` disertai dokumentasi trade-off desain.
 
@@ -227,7 +299,7 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/11
+Module Completion: 0/15
 
 Overall Completion: 0%
 

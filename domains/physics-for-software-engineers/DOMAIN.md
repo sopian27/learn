@@ -17,6 +17,10 @@ Fisika sebagai alat kerja seorang software engineer — "fisika YANG diterapkan 
 - **Rigid body dynamics & collision detection/response**: representasi rigid body (posisi, orientasi/quaternion, kecepatan linear & sudut), broad-phase vs narrow-phase collision detection, collision response (impulse-based), constraint solving secukupnya untuk memahami cara kerja Box2D/Bullet/PhysX — inti dari physics engine sungguhan.
 - **Optik & gelombang untuk computer graphics**: hukum pemantulan (reflection) dan pembiasan (refraction/Snell's law), dasar-dasar ray tracing (ray-object intersection, shading model dasar), pengantar light transport untuk rendering fotorealistik (BRDF secukupnya, bukan transport theory penuh) — TIDAK mencakup optik kuantum.
 - **Literasi elektromagnetisme/rangkaian untuk sensor & hardware**: hukum Ohm, rangkaian dasar (seri/paralel), konsep sensor umum (accelerometer, gyroscope, LIDAR/ultrasonic) secukupnya untuk membaca datasheet dan menulis firmware/software yang menginterpretasi data sensor dengan benar — pada level literasi software engineer yang berinteraksi dengan hardware/IoT/robotika, bukan level insinyur elektro.
+- **Osilasi & gelombang**: gerak harmonik sederhana (SHM), damping/resonansi, gelombang mekanik, sampling/aliasing — fondasi untuk audio synthesis, signal processing, dan animasi berbasis spring/damper.
+- **Fluida**: statika fluida (buoyancy), persamaan Bernoulli, viskositas/bilangan Reynolds, metode simulasi partikel fluida (SPH) — dipakai untuk simulasi cairan/gas dalam game/graphics engineering.
+- **Termodinamika**: Hukum I & II Termodinamika, perpindahan kalor, heat equation — dipakai untuk simulasi termal (mis. heat diffusion di grid/particle system) dan pemahaman batasan fisis sistem tertutup.
+- **Kontrol (feedback control)**: feedback loop, kontroler PID, tuning, studi kasus seperti inverted pendulum — fondasi untuk software kontrol robotika/embedded dan simulasi sistem fisis yang self-correcting.
 
 Secara eksplisit domain ini TIDAK mencakup, dan mentor WAJIB menolak/mengarahkan ulang bila diminta:
 
