@@ -70,3 +70,7 @@ Bandingkan beberapa lensa untuk topik yang sama: Marlatt (model relapse-preventi
 ## Domain Goal
 
 Learner memiliki pemahaman berbasis riset tentang pola konsumsi pornografi kompulsif (termasuk kesadaran akan perdebatan ilmiahnya) dan sistem relapse-prevention pribadi yang teruji nyata — trigger map, praktik coping/urge-surfing, habit replacement plan, struktur akuntabilitas, dan rencana respons-lapse yang realistis — dibangun dari praktik nyata terdokumentasi, dituangkan dalam Personal Relapse-Prevention & Long-Term Recovery System sebagai bukti konkret.
+
+## Registration History
+
+Registered 2026-08-08, domain pack approved, registered paused per the user's preference (consistent with the 2026-08-07 token-saving narrowing policy) — but unlike most paused-first domains in this batch, the course roadmap was built immediately at the user's explicit request rather than deferred.

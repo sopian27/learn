@@ -80,3 +80,7 @@ Bandingkan beberapa lensa berbeda untuk skill yang sama:
 ## Domain Goal
 
 Dari level saat ini (memahami film berbahasa Inggris dengan subtitle Inggris ~70-80%, bisa bicara tapi belum pernah dilatih sengaja) menuju fluency menyeluruh di empat skill, dikalibrasi ke CEFR (target akhir C1, opsional C2): mampu menonton film/series/media native TANPA subtitle apapun dengan pemahaman penuh (termasuk idiom, slang, connected speech, referensi budaya, berbagai aksen), berbicara natural dan percaya diri tak berskrip, serta membaca/menulis solid di level lanjut — placement dan kalibrasi progres berkala lewat EF SET.
+
+## Registration History
+
+Registered 2026-08-08, domain pack and course roadmap approved together. Registered paused per the user's preference (consistent with the 2026-08-07 token-saving policy) — resumable anytime on request ("lanjut course Bahasa Inggris").

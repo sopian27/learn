@@ -71,3 +71,7 @@ Bandingkan beberapa lensa untuk topik yang sama: klasikus akademik (A.A. Long, J
 ## Domain Goal
 
 Learner memahami Stoicism sebagai sistem filosofis utuh (sejarah, logic, physics, ethics) dari sumber primer dan akademik — bukan versi motivational-quote populer — dan punya praktik harian nyata teruji (journaling, dichotomy of control, premeditatio malorum) minimal 4 minggu, dituangkan dalam Personal Stoic Handbook yang menunjukkan baik pemahaman tekstual/filosofis maupun aplikasi praktis nyata, sekaligus bisa membedakan dan mengoreksi kesalahpahaman populer ("broicism") atas filosofi ini.
+
+## Registration History
+
+Registered 2026-08-08, domain pack approved. Registered paused first per the user's preference, consistent with the 2026-08-07 token-saving narrowing policy.

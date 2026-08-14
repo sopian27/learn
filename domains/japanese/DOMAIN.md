@@ -76,3 +76,7 @@ Bandingkan beberapa lensa berbeda untuk skill yang sama:
 ## Domain Goal
 
 Dari tidak bisa baca Hiragana/Katakana sama sekali, menguasai fluency menyeluruh di empat skill (speaking, listening, reading, writing): mampu ngobrol natural tak berskrip dengan native speaker (termasuk keigo yang tepat sesuai konteks), mengonsumsi media Jepang (anime/drama/musik/berita) tanpa subtitle terjemahan, membaca dan menulis Kanji fungsional di level lanjut, menulis Jepang formal/akademis, dan level kemampuan dikalibrasi terhadap JLPT N5-N1 sebagai checkpoint eksternal — target akhir setara JLPT N1 atau fluency fungsional mendekati native, sesuai kesepakatan tujuan "fluency menyeluruh" dan benchmark JLPT yang dipilih learner.
+
+## Registration History
+
+Registered 2026-08-08, domain pack approved, built following the same pattern as `korean`. Registered paused first per the user's preference, consistent with the 2026-08-07 token-saving narrowing policy.

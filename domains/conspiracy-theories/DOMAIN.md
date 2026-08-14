@@ -81,3 +81,7 @@ Bandingkan empat lensa berbeda untuk mengevaluasi klaim yang sama:
 ## Domain Goal
 
 Akan disepakati final bersama learner saat `courses/conspiracy-theories/roadmap.md` di-approve — sementara: mampu mengevaluasi klaim konspirasi apa pun (historis maupun yang baru muncul) secara sistematis dan berbasis bukti — memahami sejarah dan psikologi di balik fenomena ini, mengenali pola penalaran yang lemah/unfalsifiable, dan sampai pada kesimpulan yang proporsional dengan bukti yang ada — bukan skeptis membabi buta maupun mudah percaya, dari nol sampai level yang setara literasi seorang peneliti/jurnalis investigatif di bidang ini.
+
+## Registration History
+
+Registered 2026-08-08, domain pack approved. Registered paused first per the user's preference.

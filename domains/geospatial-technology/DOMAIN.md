@@ -96,3 +96,7 @@ Kelima lensa ini sering menekankan hal berbeda untuk masalah yang sama (mis. "pi
 ## Domain Goal
 
 Learner mampu merancang dan membangun sistem geospasial nyata dari ujung ke ujung — memahami geodesi & CRS secukupnya untuk tidak membuat bug lokasi yang diam-diam salah, memilih model data & strategi spatial indexing yang tepat untuk suatu use-case, menulis spatial SQL/analisis spasial yang benar, memahami literasi dasar remote sensing/GNSS untuk mengonsumsi data Earth observation, dan menyajikan semuanya lewat web map yang berfungsi — dibuktikan lewat aplikasi geospasial end-to-end di portofolio yang menunjukkan seluruh loop (data → CRS benar → index tepat → analisis → visualisasi), bukan potongan-potongan terisolasi. Domain ini eksplisit BUKAN kredensial GISP atau gelar geomatika/GIScience formal, dan eksplisit BUKAN pengganti keahlian remote-sensing-science tingkat riset — murni kemampuan applied engineer yang bisa membangun produk geospasial produksi dengan pijakan software-engineering yang sudah dipunya learner.
+
+## Registration History
+
+Registered 2026-08-09, domain pack approved via the user's direct request to build the course roadmap right away. Registered paused per the 2026-08-07 token-saving policy, but the course roadmap was built immediately at the user's request rather than deferred.
