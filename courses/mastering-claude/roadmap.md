@@ -146,14 +146,14 @@ Description: Penyeimbang level lanjut/expert. Data risiko nyata vibe coding di p
 
 Lessons:
 
-* [ ] 8.1 Risiko Vibe Coding di Dunia Nyata — data security flaw (~45% AI-generated code berisiko per Veracode 2025), technical debt, test coverage turun, credential leak; studi kasus
+* [x] 8.1 Risiko Vibe Coding di Dunia Nyata — data security flaw (~45% AI-generated code berisiko per Veracode 2025), technical debt, test coverage turun, credential leak; studi kasus
 * [ ] 8.2 Spec-Driven Development sebagai Penyeimbang — alur define intent → remove ambiguity → plan with constraints → implement dengan AI → validate against spec
 * [ ] 8.3 Disiplin Verifikasi — review diff, minimum test coverage, security review sebelum merge (pakai skill `security-review` & `sonarqube` yang sudah tersedia)
 * [ ] 8.4 Agentic Engineering — pergeseran istilah Karpathy 2026: orkestrasi banyak agent/subagent (plan mode, background agent, MCP) dibanding satu sesi chat linear
 
 Mini Project: Ambil tool dari Mini Project Module 7, refactor pakai alur spec-driven + verifikasi penuh — bandingkan hasil "vibes only" vs "disciplined" (kualitas, waktu, kepercayaan diri terhadap kode sendiri).
 
-Status: Belum dimulai (draft baru 2026-08-06, menunggu approval user)
+Status: In Progress — dimulai 2026-08-15. 8.1 selesai (2026-08-15), skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 awalnya salah label "security flaw", direvisi jadi pengakuan eksplisit skenario tidak cocok bersih ke 4 kategori — dipilih "test coverage & overconfidence" secara analogis). Log: `playground/mastering-claude/8.1.md`.
 
 ---
 
@@ -173,8 +173,8 @@ Module Completion: 6/8
 
 Overall Completion: 75%
 
-Current Module: Module 7 — Vibe Coding: Filosofi & Alur Kerja (In Progress)
+Current Module: Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab (In Progress)
 
-Current Lesson: Semua lesson Module 7 selesai (7.1, 7.2, 7.3)
+Current Lesson: 8.1 Risiko Vibe Coding di Dunia Nyata (selesai)
 
-Next Lesson: Mini Project Module 7 (vibe-code tool kecil "vibes only" + refleksi tertulis) — lalu Module 8 (Dari Vibe Coding ke Rekayasa Bertanggung Jawab), belum dimulai
+Next Lesson: 8.2 Spec-Driven Development sebagai Penyeimbang. Mini Project Module 7 masih tertunda (vibe-code tool kecil "vibes only" + refleksi tertulis).
