@@ -100,12 +100,12 @@ Lessons:
 
 * [x] 5.1 Cowork Overview & Positioning (beda dari Claude Code & chat biasa)
 * [x] 5.2 Scheduled & Unattended Tasks
-* [ ] 5.3 Computer Use / Dispatch
+* [x] 5.3 Computer Use / Dispatch
 * [ ] 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
 
 Mini Project: TBD
 
-Status: In Progress — 5.1 selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi. 5.2 selesai (2026-08-14), skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam: mekanisme "user sebagai failure detector real-time" hilang di unattended, notification/retry/escalation gantikan peran itu). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`.
+Status: In Progress — 5.1 selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi. 5.2 selesai (2026-08-14), skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam: mekanisme "user sebagai failure detector real-time" hilang di unattended, notification/retry/escalation gantikan peran itu). 5.3 selesai (2026-08-15), skor 100/100 setelah 1 putaran revisi (Exercise 3 diperdalam: alasan sandboxed VM relevan mitigasi prompt injection — containment/blast radius, bukan sekadar restate risiko). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`.
 
 ---
 
@@ -175,6 +175,6 @@ Overall Completion: 50%
 
 Current Module: Module 5 — Claude Cowork (In Progress)
 
-Current Lesson: 5.2 Selesai (2026-08-14)
+Current Lesson: 5.3 Selesai (2026-08-15)
 
-Next Lesson: 5.3 Computer Use / Dispatch
+Next Lesson: 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
