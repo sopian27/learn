@@ -101,11 +101,11 @@ Lessons:
 * [x] 5.1 Cowork Overview & Positioning (beda dari Claude Code & chat biasa)
 * [x] 5.2 Scheduled & Unattended Tasks
 * [x] 5.3 Computer Use / Dispatch
-* [ ] 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
+* [x] 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
 
 Mini Project: TBD
 
-Status: In Progress — 5.1 selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi. 5.2 selesai (2026-08-14), skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam: mekanisme "user sebagai failure detector real-time" hilang di unattended, notification/retry/escalation gantikan peran itu). 5.3 selesai (2026-08-15), skor 100/100 setelah 1 putaran revisi (Exercise 3 diperdalam: alasan sandboxed VM relevan mitigasi prompt injection — containment/blast radius, bukan sekadar restate risiko). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`.
+Status: Selesai (2026-08-15) — 5.1 selesai (2026-08-14), skor 100/100 setelah 2 putaran revisi. 5.2 selesai (2026-08-14), skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam: mekanisme "user sebagai failure detector real-time" hilang di unattended, notification/retry/escalation gantikan peran itu). 5.3 selesai (2026-08-15), skor 100/100 setelah 1 putaran revisi (Exercise 3 diperdalam: alasan sandboxed VM relevan mitigasi prompt injection — containment/blast radius, bukan sekadar restate risiko). 5.4 selesai (2026-08-15), skor 100/100 setelah 1 putaran revisi (Quiz 1 & 2 sempat salah pasang axis — "butuh eksekusi vs ide" dan "supervision availability" — diperbaiki di revisi; 4 skenario Exercise benar semua). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`, `5.4.md`.
 
 ---
 
@@ -169,12 +169,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 4/8
+Module Completion: 5/8
 
-Overall Completion: 50%
+Overall Completion: 62.5%
 
-Current Module: Module 5 — Claude Cowork (In Progress)
+Current Module: Module 5 — Claude Cowork (Selesai)
 
-Current Lesson: 5.3 Selesai (2026-08-15)
+Current Lesson: 5.4 Selesai (2026-08-15)
 
-Next Lesson: 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
+Next Lesson: 6.1 Kapan Pakai Model/Tool Apa (brainstorming vs eksekusi terstruktur)
