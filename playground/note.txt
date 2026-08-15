@@ -1,16 +1,16 @@
-sudah saya jawab di D:\learn\playground\mastering-claude\5.4.md, review
+sudah saya jawab di D:\learn\playground\mastering-claude\7.1.md, review
 
 
-lanjut course mastering-claude - Module 5 — Claude Cowork — 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
+lanjut course mastering-claude - Module 7 — Vibe Coding: Filosofi & Alur Kerja — 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual
 
+## Module 7 — Vibe Coding: Filosofi & Alur Kerja
 
-## Module 5 — Claude Cowork
-
-Description: Agent otonom yang bekerja langsung di file/aplikasi (bukan chat manual copy-paste) — GA April 2026, ekspansi web & mobile Juli 2026. Scheduled tasks, Dispatch (computer use), plugin marketplace di Cowork.
+Description: "Vibe coding" (istilah Andrej Karpathy, Feb 2025) — gaya coding di mana kamu menyatakan intent dalam bahasa natural dan membiarkan AI generate/iterate, "melupakan kode itu ada". Module ini membangun pemahaman dari nol: apa bedanya dengan AI-assisted coding biasa, kapan gaya ini cocok dipakai, dan kapan berbahaya. Ditambahkan 2026-08-06 atas permintaan user (awalnya diajukan sebagai course terpisah, digabung ke sini karena user sudah pakai Claude Code sebagai tool utama).
 
 Lessons:
 
-* [ ] 5.1 Cowork Overview & Positioning (beda dari Claude Code & chat biasa)
-* [ ] 5.2 Scheduled & Unattended Tasks
-* [ ] 5.3 Computer Use / Dispatch
-* [ ] 5.4 Kapan Pakai Cowork vs Claude Code vs Chat Biasa — studi kasus
+* [ ] 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual
+* [ ] 7.2 Kapan Cocok, Kapan Tidak — matrix stakes vs reversibility (prototype/throwaway script vs production/codebase besar)
+* [ ] 7.3 Anatomi Sesi Vibe Coding yang Baik — describe intent → run → observe → iterate, loop feedback cepat pakai Claude Code
+
+Mini Project: Vibe-code satu tool kecil pribadi (mis. CLI scraper/utility) secara "vibes only" (tanpa baca detail kode yang di-generate) — lalu refleksi tertulis: bagian mana yang rusak atau tidak dipahami setelahnya.

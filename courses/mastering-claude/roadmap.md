@@ -130,13 +130,13 @@ Description: "Vibe coding" (istilah Andrej Karpathy, Feb 2025) — gaya coding d
 
 Lessons:
 
-* [ ] 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual
+* [x] 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual
 * [ ] 7.2 Kapan Cocok, Kapan Tidak — matrix stakes vs reversibility (prototype/throwaway script vs production/codebase besar)
 * [ ] 7.3 Anatomi Sesi Vibe Coding yang Baik — describe intent → run → observe → iterate, loop feedback cepat pakai Claude Code
 
 Mini Project: Vibe-code satu tool kecil pribadi (mis. CLI scraper/utility) secara "vibes only" (tanpa baca detail kode yang di-generate) — lalu refleksi tertulis: bagian mana yang rusak atau tidak dipahami setelahnya.
 
-Status: In Progress — dimulai 2026-08-15
+Status: In Progress — dimulai 2026-08-15. 7.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua; Exercise 4 nangkep nuansa verifikasi struktural/compiler vs vibe coding yang tidak eksplisit di theory). Log: `playground/mastering-claude/7.1.md`.
 
 ---
 
