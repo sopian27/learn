@@ -115,12 +115,12 @@ Description: Strategi pembagian kerja antara Claude dan tool AI lain (ChatGPT, G
 
 Lessons:
 
-* [ ] 6.1 Kapan Pakai Model/Tool Apa (brainstorming vs eksekusi terstruktur)
+* [x] 6.1 Kapan Pakai Model/Tool Apa (brainstorming vs eksekusi terstruktur)
 * [ ] 6.2 Cross-Model Review — menangkap blind spot satu model
 
 Portfolio Project: TBD
 
-Status: Belum dimulai (preview singkat sudah diberikan 2026-08-06)
+Status: In Progress — 6.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan dipakai tepat). Log: `playground/mastering-claude/6.1.md`.
 
 ---
 
@@ -173,8 +173,8 @@ Module Completion: 5/8
 
 Overall Completion: 62.5%
 
-Current Module: Module 5 — Claude Cowork (Selesai)
+Current Module: Module 6 — Kombinasi Multi-AI (In Progress)
 
-Current Lesson: 5.4 Selesai (2026-08-15)
+Current Lesson: 6.1 Selesai (2026-08-15)
 
-Next Lesson: 6.1 Kapan Pakai Model/Tool Apa (brainstorming vs eksekusi terstruktur)
+Next Lesson: 6.2 Cross-Model Review — menangkap blind spot satu model
