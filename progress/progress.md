@@ -7,7 +7,7 @@
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
 Current Module: Module 7 — Vibe Coding: Filosofi & Alur Kerja (In Progress)
-Current Lesson: 7.2 Kapan Cocok, Kapan Tidak (selesai) — next 7.3
+Current Lesson: Semua lesson Module 7 selesai (7.1-7.3) — next Mini Project Module 7
 Course Completion: 6/8 module selesai (75%)
 
 | Module | Status |
@@ -18,7 +18,7 @@ Course Completion: 6/8 module selesai (75%)
 | 4. Skills & Plugins | Selesai (2026-08-14) — 4.1-4.3: bikin skill `tdd-workflow` nyata + bundle jadi plugin lokal `tdd-toolkit@sopian-local`, install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global. 4.4: audit keamanan `tdd-toolkit` (checklist description/body/hook/MCP/bundled script/source pinning/least privilege) — koreksi 1 putaran (exercise awal salah tandai 5 poin "aman karena unknown", diperbaiki jadi verified-per-file). Mini Project Module 4 dipenuhi oleh `tdd-toolkit` (keputusan user, tidak bikin skill terpisah). Log: `playground/mastering-claude/4.1.md`, `.fix.md`, `4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md`, `4.4.md` |
 | 5. Claude Cowork | Selesai (2026-08-15) — 5.1 skor 100/100 setelah 2 putaran revisi (Q3 reasoning diperbaiki dari salah framing "dev environment" jadi "VM isolasi + overhead orkestrasi subagent"). 5.2 skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam ke mekanisme failure detector). 5.3 skor 100/100 setelah 1 putaran revisi (containment/blast radius). 5.4 skor 100/100 setelah 1 putaran revisi (Quiz 1-2 salah pasang axis, diperbaiki). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`, `5.4.md` |
 | 6. Kombinasi Multi-AI | Selesai (2026-08-15) — 6.1 skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan tepat). 6.2 applied practice kasus nyata (proses patching MBP): cross-model blind-spot review → swap-test isolasi confound prompt-vs-model → self-adversarial-review kontrol → pattern digeneralisasi ke `progress/cheatsheet.md`. Log: `playground/mastering-claude/6.1.md`, `6.2.md` |
-| 7. Vibe Coding: Filosofi & Alur Kerja | In Progress — 7.1 selesai (2026-08-15) skor 100/100 tanpa revisi; 7.2 selesai (2026-08-15) skor 3/3 setelah 1x revisi (axis stakes vs reversibility) |
+| 7. Vibe Coding: Filosofi & Alur Kerja | In Progress — semua lesson selesai, Mini Project belum dimulai. 7.1 selesai (2026-08-15) skor 100/100 tanpa revisi; 7.2 selesai (2026-08-15) skor 3/3 setelah 1x revisi (axis stakes vs reversibility); 7.3 selesai (2026-08-15) skor 3/3 quiz + 4/4 exercise setelah revisi (Q1 diperkuat "success signal ≠ correct behavior"; Q3 dua percobaan pertama recycle contoh 7.2, revisi final spesifik ke auto-run/auto-accept; Exercise 2 sempat salah label tahap) |
 | 8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
