@@ -116,11 +116,11 @@ Description: Strategi pembagian kerja antara Claude dan tool AI lain (ChatGPT, G
 Lessons:
 
 * [x] 6.1 Kapan Pakai Model/Tool Apa (brainstorming vs eksekusi terstruktur)
-* [ ] 6.2 Cross-Model Review — menangkap blind spot satu model
+* [x] 6.2 Cross-Model Review — menangkap blind spot satu model
 
 Portfolio Project: TBD
 
-Status: In Progress — 6.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan dipakai tepat). Log: `playground/mastering-claude/6.1.md`.
+Status: Selesai (2026-08-15) — 6.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan dipakai tepat). 6.2 selesai (2026-08-15), applied practice pakai kasus nyata (proses patching MBP): cross-model blind-spot review, lalu swap-test buat isolasi confound (prompt framing vs model identity), lalu self-adversarial-review sebagai kontrol lanjutan — hasil digeneralisasi jadi pattern "self-review dulu, cross-model second pass" di `progress/cheatsheet.md`. Log: `playground/mastering-claude/6.1.md`, `6.2.md`.
 
 ---
 
@@ -136,7 +136,7 @@ Lessons:
 
 Mini Project: Vibe-code satu tool kecil pribadi (mis. CLI scraper/utility) secara "vibes only" (tanpa baca detail kode yang di-generate) — lalu refleksi tertulis: bagian mana yang rusak atau tidak dipahami setelahnya.
 
-Status: Belum dimulai (draft baru 2026-08-06, menunggu approval user)
+Status: In Progress — dimulai 2026-08-15
 
 ---
 
@@ -169,12 +169,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 5/8
+Module Completion: 6/8
 
-Overall Completion: 62.5%
+Overall Completion: 75%
 
-Current Module: Module 6 — Kombinasi Multi-AI (In Progress)
+Current Module: Module 7 — Vibe Coding: Filosofi & Alur Kerja (In Progress)
 
-Current Lesson: 6.1 Selesai (2026-08-15)
+Current Lesson: belum ada lesson selesai
 
-Next Lesson: 6.2 Cross-Model Review — menangkap blind spot satu model
+Next Lesson: 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual

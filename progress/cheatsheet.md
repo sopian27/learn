@@ -65,3 +65,26 @@ Aturan singkat:
 * Pola description kuat: "Use when [trigger kondisi konkret]" + kalau perlu scope boundary eksplisit ("skip when...") biar gak collide sama skill mirip topik.
 * Isi bulk/jarang dipakai taruh di `references/`, bukan numpuk di SKILL.md body — Level 2 harus tetap murah tiap kali trigger.
 * Skill vs subagent vs slash command: skill = load ke context main thread (probabilistik, dipilih dari description); subagent = context terisolasi (proteksi context utama, laporan akhir aja yang balik); slash command = trigger deterministik (user panggil nama langsung, gak lewat keputusan model).
+
+---
+
+## AI Review — Self-Adversarial vs Cross-Model Review
+
+```text
+Layer 1: Self-adversarial review
+  -> model sama, prompt eksplisit "cari blind spot di rekomendasi sendiri"
+  -> murah, cepat, akses langsung ke rationale/asumsi asli (gak perlu rekonstruksi dari draft luar)
+  -> tangkep mayoritas blind spot (hidden assumption, missing edge case, incomplete ranking)
+
+Layer 2: Cross-model review
+  -> model lain, prompt sama "cari blind spot"
+  -> tangkep blind spot yang model pertama BUTA secara struktural
+     (pola reasoning/training sendiri, bukan soal akses rationale)
+  -> analog: 2 reviewer background sama cenderung miss bug yang sama
+```
+
+Aturan singkat:
+* Urutan yang efisien: self-adversarial review dulu (murah, coverage besar) → baru cross-model sebagai second pass (nutup sisa model-inherent gap). Bukan either/or.
+* Confound yang gampang salah simpul: kalau cross-model dikasih prompt beda (mis. "optimasi" vs "cari blind spot"), hasil beda itu soal framing prompt, bukan soal model mana lebih pintar — isolasi dulu instruksi sebelum klaim superioritas model.
+* "Clean/lolos" (merge, dry-run, dsb) ≠ aman — cek tiap klaim "berhasil" itu robust terhadap dimensi lain (security, governance, ops side-effect), bukan cuma sukses secara teknis sempit.
+* Satu eksperimen belum bukti pola general — butuh ulang di task/domain lain baru boleh generalize klaim teknik.

@@ -6,9 +6,9 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Module 6 — Kombinasi Multi-AI (In Progress)
-Current Lesson: 6.1 Selesai (2026-08-15)
-Course Completion: 5/8 module selesai (62.5%)
+Current Module: Module 7 — Vibe Coding: Filosofi & Alur Kerja (In Progress)
+Current Lesson: belum ada lesson selesai
+Course Completion: 6/8 module selesai (75%)
 
 | Module | Status |
 | ------ | ------ |
@@ -17,8 +17,9 @@ Course Completion: 5/8 module selesai (62.5%)
 | 3. Claude Code Mendalam | Selesai (2026-08-13) — Mini Project: Note CRUD API pakai 5 mekanisme, bukti di `playground/mastering-claude/3-mini-project.md` |
 | 4. Skills & Plugins | Selesai (2026-08-14) — 4.1-4.3: bikin skill `tdd-workflow` nyata + bundle jadi plugin lokal `tdd-toolkit@sopian-local`, install nyata via `/plugin marketplace add` + `/plugin install`, verifikasi baca dari plugin cache global. 4.4: audit keamanan `tdd-toolkit` (checklist description/body/hook/MCP/bundled script/source pinning/least privilege) — koreksi 1 putaran (exercise awal salah tandai 5 poin "aman karena unknown", diperbaiki jadi verified-per-file). Mini Project Module 4 dipenuhi oleh `tdd-toolkit` (keputusan user, tidak bikin skill terpisah). Log: `playground/mastering-claude/4.1.md`, `.fix.md`, `4.2.md`, `.fix.md`, `.fix1.md`, `4.3.md`, `4.4.md` |
 | 5. Claude Cowork | Selesai (2026-08-15) — 5.1 skor 100/100 setelah 2 putaran revisi (Q3 reasoning diperbaiki dari salah framing "dev environment" jadi "VM isolasi + overhead orkestrasi subagent"). 5.2 skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam ke mekanisme failure detector). 5.3 skor 100/100 setelah 1 putaran revisi (containment/blast radius). 5.4 skor 100/100 setelah 1 putaran revisi (Quiz 1-2 salah pasang axis, diperbaiki). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`, `5.4.md` |
-| 6. Kombinasi Multi-AI | In Progress — 6.1 Selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan tepat). Log: `playground/mastering-claude/6.1.md` |
-| 7-8 | Not started |
+| 6. Kombinasi Multi-AI | Selesai (2026-08-15) — 6.1 skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan tepat). 6.2 applied practice kasus nyata (proses patching MBP): cross-model blind-spot review → swap-test isolasi confound prompt-vs-model → self-adversarial-review kontrol → pattern digeneralisasi ke `progress/cheatsheet.md`. Log: `playground/mastering-claude/6.1.md`, `6.2.md` |
+| 7. Vibe Coding: Filosofi & Alur Kerja | In Progress — dimulai 2026-08-15 |
+| 8 | Not started |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
 
