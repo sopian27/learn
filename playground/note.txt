@@ -2,11 +2,7 @@ sudah saya jawab di D:\learn\playground\mastering-claude\7.1.md, review
 
 
 lanjut course, mastering-claude - Module 7 — Vibe Coding: Filosofi & Alur Kerja — 7.2 Kapan Cocok, Kapan Tidak — matrix stakes vs reversibility (prototype/throwaway script vs production/codebase besar)
-<<<<<<< HEAD
 generate langsung ke obsidian materi beserta task nya kalau ada jangan di session chat ini
-=======
-generate langsung ke obsidian jangan di chat
->>>>>>> abfdcdb8f2c298492415f67b9964a48e17679ce8
 
 ## Module 7 — Vibe Coding: Filosofi & Alur Kerja
 
