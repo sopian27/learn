@@ -39,7 +39,7 @@ Lessons:
 
 Mini Project: Audit satu momen minggu ini saat merasa sombong/defensif, DAN satu momen saat merasa "tidak berharga" — tuliskan keduanya, lalu identifikasi mana ego dan mana self-deprecation memakai peta Lesson 1.1.
 
-Status: In Progress — Mini Project Module 1
+Status: Selesai (2026-08-17), skor 88/100 setelah 1x revisi (kesimpulan Momen 1 awalnya salah simpulkan "bukan sombong karena faktual benar" — direvisi jadi fakta benar ≠ reaksi ego akurat, ditambah respons rendah-hati-sehat konkret). Log: `playground/character-development/mini-project-1.md`.
 
 ---
 
@@ -204,12 +204,12 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/6
+Module Completion: 1/6
 
-Overall Completion: 0%
+Overall Completion: 17%
 
-Current Module: Module 1 — Fondasi: Kerendahan Hati Sejati vs Ego & Self-Deprecation — roadmap di-approve 2026-08-07
+Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
 
-Current Lesson: Mini Project Module 1 (audit momen sombong/defensif + momen self-deprecation)
+Current Lesson: 2.1 Kenapa otak menolak feedback secara default — ego threat dan cognitive dissonance
 
-Next Lesson: Module 2, Lesson 2.1 — Kenapa otak menolak feedback secara default
+Next Lesson: Module 2, Lesson 2.2 — Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*)

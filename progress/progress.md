@@ -24,13 +24,17 @@ Course Completion: 8/8 module + Enterprise Project selesai (100%)
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
 
-Current Module: Module 1 — Fondasi: Kerendahan Hati Sejati vs Ego & Self-Deprecation
-Current Lesson: 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat vs self-deprecation toxic
-Course Completion: 0/6 module (0%)
+Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
+Current Lesson: 2.1 Kenapa otak menolak feedback secara default — ego threat dan cognitive dissonance
+Course Completion: 1/6 module (17%)
 
 | Lesson | Status | Quiz | Exercise |
 | ------ | ------ | ---- | -------- |
-| 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat vs self-deprecation toxic | In Progress | - | - |
+| 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat vs self-deprecation toxic | Selesai | - | - |
+| 1.2 Level 5 Leadership (Jim Collins) | Selesai | - | - |
+| 1.3 Growth Mindset (Carol Dweck) | Selesai | - | - |
+| 1.4 Mengenali sinyal ego real-time | Selesai (2026-08-17) | - | 90/100 |
+| Mini Project Module 1 | Selesai (2026-08-17), 1x revisi | - | 88/100 |
 
 ---
 
