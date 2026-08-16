@@ -136,7 +136,7 @@ Lessons:
 
 Mini Project: Vibe-code satu tool kecil pribadi (mis. CLI scraper/utility) secara "vibes only" (tanpa baca detail kode yang di-generate) — lalu refleksi tertulis: bagian mana yang rusak atau tidak dipahami setelahnya.
 
-Status: In Progress — dimulai 2026-08-15. Semua 3 lesson selesai, Mini Project belum dimulai. 7.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua; Exercise 4 nangkep nuansa verifikasi struktural/compiler vs vibe coding yang tidak eksplisit di theory). 7.2 selesai (2026-08-15), skor 3/3 setelah 1x revisi (Exercise 3 percobaan pertama restate mekanisme tanpa pisahkan axis stakes vs reversibility, revisi berhasil eksplisit). 7.3 selesai (2026-08-15), skor 3/3 quiz + 4/4 exercise setelah beberapa putaran revisi (Q1 diperkuat sampai eksplisit "success signal ≠ correct behavior"; Q3 dua percobaan pertama recycle contoh CSS/SQL dari 7.2 tanpa nyentuh mekanisme auto-run/auto-accept yang ditanya, revisi final spesifik; Exercise 2 sempat salah label tahap — reasoning cocok Iterate tapi ditulis Observe, diperbaiki). Log: `playground/mastering-claude/7.1.md`, `playground/mastering-claude/7.2.md`, `playground/mastering-claude/7.3.md`.
+Status: Selesai (2026-08-16). Semua 3 lesson selesai. 7.1 selesai (2026-08-15), skor 100/100 tanpa revisi (quiz + exercise benar semua; Exercise 4 nangkep nuansa verifikasi struktural/compiler vs vibe coding yang tidak eksplisit di theory). 7.2 selesai (2026-08-15), skor 3/3 setelah 1x revisi (Exercise 3 percobaan pertama restate mekanisme tanpa pisahkan axis stakes vs reversibility, revisi berhasil eksplisit). 7.3 selesai (2026-08-15), skor 3/3 quiz + 4/4 exercise setelah beberapa putaran revisi (Q1 diperkuat sampai eksplisit "success signal ≠ correct behavior"; Q3 dua percobaan pertama recycle contoh CSS/SQL dari 7.2 tanpa nyentuh mekanisme auto-run/auto-accept yang ditanya, revisi final spesifik; Exercise 2 sempat salah label tahap — reasoning cocok Iterate tapi ditulis Observe, diperbaiki). Mini Project selesai (2026-08-16): CLI scraper produk→CSV, prompt 1-shot, 2 ronde vibes-patch buta (TLS reset → tambah User-Agent/timeout; lalu 0 produk karena selector ditebak nggak cocok struktur HTML asli — baru ketahuan pas refleksi, bukan real-time). Refleksi tertulis nangkep "program jalan tanpa error ≠ program benar". Tool ini jadi bahan mentah Mini Project Module 8. Log: `playground/mastering-claude/7.1.md`, `playground/mastering-claude/7.2.md`, `playground/mastering-claude/7.3.md`, `playground/mastering-claude/7-mini-project.md`.
 
 ---
 
@@ -169,12 +169,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 6/8
+Module Completion: 7/8
 
-Overall Completion: 75%
+Overall Completion: 87.5%
 
 Current Module: Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab (In Progress)
 
-Current Lesson: 8.4 Agentic Engineering (selesai) — semua lesson Module 8 selesai
+Current Lesson: 8.4 Agentic Engineering (selesai) — semua lesson Module 8 selesai; Mini Project Module 7 juga selesai (2026-08-16)
 
-Next Lesson: Mini Project Module 8 (refactor tool Module 7 pakai alur spec-driven + verifikasi penuh). Mini Project Module 7 masih tertunda (vibe-code tool kecil "vibes only" + refleksi tertulis).
+Next Lesson: Mini Project Module 8 (refactor tool `playground/mastering-claude/7-mini-project/scraper.py` pakai alur spec-driven + verifikasi penuh, bandingkan vibes-only vs disciplined).
