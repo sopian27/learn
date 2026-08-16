@@ -66,6 +66,18 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `psychology` — domains/psychology/DOMAIN.md — Status: Paused — Course: courses/psychology/roadmap.md (Approved 2026-08-08 per `progress/roadmap.md`, only registration was missing)
 
+## Paused (2026-08-16, bulk 10-course draft request — background agents, all courses still Draft menunggu approval)
+
+- `mens-health` — domains/mens-health/DOMAIN.md — Status: Paused — Course: courses/mens-health/roadmap.md
+- `dopamine` — domains/dopamine/DOMAIN.md — Status: Paused — Course: courses/dopamine/roadmap.md
+- `tech-builder-mindset` — domains/tech-builder-mindset/DOMAIN.md — Status: Paused — Course: courses/tech-builder-mindset/roadmap.md
+- `string-theory-for-engineers` — domains/string-theory-for-engineers/DOMAIN.md — Status: Paused — Course: courses/string-theory-for-engineers/roadmap.md
+- `quantum-computing-for-engineers` — domains/quantum-computing-for-engineers/DOMAIN.md — Status: Paused — Course: courses/quantum-computing-for-engineers/roadmap.md
+
+## Paused (2026-08-16, permintaan langsung user, dibuat saat Course Aktif "Character Development" di bawah 50% Module 1 — user eksplisit override guard `ai-los/COURSE_CREATION.md`)
+
+- `antimatter` — domains/antimatter/DOMAIN.md — Status: Paused — Course: courses/antimatter/roadmap.md
+
 ---
 
 # Default Domain
