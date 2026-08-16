@@ -35,11 +35,11 @@ Lessons:
 * [x] 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat (intellectual humility research) vs self-deprecation toxic, dan cara membedakannya
 * [x] 1.2 Level 5 Leadership (Jim Collins) — kerendahan hati pribadi + tekad profesional kuat, dua sisi yang sering dikira kontradiktif tapi justru saling menguatkan
 * [x] 1.3 Growth mindset (Dweck) sebagai mesin "fokus memperbaiki diri" — ego sebagai penghalang utama belajar dari kesalahan
-* [ ] 1.4 Mengenali sinyal ego diri sendiri secara real-time — defensif saat dikritik, kebutuhan selalu benar, validasi lewat membandingkan diri ke atas orang lain
+* [x] 1.4 Mengenali sinyal ego diri sendiri secara real-time — defensif saat dikritik, kebutuhan selalu benar, validasi lewat membandingkan diri ke atas orang lain
 
 Mini Project: Audit satu momen minggu ini saat merasa sombong/defensif, DAN satu momen saat merasa "tidak berharga" — tuliskan keduanya, lalu identifikasi mana ego dan mana self-deprecation memakai peta Lesson 1.1.
 
-Status: In Progress — Lesson 1.4
+Status: In Progress — Mini Project Module 1
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Fondasi: Kerendahan Hati Sejati vs Ego & Self-Deprecation — roadmap di-approve 2026-08-07
 
-Current Lesson: 1.4 Mengenali sinyal ego diri sendiri secara real-time — defensif saat dikritik, kebutuhan selalu benar, validasi lewat membandingkan diri ke atas orang lain
+Current Lesson: Mini Project Module 1 (audit momen sombong/defensif + momen self-deprecation)
 
-Next Lesson: Mini Project Module 1 (audit momen sombong/defensif + momen self-deprecation)
+Next Lesson: Module 2, Lesson 2.1 — Kenapa otak menolak feedback secara default
