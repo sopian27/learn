@@ -19,6 +19,9 @@
 * [ ] Menerapkan Habit Reversal Training (Azrin & Nunn) dan environment design untuk mengganti pola kompulsif
 * [ ] Menyusun relapse-prevention plan yang realistis: rencana konkret SAAT (bukan jika) lapse terjadi, dengan respons anti-shame
 * [ ] Menjadikan recovery sebagai skill berkelanjutan yang teruji lewat stress-test nyata, dan mengenali kapan wajib eskalasi ke profesional
+* [ ] Memahami fisiologi libido dan neuroscience reward/dopamine yang akurat (Berridge & Robinson) untuk membedakan fakta ilmiah dari klaim populer "dopamine detox"/"otak rewired" *(Module 9, menunggu approval)*
+* [ ] Mengenali masturbasi sebagai perilaku tersendiri (terpisah dari konsumsi pornografi) — kapan berada di rentang normal, kapan jadi pola kompulsif independen *(Module 9, menunggu approval)*
+* [ ] Membangun visi seksualitas sehat jangka panjang berbasis definisi WHO — bukan hanya berhenti dari pola bermasalah, tapi bergerak menuju sesuatu yang positif *(Module 10, menunggu approval)*
 * [ ] Menghasilkan Personal Relapse-Prevention & Long-Term Recovery System sebagai Capstone Project
 
 ---
@@ -158,6 +161,48 @@ Lessons:
 Capstone Project: Personal Relapse-Prevention & Long-Term Recovery System — hasil self-assessment & baseline (Module 1), motivasi & values statement (Module 2), trigger map lengkap (Module 3), praktik urge-surfing/defusion (Module 4), habit replacement plan (Module 5), relapse-prevention plan teruji (Module 6), dan integrasi jangka panjang (Module 7) — diuji lewat log penerapan nyata 4-8 minggu. Review memakai `domains/pornography-recovery/DOMAIN.md` bagian "Review Style" (Anti-Shame vs Self-Attack, Evidence-Based vs Pop-Sci, Function Over Willpower, Realistic Relapse Planning) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
 Status: Not started
+
+---
+
+## Module 9 — Libido, Dopamine, & Masturbasi: Fisiologi dan Neuroscience yang Sering Disalahpahami (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-17 sebagai bagian perluasan topik "Sexual Self-Control" (permintaan mencakup pornografi, masturbasi, libido, habit loop, trigger, craving, impulse control, dopamine, healthy sexuality, relapse prevention, membangun kebiasaan sehat). Sebagian besar topik itu — habit loop (Module 3.1), trigger/HALT (Module 3.2-3.3), craving/urge (Module 4), impulse control (Module 4-5), relapse prevention (Module 6) — SUDAH tercakup penuh di Module 1-8 course ini, sehingga TIDAK diduplikasi. Gap nyata yang ditemukan lewat pembacaan penuh roadmap dan domain pack: (1) libido sebagai fisiologi belum dibahas sama sekali secara berdiri sendiri di mana pun dalam course ini; (2) dopamine/reward circuitry belum dibahas mendalam sebagai neuroscience — Module 1.3 hanya mengajak membaca klaim NoFap/YBOP secara kritis, tapi tidak membangun dulu pemahaman neuroscience yang benar sebagai pembanding; (3) masturbasi sebagai perilaku tersendiri (bisa terjadi independen dari konsumsi pornografi, yang jadi fokus spesifik course ini per `domains/pornography-recovery/DOMAIN.md` bagian Scope) belum pernah dibedakan secara eksplisit. Modul ini menutup ketiga gap sekaligus karena secara ilmiah berkaitan erat (libido dan dopamine berbagi basis fisiologis yang sama, dan menilai masturbasi secara wajar butuh neuroscience akurat yang sama). **Belum masuk hitungan progress course** — course ini sendiri masih "Not started" (0/8), modul ini ditambahkan sebagai append (Module 9), tidak menyisipkan/renumber Module 1-8 yang sudah ada. Kalau disetujui, secara logis paling berguna dipelajari **setelah Module 1** (memperdalam dasar ilmiah sebelum masuk ke praktik trigger/urge Module 3-6) — urutan aktual ditentukan user saat approval.
+
+Description: Module 1 mengajak membaca klaim NoFap/YBOP secara kritis, tapi belum membangun pemahaman neuroscience yang akurat sebagai pembanding. Modul ini mengisi itu: libido secara fisiologis, dopamine/reward circuitry yang sebenarnya (bukan folklore "dopamine detox"), dan masturbasi sebagai perilaku tersendiri yang perlu dinilai dengan kerangka evidence-based yang sama.
+
+Lessons:
+
+* [ ] 9.1 Libido secara fisiologis — testosteron, arousal, variasi normal antar-individu, faktor yang mempengaruhi (stres, tidur, usia, kesehatan mental) — batasan eksplisit: edukatif, bukan diagnosis (disfungsi seksual spesifik tetap di luar scope, lihat `domains/pornography-recovery/DOMAIN.md`)
+* [ ] 9.2 Dopamine & reward circuitry yang sebenarnya — mesolimbic pathway, incentive-sensitization theory (Berridge & Robinson), tolerance/sensitization — dasar ilmiah asli di balik istilah populer "dopamine detox"
+* [ ] 9.3 Masturbasi sebagai perilaku tersendiri — kapan berada di rentang normal, kapan jadi pola kompulsif independen dari konsumsi pornografi, dan kenapa function-based lens (Module 5.3) tetap berlaku di sini
+* [ ] 9.4 Reality check — menyilangkan Lesson 9.1-9.3 ke klaim populer "dopamine detox"/"otak rewired" yang beredar di komunitas NoFap, memakai standar kritis yang sama dari Module 1.3
+
+Mini Project: Reality-check pribadi tertulis — ambil satu klaim populer soal dopamine/libido/masturbasi yang pernah dipercaya (dari NoFap/YBOP atau sumber lain), lalu bandingkan dengan fisiologi/neuroscience nyata dari Lesson 9.1-9.2, simpulkan mana yang akurat dan mana yang overclaim.
+
+Referensi riset: lihat sumber 10-11 (baru) di `domains/pornography-recovery/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 10 — Healthy Sexuality: Membangun Seksualitas Positif Jangka Panjang (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-17, bagian sama dengan Module 9 (lihat konteks lengkap di catatan asal Module 9 di atas). Gap yang ditutup: Module 1-8 course ini seluruhnya framed sebagai "berhenti/mengurangi pola bermasalah" (recovery, relapse-prevention) — belum ada modul dengan framing positif/konstruktif eksplisit: apa yang DITUJU, bukan cuma apa yang dihindari. Ini adalah elemen "healthy sexuality" yang eksplisit diminta di topik "Sexual Self-Control" dan belum tercakup di mana pun dalam roadmap yang ada (dicek eksplisit — Module 7 "Keberlanjutan & Integrasi Jangka Panjang" soal stress-test/eskalasi profesional, bukan visi positif seksualitas). **Belum masuk hitungan progress course.** Kalau disetujui, secara logis paling berguna dipelajari **setelah Module 7** (setelah recovery jadi skill terlatih, baru masuk ke visi positif jangka panjang) dan **sebelum Module 8 capstone** — supaya capstone bisa mengintegrasikan visi positif ini juga, bukan cuma rencana anti-relapse. Urutan aktual ditentukan user saat approval.
+
+Description: Modul ini sengaja membalik framing — bukan "apa yang dihentikan" tapi "seksualitas seperti apa yang dituju setelah pola kompulsif mereda", berbasis definisi kesehatan seksual WHO, supaya recovery punya arah positif, bukan cuma ruang kosong bekas kebiasaan lama.
+
+Lessons:
+
+* [ ] 10.1 Definisi kesehatan seksual WHO (2006, working definition) — kesehatan seksual sebagai kondisi positif (fisik, emosional, mental, sosial), bukan sekadar absennya disfungsi/penyakit
+* [ ] 10.2 Membangun ulang relasi dengan libido/dorongan seksual pasca pola kompulsif — dari "musuh yang harus ditekan" menjadi "sinyal tubuh yang dikelola sadar" (menyilangkan ke Module 9.1-9.2)
+* [ ] 10.3 Mengintegrasikan seksualitas sehat ke tujuan hidup/nilai pribadi (menyambung Module 2 values clarification) — tanpa masuk ke ranah konseling pasangan/hubungan (di luar scope domain ini, lihat `domains/pornography-recovery/DOMAIN.md` bagian Scope)
+* [ ] 10.4 Menyusun definisi pribadi "seksualitas sehat versi saya" sebagai pelengkap Relapse-Prevention Plan (Module 6) — bukan pengganti, tapi arah positif yang menyertainya
+
+Mini Project: Personal Healthy Sexuality Statement — definisi pribadi tertulis soal seksualitas sehat yang dituju (berbasis Lesson 10.1-10.3), terhubung ke Values Statement Module 2 dan Relapse-Prevention Plan Module 6.
+
+Referensi riset: lihat sumber 12 (baru) di `domains/pornography-recovery/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
 
 ---
 

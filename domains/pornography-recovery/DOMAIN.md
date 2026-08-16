@@ -8,6 +8,8 @@ Pornography Recovery (Pemulihan dari Pola Konsumsi Pornografi Kompulsif, Berbasi
 
 Memahami dan mengubah pola konsumsi pornografi yang kompulsif/tidak diinginkan lewat lensa psikologi adiksi perilaku (behavioral addiction) dan ilmu kebiasaan: asesmen pola pribadi, klarifikasi motivasi (sekuler, berbasis nilai personal bukan moral/agama), pemetaan trigger, urge-surfing/mindfulness, habit replacement, relapse-prevention planning, dan membangun sistem pemulihan jangka panjang yang teruji nyata.
 
+**Diperluas 2026-08-17 (course Module 9-10, draft menunggu approval)** untuk mencakup: fisiologi libido, neuroscience dopamine/reward circuitry yang akurat (dikontraskan dengan folklore "dopamine detox"), masturbasi sebagai perilaku tersendiri (independen dari konsumsi pornografi spesifik), dan healthy sexuality sebagai framing positif/konstruktif (apa yang dituju, bukan cuma apa yang dihindari). Tetap dalam batas edukatif-behavioral — bukan diagnosis medis, konsisten dengan batas "Body image dan seksualitas sebagai topik kesehatan medis" di bawah.
+
 Secara eksplisit TIDAK mencakup:
 
 - **Terapi klinis** untuk Compulsive Sexual Behaviour Disorder (CSBD) terdiagnosis, depresi/kecemasan/trauma yang menyertai, atau kondisi yang mengganggu fungsi harian secara berat — di luar scope, wajib eskalasi ke profesional berlisensi (lihat "Domain-Specific Standards").
@@ -28,8 +30,11 @@ Secara eksplisit TIDAK mencakup:
 7. **Deci & Ryan — Self-Determination Theory** — kerangka motivasi intrinsik, dikontraskan dengan motivasi berbasis rasa malu/tekanan eksternal.
 8. **Fernandez & Griffiths (2021), meta-analysis** — bukti bahwa rasa malu/self-stigma terhadap "kecanduan pornografi" justru berkorelasi dengan distress psikologis lebih tinggi dan memperburuk outcome — dasar ilmiah untuk house rule anti-shame di bawah.
 9. **Kontra-perspektif wajib disilangkan: David Ley ("The Myth of Sex Addiction") dan Nicole Prause** — mengkritik model "porn addiction" sebagai overclaim secara neurosains dan diagnostik. Course ini tidak memihak salah satu sisi debat, tapi wajib menyajikan keduanya.
+10. **Berridge & Robinson — Incentive-Sensitization Theory of Addiction** (peer-reviewed, neuroscience dasar reward/dopamine) — ditambahkan 2026-08-17 untuk course Module 9, dasar ilmiah asli mesolimbic pathway/tolerance/sensitization yang sering disederhanakan jadi folklore "dopamine detox".
+11. **Riset sexual medicine peer-reviewed soal fisiologi libido** (mis. Pfaus (2009) soal testosteron dan libido, atau sumber setara dari jurnal sexual medicine/endocrinology) — ditambahkan 2026-08-17 untuk course Module 9, dasar fisiologi libido yang edukatif (bukan diagnostik).
+12. **WHO — Defining Sexual Health (2006, working definition resmi)** — ditambahkan 2026-08-17 untuk course Module 10, dasar framing "healthy sexuality" sebagai kondisi positif, bukan sekadar absennya disfungsi/penyakit.
 
-**Ditandai eksplisit sebagai tidak boleh jadi dasar lesson tanpa disilangkan ke sumber 1-9:** Gary Wilson / "Your Brain on Porn" (YBOP), komunitas NoFap, dan folklore "reboot"/"flatline" — populer tapi bukan peer-reviewed, sering melebih-lebihkan klaim neurosains (mis. analogi langsung ke kerusakan otak akibat narkoba). Boleh disebut sebagai konteks budaya/komunitas, tidak pernah sebagai fakta ilmiah berdiri sendiri.
+**Ditandai eksplisit sebagai tidak boleh jadi dasar lesson tanpa disilangkan ke sumber 1-12:** Gary Wilson / "Your Brain on Porn" (YBOP), komunitas NoFap, folklore "reboot"/"flatline", dan buku/konten pop-sci "dopamine detox"/"dopamine fasting" (mis. Cameron Sepah dan turunannya di media populer) — populer tapi bukan peer-reviewed atau melebih-lebihkan klaim neurosains (mis. analogi langsung ke kerusakan otak akibat narkoba, atau menyederhanakan reward circuitry jadi "reset" biner). Boleh disebut sebagai konteks budaya/komunitas, tidak pernah sebagai fakta ilmiah berdiri sendiri.
 
 ## Applied Practice Definition
 

@@ -1,1 +1,0 @@
-Buat course Black Hole 0–expert: gravitasi Newton, relativitas khusus & umum, spacetime, event horizon, Schwarzschild radius, singularity, Kerr black hole, accretion disk, Hawking radiation, informasi, dan black hole cosmology.

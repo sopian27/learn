@@ -78,6 +78,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `antimatter` — domains/antimatter/DOMAIN.md — Status: Paused — Course: courses/antimatter/roadmap.md
 
+## Paused (2026-08-17, permintaan langsung user via background agent, dibuat saat Course Aktif "Character Development" di bawah 50% Module 1 — user eksplisit override guard `ai-los/COURSE_CREATION.md`)
+
+- `black-hole` — domains/black-hole/DOMAIN.md — Status: Paused — Course: courses/black-hole/roadmap.md
+
 ---
 
 # Default Domain
