@@ -6,9 +6,9 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab (In Progress)
-Current Lesson: 8.4 Agentic Engineering (selesai) — semua lesson Module 8 selesai; next Mini Project Module 8
-Course Completion: 7/8 module selesai (87.5%)
+Current Module: Semua 8 module selesai. Sisa: Enterprise Project (playbook pribadi + ukur ROI, acceptance criteria belum dirancang).
+Current Lesson: Mini Project Module 8 (selesai, 2026-08-16)
+Course Completion: 8/8 module selesai (100%)
 
 | Module | Status |
 | ------ | ------ |
@@ -19,7 +19,7 @@ Course Completion: 7/8 module selesai (87.5%)
 | 5. Claude Cowork | Selesai (2026-08-15) — 5.1 skor 100/100 setelah 2 putaran revisi (Q3 reasoning diperbaiki dari salah framing "dev environment" jadi "VM isolasi + overhead orkestrasi subagent"). 5.2 skor 100/100 setelah 1 putaran revisi (Exercise 2 diperdalam ke mekanisme failure detector). 5.3 skor 100/100 setelah 1 putaran revisi (containment/blast radius). 5.4 skor 100/100 setelah 1 putaran revisi (Quiz 1-2 salah pasang axis, diperbaiki). Log: `playground/mastering-claude/5.1.md`, `.fix.md`, `5.2.md`, `5.3.md`, `5.4.md` |
 | 6. Kombinasi Multi-AI | Selesai (2026-08-15) — 6.1 skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan tepat). 6.2 applied practice kasus nyata (proses patching MBP): cross-model blind-spot review → swap-test isolasi confound prompt-vs-model → self-adversarial-review kontrol → pattern digeneralisasi ke `progress/cheatsheet.md`. Log: `playground/mastering-claude/6.1.md`, `6.2.md` |
 | 7. Vibe Coding: Filosofi & Alur Kerja | Selesai (2026-08-16). 7.1 skor 100/100 tanpa revisi; 7.2 skor 3/3 setelah 1x revisi (axis stakes vs reversibility); 7.3 skor 3/3 quiz + 4/4 exercise setelah revisi (Q1 diperkuat "success signal ≠ correct behavior"; Q3 dua percobaan pertama recycle contoh 7.2, revisi final spesifik ke auto-run/auto-accept; Exercise 2 sempat salah label tahap). Mini Project selesai (2026-08-16): CLI scraper produk→CSV dibangun vibes-only, 2 ronde vibes-patch buta (TLS reset lalu 0 produk karena selector ditebak), refleksi nangkep "program jalan tanpa error ≠ program benar". Log: `playground/mastering-claude/7-mini-project.md` |
-| 8. Dari Vibe Coding ke Rekayasa Bertanggung Jawab | In Progress — 8.1 selesai (2026-08-15) skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 diakui tak cocok bersih ke 4 kategori, dipilih analogis). 8.2 selesai (2026-08-16) skor 4/4 quiz setelah 1x revisi (Q1 & Q3) + Exercise lengkap tanpa revisi. 8.3 selesai (2026-08-16) skor 4/4 quiz + exercise lengkap tanpa revisi (3 gerbang verifikasi diterapkan ke tool extract-title dari 8.2). 8.4 selesai (2026-08-16) skor 4/4 quiz tanpa revisi + exercise setelah 1x revisi (line vs behavioral coverage). Next: Mini Project Module 8 (refactor `7-mini-project/scraper.py` pakai spec-driven + verifikasi penuh) |
+| 8. Dari Vibe Coding ke Rekayasa Bertanggung Jawab | Selesai (2026-08-16) — 8.1-8.4 semua skor 4/4 (detail lihat `courses/mastering-claude/roadmap.md`). Mini Project: refactor nyata `7-mini-project/scraper.py` (vibes-only) jadi `8-mini-project/scraper.py` (disciplined) lewat siklus SDD penuh + 3 gerbang verifikasi sungguhan (diff review nemuin bug encoding mojibake, 14 test/99% coverage, security review 0 finding). Perbandingan tertulis: "vibe coding optimalkan speed-to-code, disciplined optimalkan speed-to-verified-result". Log: `playground/mastering-claude/8-mini-project.md`, `.review.md` |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
 

@@ -1,9 +1,10 @@
-1. kesehatan area pribadi
-2. belajar memahami dopamin
-3. gaya atau ciri khas sutradara sutradara di film film nya
-4. statistika dan probabilitas
-5. orang orang berpengaruh di dunia it seperti alexander wang, marck zukerberg , andrej karpathy cara agar seperti mereka, insight
-6. agi itu apa
-7. computer vision
-8. string theory untuk software engineering
-9. teori kuantum untuk software engineering
+1. Buat course kesehatan intim pria 0–expert: anatomi, kebersihan genital, kesehatan penis & testis, seksual, ereksi, fertilitas, olahraga, nutrisi, tidur, STI prevention, red flags, dan pemeriksaan medis.
+2. Buat course Dopamine 0–expert: neuroscience dasar, reward system, motivation, habit loop, craving, reinforcement, addiction, attention, sleep, exercise, digital habits, dan membangun sistem perilaku sehat.
+3. Buat course Director's Signature 0–expert: pelajari ciri khas sutradara dunia, visual language, storytelling, camera, editing, sound, themes, symbolism, recurring motifs, lalu analisis film mereka.
+4. Buat course Statistika & Probabilitas 0–expert: descriptive statistics, probability, distributions, Bayes, sampling, confidence interval, hypothesis testing, regression, correlation, ANOVA, dan penerapan ML.
+5. Buat course World-Class Tech Builder 0–expert: pelajari pola pikir Zuckerberg, Alexandr Wang, Karpathy, technical depth, first principles, product thinking, leverage, building, networking, leadership, dan entrepreneurship.
+6. Buat course AGI 0–expert: AI fundamentals, intelligence, learning, reasoning, planning, memory, agents, multimodal AI, world models, reinforcement learning, alignment, evaluation, dan AGI architectures.
+7. Buat course Computer Vision 0–expert: image processing, OpenCV, feature extraction, CNN, object detection, segmentation, tracking, OCR, transformers, multimodal AI, dataset, training, deployment, dan proyek nyata.
+8. Buat course String Theory for Software Engineer 0–expert: relativitas, quantum mechanics, strings, branes, extra dimensions, compactification, duality, AdS/CFT, matematika, dan simulasi komputasional.
+9. Buat course Quantum Theory for Software Engineer 0–expert: matematika, probabilitas, qubit, superposition, entanglement, measurement, gates, circuits, algorithms, quantum computing, dan coding.
+10. Buat course World Traveler 0–expert: pelajari setiap negara lewat geografi, sejarah, budaya, bahasa, makanan, seni, filosofi, etiket, ekonomi, landmark, travel planning, dan simulasi perjalanan.

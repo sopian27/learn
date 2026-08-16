@@ -153,7 +153,9 @@ Lessons:
 
 Mini Project: Ambil tool dari Mini Project Module 7, refactor pakai alur spec-driven + verifikasi penuh — bandingkan hasil "vibes only" vs "disciplined" (kualitas, waktu, kepercayaan diri terhadap kode sendiri).
 
-Status: In Progress — dimulai 2026-08-15. 8.1 selesai (2026-08-15), skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 awalnya salah label "security flaw", direvisi jadi pengakuan eksplisit skenario tidak cocok bersih ke 4 kategori — dipilih "test coverage & overconfidence" secara analogis). 8.2 selesai (2026-08-16), skor 4/4 quiz setelah 1x revisi (Q1 & Q3) + Exercise lengkap tanpa revisi (draft SDD utility "extract page title" — remove ambiguity 5 edge case, validate against spec dengan cara verifikasi konkret tiap klausa). 8.3 selesai (2026-08-16), skor 4/4 quiz + exercise lengkap tanpa revisi (3 gerbang verifikasi diterapkan ke tool extract-title dari Exercise 8.2 — review diff nemuin duplikasi fetch, test coverage nuntut bukti urutan validasi-sebelum-fetch, security review nemuin risiko tambahan resource exhaustion/DoS di luar SSRF yang dicontohkan). 8.4 selesai (2026-08-16), skor 4/4 quiz tanpa revisi + exercise lengkap setelah 1x revisi (poin 4 Gerbang 2 awalnya cuma "test dijalankan mekanisme independen", direvisi eksplisit kaitkan ke line vs behavioral coverage & target 92% dari 8.1/8.3 di titik handoff antar-agent). Semua 4 lesson Module 8 selesai; Mini Project Module 8 belum dimulai. Log: `playground/mastering-claude/8.1.md`, `8.2.md`, `8.3.md`, `8.4.md`.
+Status: Selesai (2026-08-16). 8.1 selesai (2026-08-15), skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 awalnya salah label "security flaw", direvisi jadi pengakuan eksplisit skenario tidak cocok bersih ke 4 kategori — dipilih "test coverage & overconfidence" secara analogis). 8.2 selesai (2026-08-16), skor 4/4 quiz setelah 1x revisi (Q1 & Q3) + Exercise lengkap tanpa revisi (draft SDD utility "extract page title" — remove ambiguity 5 edge case, validate against spec dengan cara verifikasi konkret tiap klausa). 8.3 selesai (2026-08-16), skor 4/4 quiz + exercise lengkap tanpa revisi (3 gerbang verifikasi diterapkan ke tool extract-title dari Exercise 8.2 — review diff nemuin duplikasi fetch, test coverage nuntut bukti urutan validasi-sebelum-fetch, security review nemuin risiko tambahan resource exhaustion/DoS di luar SSRF yang dicontohkan). 8.4 selesai (2026-08-16), skor 4/4 quiz tanpa revisi + exercise lengkap setelah 1x revisi (poin 4 Gerbang 2 awalnya cuma "test dijalankan mekanisme independen", direvisi eksplisit kaitkan ke line vs behavioral coverage & target 92% dari 8.1/8.3 di titik handoff antar-agent).
+
+Mini Project selesai (2026-08-16): refactor nyata (bukan hipotetis) `playground/mastering-claude/7-mini-project/scraper.py` (CLI scraper vibes-only Module 7) jadi versi disciplined di `playground/mastering-claude/8-mini-project/scraper.py`. Siklus SDD penuh: user tulis spec sendiri (define intent + remove ambiguity 10 edge case + plan with constraints, `8-mini-project.md`), AI implement sesuai spec dengan selector yang divalidasi terhadap struktur HTML nyata (books.toscrape.com, bukan tebakan) — ketemu bug encoding riil (mojibake "Â£" krn `requests.text` fallback ISO-8859-1 padahal body UTF-8, di-fix pakai `response.content` + auto-detect BeautifulSoup). 3 gerbang verifikasi dijalankan sungguhan: review diff (bug encoding), test coverage (14 test, 99% line coverage — exceeds target 92% dari 8.1/8.3), security review (skill `security-review` di-scope manual ke file baru krn diff branch penuh nggak relevan — 0 finding HIGH/MEDIUM, SSRF & DoS excluded sesuai exclusion rules skill karena tidak ada privilege boundary yang dilanggar untuk CLI personal). Perbandingan tertulis vibes-only vs disciplined di `8-mini-project.review.md`: inti pembelajaran — "vibe coding mengoptimalkan speed-to-code, disciplined AI-assisted engineering mengoptimalkan speed-to-verified-result". Log: `playground/mastering-claude/8.1.md`, `8.2.md`, `8.3.md`, `8.4.md`, `8-mini-project.md`, `8-mini-project.review.md`, kode di `8-mini-project/`.
 
 ---
 
@@ -169,12 +171,12 @@ Status: Belum dimulai
 
 # Overall Progress
 
-Module Completion: 7/8
+Module Completion: 8/8
 
-Overall Completion: 87.5%
+Overall Completion: 100%
 
-Current Module: Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab (In Progress)
+Current Module: Semua 8 module selesai. Sisa: Enterprise Project.
 
-Current Lesson: 8.4 Agentic Engineering (selesai) — semua lesson Module 8 selesai; Mini Project Module 7 juga selesai (2026-08-16)
+Current Lesson: Mini Project Module 8 (selesai, 2026-08-16)
 
-Next Lesson: Mini Project Module 8 (refactor tool `playground/mastering-claude/7-mini-project/scraper.py` pakai alur spec-driven + verifikasi penuh, bandingkan vibes-only vs disciplined).
+Next: Enterprise Project — playbook pribadi (CLAUDE.md + skills + plugin + automation + disiplin vibe vs spec-driven) + ukur ROI. Acceptance criteria belum dirancang.
