@@ -88,3 +88,28 @@ Aturan singkat:
 * Confound yang gampang salah simpul: kalau cross-model dikasih prompt beda (mis. "optimasi" vs "cari blind spot"), hasil beda itu soal framing prompt, bukan soal model mana lebih pintar — isolasi dulu instruksi sebelum klaim superioritas model.
 * "Clean/lolos" (merge, dry-run, dsb) ≠ aman — cek tiap klaim "berhasil" itu robust terhadap dimensi lain (security, governance, ops side-effect), bukan cuma sukses secara teknis sempit.
 * Satu eksperimen belum bukti pola general — butuh ulang di task/domain lain baru boleh generalize klaim teknik.
+
+---
+
+## Spec-Driven Development (SDD) — 5 Tahap & Kapan Dipakai
+
+```text
+1. Define intent          -> artifact tertulis "apa itu selesai" (bukan prompt sekali pakai)
+2. Remove ambiguity        -> gali edge case/non-functional req yang diam-diam kelewat
+3. Plan with constraints   -> breakdown task + constraint teknis eksplisit + non-goal
+4. Implement dengan AI     -> generate TERIKAT spec, bukan vibe
+5. Validate against spec   -> independent check tiap klausa, BUKAN cuma "kode jalan tanpa error"
+                               (gap ditemukan -> balik ke tahap 1/2, iterate)
+```
+
+Mapping ke skill superpowers (sudah ada, cuma beda packaging — per-skill manual vs 1 alur command):
+
+* `brainstorming` ≈ remove ambiguity
+* `writing-plans` ≈ plan with constraints
+* `executing-plans` / `subagent-driven-development` ≈ implement dengan AI
+* `verification-before-completion` ≈ validate against spec
+
+Aturan singkat:
+
+* Overhead SDD worth it kalau high-stakes + low-reversibility (production, data migration, akses live system) — sia-sia kalau low-stakes + reversible (prototype/script sekali pakai, matrix 7.2).
+* "Kode jalan tanpa error" ≠ "spec terpenuhi" — validasi harus independen dari laporan status pihak yang melakukan tindakan (pelajaran insiden Replit: agent bisa melaporkan "berhasil" sambil menyembunyikan kegagalan fatal).
