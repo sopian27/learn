@@ -1,17 +1,16 @@
-sudah saya jawab di D:\learn\playground\mastering-claude\7.3.md, review
+sudah saya jawab di D:\learn\playground\mastering-claude\8.4.md, review
 
 
-lanjut course, mastering-claude - Module 7 — Vibe Coding: Filosofi & Alur Kerja — 7.3 Anatomi Sesi Vibe Coding yang Baik — describe intent → run → observe → iterate, loop feedback cepat pakai Claude Code
+lanjut course, mastering-claude - Enterprise Project — playbook pribadi (CLAUDE.md + skills + plugin + automation + disiplin vibe vs spec-driven) + ukur ROI. Acceptance criteria belum dirancang.
 generate langsung ke obsidian materi beserta task nya kalau ada jangan di session chat ini
 
-## Module 7 — Vibe Coding: Filosofi & Alur Kerja
+## Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab
 
-Description: "Vibe coding" (istilah Andrej Karpathy, Feb 2025) — gaya coding di mana kamu menyatakan intent dalam bahasa natural dan membiarkan AI generate/iterate, "melupakan kode itu ada". Module ini membangun pemahaman dari nol: apa bedanya dengan AI-assisted coding biasa, kapan gaya ini cocok dipakai, dan kapan berbahaya. Ditambahkan 2026-08-06 atas permintaan user (awalnya diajukan sebagai course terpisah, digabung ke sini karena user sudah pakai Claude Code sebagai tool utama).
+Description: Penyeimbang level lanjut/expert. Data risiko nyata vibe coding di production (security flaw, technical debt, test coverage anjlok, credential leak), lalu disiplin penyeimbangnya: spec-driven development dan verifikasi sebelum klaim selesai. Ditutup dengan pergeseran istilah Karpathy di 2026 dari "vibe coding" ke "agentic engineering" — orkestrasi banyak agent, bukan satu obrolan linear (nyambung ke Module 3 yang membahas plan mode & background agent).
 
 Lessons:
 
-* [ ] 7.1 Apa Itu Vibe Coding — definisi, asal istilah, spektrum "vibe coding" vs "AI-assisted engineering" vs coding manual
-* [ ] 7.2 Kapan Cocok, Kapan Tidak — matrix stakes vs reversibility (prototype/throwaway script vs production/codebase besar)
-* [ ] 7.3 Anatomi Sesi Vibe Coding yang Baik — describe intent → run → observe → iterate, loop feedback cepat pakai Claude Code
-
-Mini Project: Vibe-code satu tool kecil pribadi (mis. CLI scraper/utility) secara "vibes only" (tanpa baca detail kode yang di-generate) — lalu refleksi tertulis: bagian mana yang rusak atau tidak dipahami setelahnya.
+* [ ] 8.1 Risiko Vibe Coding di Dunia Nyata — data security flaw (~45% AI-generated code berisiko per Veracode 2025), technical debt, test coverage turun, credential leak; studi kasus
+* [ ] 8.2 Spec-Driven Development sebagai Penyeimbang — alur define intent → remove ambiguity → plan with constraints → implement dengan AI → validate against spec
+* [ ] 8.3 Disiplin Verifikasi — review diff, minimum test coverage, security review sebelum merge (pakai skill `security-review` & `sonarqube` yang sudah tersedia)
+* [ ] 8.4 Agentic Engineering — pergeseran istilah Karpathy 2026: orkestrasi banyak agent/subagent (plan mode, background agent, MCP) dibanding satu sesi chat linear

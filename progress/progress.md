@@ -6,9 +6,9 @@
 
 ### 1. Mastering Claude — `courses/mastering-claude/roadmap.md`
 
-Current Module: Semua 8 module selesai. Sisa: Enterprise Project (playbook pribadi + ukur ROI, acceptance criteria belum dirancang).
-Current Lesson: Mini Project Module 8 (selesai, 2026-08-16)
-Course Completion: 8/8 module selesai (100%)
+Current Module: Course tuntas — semua 8 module + Enterprise Project (Capstone) selesai 2026-08-16.
+Current Lesson: Tidak ada, course selesai. Artifact final: `portofolio/mastering-claude-playbook.md`.
+Course Completion: 8/8 module + Enterprise Project selesai (100%)
 
 | Module | Status |
 | ------ | ------ |
@@ -20,6 +20,7 @@ Course Completion: 8/8 module selesai (100%)
 | 6. Kombinasi Multi-AI | Selesai (2026-08-15) — 6.1 skor 100/100 tanpa revisi (quiz + exercise benar semua, sumbu keputusan tepat). 6.2 applied practice kasus nyata (proses patching MBP): cross-model blind-spot review → swap-test isolasi confound prompt-vs-model → self-adversarial-review kontrol → pattern digeneralisasi ke `progress/cheatsheet.md`. Log: `playground/mastering-claude/6.1.md`, `6.2.md` |
 | 7. Vibe Coding: Filosofi & Alur Kerja | Selesai (2026-08-16). 7.1 skor 100/100 tanpa revisi; 7.2 skor 3/3 setelah 1x revisi (axis stakes vs reversibility); 7.3 skor 3/3 quiz + 4/4 exercise setelah revisi (Q1 diperkuat "success signal ≠ correct behavior"; Q3 dua percobaan pertama recycle contoh 7.2, revisi final spesifik ke auto-run/auto-accept; Exercise 2 sempat salah label tahap). Mini Project selesai (2026-08-16): CLI scraper produk→CSV dibangun vibes-only, 2 ronde vibes-patch buta (TLS reset lalu 0 produk karena selector ditebak), refleksi nangkep "program jalan tanpa error ≠ program benar". Log: `playground/mastering-claude/7-mini-project.md` |
 | 8. Dari Vibe Coding ke Rekayasa Bertanggung Jawab | Selesai (2026-08-16) — 8.1-8.4 semua skor 4/4 (detail lihat `courses/mastering-claude/roadmap.md`). Mini Project: refactor nyata `7-mini-project/scraper.py` (vibes-only) jadi `8-mini-project/scraper.py` (disciplined) lewat siklus SDD penuh + 3 gerbang verifikasi sungguhan (diff review nemuin bug encoding mojibake, 14 test/99% coverage, security review 0 finding). Perbandingan tertulis: "vibe coding optimalkan speed-to-code, disciplined optimalkan speed-to-verified-result". Log: `playground/mastering-claude/8-mini-project.md`, `.review.md` |
+| Enterprise Project (Capstone) | Selesai (2026-08-16), skor 90/100 setelah 1x revisi. Playbook pribadi (`portofolio/mastering-claude-playbook.md`): decision framework CLAUDE.md/Skill/Plugin/Hook, decision matrix vibe vs spec-driven, automation nyata (`tdd-toolkit` v1.1.0, 2 hook TDD gate diverifikasi 7 skenario), ROI case study scraper vibes-only vs disciplined (n=1, gap token-cost diakui eksplisit). Course **Mastering Claude tuntas penuh**. |
 
 ### 2. Character Development — `courses/character-development/roadmap.md`
 

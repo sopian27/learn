@@ -163,9 +163,15 @@ Mini Project selesai (2026-08-16): refactor nyata (bukan hipotetis) `playground/
 
 Description: Menyusun "playbook" pribadi penggunaan AI (kombinasi CLAUDE.md, skills, plugin, automation, disiplin vibe coding vs spec-driven dari Module 7-8) + mengukur ROI (waktu vs biaya token vs kualitas hasil).
 
-Acceptance Criteria: TBD — dirancang setelah Module 1-8 selesai.
+Acceptance Criteria (dirancang & disetujui 2026-08-16, tier Capstone per `ai-los/CORE_LOS.md`):
 
-Status: Belum dimulai
+* **AC1 — Playbook document**: `portofolio/mastering-claude-playbook.md` — dokumen keputusan pribadi: kapan pakai CLAUDE.md vs Skill, kapan bikin Plugin, kapan automation/hook, plus decision matrix vibe-coding vs spec-driven (stakes × reversibility, dari 7.2).
+* **AC2 — Automation piece nyata**: extend plugin `tdd-toolkit` (Module 4) dengan 1 hook/mekanisme baru yang mendemonstrasikan rule di playbook.
+* **AC3 — ROI case study**: formalkan perbandingan scraper vibes-only (Module 7) vs disciplined (Module 8) yang sudah ada jadi case study resmi — waktu, estimasi token/cost, defect count, test coverage, confidence.
+* **AC4 — Review**: dokumen di-review pakai Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score, `ai-los/CORE_LOS.md`).
+* **AC5 — Lokasi**: hasil akhir tersimpan di `portofolio/`, bukan `playground/`.
+
+Status: Selesai (2026-08-16), skor 90/100 setelah 1x revisi (gate hook §3 awalnya understate celah "state gak terikat ke file", diperjelas eksplisit; tabel ROI §4 awalnya campur angka waktu self-reported presisi semu, dipindah jadi catatan naratif). Artifact: `portofolio/mastering-claude-playbook.md`. Automation: `playground/mastering-claude/plugins/tdd-toolkit` v1.0.0 → v1.1.0 (2 hook baru, diverifikasi 7 skenario nyata).
 
 ---
 
@@ -173,10 +179,10 @@ Status: Belum dimulai
 
 Module Completion: 8/8
 
-Overall Completion: 100%
+Overall Completion: 100% — course selesai penuh termasuk Enterprise Project (Capstone), 2026-08-16.
 
-Current Module: Semua 8 module selesai. Sisa: Enterprise Project.
+Current Module: Semua selesai.
 
-Current Lesson: Mini Project Module 8 (selesai, 2026-08-16)
+Current Lesson: Enterprise Project (selesai, 2026-08-16, skor 90/100)
 
-Next: Enterprise Project — playbook pribadi (CLAUDE.md + skills + plugin + automation + disiplin vibe vs spec-driven) + ukur ROI. Acceptance criteria belum dirancang.
+Next: Tidak ada — course tuntas. Lihat `portofolio/mastering-claude-playbook.md` untuk artifact final.

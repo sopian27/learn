@@ -20,3 +20,8 @@ Sebelum generate module baru
 * Cek file module sudah ada di vault
 * Kalau sudah ada: skip, jangan overwrite, jangan generate ulang
 * Kalau belum ada: generate lalu tulis langsung ke vault (bukan cuma ditampilkan di chat)
+
+Enterprise Project / Capstone (course selesai penuh)
+
+* File: `Courses/<Nama Course>/Enterprise Project.md` (atau nama capstone-nya sesuai roadmap), isi = materi capstone lengkap (sama pola dengan file module)
+* **Final Course Wisdom wajib ikut ditulis ke file ini**, bukan cuma ditampilkan di chat — section `## Final Course Wisdom` di akhir file, isi teks reflection lengkap (bukan placeholder/link balik ke chat)
