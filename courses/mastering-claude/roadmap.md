@@ -149,11 +149,11 @@ Lessons:
 * [x] 8.1 Risiko Vibe Coding di Dunia Nyata — data security flaw (~45% AI-generated code berisiko per Veracode 2025), technical debt, test coverage turun, credential leak; studi kasus
 * [x] 8.2 Spec-Driven Development sebagai Penyeimbang — alur define intent → remove ambiguity → plan with constraints → implement dengan AI → validate against spec
 * [x] 8.3 Disiplin Verifikasi — review diff, minimum test coverage, security review sebelum merge (pakai skill `security-review` & `sonarqube` yang sudah tersedia)
-* [ ] 8.4 Agentic Engineering — pergeseran istilah Karpathy 2026: orkestrasi banyak agent/subagent (plan mode, background agent, MCP) dibanding satu sesi chat linear
+* [x] 8.4 Agentic Engineering — pergeseran istilah Karpathy 2026: orkestrasi banyak agent/subagent (plan mode, background agent, MCP) dibanding satu sesi chat linear
 
 Mini Project: Ambil tool dari Mini Project Module 7, refactor pakai alur spec-driven + verifikasi penuh — bandingkan hasil "vibes only" vs "disciplined" (kualitas, waktu, kepercayaan diri terhadap kode sendiri).
 
-Status: In Progress — dimulai 2026-08-15. 8.1 selesai (2026-08-15), skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 awalnya salah label "security flaw", direvisi jadi pengakuan eksplisit skenario tidak cocok bersih ke 4 kategori — dipilih "test coverage & overconfidence" secara analogis). 8.2 selesai (2026-08-16), skor 4/4 quiz setelah 1x revisi (Q1 & Q3) + Exercise lengkap tanpa revisi (draft SDD utility "extract page title" — remove ambiguity 5 edge case, validate against spec dengan cara verifikasi konkret tiap klausa). 8.3 selesai (2026-08-16), skor 4/4 quiz + exercise lengkap tanpa revisi (3 gerbang verifikasi diterapkan ke tool extract-title dari Exercise 8.2 — review diff nemuin duplikasi fetch, test coverage nuntut bukti urutan validasi-sebelum-fetch, security review nemuin risiko tambahan resource exhaustion/DoS di luar SSRF yang dicontohkan). Log: `playground/mastering-claude/8.1.md`, `8.2.md`, `8.3.md`.
+Status: In Progress — dimulai 2026-08-15. 8.1 selesai (2026-08-15), skor 4/4 quiz + 4/4 exercise setelah 1x revisi (Exercise 4 awalnya salah label "security flaw", direvisi jadi pengakuan eksplisit skenario tidak cocok bersih ke 4 kategori — dipilih "test coverage & overconfidence" secara analogis). 8.2 selesai (2026-08-16), skor 4/4 quiz setelah 1x revisi (Q1 & Q3) + Exercise lengkap tanpa revisi (draft SDD utility "extract page title" — remove ambiguity 5 edge case, validate against spec dengan cara verifikasi konkret tiap klausa). 8.3 selesai (2026-08-16), skor 4/4 quiz + exercise lengkap tanpa revisi (3 gerbang verifikasi diterapkan ke tool extract-title dari Exercise 8.2 — review diff nemuin duplikasi fetch, test coverage nuntut bukti urutan validasi-sebelum-fetch, security review nemuin risiko tambahan resource exhaustion/DoS di luar SSRF yang dicontohkan). 8.4 selesai (2026-08-16), skor 4/4 quiz tanpa revisi + exercise lengkap setelah 1x revisi (poin 4 Gerbang 2 awalnya cuma "test dijalankan mekanisme independen", direvisi eksplisit kaitkan ke line vs behavioral coverage & target 92% dari 8.1/8.3 di titik handoff antar-agent). Semua 4 lesson Module 8 selesai; Mini Project Module 8 belum dimulai. Log: `playground/mastering-claude/8.1.md`, `8.2.md`, `8.3.md`, `8.4.md`.
 
 ---
 
@@ -175,6 +175,6 @@ Overall Completion: 75%
 
 Current Module: Module 8 — Dari Vibe Coding ke Rekayasa Bertanggung Jawab (In Progress)
 
-Current Lesson: 8.3 Disiplin Verifikasi (selesai)
+Current Lesson: 8.4 Agentic Engineering (selesai) — semua lesson Module 8 selesai
 
-Next Lesson: 8.4 Agentic Engineering. Mini Project Module 7 masih tertunda (vibe-code tool kecil "vibes only" + refleksi tertulis).
+Next Lesson: Mini Project Module 8 (refactor tool Module 7 pakai alur spec-driven + verifikasi penuh). Mini Project Module 7 masih tertunda (vibe-code tool kecil "vibes only" + refleksi tertulis).
