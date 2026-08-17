@@ -56,7 +56,7 @@ Lessons:
 
 Mini Project: Minta feedback jujur dari 2 orang nyata (kerja/personal) tentang satu area spesifik, dokumentasikan feedback yang diterima DAN reaksi/respons diri sendiri terhadapnya (defensif atau tidak, apa yang ditindaklanjuti). **Catatan mentor**: pakai momen BARU, jangan recycle kejadian "bos tanya ulang issue production" yang sudah dipakai 4x (1.2, 1.4, Mini Project 1, 2.1) — idealnya minimal satu momen stakes lebih tinggi (menyentuh identitas/kemampuan, bukan cuma prosedural) untuk stress-test klaim jalur-5-mahal dari 2.1.
 
-Status: In Progress — Lesson 2.1-2.4 selesai, lanjut Mini Project Module 2
+Status: Selesai (2026-08-18), skor 90/100 setelah 1x revisi (poin 2 tiap orang awalnya cuma rating nyaman/sakit, bukan reaksi mentah; tabel sintesis sempat berisi 2 entri feedback fiktif yang tidak terdokumentasi di bagian Orang 1/2 — keduanya diperbaiki). Feedback dari manager (testing negative case/FE) dan rekan kerja BA (proaktif ke client) — dua-duanya ditindaklanjuti dengan aksi konkret, pola sociometer lebih sensitif ke feedback kompetensi vs komunikasi. Log: `playground/character-development/mini-project-2.md`. **Module 2 selesai penuh.**
 
 ---
 
@@ -204,12 +204,12 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 1/6
+Module Completion: 2/6
 
-Overall Completion: 17%
+Overall Completion: 33%
 
-Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
+Current Module: Module 3 — Etos Kerja & Disiplin yang Berkelanjutan
 
-Current Lesson: 2.4 selesai (2026-08-17), skor 90/100 setelah 1x revisi — Module 2 lesson lengkap, lanjut Mini Project
+Current Lesson: Belum dimulai — Module 2 tuntas penuh (2026-08-18)
 
-Next Lesson: Mini Project Module 2 — minta feedback jujur dari 2 orang nyata
+Next Lesson: Module 3, Lesson 3.1 — Grit (Angela Duckworth)
