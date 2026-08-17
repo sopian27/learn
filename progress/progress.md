@@ -25,7 +25,7 @@ Course Completion: 8/8 module + Enterprise Project selesai (100%)
 ### 2. Character Development — `courses/character-development/roadmap.md`
 
 Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
-Current Lesson: 2.3 Cara aktif meminta feedback jujur dari orang nyata
+Current Lesson: 2.4 Discernment — membedakan feedback yang layak ditindaklanjuti vs noise
 Course Completion: 1/6 module (17%)
 
 | Lesson | Status | Quiz | Exercise |
@@ -37,6 +37,7 @@ Course Completion: 1/6 module (17%)
 | Mini Project Module 1 | Selesai (2026-08-17), 1x revisi | - | 88/100 |
 | 2.1 Ego threat & cognitive dissonance | Selesai (2026-08-17) | - | 92/100 |
 | 2.2 Teknik menerima kritik tanpa defensif (Adam Grant) | Selesai (2026-08-17), 1x revisi | - | 90/100 |
+| 2.3 Cara aktif meminta feedback jujur dari orang nyata | Selesai (2026-08-17), 1x revisi | - | 92/100 |
 
 ---
 
