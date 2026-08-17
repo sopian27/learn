@@ -1,0 +1,11 @@
+buatkan course berikut dengan background agent, jangan penuhi context utama : 
+course Satanism 0–expert: asal-usul simbol Satan, sejarah, demonology, LaVeyan Satanism, The Satanic Temple, esotericism, ritual sebagai budaya, filosofi, media, kontroversi, dan critical thinking.
+course Illuminati 0–expert: sejarah Bavarian Illuminati, Adam Weishaupt, Pencerahan, Freemasonry, simbol, pembubaran, teori konspirasi, pop culture, dan critical thinking.
+course Israel-Palestine 0–expert: sejarah, Zionisme, Palestina, 1948, Nakba, 1967, Gaza, West Bank, Hamas, Israel, settlements, wars, Oslo, hukum internasional, geopolitik, dan solusi Palestina merdeka.
+course sejarah kekhalifahan Islam 0–expert: Nabi, Khulafaur Rasyidin, Umayyah, Abbasiyah, Andalusia, Fatimiyah, Ottoman, ilmu, ekonomi, politik, budaya, konflik, kemunduran, dan warisannya.
+course sejarah Perang Dunia 0–expert: WWI, WWII, penyebab, geopolitik, ideologi, aliansi, strategi, teknologi, tokoh, front perang, Holocaust, ekonomi, intelijen, aftermath, dan lessons learned.
+course kasus paranormal & demon: Ed/Lorraine Warren, Amityville, Enfield, Annabelle, demonology, folklore, psychology, evidence, skepticism, investigations, media, dan critical thinking.
+course kasus kriminal terkenal dunia: timeline, motif, psikologi, forensik, investigasi, bukti, hukum, media, kesalahan penyidik, persidangan, dampak, dan lessons learned.
+course Military Strategy 0–expert: sejarah perang, Sun Tzu, Clausewitz, strategy, logistics, intelligence, terrain, leadership, naval & air power, geopolitics, case studies, wargaming, dan ethics.
+course tentang serial killers: Ted Bundy & kasus lain, psikologi, neuroscience, personality, trauma, compulsive behavior, pornography evidence, manipulation, criminology, warning signs, dan myths.
+course Digital & Social Media Wisdom 0–expert: doom scrolling, dopamine, algoritma, mindful usage, content diet, privacy, posting bijak, personal brand, news literacy, kebiasaan menonton live TikTok perempuan menarik saat belajar, dopamine, sexual/social distraction, multitasking illusion, stimulus control, urge surfing, deep focus dan digital boundaries.

@@ -82,6 +82,18 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `black-hole` — domains/black-hole/DOMAIN.md — Status: Paused — Course: courses/black-hole/roadmap.md
 
+## Paused (2026-08-17, permintaan 10-course batch via background agent, dibuat saat Course Aktif "Character Development" di bawah 50% Module 2 — user eksplisit konfirmasi override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion)
+
+- `satanism` — domains/satanism/DOMAIN.md — Status: Paused — Course: courses/satanism/roadmap.md
+- `israel-palestine` — domains/israel-palestine/DOMAIN.md — Status: Paused — Course: courses/israel-palestine/roadmap.md
+- `paranormal-demon-cases` — domains/paranormal-demon-cases/DOMAIN.md — Status: Paused — Course: courses/paranormal-demon-cases/roadmap.md
+- `famous-criminal-cases` — domains/famous-criminal-cases/DOMAIN.md — Status: Paused — Course: courses/famous-criminal-cases/roadmap.md
+- `military-strategy` — domains/military-strategy/DOMAIN.md — Status: Paused — Course: courses/military-strategy/roadmap.md
+- `serial-killers` — domains/serial-killers/DOMAIN.md — Status: Paused — Course: courses/serial-killers/roadmap.md
+- `digital-social-media-wisdom` — domains/digital-social-media-wisdom/DOMAIN.md — Status: Paused — Course: courses/digital-social-media-wisdom/roadmap.md
+
+`illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
+
 ---
 
 # Default Domain

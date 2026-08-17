@@ -210,6 +210,6 @@ Overall Completion: 17%
 
 Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
 
-Current Lesson: 2.3 selesai (2026-08-17), skor 92/100 setelah 1x revisi — lanjut 2.4
+Current Lesson: 2.4 — materi + task sudah di-generate ke vault (2026-08-17), belum dikerjakan
 
-Next Lesson: Module 2, Lesson 2.4 — Discernment (membedakan feedback yang layak ditindaklanjuti vs noise)
+Next Lesson: setelah 2.4 dikerjakan & direview, lanjut Mini Project Module 2
