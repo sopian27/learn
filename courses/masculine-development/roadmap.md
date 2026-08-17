@@ -19,7 +19,36 @@
 * [ ] Membangun standar presentasi diri (grooming, cara berpakaian, bahasa tubuh dasar) yang rapi dan percaya diri tanpa obsesif
 * [ ] Mengklarifikasi nilai pribadi dan purpose hidup, serta kejelasan peran (partner/ayah/pemimpin) sesuai nilai sendiri, bukan tekanan sosial/mitos
 * [ ] Mempraktikkan kepemimpinan atas diri sendiri — tanggung jawab, pengambilan keputusan di bawah tekanan, dan regulasi emosi (termasuk mengenali pola depresi pria yang sering tersembunyi)
-* [ ] Menghasilkan Personal High-Value Man Operating System sebagai Capstone Project, mengintegrasikan sistem yang sudah dibangun di domain lain (character-development, self-love, relationships, personal-finance/entrepreneurship) tanpa mengulangnya
+* [ ] Bertindak berani (fisik/moral/vital) meski rasa takut tetap ada, dikalibrasi lewat golden mean Aristoteles antara pengecut dan nekat *(Module 7, menunggu approval)*
+* [ ] Menjaga konsistensi antara nilai pribadi dan tindakan nyata (integritas), termasuk saat tidak ada yang mengawasi atau saat konsisten itu mahal *(Module 8, menunggu approval)*
+* [ ] Menghasilkan Personal High-Value Man Operating System sebagai Capstone Project, mengintegrasikan sistem yang sudah dibangun di domain lain (character-development, self-love, relationships, personal-finance/entrepreneurship) dan Module 7-8 (keberanian, integritas) tanpa mengulangnya
+
+---
+
+# Catatan Scope (ditambahkan 2026-08-17 — hasil audit overlap permintaan "Becoming a Great Man")
+
+**Permintaan asal**: user meminta course baru "Becoming a Great Man 0-expert" mencakup 12 pilar — karakter, disiplin, keberanian, emotional control, komunikasi, leadership, finansial, kesehatan, relasi, tanggung jawab, purpose, dan integritas. Diminta sambil Course Aktif "Character Development" masih di bawah 50% (6/24 lesson, ~25%) — user eksplisit override guard `ai-los/COURSE_CREATION.md` saat dikonfirmasi ("Ya, override, lanjut riset").
+
+**Temuan audit overlap (sebelum riset baru dimulai, sesuai `ai-los/COURSE_CREATION.md`)**: course/domain ini (`masculine-development`) SUDAH ADA di filesystem sebagai draft lengkap (6 modul + domain pack), dibuat pada sesi sebelumnya tapi **belum pernah diregister** ke `ai-los/ACTIVE_DOMAIN.md`/`domains/README.md` (dikonfirmasi eksplisit di `docs/ai-los-history/PLAN_LAZY_CONTEXT.md` Global Constraints: "masculine-development ... never added to the registry ... out of scope, do not touch"). Isinya, dengan framing "high-value man"/kompetensi maskulin berbasis riset (anti-manosphere), **sudah mencakup atau meng-cross-reference 10 dari 12 pilar** yang diminta:
+
+| Pilar | Status di repo ini |
+|---|---|
+| Karakter | Module 1 (peta kompetensi genuine) + cross-ref penuh `character-development` |
+| Disiplin | Cross-ref `character-development` Module 3 (grit, sistem disiplin berkelanjutan) |
+| Emotional control | Module 5 (regulasi emosi, depresi pria tersembunyi — Terrence Real) |
+| Komunikasi | Module 3.3 (bahasa tubuh dasar) + cross-ref `communication-skills`/`public-speaking` |
+| Leadership | Module 5 (kepemimpinan diri) + cross-ref `character-development` (servant leadership) |
+| Finansial | Cross-ref `personal-finance`/`entrepreneurship` (kompetensi provider) |
+| Kesehatan | Module 2 (fondasi fisik: kekuatan/tidur/nutrisi) + cross-ref `home-fitness` (deep-dive metodologi) & `mens-health` (kesehatan intim) |
+| Relasi | Cross-ref penuh `relationships` |
+| Tanggung jawab | Module 5 eksplisit ("Kepemimpinan, Tanggung Jawab, dan Ketahanan Emosi") |
+| Purpose | Module 4 eksplisit, sudah pakai sumber riset (Damon "Path to Purpose", Frankl logotherapy) — persis sumber yang relevan untuk topik ini |
+| **Keberanian** | **GAP** — hanya disebut satu kata di Lesson 1.1 (daftar sifat maskulin positif APA), belum ada modul dedicated |
+| **Integritas** | **GAP MURNI** — tidak disebut sama sekali di course ini maupun domain manapun di repo (dicek eksplisit lewat grep lintas seluruh `domains/`) |
+
+**Keputusan struktur**: BUKAN membuat course/domain baru — itu akan menduplikasi ~90% draft yang sudah ada (yang bahkan sudah punya pola integrator identik: cross-ref ke `character-development`, `self-love`, `relationships`, `communication-skills`, `personal-finance`/`entrepreneurship`, plus penolakan eksplisit terhadap mitos manosphere/red-pill yang sama). Sebagai gantinya: **perluas domain & course ini** dengan dua modul baru (Module 7 — Keberanian, Module 8 — Integritas) yang menutup dua gap murni di atas, mengikuti pola append (tidak renumber) yang sudah dipakai di `character-development` (Module 7-9) dan `pornography-recovery` (Module 9-10). Course ini sendiri masih 0/6 "Not started" — Module 7-8 di bawah juga belum termasuk hitungan progress sampai disetujui.
+
+**Kenapa bukan checkpoint life-mastery-style**: `courses/life-mastery/roadmap.md` (orkestrator 14-stop) juga beririsan dengan sebagian pilar (disiplin→character-development, self-acceptance→self-love, komunikasi→communication-skills, power/leadership native, finansial→personal-finance) tapi TIDAK memiliki framing maskulinitas/"high-value man" yang diminta user, tidak mencakup kesehatan fisik pria maupun purpose sedalam Module 4 course ini, dan sama sekali tidak menyentuh keberanian/integritas. `masculine-development` adalah rumah yang jauh lebih pas secara framing maupun secara isi yang sudah ada — memilih life-mastery sebagai basis perluasan hanya akan menciptakan duplikasi baru terhadap draft masculine-development yang sudah lebih lengkap untuk permintaan spesifik ini.
 
 ---
 
@@ -124,6 +153,48 @@ Lessons:
 Capstone Project: Personal High-Value Man Operating System — sistem fisik + standar presentasi diri + purpose & nilai pribadi + sistem tanggung jawab/regulasi emosi, terintegrasi dengan sistem domain lain, diuji lewat log penerapan nyata minimal 4 minggu. Review memakai `domains/masculine-development/DOMAIN.md` bagian "Review Style" (Evidence Over Mythology, Competence Over Performance, Respect Check, Sustainability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
 Status: Not started
+
+---
+
+## Module 7 — Keberanian (Courage): Bertindak Meski Takut, Bukan Tanpa Rasa Takut (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-17 sebagai hasil audit overlap permintaan "Becoming a Great Man" (lihat "Catatan Scope" di atas). Module 1.1 di atas sudah menyebut *courage* sebagai satu dari sifat maskulin positif (APA Guidelines), tapi belum dibedah — modul ini menutup gap itu. **Belum masuk hitungan progress course** — course sedang Not Started (0/6), jadi modul ini ditambahkan sebagai append (tidak menyisipkan/renumber modul yang sudah ada). Secara logis paling berguna dipelajari **setelah Module 1** (memperdalam satu sifat yang sudah disebut di sana) dan **sebelum Module 6 capstone** — urutan aktual/apakah di-renumber ditentukan user saat approval.
+
+Description: Keberanian sering disalahpahami sebagai "tidak takut". Modul ini membangun kerangka sebaliknya, berbasis riset: keberanian adalah bertindak meski takut, dikalibrasi lewat kerangka klasik Aristoteles sebagai titik tengah antara pengecut dan nekat, dan dipetakan ke tiga jenis (fisik, moral, vital) yang relevan untuk kehidupan pria dewasa sehari-hari — bukan cuma skenario medan perang/heroik.
+
+Lessons:
+
+* [ ] 7.1 Keberanian bukan ketiadaan takut — riset Rachman pada bomb disposal operators & paratrooper: pembeda orang berani bukan siapa yang tidak takut, tapi siapa yang tetap bertindak walau takut
+* [ ] 7.2 Aristoteles (*Nicomachean Ethics*, Book III) — keberanian sebagai golden mean antara pengecut (cowardice) dan nekat (recklessness/foolhardiness), disilangkan ke riset modern Rate et al. (implicit theories of courage) supaya tidak berhenti jadi filsafat abstrak
+* [ ] 7.3 Tiga jenis keberanian (Pury & Lopez; Rate et al.) — physical courage, moral courage (bertindak benar meski berisiko sosial/karier), dan vital courage (bertahan menghadapi kesulitan jangka panjang, mis. penyakit/kegagalan berulang) — dipetakan ke situasi nyata pria dewasa
+* [ ] 7.4 Vulnerability sebagai bentuk keberanian (Brené Brown, cross-ref singkat `relationships` Module 10) — disilangkan balik ke riset courage empiris (7.1-7.3) supaya tidak berhenti di popularisasi semata
+
+Mini Project: Courage Log — identifikasi satu situasi nyata minggu ini yang butuh salah satu dari tiga jenis keberanian (fisik/moral/vital), petakan rasa takut yang muncul secara jujur, lalu evaluasi tindakan yang diambil terhadap golden mean Aristoteles (pengecut, nekat, atau tepat).
+
+Referensi riset: lihat sumber 11-14 dan 20 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 8 — Integritas: Konsistensi antara Nilai dan Tindakan (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-17, bagian sama dengan Module 7 di atas. Integritas adalah **satu-satunya dari 12 pilar** permintaan "Becoming a Great Man" yang benar-benar tidak ditemukan di domain manapun di repo ini (dicek eksplisit lewat grep lintas seluruh `domains/`) — bukan perluasan dari materi yang sudah ada sebagian, melainkan gap murni. **Belum masuk hitungan progress course**. Secara logis paling berguna dipelajari **setelah Module 4** (Purpose — nilai pribadi harus jelas dulu sebelum mengaudit konsistensi terhadapnya) dan **sebelum Module 6 capstone** — urutan aktual ditentukan user saat approval.
+
+Description: Module 4 menjawab APA nilai dan arah hidup seseorang; modul ini menjawab apakah tindakan hariannya benar-benar konsisten dengan nilai itu — integritas sebagai keselarasan nilai-tindakan yang teruji terutama saat tidak ada yang mengawasi atau saat konsisten itu mahal, bukan sekadar "jujur = tidak berbohong".
+
+Lessons:
+
+* [ ] 8.1 Moral identity theory (Augusto Blasi) — integritas sebagai derajat kedekatan konsep-diri moral seseorang dengan tindakan nyatanya, dan kenapa kesenjangan nilai-tindakan lebih umum daripada yang disadari kebanyakan orang
+* [ ] 8.2 Moral Foundations Theory (Jonathan Haidt & Jesse Graham) — integritas diuji lintas fondasi moral berbeda (fairness, loyalty, authority, care, sanctity), bukan cuma satu standar universal; dipakai mengenali blind spot integritas diri sendiri
+* [ ] 8.3 Integrity sebagai "workability" (Erhard, Jensen & Zaffron — Harvard Business School working paper) — integritas dilihat sebagai faktor fungsional (menepati janji ke diri sendiri & orang lain, memperbaiki pelanggaran secara terbuka) bukan cuma moralitas abstrak; disilangkan ke Lesson 8.1-8.2 karena sumbernya working paper, bukan jurnal peer-review
+* [ ] 8.4 VIA Character Strengths (Peterson & Seligman) — "honesty/authenticity" sebagai character strength terukur, satu payung virtue "Courage" yang sama dengan Module 7 — menyatukan keberanian dan integritas sebagai satu keluarga kekuatan karakter yang saling menopang, bukan dua topik lepas
+
+Mini Project: Integrity Audit — pilih 3 nilai inti dari Personal Values & Purpose Statement (Module 4), lalu audit jujur 1 minggu: momen tindakan konsisten dengan nilai itu vs momen menyimpang (termasuk yang kecil/tidak ketahuan orang lain), petakan polanya memakai kerangka Blasi (8.1) dan Erhard-Jensen-Zaffron (8.3).
+
+Referensi riset: lihat sumber 15-19 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
 
 ---
 
