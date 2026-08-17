@@ -52,11 +52,11 @@ Lessons:
 * [x] 2.1 Kenapa otak menolak feedback secara default — ego threat dan cognitive dissonance
 * [x] 2.2 Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*) — memisahkan identitas diri dari pendapat/hasil kerja
 * [x] 2.3 Cara aktif meminta feedback jujur dari orang nyata — pertanyaan yang membuka jawaban jujur, bukan basa-basi sopan
-* [ ] 2.4 Discernment — membedakan feedback yang layak ditindaklanjuti vs noise (tidak semua kritik otomatis benar; tetap perlu pikir kritis, tanpa jadikan itu tameng menolak semua masukan)
+* [x] 2.4 Discernment — membedakan feedback yang layak ditindaklanjuti vs noise (tidak semua kritik otomatis benar; tetap perlu pikir kritis, tanpa jadikan itu tameng menolak semua masukan)
 
 Mini Project: Minta feedback jujur dari 2 orang nyata (kerja/personal) tentang satu area spesifik, dokumentasikan feedback yang diterima DAN reaksi/respons diri sendiri terhadapnya (defensif atau tidak, apa yang ditindaklanjuti). **Catatan mentor**: pakai momen BARU, jangan recycle kejadian "bos tanya ulang issue production" yang sudah dipakai 4x (1.2, 1.4, Mini Project 1, 2.1) — idealnya minimal satu momen stakes lebih tinggi (menyentuh identitas/kemampuan, bukan cuma prosedural) untuk stress-test klaim jalur-5-mahal dari 2.1.
 
-Status: In Progress — Lesson 2.4
+Status: In Progress — Lesson 2.1-2.4 selesai, lanjut Mini Project Module 2
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 17%
 
 Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
 
-Current Lesson: 2.4 — materi + task sudah di-generate ke vault (2026-08-17), belum dikerjakan
+Current Lesson: 2.4 selesai (2026-08-17), skor 90/100 setelah 1x revisi — Module 2 lesson lengkap, lanjut Mini Project
 
-Next Lesson: setelah 2.4 dikerjakan & direview, lanjut Mini Project Module 2
+Next Lesson: Mini Project Module 2 — minta feedback jujur dari 2 orang nyata
