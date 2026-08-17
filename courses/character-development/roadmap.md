@@ -50,13 +50,13 @@ Description: Fokus memperbaiki diri itu mustahil tanpa data yang akurat soal dir
 Lessons:
 
 * [x] 2.1 Kenapa otak menolak feedback secara default — ego threat dan cognitive dissonance
-* [ ] 2.2 Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*) — memisahkan identitas diri dari pendapat/hasil kerja
+* [x] 2.2 Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*) — memisahkan identitas diri dari pendapat/hasil kerja
 * [ ] 2.3 Cara aktif meminta feedback jujur dari orang nyata — pertanyaan yang membuka jawaban jujur, bukan basa-basi sopan
 * [ ] 2.4 Discernment — membedakan feedback yang layak ditindaklanjuti vs noise (tidak semua kritik otomatis benar; tetap perlu pikir kritis, tanpa jadikan itu tameng menolak semua masukan)
 
 Mini Project: Minta feedback jujur dari 2 orang nyata (kerja/personal) tentang satu area spesifik, dokumentasikan feedback yang diterima DAN reaksi/respons diri sendiri terhadapnya (defensif atau tidak, apa yang ditindaklanjuti). **Catatan mentor**: pakai momen BARU, jangan recycle kejadian "bos tanya ulang issue production" yang sudah dipakai 4x (1.2, 1.4, Mini Project 1, 2.1) — idealnya minimal satu momen stakes lebih tinggi (menyentuh identitas/kemampuan, bukan cuma prosedural) untuk stress-test klaim jalur-5-mahal dari 2.1.
 
-Status: In Progress — Lesson 2.2
+Status: In Progress — Lesson 2.3
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 17%
 
 Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
 
-Current Lesson: 2.1 selesai (2026-08-17), skor 92/100, tanpa revisi — lanjut 2.2
+Current Lesson: 2.2 selesai (2026-08-17), skor 90/100 setelah 1x revisi — lanjut 2.3
 
-Next Lesson: Module 2, Lesson 2.2 — Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*)
+Next Lesson: Module 2, Lesson 2.3 — Cara aktif meminta feedback jujur dari orang nyata

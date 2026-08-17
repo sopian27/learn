@@ -25,7 +25,7 @@ Course Completion: 8/8 module + Enterprise Project selesai (100%)
 ### 2. Character Development — `courses/character-development/roadmap.md`
 
 Current Module: Module 2 — Membangun Kebiasaan Menerima & Mencari Feedback
-Current Lesson: 2.2 Teknik menerima kritik tanpa defensif (Adam Grant, *Think Again*)
+Current Lesson: 2.3 Cara aktif meminta feedback jujur dari orang nyata
 Course Completion: 1/6 module (17%)
 
 | Lesson | Status | Quiz | Exercise |
@@ -36,6 +36,7 @@ Course Completion: 1/6 module (17%)
 | 1.4 Mengenali sinyal ego real-time | Selesai (2026-08-17) | - | 90/100 |
 | Mini Project Module 1 | Selesai (2026-08-17), 1x revisi | - | 88/100 |
 | 2.1 Ego threat & cognitive dissonance | Selesai (2026-08-17) | - | 92/100 |
+| 2.2 Teknik menerima kritik tanpa defensif (Adam Grant) | Selesai (2026-08-17), 1x revisi | - | 90/100 |
 
 ---
 
