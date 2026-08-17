@@ -41,7 +41,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 **Update 2026-08-07:** Course aktif dipersempit jadi 2 atas permintaan user, untuk hemat pemakaian token. Semua course lain di bawah ini (termasuk yang sebelumnya In Progress) dipindah ke "Course Paused" — bukan dihentikan, tinggal minta "lanjut course X" untuk resume kapan saja. Rasional lengkap tiap course tetap ada di `courses/<nama>/roadmap.md` masing-masing dan di git history file ini.
 
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: **Selesai (2026-08-16)** — 8/8 module + Enterprise Project (Capstone) tuntas, skor 90/100. Artifact final: `portofolio/mastering-claude-playbook.md`. Track paralel/praktis, dimulai 2026-08-06.
-* **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1 selesai 2026-08-17, lanjut Module 2 Lesson 2.1) — di-approve 2026-08-07.
+* **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1 selesai 2026-08-17, Lesson 2.1 selesai skor 92/100, lanjut Lesson 2.2) — di-approve 2026-08-07.
 
 # Course Disetujui — Siap Dimulai (belum ada lesson dimulai)
 
@@ -276,6 +276,6 @@ Atas permintaan course baru "Sexual Self-Control 0-expert" (pornografi, masturba
 **Update 2026-08-07 (hemat token):** hanya 2 course aktif sekarang — lihat "Course Aktif" di atas.
 
 1. **Mastering Claude** (`courses/mastering-claude`) — **Selesai 2026-08-16** (8/8 module + Enterprise Project). Slot "course aktif" ke-2 kosong — resume course paused atau course baru kapan saja diminta.
-2. **Character Development** (`courses/character-development`) — Module 1 selesai (skor 88/100), lanjutkan Module 2, Lesson 2.1.
+2. **Character Development** (`courses/character-development`) — Module 1 selesai (skor 88/100), Lesson 2.1 selesai (skor 92/100), lanjutkan Module 2, Lesson 2.2.
 
 Semua prioritas lain (Backend Fundamentals, ML/LLM/Agents, Kubernetes, System Design, Scrum Master, Engineering Culture, Freelance Readiness, dll.) dipause bersama course-nya masing-masing di atas — resume kapan saja atas permintaan user, urutan lama tetap tercatat di git history file ini.
