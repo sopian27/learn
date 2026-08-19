@@ -66,14 +66,14 @@ Description: Semangat yang meledak lalu padam bukan etos kerja — modul ini mem
 
 Lessons:
 
-* [ ] 3.1 Grit (Angela Duckworth) — passion + perseverance, kenapa konsistensi jangka panjang mengalahkan intensitas jangka pendek
+* [x] 3.1 Grit (Angela Duckworth) — passion + perseverance, kenapa konsistensi jangka panjang mengalahkan intensitas jangka pendek
 * [ ] 3.2 Merancang sistem disiplin realistis — habit stacking dan identity-based habits, bukan mengandalkan motivasi/semangat harian
 * [ ] 3.3 Kenapa grind culture dan burnout merusak kerja keras jangka panjang — recovery sebagai bagian sistem, bukan tanda lemah
 * [ ] 3.4 Menjaga semangat tanpa jadi ketergantungan mood — sumber motivasi intrinsik vs ekstrinsik dan cara merawat keduanya
 
 Mini Project: Rancang sistem disiplin untuk satu area kerja keras nyata, jalankan 1 minggu penuh, catat log harian termasuk hari-hari yang gagal/bolong dan kenapa.
 
-Status: Not started
+Status: In Progress — Lesson 3.1 selesai (2026-08-19), skor 90/100 setelah 1x revisi. Log: `playground/character-development/3.1.md`.
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 33%
 
 Current Module: Module 3 — Etos Kerja & Disiplin yang Berkelanjutan
 
-Current Lesson: Belum dimulai — Module 2 tuntas penuh (2026-08-18)
+Current Lesson: Module 3, Lesson 3.1 selesai (2026-08-19), skor 90/100 setelah 1x revisi
 
-Next Lesson: Module 3, Lesson 3.1 — Grit (Angela Duckworth)
+Next Lesson: Module 3, Lesson 3.2 — Merancang sistem disiplin realistis (habit stacking & identity-based habits)
