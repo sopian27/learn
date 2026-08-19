@@ -42,6 +42,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: **Selesai (2026-08-16)** — 8/8 module + Enterprise Project (Capstone) tuntas, skor 90/100. Artifact final: `portofolio/mastering-claude-playbook.md`. Track paralel/praktis, dimulai 2026-08-06.
 * **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1, Lesson 1.1) — di-approve 2026-08-07.
+* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Status: In Progress (Module 1, Lesson 1.1 — Generics mendalam) — **resume 2026-08-19 atas permintaan eksplisit user**, override kebijakan cap 2-course-aktif 2026-08-07 (slot Mastering Claude sudah selesai jadi user memilih isi dengan course ini alih-alih menganggap kosong). Materi + task Lesson 1.1 sudah digenerate ke vault Obsidian (`Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`), menunggu jawaban user.
 
 # Course Disetujui — Siap Dimulai (belum ada lesson dimulai)
 
@@ -61,7 +62,6 @@ Rasional lengkap tiap course (kalibrasi, sumber riset, pemisahan dari course lai
 
 *Dipause 2026-08-07 untuk hemat token (semua "In Progress" sebelumnya, resume kapan saja atas permintaan user):*
 
-* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Module 1, Lesson 1.1 — fondasi #1 Master Goal "World-Class Backend Developer".
 * **Machine Learning & AI Fundamentals** — `courses/ml-fundamentals/roadmap.md` — Module 1 — jalur "full path" ml-fundamentals → llm → agents.
 * **CI/CD Mastery — dari Permukaan ke Expert** — `courses/ci-cd/roadmap.md` — Module 1, Lesson 1.1 — tool utama GitLab CI.
 * **Personal Finance — dari 0 sampai Punya Rencana Keuangan Lengkap** — `courses/personal-finance/roadmap.md` — Domain: personal-finance — Module 1, Lesson 1.1 — pilot domain non-SWE pertama untuk arsitektur universal AI-LOS.

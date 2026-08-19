@@ -32,6 +32,18 @@ Course Completion: 0/6 module (0%)
 | ------ | ------ | ---- | -------- |
 | 1.1 Peta tiga kondisi — kesombongan vs kerendahan hati sehat vs self-deprecation toxic | In Progress | - | - |
 
+### 3. Backend Engineering Fundamentals Rebuild — `courses/backend-fundamentals/roadmap.md`
+
+Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
+
+Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
+Current Lesson: 1.1 Generics mendalam: bounded type, wildcard, type erasure
+Course Completion: 0/15 module (0%)
+
+| Lesson | Status | Task |
+| ------ | ------ | ---- |
+| 1.1 Generics mendalam: bounded type, wildcard, type erasure | Materi + task tergenerate ke vault (2026-08-19), menunggu jawaban user | Belum dikerjakan |
+
 ---
 
 # Projects
@@ -72,6 +84,7 @@ Revision Needed: -
 * 2026-08-07: Course aktif dipersempit jadi 2 (mastering-claude, character-development) atas permintaan user untuk hemat pemakaian token — semua course lain (termasuk yang sebelumnya "In Progress" seperti backend-fundamentals, ml-fundamentals, ci-cd, personal-finance, dst.) dipause, bukan dihentikan. Resume kapan saja diminta user.
 * Mastering Claude: track paralel/praktis (bukan jalur utama), dimulai 2026-08-06 dari kebutuhan langsung user.
 * Character Development: domain pack, di-approve & dimulai 2026-08-07. Applied Practice-nya butuh jurnal reflektif jujur + feedback nyata dari orang lain — pace mengikuti ritme praktik nyata, bukan dikebut.
+* 2026-08-19: Backend Engineering Fundamentals Rebuild di-resume atas permintaan eksplisit user, mengisi slot ke-3 (Mastering Claude sudah selesai 2026-08-16, jadi ini bukan pelanggaran cap 2-course-aktif — pilihan sadar mengisi slot kosong, bukan menambah beban paralel baru). Lesson 1.1 (Generics mendalam) materi + task langsung ditulis ke vault Obsidian sesuai `ai-los/OBSIDIAN_SYNC.md`, tidak ditampilkan di chat.
 
 ---
 
@@ -85,7 +98,6 @@ Revision Needed: -
 
 *Dipause 2026-08-07 untuk hemat token (semua "In Progress" sebelumnya, resume kapan saja atas permintaan user — detail rasional lengkap ada di `courses/<nama>/roadmap.md` masing-masing dan git history file ini):*
 
-* Backend Engineering Fundamentals Rebuild — `courses/backend-fundamentals/roadmap.md` — Module 1, Lesson 1.1
 * Machine Learning & AI Fundamentals — `courses/ml-fundamentals/roadmap.md` — Module 1, Lesson 1.1 (AI vs ML vs DL vs LLM)
 * CI/CD Mastery — `courses/ci-cd/roadmap.md` — Module 1, Lesson 1.1
 * Personal Finance — `courses/personal-finance/roadmap.md` — Module 1, Lesson 1.1
