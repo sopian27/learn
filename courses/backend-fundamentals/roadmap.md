@@ -54,7 +54,7 @@ Status: In Progress
 
 Lessons:
 
-* [ ] 1.1 Generics mendalam: bounded type, wildcard (`? extends`/`? super`), type erasure — dan bug yang muncul kalau salah paham erasure (materi + task tergenerate 2026-08-19, lihat vault `Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`)
+* [x] 1.1 Generics mendalam: bounded type, wildcard (`? extends`/`? super`), type erasure — dan bug yang muncul kalau salah paham erasure — Selesai (2026-08-19), skor 95/100. Materi + jawaban di vault `Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`
 * [ ] 1.2 Collections internals: kompleksitas `ArrayList` vs `LinkedList` vs `HashMap` vs `TreeMap`, kapan `HashMap` jadi sumber bug (mutable key, hashCode/equals contract)
 * [ ] 1.3 Exception handling idiomatis: checked vs unchecked, kapan bikin custom exception, anti-pattern `catch (Exception e) {}` (`standards/ERROR_HANDLING_STANDARDS.md`)
 * [ ] 1.4 Idiom *Effective Java* yang paling sering dilanggar: immutability by default, `equals`/`hashCode`/`toString` yang benar, static factory method vs constructor
@@ -346,6 +346,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
 
-Current Lesson: Lesson 1.1 — Generics mendalam: bounded type, wildcard, dan type erasure (materi + task tergenerate di vault, tunggu jawaban user)
+Current Lesson: Lesson 1.1 selesai (skor 95/100) — lanjut Lesson 1.2
 
-Next Lesson: Module 1, Lesson 2 — Collections internals
+Next Lesson: Module 1, Lesson 2 — Collections internals: kompleksitas `ArrayList` vs `LinkedList` vs `HashMap` vs `TreeMap`, kapan `HashMap` jadi sumber bug

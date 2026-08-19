@@ -37,12 +37,12 @@ Course Completion: 0/6 module (0%)
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
-Current Lesson: 1.1 Generics mendalam: bounded type, wildcard, type erasure
+Current Lesson: 1.2 Collections internals (belum dimulai)
 Course Completion: 0/15 module (0%)
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
-| 1.1 Generics mendalam: bounded type, wildcard, type erasure | Materi + task tergenerate ke vault (2026-08-19), menunggu jawaban user | Belum dikerjakan |
+| 1.1 Generics mendalam: bounded type, wildcard, type erasure | Selesai (2026-08-19), skor 95/100 | Dikerjakan, direview |
 
 ---
 
