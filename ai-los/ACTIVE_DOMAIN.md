@@ -95,6 +95,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 ## Paused (2026-08-19, permintaan langsung user, dibuat saat Course Aktif "Character Development" di bawah 50% Module 2/6 — user eksplisit konfirmasi override guard `ai-los/CLAUDE.md` lewat AskUserQuestion)
 
 - `courage-to-try` — domains/courage-to-try/DOMAIN.md — Status: Paused — Course: courses/courage-to-try/roadmap.md
+- `etiquette-essentials` — domains/etiquette-essentials/DOMAIN.md — Status: Paused — Course: courses/etiquette-essentials/roadmap.md
 
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
