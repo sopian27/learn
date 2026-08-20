@@ -23,6 +23,8 @@ Berdasarkan jawaban kalibrasi Anda:
 
 Referensi riset yang dipakai menyusun roadmap ini: definisi & 4 elemen computational thinking mengikuti Jeannette Wing, ["Computational Thinking"](https://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational_Thinking.pdf) (CMU, 2006) dan ["Computational Thinking: What and Why?"](https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf) (2010); struktur modul algoritma & struktur data mengikuti urutan kanonik *Introduction to Algorithms* (CLRS) dan *Algorithms* (Sedgewick & Wayne); status volume *The Art of Computer Programming* per riset terbaru — [Volume 4B terbit akhir 2022](https://www-cs-faculty.stanford.edu/~knuth/taocp.html), Volume 4C baru terbit sebagian (~275 halaman pertama), Volume 5 belum terbit — dipakai untuk memastikan pointer "TAOCP Deep Reference" di tiap modul merujuk ke volume yang benar-benar sudah ada.
 
+**2026-08-20 — Perluasan atas permintaan "Algorithmic Strategies 0-expert":** User minta course baru mencakup brute force, greedy, D&C, DP, backtracking, rekursi, graph, BFS/DFS, shortest path, MST, sliding window, two pointers, advanced problem solving. Dicek dulu terhadap course ini (0/14, belum dimulai) — hampir seluruh topik SUDAH tercakup: rekursi & D&C (Modul 4), graph/BFS-DFS/shortest path/MST (Modul 9), greedy/DP/backtracking (Modul 10), sliding window/two pointers (Modul 13). Hanya 2 gap nyata: **brute force** belum disebut eksplisit sebagai paradigma sendiri, dan **advanced problem solving** (kombinasi multi-paradigma) belum ada. Keputusan (dikonfirmasi user via AskUserQuestion): **diperluas, bukan course baru** — brute force ditambahkan sebagai lesson pembuka di Modul 10 (baseline sebelum greedy/DP/backtracking), advanced problem solving ditambahkan sebagai lesson baru di Modul 13 (kombinasi paradigma: bitmask DP, meet-in-the-middle, graph+DP). Tidak ada module baru, tidak ada renumbering. Dikerjakan sambil Course Aktif "Character Development" masih di bawah 50% (2/6 module, ~33%) — user eksplisit override guard `ai-los/COURSE_CREATION.md`/CLAUDE.md "Course Creation Discipline" saat dikonfirmasi via AskUserQuestion.
+
 ---
 
 # Learning Objectives
@@ -31,7 +33,8 @@ Referensi riset yang dipakai menyusun roadmap ini: definisi & 4 elemen computati
 * [ ] Paham notasi asymptotic (Big-O/Ω/Θ) bukan sebagai hafalan, tapi sebagai alat untuk menghitung kompleksitas kode sendiri
 * [ ] Bisa mengimplementasikan dari nol (bukan cuma memakai): linked list, stack, queue, hash table, binary search tree, heap, graph
 * [ ] Menguasai algoritma sorting & searching utama (merge sort, quicksort, heapsort, binary search, hashing) beserta trade-off dan kompleksitasnya
-* [ ] Paham algorithmic paradigms: divide and conquer, greedy, dynamic programming, backtracking — dan tahu kapan tiap paradigma tepat/tidak tepat dipakai
+* [ ] Paham algorithmic paradigms: brute force, divide and conquer, greedy, dynamic programming, backtracking — dan tahu kapan tiap paradigma tepat/tidak tepat dipakai
+* [ ] Bisa menggabungkan lebih dari satu paradigma untuk soal advanced (bitmask DP, meet-in-the-middle, graph + DP dengan constraint)
 * [ ] Paham dasar graph algorithms (BFS/DFS, Dijkstra, MST) dan kaitannya dengan masalah nyata (routing, dependency resolution, scheduling)
 * [ ] Punya intuisi praktis soal P vs NP dan kenapa sebagian masalah backend didekati dengan heuristik, bukan solusi optimal
 * [ ] Mengenali pattern soal interview umum (two pointers, sliding window, fast & slow pointers) dan bisa memetakannya ke struktur data/algoritma yang tepat
@@ -207,12 +210,13 @@ Status: Not Started
 
 ---
 
-## Module 10 — Algorithmic Paradigms: Greedy, Dynamic Programming, Backtracking
+## Module 10 — Algorithmic Paradigms: Brute Force, Greedy, Dynamic Programming, Backtracking
 
-Description: Tiga cara berpikir untuk membangun algoritma dari nol ketika tidak ada algoritma standar yang langsung cocok — paradigma paling sering muncul di interview level Senior.
+Description: Empat cara berpikir untuk membangun algoritma dari nol ketika tidak ada algoritma standar yang langsung cocok — paradigma paling sering muncul di interview level Senior.
 
 Lessons:
 
+* [ ] Brute force sebagai baseline: enumerasi seluruh solution space, kenapa selalu jadi titik mulai sebelum optimasi, kapan brute force sebenarnya cukup (input kecil, correctness check untuk membandingkan solusi yang dioptimasi)
 * [ ] Greedy algorithm: kapan pilihan lokal optimal menghasilkan solusi global optimal (dan kapan tidak — contoh kasus greedy gagal)
 * [ ] Dynamic Programming dari nol: memoization (top-down) vs tabulation (bottom-up), identifikasi overlapping subproblems & optimal substructure
 * [ ] DP klasik: knapsack problem, Longest Common Subsequence (LCS)
@@ -258,15 +262,16 @@ Status: Not Started
 
 ---
 
-## Module 13 — Interview Readiness: Pattern-Based Problem Solving
+## Module 13 — Interview Readiness: Pattern-Based & Advanced Problem Solving
 
-Description: Menghubungkan semua struktur data & algoritma yang sudah dipelajari ke pattern soal interview yang berulang — supaya soal baru terasa seperti variasi pattern yang sudah dikenal, bukan tantangan asing.
+Description: Menghubungkan semua struktur data & algoritma yang sudah dipelajari ke pattern soal interview yang berulang, lalu naik ke teknik advanced problem solving untuk soal yang tidak selesai dengan satu pattern tunggal — supaya soal baru terasa seperti variasi/kombinasi yang sudah dikenal, bukan tantangan asing.
 
 Lessons:
 
 * [ ] Two pointers pattern & sliding window pattern
 * [ ] Fast & slow pointers (cycle detection)
 * [ ] Top-K / heap pattern, merge intervals pattern
+* [ ] Advanced problem solving: menggabungkan lebih dari satu paradigma dalam satu soal (contoh: DP + bitmask untuk state kompresi, meet-in-the-middle untuk memecah brute force jadi dua ruang lebih kecil, graph + DP untuk shortest path dengan constraint tambahan)
 * [ ] Strategi menghadapi soal baru: memetakan soal ke pattern + paradigma yang sudah dikuasai (Modul 1 computational thinking dipakai kembali di sini)
 * [ ] Mock interview session: 2-3 soal live, dinilai dari proses berpikir bukan cuma solusi akhir
 
