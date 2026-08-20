@@ -346,6 +346,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
 
-Current Lesson: Lesson 1.1 selesai (skor 95/100) — lanjut Lesson 1.2
+Current Lesson: Lesson 1.2 — materi diberikan (2026-08-20), menunggu jawaban. Materi di vault `Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`
 
-Next Lesson: Module 1, Lesson 2 — Collections internals: kompleksitas `ArrayList` vs `LinkedList` vs `HashMap` vs `TreeMap`, kapan `HashMap` jadi sumber bug
+Next Lesson: Module 1, Lesson 3 — Exception handling idiomatis: checked vs unchecked, kapan bikin custom exception, anti-pattern `catch (Exception e) {}`

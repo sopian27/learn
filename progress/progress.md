@@ -37,12 +37,13 @@ Course Completion: 0/6 module (0%)
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
-Current Lesson: 1.2 Collections internals (belum dimulai)
+Current Lesson: 1.2 Collections internals — materi diberikan (2026-08-20), menunggu jawaban
 Course Completion: 0/15 module (0%)
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
 | 1.1 Generics mendalam: bounded type, wildcard, type erasure | Selesai (2026-08-19), skor 95/100 | Dikerjakan, direview |
+| 1.2 Collections internals: `ArrayList`/`LinkedList`/`HashMap`/`TreeMap`, mutable key & hashCode/equals contract | Materi diberikan (2026-08-20) | Menunggu jawaban |
 
 ---
 
@@ -85,6 +86,7 @@ Revision Needed: -
 * Mastering Claude: track paralel/praktis (bukan jalur utama), dimulai 2026-08-06 dari kebutuhan langsung user.
 * Character Development: domain pack, di-approve & dimulai 2026-08-07. Applied Practice-nya butuh jurnal reflektif jujur + feedback nyata dari orang lain — pace mengikuti ritme praktik nyata, bukan dikebut.
 * 2026-08-19: Backend Engineering Fundamentals Rebuild di-resume atas permintaan eksplisit user, mengisi slot ke-3 (Mastering Claude sudah selesai 2026-08-16, jadi ini bukan pelanggaran cap 2-course-aktif — pilihan sadar mengisi slot kosong, bukan menambah beban paralel baru). Lesson 1.1 (Generics mendalam) materi + task langsung ditulis ke vault Obsidian sesuai `ai-los/OBSIDIAN_SYNC.md`, tidak ditampilkan di chat.
+* 2026-08-20: Lesson 1.2 (Collections internals) materi + task ditulis ke vault, append ke file module 1 yang sama. Menunggu jawaban user.
 
 ---
 
