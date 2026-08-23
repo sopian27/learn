@@ -69,7 +69,7 @@ Lessons:
 * [x] 3.1 Grit (Angela Duckworth) — passion + perseverance, kenapa konsistensi jangka panjang mengalahkan intensitas jangka pendek
 * [x] 3.2 Merancang sistem disiplin realistis — habit stacking dan identity-based habits, bukan mengandalkan motivasi/semangat harian
 * [x] 3.3 Kenapa grind culture dan burnout merusak kerja keras jangka panjang — recovery sebagai bagian sistem, bukan tanda lemah
-* [ ] 3.4 Menjaga semangat tanpa jadi ketergantungan mood — sumber motivasi intrinsik vs ekstrinsik dan cara merawat keduanya
+* [x] 3.4 Menjaga semangat tanpa jadi ketergantungan mood — sumber motivasi intrinsik vs ekstrinsik dan cara merawat keduanya
 
 Mini Project: Rancang sistem disiplin untuk satu area kerja keras nyata, jalankan 1 minggu penuh, catat log harian termasuk hari-hari yang gagal/bolong dan kenapa.
 
@@ -83,14 +83,14 @@ Description: Karakter tidak lengkap tanpa bagaimana orang lain diperlakukan — 
 
 Lessons:
 
-* [ ] 4.1 Riset contempt (Gottman, cross-ref `domains/relationships/DOMAIN.md`) — kenapa meremehkan orang lain adalah racun nomor satu dalam hubungan apa pun, walau "cuma bercanda"
-* [ ] 4.2 Give and Take (Adam Grant) — givers vs takers vs matchers, kenapa memperlakukan orang lain baik adalah strategi jangka panjang yang unggul, bukan naif
-* [ ] 4.3 Mengenali blind spot diri sendiri — sarkasme menyasar orang, gosip merendahkan, perbandingan sosial merendahkan yang sering tidak disadari sebagai "meremehkan"
-* [ ] 4.4 Servant leadership (Robert Greenleaf) — berkontribusi/memimpin lewat melayani, bukan lewat status atau ingin terlihat lebih tinggi
+* [x] 4.1 Riset contempt (Gottman, cross-ref `domains/relationships/DOMAIN.md`) — kenapa meremehkan orang lain adalah racun nomor satu dalam hubungan apa pun, walau "cuma bercanda"
+* [x] 4.2 Give and Take (Adam Grant) — givers vs takers vs matchers, kenapa memperlakukan orang lain baik adalah strategi jangka panjang yang unggul, bukan naif
+* [x] 4.3 Mengenali blind spot diri sendiri — sarkasme menyasar orang, gosip merendahkan, perbandingan sosial merendahkan yang sering tidak disadari sebagai "meremehkan"
+* [x] 4.4 Servant leadership (Robert Greenleaf) — berkontribusi/memimpin lewat melayani, bukan lewat status atau ingin terlihat lebih tinggi
 
 Mini Project: Audit interaksi 1 minggu terakhir (kerja/personal), temukan momen (jika ada, sekecil apa pun) merendahkan orang lain secara sadar/tidak sadar, tuliskan rencana perbaikan konkret.
 
-Status: Not started
+Status: Completed — Lesson 4.1 selesai (2026-08-22), skor 93/100. Lesson 4.2 selesai (2026-08-22), skor 93/100. Lesson 4.3 selesai (2026-08-23), skor 94/100. Lesson 4.4 selesai (2026-08-23), skor 95/100, tanpa revisi. Mini Project selesai (2026-08-23), skor 96/100 — integrasi kuat (contoh sindiran ke teman dipakai konsisten lintas 4.1+4.3+rencana perbaikan, contoh adik dipakai konsisten lintas 4.2+4.4), rencana perbaikan ada mekanisme cek ulang konkret (bukan cuma niat). Gap kecil: temuan best test servant leadership (poin 4) nggak dapet rencana perbaikan sendiri, cuma temuan pola sindiran yang ditindaklanjuti. Log: `playground/character-development/4.1.md`, `4.2.md`, `4.3.md`, `4.4.md`, `mini-project-4.md`.
 
 ---
 
@@ -204,12 +204,12 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 2/6
+Module Completion: 3/6
 
-Overall Completion: 33%
+Overall Completion: 50%
 
-Current Module: Module 3 — Etos Kerja & Disiplin yang Berkelanjutan
+Current Module: Module 5 — Filosofi Ego: Kerangka Stoic untuk Manajemen Diri Sehari-hari (Module 3 Mini Project masih berjalan paralel, log harian 7 hari, lihat status Module 3 di atas)
 
-Current Lesson: Module 3, Lesson 3.3 selesai (2026-08-20), skor 94/100 setelah 1x revisi
+Current Lesson: Module 4 selesai total — semua lesson + Mini Project (2026-08-23), skor 96/100.
 
-Next Lesson: Module 3, Lesson 3.4 — Menjaga semangat tanpa jadi ketergantungan mood (sumber motivasi intrinsik vs ekstrinsik)
+Next Lesson: Module 5, Lesson 5.1 Dikotomi kendali (Epictetus).

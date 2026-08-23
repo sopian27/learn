@@ -1,0 +1,23 @@
+1. **Scan contempt (4.1)** — dari interaksi minggu ini, ada nggak momen yang lolos tes "lucu buat siapa" (Bagian 4) — bercandaan/sarkasme yang sebenernya cuma enak buat kamu, bukan buat kedua pihak? Sebutkan konkret, walau kecil.
+    Ada satu momen ketika saya menyindir teman yang sering bermain judi slot. Saya mengatakan bahwa uangnya habis gara-gara slot. Saat itu saya menganggapnya sebagai candaan atau bentuk keprihatinan, tetapi kalau memakai tes “lucu buat siapa?”, kemungkinan candaan itu lebih menyenangkan bagi saya atau orang yang mendengar daripada bagi teman saya yang menjadi objeknya. Apalagi ini terjadi kepada orang yang sama lebih dari sekali. Jadi meskipun target saya adalah perilakunya, saya perlu mengakui bahwa ada unsur contempt/sindiran yang tidak sepenuhnya menyenangkan bagi kedua pihak.
+
+2. **Cek pola giving (4.2)** — di minggu yang sama, kamu lebih sering condong ke otherish giver, selfless giver, matcher, atau malah taker di interaksi-interaksi itu? Kasih satu bukti konkret.
+    Saya lebih sering condong ke otherish giver. Contohnya ketika mengarahkan adik saya, saya memberikan nasihat dan contoh karena ingin dia berkembang, tetapi saya tidak terus-menerus memaksakan keputusan saya. Saya juga menyadari bahwa saya perlu tetap menjaga batas agar membantu tidak berubah menjadi mengontrol. Jadi saya berusaha memberikan sesuatu yang bermanfaat bagi orang lain tanpa mengorbankan diri sendiri atau membuat mereka bergantung kepada saya.
+
+3. **Tiga tes self-check blind spot (4.3)** — jalankan tes kehadiran, tes pola berulang, dan tes fungsi ke minimal satu momen sarkasme/gosip/perbandingan sosial yang kamu lakuin minggu ini (bukan yang kamu terima). Jujur walau hasilnya nggak enak.
+    Saya menggunakan contoh ketika menyindir teman yang bermain slot.
+
+    Tes kehadiran: Kalau teman saya ada di depan saya, kemungkinan saya tidak akan mengatakan kalimat tersebut dengan cara yang sama karena saya tahu kalimat itu bisa membuatnya malu. Ini menunjukkan ada unsur yang sebenarnya tidak nyaman jika diucapkan langsung.
+
+    Tes pola berulang: Saya menyampaikan sindiran tersebut kepada orang yang sama beberapa kali. Berarti ini bukan kejadian yang sepenuhnya random, tetapi sudah mulai menjadi pola ketika saya melihat kebiasaannya bermain slot.
+
+    Tes fungsi: Informasi yang ingin saya sampaikan sebenarnya hanya bahwa dia sedang mengalami masalah keuangan akibat kebiasaannya. Frasa “gara-gara slot” tidak diperlukan untuk menyampaikan kepedulian tersebut. Jadi setelah diuji, ada bagian sindiran yang sebenarnya bisa dihilangkan.
+
+    Dari tiga tes tersebut, saya menyadari bahwa niat saya yang merasa prihatin tidak cukup untuk membuktikan bahwa cara saya sudah tepat. Dampaknya tetap perlu saya evaluasi.
+
+4. **Best test servant leadership (4.4)** — kalau ada situasi kamu "mimpin"/ngarahin sesuatu minggu ini (formal/informal), jalankan best test Greenleaf: orang yang kamu arahkan makin tumbuh/mandiri, atau makin bergantung ke kamu?
+    Dalam situasi saya mengarahkan adik, saya belum bisa mengatakan dengan pasti bahwa saya sudah memenuhi best test Greenleaf hanya karena dia memiliki banyak prestasi. Prestasi tersebut terutama merupakan hasil usaha dan kemampuannya sendiri. Ukuran yang lebih tepat adalah apakah dia semakin mampu mengambil keputusan sendiri dan berkembang tanpa harus selalu bergantung kepada saya. Karena saya hanya memberikan nasihat sekali dan memberikan contoh melalui perilaku saya sendiri, saya melihat ada usaha untuk membantu tanpa membuatnya bergantung. Tetapi saya tetap perlu mengecek apakah saya benar-benar memberi ruang kepadanya untuk menentukan pilihannya sendiri.
+
+### Rencana perbaikan konkret
+
+    Momen yang paling signifikan adalah pola menyindir teman yang bermain slot karena terjadi berulang kali. Mulai minggu ini, saya akan berhenti menggunakan candaan yang menyerang kebiasaan tersebut, terutama di depan orang lain. Kalau saya memang khawatir dengan kondisinya, saya akan menyampaikan kekhawatiran secara langsung dan privat tanpa menjadikannya bahan bercanda. Minggu depan saya akan melakukan audit ulang dengan tiga pertanyaan: (1) apakah saya kembali menyindir orang yang sama, (2) apakah saya berani mengatakan kalimat tersebut kalau dia ada di depan saya, dan (3) apakah informasi yang ingin saya sampaikan tetap bisa tersampaikan tanpa unsur sindiran? Kalau saya gagal di salah satu tes tersebut, saya akan mencatat situasinya dan memperbaiki cara saya menyampaikannya.
