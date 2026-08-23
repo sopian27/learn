@@ -101,6 +101,16 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `quiet-growth` — domains/quiet-growth/DOMAIN.md — Status: Paused — Course: courses/quiet-growth/roadmap.md
 
+## Paused (2026-08-23, permintaan langsung user, dibuat saat Course Aktif "Character Development" di bawah 50% Module 2/6 — user eksplisit konfirmasi override guard `ai-los/CLAUDE.md` lewat AskUserQuestion)
+
+- `pirate-history` — domains/pirate-history/DOMAIN.md — Status: Paused — Course: courses/pirate-history/roadmap.md
+
+## Paused (2026-08-23, permintaan langsung user, dibuat saat Course Aktif "Character Development" di bawah 50% Module 2/6 — user eksplisit konfirmasi override guard `ai-los/CLAUDE.md` lewat AskUserQuestion)
+
+- `vatican-history` — domains/vatican-history/DOMAIN.md — Status: Paused — Course: courses/vatican-history/roadmap.md
+- `crusades-history` — domains/crusades-history/DOMAIN.md — Status: Paused — Course: courses/crusades-history/roadmap.md
+- `world-wonders` — domains/world-wonders/DOMAIN.md — Status: Paused — Course: courses/world-wonders/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---

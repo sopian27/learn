@@ -15,6 +15,7 @@ Individual/household money management: budgeting, saving, debt, insurance, inves
 3. Official government/regulatory sources for the learner's jurisdiction (e.g. for Indonesia: OJK for financial-product regulation, DJP for tax basics) — used for any lesson touching tax, retirement accounts, or regulated products
 4. Investopedia — useful for definitions and breadth, but ad-supported; always cross-check against source 1–3 before treating as authoritative, per `standards/UNIVERSAL_STANDARDS.md`'s Vetting a Source bar
 5. Books with a durable, non-trend-chasing track record (e.g. "The Bogleheads' Guide to Investing", "A Random Walk Down Wall Street") for deeper conceptual grounding
+6. For safe-withdrawal-rate / FIRE claims specifically (added 2026-08-23 with the Income Growth/Passive Income/FI extension, Module 13-15): Bengen (1994) "Determining Withdrawal Rates Using Historical Data" and the Trinity Study (Cooley, Hubbard, Walz, 1998) as the primary academic sources; Bogleheads Wiki's FIRE/SWR page and the FIRE community (Mr. Money Mustache, ChooseFI) as community-vetted secondary/practitioner sources — never build an SWR claim from the community sources alone, always trace back to source 6's academic pair.
 
 Never build a lesson from Investopedia alone — always triangulate with at least one of sources 1–3.
 

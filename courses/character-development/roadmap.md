@@ -100,14 +100,14 @@ Description: Riset modern menjelaskan APA yang bekerja; filosofi Stoic memberi k
 
 Lessons:
 
-* [ ] 5.1 Dikotomi kendali (Epictetus) — fokus penuh pada yang bisa dikendalikan (usaha, sikap), lepaskan yang tidak (penilaian orang lain, hasil akhir)
+* [x] 5.1 Dikotomi kendali (Epictetus) — fokus penuh pada yang bisa dikendalikan (usaha, sikap), lepaskan yang tidak (penilaian orang lain, hasil akhir)
 * [ ] 5.2 Marcus Aurelius, *Meditations* — praktik refleksi harian seorang kaisar yang sengaja melatih kerendahan hati justru di puncak kekuasaan
 * [ ] 5.3 Ketidaktergantungan pada validasi eksternal — kenapa mengejar pengakuan orang lain justru melemahkan karakter dan kestabilan emosi
 * [ ] 5.4 Menyilangkan kerangka Stoic ke riset modern (Module 1-4) — bagian mana yang didukung psikologi kontemporer, bagian mana yang sekadar preferensi filosofis pribadi
 
 Mini Project: Praktik jurnal Stoic 1 minggu (refleksi pagi: apa yang akan dihadapi hari ini di luar kendali; refleksi malam: evaluasi diri ala Marcus Aurelius), diterapkan ke situasi nyata yang benar-benar dialami.
 
-Status: Not started
+Status: In Progress — Lesson 5.1 selesai (2026-08-23), skor 95/100 tanpa revisi. Log: `playground/character-development/5.1.md`.
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 50%
 
 Current Module: Module 5 — Filosofi Ego: Kerangka Stoic untuk Manajemen Diri Sehari-hari (Module 3 Mini Project masih berjalan paralel, log harian 7 hari, lihat status Module 3 di atas)
 
-Current Lesson: Module 4 selesai total — semua lesson + Mini Project (2026-08-23), skor 96/100.
+Current Lesson: Module 5, Lesson 5.1 selesai (2026-08-23), skor 95/100 tanpa revisi.
 
-Next Lesson: Module 5, Lesson 5.1 Dikotomi kendali (Epictetus).
+Next Lesson: Module 5, Lesson 5.2 Marcus Aurelius, *Meditations*.

@@ -249,6 +249,69 @@ Status: Draft — menunggu approval, belum dimulai
 
 ---
 
+## Module 13 — Income Growth & Earning Power (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-23 atas permintaan course "Financial Freedom — dari 0 sampai Expert" (mindset, budgeting, emergency fund, debt, saving, investing, compound interest, income growth, assets, risk management, taxes, passive income, financial independence) — dicek dulu penuh terhadap course `personal-finance` existing (12 modul + Module 1.5 draft) sebelum riset baru, mengikuti pola perluasan yang sama seperti Module 1.5 (Psychology of Money) dan Module 8 (Leverage). Sebagian besar topik yang diminta SUDAH tercakup penuh: mindset (1.3, 1.5), budgeting (2), emergency fund (3), debt (4, 8), saving (2, 3), investing (6, 7), compound interest (6.4), risk management (5, 8.5), taxes (10). Tiga topik nyata belum tercakup: **income growth**, **passive income sebagai kategori aset tersendiri**, dan **financial independence (FIRE) sebagai mekanika hitung dedicated** — sebelumnya FIRE cuma disebut sebagai "practitioner reference frame" pembanding di `domains/personal-finance/DOMAIN.md`, bukan modul yang diajarkan. Module 13-15 ini menutup gap tersebut, bukan course baru terpisah. Rasional inti: financial freedom = f(savings rate) = f(income - expense); Module 1-12 existing hampir seluruhnya membahas sisi expense/alokasi, modul ini melengkapi sisi income yang belum disentuh.
+
+Description: Sisi income dari persamaan financial freedom yang belum disentuh Module 1-12 — course lama mengasumsikan income sebagai given dan fokus di alokasi/pengeluaran; modul ini mengajarkan income sebagai variabel yang bisa sengaja ditingkatkan, dengan kerangka yang tidak mengorbankan disiplin savings rate yang sudah dibangun di Module 2.
+
+Lessons:
+
+* [ ] 13.1 Career capital & skill stacking — kenapa meningkatkan kemampuan diri adalah investasi return tertinggi di awal karier, dan bagaimana kombinasi skill langka (bukan satu skill terbaik) menciptakan leverage karier
+* [ ] 13.2 Salary negotiation dasar — riset market rate sebelum negosiasi, framing counter-offer berbasis data, dan kenapa pindah kerja seringkali lebih efektif menaikkan income dibanding menunggu promosi internal
+* [ ] 13.3 Diversifikasi income — side income/freelance vs komitmen full-time, trade-off waktu vs uang, kerangka menilai kapan side income worth it dan kapan justru mengorbankan career capital utama
+* [ ] 13.4 Reinvesting income growth ke savings rate — kenapa lifestyle inflation (disinggung singkat di 1.3) adalah musuh utama income growth kalau kenaikan income tidak sengaja diarahkan sebagian ke savings rate, bukan seluruhnya ke pengeluaran
+
+Mini Project: Menulis rencana income growth 12 bulan pribadi (target skill/negosiasi/side income, pilih salah satu atau kombinasi) beserta proyeksi dampaknya terhadap savings rate dari Module 2.
+
+Referensi riset: CFP Board topic list (komponen income di Cash Flow Planning), *So Good They Can't Ignore You* — Cal Newport (2012) untuk kerangka career capital, disilangkan ke sumber domain ini (Bogleheads) sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" — buku adalah sumber sintesis, setiap klaim diperiksa tidak bertentangan dengan sumber 1-3 domain.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 14 — Membangun Aset & Passive Income (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Bagian dari perluasan 2026-08-23 yang sama dengan Module 13 — lihat catatan lengkap di Module 13. Module 6/7 existing sudah membahas investasi portofolio pasar publik (saham/obligasi/index fund), dan Module 8 sudah membahas leverage properti. Modul ini melengkapi, bukan mengulang: memperluas ke kategori aset penghasil income pasif di luar portofolio pasar publik (rental, royalti, bisnis semi-pasif), plus kerangka membedakan passive income asli dari mitos "uang datang tanpa kerja" yang sering dijual di media sosial.
+
+Description: Passive income sebagai kategori aset, bukan sekadar hasil sampingan investasi — spektrum pasif-aktif yang jujur, dan cara mengevaluasi effort-to-income ratio setiap jenis aset sebelum mengandalkannya sebagai jalan menuju financial freedom.
+
+Lessons:
+
+* [ ] 14.1 Definisi passive income yang jujur — spektrum pasif-aktif (dividen index fund = paling pasif, rental properti = butuh manajemen aktif, bisnis semi-pasif = butuh sistem sebelum jadi pasif), kenapa "passive income" murni tanpa kerja awal sama sekali jarang ada di dunia nyata
+* [ ] 14.2 Dividend income sebagai passive income — dividend yield vs total return, risiko chasing yield tinggi tanpa memeriksa payout ratio dan sustainability-nya
+* [ ] 14.3 Rental real estate dasar — cap rate dan cash-on-cash return, dihubungkan ke leverage properti Module 8.4, plus kewajiban manajemen (tenant, maintenance, vacancy) yang sering diremehkan di kalkulasi "passive"
+* [ ] 14.4 Bisnis/produk semi-pasif — royalti, digital product, kerangka menilai effort-to-income ratio secara realistis sebelum meninggalkan income aktif untuk mengejarnya
+
+Mini Project: Evaluasi satu sumber passive income realistis milik sendiri atau skenario berlabel jelas (dividen dari IPS Module 7, atau skenario rental/produk digital) — hitung actual return dan effort yang benar-benar dibutuhkan, bandingkan dengan ekspektasi "pasif" yang jujur dari Lesson 14.1.
+
+Referensi riset: Bogleheads Wiki (dividend investing, sustainability payout ratio), CFP Board topic list (komponen real estate & business ownership di Investment Planning), disilangkan ke sumber domain ini sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 15 — Financial Independence (FI) & FIRE Math (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Bagian dari perluasan 2026-08-23 yang sama dengan Module 13-14 — lihat catatan lengkap di Module 13. FIRE sebelumnya hanya disebut sebagai "practitioner reference frame" pembanding di `domains/personal-finance/DOMAIN.md` (savings-rate-driven approach), belum pernah jadi modul dedicated yang mengajarkan mekanika hitungnya. Modul ini adalah integrasi konseptual — menggabungkan savings rate (Module 2, 13), investing (Module 6, 7), dan withdrawal strategy (Module 9.4) menjadi satu angka yang bisa dihitung: FI number dan timeline mencapainya.
+
+Description: Mekanika hitung financial independence — FI number, safe withdrawal rate, dan kenapa savings rate (bukan return investasi) adalah variabel yang paling menentukan seberapa cepat mencapainya. Melengkapi Module 9 (Retirement Planning): Module 9 mengasumsikan pensiun di usia konvensional, modul ini melepas asumsi itu dan menghitung independence sebagai fungsi angka, bukan usia.
+
+Lessons:
+
+* [ ] 15.1 FI number & Safe Withdrawal Rate — asal-usul 4% rule (Bengen 1994, Trinity Study 1998), asumsi di baliknya (horizon 30 tahun, portofolio 50/50-75/25 saham/obligasi), dan kenapa ini titik awal bukan hukum mutlak — melengkapi 9.1 yang sudah menyinggung 4% rule secara singkat
+* [ ] 15.2 Savings rate sebagai variabel dominan menuju FI — kenapa savings rate secara matematis lebih menentukan waktu ke FI dibanding return investasi (semakin tinggi savings rate, semakin pendek jumlah "tahun kerja" yang dibutuhkan relatif terhadap "tahun pengeluaran" yang sudah tertutup)
+* [ ] 15.3 Varian FIRE — Lean FIRE, Fat FIRE, Coast FIRE, Barista FIRE — kerangka memilih varian sesuai risk tolerance dan lifestyle pribadi dari Module 6, bukan ikut tren media sosial
+* [ ] 15.4 Menyusun timeline personal menuju FI number — menggabungkan savings rate saat ini (Module 2), proyeksi income growth (Module 13), dan expected return terdiversifikasi (Module 6/7) jadi satu proyeksi tahun tercapainya FI
+
+Mini/Intermediate Project: Menghitung FI number pribadi dan savings-rate-driven timeline menuju angka itu, disandingkan dengan proyeksi pensiun konvensional dari Module 9 — highlight selisih waktu antara kedua pendekatan dan implikasinya terhadap keputusan Module 13/14.
+
+Referensi riset: Bengen, William P. (1994) "Determining Withdrawal Rates Using Historical Data"; Cooley, Hubbard, Walz (1998) Trinity Study; Bogleheads Wiki halaman FIRE/Safe Withdrawal Rate — tiga sumber akademik/community-vetted ini jadi rujukan utama untuk klaim SWR, sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" dan "Practitioner Reference Frame" (FIRE community sebagai reference point keempat).
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 12 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 12 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").
