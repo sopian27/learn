@@ -312,6 +312,27 @@ Status: Draft — menunggu approval, belum dimulai
 
 ---
 
+## Module 16 — Automatic Saving, Anti-Impulse Buying, & Target Finansial Spesifik (Pernikahan) (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-08-25 atas permintaan course "Menabung — dari 0 sampai Expert" (mindset, budgeting, tracking pengeluaran, sinking fund, emergency fund, automatic saving, anti-impulse buying, target finansial, strategi menabung untuk menikah). Dicek dulu penuh terhadap course `personal-finance` existing sebelum riset baru, mengikuti pola perluasan yang sama seperti Module 1.5/13-15. Mayoritas topik yang diminta SUDAH tercakup: mindset (1.3, 1.5), budgeting (2.1, 2.2), tracking pengeluaran (1.2, 2.4), sinking fund (2.3), emergency fund (Module 3), target finansial umum/goal-based framing (1.4). Tiga topik nyata belum tercakup: **automatic saving** sebagai mekanisme behavioral (bukan cuma disebutkan), **anti-impulse buying** sebagai teknik dedicated, dan **target finansial spesifik untuk pernikahan** (sinking fund goal konkret, bukan konsep umum). Module ini menutup gap tersebut saja — bukan course baru terpisah. Guard `ai-los/CLAUDE.md` "Course Creation Discipline" terpicu (Course Aktif `character-development` di bawah 50%, 2/6 module) — user eksplisit memilih perluasan gap-only ke `personal-finance` (tetap paused/draft, tidak jadi Course Aktif ketiga) alih-alih course baru terpisah, dikonfirmasi lewat AskUserQuestion.
+
+Description: Melengkapi Module 1-2 dengan sisi eksekusi yang belum disentuh — bagaimana menabung benar-benar terjadi tanpa mengandalkan willpower (automatic saving), bagaimana mempertahankan budget dari kebocoran impulsif (anti-impulse buying), dan bagaimana Module 1.4 (goal-based framing) dan Module 2.3 (sinking fund) diterapkan ke satu target finansial besar yang konkret: menikah.
+
+Lessons:
+
+* [ ] 16.1 Automatic saving — "pay yourself first" dan mekanisme autodebet/auto-transfer sebagai commitment device yang mengalahkan willpower, berbasis riset behavioral economics "Save More Tomorrow" (Thaler & Benartzi, 2004) tentang kenapa automation + pre-commitment jauh mengungguli disiplin manual
+* [ ] 16.2 Anti-impulse buying — psikologi impulse buying dan teknik praktis melawannya (cooling-off period 24-72 jam, unsubscribe dari trigger marketing, cash-only untuk kategori rawan), dihubungkan ke bias yang sudah dikenalkan di 1.3/1.5 (mental accounting, lifestyle inflation) tanpa mengulang teorinya
+* [ ] 16.3 Dari goal-based framing ke tracking nyata — memperdalam 1.4: menyusun SMART goal jadi milestone checkpoint terukur dengan visual progress tracking, dan kapan target perlu direvisi (bukan cuma dibuat sekali di awal)
+* [ ] 16.4 Strategi menabung untuk menikah — menerapkan sinking fund (2.3) ke target konkret: memetakan komponen biaya pernikahan (mahar/seserahan, resepsi, cincin, dll — riset biaya realistis Indonesia), timeline mundur dari tanggal target ke jumlah tabungan bulanan, dan pertimbangan tabungan terpisah vs gabungan dengan pasangan sebelum menikah
+
+Mini Project: Rencana tabungan pernikahan pribadi (atau target finansial besar lain berlabel jelas bila belum berencana menikah) — setup automatic saving, checklist anti-impulse untuk kategori pengeluaran paling rawan pribadi, dan sinking fund dengan timeline mundur dari tanggal target ke setoran bulanan yang dibutuhkan.
+
+Referensi riset: Thaler, Richard H. & Benartzi, Shlomo (2004) "Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving" — sumber akademik utama untuk automatic saving; Bogleheads Wiki (goal-based saving, sinking fund) untuk silang sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources"; data biaya pernikahan Indonesia dipakai sebagai rentang realistis berlabel jelas (bukan angka pasti), diperiksa tidak bertentangan dengan prinsip sinking fund Module 2.3.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 12 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 12 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").

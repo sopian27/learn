@@ -101,13 +101,13 @@ Description: Riset modern menjelaskan APA yang bekerja; filosofi Stoic memberi k
 Lessons:
 
 * [x] 5.1 Dikotomi kendali (Epictetus) — fokus penuh pada yang bisa dikendalikan (usaha, sikap), lepaskan yang tidak (penilaian orang lain, hasil akhir)
-* [ ] 5.2 Marcus Aurelius, *Meditations* — praktik refleksi harian seorang kaisar yang sengaja melatih kerendahan hati justru di puncak kekuasaan
-* [ ] 5.3 Ketidaktergantungan pada validasi eksternal — kenapa mengejar pengakuan orang lain justru melemahkan karakter dan kestabilan emosi
-* [ ] 5.4 Menyilangkan kerangka Stoic ke riset modern (Module 1-4) — bagian mana yang didukung psikologi kontemporer, bagian mana yang sekadar preferensi filosofis pribadi
+* [x] 5.2 Marcus Aurelius, *Meditations* — praktik refleksi harian seorang kaisar yang sengaja melatih kerendahan hati justru di puncak kekuasaan
+* [x] 5.3 Ketidaktergantungan pada validasi eksternal — kenapa mengejar pengakuan orang lain justru melemahkan karakter dan kestabilan emosi
+* [x] 5.4 Menyilangkan kerangka Stoic ke riset modern (Module 1-4) — bagian mana yang didukung psikologi kontemporer, bagian mana yang sekadar preferensi filosofis pribadi
 
 Mini Project: Praktik jurnal Stoic 1 minggu (refleksi pagi: apa yang akan dihadapi hari ini di luar kendali; refleksi malam: evaluasi diri ala Marcus Aurelius), diterapkan ke situasi nyata yang benar-benar dialami.
 
-Status: In Progress — Lesson 5.1 selesai (2026-08-23), skor 95/100 tanpa revisi. Log: `playground/character-development/5.1.md`.
+Status: In Progress — Lesson 5.1 selesai (2026-08-23), skor 95/100 tanpa revisi. Lesson 5.2 selesai (2026-08-25), skor 94/100 tanpa revisi. Lesson 5.3 selesai (2026-08-25), skor 95/100 tanpa revisi. Lesson 5.4 selesai (2026-08-25), skor 96/100 tanpa revisi — audit klaim akurat (non-attachment hasil dikategorikan "perlu nuansa" dengan alasan tepat), pembedaan reappraisal-vs-suppression pakai contoh nyata kerja yang jelas beda before/after, sintesis 5 prinsip kalibrasi solid (bukan kutip mentah). Log: `playground/character-development/5.1.md`, `5.2.md`, `5.3.md`, `5.4.md`.
 
 ---
 
@@ -124,7 +124,7 @@ Lessons:
 
 Capstone Project: Personal Character Operating System — dokumen prinsip pribadi + sistem feedback loop + sistem disiplin berkelanjutan + respect-check terhadap orang lain, diuji lewat log penerapan nyata minimal 4 minggu (bukan dokumen teoretis yang tidak pernah dipakai). Review memakai `domains/character-development/DOMAIN.md` bagian "Review Style" (Authenticity vs Performance, Feedback Responsiveness, Respect Check, Sustainability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
-Status: Not started
+Status: In Progress — materi Lesson 6.1 sudah digenerate ke vault Obsidian (`Courses/Character Development/Module 6 - Capstone Personal Character Operating System.md`), menunggu Exercise/Task dikerjakan dan direview.
 
 ---
 
@@ -204,12 +204,12 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 3/6
+Module Completion: 3/6 (Module 1, 2, 4 tuntas penuh termasuk Mini Project; Module 5 lesson tuntas tapi Mini Project belum; Module 6 baru mulai)
 
 Overall Completion: 50%
 
-Current Module: Module 5 — Filosofi Ego: Kerangka Stoic untuk Manajemen Diri Sehari-hari (Module 3 Mini Project masih berjalan paralel, log harian 7 hari, lihat status Module 3 di atas)
+Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 5, Lesson 5.1 selesai (2026-08-23), skor 95/100 tanpa revisi.
+Current Lesson: Module 5 lesson selesai penuh (5.1-5.4, semua tanpa revisi). Module 6, Lesson 6.1 materinya sudah digenerate ke vault, menunggu Exercise/Task dikerjakan dan direview.
 
-Next Lesson: Module 5, Lesson 5.2 Marcus Aurelius, *Meditations*.
+Next Lesson: Module 6, Lesson 6.1 — kerjakan Exercise/Task (tulis prinsip pribadi format if-then, minimal 8 prinsip lintas 4 kategori).

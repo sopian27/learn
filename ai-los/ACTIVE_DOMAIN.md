@@ -111,6 +111,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 - `crusades-history` — domains/crusades-history/DOMAIN.md — Status: Paused — Course: courses/crusades-history/roadmap.md
 - `world-wonders` — domains/world-wonders/DOMAIN.md — Status: Paused — Course: courses/world-wonders/roadmap.md
 
+## Paused (2026-08-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" di bawah 50% Module 2/6 — user eksplisit konfirmasi override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion; course masih Draft menunggu approval)
+
+- `daily-momentum` — domains/daily-momentum/DOMAIN.md — Status: Paused — Course: courses/daily-momentum/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
