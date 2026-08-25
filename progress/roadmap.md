@@ -42,7 +42,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: **Selesai (2026-08-16)** — 8/8 module + Enterprise Project (Capstone) tuntas, skor 90/100. Artifact final: `portofolio/mastering-claude-playbook.md`. Track paralel/praktis, dimulai 2026-08-06.
 * **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1, Lesson 1.1) — di-approve 2026-08-07.
-* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Status: In Progress (Module 1, Lesson 1.5 selesai skor 88/100 — Module 1 lessons tuntas semua, lanjut Mini Project Module 1) — **resume 2026-08-19 atas permintaan eksplisit user**, override kebijakan cap 2-course-aktif 2026-08-07 (slot Mastering Claude sudah selesai jadi user memilih isi dengan course ini alih-alih menganggap kosong).
+* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Status: In Progress (Module 1 **tuntas** — semua lesson + Mini Project selesai, skor Mini Project 90/100 — lanjut Module 2 Concurrency & Multithreading) — **resume 2026-08-19 atas permintaan eksplisit user**, override kebijakan cap 2-course-aktif 2026-08-07 (slot Mastering Claude sudah selesai jadi user memilih isi dengan course ini alih-alih menganggap kosong).
 
 # Course Disetujui — Siap Dimulai (belum ada lesson dimulai)
 
@@ -64,7 +64,7 @@ Rasional lengkap tiap course (kalibrasi, sumber riset, pemisahan dari course lai
 
 * **Machine Learning & AI Fundamentals** — `courses/ml-fundamentals/roadmap.md` — Module 1 — jalur "full path" ml-fundamentals → llm → agents.
 * **CI/CD Mastery — dari Permukaan ke Expert** — `courses/ci-cd/roadmap.md` — Module 1, Lesson 1.1 — tool utama GitLab CI.
-* **Personal Finance — dari 0 sampai Punya Rencana Keuangan Lengkap** — `courses/personal-finance/roadmap.md` — Domain: personal-finance — Module 1, Lesson 1.1 — pilot domain non-SWE pertama untuk arsitektur universal AI-LOS.
+* **Personal Finance & Financial Independence — dari 0 sampai Punya Rencana FI Lengkap** — `courses/personal-finance/roadmap.md` — Domain: personal-finance — Module 1, Lesson 1.1 — pilot domain non-SWE pertama untuk arsitektur universal AI-LOS. **Diperluas 2026-08-25** (permintaan langsung "Financial Independence 0-expert usia 33"): 3 module baru (Housing & Property, Passive Income & FI Number, Children Costs & Education Fund) + rekalibrasi Retirement Planning & Capstone ke framing FI usia 33/tidak membebani anak — 12→15 module, direnumber bersih karena masih 0% progress. Diputuskan **extend course existing**, bukan course baru, karena cek silang menunjukkan ~90% topik sudah tercakup. Draft menunggu approval, belum ada Lesson yang dimulai.
 * **n8n Automation — dari 0 sampai Bisa Bangun Asisten AI Pribadi ("Jarvis-lite")** — `courses/n8n-automation/roadmap.md` — Domain: n8n-automation — Module 1, Lesson 1.1.
 * **Communication Skills — dari 0 sampai Lancar Berkomunikasi dengan Orang Baru** — `courses/communication-skills/roadmap.md` — Domain: communication-skills — Module 1, Lesson 1.1.
 * **Critical Thinking & Problem Solving — dari 0 sampai Expert** — `courses/critical-thinking/roadmap.md` — Domain: critical-thinking — Module 1, Lesson 1.1.

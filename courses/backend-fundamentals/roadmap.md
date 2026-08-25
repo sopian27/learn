@@ -50,7 +50,7 @@ Referensi riset yang dipakai menyusun roadmap ini: *Effective Java* (Joshua Bloc
 
 Description: Membongkar kebiasaan Java yang "jalan tapi bukan idiom yang benar" — titik awal paling umum dari fondasi yang terasa rapuh. Fokus ke generics, collections internals, dan exception handling sesuai `standards/JAVA_STANDARDS.md`.
 
-Status: In Progress
+Status: Selesai (2026-08-25) — semua lesson + Mini Project tuntas.
 
 Lessons:
 
@@ -62,7 +62,7 @@ Lessons:
 
 Mini Project: Diberi 1 class Java "yang jalan" tapi melanggar sebagian besar idiom di atas (raw type, mutable public field, `catch` yang menelan exception) — Anda diminta memperbaikinya baris demi baris dengan justifikasi tiap perubahan.
 
-Status: Not Started
+Status: Selesai (2026-08-25), skor 90/100. Jawaban + review di vault yang sama.
 
 ---
 
@@ -344,8 +344,8 @@ Module Completion: 0/15
 
 Overall Completion: 0%
 
-Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
+Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan — **Selesai (2026-08-25)**
 
-Current Lesson: Lesson 1.5 selesai (skor 88/100) — Module 1 lessons selesai semua, lanjut Mini Project Module 1
+Current Lesson: Module 1 Mini Project selesai, skor 90/100 — Module 1 tuntas semua
 
-Next Lesson: Module 1 Mini Project — refactor class Java yang melanggar idiom (raw type, mutable public field, `catch` yang menelan exception)
+Next Lesson: Module 2 — Concurrency & Multithreading

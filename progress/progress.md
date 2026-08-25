@@ -36,9 +36,9 @@ Course Completion: 0/6 module (0%)
 
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
-Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
-Current Lesson: 1.5 Naming & code style sesuai `standards/NAMING_CONVENTIONS.md`
-Course Completion: 0/15 module (0%)
+Current Module: Module 2 — Concurrency & Multithreading (Lesson 2.1 — materi + task ditulis ke vault 2026-08-25, menunggu jawaban user)
+Current Lesson: 2.1 Model mental thread-safety: race condition, visibility problem, kenapa `synchronized` bukan solusi ajaib
+Course Completion: 1/15 module (7%) — Module 1 tuntas
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
@@ -46,6 +46,9 @@ Course Completion: 0/15 module (0%)
 | 1.2 Collections internals: `ArrayList`/`LinkedList`/`HashMap`/`TreeMap`, mutable key & hashCode/equals contract | Selesai (2026-08-20), skor 93/100 | Dikerjakan, direview |
 | 1.3 Exception handling idiomatis: checked vs unchecked, custom exception, anti-pattern `catch (Exception e) {}` | Selesai (2026-08-25), skor 95/100 | Dikerjakan, direview |
 | 1.4 Immutability by default, `equals`/`hashCode`/`toString`, static factory vs constructor | Selesai (2026-08-25), skor 84/100 | Dikerjakan, direview |
+| 1.5 Naming & code style sesuai `standards/NAMING_CONVENTIONS.md` | Selesai (2026-08-25), skor 88/100 | Dikerjakan, direview |
+| Module 1 Mini Project | Selesai (2026-08-25), skor 90/100 | Dikerjakan, direview |
+| 2.1 Race condition, visibility problem, kenapa `synchronized` bukan solusi ajaib | Materi + task siap di vault | Menunggu jawaban user |
 
 ---
 
