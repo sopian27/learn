@@ -56,9 +56,9 @@ Lessons:
 
 * [x] 1.1 Generics mendalam: bounded type, wildcard (`? extends`/`? super`), type erasure — dan bug yang muncul kalau salah paham erasure — Selesai (2026-08-19), skor 95/100. Materi + jawaban di vault `Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`
 * [x] 1.2 Collections internals: kompleksitas `ArrayList` vs `LinkedList` vs `HashMap` vs `TreeMap`, kapan `HashMap` jadi sumber bug (mutable key, hashCode/equals contract) — Selesai (2026-08-20), skor 93/100. Materi + jawaban di vault yang sama.
-* [ ] 1.3 Exception handling idiomatis: checked vs unchecked, kapan bikin custom exception, anti-pattern `catch (Exception e) {}` (`standards/ERROR_HANDLING_STANDARDS.md`)
-* [ ] 1.4 Idiom *Effective Java* yang paling sering dilanggar: immutability by default, `equals`/`hashCode`/`toString` yang benar, static factory method vs constructor
-* [ ] 1.5 Naming & code style sesuai `standards/NAMING_CONVENTIONS.md` — kenapa konsistensi ini bukan soal selera
+* [x] 1.3 Exception handling idiomatis: checked vs unchecked, kapan bikin custom exception, anti-pattern `catch (Exception e) {}` (`standards/ERROR_HANDLING_STANDARDS.md`) — Selesai (2026-08-25), skor 95/100
+* [x] 1.4 Idiom *Effective Java* yang paling sering dilanggar: immutability by default, `equals`/`hashCode`/`toString` yang benar, static factory method vs constructor — Selesai (2026-08-25), skor 84/100. Materi + jawaban di vault yang sama.
+* [x] 1.5 Naming & code style sesuai `standards/NAMING_CONVENTIONS.md` — kenapa konsistensi ini bukan soal selera — Selesai (2026-08-25), skor 88/100. Materi + jawaban di vault yang sama.
 
 Mini Project: Diberi 1 class Java "yang jalan" tapi melanggar sebagian besar idiom di atas (raw type, mutable public field, `catch` yang menelan exception) — Anda diminta memperbaikinya baris demi baris dengan justifikasi tiap perubahan.
 
@@ -346,6 +346,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
 
-Current Lesson: Lesson 1.2 selesai (skor 93/100) — lanjut Lesson 1.3
+Current Lesson: Lesson 1.5 selesai (skor 88/100) — Module 1 lessons selesai semua, lanjut Mini Project Module 1
 
-Next Lesson: Module 1, Lesson 3 — Exception handling idiomatis: checked vs unchecked, kapan bikin custom exception, anti-pattern `catch (Exception e) {}`
+Next Lesson: Module 1 Mini Project — refactor class Java yang melanggar idiom (raw type, mutable public field, `catch` yang menelan exception)

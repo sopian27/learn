@@ -42,7 +42,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: **Selesai (2026-08-16)** — 8/8 module + Enterprise Project (Capstone) tuntas, skor 90/100. Artifact final: `portofolio/mastering-claude-playbook.md`. Track paralel/praktis, dimulai 2026-08-06.
 * **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1, Lesson 1.1) — di-approve 2026-08-07.
-* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Status: In Progress (Module 1, Lesson 1.1 — Generics mendalam) — **resume 2026-08-19 atas permintaan eksplisit user**, override kebijakan cap 2-course-aktif 2026-08-07 (slot Mastering Claude sudah selesai jadi user memilih isi dengan course ini alih-alih menganggap kosong). Materi + task Lesson 1.1 sudah digenerate ke vault Obsidian (`Courses/Backend Engineering Fundamentals Rebuild/Module 1 - Java Lanjut.md`), menunggu jawaban user.
+* **Backend Engineering Fundamentals Rebuild** — `courses/backend-fundamentals/roadmap.md` — Status: In Progress (Module 1, Lesson 1.5 selesai skor 88/100 — Module 1 lessons tuntas semua, lanjut Mini Project Module 1) — **resume 2026-08-19 atas permintaan eksplisit user**, override kebijakan cap 2-course-aktif 2026-08-07 (slot Mastering Claude sudah selesai jadi user memilih isi dengan course ini alih-alih menganggap kosong).
 
 # Course Disetujui — Siap Dimulai (belum ada lesson dimulai)
 

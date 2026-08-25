@@ -37,13 +37,15 @@ Course Completion: 0/6 module (0%)
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
 Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan
-Current Lesson: 1.3 Exception handling idiomatis (belum dimulai)
+Current Lesson: 1.5 Naming & code style sesuai `standards/NAMING_CONVENTIONS.md`
 Course Completion: 0/15 module (0%)
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
 | 1.1 Generics mendalam: bounded type, wildcard, type erasure | Selesai (2026-08-19), skor 95/100 | Dikerjakan, direview |
 | 1.2 Collections internals: `ArrayList`/`LinkedList`/`HashMap`/`TreeMap`, mutable key & hashCode/equals contract | Selesai (2026-08-20), skor 93/100 | Dikerjakan, direview |
+| 1.3 Exception handling idiomatis: checked vs unchecked, custom exception, anti-pattern `catch (Exception e) {}` | Selesai (2026-08-25), skor 95/100 | Dikerjakan, direview |
+| 1.4 Immutability by default, `equals`/`hashCode`/`toString`, static factory vs constructor | Selesai (2026-08-25), skor 84/100 | Dikerjakan, direview |
 
 ---
 
@@ -87,6 +89,8 @@ Revision Needed: -
 * Character Development: domain pack, di-approve & dimulai 2026-08-07. Applied Practice-nya butuh jurnal reflektif jujur + feedback nyata dari orang lain — pace mengikuti ritme praktik nyata, bukan dikebut.
 * 2026-08-19: Backend Engineering Fundamentals Rebuild di-resume atas permintaan eksplisit user, mengisi slot ke-3 (Mastering Claude sudah selesai 2026-08-16, jadi ini bukan pelanggaran cap 2-course-aktif — pilihan sadar mengisi slot kosong, bukan menambah beban paralel baru). Lesson 1.1 (Generics mendalam) materi + task langsung ditulis ke vault Obsidian sesuai `ai-los/OBSIDIAN_SYNC.md`, tidak ditampilkan di chat.
 * 2026-08-20: Lesson 1.2 (Collections internals) selesai, skor 93/100. Jawaban user solid di Bagian 1/2/3 dan Interview Questions — dua catatan level produksi diberikan: `record` sebagai idiom modern pengganti class immutable manual, dan rank query leaderboard tidak murah di `TreeMap` polos (perlu order-statistics tree atau Redis `ZSET`/`ZRANK` di production).
+* 2026-08-25: Lesson 1.3 (Exception handling idiomatis) selesai, skor 95/100. Custom unchecked exception + root cause preservation + batch failure collection di Bagian 1, diagnosis silent-failure job direkonstruksi mandiri di Bagian 2, checked/unchecked Bagian 3 semua tepat termasuk kasus nuanced payment gateway timeout. Dua catatan produksi: trade-off return-result vs throw untuk batch API, dan exception chain (`getCause()`) lebih dalam dari sekadar "cause disertakan".
+* 2026-08-25: Lesson 1.4 (Immutability by default, `equals`/`hashCode`/`toString`, static factory vs constructor) selesai, skor 84/100. Bagian 1 (refactor `DiscountCoupon`) dan Bagian 3 (constructor vs static factory, 3 skenario) kuat penuh. Bagian 2 (diagnosis `Range`/`PremiumRange` sebagai `Map` key) salah identifikasi properti kontrak: jawaban user bilang symmetry pecah, padahal sesuai logika kondisional yang dideskripsikan soal, yang sebenarnya pecah adalah **transitivity** (varian "mixed comparison" Effective Java Item 10, beda dari contoh `getClass()`/Point-ColorPoint di Theory) — perbaikan struktural (composition over inheritance) yang diusulkan tetap benar, cuma diagnosisnya meleset. Detail lengkap review ada di vault.
 
 ---
 
