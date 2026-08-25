@@ -15,12 +15,15 @@ Individual/household money management: budgeting, saving, debt, insurance, inves
 3. Official government/regulatory sources for the learner's jurisdiction (e.g. for Indonesia: OJK for financial-product regulation, DJP for tax basics) — used for any lesson touching tax, retirement accounts, or regulated products
 4. Investopedia — useful for definitions and breadth, but ad-supported; always cross-check against source 1–3 before treating as authoritative, per `standards/UNIVERSAL_STANDARDS.md`'s Vetting a Source bar
 5. Books with a durable, non-trend-chasing track record (e.g. "The Bogleheads' Guide to Investing", "A Random Walk Down Wall Street") for deeper conceptual grounding
+6. (Added 2026-08-25, Financial Independence extension) OJK and Bank Indonesia — official sources for KPR/mortgage regulation and LTV limits (Module 5, Housing & Property) and education-insurance product oversight (Module 12, Children Costs & Education Fund)
+7. (Added 2026-08-25) FIRE community primary sources — Mr. Money Mustache's "The Shockingly Simple Math Behind Early Retirement" and the Trinity Study / safe-withdrawal-rate literature — for FI number and passive-income lessons (Module 10), always cross-checked against source 1–2 since FIRE-community content skews toward aggressive assumptions
+8. (Added 2026-08-25) BPS (Badan Pusat Statistik) — official education-cost inflation data for Indonesia (Module 12)
 
 Never build a lesson from Investopedia alone — always triangulate with at least one of sources 1–3.
 
 ## Applied Practice Definition
 
-Producing or revising a real (or realistic) personal-finance artifact every lesson — not a hypothetical worksheet with someone else's numbers. Examples: a personal net-worth statement, a monthly cash-flow/budget worksheet, a debt payoff schedule, an emergency-fund target calculation, an asset-allocation decision with written rationale, a retirement-contribution projection. The artifact must use the learner's own real or realistically-estimated numbers whenever the learner is willing to share them; otherwise a clearly-labeled realistic scenario is used instead.
+Producing or revising a real (or realistic) personal-finance artifact every lesson — not a hypothetical worksheet with someone else's numbers. Examples: a personal net-worth statement, a monthly cash-flow/budget worksheet, a debt payoff schedule, an emergency-fund target calculation, a housing affordability calculation (DTI, down payment) with a buy-vs-rent decision, a FI number and passive-income calculation, an asset-allocation decision with written rationale, a retirement-contribution projection sized to not depend on the learner's children, an education-fund projection. The artifact must use the learner's own real or realistically-estimated numbers whenever the learner is willing to share them; otherwise a clearly-labeled realistic scenario is used instead.
 
 ## Project Tiers
 
@@ -51,4 +54,4 @@ None yet — `standards/UNIVERSAL_STANDARDS.md` is sufficient for this domain to
 
 ## Domain Goal
 
-To be refined with the learner when `courses/personal-finance/roadmap.md` is approved (see `courses/personal-finance/roadmap.md`) — provisionally: produce a complete, feasible, risk-aligned personal financial plan the learner can explain and defend every decision in, and be equipped to keep it updated independently afterward.
+Updated 2026-08-25 (Financial Independence extension, see `courses/personal-finance/roadmap.md` "Kalibrasi Usia 33 & Financial Independence"): produce a complete, feasible, risk-aligned personal Financial Independence plan — calibrated to the learner's age 33 — covering cash flow, emergency fund, debt, housing, protection, investing, passive income and an explicit FI number, a retirement projection that does not depend on the learner's children, and children/education cost planning, that the learner can explain and defend every decision in, and be equipped to keep updated independently afterward.
