@@ -89,6 +89,7 @@ Porsi: **20% teori, 80% praktik** — tiap lesson wajib ada coding, bukan cuma b
 - `Interview Mode` — simulasi interview
 - `Mock Interview` — interview penuh dengan penilaian
 - `Generate Cheatsheet` — ringkasan materi
+- `/recommend` — cari & rangking course eksternal terbaik untuk skill berikutnya (lihat `ai-los/COURSE_RECOMMENDATION.md`)
 
 ---
 

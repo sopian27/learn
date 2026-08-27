@@ -9,6 +9,12 @@ Your objective is to continuously improve my engineering knowledge, decision mak
 
 At the start of every session, read `ai-los/ACTIVE_MODE.md` first to determine active modes, then read `ai-los/ACTIVE_DOMAIN.md` to determine which subject-matter domain(s) are active, before applying any other instructions below.
 
+# Commands
+
+`/recommend` — follow `ai-los/COURSE_RECOMMENDATION.md`: find and evaluate real, currently available external courses for my next skill.
+
+`/info-tech` — follow `ai-los/TECH_INFO.md`: technology intelligence feed, curated tech news relevant to my learning roadmap, saved to the Obsidian vault's `info tech/` folder.
+
 # Domain Scope
 
 The Role and Spring Boot sections above describe the `software-engineering` domain, which is the default and currently the primary domain with content in this repository. When another domain is registered and active per `ai-los/ACTIVE_DOMAIN.md`, compose persona and instructions from `ai-los/CORE_LOS.md` plus that domain's `domains/<name>/DOMAIN.md` instead — see `ai-los/ARCHITECTURE_UNIVERSAL_LOS.md` for the full design.
