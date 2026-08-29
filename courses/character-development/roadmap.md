@@ -117,18 +117,18 @@ Description: Mengintegrasikan seluruh Module 1-5 jadi satu sistem karakter priba
 
 Lessons:
 
-* [ ] 6.1 Menyusun prinsip pribadi tertulis (terinspirasi Ray Dalio, *Principles*) — aturan main pribadi soal ego, feedback, kerja keras, dan menghormati orang lain
-* [ ] 6.2 Merancang sistem feedback loop pribadi berkelanjutan — siapa diminta feedback, tentang apa, seberapa sering, setelah course selesai
+* [x] 6.1 Menyusun prinsip pribadi tertulis (terinspirasi Ray Dalio, *Principles*) — aturan main pribadi soal ego, feedback, kerja keras, dan menghormati orang lain
+* [x] 6.2 Merancang sistem feedback loop pribadi berkelanjutan — siapa diminta feedback, tentang apa, seberapa sering, setelah course selesai
 * [ ] 6.3 Menjalankan Character Operating System penuh selama minimal 4 minggu nyata, mencatat log harian/mingguan
 * [ ] 6.4 Finalisasi dan refleksi capstone — pola apa yang paling menantang, apa yang benar-benar berubah, simpan ke `portofolio/`
 
 Capstone Project: Personal Character Operating System — dokumen prinsip pribadi + sistem feedback loop + sistem disiplin berkelanjutan + respect-check terhadap orang lain, diuji lewat log penerapan nyata minimal 4 minggu (bukan dokumen teoretis yang tidak pernah dipakai). Review memakai `domains/character-development/DOMAIN.md` bagian "Review Style" (Authenticity vs Performance, Feedback Responsiveness, Respect Check, Sustainability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
-Status: In Progress — materi Lesson 6.1 sudah digenerate ke vault Obsidian (`Courses/Character Development/Module 6 - Capstone Personal Character Operating System.md`), menunggu Exercise/Task dikerjakan dan direview.
+Status: In Progress — Lesson 6.1 selesai (2026-08-29), skor Pass setelah 1x revisi (revisi awal: poin 1 belum sebut file log/momen nyata per prinsip; Prinsip 8 salah kategori — regulasi ego sendiri dilabeli "Menghormati Orang Lain"). Revisi: tiap 8 prinsip dapat evidence konkret (file + momen + kutipan batin asli) dari `5.1.md`-`5.4.md` dan `mini-project-3.md`; kategori "Menghormati Orang Lain" diganti jadi 2 prinsip yang genuinely soal perlakuan ke orang lain (tanya reasoning junior dulu, kasih kredit ke tim). Log: `playground/character-development/6.1.md`, revisi di `playground/character-development/6.1.fix.md`. Lesson 6.2 selesai (2026-08-30), skor Pass setelah 1x revisi (revisi awal: Ego dan Feedback-habit sama-sama diisi "bos" tanpa cek power distance — atasan rawan menahan kritik tajam ke bawahan, jadi bias sociometer belum tercek dari sisi pemberi feedback). Revisi: Ego pindah ke rekan peer (power distance rendah); Feedback-habit tetap bos dengan bukti konkret eksplisit kenapa power distance bukan risiko di kasus itu. Log: `playground/character-development/6.2.md`. **Lesson 6.3 materi dikirim (2026-08-30)** — beda dari lesson lain, baru dianggap Selesai setelah 28 hari log nyata (target 2026-09-27), bukan pas exercise ditulis. Log berjalan: `playground/character-development/6.3-log.md`.
 
 ---
 
-## Module 7 — Atomic Habits: Sistem Kebiasaan (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 7 — Atomic Habits: Sistem Kebiasaan (Approved 2026-08-30, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Ditambahkan 2026-08-09 atas permintaan "ajarkan saya Atomic Habits dari 0 sampai expert" — dipetakan sebagai perluasan domain `character-development`, karena isinya adalah mekanika pembentukan kebiasaan yang mendukung langsung tujuan domain ini (etos kerja berkelanjutan). Module 3 (Etos Kerja & Disiplin) sudah menyebut "habit stacking dan identity-based habits" secara singkat di Lesson 3.2 — modul ini membangun kerangka utuh James Clear (*Atomic Habits*) yang belum tercakup: habit loop, Four Laws of Behavior Change, dan environment design. **Belum masuk hitungan progress course** — course sedang In Progress (Module 1, Lesson 1.4), jadi modul ini ditambahkan sebagai Module 7 (append, tidak menyisipkan/renumber modul yang sudah berjalan). Kalau disetujui, secara logis paling berguna dipelajari **setelah Module 3** (memperdalam mekanika disiplin) dan **sebelum Module 6 capstone** — urutan aktual/apakah di-renumber ditentukan user saat approval, tanpa mengganggu progress Module 1 yang sudah berjalan.
 
@@ -145,7 +145,7 @@ Mini Project: Pilih 1 kebiasaan baik yang ingin dibangun dan 1 kebiasaan buruk y
 
 Referensi riset: *Atomic Habits* — James Clear (2018), disilangkan ke riset yang sudah jadi Trusted Source domain ini (Growth Mindset/Dweck, Grit/Duckworth di `domains/character-development/DOMAIN.md`) — buku ini sumber sintesis populer, bukan riset primer, sehingga setiap klaim mekanistik (mis. "21 hari membentuk kebiasaan") diperiksa dulu terhadap literatur akademik sebelum diajarkan sebagai fakta.
 
-Status: Draft — menunggu approval, belum dimulai
+Status: In Progress — Approved 2026-08-30 lewat AskUserQuestion eksplisit (user diminta memilih antara lanjut 6.4 atau mulai 7.1 duluan, karena 6.4 belum bisa dimulai sebelum 28 hari log 6.3 genap — user pilih 7.1, jadi dua lesson ini sekarang jalan PARALEL, bukan menggantikan). Lesson 7.1 materi dikirim (2026-08-30). Log: `Courses/Character Development/Module 7 - Atomic Habits Sistem Kebiasaan.md` (Obsidian).
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 5 lesson selesai penuh (5.1-5.4, semua tanpa revisi). Module 6, Lesson 6.1 materinya sudah digenerate ke vault, menunggu Exercise/Task dikerjakan dan direview.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7, Lesson 7.1 — materi dikirim (2026-08-30), lihat status Module 7 di atas.
 
-Next Lesson: Module 6, Lesson 6.1 — kerjakan Exercise/Task (tulis prinsip pribadi format if-then, minimal 8 prinsip lintas 4 kategori).
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 7, Lesson 7.2 — Habit loop (cue → craving → response → reward).
