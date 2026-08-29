@@ -72,15 +72,15 @@ Description: Pilar yang paling sering jadi "tahu istilahnya, belum pernah pegang
 
 Lessons:
 
-* [ ] 2.1 Model mental thread-safety: race condition, visibility problem, kenapa `synchronized` bukan solusi ajaib untuk semua kasus
-* [ ] 2.2 `java.util.concurrent`: `ExecutorService`, thread pool sizing yang benar (bukan asal angka), `ConcurrentHashMap` vs `Collections.synchronizedMap`
-* [ ] 2.3 `CompletableFuture`: composing async operation, exception handling di rantai async, kapan ini vs kapan reactive (`Mono`/`Flux`) lebih tepat
-* [ ] 2.4 Virtual Threads (Project Loom, Java 25): beda fundamental dengan platform thread, kapan benar-benar menguntungkan untuk backend I/O-bound
-* [ ] 2.5 Kelas bug concurrency yang umum di production: deadlock, livelock, stale read — cara mendiagnosisnya dari thread dump
+* [x] 2.1 Model mental thread-safety: race condition, visibility problem, kenapa `synchronized` bukan solusi ajaib untuk semua kasus — Selesai (2026-08-26), skor 84/100
+* [x] 2.2 `java.util.concurrent`: `ExecutorService`, thread pool sizing yang benar (bukan asal angka), `ConcurrentHashMap` vs `Collections.synchronizedMap` — Selesai (2026-08-27), skor 80/100
+* [x] 2.3 `CompletableFuture`: composing async operation, exception handling di rantai async, kapan ini vs kapan reactive (`Mono`/`Flux`) lebih tepat — Selesai (2026-08-27), skor 82/100
+* [x] 2.4 Virtual Threads (Project Loom, Java 25): beda fundamental dengan platform thread, kapan benar-benar menguntungkan untuk backend I/O-bound — skor 91/100
+* [x] 2.5 Kelas bug concurrency yang umum di production: deadlock, livelock, stale read — cara mendiagnosisnya dari thread dump — Selesai (2026-08-29), skor 92/100
 
-Mini Project: Refactor sebuah service yang memproses banyak request eksternal secara sekuensial (lambat) menjadi paralel yang aman menggunakan `ExecutorService`/`CompletableFuture`, lengkap dengan penjelasan kenapa aman dari race condition.
+Mini Project: Refactor sebuah service yang memproses banyak request eksternal secara sekuensial (lambat) menjadi paralel yang aman menggunakan `ExecutorService`/`CompletableFuture`, lengkap dengan penjelasan kenapa aman dari race condition. — Selesai (2026-08-29), skor 93/100
 
-Status: Not Started
+Status: Selesai (2026-08-29) — semua lesson + Mini Project tuntas.
 
 ---
 
@@ -340,12 +340,12 @@ Status: Not Started
 
 # Overall Progress
 
-Module Completion: 0/15
+Module Completion: 2/15
 
-Overall Completion: 0%
+Overall Completion: 13%
 
-Current Module: Module 1 — Java Lanjut: Idiom yang Benar, Bukan Sekadar Jalan — **Selesai (2026-08-25)**
+Current Module: Module 3 — JVM Internals untuk Debugging Production — **Belum dimulai**
 
-Current Lesson: Module 1 Mini Project selesai, skor 90/100 — Module 1 tuntas semua
+Current Lesson: Belum dimulai
 
-Next Lesson: Module 2 — Concurrency & Multithreading
+Next: Lesson 3.1 (lihat Module 3 di atas)
