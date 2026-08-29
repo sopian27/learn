@@ -16,7 +16,7 @@ Every invocation runs a fresh web search. Never reuse a previous run's results f
 
 # Step 1 — Search
 
-Search the web for current tech news. Prioritize:
+Search the web for current tech news. Curate 6 items per run (not 3). Prioritize:
 
 - Topics that are significant or trending, not just popular/clickbait.
 - Topics relevant to my roadmap: Software Engineering, Backend Engineering, Java/Spring, Software Architecture, System Design, AI/LLM/AI Engineering, Cloud Native, Kubernetes, DevOps, Database, Distributed Systems, Developer Tools.
