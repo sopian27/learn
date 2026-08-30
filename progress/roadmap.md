@@ -41,7 +41,7 @@ Ini adalah index tingkat repo dari seluruh course yang sedang/akan dijalani. Det
 **Update 2026-08-07:** Course aktif dipersempit jadi 2 atas permintaan user, untuk hemat pemakaian token. Semua course lain di bawah ini (termasuk yang sebelumnya In Progress) dipindah ke "Course Paused" — bukan dihentikan, tinggal minta "lanjut course X" untuk resume kapan saja. Rasional lengkap tiap course tetap ada di `courses/<nama>/roadmap.md` masing-masing dan di git history file ini.
 
 * **Mastering Claude — dari 0 sampai Expert** — `courses/mastering-claude/roadmap.md` — Status: **Selesai (2026-08-16)** — 8/8 module + Enterprise Project (Capstone) tuntas, skor 90/100. Artifact final: `portofolio/mastering-claude-playbook.md`. Track paralel/praktis, dimulai 2026-08-06.
-* **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1,2,4 tuntas + Module 5 lesson tuntas/Mini Project pending, 3/6 module, Module 6 Capstone Lesson 6.3 materi dikirim 2026-08-30 — log 28 hari nyata berjalan sampai target 2026-09-27, `playground/character-development/6.3-log.md`; Module 7 "Atomic Habits" di-approve 2026-08-30 dan mulai PARALEL — Lesson 7.1 materi dikirim, belum masuk hitungan Module Completion) — di-approve 2026-08-07.
+* **Character Development — Rendah Hati, Etos Kerja, dan Rasa Hormat, dari 0 sampai Expert** — `courses/character-development/roadmap.md` — Domain: character-development — Status: In Progress (Module 1,2,4 tuntas + Module 5 lesson tuntas/Mini Project pending, 3/6 module, Module 6 Capstone Lesson 6.3 materi dikirim 2026-08-30 — log 28 hari nyata berjalan sampai target 2026-09-27, `playground/character-development/6.3-log.md`; Module 7 "Atomic Habits" di-approve 2026-08-30 dan mulai PARALEL — Lesson 7.1 Selesai (2026-08-30), skor 84/100, belum masuk hitungan Module Completion) — di-approve 2026-08-07.
 
 # Course Disetujui — Siap Dimulai (belum ada lesson dimulai)
 
@@ -462,6 +462,6 @@ Atas permintaan course baru "Live Your Youth 0–expert: traveling, solo trip, a
 **Update 2026-08-07 (hemat token):** hanya 2 course aktif sekarang — lihat "Course Aktif" di atas.
 
 1. **Mastering Claude** (`courses/mastering-claude`) — **Selesai 2026-08-16** (8/8 module + Enterprise Project). Slot "course aktif" ke-2 kosong — resume course paused atau course baru kapan saja diminta.
-2. **Character Development** (`courses/character-development`) — Module 1,2,4 tuntas + Module 5 lesson tuntas (3/6, 50%), Module 6 Lesson 6.2 selesai 2026-08-30, lanjutkan Lesson 6.3 (jalankan Character Operating System 4 minggu nyata).
+2. **Character Development** (`courses/character-development`) — Module 1,2,4 tuntas + Module 5 lesson tuntas (3/6, 50%), Module 6 Lesson 6.3 log 28 hari berjalan (target 2026-09-27). Paralel Module 7 (Atomic Habits, append, belum masuk hitungan progress): Lesson 7.1-7.3 selesai, Lesson 7.4 materi dikirim 2026-08-30 — mekanika Module 7 lengkap, tinggal jawab Exercise 7.4 lalu Mini Project.
 
 Semua prioritas lain (Backend Fundamentals, ML/LLM/Agents, Kubernetes, System Design, Scrum Master, Engineering Culture, Freelance Readiness, dll.) dipause bersama course-nya masing-masing di atas — resume kapan saja atas permintaan user, urutan lama tetap tercatat di git history file ini.

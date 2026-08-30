@@ -136,16 +136,16 @@ Description: Module 3 menjawab "kenapa" disiplin berkelanjutan penting (grit, an
 
 Lessons:
 
-* [ ] 7.1 Aggregation of marginal gains — kenapa perbaikan 1% konsisten mengalahkan perubahan drastis yang tidak bertahan, dan "plateau of latent potential" (kenapa hasil sering tidak terlihat sebelum tiba-tiba terlihat)
-* [ ] 7.2 Habit loop (cue → craving → response → reward) — mekanisme di balik setiap kebiasaan, dibedah satu per satu
-* [ ] 7.3 Four Laws of Behavior Change untuk membangun kebiasaan baik (make it obvious, attractive, easy, satisfying) dan inversinya untuk menghentikan kebiasaan buruk
+* [x] 7.1 Aggregation of marginal gains — kenapa perbaikan 1% konsisten mengalahkan perubahan drastis yang tidak bertahan, dan "plateau of latent potential" (kenapa hasil sering tidak terlihat sebelum tiba-tiba terlihat) — Selesai, skor 84/100
+* [x] 7.2 Habit loop (cue → craving → response → reward) — mekanisme di balik setiap kebiasaan, dibedah satu per satu — Selesai, skor 92/100
+* [x] 7.3 Four Laws of Behavior Change untuk membangun kebiasaan baik (make it obvious, attractive, easy, satisfying) dan inversinya untuk menghentikan kebiasaan buruk — Selesai, skor 90/100
 * [ ] 7.4 Identity-based habits secara mendalam (perluasan Lesson 3.2) & environment design — mendesain lingkungan fisik/digital supaya kebiasaan baik jadi pilihan termudah, bukan mengandalkan willpower harian
 
 Mini Project: Pilih 1 kebiasaan baik yang ingin dibangun dan 1 kebiasaan buruk yang ingin dihentikan (boleh menyambung ke sistem disiplin Module 3) — petakan masing-masing lewat habit loop, lalu rancang minimal 2 intervensi konkret dari Four Laws untuk tiap kebiasaan (mis. "make it obvious" + "make it easy" untuk kebiasaan baik).
 
 Referensi riset: *Atomic Habits* — James Clear (2018), disilangkan ke riset yang sudah jadi Trusted Source domain ini (Growth Mindset/Dweck, Grit/Duckworth di `domains/character-development/DOMAIN.md`) — buku ini sumber sintesis populer, bukan riset primer, sehingga setiap klaim mekanistik (mis. "21 hari membentuk kebiasaan") diperiksa dulu terhadap literatur akademik sebelum diajarkan sebagai fakta.
 
-Status: In Progress — Approved 2026-08-30 lewat AskUserQuestion eksplisit (user diminta memilih antara lanjut 6.4 atau mulai 7.1 duluan, karena 6.4 belum bisa dimulai sebelum 28 hari log 6.3 genap — user pilih 7.1, jadi dua lesson ini sekarang jalan PARALEL, bukan menggantikan). Lesson 7.1 materi dikirim (2026-08-30). Log: `Courses/Character Development/Module 7 - Atomic Habits Sistem Kebiasaan.md` (Obsidian).
+Status: In Progress — Approved 2026-08-30 lewat AskUserQuestion eksplisit (user diminta memilih antara lanjut 6.4 atau mulai 7.1 duluan, karena 6.4 belum bisa dimulai sebelum 28 hari log 6.3 genap — user pilih 7.1, jadi dua lesson ini sekarang jalan PARALEL, bukan menggantikan). Lesson 7.1 Selesai (2026-08-30), skor 84/100 — jawaban solid di pembedaan mekanisme (AVE vs salah-baca-plateau), lemah di atomicity Exercise 1 dan diagnosis sinyal-pembeda di Exercise 2. Lesson 7.2 Selesai (2026-08-30), skor 92/100 — craving berhasil dibedah sampai state di baliknya (novelty/stimulasi, bukan objek fisik "TikTok"), wanting-vs-liking dipetakan ke momen antisipasi nyata, cue kopi-pagi dipilih dengan alasan reliability yang tepat; belum eksplisit nyambungin ke variable-reward (kenapa scroll gak pernah kerasa "cukup") tapi gak wajib di scope exercise ini. Lesson 7.3 Selesai (2026-08-30), skor 90/100, tanpa revisi — pemetaan inversi kebiasaan buruk (scroll medsos) ke Invisible+Difficult dijustifikasi tepat dibanding Unattractive/Unsatisfying, implementation intention Exercise 2 persis pakai formula Bagian 2 ("Setelah membuat kopi, saya akan..."), dan kalibrasi Exercise 3 berhasil bedakan riset terkontrol (Gollwitzer/Milkman/Fogg) vs heuristik praktis (Two-Minute Rule/Never Miss Twice) tanpa menyamaratakan tingkat keyakinan. Interview Questions dijawab tepat termasuk skenario No. 3 (mengenali overlap efek Difficult dan Invisible pada kasus yang sama). **Lesson 7.4 materi dikirim (2026-08-30)** — identity-based habits diperdalam (arah inside-out, mekanisme "votes") + environment design penuh (Lewin B=f(P,E), Wood habit discontinuity, Thaler-Sunstein nudge), termasuk kalibrasi ego depletion (Baumeister) yang gagal direplikasi multi-lab (Hagger dkk. 2016) — lesson penutup mekanika Module 7 sebelum Mini Project. Log jawaban 7.1: `playground/character-development/7.1.md`, 7.2: `playground/character-development/7.2.md`, 7.3: `playground/character-development/7.3.md`. Materi: `Courses/Character Development/Module 7 - Atomic Habits Sistem Kebiasaan.md` (Obsidian).
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7, Lesson 7.1 — materi dikirim (2026-08-30), lihat status Module 7 di atas.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7, Lesson 7.4 materi dikirim (2026-08-30), lihat status Module 7 di atas.
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 7, Lesson 7.2 — Habit loop (cue → craving → response → reward).
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 7 — jawab Exercise/Interview Questions 7.4, lalu Mini Project Module 7 (rancang intervensi habit loop untuk 1 kebiasaan baik + 1 kebiasaan buruk).
