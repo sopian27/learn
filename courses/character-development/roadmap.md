@@ -210,6 +210,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02).
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 8, Lesson 8.2 (Sociometer Theory) materi dikirim (2026-09-02).
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.2 — Sociometer Theory.
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.3 — Social Rank Theory.
