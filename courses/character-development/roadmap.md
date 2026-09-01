@@ -18,7 +18,7 @@
 * [ ] Merancang dan menjalankan sistem disiplin/kerja keras yang realistis dan berkelanjutan (bukan burst semangat yang berujung burnout)
 * [ ] Mengenali dan menghentikan pola meremehkan orang lain (sarkasme menyasar orang, gosip merendahkan, perbandingan sosial merendahkan) yang sering jadi blind spot
 * [ ] Menerapkan kerangka filosofis Stoic (dikotomi kendali, ketidaktergantungan validasi eksternal) sebagai alat manajemen ego sehari-hari, disilangkan ke riset psikologi modern
-* [ ] Mengenali sumber-sumber haus validasi/gila hormat/mencari perhatian pada diri sendiri (contingent self-worth, sociometer theory, social rank theory), dan membangun sumber self-worth yang tidak bergantung penilaian orang lain *(Module 8, menunggu approval)*
+* [ ] Mengenali sumber-sumber haus validasi/gila hormat/mencari perhatian pada diri sendiri (contingent self-worth, sociometer theory, social rank theory), dan membangun sumber self-worth yang tidak bergantung penilaian orang lain *(Module 8, In Progress)*
 * [ ] Mengoreksi bias spotlight effect ("semua orang memperhatikan saya") dengan bukti nyata, dan melatih ketenangan batin/equanimity lewat praktik terstruktur (MBSR, non-attachment) *(Module 9, menunggu approval)*
 * [ ] Menghasilkan Personal Character Operating System sebagai Capstone Project, diuji lewat penerapan nyata minimal 4 minggu
 
@@ -167,7 +167,7 @@ Mini Project: Audit satu minggu — catat momen mencari validasi/pengakuan/perha
 
 Referensi riset: lihat sumber 11-14, 17-18 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
-Status: Draft — menunggu approval, belum dimulai
+Status: In Progress — Approved 2026-09-01 (permintaan langsung user menyebut lesson 8.1 persis sesuai roadmap, dianggap konfirmasi eksplisit, dijalankan paralel dengan log 28 hari Lesson 6.3). Lesson 8.1 materi dikirim (2026-09-01). Belum termasuk hitungan Module Completion di bawah. Materi: `Courses/Character Development/Module 8 - Haus Validasi, Gila Hormat, Mencari Perhatian, dan Iri Hati-Dengki.md` (Obsidian).
 
 ---
 
@@ -210,6 +210,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01), lihat status Module 7 di atas.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 mulai, Lesson 8.1 materi dikirim (2026-09-01).
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari).
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.2 — Sociometer Theory.
