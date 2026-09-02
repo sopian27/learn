@@ -159,7 +159,7 @@ Description: Module 1-5 fokus pada sombong/ego-terhadap-diri-sendiri dan cara me
 Lessons:
 
 * [x] 8.1 Contingencies of Self-Worth (Crocker & Wolfe) — memetakan di mana harga diri sendiri "digantungkan" (approval, penampilan, kompetisi, status), dan kenapa self-worth kontingen membuat mood naik-turun ikut penilaian orang lain — Selesai, skor 90/100
-* [ ] 8.2 Sociometer Theory (Leary & Baumeister) — self-esteem sebagai meteran penerimaan sosial bawaan, kenapa haus validasi bukan tanda "lemah" tapi mekanisme evolusioner yang bisa lepas kendali
+* [x] 8.2 Sociometer Theory (Leary & Baumeister) — self-esteem sebagai meteran penerimaan sosial bawaan, kenapa haus validasi bukan tanda "lemah" tapi mekanisme evolusioner yang bisa lepas kendali — Selesai, skor 92/100
 * [ ] 8.3 Social Rank Theory (Paul Gilbert) — akar evolusioner "gila hormat"/obsesi status, dan kapan dorongan status berubah jadi sumber kecemasan/perbandingan sosial yang merusak
 * [ ] 8.4 Mencari perhatian & self-centeredness — mengenali pola perilaku (mendominasi percakapan, selalu mengarahkan topik ke diri sendiri, butuh jadi pusat perhatian) sebagai gejala permukaan dari Lesson 8.1-8.3, bukan sifat terpisah
 * [ ] 8.5 Iri hati vs dengki (Social Comparison Theory — Festinger; Benign vs Malicious Envy — van de Ven, Zeelenberg, Pieters) — membedah kenapa perbandingan sosial memicu iri, dan garis tegas antara iri yang memotivasi diri naik level (sehat) vs dengki yang ingin menjatuhkan orang lain (ditolak domain ini)
@@ -231,6 +231,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 8, Lesson 8.2 (Sociometer Theory) materi dikirim (2026-09-02); Module 9 Approved 2026-09-02, belum dimulai; Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 8, Lesson 8.2 (Sociometer Theory) selesai skor 92/100 (2026-09-03); Module 9 Approved 2026-09-02, belum dimulai; Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
 
 Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.3 — Social Rank Theory. Module 9, Lesson 9.1 — Spotlight Effect (Approved, siap mulai kapan saja).
