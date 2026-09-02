@@ -127,6 +127,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `geopolitics` — domains/geopolitics/DOMAIN.md — Status: Paused — Course: courses/geopolitics/roadmap.md
 
+## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
+
+- `love-stories-history` — domains/love-stories-history/DOMAIN.md — Status: Paused — Course: courses/love-stories-history/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
