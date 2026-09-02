@@ -14,6 +14,8 @@
 
 Course ini dibuat atas permintaan langsung: "AI-Native Backend Engineering 0–expert: RedisTemplate JSON, Spring AI, AI Engineering, Kubernetes AI workload, Kubeflow, AI compliance, open table format/Iceberg, observability, security, dan vendor lock-in." Dibuat **sambil kedua Course Aktif** ("Backend Engineering Fundamentals Rebuild" Module 2/15, "Character Development" Module 1/6) **masih di bawah 50% — user eksplisit override guard CLAUDE.md § Course Creation Discipline saat ditanya konfirmasi (2026-09-01).**
 
+**Update 2026-09-02:** Module 3 diperdalam (bukan course baru) hasil `/recommend` untuk "Vector Database & RAG Architecture" + "Agentic AI di layer Database/DevOps (MCP)" — kedua Course Aktif masih di bawah 50%, user eksplisit override guard lagi saat ditanya konfirmasi, dan eksplisit pilih merge ke draft ini (bukan bikin course standalone) supaya tidak duplikat Module 3.
+
 **Kenapa course terpisah, bukan modul tambahan di course lain:**
 
 1. **vs `courses/llm/roadmap.md` dan `courses/agents/roadmap.md`** — kedua course itu adalah jalur *Applied AI Engineer* berbasis **Python**: arsitektur LLM (tokenization, embeddings, transformer), prompt engineering, fine-tuning, agent framework (LangGraph/CrewAI), dari sisi *membangun model/agent itu sendiri*. Course ini sebaliknya adalah jalur **Java/Spring Boot backend engineer yang membungkus kapabilitas AI ke dalam sistem production** — perspektif platform/infrastruktur, bukan model. Tidak ada modul yang mengulang tokenization/fine-tuning/agent framework Python; Module 1-3 course ini hanya menyentuh LLM secukupnya lewat lensa Spring AI.
@@ -97,18 +99,26 @@ Status: Not Started
 
 ## Module 3 — Advisors, RAG & MCP dengan Spring AI
 
-Description: Advisor framework adalah pola interceptor Spring AI untuk RAG/memory/logging — modul ini + MCP (kini first-class di Spring AI core) adalah bagian paling "backend-native" dari AI engineering.
+Description: Advisor framework adalah pola interceptor Spring AI untuk RAG/memory/logging — modul ini + MCP (kini first-class di Spring AI core) adalah bagian paling "backend-native" dari AI engineering. **Diperdalam 2026-09-02** hasil riset `/recommend` untuk "Vector Database & RAG Architecture" dan "Agentic AI di layer Database/DevOps (MCP)" — bukan course terpisah, materi digabung ke sini biar tidak duplikat scope dengan `courses/llm/roadmap.md`/`courses/agents/roadmap.md` (lihat Catatan Scope poin 1).
 
 Lessons:
 
 * [ ] Advisor framework: `QuestionAnswerAdvisor`, `MessageChatMemoryAdvisor`, `SimpleLoggerAdvisor` — pola interceptor untuk compose RAG/memory/logging
-* [ ] `VectorStore` abstraction & RAG production-grade (ingest, chunking, retrieval, provider vector store: PGVector/Redis/Qdrant)
+* [ ] Fondasi arsitektur RAG (bahasa-agnostik dulu sebelum API Spring AI): chunking strategy, pemilihan embedding model, hybrid search (keyword + semantic), evaluasi kualitas retrieval — baru lalu masuk `VectorStore` abstraction & RAG production-grade di Spring AI (ingest, chunking, retrieval, provider vector store: PGVector/Redis/Qdrant)
 * [ ] MCP di Spring AI: anotasi `@McpTool`/`@McpToolParam` — expose service Spring Boot sebagai MCP server, konsumsi MCP server eksternal dari Java
+* [ ] MCP server pola production di layer Database/DevOps: Row-Level Security & multi-tenancy saat MCP tool expose akses DB, OAuth 2.1 authorization + least-privilege scoping untuk MCP server, containerization & deployment cloud MCP server
 * [ ] Chat memory: short-term (per-sesi) vs long-term, penyimpanan lewat Advisor
 
-Mini Project: RAG endpoint di atas knowledge base nyata (mis. isi `standards/` repo ini) + MCP server custom yang expose 1 service internal, dikonsumsi lewat Claude/agent eksternal.
+Mini Project: RAG endpoint di atas knowledge base nyata (mis. isi `standards/` repo ini) + MCP server custom yang expose 1 service internal (dengan RLS/multi-tenancy kalau expose tabel DB), dikonsumsi lewat Claude/agent eksternal.
 
 **Production Discussion:** kapan Advisor chain jadi terlalu kompleks untuk di-debug — trade-off composability vs observability.
+
+Trusted Sources tambahan (external, non-Java, dipakai sebagai referensi konsep sebelum port ke Spring AI):
+
+* [Retrieval Augmented Generation (RAG) — DeepLearning.AI](https://www.deeplearning.ai/courses/retrieval-augmented-generation) — arsitektur RAG end-to-end, evaluasi (Phoenix/Arize)
+* [Vector Databases for RAG: An Introduction — IBM/Coursera](https://www.coursera.org/) — fondasi vector DB (Chroma DB hands-on)
+* [MCP for Beginners — Microsoft](https://github.com/microsoft/mcp-for-beginners/) — Module 11 "MCPServerHandsOnLabs", capstone 13-lab PostgreSQL: RLS, multi-tenancy, semantic search (pgvector + Azure OpenAI embeddings), container, cloud deployment
+* [MCP Authorization Tutorial](https://modelcontextprotocol.io/) — OAuth 2.1 + threat modeling untuk MCP server production
 
 Status: Not Started
 
