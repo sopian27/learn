@@ -19,7 +19,8 @@
 * [ ] Mengenali dan menghentikan pola meremehkan orang lain (sarkasme menyasar orang, gosip merendahkan, perbandingan sosial merendahkan) yang sering jadi blind spot
 * [ ] Menerapkan kerangka filosofis Stoic (dikotomi kendali, ketidaktergantungan validasi eksternal) sebagai alat manajemen ego sehari-hari, disilangkan ke riset psikologi modern
 * [ ] Mengenali sumber-sumber haus validasi/gila hormat/mencari perhatian pada diri sendiri (contingent self-worth, sociometer theory, social rank theory), dan membangun sumber self-worth yang tidak bergantung penilaian orang lain *(Module 8, In Progress)*
-* [ ] Mengoreksi bias spotlight effect ("semua orang memperhatikan saya") dengan bukti nyata, dan melatih ketenangan batin/equanimity lewat praktik terstruktur (MBSR, non-attachment) *(Module 9, menunggu approval)*
+* [ ] Mengoreksi bias spotlight effect ("semua orang memperhatikan saya") dengan bukti nyata, dan melatih ketenangan batin/equanimity lewat praktik terstruktur (MBSR, non-attachment) *(Module 9, Approved 2026-09-02)*
+* [ ] Melatih empathy sebagai skill terlatih, mengambil accountability/ownership penuh atas kesalahan tanpa menyalahkan orang lain, dan memimpin lewat melayani (Servant Leadership — Level 5 Leadership sudah dibahas Lesson 1.2, tidak diulang) — sintesis akhir "Humble Confidence" *(Module 10, Proposed Extension, menunggu approval)*
 * [ ] Menghasilkan Personal Character Operating System sebagai Capstone Project, diuji lewat penerapan nyata minimal 4 minggu
 
 ---
@@ -188,6 +189,26 @@ Mini Project: Praktik MBSR ringan (body scan atau breathing meditation, 10 menit
 
 Referensi riset: lihat sumber 13, 15-16 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
+Status: In Progress — Approved 2026-09-02, belum dimulai. Belum termasuk hitungan Module Completion di bawah.
+
+---
+
+## Module 10 — Empathy, Accountability, dan Kepemimpinan Rendah Hati (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-09-02 atas permintaan "buat course Humble Confidence 0-expert: ego, narsisme, validation seeking, superiority, humility, empathy, self-worth, menerima kritik, accountability, boundaries, leadership, dan membangun karakter tanpa kehilangan percaya diri". Cross-check ke roadmap + `domains/character-development/DOMAIN.md` + `domains/self-love/DOMAIN.md` + `domains/emotional-resilience/DOMAIN.md`: ego/narsisme/superiority/humility (Module 1, 5), validation seeking/self-worth kontingen (Module 8), menerima kritik (Module 2), boundaries (sudah tercover penuh di `self-love`/`emotional-resilience`, sengaja TIDAK diduplikasi di sini). Sisa gap nyata cuma tiga: empathy, accountability, leadership — dikonfirmasi user lewat proses brainstorming (bounded path) untuk extend domain ini, bukan bikin course baru. **Revisi 2026-09-02**: rencana awal lesson 10.3 Level 5 Leadership (Jim Collins, sumber 1) dihapus setelah user menandai itu duplikat Lesson 1.2 yang sudah membahas sumber & konsep sama persis — bukan materi baru, cuma "dipraktikkan" vs "dibaca", beda tipis dan tidak substantif. Servant Leadership (Greenleaf, sumber 9) TETAP karena sumber & konsep beda, belum pernah dibahas di module manapun. Module 10 jadi 3 lesson: Empathy, Accountability, Servant Leadership.
+
+Description: Module 1-9 fokus manajemen ego terhadap diri sendiri (humility, self-worth, validation, spotlight, equanimity). Modul ini menutup sisi terakhir: bagaimana karakter rendah hati itu dijalankan AKTIF ke luar — memahami orang lain (empathy), memikul tanggung jawab penuh atas kesalahan sendiri tanpa menyalahkan orang lain (accountability), dan memimpin lewat melayani tanpa butuh status/pengakuan (Servant Leadership) — sintesis akhir "Humble Confidence": percaya diri yang tidak butuh meremehkan orang lain atau validasi eksternal untuk berdiri tegak.
+
+Lessons:
+
+* [ ] 10.1 Empathy — cognitive vs affective empathy (Baron-Cohen; Zaki, *War for Kindness*), beda empati dari sekadar simpati, dan empathy sebagai skill yang bisa dilatih bukan sifat bawaan tetap
+* [ ] 10.2 Accountability/ownership nyata — beda "menerima kritik" (Module 2, pasif menerima masukan) vs aktif mengambil tanggung jawab penuh atas kesalahan tanpa menyalahkan orang/keadaan lain (Extreme Ownership — Willink & Babin, disilangkan ke riset atribusi/self-serving bias)
+* [ ] 10.3 Servant Leadership (Robert Greenleaf, sumber 9 domain pack) — memimpin lewat melayani, sintesis akhir menggabungkan Module 1-10 jadi definisi pribadi "Humble Confidence"
+
+Mini Project: Pilih satu situasi nyata (kerja/personal) di mana kesalahan terjadi — tuliskan reaksi pertama (jujur, termasuk kalau awalnya menyalahkan orang/keadaan lain), lalu terapkan Extreme Ownership untuk menulis ulang secara akuntabel penuh. Tambahkan satu momen praktik empathy nyata (mendengarkan sudut pandang orang lain sebelum merespons), dan tutup dengan definisi pribadi "Humble Confidence" — sintesis 1-2 paragraf yang menggabungkan minimal 3 modul sebelumnya.
+
+Referensi riset: sumber 9 di `domains/character-development/DOMAIN.md` (sumber 1 dipakai di Lesson 1.2, tidak diulang di sini), plus sumber baru 19 (empathy) dan 20 (accountability) — lihat bagian "Trusted Sources / Research Priority".
+
 Status: Draft — menunggu approval, belum dimulai
 
 ---
@@ -210,6 +231,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 8, Lesson 8.2 (Sociometer Theory) materi dikirim (2026-09-02).
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8, Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 8, Lesson 8.2 (Sociometer Theory) materi dikirim (2026-09-02); Module 9 Approved 2026-09-02, belum dimulai; Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.3 — Social Rank Theory.
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 8, Lesson 8.3 — Social Rank Theory. Module 9, Lesson 9.1 — Spotlight Effect (Approved, siap mulai kapan saja).
