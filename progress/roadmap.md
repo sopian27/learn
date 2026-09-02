@@ -204,6 +204,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Career Reinvention & Active Job Search** — `courses/career-reinvention/roadmap.md` — Domain: software-engineering. Bukan gap kredensial (`credential-strategy`) maupun craft (`engineering-culture`) — lapisan kemasan & distribusi (CV/LinkedIn/portfolio/networking). Status: Draft, menunggu approval.
 
+## 2026-09-02 — Putin Code — Strategic Thinking
+
+* **Putin Code — Strategic Thinking** — `courses/putin-code-strategic-thinking/roadmap.md` — Domain: power-negotiation-strategy (draft, belum terdaftar aktif). Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion (pola sama seperti override sebelumnya, lihat `ai-los/ACTIVE_DOMAIN.md`). 14 modul: strategic thinking, power dynamics, psychological influence, negotiation theory (Harvard PON), timing, risk management/escalation, decision-making models (Graham Allison), komunikasi, Power Ethics wajib (bukan opsional), comparative lens (Machiavelli/Kissinger/Robert Greene), ditutup dua modul Applied Transfer (karier/leadership, negosiasi/software engineering). Studi kasus utama: Vladimir Putin — dianalisis akademik-netral, house rule wajib Descriptive/Normative Separation + Source Balance (sumber operative-analysis disilangkan sumber kritis tiap klaim) supaya tidak jadi endorsement politik maupun manual manipulasi. Status: Draft, menunggu approval.
+
 ## 2026-08-13 — Apresiasi Puisi Indonesia & Dunia
 
 * **Apresiasi Puisi Indonesia & Dunia** — `courses/poetry-appreciation/roadmap.md` — Domain: poetry-appreciation (registered paused). Status: Draft, menunggu approval.
