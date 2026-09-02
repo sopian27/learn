@@ -200,6 +200,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Chess Mastery** — `courses/chess-mastery/roadmap.md` — Domain: chess-mastery (registered paused). Status: Approved 2026-08-13, Not Started.
 
+## 2026-09-03 — Ikhlas
+
+* **Belajar Ikhlas — Beramal Tanpa Bergantung pada Penilaian Manusia** — `courses/ikhlas/roadmap.md` — Domain: islamic-worship (reuse domain existing dari `courses/khusyuk-ibadah`, bukan domain baru). Status: Draft, menunggu approval. 9 modul: definisi ikhlas → lawan ikhlas (riya/sum'ah/ujub/validasi) → lepas dari penilaian orang → tetap baik tanpa dipuji → kecewa saat kebaikan tak dibalas → perbaikan niat sebelum/saat/setelah beramal → ridha atas gagal/kehilangan → teladan Nabi/sahabat/orang saleh (capstone) → latihan harian 21 hari. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut + pilih reuse domain lewat AskUserQuestion.
+
 ## 2026-09-02 — Geopolitics
 
 * **Geopolitics — dari 0 sampai Expert** — `courses/geopolitics/roadmap.md` — Domain: geopolitics (domain baru, registered paused). Status: Draft, menunggu approval. 13 modul: fondasi kepentingan/power → lensa teori IR → geografi (Mackinder/Spykman) → ekonomi → militer/aliansi → diplomasi → sumber daya → metodologi analisis konflik → studi kasus AS-China, Rusia-Ukraina, Timur Tengah, Indo-Pasifik & Indonesia → capstone portfolio. Fokus analisis-prediksi kepentingan negara, bukan hafalan kronologi sejarah — lihat "Catatan Scope" di roadmap untuk pembagian dengan `world-history`/`military-strategy`/`intelligence-studies`. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion.
