@@ -36,9 +36,9 @@ Course Completion: 0/6 module (0%)
 
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
-Current Module: Module 3 — JVM Internals untuk Debugging Production (belum dimulai)
-Current Lesson: Belum dimulai
-Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Mini Project)
+Current Module: Module 3 — JVM Internals untuk Debugging Production (in progress)
+Current Lesson: 3.2 Garbage Collector (belum dimulai)
+Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Mini Project), Module 3 in progress
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
@@ -54,6 +54,7 @@ Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Min
 | 2.4 Virtual Threads (Project Loom, Java 25): beda fundamental dengan platform thread, kapan menguntungkan untuk I/O-bound | Selesai (2026-08-28), skor 91/100 | Dikerjakan, direview |
 | 2.5 Kelas bug concurrency umum di production: deadlock, livelock, stale read — cara mendiagnosisnya dari thread dump | Selesai (2026-08-29), skor 92/100 | Dikerjakan, direview |
 | Module 2 Mini Project — Paralelkan batch order enrichment tanpa race condition | Selesai (2026-08-29), skor 93/100 | Dikerjakan, direview |
+| 3.1 Memory model JVM: heap vs stack vs metaspace, object lifecycle, eligible GC | Selesai (2026-09-02), skor 90/100 | Dikerjakan, direview |
 
 ---
 
