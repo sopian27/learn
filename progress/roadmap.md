@@ -200,6 +200,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Chess Mastery** — `courses/chess-mastery/roadmap.md` — Domain: chess-mastery (registered paused). Status: Approved 2026-08-13, Not Started.
 
+## 2026-09-02 — Geopolitics
+
+* **Geopolitics — dari 0 sampai Expert** — `courses/geopolitics/roadmap.md` — Domain: geopolitics (domain baru, registered paused). Status: Draft, menunggu approval. 13 modul: fondasi kepentingan/power → lensa teori IR → geografi (Mackinder/Spykman) → ekonomi → militer/aliansi → diplomasi → sumber daya → metodologi analisis konflik → studi kasus AS-China, Rusia-Ukraina, Timur Tengah, Indo-Pasifik & Indonesia → capstone portfolio. Fokus analisis-prediksi kepentingan negara, bukan hafalan kronologi sejarah — lihat "Catatan Scope" di roadmap untuk pembagian dengan `world-history`/`military-strategy`/`intelligence-studies`. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion.
+
 ## 2026-08-13 — Career Reinvention & Active Job Search
 
 * **Career Reinvention & Active Job Search** — `courses/career-reinvention/roadmap.md` — Domain: software-engineering. Bukan gap kredensial (`credential-strategy`) maupun craft (`engineering-culture`) — lapisan kemasan & distribusi (CV/LinkedIn/portfolio/networking). Status: Draft, menunggu approval.
