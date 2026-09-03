@@ -139,6 +139,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `not-caring` — domains/not-caring/DOMAIN.md — Status: Paused — Course: courses/not-caring/roadmap.md
 
+## Paused (2026-09-04, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap parsial dengan `self-love`/`emotional-resilience`/`not-caring`/`stoicism`/`life-mastery`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
+
+- `happiness` — domains/happiness/DOMAIN.md — Status: Paused — Course: courses/happiness/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
