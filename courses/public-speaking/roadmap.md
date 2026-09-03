@@ -21,6 +21,12 @@
 * [ ] Membawakan presentasi di konteks lanjutan: audiens besar, virtual/video call, dan situasi bertekanan (mis. ditanya sulit, waktu dipotong)
 * [ ] Menghasilkan Signature Talk (8-18 menit) sebagai Capstone Project, dibawakan ke audiens nyata dan didokumentasikan di `portofolio/`
 
+**Ditambahkan 2026-09-03 (append, Modul 9-10, Proposed Extension menunggu approval):**
+
+* [ ] Membedakan pitching, presentation, dan technical demo, dan menyusun narasi produk/fitur memakai struktur problem-impact-solution-value
+* [ ] Menerjemahkan fitur teknis ke business value tanpa jargon, memakai prinsip SUCCESs (Heath) dan positioning (Dunford)
+* [ ] Membawakan live demo aplikasi yang meyakinkan dengan fallback plan, menjelaskan keputusan teknis secara sederhana ke stakeholder non-teknis, menjawab keberatan (objection) tanpa defensif, dan menutup dengan closing yang jelas
+
 ---
 
 # Course Modules
@@ -161,6 +167,40 @@ Status: Not started
 
 ---
 
+## Module 9 — Pitching & Demo Aplikasi: Dari Fitur ke Business Value (append, Proposed Extension 2026-09-03)
+
+Description: Public speaking umum (Modul 1-8) melatih menyampaikan pesan/ide ke audiens luas. Pitching dan demo produk adalah konteks lebih sempit dan spesifik: audiensnya user/stakeholder/manager/product owner/executive, dan tujuannya bukan cuma menyampaikan ide tapi menunjukkan business value dari sebuah aplikasi/fitur nyata. Modul ini menyilangkan skill Modul 1-8 (struktur, delivery, storytelling) ke konteks itu, plus menambahkan kerangka baru yang khusus untuk produk: problem-impact-solution-value dan positioning.
+
+Lessons:
+
+* [ ] 9.1 Bedanya pitching, presentation, dan technical demo — audiens, tujuan, dan durasi berbeda (Guy Kawasaki, *The Art of the Start 2.0*), kapan pakai yang mana
+* [ ] 9.2 Struktur problem-impact-solution-value — perluasan What Is vs What Could Be (Duarte, *Resonate*, Modul 4.2) ke konteks produk: masalah nyata, dampak/angka, solusi (app/fitur), value/outcome bisnis — bukan daftar fitur
+* [ ] 9.3 Menjelaskan fitur tanpa jargon teknis — kerangka SUCCESs (Chip & Dan Heath, *Made to Stick*) dan positioning produk (April Dunford, *Obviously Awesome*): menerjemahkan fitur teknis ke outcome yang dipahami audiens non-teknis
+* [ ] 9.4 Hook pembuka pitching — beda dari hook talk umum (Modul 2.2): buka dengan masalah/angka relevan ke audiens spesifik (investor/manager/user) dalam <60 detik
+
+Mini Project: Susun outline pitch 3-5 menit untuk satu fitur/aplikasi nyata (kerja atau proyek portofolio pribadi) memakai struktur problem-impact-solution-value, direview terhadap checklist SUCCESs (tanpa jargon teknis yang tidak perlu).
+
+Status: Not started
+
+---
+
+## Module 10 — Live Demo, Menjawab Keberatan Stakeholder, dan Closing (append, Proposed Extension 2026-09-03)
+
+Description: Lanjutan Modul 9 — dari outline pitch ke eksekusi nyata: demo software secara langsung, menjelaskan keputusan teknis ke audiens non-teknis, menangani keberatan (objection) stakeholder, dan menutup presentasi dengan kuat. Menyilangkan delivery (Modul 3) dan Q&A (Modul 6) ke konteks bisnis/produk.
+
+Lessons:
+
+* [ ] 10.1 Teknik live demo yang meyakinkan — happy path dulu baru edge case, siapkan fallback (rekaman cadangan) untuk technical failure, jangan demo fitur yang belum stabil (Y Combinator, "How to Demo your Startup")
+* [ ] 10.2 Menjelaskan keputusan teknis ke audiens non-teknis — analogi, hindari jargon (silang ke Modul 9.3), jawab "kenapa" dulu baru "bagaimana" kecuali diminta detail
+* [ ] 10.3 Menjawab pertanyaan dan keberatan stakeholder — perluasan kerangka Q&A Modul 6.3-6.4 ke objection handling spesifik bisnis (harga, timeline, risiko, "kenapa bukan solusi lain"), teknik acknowledge-bridge-answer
+* [ ] 10.4 Closing yang kuat dan kesalahan umum pitching/demo — call-to-action/next step yang jelas di akhir (bukan sekadar "ada pertanyaan?"), katalog kesalahan umum (fitur kebanyakan, demo gagal tanpa fallback, tanpa CTA, membaca slide, berdebat dengan stakeholder)
+
+Mini Project: Lakukan live demo aplikasi nyata (5-8 menit) ke audiens nyata (rekan kerja/manajer/klien simulasi) memakai outline pitch dari Modul 9, dilanjutkan sesi tanya-jawab termasuk minimal satu keberatan nyata, dicatat di speech log — refleksi eksplisit dibanding delivery baseline Modul 1 dan Q&A skill Modul 6.
+
+Status: Not started
+
+---
+
 # Enterprise Project
 
 Description: Tidak ada proyek terpisah tambahan di luar modul — Capstone Module 8 (Signature Talk) adalah proyek puncak course ini, konsisten dengan `domains/public-speaking/DOMAIN.md` bagian "Project Tiers".
@@ -173,11 +213,11 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/8
+Module Completion: 0/8 (Modul 9-10 append, Proposed Extension — belum masuk hitungan Module Completion sampai disetujui, mengikuti pola `courses/character-development/roadmap.md`)
 
 Overall Completion: 0%
 
-Current Module: Belum dimulai — menunggu approval roadmap ini dan approval domain pack `domains/public-speaking/DOMAIN.md`
+Current Module: Belum dimulai — menunggu approval roadmap ini (termasuk Modul 9-10 append) dan approval domain pack `domains/public-speaking/DOMAIN.md`
 
 Current Lesson: —
 

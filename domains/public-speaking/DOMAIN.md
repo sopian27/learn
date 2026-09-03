@@ -33,6 +33,15 @@ Secara eksplisit TIDAK mencakup:
 
 Tidak pernah membangun satu lesson hanya dari sumber populer (5, 6, 8, 9, 10) tanpa menyilangkan ke fondasi klasik (1) atau akademik (2-3). Modul mengatasi glossophobia wajib berpijak ke riset komunikasi akademik (sumber 3), bukan sekadar tips motivasi.
 
+**Ditambahkan 2026-09-03 untuk Modul 9-10 (Pitching & Product Demo, extension):**
+
+11. **Guy Kawasaki, *The Art of the Start 2.0*** (mantan Chief Evangelist Apple) — kerangka pitch bisnis/produk (termasuk 10/20/30 rule untuk pitch deck), dipakai untuk membedakan pitching dari presentation/talk umum di Modul 9.1.
+12. **Chip Heath & Dan Heath, *Made to Stick*** (Stanford/Duke) — kerangka SUCCESs (Simple, Unexpected, Concrete, Credible, Emotional, Stories) untuk menjelaskan ide/fitur kompleks secara sederhana dan menempel di ingatan, dipakai Modul 9.3.
+13. **April Dunford, *Obviously Awesome*** — metodologi positioning produk: menerjemahkan fitur teknis ke value/outcome yang relevan bagi audiens spesifik, dipakai Modul 9.3 untuk "fitur tanpa jargon teknis".
+14. **Y Combinator — "How to Demo your Startup" / Demo Day guidance** (startuplibrary/YC blog resmi) — praktik live demo software: happy path dulu, siapkan fallback rekaman untuk technical failure, jangan demo fitur belum stabil. Dipakai Modul 10.1.
+
+Sumber 11-14 dipakai khusus untuk konteks pitching/demo produk (Modul 9-10) dan tetap disilangkan ke fondasi 1-2 (ethos/pathos/logos, audience analysis) serta sumber 6 (Duarte, *Resonate* — struktur What Is vs What Could Be jadi basis kerangka problem-impact-solution-value).
+
 ## Applied Practice Definition
 
 Rekaman atau penampilan langsung nyata di depan audiens sungguhan (bukan latihan di depan cermin/hipotetis semata), didokumentasikan sebagai **speech log**: konteks (audiens, durasi, tujuan), rekaman/naskah, feedback yang diterima (dari audiens nyata atau self-review dari video), dan refleksi perubahan dari sesi sebelumnya — mengikuti model siklus Toastmasters (tampil → evaluasi → perbaiki → tampil lagi). Latihan boleh dimulai dari rekam video sendiri untuk speech awal yang paling menegangkan, tapi target tiap modul lanjut tetap penampilan di depan audiens nyata (sekecil apa pun — keluarga, teman, rekan kerja, klub Toastmasters, tim daring).
