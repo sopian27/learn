@@ -46,7 +46,7 @@ Trusted Sources lengkap untuk 4 gap ini ada di `domains/daily-momentum/DOMAIN.md
 
 * [ ] Memetakan 11 area "produktif" ke course yang tepat di repo ini, dan tahu urutan realistis lintas 5 course/domain untuk situasi sendiri
 * [ ] Menjelaskan circadian rhythm dan sleep hygiene berbasis riset, lalu menjalankan jam tidur-bangun konsisten yang dilacak nyata (bukan cuma dirancang)
-* [ ] Menjelaskan sleep inertia, menerapkan implementation intentions & tiny-habit anchor untuk merancang morning routine yang benar-benar jalan tanpa rebahan berlarut
+* [ ] Menjelaskan sleep inertia, menerapkan implementation intentions & tiny-habit anchor untuk merancang morning routine yang benar-benar jalan tanpa rebahan berlarut, termasuk anchor ibadah pagi
 * [ ] Menjadwalkan olahraga sebagai pengungkit energi/kewaspadaan harian yang predictable, dijangkar ke pedoman ACSM dan riset exercise-cognition — dibedakan tegas dari lensa kesehatan hormonal `mens-health`
 * [ ] Menjalankan ritual evaluasi harian (rencana vs realita, satu penyesuaian besok) berbasis kerangka After Action Review
 * [ ] Menghasilkan Personal Daily Momentum System sebagai Capstone Project, dengan Capstone yang MERUJUK LANGSUNG (bukan menulis ulang) artifact dari `work-management`, `brain-mastery`, `dopamine`, `character-development`, `learning-science`
@@ -98,8 +98,9 @@ Lessons:
 * [ ] 3.2 Kenapa niat "besok bangun langsung" gagal — Implementation Intentions (Gollwitzer): format if-then plan yang terbukti riset
 * [ ] 3.3 Tiny Habits (Fogg) diterapkan ke morning routine — anchor ke aktivitas existing, mulai dari langkah sekecil mungkin
 * [ ] 3.4 Merancang morning routine pribadi 3-5 langkah, diuji minimal 1 minggu, direvisi berdasarkan hasil nyata (bukan dirancang sekali lalu ditinggal)
+* [ ] 3.5 Anchor ibadah pagi ke morning routine — menerapkan Implementation Intentions (Gollwitzer) & Tiny Habits (Fogg) dari 3.2-3.3 supaya ibadah pagi jadi langkah pertama yang benar-benar terjadi (bukan terlewat karena rebahan/buru-buru); ISI ibadahnya sendiri merujuk `domains/islamic-worship/DOMAIN.md` / `courses/khusyuk-ibadah/roadmap.md`, di sini HANYA teknik desain anchor-nya (extension 2026-09-04, atas permintaan user)
 
-Mini Project: Morning Routine Log 1 minggu — langkah mana jalan/bolong tiap hari, jeda rebahan-ke-bangun diukur (menit), penyesuaian yang diambil.
+Mini Project: Morning Routine Log 1 minggu — langkah mana jalan/bolong tiap hari (termasuk anchor ibadah pagi kalau dipakai), jeda rebahan-ke-bangun diukur (menit), penyesuaian yang diambil.
 
 Status: Not Started
 

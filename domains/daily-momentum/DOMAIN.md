@@ -1,6 +1,6 @@
 # Daily Momentum — Domain Pack
 
-**Status: DRAFT — menunggu approval user, belum terdaftar final di `ai-los/ACTIVE_DOMAIN.md`.**
+**Status: Approved (2026-09-04) — terdaftar Paused di `ai-los/ACTIVE_DOMAIN.md`, antre di belakang Course Aktif "Character Development" (kebijakan cap 2-course-aktif).**
 
 ## Domain Name
 
@@ -84,3 +84,5 @@ Learner punya Personal Daily Momentum System nyata dan teruji lewat eksekusi (bu
 ## Registration History
 
 Draft dibuat 2026-08-25 atas permintaan langsung user: "Buat course produktif 0–expert: tidur & bangun konsisten, anti-rebahan pagi, morning routine, olahraga, belajar, deep work, time blocking, habit building, fokus, energy management, dan evaluasi harian." Dicek dulu ke 4 domain/course existing (`work-management`, `learning-science`/`brain-mastery`, `dopamine` draft, `character-development`) — 6 dari 11 sub-topik user sudah tercakup penuh di sana. User memilih pendekatan thin-integrator (bukan full rewrite) lewat AskUserQuestion eksplisit. Domain baru dipilih (bukan diperluas ke domain existing manapun) karena 4 gap asli (tidur-bangun, anti-rebahan pagi, olahraga-energy, evaluasi harian) adalah lapisan FISIK-TEMPORAL yang tidak dimiliki satupun domain di atas — `work-management` mulai dari "tugas sudah ada di depan mata", bukan dari bangun tidur. Dibuat saat Course Aktif "Character Development" masih 2/6 module (33%, di bawah 50%) — user eksplisit konfirmasi override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion.
+
+**Approved 2026-09-04:** User minta course baru terpisah "Mastering Early Mornings — Seni Bangun Pagi" (sirkadian, sleep inertia, anti-snooze, morning routine, ibadah/olahraga/belajar/kerja pagi, evaluasi kegagalan). Dicek dulu — ~90% brief itu sudah tercakup Module 2-3 course ini. User memilih approve/pakai course ini (bukan course baru terpisah) via AskUserQuestion, plus extend Lesson 3.5 untuk gap "ibadah pagi" yang belum tercover. Antre di belakang Course Aktif "Character Development" (masih di garis 50%), tidak jadi Course Aktif ke-3 — user pilih "approve, antre dulu" via AskUserQuestion kedua.
