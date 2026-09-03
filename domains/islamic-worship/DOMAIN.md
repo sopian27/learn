@@ -1,12 +1,14 @@
-# Khusyuk & Kedekatan dalam Ibadah — Domain Pack
+# Hijrah & Khusyuk dalam Ibadah — Domain Pack
 
 ## Domain Name
 
-Islamic Worship Practice (Khusyuk, Dzikir, Shalat, Shalat Malam, dan Kedekatan dengan Allah)
+Islamic Worship Practice & Hijrah (Khusyuk, Dzikir, Shalat, Shalat Malam, Akhlak, Hawa Nafsu, Lingkungan, dan Kedekatan dengan Allah)
 
 ## Scope
 
-Praktik ibadah harian dalam Islam yang berfokus pada **kualitas batin dan konsistensi**, bukan sekadar fikih hukum sah/tidak sah: membangun rasa cinta dan kedekatan kepada Allah, menghilangkan rasa malas/berat beribadah, memahami makna bacaan shalat dan dzikir, meningkatkan khusyuk dan fokus dalam shalat, membangun kebiasaan shalat malam secara bertahap, adab dan kehadiran hati saat berdoa, menghadapi futur/bosan/dosa/rasa jauh dari Allah, serta sifat hati inti (ikhlas, tawakal, sabar, syukur, taubat) — dengan kisah Nabi, sahabat, dan orang saleh sebagai inspirasi terapan, bukan hafalan sejarah.
+Perbaikan diri (hijrah) dalam Islam secara menyeluruh yang berfokus pada **kualitas batin dan konsistensi**, bukan sekadar fikih hukum sah/tidak sah: makna hijrah itu sendiri (maknawiyah vs makaniyah, niat sebagai penentu nilai), membangun rasa cinta dan kedekatan kepada Allah, menghilangkan rasa malas/berat beribadah, mengendalikan hawa nafsu dan kebiasaan buruk sehari-hari, memahami makna bacaan shalat dan dzikir, meningkatkan khusyuk dan fokus dalam shalat, membangun kebiasaan shalat malam secara bertahap, adab dan kehadiran hati saat berdoa, akhlak dan hubungan dengan sesama manusia, memilih lingkungan dan pertemanan tanpa jatuh ke ujub/merasa lebih baik dari orang lain, menghadapi futur/bosan/dosa/rasa jauh dari Allah, serta sifat hati inti (ikhlas, tawakal, sabar, syukur, taubat) — dengan kisah Nabi, sahabat, dan orang saleh sebagai inspirasi terapan, bukan hafalan sejarah.
+
+**Diperluas 2026-09-04** dari scope awal "khusyuk ibadah" (fokus shalat/dzikir/doa) jadi "hijrah menyeluruh" — lihat "Registration History" untuk provenance lengkap.
 
 Secara eksplisit TIDAK mencakup:
 
@@ -78,3 +80,5 @@ Learner merasakan ibadah (shalat, dzikir, shalat malam, doa) sebagai kebiasaan y
 ## Registration History
 
 Domain baru, dibuat 2026-09-02 atas permintaan langsung user ("Course: Khusyuk & Nyaman dalam Ibadah — Membangun Kedekatan dengan Allah... dari dasar sampai mendalam"). Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi lanjut lewat AskUserQuestion, mengikuti pola override guard `ai-los/COURSE_CREATION.md` yang sama seperti domain-domain lain yang dibuat pada tanggal yang sama.
+
+**Diperluas 2026-09-04** atas permintaan user "Course: Hijrah — Perjalanan Menjadi Lebih Baik" (ajarkan hijrah secara menyeluruh: iman, ibadah, akhlak, kebiasaan, lingkungan). Overlap ~70% terdeteksi dengan course `courses/khusyuk-ibadah/roadmap.md` yang sudah ada (belum dimulai) — dikonfirmasi via AskUserQuestion, user pilih **extend course existing** (bukan domain/course baru) untuk hindari duplikasi. Scope domain diperluas dari "khusyuk ibadah" jadi "hijrah menyeluruh"; course ditambah 4 modul baru (makna hijrah, hawa nafsu, akhlak ke manusia, lingkungan/pertemanan) jadi 14 modul, judul course diubah jadi "Hijrah & Khusyuk dalam Ibadah — Membangun Kedekatan dengan Allah dan Perbaikan Diri Menyeluruh".

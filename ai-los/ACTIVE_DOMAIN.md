@@ -133,7 +133,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
 
-- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md
+- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md (scope diperluas 2026-09-04 jadi "hijrah menyeluruh", 14 modul — lihat "Registration History" di domain file)
 
 ## Paused (2026-09-03, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap ~70-80% dengan `emotional-resilience`/`self-love`/`stoicism`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
 
