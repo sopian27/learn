@@ -92,7 +92,7 @@ Lessons:
 
 * [x] 3.1 Memory model JVM: heap vs stack vs metaspace, object lifecycle, kapan sesuatu jadi eligible untuk GC — Selesai (2026-09-02), skor 90/100
 * [x] 3.2 Garbage Collector: perbedaan mental model GC generasional, GC modern (G1, ZGC) secukupnya untuk memahami trade-off throughput vs latency — Selesai (2026-09-03), skor 82/100
-* [ ] 3.3 Memory leak klasik di aplikasi Spring Boot: static collection yang terus tumbuh, listener yang tidak di-unregister, `ThreadLocal` yang tidak dibersihkan
+* [x] 3.3 Memory leak klasik di aplikasi Spring Boot: static collection yang terus tumbuh, listener yang tidak di-unregister, `ThreadLocal` yang tidak dibersihkan — Selesai (2026-09-04), skor 85/100
 * [ ] 3.4 Cara baca heap dump & thread dump dasar (tooling: `jcmd`, VisualVM/JFR) untuk mendiagnosis `OutOfMemoryError` atau aplikasi yang "hang"
 * [ ] 3.5 JVM flags production-relevan secukupnya (heap sizing, GC selection) — bukan tuning mendalam, cukup untuk tahu apa yang sedang dikonfigurasi dan kenapa
 
@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 3 — JVM Internals untuk Debugging Production — **In Progress**
 
-Current Lesson: 3.3 Memory leak klasik di aplikasi Spring Boot
+Current Lesson: 3.4 Cara baca heap dump & thread dump dasar
 
-Next: Lesson 3.3 (Memory leak klasik di Spring Boot)
+Next: Lesson 3.4 (heap dump & thread dump, tooling `jcmd`/VisualVM/JFR)
