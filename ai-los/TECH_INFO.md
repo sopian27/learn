@@ -14,6 +14,14 @@ Every invocation runs a fresh web search. Never reuse a previous run's results f
 
 ---
 
+# Step 0 — Recall Covered Topics
+
+Before searching, read `info tech/_topics-log.md` in the vault (see [[reference_obsidian_vault]] memory for vault path). If it doesn't exist yet, treat the topic list as empty and create it after Step 4.
+
+Each line is `YYYY-MM-DD: tag1, tag2, ...` — normalized kebab-case topic tags (e.g. `spring-boot-4`, `virtual-threads`, `jdk21-license`, `k8s-dra`, `claude-model-pricing`). Build the exclusion set from this log before curating anything.
+
+---
+
 # Step 1 — Search
 
 Search the web for current tech news. Curate 6 items per run (not 3). Prioritize:
@@ -22,6 +30,14 @@ Search the web for current tech news. Curate 6 items per run (not 3). Prioritize
 - Topics relevant to my roadmap: Software Engineering, Backend Engineering, Java/Spring, Software Architecture, System Design, AI/LLM/AI Engineering, Cloud Native, Kubernetes, DevOps, Database, Distributed Systems, Developer Tools.
 
 Use credible sources, prefer the most recent coverage. Skip clickbait, unconfirmed rumors, and news with no technical substance. If multiple sources cover the same story, merge into one insight instead of listing duplicates.
+
+## No-Repeat Rule
+
+Cross-check every candidate topic against the tag log from Step 0.
+
+- If a candidate matches a logged tag and there is no concrete state change since it was last covered (same status, same numbers, just reworded or re-reported) — **drop it**. Rewording an already-covered story is not a new item; find a genuinely different one instead.
+- Only re-cover a logged topic if something material actually changed (e.g. beta → GA, milestone → stable release, a new number/price, an announced thing actually shipped, a resolved outcome). In that case the item must be framed as a follow-up, not fresh news: open **Apa yang terjadi?** with what changed since `[tanggal terakhir dibahas]`, and skip re-explaining background already covered before.
+- If after filtering there are fewer than 6 genuinely new/updated items, it's fine to report fewer than 6 — never pad with reworded repeats to hit the count.
 
 ---
 
@@ -113,6 +129,16 @@ If `YYYY-MM-DD.md` already exists for today:
 - Do not create a duplicate file — update/merge into the existing one.
 - Never delete existing important information.
 - Never list the same news item twice.
+
+### Update the Topic Log
+
+After saving the daily file, append one line to `info tech/_topics-log.md`:
+
+```
+YYYY-MM-DD: tag1, tag2, tag3, ...
+```
+
+One tag per item covered today (same normalized tags used for the Step 0 exclusion check). Create the file with this format if it doesn't exist yet. Never rewrite or delete earlier lines — append only.
 
 ---
 
