@@ -5,7 +5,7 @@
 * Course Name: Hijrah & Khusyuk dalam Ibadah — Membangun Kedekatan dengan Allah dan Perbaikan Diri Menyeluruh
 * Category: Islamic Worship Practice & Hijrah (Domain: islamic-worship — lihat `domains/islamic-worship/DOMAIN.md`, scope diperluas 2026-09-04 dari "khusyuk ibadah" jadi "hijrah menyeluruh")
 * Difficulty: Level 0 (shalat terasa berat/terburu-buru, dzikir hafalan tanpa makna, belum pernah shalat malam rutin, belum pernah menata ulang kebiasaan/lingkungan secara sadar) → Level 3 (memahami makna bacaan shalat, punya strategi konkret menjaga khusyuk, punya kebiasaan shalat malam bertahap yang bertahan, kerangka hati untuk menghadapi futur/dosa/rasa jauh dari Allah, DAN mampu menata akhlak, hawa nafsu, serta lingkungan sebagai bagian hijrah) — bukan level ustadz/ulama, tapi level muslim yang hijrahnya sudah jadi kebiasaan yang dicintai
-* Estimated Duration: 14 modul, 3-4 lesson/modul (~50 lesson) — pace sengaja lambat karena Applied Practice-nya berupa amalan harian bertahap yang butuh dicoba nyata dulu sebelum lanjut, bukan sekadar dibaca
+* Estimated Duration: 14 modul, 3-4 lesson/modul, Modul 8 diperdalam jadi 7 lesson (~53 lesson total) — pace sengaja lambat karena Applied Practice-nya berupa amalan harian bertahap yang butuh dicoba nyata dulu sebelum lanjut, bukan sekadar dibaca
 * Prerequisites: Sudah tahu cara shalat secara teknis (gerakan, bacaan wajib) — course ini tidak mengajarkan fikih shalat dari nol, fokusnya kualitas batin, konsistensi, dan perbaikan diri menyeluruh. Kesediaan mencatat log harian singkat untuk Applied Practice.
 
 ---
@@ -15,6 +15,8 @@
 Course ini murni domain [[islamic-worship]] — lihat `domains/islamic-worship/DOMAIN.md` untuk batas eksplisit dengan fikih teknis, sejarah Islam ([[world-history]]), dan aqidah/tafsir mendalam. House rule inti yang berlaku di SETIAP modul: pisahkan eksplisit dalil kuat (Qur'an/hadits shahih-hasan), pendapat/nasihat ulama, dan kisah/riwayat lemah — tidak pernah dicampur seolah setara.
 
 **Diperluas 2026-09-04** — atas permintaan user "ajarkan hijrah secara menyeluruh" (bukan cuma ibadah, tapi juga akhlak, hawa nafsu, lingkungan/pertemanan). Overlap ~70% dengan course ini sudah ada (taubat, dosa, futur, istiqamah, ikhlas-tawakal-sabar-syukur, kisah Nabi/sahabat) — dikonfirmasi via AskUserQuestion untuk extend course ini (bukan bikin domain/course baru) daripada duplikasi. 4 modul baru disisipkan (Modul 2, 4, 9, 10 — modul lama digeser nomornya, isi tidak berubah) mengisi gap: makna hijrah itu sendiri, mengendalikan hawa nafsu/kebiasaan buruk umum, akhlak ke sesama manusia, dan lingkungan/pertemanan + hijrah tanpa ujub. Course masih Not Started, jadi renumbering aman (tidak ada progress hilang).
+
+**Diperdalam 2026-09-05** — atas permintaan course baru "The Art of Dua — Memperbaiki Cara Berdoa". Overlap ~60-70% terdeteksi dengan Module 8 course ini yang sudah ada (adab lahir-batin, waktu mustajab, kenapa doa "tak didengar", doa sendiri vs ma'tsur) — dikonfirmasi via AskUserQuestion, user pilih **perdalam Module 8 existing** (bukan course standalone baru), domain tetap `islamic-worship`, tidak ada domain/course baru dibuat. Module 8 diperluas dari 4 jadi 7 lesson mengisi gap yang belum ada: hal yang menghalangi doa, kaitan eksplisit doa-ikhtiar-tawakal-taubat (cross-ref Modul 12.2 & 13), doa ma'tsur per kategori hajat (dunia/akhirat/keluarga/rezeki/pasangan), dan kisah doa Nabi ﷺ & sahabat secara khusus. Mini Project Module 8 diperluas jadi Intermediate Project (rutinitas doa 7 hari, mengikuti pola Modul 7). Course masih Not Started, jadi perluasan aman (tidak ada progress hilang).
 
 ---
 
@@ -27,7 +29,7 @@ Course ini murni domain [[islamic-worship]] — lihat `domains/islamic-worship/D
 * [ ] Memahami arti bacaan inti shalat (Al-Fatihah, ruku', sujud, tasyahud) dan dzikir harian utama
 * [ ] Menerapkan minimal 3 teknik konkret untuk meningkatkan khusyuk dan menjaga fokus dalam shalat
 * [ ] Membangun kebiasaan shalat malam secara bertahap (dari 0 ke rutin, minimal beberapa kali/minggu) tanpa memaksakan target berat
-* [ ] Menjelaskan adab batin dan lahir berdoa, serta menerapkannya dalam doa harian
+* [ ] Menjelaskan adab batin dan lahir berdoa (termasuk hal yang menghalangi doa dan kaitan doa-ikhtiar-tawakal-taubat), serta menerapkan rutinitas doa harian yang konsisten minimal 7 hari
 * [ ] Menerapkan akhlak dasar ke orang tua, keluarga, tetangga, dan sesama — termasuk menjaga lisan dan menahan amarah
 * [ ] Mengevaluasi dan menata lingkungan/pertemanan secara sadar, serta menghindari ujub/merasa lebih baik dari orang lain saat berhijrah
 * [ ] Mengenali tanda futur/bosan/rasa jauh dari Allah dan punya strategi kembali yang tidak menghakimi diri sendiri
@@ -159,18 +161,21 @@ Status: Not started
 
 ---
 
-## Module 8 — Adab, Hati, dan Cara Berdoa
+## Module 8 — Adab, Hati, dan Seni Berdoa
 
-Description: Doa yang dikabulkan bukan soal kata-kata sempurna, tapi adab lahir dan batin yang tepat.
+Description: Doa yang dikabulkan bukan soal kata-kata sempurna, tapi adab lahir-batin, keikhlasan, dan pemahaman bahwa ijabah berjalan sesuai hikmah dan kehendak Allah — bukan transaksi otomatis.
 
 Lessons:
 
-* [ ] 8.1 Adab lahir berdoa — waktu mustajab (sepertiga malam, antara adzan-iqamah, saat sujud — semua dari hadits shahih), menghadap kiblat, mengangkat tangan, memulai dengan pujian dan shalawat
-* [ ] 8.2 Adab batin — yakin dikabulkan (husnuzhan), mendesak/tidak tergesa putus asa (HR. Bukhari-Muslim tentang larangan tergesa dalam doa), hadir hati bukan sekadar mengucap
-* [ ] 8.3 Kenapa doa terasa "tidak didengar" — tiga bentuk pengabulan (langsung, ditunda, diganti/dijauhkan dari keburukan — hadits riwayat Ahmad) dan hikmah di baliknya
-* [ ] 8.4 Doa dengan bahasa sendiri vs doa ma'tsur — keduanya sah, kapan masing-masing pas dipakai
+* [ ] 8.1 Menyiapkan hati sebelum berdoa — keikhlasan (murni karena Allah, bukan pamer), yakin dikabulkan (husnuzhan, HR. Tirmidzi "Allah sesuai prasangka hamba-Nya"), hadir hati (hudhurul qalb) bukan sekadar mengucap lafaz
+* [ ] 8.2 Adab lahir berdoa — waktu-waktu mustajab (sepertiga malam, antara adzan-iqamah, saat sujud, hari Jumat, saat safar/puasa/terzalimi — semua dari hadits shahih), menghadap kiblat, mengangkat tangan, memulai dengan pujian dan shalawat
+* [ ] 8.3 Apa yang menghalangi doa — makanan/harta haram (hadits laki-laki berdebu dalam perjalanan yang doanya jauh dari dikabulkan, HR. Muslim), dosa yang menumpuk, memutus silaturahmi, serta tergesa/putus asa menunggu jawaban (larangan "aku sudah berdoa tapi tidak dikabulkan", HR. Bukhari-Muslim)
+* [ ] 8.4 Doa, ikhtiar, tawakal, dan taubat — kenapa keempatnya harus berjalan bersama: doa bukan pengganti ikhtiar, ikhtiar tanpa tawakal jadi sombong, dan taubat membuka pintu ijabah (QS. Ghafir: 60) — cross-ref eksplisit ke Modul 12.2 (tawakal) dan Modul 13 (taubat)
+* [ ] 8.5 Ketika doa belum dikabulkan — tiga bentuk ijabah (dikabulkan langsung, ditunda, atau diganti/dijauhkan dari keburukan setimpal — hadits riwayat Ahmad) dan hikmah di baliknya; course ini TIDAK menjanjikan doa tertentu pasti menghasilkan keinginan tertentu, ijabah tetap kehendak dan hikmah Allah
+* [ ] 8.6 Doa dengan bahasa sendiri vs doa ma'tsur, dan doa ma'tsur per kategori hajat — dunia dan akhirat (QS. Al-Baqarah: 201), keluarga dan keturunan (QS. Al-Furqan: 74), rezeki, serta pasangan/jodoh (doa Nabi Zakariya QS. Ali Imran: 38) — dari Al-Qur'an dan hadits shahih, keduanya (bahasa sendiri maupun ma'tsur) sah dipakai
+* [ ] 8.7 Kisah doa Nabi ﷺ dan sahabat — doa Nabi di Thaif saat disakiti kaumnya, doa Nabi Yunus dalam perut ikan (dzun-nun, QS. Al-Anbiya: 87), doa Sa'ad bin Abi Waqqash yang mustajab (HR. Bukhari), doa Umar bin Khattab saat Istisqa — status riwayat disebut eksplisit, dipisah dari kisah populer yang lemah/tanpa sanad
 
-Mini Project: Panjatkan 1 doa harian dengan sengaja menerapkan minimal 2 adab dari 8.1/8.2, catat bedanya dibanding cara berdoa sebelumnya.
+Intermediate Project (7 hari berturut-turut): Bangun rutinitas doa harian yang konsisten — pilih 1 waktu tetap, terapkan minimal 2 adab dari 8.1-8.3, sertakan 1 doa ma'tsur sesuai hajat dari 8.6, log harian mencatat rasa hadirnya hati dan hikmah yang mulai terlihat (bukan menunggu hasil instan, sejalan prinsip Modul 3 "sedikit tapi konsisten").
 
 Status: Not started
 

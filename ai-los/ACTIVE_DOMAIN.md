@@ -155,6 +155,14 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `karate` — domains/karate/DOMAIN.md — Status: Paused — Course: courses/karate/roadmap.md
 
+## Paused (2026-09-05, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain standalone dipilih meski overlap parsial dengan `relationships`/`emotional-resilience`/`self-love`/`character-development` (Module 8)/`islamic-worship`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
+
+- `mastering-attraction` — domains/mastering-attraction/DOMAIN.md — Status: Paused — Course: courses/mastering-attraction/roadmap.md
+
+## Paused (2026-09-05, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain baru, overlap parsial dengan `character-development` Module 7 "Atomic Habits" direferensikan silang, bukan diduplikasi — lihat "Registration History" di domain file)
+
+- `reading-culture` — domains/reading-culture/DOMAIN.md — Status: Paused — Course: courses/reading-culture/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
