@@ -137,7 +137,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-03, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap ~70-80% dengan `emotional-resilience`/`self-love`/`stoicism`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
 
-- `not-caring` — domains/not-caring/DOMAIN.md — Status: Paused — Course: courses/not-caring/roadmap.md
+- `not-caring` — domains/not-caring/DOMAIN.md — Status: Paused — Course: courses/not-caring/roadmap.md (scope diperluas 2026-09-05 jadi juga mencakup forgiveness masa lalu/taubat — Module 9-10, lihat "Registration History" di domain file)
 
 ## Paused (2026-09-04, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap parsial dengan `self-love`/`emotional-resilience`/`not-caring`/`stoicism`/`life-mastery`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
 

@@ -5,7 +5,7 @@
 * Course Name: The Art of Not Caring — Seni Bersikap Bodo Amat, dari 0 sampai Advanced
 * Category: Selective Indifference & Opinion Detachment (Domain: not-caring — lihat `domains/not-caring/DOMAIN.md`)
 * Difficulty: Level 0 (mudah tersinggung/overthinking opini orang, sulit menolak permintaan, butuh validasi luas, sering menyamakan "bodo amat" dengan cuek/apatis) → Level 4 (mampu memilah sadar apa yang layak dipedulikan, menghadapi kritik/ejekan/penolakan tanpa terguncang identitas, boundaries dijaga konsisten, tetap peduli pada orang/nilai yang penting)
-* Estimated Duration: 8 modul, 4 lesson/modul (32 lesson) — pace mengikuti kejadian nyata (kritik/ejekan/penolakan/permintaan sulit ditolak/momen ingin validasi) untuk Applied Practice, bukan dikebut
+* Estimated Duration: 10 modul, 4 lesson/modul (40 lesson) — pace mengikuti kejadian nyata (kritik/ejekan/penolakan/permintaan sulit ditolak/momen ingin validasi/penyesalan masa lalu) untuk Applied Practice, bukan dikebut. Module 9-10 (forgiveness masa lalu) ditambahkan 2026-09-05, lihat "Catatan Scope".
 * Prerequisites: Tidak ada prasyarat teknis. Kesediaan mengisi Selective Caring Log dari kejadian nyata (bukan hipotetis) sejak Module 1, sesuai `domains/not-caring/DOMAIN.md` bagian "Applied Practice Definition". Skenario studi kasus hanya jembatan sementara bila kejadian nyata belum muncul di modul awal.
 
 ---
@@ -18,6 +18,8 @@
 * **Konteks software engineer eksplisit** — code review tajam, performance review, komentar publik (GitHub/media sosial), imposter syndrome dibanding rekan, dipakai sebagai medan Applied Practice, sesuai `CLAUDE.md` Real World section dan profil user sebagai software engineer.
 
 Asumsi-asumsi di atas menunggu konfirmasi/koreksi user saat approval final, sebelum Lesson 1 dimulai.
+
+* **Extension 2026-09-05 (Module 9-10 — "Forgiving the Past")** — permintaan user: course "Forgiving the Past — Berdamai dengan Kesalahan Masa Lalu" (rumination, penyesalan sehat vs menyiksa diri, menerima masa lalu, self-forgiveness, memperbaiki kesalahan, taubat, kenangan buruk yang muncul kembali). Dibuat saat Course Aktif "Character Development" pas di garis 50% — user eksplisit override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion. Overlap-check terhadap `islamic-worship` (taubat, 1 baris) dan Module 4 domain ini sendiri (shame/guilt, Brené Brown) — user memilih **extend course ini** (bukan domain baru, bukan extend islamic-worship) lewat AskUserQuestion kedua, karena benang merahnya sama: opini/penilaian tidak boleh mengendalikan hidup, baik dari orang lain (Module 1-8) maupun dari diri sendiri atas masa lalu (Module 9-10). Rasional lengkap dan sumber riset baru ada di `domains/not-caring/DOMAIN.md` (Trusted Sources 10-16, Registration History).
 
 ---
 
@@ -32,7 +34,12 @@ Asumsi-asumsi di atas menunggu konfirmasi/koreksi user saat approval final, sebe
 * [ ] Membangun dan menjaga boundaries, termasuk keberanian berkata "tidak" tanpa rasa bersalah berlebihan (Cloud & Townsend)
 * [ ] Meregulasi emosi terkait opini orang lain tanpa menekan atau mengabaikannya (reappraisal vs suppression — Gross)
 * [ ] Tetap peduli dan berempati pada orang/hal yang penting, tanpa kehilangan ketenangan diri terhadap opini yang tidak penting
-* [ ] Menghasilkan Personal "Bodo Amat" Operating System sebagai Capstone Project, teruji lewat penerapan nyata minimal 3 minggu
+* [ ] Memahami kenapa pikiran mengulang kesalahan masa lalu (rumination — Nolen-Hoeksema), dan membedakan penyesalan sehat dari menyiksa diri (Roese & Summerville)
+* [ ] Menerima bahwa masa lalu tidak bisa diubah (radical acceptance — Linehan), tanpa jatuh ke penyangkalan atau justifikasi
+* [ ] Memaafkan diri sendiri tanpa membenarkan kesalahan (self-forgiveness — Fehr, Gelfand & Kulkarni), dan memperbaiki kesalahan bila masih memungkinkan
+* [ ] Berhenti mendefinisikan diri berdasarkan kesalahan masa lalu (narrative identity — McAdams), serta memahami taubat, ampunan Allah, dan harapan dalam Islam
+* [ ] Menghadapi kenangan buruk yang muncul kembali dengan teknik regulasi yang sudah dipelajari (reappraisal), sambil tahu kapan perlu eskalasi ke profesional
+* [ ] Menghasilkan Personal "Bodo Amat" Operating System sebagai Capstone Project — mencakup protokol opini orang lain (Module 1-8) dan protokol masa lalu diri sendiri (Module 9-10) — teruji lewat penerapan nyata minimal 3 minggu
 
 ---
 
@@ -159,16 +166,50 @@ Status: Not started
 
 ## Module 8 — Sintesis: Peduli pada yang Penting, Tenang pada yang Tidak
 
-Description: Modul penutup — menggabungkan semua kerangka jadi satu sistem pribadi yang koheren, dan menegaskan ulang bahwa course ini tentang memperkuat kepedulian yang tepat, bukan menghilangkannya.
+Description: Modul sintesis untuk sisi "opini orang lain" — menggabungkan Module 1-7 jadi satu sistem pribadi yang koheren, dan menegaskan ulang bahwa course ini tentang memperkuat kepedulian yang tepat, bukan menghilangkannya. Sistem ini disempurnakan lagi di Module 10 dengan sisi "masa lalu diri sendiri".
 
 Lessons:
 
-* [ ] 8.1 Menyusun Personal "Bodo Amat" Operating System — nilai inti, filter dikotomi kendali, protokol respons kritik/ejekan/penolakan, boundary default
+* [ ] 8.1 Menyusun draf Personal "Bodo Amat" Operating System (bagian opini orang lain) — nilai inti, filter dikotomi kendali, protokol respons kritik/ejekan/penolakan, boundary default
 * [ ] 8.2 Tetap peduli pada orang lain — memastikan sistem ini tidak bergeser jadi individualisme dingin, empati dan tanggung jawab ke hubungan penting tetap eksplisit
 * [ ] 8.3 Studi kasus terintegrasi: karier software engineer (code review, performance review, media sosial profesional, imposter syndrome)
-* [ ] 8.4 Menjalankan sistem selama 3 minggu nyata, dengan penyesuaian berbasis apa yang berhasil/tidak
+* [ ] 8.4 Mulai menjalankan sistem selama 3 minggu nyata, dengan penyesuaian berbasis apa yang berhasil/tidak (log berlanjut sampai Module 10)
 
-Portfolio Project: Personal "Bodo Amat" Operating System, teruji minimal 3 minggu penerapan nyata, disimpan ke `portofolio/`.
+Intermediate Project: Draf Personal "Bodo Amat" Operating System (bagian opini orang lain) — disempurnakan jadi Capstone penuh di Module 10 setelah sisi "masa lalu diri sendiri" selesai dibangun.
+
+Status: Not started
+
+---
+
+## Module 9 — Menerima dan Memaafkan Diri atas Masa Lalu
+
+Description: Beralih dari "bodo amat" terhadap opini orang lain ke "bodo amat" terhadap penghakiman diri sendiri atas kesalahan masa lalu. Modul ini membangun dasar: kenapa pikiran terjebak mengulang kesalahan, dan cara membedakan penyesalan sehat dari menyiksa diri sebelum melangkah ke pemaafan.
+
+Lessons:
+
+* [ ] 9.1 Kenapa pikiran terus mengulang kesalahan masa lalu — rumination (Nolen-Hoeksema) dan kenapa mengulang-ulang memperpanjang distress, bukan menyelesaikannya
+* [ ] 9.2 Penyesalan sehat vs menyiksa diri — riset regret & "opportunity principle" (Roese & Summerville), dikontraskan dengan shame vs guilt yang sudah dibahas Module 4
+* [ ] 9.3 Menerima bahwa masa lalu tidak bisa diubah — radical acceptance (Linehan), dibedakan tegas dari menyetujui/membenarkan kesalahan itu sendiri
+* [ ] 9.4 Memaafkan diri sendiri tanpa membenarkan kesalahan — syarat self-forgiveness yang sehat (Fehr, Gelfand & Kulkarni) vs pseudo-self-forgiveness yang jadi alasan mengulang kesalahan
+
+Mini Project: Letting Go of the Past Log pertama — satu kesalahan/penyesalan nyata yang masih terus terpikir, dipetakan lewat taksonomi menerima/memaafkan/memperbaiki (Lesson 9.3-9.4).
+
+Status: Not started
+
+---
+
+## Module 10 — Memperbaiki, Berdamai, dan Melanjutkan Hidup
+
+Description: Modul penutup penuh — menutup sisi "masa lalu diri sendiri" sekaligus menyatukan seluruh course jadi satu Personal "Bodo Amat" Operating System yang lengkap (opini orang lain + penghakiman diri sendiri atas masa lalu).
+
+Lessons:
+
+* [ ] 10.1 Memperbaiki kesalahan bila masih memungkinkan (making amends) — dan kapan justru repair tidak mungkin/tidak sehat terus dikejar
+* [ ] 10.2 Berhenti mendefinisikan diri berdasarkan kesalahan masa lalu — narrative identity (McAdams): kesalahan sebagai satu bab cerita, bukan seluruh identitas (ringkas, rujuk `self-love` untuk self-compassion penuh)
+* [ ] 10.3 Taubat, ampunan Allah, dan harapan dalam Islam — dalil kuat (Qur'an & hadits shahih tentang luasnya rahmat Allah) dipisah eksplisit dari pendapat ulama (Ibnu Qayyim, Ibnu Rajab), nada rahmat bukan menghakimi (rujuk `islamic-worship` untuk kedalaman ibadah)
+* [ ] 10.4 Menghadapi kenangan buruk yang muncul kembali — reappraisal praktis (rujuk Module 7), dan sinyal kapan perlu eskalasi ke profesional (trauma/PTSD/intrusive thoughts yang mengganggu fungsi harian)
+
+Portfolio Project: Personal "Bodo Amat" Operating System (versi lengkap) — menyatukan draf Module 8 (opini orang lain) dengan protokol masa lalu diri sendiri (menerima, memaafkan, memperbaiki, taubat) — teruji minimal 3 minggu penerapan nyata, disimpan ke `portofolio/`.
 
 Status: Not started
 
@@ -186,7 +227,7 @@ Status: N/A
 
 # Overall Progress
 
-Module Completion: 0/8 (0%)
+Module Completion: 0/10 (0%)
 
 Overall Completion: 0%
 

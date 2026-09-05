@@ -18,6 +18,7 @@ Secara eksplisit TIDAK mencakup:
 - **Aqidah/teologi mendalam** (nama & sifat Allah secara ilmiah, perdebatan kalam antar-firqah) — disentuh secukupnya sejauh relevan membangun rasa cinta/kedekatan ke Allah (mis. mengenal beberapa Asmaul Husna yang relevan konteks doa), tidak dibahas sebagai ilmu tauhid akademik penuh.
 - **Tafsir Al-Qur'an secara menyeluruh/tafsir tahlili per ayat** — hanya menafsirkan/menerjemahkan bacaan yang benar-benar dipakai dalam shalat dan dzikir harian secukupnya untuk memahami makna, bukan course tafsir Al-Qur'an lengkap.
 - **Bahasa Arab dari nol** — tidak mengajarkan nahwu-sharaf. Pelafalan dan arti kata dijelaskan secukupnya per bacaan yang dibahas.
+- **Psikologi regret/rumination/self-forgiveness dan taubat sebagai topik mendalam berdiri sendiri** — sejak 2026-09-05 didalami di domain [[not-caring]] (Module 9-10, `courses/not-caring/roadmap.md`) yang menggabungkan riset psikologi (regret, rumination, self-forgiveness) dengan taubat/ampunan Allah. Taubat di domain ini tetap disebut sebagai salah satu sifat hati inti (ringkas), tidak diperdalam ulang supaya tidak duplikasi.
 
 ## Trusted Sources / Research Priority
 
