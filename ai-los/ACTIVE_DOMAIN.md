@@ -151,6 +151,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `lowering-the-ego` — domains/lowering-the-ego/DOMAIN.md — Status: Paused — Course: courses/lowering-the-ego/roadmap.md
 
+## Paused (2026-09-05, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain baru, tidak overlap dengan domain terdaftar manapun — lihat "Registration History" di domain file)
+
+- `karate` — domains/karate/DOMAIN.md — Status: Paused — Course: courses/karate/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
