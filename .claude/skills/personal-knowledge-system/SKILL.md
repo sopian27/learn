@@ -1,6 +1,6 @@
 ---
 name: personal-knowledge-system
-description: "Use when user minta satu pengetahuan/insight baru hari ini di luar topik software engineering biasa (mis. \"kasih pengetahuan hari ini\", \"jalankan personal knowledge system\", \"PKS hari ini\", \"knowledge harian\"). Pilih SATU kategori dari daftar tetap, pilih SATU topik curated di dalamnya, tulis satu file Markdown ke Knowledge/[Category]/ di vault Obsidian. BUKAN untuk puisi (pakai skill poetry-reading) atau quotes pagi (pakai skill morning-wisdom) — dua topik itu punya skill & folder sendiri."
+description: "Use when user minta satu pengetahuan/insight baru hari ini di luar topik software engineering biasa (mis. \"kasih pengetahuan hari ini\", \"jalankan personal knowledge system\", \"PKS hari ini\", \"knowledge harian\"). Pilih SATU kategori dari daftar tetap, pilih SATU topik curated di dalamnya, tulis satu file Markdown ke Knowledge/[Category]/ di vault Obsidian. BUKAN untuk puisi (pakai skill poetry-reading) atau quotes pagi (pakai skill morning-wisdom) — dua topik itu punya skill & folder sendiri. BUKAN JUGA untuk \"info tech\"/\"info tech terbaru\"/\"berita tech\" (pakai skill info-tech) — itu digest MULTI-ITEM berita/rilis teknologi hasil web search real-time ke folder info tech/, beda dari skill ini yang SATU esai konsep timeless per run."
 ---
 
 ## Tujuan
