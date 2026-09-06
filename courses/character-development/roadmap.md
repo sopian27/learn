@@ -180,7 +180,7 @@ Description: Module 8 menjawab kenapa manusia haus validasi/status; modul ini me
 
 Lessons:
 
-* [ ] 9.1 Spotlight Effect & Illusion of Transparency (Gilovich, Medvec, Savitsky) — bukti eksperimental orang secara sistematis melebih-lebihkan seberapa besar dirinya diperhatikan/dinilai orang lain
+* [x] 9.1 Spotlight Effect & Illusion of Transparency (Gilovich, Medvec, Savitsky) — bukti eksperimental orang secara sistematis melebih-lebihkan seberapa besar dirinya diperhatikan/dinilai orang lain — materi dikirim 2026-09-06
 * [ ] 9.2 Kenapa bias ini muncul — egocentric attention (perhatian sendiri ke diri sendiri disalahartikan sebagai perhatian orang lain ke diri kita), dan cara mengecek ulang asumsi "semua orang lihat saya" dengan bukti nyata
 * [ ] 9.3 Mindfulness-Based Stress Reduction (Kabat-Zinn) — praktik terstruktur melatih ketenangan batin secara nyata (bukan konsep abstrak "harus woles"), dipraktikkan bukan cuma dibaca
 * [ ] 9.4 Non-attachment (Sahdra, Shaver, Brown) menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3) — melepaskan kelekatan pada citra/pengakuan tanpa jadi apatis, equanimity sebagai titik keseimbangan
@@ -189,7 +189,7 @@ Mini Project: Praktik MBSR ringan (body scan atau breathing meditation, 10 menit
 
 Referensi riset: lihat sumber 13, 15-16 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
-Status: In Progress — Approved 2026-09-02, belum dimulai. Belum termasuk hitungan Module Completion di bawah.
+Status: In Progress — Lesson 9.1 selesai (2026-09-06). Belum termasuk hitungan Module Completion di bawah.
 
 ---
 
