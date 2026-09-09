@@ -94,7 +94,7 @@ Lessons:
 * [x] 3.2 Garbage Collector: perbedaan mental model GC generasional, GC modern (G1, ZGC) secukupnya untuk memahami trade-off throughput vs latency — Selesai (2026-09-03), skor 82/100
 * [x] 3.3 Memory leak klasik di aplikasi Spring Boot: static collection yang terus tumbuh, listener yang tidak di-unregister, `ThreadLocal` yang tidak dibersihkan — Selesai (2026-09-04), skor 85/100
 * [x] 3.4 Cara baca heap dump & thread dump dasar (tooling: `jcmd`, VisualVM/JFR) untuk mendiagnosis `OutOfMemoryError` atau aplikasi yang "hang" — Selesai (2026-09-06), skor 92/100
-* [ ] 3.5 JVM flags production-relevan secukupnya (heap sizing, GC selection) — bukan tuning mendalam, cukup untuk tahu apa yang sedang dikonfigurasi dan kenapa — Materi + task sudah di-generate (2026-09-06), belum dikerjakan
+* [x] 3.5 JVM flags production-relevan secukupnya (heap sizing, GC selection) — bukan tuning mendalam, cukup untuk tahu apa yang sedang dikonfigurasi dan kenapa — Selesai (2026-09-09), skor 88/100
 
 Mini Project: Diberi aplikasi Spring Boot kecil dengan memory leak yang disengaja — Anda diminta mengambil heap dump, mengidentifikasi objek yang bocor, dan memperbaikinya. — Materi + task sudah di-generate (2026-09-06), belum dikerjakan
 
@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 3 — JVM Internals untuk Debugging Production — **In Progress**
 
-Current Lesson: 3.5 JVM flags production-relevan (materi sudah di-generate ke vault, menunggu jawaban)
+Current Lesson: 3.5 JVM flags production-relevan — Selesai, skor 88/100. Semua lesson Module 3 (5/5) tuntas, tinggal Mini Project.
 
-Next: Kerjakan Exercise Lesson 3.5, lalu Mini Project Module 3 (memory leak Spring Boot)
+Next: Kerjakan Mini Project Module 3 (diagnosis & perbaikan memory leak Spring Boot) untuk menutup Module 3 sepenuhnya.

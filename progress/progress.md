@@ -37,8 +37,8 @@ Course Completion: 0/6 module (0%)
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
 Current Module: Module 3 — JVM Internals untuk Debugging Production (in progress)
-Current Lesson: 3.5 JVM flags production-relevan (materi + task sudah di vault, menunggu jawaban)
-Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Mini Project), Module 3 in progress (4/5 lesson selesai)
+Current Lesson: Mini Project Module 3 (diagnosis & perbaikan memory leak Spring Boot) — materi + task sudah di vault, menunggu jawaban
+Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Mini Project), Module 3 in progress (5/5 lesson selesai, tinggal Mini Project)
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
@@ -58,7 +58,7 @@ Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Min
 | 3.2 Garbage Collector: mental model generasional, GC modern (G1, ZGC), trade-off throughput vs latency | Selesai (2026-09-03), skor 82/100 | Dikerjakan, direview |
 | 3.3 Memory leak klasik di aplikasi Spring Boot: static cache, listener tak di-unregister, `ThreadLocal` | Selesai (2026-09-04), skor 85/100 | Dikerjakan, direview |
 | 3.4 Baca heap dump & thread dump (`jcmd`, VisualVM/JFR) untuk diagnosis `OutOfMemoryError`/hang | Selesai (2026-09-06), skor 92/100 | Dikerjakan, direview |
-| 3.5 JVM flags production-relevan: heap sizing (container-aware), GC selection, jaring pengaman | Materi + task di-generate ke vault (2026-09-06) | Belum dikerjakan |
+| 3.5 JVM flags production-relevan: heap sizing (container-aware), GC selection, jaring pengaman | Selesai (2026-09-09), skor 88/100 | Dikerjakan, direview |
 | Module 3 Mini Project — Diagnosis & perbaikan memory leak aplikasi Spring Boot | Materi + task di-generate ke vault (2026-09-06) | Belum dikerjakan |
 
 ---
@@ -116,6 +116,7 @@ Revision Needed: -
 * 2026-09-04: Lesson 3.3 (Memory leak klasik di aplikasi Spring Boot: static cache tanpa eviction, listener tak di-unregister, `ThreadLocal` tak dibersihkan) selesai, skor 85/100. Detail review lengkap ada di vault (belum di-backfill ke notes ini secara rinci saat itu terjadi — dicatat sekarang 2026-09-06 saat generate Lesson 3.5 supaya nomor lesson di file ini tidak bolong). Lanjut Lesson 3.4.
 * 2026-09-06: Lesson 3.4 (Baca heap dump & thread dump dasar — `jcmd`, VisualVM/JFR — untuk diagnosis `OutOfMemoryError`/aplikasi hang) selesai, skor 92/100. Diagnosis lock contention vs deadlock sejati dari thread dump tepat tanpa vonis instingtif, urutan investigasi heap dump (class histogram → dominator tree → path to GC roots) diikuti benar. Dua catatan turun skor: (1) diagnosis Bagian 1 berhenti di akar masalah, belum disambungkan ke fix produksi (pisahkan lock dari I/O eksternal + timeout, relevan ke Module 12 Resiliency nanti); (2) Interview Q6 soal mekanisme deteksi deadlock JVM belum menyebut wait-for graph + deteksi cycle secara eksplisit. Detail lengkap review ada di vault. **Menutup 4 dari 5 lesson Module 3.**
 * 2026-09-06: Lesson 3.5 (JVM flags production-relevan: heap sizing container-aware `MaxRAMPercentage`, pemilihan GC G1/ZGC/Parallel, flag jaring pengaman `HeapDumpOnOutOfMemoryError`/`ExitOnOutOfMemoryError`) — materi + Theory/Visualization/Coding/Exercise/Interview Questions di-generate langsung ke vault (`Module 3 - JVM Internals untuk Debugging Production.md`), menunggu jawaban. Sekaligus digenerate Mini Project Module 3 (diagnosis & perbaikan memory leak `SessionAnalyticsService` Spring Boot — pola unbounded cache dari Lesson 3.3, alur lengkap deteksi gejala → heap dump → fix → buktikan dengan angka), juga menunggu jawaban. Ini menutup seluruh materi Module 3 (5 lesson + Mini Project sudah tergenerate semua) — begitu keduanya dikerjakan & direview, Module 3 tuntas dan lanjut ke Module 4 (Spring Core & IoC Deep Dive).
+* 2026-09-09: Lesson 3.5 selesai dijawab dan direview, skor 88/100 — **menutup semua 5 lesson Module 3**. Bagian 1 (hitung headroom) dan Bagian 2 (audit startup command) benar secara mekanisme, tiap perbaikan dirujuk balik ke konsep lesson yang tepat. Bagian 3 paling kuat: `MemoryHogDemo` benar-benar dijalankan dua kali (bukan dibayangkan), exit code 1 tanpa jaring pengaman vs exit code 3 dengan `.hprof` 118MB nyata jadi bukti konkret perbedaan biaya diagnosis. Dua catatan turun skor: (1) Interview Q3 menjelaskan kenapa 85% berisiko tapi tidak menyebut flag/tool diagnostik konkret (`-XX:NativeMemoryTracking=summary` + `jcmd VM.native_memory`); (2) alasan ZGC "belum tentu pilihan terbaik" di Bagian 2 masih tipis — belum menyebut biaya konkret (overhead load barrier, footprint memori) yang jadi alasan sebenarnya G1 lebih cocok untuk API service biasa. Detail lengkap review ada di vault. Lanjut ke Mini Project Module 3 untuk menutup Module 3 sepenuhnya.
 
 ---
 
