@@ -98,18 +98,15 @@ Status: Not Started
 
 ---
 
-## Module 4 — gRPC Fundamentals & Implementasi
+## Module 4 — gRPC (cross-reference)
 
-Description: Protokol RPC berperforma tinggi yang jadi standar komunikasi internal service-to-service di banyak perusahaan skala besar (Google, Netflix).
+Description: **Dipindah 2026-09-11** — depth gRPC penuh (fundamentals, 4 pola RPC, error handling/deadline/retry, metadata/auth/interceptor, load balancing/service discovery/observability) sekarang jadi course tersendiri: `courses/grpc-elasticsearch/roadmap.md` Module 1-5. Modul ini di sini hanya jadi penanda urutan (gRPC tetap bagian dari "permukaan multi-protokol" capstone Module 8) — jangan tulis ulang materinya di sini, cross-ref saja supaya tidak duplikat.
 
 Lessons:
 
-* [ ] 4.1 Protocol Buffers: schema-first design, tipe data, backward/forward compatibility field rules
-* [ ] 4.2 Unary RPC: implementasi service & client gRPC di Spring Boot
-* [ ] 4.3 Streaming RPC: server streaming, client streaming, bidirectional streaming — use case masing-masing
-* [ ] 4.4 gRPC vs REST: benchmark performa nyata (latency, payload size), kapan gRPC benar-benar menang
+* [ ] 4.1 (lihat `courses/grpc-elasticsearch` Module 1-5 untuk materi lengkap) — di sini cukup terapkan hasilnya: 1 service gRPC (unary + 1 streaming method) untuk domain course ini, dipakai capstone Module 8
 
-Mini Project: Bangun 1 service gRPC (unary + 1 streaming method) dengan Spring Boot, plus client yang memanggilnya, dan bandingkan latency-nya dengan endpoint REST setara.
+Mini Project: Reuse service gRPC yang sudah dibangun di `courses/grpc-elasticsearch`, sambungkan ke domain REST Module 1-3 di course ini untuk komunikasi internal.
 
 Status: Not Started
 

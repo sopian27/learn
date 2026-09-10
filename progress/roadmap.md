@@ -184,6 +184,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Middle-earth Legendarium** — `courses/middle-earth/roadmap.md` — Domain: middle-earth (registered paused). Status: Approved 2026-08-14, Not Started.
 
+## 2026-09-11 — gRPC & Elasticsearch
+
+* **gRPC & Elasticsearch — dari 0 sampai Production** — `courses/grpc-elasticsearch/roadmap.md` (draft 2026-09-11) — Domain: software-engineering — Status: Not Started, menunggu approval. 11 modul: gRPC fundamentals→streaming→error handling/deadline/retry→auth/interceptor→production scale (Module 1-5), Elasticsearch fundamentals→mapping/indexing→Query DSL→aggregation/relevance→production ops (Module 6-10), capstone integrasi REST+gRPC+PostgreSQL+Elasticsearch+Kafka di Kubernetes (Module 11). Overlap gRPC dengan `courses/api-engineering` Module 4 diselesaikan: course ini jadi sumber depth tunggal, Module 4 api-engineering di-slim jadi cross-reference (dikonfirmasi via AskUserQuestion).
+
 ## 2026-09-10 — Jason Bourne
 
 * **Jason Bourne — Spycraft & Survival Mindset** — `courses/jason-bourne/roadmap.md` — Domain: jason-bourne (registered paused). Status: Draft, menunggu approval. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion. Rasional lengkap (cross-reference ke `intelligence-studies`, batas hand-to-hand combat/spycraft sebagai analisis bukan instruksi) ada di `domains/jason-bourne/DOMAIN.md`.
