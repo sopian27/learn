@@ -184,6 +184,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Middle-earth Legendarium** — `courses/middle-earth/roadmap.md` — Domain: middle-earth (registered paused). Status: Approved 2026-08-14, Not Started.
 
+## 2026-09-10 — Ocean Mysteries
+
+* **Ocean Mysteries — Misteri Laut dari 0 sampai Expert** — `courses/ocean-mysteries/roadmap.md` (draft 2026-09-10) — Domain: ocean-mysteries (draft, belum terdaftar — `domains/ocean-mysteries/DOMAIN.md`) — Status: Draft, menunggu approval. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion. 11 modul + Capstone "Ocean Mystery Casefile Compendium", house rule klasifikasi epistemik 5-kategori (Fakta Ilmiah/Hipotesis Ilmiah/Fenomena Belum Diketahui/Legenda-Mitos/Hoaks) untuk tiap klaim. Riset awal: NOAA Ocean Exploration/Ocean Service/PMEL, WHOI, MBARI, Franck Goddio/IEASM, USCG/NTSB.
+
 ## 2026-08-09 — Football Tactical Analysis
 
 * **Football Tactical Analysis** — `courses/football-tactics/roadmap.md` — Domain: football-tactics (registered paused). Status: Approved 2026-08-09, Not Started.
