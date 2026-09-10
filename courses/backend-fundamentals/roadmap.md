@@ -96,7 +96,7 @@ Lessons:
 * [x] 3.4 Cara baca heap dump & thread dump dasar (tooling: `jcmd`, VisualVM/JFR) untuk mendiagnosis `OutOfMemoryError` atau aplikasi yang "hang" — Selesai (2026-09-06), skor 92/100
 * [x] 3.5 JVM flags production-relevan secukupnya (heap sizing, GC selection) — bukan tuning mendalam, cukup untuk tahu apa yang sedang dikonfigurasi dan kenapa — Selesai (2026-09-09), skor 88/100
 
-Mini Project: Diberi aplikasi Spring Boot kecil dengan memory leak yang disengaja — Anda diminta mengambil heap dump, mengidentifikasi objek yang bocor, dan memperbaikinya. — Materi + task sudah di-generate (2026-09-06), belum dikerjakan
+Mini Project: Diberi aplikasi Spring Boot kecil dengan memory leak yang disengaja — Anda diminta mengambil heap dump, mengidentifikasi objek yang bocor, dan memperbaikinya. — Dijawab & direview (2026-09-10), skor 70/100. Konsep (pattern recognition, reachability, strategi fix) solid, tapi bukti Deliverable 2 & 4 salah artefak (thread dump dipakai di tempat heap dump/dominator tree seharusnya) — perlu diulang dengan `jcmd GC.heap_dump` + VisualVM sebelum Module 3 dianggap tuntas penuh.
 
 Status: In Progress
 
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 3 — JVM Internals untuk Debugging Production — **In Progress**
+Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
 
-Current Lesson: 3.5 JVM flags production-relevan — Selesai, skor 88/100. Semua lesson Module 3 (5/5) tuntas, tinggal Mini Project.
+Current Lesson: 4.1 — IoC Container & `ApplicationContext`: bean definition, bean lifecycle — materi + Exercise/Task sudah ditulis ke vault (2026-09-10), menunggu jawaban.
 
-Next: Kerjakan Mini Project Module 3 (diagnosis & perbaikan memory leak Spring Boot) untuk menutup Module 3 sepenuhnya.
+Next: Kerjakan Exercise/Task Lesson 4.1 di vault. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
