@@ -333,6 +333,27 @@ Status: Draft — menunggu approval, belum dimulai
 
 ---
 
+## Module 17 — Financial Independence: Skenario, Target Besar, & Roadmap Usia (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-09-11 atas permintaan course "Financial Independence — Membangun Kehidupan Tanpa Takut Kehilangan Pekerjaan" (angka financial freedom, biaya hidup, emergency fund, saving rate, utang, investasi, compounding, passive income, career income, pernikahan/rumah/kendaraan/anak, dana pensiun, skenario dipecat/nganggur/pensiun dini/hidup sampai tua, memastikan anak tidak menanggung orang tua, lifestyle inflation vs menikmati hidup sekarang, simulasi roadmap usia 33→40→50→pensiun). Dicek dulu penuh terhadap course `personal-finance` existing (16 modul termasuk Module 13-15 Income/Passive Income/FI-FIRE Math dan Module 16 Automatic Saving) sebelum riset baru, mengikuti pola perluasan yang sama seperti Module 1.5/8/13-16 — dikonfirmasi user lewat AskUserQuestion (pilih "Extend personal-finance" atas 2 alternatif lain). Mayoritas topik yang diminta SUDAH tercakup: FI number & SWR (15.1), saving rate (2, 15.2), emergency fund (3), utang (4, 8), investasi & compounding (6, 7), passive income (14), income growth (13), pernikahan sebagai target sinking fund (16.4), pajak (10), estate (11). Empat topik nyata belum tercakup: **stress-test kehilangan pekerjaan** (dipecat besok/nganggur 1 tahun sebagai skenario terhitung, bukan cuma "punya emergency fund"), **target finansial besar selain nikah** (rumah, kendaraan, pendidikan anak sebagai sinking fund terpisah dengan goals yang saling bersaing), **longevity risk & memastikan generasi berikutnya tidak menanggung** (pensiun dini vs hidup sampai usia lanjut sebagai risiko yang dihitung, bukan diasumsikan), dan **integrasi seluruh course jadi satu simulasi roadmap usia multi-skenario** (33→40→50→pensiun) sekaligus kerangka menyeimbangkan menikmati hidup sekarang dengan mempersiapkan masa depan. Module ini menutup gap tersebut — bukan course baru terpisah.
+
+Description: Modul integratif yang menggabungkan seluruh course (Module 1-16) menjadi kerangka jawab atas satu pertanyaan konkret: "kalau saya berhenti kerja, kehilangan pekerjaan, atau pensiun, apakah saya tetap bisa membiayai hidup sendiri?" — lewat stress-test skenario, target finansial besar yang bersaing satu sama lain, risiko hidup lebih lama dari proyeksi, dan simulasi angka usia demi usia.
+
+Lessons:
+
+* [ ] 17.1 Stress-test kehilangan pekerjaan — menghitung "runway" (emergency fund Module 3 ÷ pengeluaran bulanan Module 1.2) untuk skenario dipecat besok dan nganggur 1 tahun, kapan runway habis sebelum dapat kerja baru, dan urutan keputusan yang harus diambil di setiap checkpoint (bulan 1, 3, 6, 12) — bukan cuma "harus punya dana darurat"
+* [ ] 17.2 Target finansial besar yang bersaing — memperluas pola sinking fund Module 16.4 (nikah) ke rumah (dihubungkan ke leverage properti 8.4), kendaraan, dan pendidikan anak; kerangka memprioritaskan goals yang bersaing untuk kapasitas saving yang sama (sequencing vs paralel, trade-off waktu tercapainya masing-masing)
+* [ ] 17.3 Longevity risk & memastikan generasi berikutnya tidak menanggung — pensiun dini (Module 15 FI) vs risiko hidup lebih lama dari proyeksi 30 tahun standar SWR (15.1), biaya perawatan lansia jangka panjang yang jarang dihitung di awal, dan peran asuransi (Module 5) sebagai penyeimbang risiko ekor ini
+* [ ] 17.4 Roadmap simulasi usia 33→40→50→pensiun — mengintegrasikan savings rate (2, 13), investasi (6, 7), passive income (14), dan FI timeline (15) jadi proyeksi angka multi-skenario (base case, job-loss 1 tahun, income growth agresif) per checkpoint usia, plus kerangka eksplisit menyeimbangkan menikmati hidup sekarang dengan mempersiapkan masa depan (bukan salah satu ekstrem)
+
+Intermediate Project: Simulasi roadmap finansial pribadi usia 33→40→50→pensiun dengan minimal 3 skenario (base case, kehilangan pekerjaan 1 tahun, income growth agresif), mengintegrasikan target rumah/kendaraan/pendidikan anak (atau skenario realistis berlabel jelas) ke timeline, disandingkan dengan stress-test runway 17.1 dan longevity risk 17.3.
+
+Referensi riset: Bengen (1994) dan Trinity Study (1998) — sumber SWR yang sama dengan Module 15, dipakai ulang untuk horizon longevity risk 17.3; Bogleheads Wiki (sinking fund, goal-based saving) untuk 17.2; *Die With Zero* — Bill Perkins (2020) sebagai sumber sintesis non-trend-chasing untuk kerangka menyeimbangkan menikmati hidup sekarang vs masa depan di 17.4, disilangkan ke prinsip savings-rate Module 15.2 agar tidak bertentangan, sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources".
+
+Status: Approved 2026-09-11, Not Started
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 12 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 12 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/personal-finance/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — end of course").
