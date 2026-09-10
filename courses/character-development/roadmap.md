@@ -189,7 +189,7 @@ Mini Project: Praktik MBSR ringan (body scan atau breathing meditation, 10 menit
 
 Referensi riset: lihat sumber 13, 15-16 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
-Status: In Progress — Lesson 9.1 selesai (2026-09-06), Exercise/Task + Interview Questions dikerjakan dan direview (2026-09-10), tidak ada revisi. Log: `playground/character-development/9.1.md`. Belum termasuk hitungan Module Completion di bawah.
+Status: In Progress — Lesson 9.1 selesai (2026-09-06), Exercise/Task + Interview Questions dikerjakan dan direview (2026-09-10), tidak ada revisi. Lesson 9.2 materi dikirim (2026-09-10). Log: `playground/character-development/9.1.md`. Belum termasuk hitungan Module Completion di bawah.
 
 ---
 
@@ -231,6 +231,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 tuntas penuh termasuk Mini Project (2026-09-06); Module 9 Lesson 9.1 tuntas termasuk Exercise/Interview Questions (2026-09-10); Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 tuntas penuh termasuk Mini Project (2026-09-06); Module 9 Lesson 9.1 tuntas (2026-09-10), Lesson 9.2 materi dikirim (2026-09-10); Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 9, Lesson 9.2 — Kenapa bias ini muncul & cara mengecek ulang asumsi.
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 9, Lesson 9.3 — MBSR (Kabat-Zinn), praktik terstruktur ketenangan batin.
