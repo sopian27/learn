@@ -108,7 +108,7 @@ Description: Membuka "kotak hitam" Spring yang selama ini dipakai tanpa benar-be
 
 Lessons:
 
-* [ ] 4.1 IoC Container & `ApplicationContext`: bean definition, bean lifecycle (instantiation → dependency injection → post-processing → destruction)
+* [x] 4.1 IoC Container & `ApplicationContext`: bean definition, bean lifecycle (instantiation → dependency injection → post-processing → destruction) — Selesai (2026-09-11), skor 88/100
 * [ ] 4.2 Dependency Injection: constructor vs setter vs field injection — kenapa constructor injection jadi standar (immutability, testability, fail-fast)
 * [ ] 4.3 Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan
 * [ ] 4.4 AOP & Proxy: JDK dynamic proxy vs CGLIB, kenapa `@Transactional`/`@Cacheable` tidak bekerja pada self-invocation (pitfall paling umum)
@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
 
-Current Lesson: 4.1 — IoC Container & `ApplicationContext`: bean definition, bean lifecycle — materi + Exercise/Task sudah ditulis ke vault (2026-09-10), menunggu jawaban.
+Current Lesson: 4.1 — IoC Container & `ApplicationContext`: bean definition, bean lifecycle — Selesai (2026-09-11), skor 88/100.
 
-Next: Kerjakan Exercise/Task Lesson 4.1 di vault. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Lanjut Lesson 4.2 — Dependency Injection: constructor vs setter vs field injection. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
