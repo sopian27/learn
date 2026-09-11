@@ -1,12 +1,19 @@
 {
-  "current_level": "Easy",
-  "recent_results": [true],
+  "current_level": "Medium",
+  "recent_results": [true, true],
   "weaknesses": {},
   "history": [
     {
       "date": "2026-09-11",
       "level": "Easy",
       "format": "puzzle",
+      "mistake_tag": null,
+      "hints_used": 0
+    },
+    {
+      "date": "2026-09-11",
+      "level": "Easy",
+      "format": "detective case",
       "mistake_tag": null,
       "hints_used": 0
     }
