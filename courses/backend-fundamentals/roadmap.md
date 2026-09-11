@@ -109,7 +109,7 @@ Description: Membuka "kotak hitam" Spring yang selama ini dipakai tanpa benar-be
 Lessons:
 
 * [x] 4.1 IoC Container & `ApplicationContext`: bean definition, bean lifecycle (instantiation → dependency injection → post-processing → destruction) — Selesai (2026-09-11), skor 88/100
-* [ ] 4.2 Dependency Injection: constructor vs setter vs field injection — kenapa constructor injection jadi standar (immutability, testability, fail-fast) — Materi + task tergenerate di vault (2026-09-11), menunggu jawaban Anda
+* [x] 4.2 Dependency Injection: constructor vs setter vs field injection — kenapa constructor injection jadi standar (immutability, testability, fail-fast) — Selesai (2026-09-11), skor 92/100
 * [ ] 4.3 Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan
 * [ ] 4.4 AOP & Proxy: JDK dynamic proxy vs CGLIB, kenapa `@Transactional`/`@Cacheable` tidak bekerja pada self-invocation (pitfall paling umum)
 * [ ] 4.5 Circular dependency & cara Spring (gagal) mengatasinya — kapan ini sinyal desain yang salah, bukan sekadar error teknis
@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
 
-Current Lesson: 4.2 — Dependency Injection: constructor vs setter vs field injection — Materi & Exercise tergenerate di vault (2026-09-11), menunggu jawaban Anda.
+Current Lesson: 4.2 — Dependency Injection: constructor vs setter vs field injection — Selesai (2026-09-11), skor 92/100.
 
-Next: Kerjakan Exercise 4.2 (3 bagian: refactor + unit test, analisis constructor gemuk, kasus setter injection) di vault, lalu kirim jawaban untuk direview. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Lanjut Lesson 4.3 — Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
