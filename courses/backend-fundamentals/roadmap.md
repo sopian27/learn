@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
 
-Current Lesson: 4.3 — Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan — Selesai (2026-09-12), skor 92/100.
+Current Lesson: 4.4 — AOP & Proxy: JDK dynamic proxy vs CGLIB, self-invocation pitfall — materi & exercise sudah di-generate ke Obsidian (2026-09-12), menunggu pengerjaan Anda.
 
-Next: Lanjut Lesson 4.4 — AOP & Proxy. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Kerjakan exercise Lesson 4.4 (3 bagian: diagnosis mekanis, 2 perbaikan self-invocation, JDK proxy vs CGLIB). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
