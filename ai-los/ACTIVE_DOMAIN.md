@@ -171,6 +171,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `jason-bourne` — domains/jason-bourne/DOMAIN.md — Status: Paused — Course: courses/jason-bourne/roadmap.md
 
+## Paused (2026-09-12, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap besar dengan `character-development`/`not-caring`/`emotional-resilience`/`self-love`, dikonfirmasi lewat AskUserQuestion kedua, scope dipersempit HANYA ke gap yang belum dibahas domain lain — lihat "Registration History" di domain file)
+
+- `self-sovereignty` — domains/self-sovereignty/DOMAIN.md — Status: Paused — Course: courses/self-sovereignty/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---
