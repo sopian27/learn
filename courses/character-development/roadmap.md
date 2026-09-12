@@ -201,7 +201,7 @@ Description: Module 1-9 fokus manajemen ego terhadap diri sendiri (humility, sel
 
 Lessons:
 
-* [ ] 10.1 Empathy — cognitive vs affective empathy (Baron-Cohen; Zaki, *War for Kindness*), beda empati dari sekadar simpati, dan empathy sebagai skill yang bisa dilatih bukan sifat bawaan tetap
+* [x] 10.1 Empathy — cognitive vs affective empathy (Baron-Cohen; Zaki, *War for Kindness*), beda empati dari sekadar simpati, dan empathy sebagai skill yang bisa dilatih bukan sifat bawaan tetap — materi dikirim (2026-09-12)
 * [ ] 10.2 Accountability/ownership nyata — beda "menerima kritik" (Module 2, pasif menerima masukan) vs aktif mengambil tanggung jawab penuh atas kesalahan tanpa menyalahkan orang/keadaan lain (Extreme Ownership — Willink & Babin, disilangkan ke riset atribusi/self-serving bias)
 * [ ] 10.3 Servant Leadership (Robert Greenleaf, sumber 9 domain pack) — memimpin lewat melayani, sintesis akhir menggabungkan Module 1-10 jadi definisi pribadi "Humble Confidence"
 
@@ -209,7 +209,7 @@ Mini Project: Pilih satu situasi nyata (kerja/personal) di mana kesalahan terjad
 
 Referensi riset: sumber 9 di `domains/character-development/DOMAIN.md` (sumber 1 dipakai di Lesson 1.2, tidak diulang di sini), plus sumber baru 19 (empathy) dan 20 (accountability) — lihat bagian "Trusted Sources / Research Priority".
 
-Status: Draft — menunggu approval, belum dimulai
+Status: In Progress — Approved 2026-09-12 (permintaan langsung user menyebut lesson 10.1 persis sesuai roadmap, dianggap konfirmasi eksplisit, sama pola dengan Module 8/9). Lesson 10.1 (Empathy — Baron-Cohen, Zaki) tuntas: materi dikirim (2026-09-12), Exercise/Task + Interview Questions dikerjakan dan direview skor 90/100 (2026-09-13) — jawaban jujur (contoh nyata: transfer uang buat teman, tie-in ke Module 9 soal behel/egocentric attention, dan self-correction di Exercise 4 saat gak nemu contoh affective-overload persis). Log: `playground/character-development/10.1.md`. Materi: `Courses/Character Development/Module 10 - Empathy, Accountability, dan Kepemimpinan Rendah Hati.md` (Obsidian).
 
 ---
 
@@ -231,6 +231,6 @@ Overall Completion: 50%
 
 Current Module: Module 6 — Capstone: Personal Character Operating System (Module 3 Mini Project & Module 5 Mini Project masih berjalan/belum dikerjakan paralel, lihat status masing-masing di atas)
 
-Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 tuntas penuh termasuk Mini Project (2026-09-06); Module 9 Lesson 9.1 tuntas (2026-09-10), Lesson 9.2 tuntas termasuk Exercise/Interview Questions, direview skor 90/100 (2026-09-12); Module 10 Proposed Extension (empathy, accountability, leadership), menunggu approval.
+Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 tuntas penuh termasuk Mini Project (2026-09-06); Module 9 Lesson 9.1 tuntas (2026-09-10), Lesson 9.2 tuntas termasuk Exercise/Interview Questions, direview skor 90/100 (2026-09-12), Lesson 9.3 (MBSR) materi dikirim (2026-09-12) belum dikerjakan; Module 10 Approved (2026-09-12), Lesson 10.1 (Empathy) materi dikirim, belum dikerjakan.
 
 Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 9, Lesson 9.4 — Non-attachment menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3).
