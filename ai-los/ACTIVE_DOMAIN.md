@@ -16,12 +16,12 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `software-engineering` — domains/software-engineering/DOMAIN.md — Status: Active — Course: courses/mastering-claude/roadmap.md
 - `character-development` — domains/character-development/DOMAIN.md — Status: Active — Course: courses/character-development/roadmap.md
+- `communication-skills` — domains/communication-skills/DOMAIN.md — Status: Active — Course: courses/communication-skills/roadmap.md (resumed 2026-09-13, ganti slot Mastering Claude yang sudah Selesai)
 
 ## Paused (2026-08-07, hemat token — resume anytime)
 
 - `personal-finance` — domains/personal-finance/DOMAIN.md — Status: Paused — Course: courses/personal-finance/roadmap.md
 - `n8n-automation` — domains/n8n-automation/DOMAIN.md — Status: Paused — Course: courses/n8n-automation/roadmap.md
-- `communication-skills` — domains/communication-skills/DOMAIN.md — Status: Paused — Course: courses/communication-skills/roadmap.md
 - `critical-thinking` — domains/critical-thinking/DOMAIN.md — Status: Paused — Course: courses/critical-thinking/roadmap.md
 - `world-history` — domains/world-history/DOMAIN.md — Status: Paused — Course: courses/world-history/roadmap.md
 - `guitar` — domains/guitar/DOMAIN.md — Status: Paused — Course: courses/guitar/roadmap.md
