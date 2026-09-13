@@ -228,7 +228,7 @@ Status: Not started
 
 ---
 
-## Module 1.5 — Psychology of Money (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 1.5 — Psychology of Money (Approved Extension 2026-09-13, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Ditambahkan 2026-08-09 atas permintaan "ajarkan saya Psychology of Money dari 0 sampai expert" — dipetakan sebagai perluasan domain `personal-finance` (bukan domain baru), karena isinya murni psikologi & perilaku uang, bukan mekanika finansial teknis baru. Module 1 di atas sudah menyentuh bias psikologis umum (loss aversion, lifestyle inflation, mental accounting) secara singkat di Lesson 1.3 — modul ini memperdalam khusus lewat kerangka buku *The Psychology of Money* (Morgan Housel), yang punya beberapa tesis unik yang belum tercakup di Module 1. **Belum masuk hitungan progress course** sampai disetujui — penomoran "1.5" menandakan posisi logis (setelah Module 1 fondasi, sebelum Module 2 budgeting) tapi urutan final/apakah di-renumber ditentukan user saat approval.
 
@@ -245,11 +245,11 @@ Mini Project: Tulis refleksi 1 halaman yang mengaudit satu keputusan finansial m
 
 Referensi riset: *The Psychology of Money* — Morgan Housel (2020), disilangkan ke sumber akademik domain ini (Bogleheads, CFP Board topic list) sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" — buku ini sumber sintesis/naratif, bukan riset primer, jadi setiap klaim di modul ini diperiksa tidak bertentangan dengan sumber 1-3 domain tersebut.
 
-Status: Draft — menunggu approval, belum dimulai
+Status: Approved 2026-09-13, Not Started
 
 ---
 
-## Module 13 — Income Growth & Earning Power (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 13 — Income Growth & Earning Power (Approved Extension 2026-09-13, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Ditambahkan 2026-08-23 atas permintaan course "Financial Freedom — dari 0 sampai Expert" (mindset, budgeting, emergency fund, debt, saving, investing, compound interest, income growth, assets, risk management, taxes, passive income, financial independence) — dicek dulu penuh terhadap course `personal-finance` existing (12 modul + Module 1.5 draft) sebelum riset baru, mengikuti pola perluasan yang sama seperti Module 1.5 (Psychology of Money) dan Module 8 (Leverage). Sebagian besar topik yang diminta SUDAH tercakup penuh: mindset (1.3, 1.5), budgeting (2), emergency fund (3), debt (4, 8), saving (2, 3), investing (6, 7), compound interest (6.4), risk management (5, 8.5), taxes (10). Tiga topik nyata belum tercakup: **income growth**, **passive income sebagai kategori aset tersendiri**, dan **financial independence (FIRE) sebagai mekanika hitung dedicated** — sebelumnya FIRE cuma disebut sebagai "practitioner reference frame" pembanding di `domains/personal-finance/DOMAIN.md`, bukan modul yang diajarkan. Module 13-15 ini menutup gap tersebut, bukan course baru terpisah. Rasional inti: financial freedom = f(savings rate) = f(income - expense); Module 1-12 existing hampir seluruhnya membahas sisi expense/alokasi, modul ini melengkapi sisi income yang belum disentuh.
 
@@ -266,11 +266,11 @@ Mini Project: Menulis rencana income growth 12 bulan pribadi (target skill/negos
 
 Referensi riset: CFP Board topic list (komponen income di Cash Flow Planning), *So Good They Can't Ignore You* — Cal Newport (2012) untuk kerangka career capital, disilangkan ke sumber domain ini (Bogleheads) sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" — buku adalah sumber sintesis, setiap klaim diperiksa tidak bertentangan dengan sumber 1-3 domain.
 
-Status: Draft — menunggu approval, belum dimulai
+Status: Approved 2026-09-13, Not Started
 
 ---
 
-## Module 14 — Membangun Aset & Passive Income (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 14 — Membangun Aset & Passive Income (Approved Extension 2026-09-13, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Bagian dari perluasan 2026-08-23 yang sama dengan Module 13 — lihat catatan lengkap di Module 13. Module 6/7 existing sudah membahas investasi portofolio pasar publik (saham/obligasi/index fund), dan Module 8 sudah membahas leverage properti. Modul ini melengkapi, bukan mengulang: memperluas ke kategori aset penghasil income pasif di luar portofolio pasar publik (rental, royalti, bisnis semi-pasif), plus kerangka membedakan passive income asli dari mitos "uang datang tanpa kerja" yang sering dijual di media sosial.
 
@@ -287,11 +287,11 @@ Mini Project: Evaluasi satu sumber passive income realistis milik sendiri atau s
 
 Referensi riset: Bogleheads Wiki (dividend investing, sustainability payout ratio), CFP Board topic list (komponen real estate & business ownership di Investment Planning), disilangkan ke sumber domain ini sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources".
 
-Status: Draft — menunggu approval, belum dimulai
+Status: Approved 2026-09-13, Not Started
 
 ---
 
-## Module 15 — Financial Independence (FI) & FIRE Math (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 15 — Financial Independence (FI) & FIRE Math (Approved Extension 2026-09-13, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Bagian dari perluasan 2026-08-23 yang sama dengan Module 13-14 — lihat catatan lengkap di Module 13. FIRE sebelumnya hanya disebut sebagai "practitioner reference frame" pembanding di `domains/personal-finance/DOMAIN.md` (savings-rate-driven approach), belum pernah jadi modul dedicated yang mengajarkan mekanika hitungnya. Modul ini adalah integrasi konseptual — menggabungkan savings rate (Module 2, 13), investing (Module 6, 7), dan withdrawal strategy (Module 9.4) menjadi satu angka yang bisa dihitung: FI number dan timeline mencapainya.
 
@@ -308,11 +308,11 @@ Mini/Intermediate Project: Menghitung FI number pribadi dan savings-rate-driven 
 
 Referensi riset: Bengen, William P. (1994) "Determining Withdrawal Rates Using Historical Data"; Cooley, Hubbard, Walz (1998) Trinity Study; Bogleheads Wiki halaman FIRE/Safe Withdrawal Rate — tiga sumber akademik/community-vetted ini jadi rujukan utama untuk klaim SWR, sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources" dan "Practitioner Reference Frame" (FIRE community sebagai reference point keempat).
 
-Status: Draft — menunggu approval, belum dimulai
+Status: Approved 2026-09-13, Not Started
 
 ---
 
-## Module 16 — Automatic Saving, Anti-Impulse Buying, & Target Finansial Spesifik (Pernikahan) (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+## Module 16 — Automatic Saving, Anti-Impulse Buying, & Target Finansial Spesifik (Pernikahan) (Approved Extension 2026-09-13, belum termasuk hitungan "Module Completion" di bawah)
 
 **Catatan asal modul ini**: Ditambahkan 2026-08-25 atas permintaan course "Menabung — dari 0 sampai Expert" (mindset, budgeting, tracking pengeluaran, sinking fund, emergency fund, automatic saving, anti-impulse buying, target finansial, strategi menabung untuk menikah). Dicek dulu penuh terhadap course `personal-finance` existing sebelum riset baru, mengikuti pola perluasan yang sama seperti Module 1.5/13-15. Mayoritas topik yang diminta SUDAH tercakup: mindset (1.3, 1.5), budgeting (2.1, 2.2), tracking pengeluaran (1.2, 2.4), sinking fund (2.3), emergency fund (Module 3), target finansial umum/goal-based framing (1.4). Tiga topik nyata belum tercakup: **automatic saving** sebagai mekanisme behavioral (bukan cuma disebutkan), **anti-impulse buying** sebagai teknik dedicated, dan **target finansial spesifik untuk pernikahan** (sinking fund goal konkret, bukan konsep umum). Module ini menutup gap tersebut saja — bukan course baru terpisah. Guard `ai-los/CLAUDE.md` "Course Creation Discipline" terpicu (Course Aktif `character-development` di bawah 50%, 2/6 module) — user eksplisit memilih perluasan gap-only ke `personal-finance` (tetap paused/draft, tidak jadi Course Aktif ketiga) alih-alih course baru terpisah, dikonfirmasi lewat AskUserQuestion.
 
@@ -329,7 +329,7 @@ Mini Project: Rencana tabungan pernikahan pribadi (atau target finansial besar l
 
 Referensi riset: Thaler, Richard H. & Benartzi, Shlomo (2004) "Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving" — sumber akademik utama untuk automatic saving; Bogleheads Wiki (goal-based saving, sinking fund) untuk silang sesuai `domains/personal-finance/DOMAIN.md` bagian "Trusted Sources"; data biaya pernikahan Indonesia dipakai sebagai rentang realistis berlabel jelas (bukan angka pasti), diperiksa tidak bertentangan dengan prinsip sinking fund Module 2.3.
 
-Status: Draft — menunggu approval, belum dimulai
+Status: Approved 2026-09-13, Not Started
 
 ---
 
