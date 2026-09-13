@@ -121,7 +121,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
 
-- `power-negotiation-strategy` — domains/power-negotiation-strategy/DOMAIN.md — Status: Paused — Course: courses/putin-code-strategic-thinking/roadmap.md
+- `power-negotiation-strategy` — domains/power-negotiation-strategy/DOMAIN.md — Status: Paused — Course: courses/putin-code-strategic-thinking/roadmap.md (diperluas 2026-09-13 jadi juga cakup applied negotiation skill/roleplay — Modul 5-7 & 15 baru, 17 modul total, lihat "Catatan Scope" di roadmap course)
 
 ## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
 

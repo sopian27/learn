@@ -184,6 +184,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Middle-earth Legendarium** — `courses/middle-earth/roadmap.md` — Domain: middle-earth (registered paused). Status: Approved 2026-08-14, Not Started.
 
+## 2026-09-13 — 48 Laws of Power
+
+* **48 Laws of Power — Memahami Kekuasaan & Perilaku Manusia** — `courses/48-laws-of-power/roadmap.md` (draft 2026-09-13) — Domain: power-negotiation-strategy (reuse dari `putin-code-strategic-thinking`, bukan domain baru — lihat "Catatan Scope" di roadmap-nya) — Status: Draft, menunggu approval. Course Aktif tidak di bawah 50% saat draft ini dibuat (Character Development pas 50%, Mastering Claude selesai), jadi tidak perlu override guard.
+
 ## 2026-09-11 — gRPC & Elasticsearch
 
 * **gRPC & Elasticsearch — dari 0 sampai Production** — `courses/grpc-elasticsearch/roadmap.md` (draft 2026-09-11) — Domain: software-engineering — Status: Not Started, menunggu approval. 11 modul: gRPC fundamentals→streaming→error handling/deadline/retry→auth/interceptor→production scale (Module 1-5), Elasticsearch fundamentals→mapping/indexing→Query DSL→aggregation/relevance→production ops (Module 6-10), capstone integrasi REST+gRPC+PostgreSQL+Elasticsearch+Kafka di Kubernetes (Module 11). Overlap gRPC dengan `courses/api-engineering` Module 4 diselesaikan: course ini jadi sumber depth tunggal, Module 4 api-engineering di-slim jadi cross-reference (dikonfirmasi via AskUserQuestion).
