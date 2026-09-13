@@ -183,13 +183,13 @@ Lessons:
 * [x] 9.1 Spotlight Effect & Illusion of Transparency (Gilovich, Medvec, Savitsky) — bukti eksperimental orang secara sistematis melebih-lebihkan seberapa besar dirinya diperhatikan/dinilai orang lain — materi dikirim 2026-09-06
 * [x] 9.2 Kenapa bias ini muncul — egocentric attention (perhatian sendiri ke diri sendiri disalahartikan sebagai perhatian orang lain ke diri kita), dan cara mengecek ulang asumsi "semua orang lihat saya" dengan bukti nyata
 * [x] 9.3 Mindfulness-Based Stress Reduction (Kabat-Zinn) — praktik terstruktur melatih ketenangan batin secara nyata (bukan konsep abstrak "harus woles"), dipraktikkan bukan cuma dibaca — materi dikirim 2026-09-12
-* [ ] 9.4 Non-attachment (Sahdra, Shaver, Brown) menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3) — melepaskan kelekatan pada citra/pengakuan tanpa jadi apatis, equanimity sebagai titik keseimbangan
+* [x] 9.4 Non-attachment (Sahdra, Shaver, Brown) menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3) — melepaskan kelekatan pada citra/pengakuan tanpa jadi apatis, equanimity sebagai titik keseimbangan — materi dikirim 2026-09-12
 
 Mini Project: Praktik MBSR ringan (body scan atau breathing meditation, 10 menit/hari) selama 1 minggu, DITAMBAH satu log "spotlight check" — momen merasa "semua orang merhatiin saya", lalu cek ulang bukti nyata seberapa besar itu benar.
 
 Referensi riset: lihat sumber 13, 15-16 di `domains/character-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
-Status: In Progress — Lesson 9.1 selesai (2026-09-06), Exercise/Task + Interview Questions dikerjakan dan direview (2026-09-10), tidak ada revisi. Lesson 9.2 selesai (2026-09-12), Exercise/Task + Interview Questions dikerjakan dan direview, skor 90/100, tidak ada revisi wajib. Lesson 9.3 (MBSR, Kabat-Zinn) materi dikirim (2026-09-12) — Exercise/Task + Interview Questions belum dikerjakan. Log: `playground/character-development/9.1.md`, `playground/character-development/9.2.md`. Belum termasuk hitungan Module Completion di bawah.
+Status: In Progress — Lesson 9.1 selesai (2026-09-06), Exercise/Task + Interview Questions dikerjakan dan direview (2026-09-10), tidak ada revisi. Lesson 9.2 selesai (2026-09-12), Exercise/Task + Interview Questions dikerjakan dan direview, skor 90/100, tidak ada revisi wajib. Lesson 9.3 (MBSR, Kabat-Zinn) materi dikirim (2026-09-12) — Exercise/Task + Interview Questions belum dikerjakan. Lesson 9.4 (Non-attachment, Sahdra/Shaver/Brown, equanimity, silang ke dikotomi kendali Stoic 5.1-5.3) materi dikirim (2026-09-12) — Exercise/Task + Interview Questions belum dikerjakan. Log: `playground/character-development/9.1.md`, `playground/character-development/9.2.md`. Belum termasuk hitungan Module Completion di bawah.
 
 ---
 
@@ -233,4 +233,4 @@ Current Module: Module 6 — Capstone: Personal Character Operating System (Modu
 
 Current Lesson: Module 6, Lesson 6.3 — materi dikirim (2026-08-30), log 28 hari nyata berjalan sampai target 2026-09-27 (`playground/character-development/6.3-log.md`). Paralel: Module 7 tuntas penuh termasuk Mini Project (2026-09-01); Module 8 tuntas penuh termasuk Mini Project (2026-09-06); Module 9 Lesson 9.1 tuntas (2026-09-10), Lesson 9.2 tuntas termasuk Exercise/Interview Questions, direview skor 90/100 (2026-09-12), Lesson 9.3 (MBSR) materi dikirim (2026-09-12) belum dikerjakan; Module 10 tuntas penuh termasuk Mini Project (2026-09-13) — 10.1 Empathy skor 90/100, 10.2 Accountability skor 92/100, Mini Project "Humble Confidence" skor kualitatif Pass setelah 1x revisi, 10.3 Servant Leadership dihapus (duplikat 4.4).
 
-Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 9, Lesson 9.3 (MBSR) Exercise/Task + Interview Questions belum dikerjakan, lalu Lesson 9.4 — Non-attachment menyilangkan ke dikotomi kendali Stoic (Module 5.1-5.3).
+Next Lesson: Module 6, Lesson 6.4 — Finalisasi dan refleksi capstone (baru dimulai setelah 6.3 genap 28 hari). Module 9, Lesson 9.3 (MBSR) dan Lesson 9.4 (Non-attachment) materi sudah dikirim keduanya — Exercise/Task + Interview Questions kedua lesson itu belum dikerjakan.
