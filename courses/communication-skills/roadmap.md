@@ -30,14 +30,14 @@ Description: Fondasi sebelum mencoba percakapan apa pun — memisahkan "introver
 
 Lessons:
 
-* [ ] 1.1 Introversion vs kecemasan sosial — dua hal berbeda yang sering tertukar, dan kenapa pembedaan ini mengubah cara latihan
+* [x] 1.1 Introversion vs kecemasan sosial — dua hal berbeda yang sering tertukar, dan kenapa pembedaan ini mengubah cara latihan
 * [ ] 1.2 Graduated exposure — prinsip CBT untuk memulai dari interaksi kecil-berisiko-rendah, bukan langsung situasi besar
 * [ ] 1.3 Growth mindset dalam interaksi sosial — memperlakukan percakapan yang canggung sebagai data buat belajar, bukan bukti "saya memang tidak bisa"
 * [ ] 1.4 Energy management ala introvert — merencanakan waktu pemulihan setelah interaksi sosial supaya latihan bisa konsisten jangka panjang
 
-Mini Project: Log observasi 3 hari — situasi sosial yang biasanya dihindari beserta perasaan yang muncul, tanpa mengubah perilaku dulu (baseline awareness sebelum mulai latihan aktif).
+Mini Project: Log observasi 3 hari — situasi sosial yang biasanya dihindari beserta perasaan yang muncul, tanpa mengubah perilaku dulu (baseline awareness sebelum mulai latihan aktif). Hari 1 selesai (2026-09-13).
 
-Status: Not started
+Status: In Progress (Lesson 1.1 selesai 2026-09-13, Lesson 1.2 materi diberikan)
 
 ---
 
@@ -195,6 +195,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Foundations
 
-Current Lesson: 1.1 Introversion vs kecemasan sosial — materi diberikan (2026-09-13), Applied Practice + Assessment berjalan
+Current Lesson: 1.2 Graduated exposure — materi diberikan (2026-09-13), Applied Practice + Assessment berjalan
 
-Next Lesson: 1.2 Graduated exposure — prinsip CBT untuk memulai dari interaksi kecil-berisiko-rendah, bukan langsung situasi besar
+Next Lesson: 1.3 Growth mindset dalam interaksi sosial — memperlakukan percakapan yang canggung sebagai data buat belajar, bukan bukti "saya memang tidak bisa"
