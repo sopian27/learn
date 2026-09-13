@@ -22,7 +22,15 @@ Course Completion: 8/8 module + Enterprise Project selesai (100%)
 | 8. Dari Vibe Coding ke Rekayasa Bertanggung Jawab | Selesai (2026-08-16) — 8.1-8.4 semua skor 4/4 (detail lihat `courses/mastering-claude/roadmap.md`). Mini Project: refactor nyata `7-mini-project/scraper.py` (vibes-only) jadi `8-mini-project/scraper.py` (disciplined) lewat siklus SDD penuh + 3 gerbang verifikasi sungguhan (diff review nemuin bug encoding mojibake, 14 test/99% coverage, security review 0 finding). Perbandingan tertulis: "vibe coding optimalkan speed-to-code, disciplined optimalkan speed-to-verified-result". Log: `playground/mastering-claude/8-mini-project.md`, `.review.md` |
 | Enterprise Project (Capstone) | Selesai (2026-08-16), skor 90/100 setelah 1x revisi. Playbook pribadi (`portofolio/mastering-claude-playbook.md`): decision framework CLAUDE.md/Skill/Plugin/Hook, decision matrix vibe vs spec-driven, automation nyata (`tdd-toolkit` v1.1.0, 2 hook TDD gate diverifikasi 7 skenario), ROI case study scraper vibes-only vs disciplined (n=1, gap token-cost diakui eksplisit). Course **Mastering Claude tuntas penuh**. |
 
-### 2. Character Development — `courses/character-development/roadmap.md`
+### 2. Communication Skills — `courses/communication-skills/roadmap.md`
+
+Current Module: Module 1 — Foundations: Mindset & Mengelola Kecemasan Sosial sebagai Introvert
+Current Lesson: 1.1 Introversion vs kecemasan sosial — materi diberikan (2026-09-13), Applied Practice (self-assessment 2x2 matrix + Hari 1 log observasi 3 hari) + Assessment berjalan
+Course Completion: 0/9 module (0%)
+
+Status: Resumed 2026-09-13, mengisi slot Course Aktif ke-2 gantiin Mastering Claude yang sudah Selesai. Domain: `domains/communication-skills/DOMAIN.md`. Materi lengkap disimpan di vault Obsidian (`Courses/Communication Skills/`), bukan di sini — lihat `ai-los/OBSIDIAN_SYNC.md`.
+
+### 3. Character Development — `courses/character-development/roadmap.md`
 
 Current Module: Module 3 — Etos Kerja & Disiplin yang Berkelanjutan
 Current Lesson: Belum dimulai — lanjut 3.1 (Grit, Angela Duckworth)
@@ -99,7 +107,6 @@ Revision Needed: -
 * CI/CD Mastery — `courses/ci-cd/roadmap.md` — Module 1, Lesson 1.1
 * Personal Finance — `courses/personal-finance/roadmap.md` — Module 1, Lesson 1.1
 * n8n Automation — `courses/n8n-automation/roadmap.md` — Module 1, Lesson 1.1
-* Communication Skills — `courses/communication-skills/roadmap.md` — Module 1, Lesson 1.1
 * Critical Thinking & Problem Solving — `courses/critical-thinking/roadmap.md` — Module 1, Lesson 1.1. Domain Goal dikunci final 2026-08-09 di `domains/critical-thinking/DOMAIN.md` (Einstein/Musk/Buffett/Edison/Tesla sebagai referensi prinsip berpikir, bukan panutan utuh — lihat bagian "Tokoh Referensi" di domain pack) — status tetap Paused, resume kapan saja diminta.
 * World History & Historical Discernment — `courses/world-history/roadmap.md` — Module 1, Lesson 1.1
 * Gitar — `courses/guitar/roadmap.md` — Module 1, Lesson 1.1

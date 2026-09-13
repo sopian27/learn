@@ -193,8 +193,8 @@ Module Completion: 0/9
 
 Overall Completion: 0%
 
-Current Module: menunggu approval
+Current Module: Module 1 — Foundations
 
-Current Lesson: -
+Current Lesson: 1.1 Introversion vs kecemasan sosial — materi diberikan (2026-09-13), Applied Practice + Assessment berjalan
 
-Next Lesson: 1.1 Introversion vs kecemasan sosial — dua hal berbeda yang sering tertukar, dan kenapa pembedaan ini mengubah cara latihan
+Next Lesson: 1.2 Graduated exposure — prinsip CBT untuk memulai dari interaksi kecil-berisiko-rendah, bukan langsung situasi besar
