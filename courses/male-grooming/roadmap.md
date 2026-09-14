@@ -1,6 +1,6 @@
 # Course Roadmap
 
-**Status: Approved 2026-09-14, Not Started. Domain terdaftar Paused di `ai-los/ACTIVE_DOMAIN.md` (cap 2-course-aktif).**
+**Status: Approved 2026-09-14, In Progress. Diresumekan jadi Course Aktif 2026-09-14 (slot kosong setelah Mastering Claude selesai) — lihat `progress/roadmap.md`.**
 
 ## Course Information
 
@@ -55,7 +55,7 @@ Lessons:
 
 Mini Project: Higiene Audit Checklist — jalankan checklist higiene dasar (mandi, gigi, kuku, rambut) selama 1 minggu penuh, catat konsistensi harian dan hari yang bolong beserta alasannya.
 
-Status: Not started
+Status: In Progress (Lesson 1.1 materi diberikan 2026-09-14)
 
 ---
 
@@ -262,8 +262,8 @@ Module Completion: 0/10
 
 Overall Completion: 0%
 
-Current Module: Belum dimulai — Approved 2026-09-14, paused mengikuti cap 2-course-aktif (lihat `progress/roadmap.md`)
+Current Module: Module 1 — Fondasi: Higiene Dasar & Mindset Grooming Sehat
 
-Current Lesson: —
+Current Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI (materi diberikan 2026-09-14, menunggu Applied Practice + Assessment)
 
-Next Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI
+Next Lesson: 1.2 Higiene dasar harian — mandi, cuci rambut, kuku, dan higiene mulut
