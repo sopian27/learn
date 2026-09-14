@@ -1,6 +1,6 @@
 # Male Grooming — Domain Pack
 
-**Status: DRAFT — menunggu approval user, belum terdaftar di `ai-los/ACTIVE_DOMAIN.md` / `domains/README.md`.**
+**Status: Approved 2026-09-14 — terdaftar Paused di `ai-los/ACTIVE_DOMAIN.md` (cap 2-course-aktif).**
 
 ## Domain Name
 
@@ -82,3 +82,5 @@ Learner memiliki sistem presentasi diri pribadi yang matang, teruji nyata, dan o
 ## Registration History
 
 Domain ini diminta pada 2026-08-14 sebagai bagian dari satu batch course yang dibangun lewat background agent, sebagai deep-dive eksplisit dari satu topik ("presentasi diri: grooming, cara berpakaian, bahasa tubuh dasar") yang sebelumnya hanya jadi satu di antara lima pilar di dalam Module 1 (kemudian Module 3) `domains/masculine-development/DOMAIN.md`. Dibuat sebagai domain baru terpisah (bukan extend `masculine-development`) karena kedalaman materi yang diminta (10 modul deep-dive vs 1 modul ringkas) akan membuat course `masculine-development` kehilangan fokus lima-pilar aslinya bila digabung di sana.
+
+**Approved 2026-09-14** — didaftarkan Paused di `ai-los/ACTIVE_DOMAIN.md` mengikuti cap 2-course-aktif. Follow-up di luar scope approval ini (belum dikerjakan): menambah link dari Module 3 `courses/masculine-development/roadmap.md` ke domain ini untuk pendalaman presentasi diri, sesuai catatan di "Scope" di atas.

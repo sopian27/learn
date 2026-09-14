@@ -183,6 +183,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `islamic-marriage-readiness` — domains/islamic-marriage-readiness/DOMAIN.md — Status: Paused — Course: courses/islamic-marriage-readiness/roadmap.md
 
+## Paused (2026-09-14, permintaan langsung user, course sudah didraft lengkap sebelumnya di branch `feat/male-grooming` — approval final, cap 2-course-aktif tetap berlaku)
+
+- `male-grooming` — domains/male-grooming/DOMAIN.md — Status: Paused — Course: courses/male-grooming/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 ---

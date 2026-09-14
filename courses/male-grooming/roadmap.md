@@ -1,6 +1,6 @@
 # Course Roadmap
 
-**Status: DRAFT — menunggu approval user. Belum terdaftar di `ai-los/ACTIVE_DOMAIN.md`.**
+**Status: Approved 2026-09-14, Not Started. Domain terdaftar Paused di `ai-los/ACTIVE_DOMAIN.md` (cap 2-course-aktif).**
 
 ## Course Information
 
@@ -262,8 +262,8 @@ Module Completion: 0/10
 
 Overall Completion: 0%
 
-Current Module: Belum dimulai — menunggu approval roadmap ini dan approval domain pack `domains/male-grooming/DOMAIN.md`
+Current Module: Belum dimulai — Approved 2026-09-14, paused mengikuti cap 2-course-aktif (lihat `progress/roadmap.md`)
 
 Current Lesson: —
 
-Next Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI (setelah roadmap disetujui)
+Next Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI
