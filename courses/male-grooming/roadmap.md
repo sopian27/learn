@@ -48,14 +48,14 @@ Description: Sebelum masuk ke teknik apa pun, dua hal harus beres dulu: higiene 
 
 Lessons:
 
-* [ ] 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI
+* [x] 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI
 * [ ] 1.2 Higiene dasar harian — mandi, cuci rambut, kuku, dan higiene mulut (sikat gigi 2x sehari 2 menit, flossing 1x sehari sesuai pedoman ADA)
 * [ ] 1.3 Membongkar mitos looksmaxxing/red-pill — obsesi rasio wajah/"canthal tilt" tanpa dasar ilmiah, "bone smashing", kenapa ini ditolak dan berbahaya
 * [ ] 1.4 Peta 9 pilar course ini (higiene, skincare, haircut, facial hair, fitness-penampilan, bahasa tubuh, fashion, fragrance, personal style) dan hubungannya dengan `masculine-development` (lihat "Catatan Scope")
 
 Mini Project: Higiene Audit Checklist — jalankan checklist higiene dasar (mandi, gigi, kuku, rambut) selama 1 minggu penuh, catat konsistensi harian dan hari yang bolong beserta alasannya.
 
-Status: In Progress (Lesson 1.1 materi diberikan 2026-09-14)
+Status: In Progress (Lesson 1.1 selesai 2026-09-17, skor 92/100)
 
 ---
 
@@ -264,6 +264,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Fondasi: Higiene Dasar & Mindset Grooming Sehat
 
-Current Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI (materi diberikan 2026-09-14, menunggu Applied Practice + Assessment)
+Current Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI (Selesai 2026-09-17, skor 92/100)
 
 Next Lesson: 1.2 Higiene dasar harian — mandi, cuci rambut, kuku, dan higiene mulut
