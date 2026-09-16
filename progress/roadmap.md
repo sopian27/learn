@@ -180,6 +180,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Relationships & Cinta Sehat** — `courses/relationships/roadmap.md` (diperluas 2026-08-12 dari course lama "Relationships & Marriage Readiness") — Domain: relationships (registered paused). Status: Draft hasil extend, menunggu approval.
 
+## 2026-09-16 — The Art of Becoming
+
+* **The Art of Becoming — Thrivers, Standing Out, dan My Personal Code** — `courses/the-art-of-becoming/roadmap.md` — Domain: the-art-of-becoming (draft, belum terdaftar). Status: Draft, menunggu approval. Lahir dari permintaan besar 14-Part "THE ART OF BECOMING"; 11/14 Part ternyata sudah tercakup course/domain lain (`courage-to-try`, `stoicism`, `emotional-resilience`, `work-management`, `entrepreneurship`/`putin-code-strategic-thinking`/`power-negotiation-strategy`, `military-strategy`, `48-laws-of-power`, `relationships`, `masculine-development`, `personal-finance`, `self-sovereignty`, `warm-charisma`/`mastering-attraction` — peta lengkap di "Catatan Scope" roadmap course ini). Scope disempitkan ke 3 modul: Thrivers (resilience pasca-kesulitan), Born to Stand Out (distinctiveness lewat substansi), dan capstone My Personal Code.
+
 ## 2026-08-14 — Middle-earth Legendarium
 
 * **Middle-earth Legendarium** — `courses/middle-earth/roadmap.md` — Domain: middle-earth (registered paused). Status: Approved 2026-08-14, Not Started.
