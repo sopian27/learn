@@ -4,8 +4,8 @@
 
 * Course Name: The Art of Not Caring — Seni Bersikap Bodo Amat, dari 0 sampai Advanced
 * Category: Selective Indifference & Opinion Detachment (Domain: not-caring — lihat `domains/not-caring/DOMAIN.md`)
-* Difficulty: Level 0 (mudah tersinggung/overthinking opini orang, sulit menolak permintaan, butuh validasi luas, sering menyamakan "bodo amat" dengan cuek/apatis) → Level 4 (mampu memilah sadar apa yang layak dipedulikan, menghadapi kritik/ejekan/penolakan tanpa terguncang identitas, boundaries dijaga konsisten, tetap peduli pada orang/nilai yang penting)
-* Estimated Duration: 10 modul, 4 lesson/modul (40 lesson) — pace mengikuti kejadian nyata (kritik/ejekan/penolakan/permintaan sulit ditolak/momen ingin validasi/penyesalan masa lalu) untuk Applied Practice, bukan dikebut. Module 9-10 (forgiveness masa lalu) ditambahkan 2026-09-05, lihat "Catatan Scope".
+* Difficulty: Level 0 (mudah tersinggung/overthinking opini orang, sulit menolak permintaan, butuh validasi luas, sering menyamakan "bodo amat" dengan cuek/apatis) → Level 4 (mampu memilah sadar apa yang layak dipedulikan, menghadapi kritik/ejekan/penolakan tanpa terguncang identitas, boundaries dijaga konsisten, tetap peduli pada orang/nilai yang penting, tenang menghadapi ketidakpastian dan overthinking, serta melepas kebutuhan mengontrol pendapat/keputusan orang lain)
+* Estimated Duration: 15 modul, 4 lesson/modul (60 lesson) — pace mengikuti kejadian nyata (kritik/ejekan/penolakan/permintaan sulit ditolak/momen ingin validasi/penyesalan masa lalu/episode overthinking/momen ingin mengontrol orang lain) untuk Applied Practice, bukan dikebut. Module 9-10 (forgiveness masa lalu) ditambahkan 2026-09-05. Module 11-15 (Positivity, Acceptance, Overthinking, Let Them, Calmness Synthesis) ditambahkan 2026-09-19, lihat "Catatan Scope".
 * Prerequisites: Tidak ada prasyarat teknis. Kesediaan mengisi Selective Caring Log dari kejadian nyata (bukan hipotetis) sejak Module 1, sesuai `domains/not-caring/DOMAIN.md` bagian "Applied Practice Definition". Skenario studi kasus hanya jembatan sementara bila kejadian nyata belum muncul di modul awal.
 
 ---
@@ -20,6 +20,7 @@
 Asumsi-asumsi di atas menunggu konfirmasi/koreksi user saat approval final, sebelum Lesson 1 dimulai.
 
 * **Extension 2026-09-05 (Module 9-10 — "Forgiving the Past")** — permintaan user: course "Forgiving the Past — Berdamai dengan Kesalahan Masa Lalu" (rumination, penyesalan sehat vs menyiksa diri, menerima masa lalu, self-forgiveness, memperbaiki kesalahan, taubat, kenangan buruk yang muncul kembali). Dibuat saat Course Aktif "Character Development" pas di garis 50% — user eksplisit override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion. Overlap-check terhadap `islamic-worship` (taubat, 1 baris) dan Module 4 domain ini sendiri (shame/guilt, Brené Brown) — user memilih **extend course ini** (bukan domain baru, bukan extend islamic-worship) lewat AskUserQuestion kedua, karena benang merahnya sama: opini/penilaian tidak boleh mengendalikan hidup, baik dari orang lain (Module 1-8) maupun dari diri sendiri atas masa lalu (Module 9-10). Rasional lengkap dan sumber riset baru ada di `domains/not-caring/DOMAIN.md` (Trusted Sources 10-16, Registration History).
+* **Extension 2026-09-19 (Module 11-15 — "Pelan-Pelan Aku Belajar Tenang")** — permintaan user: course "Pelan-Pelan Aku Belajar Tenang — Positivity, Overthinking, Acceptance & Let Them". Overlap-check: ~70% konsep inti sudah ada di course ini (dikotomi kendali Module 2, separation of tasks Module 4, regulasi emosi/reappraisal vs suppression Module 7, boundaries Module 6, approval addiction/liking gap Module 5, radical acceptance & rumination Module 9) dan di `character-development` Module 9 (MBSR, non-attachment, equanimity). User memilih **extend course ini** (bukan domain baru berdiri sendiri) lewat AskUserQuestion, karena benang merah sama persis: melepas kebutuhan mengontrol hal di luar kendali (opini orang lain → Module 1-8, masa lalu diri sendiri → Module 9-10, sekarang ditambah ketidakpastian hidup/overthinking/ekspektasi/pendapat orang lain secara umum → Module 11-15). Modul baru fokus ke gap yang BELUM dibahas: positive psychology realistis vs toxic positivity (belum ada sama sekali), taksonomi overthinking penuh (worry/catastrophizing/mind-reading/perfectionism — Module 9 lama hanya rumination atas masa lalu), kerangka Accept-Feel-Process-Respond untuk hardship umum (Module 9 lama fokus kesalahan sendiri), trikotomi Control/Influence/Accept (Covey, memperluas dikotomi kendali 2-arah Module 2 jadi 3-arah), dan "Let Them Theory" (Mel Robbins) sebagai bingkai populer yang disilangkan ke separation of tasks (Module 4) & dikotomi kendali (Module 2) yang sudah ada — bukan diulang, tapi diberi nama/framing baru yang diminta user. Rasional lengkap dan sumber riset baru ada di `domains/not-caring/DOMAIN.md` (Trusted Sources 17-24, Registration History).
 
 ---
 
@@ -39,7 +40,13 @@ Asumsi-asumsi di atas menunggu konfirmasi/koreksi user saat approval final, sebe
 * [ ] Memaafkan diri sendiri tanpa membenarkan kesalahan (self-forgiveness — Fehr, Gelfand & Kulkarni), dan memperbaiki kesalahan bila masih memungkinkan
 * [ ] Berhenti mendefinisikan diri berdasarkan kesalahan masa lalu (narrative identity — McAdams), serta memahami taubat, ampunan Allah, dan harapan dalam Islam
 * [ ] Menghadapi kenangan buruk yang muncul kembali dengan teknik regulasi yang sudah dipelajari (reappraisal), sambil tahu kapan perlu eskalasi ke profesional
-* [ ] Menghasilkan Personal "Bodo Amat" Operating System sebagai Capstone Project — mencakup protokol opini orang lain (Module 1-8) dan protokol masa lalu diri sendiri (Module 9-10) — teruji lewat penerapan nyata minimal 3 minggu
+* [ ] Membedakan positive thinking realistis dari toxic positivity (Seligman/Peterson, Fredrickson, Susan David) — tetap mengakui fakta buruk sambil melihat kemungkinan baik
+* [ ] Menerima bahwa hidup memiliki kegagalan/kehilangan/rejection/ketidakpastian/hari buruk lewat kerangka Accept-Feel-Process-Respond, bukan Deny-Pretend-Suppress
+* [ ] Mengenali taksonomi penuh overthinking (rumination, worry, catastrophizing, mind-reading, what-if, analysis paralysis, perfectionism — Beck/Burns/Borkovec) dan memutusnya lewat trigger-thought-emotion-behavior-consequence chain
+* [ ] Melatih ketenangan sebagai skill terlatih (bukan trait), memakai trikotomi Control/Influence/Accept (Covey, memperluas dikotomi kendali Epictetus)
+* [ ] Menerapkan "Let Them" (Mel Robbins) tanpa jadi pasif — dipasangkan dengan "Let Me" lewat separation of tasks dan boundaries yang sudah dilatih
+* [ ] Mengelola ekspektasi (pasangan/keluarga/karier/diri sendiri) — standar sehat vs ekspektasi tidak realistis
+* [ ] Menghasilkan Personal "Bodo Amat" Operating System sebagai Capstone Project — mencakup protokol opini orang lain (Module 1-8), protokol masa lalu diri sendiri (Module 9-10), dan protokol ketenangan/positivity/overthinking/let them (Module 11-15) — teruji lewat penerapan nyata minimal 3 minggu
 
 ---
 
@@ -209,7 +216,94 @@ Lessons:
 * [ ] 10.3 Taubat, ampunan Allah, dan harapan dalam Islam — dalil kuat (Qur'an & hadits shahih tentang luasnya rahmat Allah) dipisah eksplisit dari pendapat ulama (Ibnu Qayyim, Ibnu Rajab), nada rahmat bukan menghakimi (rujuk `islamic-worship` untuk kedalaman ibadah)
 * [ ] 10.4 Menghadapi kenangan buruk yang muncul kembali — reappraisal praktis (rujuk Module 7), dan sinyal kapan perlu eskalasi ke profesional (trauma/PTSD/intrusive thoughts yang mengganggu fungsi harian)
 
-Portfolio Project: Personal "Bodo Amat" Operating System (versi lengkap) — menyatukan draf Module 8 (opini orang lain) dengan protokol masa lalu diri sendiri (menerima, memaafkan, memperbaiki, taubat) — teruji minimal 3 minggu penerapan nyata, disimpan ke `portofolio/`.
+Portfolio Project: Personal "Bodo Amat" Operating System (versi lengkap) — menyatukan draf Module 8 (opini orang lain) dengan protokol masa lalu diri sendiri (menerima, memaafkan, memperbaiki, taubat) — teruji minimal 3 minggu penerapan nyata, disimpan ke `portofolio/`. **Direvisi lagi setelah Module 15** jadi versi penuh (opini orang lain + masa lalu diri sendiri + ketenangan/positivity/overthinking/let them).
+
+Status: Not started
+
+---
+
+## Module 11 — Positivity yang Realistis (Bukan Toxic Positivity)
+
+Description: Sebelum masuk ke overthinking dan acceptance, dasar dulu: positif yang sehat itu apa. Modul ini membedah positive psychology berbasis riset, dan menegaskan sejak awal batas dengan toxic positivity — supaya modul-modul berikut (terutama Acceptance) tidak disalahartikan sebagai "harus selalu positif".
+
+Lessons:
+
+* [ ] 11.1 Positive psychology dasar (Seligman & Peterson) — learned optimism vs learned helplessness, optimisme sebagai gaya penjelasan (explanatory style) yang bisa dilatih
+* [ ] 11.2 Broaden-and-build theory (Fredrickson) dan riset gratitude (Emmons & McCullough) — gratitude sebagai skill terlatih, bukan basa-basi
+* [ ] 11.3 Reframing/cognitive reappraisal (rujuk Module 7 — Gross) diterapkan ke self-talk sehari-hari dan melihat peluang di tengah masalah, tanpa menyangkal masalahnya
+* [ ] 11.4 Toxic positivity (Susan David — Emotional Agility) — pembeda tegas: positif sehat mengakui fakta buruk lalu mencari kemungkinan baik; toxic positivity menyangkal/menekan fakta buruk demi terlihat baik-baik saja
+
+Mini Project: Positivity Log — satu situasi sulit nyata minggu ini, ditulis (1) fakta buruk yang diakui penuh tanpa disangkal, (2) satu kemungkinan baik/pelajaran realistis yang tetap jujur terhadap fakta nomor 1.
+
+Status: Not started
+
+---
+
+## Module 12 — Menerima Bahwa Hidup Tidak Selalu Baik-Baik Saja
+
+Description: Kegagalan, kehilangan, penolakan, kesepian, ketidakpastian, dan hari buruk adalah bagian hidup yang tidak bisa dihindari. Modul ini melatih menerimanya secara aktif (Accept-Feel-Process-Respond), bukan menyangkalnya (Deny-Pretend-Suppress) — Module 9 sudah melatih pola yang sama khusus untuk kesalahan masa lalu; modul ini memperluasnya ke hardship hidup secara umum.
+
+Lessons:
+
+* [ ] 12.1 Kerangka Accept → Feel → Process → Respond vs Deny → Pretend → Suppress — berbasis Acceptance and Commitment Therapy (Hayes) dan Emotional Agility (Susan David)
+* [ ] 12.2 Radical acceptance (Linehan, sudah dipakai Module 9 untuk masa lalu) diperluas ke hardship umum: kegagalan, kehilangan, rejection, hari buruk, rencana yang gagal
+* [ ] 12.3 Intolerance of uncertainty (Dugas & Robichaud) — kenapa ketidakpastian terasa mengancam, dan cara membangun toleransi terhadapnya bertahap
+* [ ] 12.4 Studi kasus software engineer: proyek dibatalkan, rejection interview, layoff — menerapkan Accept-Feel-Process-Respond dibanding reaksi default (menyangkal/menekan)
+
+Mini Project: satu kejadian buruk nyata (bukan hipotetis) dipetakan lewat 4 tahap Accept-Feel-Process-Respond, dibandingkan dengan bagaimana biasanya direspons sebelumnya (Deny-Pretend-Suppress).
+
+Status: Not started
+
+---
+
+## Module 13 — Overthinking Secara Penuh
+
+Description: Module 9 sudah membahas rumination khusus atas kesalahan masa lalu. Modul ini membedah overthinking secara penuh — termasuk yang mengarah ke masa depan (worry) dan yang tidak berhubungan dengan kesalahan sama sekali (perfectionism, mind-reading) — lengkap dengan toolkit CBT untuk memutusnya.
+
+Lessons:
+
+* [ ] 13.1 Taksonomi penuh: rumination (fokus masa lalu, sudah Module 9) vs worry (fokus masa depan), catastrophizing, mind-reading, "what if", analysis paralysis, perfectionism — cognitive distortions (Beck, Burns)
+* [ ] 13.2 Chain Trigger → Thought → Emotion → Behavior → Consequence (CBT dasar, Beck) — cara memetakan episode overthinking secara real-time
+* [ ] 13.3 Toolkit pemutus: cognitive restructuring & evidence checking, probability thinking, worry time terjadwal (Borkovec), grounding, attention shifting, problem-solving aktif vs ruminating pasif
+* [ ] 13.4 Perfectionism dan analysis paralysis di kerja software engineer (over-engineering, takut ship kode, takut salah desain) — taking action sebagai obat overthinking, bukan menunggu yakin 100%
+
+Mini Project: satu episode overthinking nyata minggu ini dipetakan lewat chain Trigger-Thought-Emotion-Behavior-Consequence, lalu diproses dengan satu teknik dari Lesson 13.3, hasilnya dicatat.
+
+Status: Not started
+
+---
+
+## Module 14 — Let Them, Let Me
+
+Description: "Let Them Theory" (Mel Robbins) sedang populer sebagai bingkai melepas kebutuhan mengontrol orang lain. Modul ini memakai bingkai itu sebagai pintu masuk, lalu langsung menyilangkannya ke separation of tasks (Module 4) dan dikotomi kendali (Module 2) yang sudah dilatih — supaya tidak berhenti di level motivasi, dan menegaskan Let Them bukan berarti pasif.
+
+Lessons:
+
+* [ ] 14.1 "Let Them Theory" (Mel Robbins, sumber populer) disilangkan ke separation of tasks (Kishimi & Koga, Module 4) dan dikotomi kendali (Epictetus, Module 2) — bingkai baru untuk konsep yang sudah dilatih, bukan teori baru
+* [ ] 14.2 Circle of Control vs Influence vs Concern (Covey) — memperluas dikotomi kendali 2-arah (Module 2: kendali penuh / tidak ada kendali) jadi trikotomi 3-arah dengan kategori tengah "Influence" (bisa dipengaruhi, tidak bisa dipaksa)
+* [ ] 14.3 Let Them bukan pasif — pasangan "Let Them → Let Me": membiarkan orang lain (pendapat, keputusan, respons) dipasangkan dengan tindakan sadar sendiri (boundaries, rujuk Module 6)
+* [ ] 14.4 Studi kasus: pasangan, teman, keluarga, rekan kerja — memilah mana yang di-"Let Them", mana yang tetap ditindaklanjuti (bukan semua hal boleh "dibiarkan")
+
+Mini Project: 3 situasi nyata minggu ini dipetakan ke Control/Influence/Accept, tiap satu ditulis sebagai pasangan "Let Them → Let Me [tindakan konkret]".
+
+Status: Not started
+
+---
+
+## Module 15 — Ketenangan sebagai Skill & Sintesis Akhir
+
+Description: Modul penutup penuh untuk sisi "ketenangan" — menyatukan Module 11-14 dengan seluruh course jadi satu Personal "Bodo Amat" Operating System versi paling lengkap: opini orang lain (M1-8), masa lalu diri sendiri (M9-10), dan ketenangan/positivity/overthinking/let them (M11-15).
+
+Lessons:
+
+* [ ] 15.1 Ketenangan sebagai skill terlatih, bukan trait bawaan — pause before reaction, breathing, tolerating discomfort (ringkas, rujuk `character-development` Module 9 untuk kedalaman MBSR/non-attachment/equanimity, tidak diulang penuh)
+* [ ] 15.2 Mengelola ekspektasi (pasangan, keluarga, karier, uang, masa depan, diri sendiri) — standar sehat vs ekspektasi tidak realistis, memakai negative visualization/premeditatio malorum Stoic (Irvine, ringkas, rujuk `stoicism` untuk kedalaman)
+* [ ] 15.3 Emotional freedom — sintesis Module 3 (kritik), 5 (validasi), 11 (positivity): tidak dikendalikan praise/criticism/comparison/FOMO, opini orang lain boleh ada tapi tidak otomatis menentukan nilai diri
+* [ ] 15.4 Revisi final Personal "Bodo Amat" Operating System — menggabungkan protokol opini orang lain (M8), masa lalu diri sendiri (M10), dan ketenangan/positivity/overthinking/let them (M11-14) jadi satu sistem utuh
+
+30-Day Calmness Challenge (Applied Practice berkelanjutan, bukan lesson terpisah — satu latihan konkret per hari, meningkat bertahap, dicatat di log harian) dan Daily Journal (7 pertanyaan reflektif harian, opsional per hari) berjalan paralel mulai modul ini sampai portfolio final selesai — lihat `domains/not-caring/DOMAIN.md` Applied Practice Definition.
+
+Portfolio Project: Personal "Bodo Amat" Operating System (versi final, revisi dari Module 10) — sekarang mencakup 3 protokol penuh (opini orang lain, masa lalu diri sendiri, ketenangan/positivity/overthinking/let them) — teruji minimal 3 minggu penerapan nyata termasuk 30-Day Calmness Challenge, disimpan ke `portofolio/`.
 
 Status: Not started
 
@@ -227,7 +321,7 @@ Status: N/A
 
 # Overall Progress
 
-Module Completion: 0/10 (0%)
+Module Completion: 0/15 (0%)
 
 Overall Completion: 0%
 
