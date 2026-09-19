@@ -230,6 +230,7 @@ Lessons:
 * [ ] 11.2 Memaafkan ≠ melupakan/memaklumi/memaksakan rekonsiliasi — validasi luka nyata dulu sebelum melepas dendam
 * [ ] 11.3 Dichotomy of control (Epictetus) sebagai kerangka pelengkap — fokus pada respons yang bisa dikendalikan, disilangkan ke Gross & Ellis
 * [ ] 11.4 Membedakan "berlapang dada" sehat dari people-pleasing yang menyamar sebagai kesabaran (mengacu kembali ke Module 8)
+* [ ] 11.5 Hati yang lelah — tiga pembedaan eksplisit sebelum proses REACH dimulai: rest ≠ giving up, acceptance ≠ approval, letting go ≠ forgetting; boleh lelah tanpa harus menyerah (emotional acceptance, bukan toxic positivity)
 
 Mini Project: Terapkan model REACH pada satu luka/dendam nyata (kecil atau besar), dokumentasikan tiap tahap secara jujur — termasuk kalau prosesnya belum selesai.
 
@@ -247,6 +248,7 @@ Lessons:
 * [ ] 12.2 Rumination abstrak-evaluatif ("kenapa ini terjadi padaku") vs pemrosesan konkret-konstruktif ("apa langkah kecil berikutnya") — kerangka Watkins
 * [ ] 12.3 Teknik interupsi rumination — mengalihkan ke konkret-spesifik, dijadwalkan ("worry/rumination window"), dan tindakan mikro
 * [ ] 12.4 Membedakan rumination yang ditarget dari refleksi sehat yang tetap boleh dilakukan (house rule domain)
+* [ ] 12.5 Teknik "satu kalimat inti → satu tindakan" — merangkum masalah rumit jadi satu kalimat menenangkan dan actionable (mis. "kalau belum terjadi, jangan menderita dua kali"), lewat 4 pertanyaan: fakta vs asumsi, apa yang bisa dikontrol, apa tindakan berikutnya, apa yang harus dilepaskan — dipakai sebagai langkah penutup 12.3, bukan pengganti proses interupsi itu sendiri
 
 Mini Project: Rumination Interrupt Log — tangkap satu episode nyata mengulang-ulang kejadian masa lalu, klasifikasi abstrak-evaluatif vs konkret-konstruktif, terapkan satu teknik interupsi, dokumentasikan hasilnya.
 

@@ -198,7 +198,11 @@ Description: Teori-teori kepribadian utama dan cara mengukurnya — psikodinamik
 
 Lessons:
 
-* [ ] 11.1 Teori psikodinamik (Freud) — kontribusi historis dan keterbatasan ilmiahnya
+* [ ] 11.1 Freud — struktur pikiran: unconscious mind, id/ego/superego, dan kenapa model ini historis berpengaruh meski bukan model neurosains modern
+* [ ] 11.1a Defense mechanisms (repression, projection, displacement, rationalization) — mana yang masih dipakai psikologi modern dalam bentuk tersintesis (mis. riset coping/self-deception) vs yang sekadar istilah populer
+* [ ] 11.1b Pengalaman masa kecil, teori psikoseksual, dan interpretasi mimpi — klaim asli Freud vs status evidence modern (largely tidak didukung riset falsifiable)
+* [ ] 11.1c Transference — konsep yang bertahan dalam psikoterapi modern (klinis, disilangkan ke Module 14) vs bagian teori Freud yang ditinggalkan
+* [ ] 11.1d Kritik ilmiah menyeluruh: Karl Popper (unfalsifiability), replikasi/evidence base modern — memisahkan pengaruh historis Freud dari validitas ilmiahnya hari ini
 * [ ] 11.2 Trait theory: Big Five (OCEAN) — model yang paling didukung bukti saat ini
 * [ ] 11.3 Teori humanistik (Rogers, Maslow) dan social-cognitive (Bandura self-efficacy)
 * [ ] 11.4 Asesmen kepribadian: tes valid secara ilmiah (mis. Big Five inventories) vs tes populer tanpa dasar bukti kuat (mis. MBTI — kritik reliabilitas)
