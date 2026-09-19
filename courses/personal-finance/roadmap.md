@@ -28,14 +28,14 @@ Description: Fondasi sebelum menyentuh angka apapun — cara membaca posisi keua
 
 Lessons:
 
-* [ ] 1.1 Net worth statement — aset vs liabilitas, cara menghitung net worth pribadi secara jujur
+* [x] 1.1 Net worth statement — aset vs liabilitas, cara menghitung net worth pribadi secara jujur
 * [ ] 1.2 Cash-flow statement — membedakan income, fixed expense, variable expense, dan "phantom spending"
 * [ ] 1.3 Bias psikologis umum: loss aversion, lifestyle inflation, mental accounting, dan bagaimana masing-masing diam-diam mengubah keputusan uang
 * [ ] 1.4 Menentukan tujuan keuangan (goal-based framing): jangka pendek vs menengah vs panjang, dan cara menuliskannya supaya terukur
 
 Mini Project: Menyusun net worth statement dan cash-flow statement pribadi (atau skenario realistis) periode 1 bulan terakhir, lengkap dengan 3 tujuan keuangan terukur.
 
-Status: Not started
+Status: In Progress
 
 ---
 
@@ -373,8 +373,8 @@ Module Completion: 0/12
 
 Overall Completion: 0%
 
-Current Module: menungggu approval
+Current Module: Module 1 — Financial Foundations & Mindset
 
-Current Lesson: -
+Current Lesson: 1.2 Cash-flow statement — membedakan income, fixed expense, variable expense, dan "phantom spending"
 
-Next Lesson: 1.1 Net worth statement — aset vs liabilitas, cara menghitung net worth pribadi secara jujur
+Next Lesson: 1.3 Bias psikologis umum: loss aversion, lifestyle inflation, mental accounting, dan bagaimana masing-masing diam-diam mengubah keputusan uang
