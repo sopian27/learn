@@ -112,7 +112,7 @@ Lessons:
 * [x] 4.2 Dependency Injection: constructor vs setter vs field injection — kenapa constructor injection jadi standar (immutability, testability, fail-fast) — Selesai (2026-09-11), skor 92/100
 * [x] 4.3 Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan — Selesai (2026-09-12), skor 92/100
 * [x] 4.4 AOP & Proxy: JDK dynamic proxy vs CGLIB, kenapa `@Transactional`/`@Cacheable` tidak bekerja pada self-invocation (pitfall paling umum) — Selesai (2026-09-19), skor 91/100
-* [ ] 4.5 Circular dependency & cara Spring (gagal) mengatasinya — kapan ini sinyal desain yang salah, bukan sekadar error teknis
+* [x] 4.5 Circular dependency & cara Spring (gagal) mengatasinya — kapan ini sinyal desain yang salah, bukan sekadar error teknis — Selesai (2026-09-20), skor 93/100
 
 Mini Project: Diberi service dengan bug "self-invocation `@Transactional` tidak jalan" — Anda diminta mendiagnosis akar masalahnya lewat pemahaman proxy, lalu memperbaikinya dengan 2 pendekatan berbeda dan menjelaskan trade-off-nya.
 
@@ -346,6 +346,6 @@ Overall Completion: 13%
 
 Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
 
-Current Lesson: 4.4 — AOP & Proxy: JDK dynamic proxy vs CGLIB, self-invocation pitfall — Selesai (2026-09-19), skor 91/100.
+Current Lesson: 4.5 — Circular dependency & cara Spring (gagal) mengatasinya — Selesai (2026-09-20), skor 93/100.
 
-Next: Lanjut Lesson 4.5 — Circular dependency & cara Spring (gagal) mengatasinya. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Lanjut Mini Project Module 4 — bug "self-invocation `@Transactional` tidak jalan" (diagnosis via proxy, 2 pendekatan perbaikan + trade-off). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
