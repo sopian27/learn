@@ -126,7 +126,7 @@ Description: Naik dari "bisa bikin endpoint CRUD" ke "bisa mendesain kontrak API
 
 Lessons:
 
-* [ ] 5.1 Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` — naming, HTTP method/status code yang benar, pagination, filtering
+* [x] 5.1 Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` — naming, HTTP method/status code yang benar, pagination, filtering — Selesai (2026-09-20), skor 90/100
 * [ ] 5.2 Versioning strategy (URI vs header) dan kapan breaking change benar-benar butuh versi baru
 * [ ] 5.3 Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten (bukan stack trace mentah) sesuai `standards/ERROR_HANDLING_STANDARDS.md`
 * [ ] 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` — kontrak sebagai sumber kebenaran, bukan dokumentasi belakangan
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 5 — REST API Production-Grade — **In Progress** (materi Lesson 5.1 sudah ditulis ke vault, menunggu jawaban Anda). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
+Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1 selesai & direview, skor 90/100). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
 
-Current Lesson: 5.1 — Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` (naming, HTTP method/status code, pagination, filtering) — materi ada di vault, belum dikerjakan.
+Current Lesson: 5.1 — Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` (naming, HTTP method/status code, pagination, filtering) — Selesai (2026-09-20), skor 90/100. Gap utama: response envelope pagination gak konsisten lintas 3 bagian exercise, validasi filter `rating` belum disebut, cursor belum punya tie-breaker unik.
 
-Next: Kerjakan Exercise Lesson 5.1, lalu lanjut Lesson 5.2 (Versioning strategy). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Lanjut Lesson 5.2 (Versioning strategy — URI vs header). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
