@@ -94,6 +94,8 @@ Rasional lengkap tiap course ada di "Catatan Scope" masing-masing `courses/<nama
 * **Cybersecurity** — `courses/cybersecurity/roadmap.md` — Approved 2026-08-06, belum dimulai. 3/4 batch.
 * **Cloud Computing & DevOps Foundations** — `courses/cloud-devops-foundations/roadmap.md` — Approved 2026-08-06, belum dimulai. 4/4 batch.
 
+* **When They Pull Away — Berhenti Mengejar, Beri Ruang, dan Kembali kepada Diri Sendiri** — `courses/when-they-pull-away/roadmap.md` — Domain: relationships (reuse, cross-ref Module 12 `courses/relationships/roadmap.md`) — Status: Approved 2026-09-20, Not Started. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard `ai-los/COURSE_CREATION.md` lewat AskUserQuestion.
+
 # Course Baru (draft, menunggu approval)
 
 Rasional lengkap tiap course (kalibrasi, pemisahan dari course lain, breakdown modul, sumber riset) ada di "Catatan Scope"/"Learning Objectives" masing-masing `courses/<nama>/roadmap.md` — tidak diduplikasi di sini. Domain baru yang disebut "belum terdaftar" statusnya tercatat di banner DRAFT domain file itu sendiri (`domains/<name>/DOMAIN.md`).

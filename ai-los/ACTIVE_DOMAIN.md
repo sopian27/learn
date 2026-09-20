@@ -185,6 +185,8 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
+`when-they-pull-away` juga TIDAK dapat domain baru — reuse domain `relationships` (Paused di atas), pola sama seperti tiga contoh di atas. Course: `courses/when-they-pull-away/roadmap.md` — dibuat 2026-09-20, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone dipilih meski overlap dengan Module 12 `relationships` (cross-referenced eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course.
+
 ---
 
 # Default Domain
