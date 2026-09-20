@@ -134,7 +134,7 @@ Lessons:
 
 Mini Project: Desain ulang & dokumentasikan (OpenAPI) sebuah API CRUD yang sebelumnya asal-asalan (endpoint tidak konsisten, error response berbeda-beda tiap controller) menjadi kontrak yang production-grade dan konsisten.
 
-Status: Not Started
+Status: In Progress
 
 ---
 
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 4 — Spring Core & IoC Deep Dive — **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas) — dilanjutkan duluan ke Module 4 atas pilihan eksplisit user.
+Current Module: Module 5 — REST API Production-Grade — **In Progress** (materi Lesson 5.1 sudah ditulis ke vault, menunggu jawaban Anda). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
 
-Current Lesson: Mini Project Module 4 — Diagnosis & Perbaikan Self-Invocation pada `@Transactional` — Dijawab & direview (2026-09-20), skor 88/100.
+Current Lesson: 5.1 — Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` (naming, HTTP method/status code, pagination, filtering) — materi ada di vault, belum dikerjakan.
 
-Next: Mulai Module 5 — REST API Production-Grade, Lesson 5.1 (desain resource & kontrak REST sesuai `standards/API_STANDARDS.md`). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Kerjakan Exercise Lesson 5.1, lalu lanjut Lesson 5.2 (Versioning strategy). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
