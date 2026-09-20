@@ -181,7 +181,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-13, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain baru terpisah dipilih (bukan extend `relationships`, yang secara eksplisit mengecualikan matchmaking spesifik agama/budaya) meski Module 2 dirujuk-silang ke `islamic-worship` untuk hindari duplikasi ~90%, dikonfirmasi lewat AskUserQuestion kedua dan ketiga — lihat "Registration History" di domain file)
 
-- `islamic-marriage-readiness` — domains/islamic-marriage-readiness/DOMAIN.md — Status: Paused — Course: courses/islamic-marriage-readiness/roadmap.md
+- `islamic-marriage-readiness` — domains/islamic-marriage-readiness/DOMAIN.md — Status: Paused — Course: courses/islamic-marriage-readiness/roadmap.md (diperluas 2026-09-20 — Module 5.5 "Ketika Ada Satu Nama di Hati", Proposed Extension menunggu approval, lihat "Registration History" di domain file)
 
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 

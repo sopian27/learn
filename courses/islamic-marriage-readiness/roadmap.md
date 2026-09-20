@@ -18,6 +18,8 @@ Course ini domain [[islamic-marriage-readiness]] — lihat `domains/islamic-marr
 
 **Module 9 (Cinta yang Dewasa)** merujuk kerangka psikologi hubungan dari domain [[relationships]] (attachment, Sternberg) yang sudah divalidasi di `courses/relationships/roadmap.md` — tidak mengulang riset/teorinya, hanya menyambungkannya ke perspektif Islam (nafsu vs cinta, menjaga hati dan agama).
 
+**Module 5.5 (Ketika Ada Satu Nama di Hati) ditambahkan 2026-09-20** dari draft user "Satu Nama yang Disebut dalam Doa" (8 "modul" naratif, request lewat `/clear` resume). Dikonfirmasi lewat AskUserQuestion: (a) extend course ini alih-alih domain baru terpisah — karena ~80% isi draft asli sudah tercakup Module 4 (kriteria), 6 (menghadapi penolakan), 9 (nafsu vs cinta/validasi), 11 (doa/istikharah/tawakal); (b) lanjut meski Course Aktif `character-development` pas di garis 50% (3/6 module) — konsisten pola override sebelumnya di `ai-los/ACTIVE_DOMAIN.md`. Modul baru disengaja dipersempit HANYA ke nilai tambah yang belum ada: kondisi awal "sudah ada satu nama spesifik di hati" dan reframing kalimat doa dari memaksa hasil ("jadikan dia milikku") menjadi berserah — bukan menduplikasi 8 modul narasi asli.
+
 ---
 
 # Learning Objectives
@@ -120,6 +122,23 @@ Lessons:
 * [ ] 5.4 Menjaga batasan syariat dan tidak terlalu cepat attached sebelum kepastian — melindungi hati sendiri dan pihak lain selama proses belum final
 
 Mini Project: Susun daftar 5 pertanyaan penting yang ingin ditanyakan ke calon pasangan sebelum serius, mencakup minimal 3 dari 6 dimensi Modul 4.
+
+Status: Not started
+
+---
+
+## Module 5.5 — Ketika Ada Satu Nama di Hati (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+Description: Mengisi kondisi awal yang sangat umum tapi belum eksplisit dibahas Module 1-11: learner memulai proses ini bukan dari nol, tapi sudah punya satu nama spesifik di hati/doa. Modul ini murni terapan — sengaja tidak mengulang teori yang sudah ada: diagnosa nafsu vs cinta vs validasi memakai kerangka Module 9.2-9.4, evaluasi kecocokan objektif tetap memakai kriteria Module 4, adab doa dan istikharah tetap lengkap di Module 11, dan proses menghadapi kalau jawabannya bukan dia sepenuhnya dirujuk ke Module 6 (bukan diduplikasi). Nilai tambah modul ini murni pada satu titik yang belum disentuh: bagaimana kalimat doa dan sikap hati berubah ketika sudah ada nama spesifik yang disebut.
+
+Lessons:
+
+* [ ] 5.5.1 Ketertarikan vs cinta vs kebutuhan validasi — diagnosa jujur kenapa satu nama ini terasa begitu penting, diterapkan ke kasus nyata (bukan teori umum, itu sudah di Module 9.2-9.4)
+* [ ] 5.5.2 Dari "Ya Allah, jadikan dia milikku" menjadi "Ya Allah, jika dia baik untuk agama, kehidupan, dan akhiratku, dekatkanlah dengan cara yang Engkau ridai — jika tidak, jauhkanlah dengan cara yang baik dan berikan aku keridaan" — reframing kalimat doa spesifik (adab doa & istikharah lengkap tetap di Module 11, tidak diulang di sini)
+* [ ] 5.5.3 Mencintai tanpa kehilangan diri — tetap bekerja, beribadah, dan berkembang selagi proses berjalan, tidak menjadikan satu orang pusat kehidupan (terapan harian dari prinsip validation/healthy attachment Module 9.4)
+* [ ] 5.5.4 Setelah doa dijawab — tetap menjalani hidup, tidak membaca kebetulan sebagai "tanda", dan tidak memaksakan hubungan karena merasa sudah banyak berdoa (jika jawabannya bukan dia, proses penuhnya rujuk Module 6)
+
+Mini Project: **"Doa yang Aku Titipkan"** — satu halaman reflektif menjawab jujur: (1) siapa yang sebenarnya dicintai — orangnya atau perasaan yang muncul karena dia; (2) apa yang diharapkan darinya; (3) kebutuhan validasi apa yang masih bermain; (4) kesiapan jadi pasangan (rujuk Module 3); (5) apa yang bisa diikhtiarkan (rujuk Module 5); (6) apa yang harus dilepas ke Allah; (7) bagaimana tetap tenang jika jawabannya bukan dia. Prinsip penutup: *"Boleh menyebut satu nama dalam doa, tapi jangan sampai satu nama membuat lupa kepada Dia yang mendengar doa."*
 
 Status: Not started
 
