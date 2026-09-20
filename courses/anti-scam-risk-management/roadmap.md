@@ -5,7 +5,7 @@
 * Course Name: Anti-Scam & Risk Management — dari 0 sampai Expert
 * Category: Anti-Scam & Risk Management (Domain: anti-scam-risk-management — lihat `domains/anti-scam-risk-management/DOMAIN.md`)
 * Difficulty: Level 0 (belum punya kerangka sadar untuk mendeteksi manipulasi, cenderung percaya kalau tawaran terdengar meyakinkan/dari orang yang "kelihatan" resmi) → Level 4 (secara default memetakan taktik manipulasi ke prinsip yang dikenal, memverifikasi lewat sumber resmi sebelum komitmen apa pun, punya protokol pribadi untuk keputusan di bawah tekanan, dan tahu persis langkah response kalau terlanjur jadi korban)
-* Estimated Duration: 10 modul, 4 lesson/modul (40 lesson), pace mengikuti ketersediaan kasus nyata (Applied Practice idealnya pakai tawaran/pesan/kontrak yang benar-benar diterima learner, studi kasus publik terdokumentasi jadi cadangan) — bukan dikebut
+* Estimated Duration: 11 modul, 4 lesson/modul (44 lesson) — Module 10 ditambahkan 2026-09-20 sebagai deep dive love scam/romance scam, pace mengikuti ketersediaan kasus nyata (Applied Practice idealnya pakai tawaran/pesan/kontrak yang benar-benar diterima learner, studi kasus publik terdokumentasi jadi cadangan) — bukan dikebut
 * Prerequisites: Tidak ada prasyarat teknis. Kesediaan menerapkan tiap framework ke Scam Defense Case File yang jujur, termasuk kesediaan mengakui kalau di masa lalu pernah hampir/sudah kena taktik tertentu (tanpa rasa malu, sesuai house rule anti-shame). Manfaat lebih besar kalau sudah/sedang jalan bareng [[domains/critical-thinking/DOMAIN.md|critical-thinking]] (kalibrasi confidence, expected value sudah dikenalkan generik di sana), tapi tidak wajib.
 
 ---
@@ -21,6 +21,7 @@
 * [ ] Mempertahankan diri dari social engineering digital (phishing/smishing/vishing, OTP scam, deepfake/AI voice cloning)
 * [ ] Menjalankan Incident Response Plan yang benar kalau terlanjur jadi korban, termasuk mengenali "recovery scam"
 * [ ] Menghasilkan Personal Anti-Scam & Risk Management System sebagai Capstone Project, diuji pada kasus nyata
+* [ ] **(Extension 2026-09-20)** Membedah anatomi love scam/romance scam secara mendalam (love bombing, mirroring, future faking, manufactured emergency), menyusun Emotional Firewall pribadi untuk keputusan yang menyangkut hubungan romantis, dan menuntaskan 5 studi kasus Love Scam Detective plus 10 Personal Safety Code untuk hubungan online
 
 ---
 
@@ -181,18 +182,37 @@ Status: Not started
 
 ---
 
-## Module 10 — Capstone: Personal Anti-Scam & Risk Management System
+## Module 10 — Love Scam / Romance Scam — Deep Dive & Detective Practice
 
-Description: Mengintegrasikan seluruh framework Module 1-9 jadi satu sistem pertahanan pribadi yang nyata dan bisa dipakai berulang seumur hidup, sesuai `domains/anti-scam-risk-management/DOMAIN.md` bagian "Project Tiers".
+Description: **(Extension 2026-09-20, append — course tetap Not started/Paused, tidak mengubah pacing modul lain)** Module 2.3 dan 3.2 sudah menyentuh romance scam/pig butchering sebagai satu kategori di antara banyak kategori scam lain. Modul ini adalah pendalaman khusus: romance scam punya mekanisme emosional (love bombing, mirroring, future faking, isolasi bertahap) yang cukup berbeda dan cukup umum ditemui sehingga layak dibedah tersendiri, bukan sekadar satu baris di taksonomi. Lessons di bawah SENGAJA tidak mengulang penuh framework generik Module 1-2 (Cialdini, anatomi con), Module 3.4 (red flag checklist universal), Module 4 (cooling-off protocol), Module 5 (verifikasi/due diligence), Module 8 (keamanan digital), atau Module 9 (incident response) — tiap lesson merujuk balik ke modul itu dan hanya menambahkan bagian yang SPESIFIK untuk konteks hubungan romantis.
 
 Lessons:
 
-* [ ] 10.1 Menyusun Scam Defense Playbook — sintesis Module 1-4 (deteksi taktik manipulasi + protokol FOMO/cooling-off)
-* [ ] 10.2 Menyusun Verification & Due Diligence Toolkit pribadi — sintesis Module 5-6 (checklist verifikasi + kalkulator kelayakan return finansial)
-* [ ] 10.3 Finalisasi Contract Red-Flag Checklist dan Incident Response Plan — sintesis Module 7-9
-* [ ] 10.4 Self-review pola dari seluruh Scam Defense Case File Module 1-9, finalisasi Personal Anti-Scam & Risk Management System, simpan ke `portofolio/`
+* [ ] 10.1 Anatomi Love Scam & Bias Psikologis Spesifik — funnel kenalan → perhatian → kepercayaan → emotional attachment → isolasi → krisis → permintaan → tekanan (versi romance dari anatomi con generik 1.2); bias tambahan yang BELUM dibahas di Module 1-2: need for validation, loneliness, sunk-cost effect, confirmation bias, halo effect, empathy manipulation
+* [ ] 10.2 Love Bombing, Red Flag Spesifik Romance & Emotional Firewall — perbedaan perhatian sehat vs perhatian yang dipakai mengendalikan (love bombing, "kamu satu-satunya yang mengerti aku", guilt-tripping); red flag tambahan spesifik romance di luar checklist universal 3.4 (menghindari video call, cerita tidak konsisten, profil terlalu sempurna, minta hubungan dirahasiakan); Emotional Firewall — Slow down → Verify → Think → Decide, adaptasi Cooling-off Protocol 4.3 untuk tekanan yang dibungkus kasih sayang/rasa bersalah
+* [ ] 10.3 Money Scam & Verifikasi Digital Spesifik Romance — pola permintaan uang khas romance scam (pinjaman, rumah sakit, tiket, visa, bea cukai, investasi/crypto, gift card) sebagai kasus terapan dari Module 3.1/6; verifikasi identitas pasangan online (reverse image search, konsistensi cerita, permintaan video call sebagai tes) sebagai kasus terapan dari Module 5.2; data yang tidak boleh diberikan (OTP/PIN/password/akses rekening) dan risiko jadi money mule tanpa sadar, merujuk Module 8
+* [ ] 10.4 Kalau Sudah Terlanjur Terlibat & Personal Safety Code — urutan prioritas romance-specific (stop contact → amankan akun → hubungi bank/platform → simpan bukti → lapor → JANGAN kirim uang tambahan untuk "menyelamatkan" yang sudah hilang), merujuk Incident Response Plan 9.1-9.2 dan peringatan recovery scam 9.3; menyusun 10 Personal Safety Code pribadi untuk hubungan online
 
-Capstone Project: **Personal Anti-Scam & Risk Management System** — dokumen sintesis berisi Scam Defense Playbook, Verification & Due Diligence Toolkit, Contract Red-Flag Checklist, dan Incident Response & Recovery Plan lengkap dengan kontak pelaporan resmi Indonesia. Review memakai `domains/anti-scam-risk-management/DOMAIN.md` bagian "Review Style" (Tactic Identification Accuracy, Verification Rigor, Red Flag Completeness, Actionability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
+Mini Project: Analisis 2 kasus Love Scam Detective tingkat mudah (Level 1: red flag jelas, Level 2: beberapa red flag), format **Evidence → Red Flag → Manipulation Pattern → Verification → Risk → Action**, dikerjakan mandiri dulu sebelum melihat pembahasan.
+
+Intermediate Project 3: **Love Scam Detective** — 3 kasus lanjutan tingkat kesulitan meningkat (Level 3: hubungan terlihat sangat meyakinkan, Level 4: tidak ada permintaan uang di awal, Level 5: kasus kompleks campuran fakta dan manipulasi), tiap kasus didokumentasikan dengan format Evidence → Red Flag → Manipulation Pattern → Verification → Risk → Action, plus finalisasi **10 Personal Safety Code** pribadi untuk hubungan online — keduanya jadi bahan masukan Capstone Module 11.
+
+Status: Not started
+
+---
+
+## Module 11 — Capstone: Personal Anti-Scam & Risk Management System
+
+Description: Mengintegrasikan seluruh framework Module 1-10 jadi satu sistem pertahanan pribadi yang nyata dan bisa dipakai berulang seumur hidup, sesuai `domains/anti-scam-risk-management/DOMAIN.md` bagian "Project Tiers".
+
+Lessons:
+
+* [ ] 11.1 Menyusun Scam Defense Playbook — sintesis Module 1-4 (deteksi taktik manipulasi + protokol FOMO/cooling-off)
+* [ ] 11.2 Menyusun Verification & Due Diligence Toolkit pribadi — sintesis Module 5-6 (checklist verifikasi + kalkulator kelayakan return finansial)
+* [ ] 11.3 Finalisasi Contract Red-Flag Checklist dan Incident Response Plan — sintesis Module 7-9
+* [ ] 11.4 Self-review pola dari seluruh Scam Defense Case File Module 1-10 (termasuk Love Scam Detective Module 10), finalisasi Personal Anti-Scam & Risk Management System, simpan ke `portofolio/`
+
+Capstone Project: **Personal Anti-Scam & Risk Management System** — dokumen sintesis berisi Scam Defense Playbook, Verification & Due Diligence Toolkit, Contract Red-Flag Checklist, Incident Response & Recovery Plan lengkap dengan kontak pelaporan resmi Indonesia, dan Personal Safety Code untuk hubungan online (Module 10). Review memakai `domains/anti-scam-risk-management/DOMAIN.md` bagian "Review Style" (Tactic Identification Accuracy, Verification Rigor, Red Flag Completeness, Actionability) di atas Universal Review Rubric (`ai-los/CORE_LOS.md`).
 
 Status: Not started
 
@@ -200,7 +220,7 @@ Status: Not started
 
 # Capstone Project
 
-Description: Lihat Module 10 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 10 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/anti-scam-risk-management/DOMAIN.md` bagian "Project Tiers".
+Description: Lihat Module 11 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 11 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/anti-scam-risk-management/DOMAIN.md` bagian "Project Tiers".
 
 Acceptance Criteria: Memenuhi keempat kriteria domain (Tactic Identification Accuracy, Verification Rigor, Red Flag Completeness, Actionability) plus Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) dari `ai-los/CORE_LOS.md`, dan seluruh empat komponen sistem diuji pada minimal satu kasus nyata (bukan hipotetis semata).
 
@@ -210,7 +230,7 @@ Status: Not started
 
 # Overall Progress
 
-Module Completion: 0/10
+Module Completion: 0/11
 
 Overall Completion: 0%
 

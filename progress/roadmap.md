@@ -316,7 +316,7 @@ Atas permintaan course baru "Elegance & Luxury Lifestyle — Menjadi Pria Berkel
 
 ## 2026-08-14 — Anti-Scam & Risk Management
 
-* **Anti-Scam & Risk Management** — `courses/anti-scam-risk-management/roadmap.md` — Domain: anti-scam-risk-management (registered paused). Status: Approved 2026-08-14, Not Started.
+* **Anti-Scam & Risk Management** — `courses/anti-scam-risk-management/roadmap.md` — Domain: anti-scam-risk-management (registered paused). Status: Approved 2026-08-14, Not Started. **Diperluas 2026-09-20** — Module 10 baru "Love Scam / Romance Scam — Deep Dive & Detective Practice" (append, Capstone lama digeser jadi Module 11), dari draft user "Love Scam — Kenali Manipulasi Sebelum Terlambat"; dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module), user eksplisit konfirmasi override guard + pilih extend (bukan domain baru) lewat AskUserQuestion. Masih Not Started, tetap ikut cap 2-course-aktif.
 
 ## 2026-08-14 — Warm Charisma
 
