@@ -114,9 +114,9 @@ Lessons:
 * [x] 4.4 AOP & Proxy: JDK dynamic proxy vs CGLIB, kenapa `@Transactional`/`@Cacheable` tidak bekerja pada self-invocation (pitfall paling umum) — Selesai (2026-09-19), skor 91/100
 * [x] 4.5 Circular dependency & cara Spring (gagal) mengatasinya — kapan ini sinyal desain yang salah, bukan sekadar error teknis — Selesai (2026-09-20), skor 93/100
 
-Mini Project: Diberi service dengan bug "self-invocation `@Transactional` tidak jalan" — Anda diminta mendiagnosis akar masalahnya lewat pemahaman proxy, lalu memperbaikinya dengan 2 pendekatan berbeda dan menjelaskan trade-off-nya.
+Mini Project: Diberi service dengan bug "self-invocation `@Transactional` tidak jalan" — Anda diminta mendiagnosis akar masalahnya lewat pemahaman proxy, lalu memperbaikinya dengan 2 pendekatan berbeda dan menjelaskan trade-off-nya. — Dijawab & direview (2026-09-20), skor 88/100. Diagnosis akar masalah & trade-off kuat (level "bisa menjustifikasi ke tim"), tapi kode Pendekatan 2 punya bug nama constructor (tidak akan kompilasi) dan Pendekatan 1 pakai `ApplicationContext.getBean()` per pemanggilan alih-alih resolve sekali lewat `@Lazy` self-reference.
 
-Status: Not Started
+Status: Selesai
 
 ---
 
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 4 — Spring Core & IoC Deep Dive — **In Progress** (dilanjutkan sebelum evidence Mini Project Module 3 dituntaskan, atas pilihan eksplisit user — lihat catatan Module 3 di atas)
+Current Module: Module 4 — Spring Core & IoC Deep Dive — **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas) — dilanjutkan duluan ke Module 4 atas pilihan eksplisit user.
 
-Current Lesson: 4.5 — Circular dependency & cara Spring (gagal) mengatasinya — Selesai (2026-09-20), skor 93/100.
+Current Lesson: Mini Project Module 4 — Diagnosis & Perbaikan Self-Invocation pada `@Transactional` — Dijawab & direview (2026-09-20), skor 88/100.
 
-Next: Lanjut Mini Project Module 4 — bug "self-invocation `@Transactional` tidak jalan" (diagnosis via proxy, 2 pendekatan perbaikan + trade-off). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Mulai Module 5 — REST API Production-Grade, Lesson 5.1 (desain resource & kontrak REST sesuai `standards/API_STANDARDS.md`). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
