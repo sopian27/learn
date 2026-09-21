@@ -178,6 +178,10 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Intuition Training & Calibrated Judgment** — `courses/intuition-training/roadmap.md` — Domain: intuition-training (registered paused). Status: Draft, menunggu approval.
 
+## 2026-09-21 — Thinking, Struggle & Meaning
+
+* **Thinking, Struggle & Meaning — Dari Cara Berpikir hingga Cara Menjalani Hidup** — `courses/thinking-struggle-meaning/roadmap.md` — Domain baru: thinking-struggle-meaning (`domains/thinking-struggle-meaning/DOMAIN.md`, draft, belum terdaftar). Status: Draft, menunggu approval. 5 bagian dari 5 buku primer (MADILOG, Dari Penjara ke Penjara, Aksi Massa — Tan Malaka; Man's Search for Meaning — Viktor Frankl; The Power of Small Moments) + Final Project "Personal Philosophy of Life". Dibuat saat Course Aktif "Character Development" tepat di garis 50% (3/6 modul) — user eksplisit konfirmasi lanjut lewat AskUserQuestion, sama seperti precedent `when-they-pull-away` 2026-09-20. Domain baru dipilih eksplisit (bukan reuse `character-development`/`life-mastery`) karena kombinasi materi tak pas dipaksa ke domain existing.
+
 ## 2026-08-12 — Cinta Sehat (Relationships Extended)
 
 * **Relationships & Cinta Sehat** — `courses/relationships/roadmap.md` (diperluas 2026-08-12 dari course lama "Relationships & Marriage Readiness") — Domain: relationships (registered paused). Status: Draft hasil extend, menunggu approval.
