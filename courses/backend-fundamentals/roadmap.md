@@ -129,7 +129,7 @@ Lessons:
 * [x] 5.1 Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` — naming, HTTP method/status code yang benar, pagination, filtering — Selesai (2026-09-20), skor 90/100
 * [x] 5.2 Versioning strategy (URI vs header) dan kapan breaking change benar-benar butuh versi baru — Selesai (2026-09-20), skor 92/100
 * [x] 5.3 Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten (bukan stack trace mentah) sesuai `standards/ERROR_HANDLING_STANDARDS.md` — Selesai (2026-09-22), skor 94/100 (revisi dari 84/100)
-* [ ] 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` — kontrak sebagai sumber kebenaran, bukan dokumentasi belakangan
+* [x] 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` — kontrak sebagai sumber kebenaran, bukan dokumentasi belakangan — Selesai (2026-09-22), skor 90/100
 * [ ] 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar
 
 Mini Project: Desain ulang & dokumentasikan (OpenAPI) sebuah API CRUD yang sebelumnya asal-asalan (endpoint tidak konsisten, error response berbeda-beda tiap controller) menjadi kontrak yang production-grade dan konsisten.
