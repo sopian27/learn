@@ -128,7 +128,7 @@ Lessons:
 
 * [x] 5.1 Desain resource & kontrak REST yang konsisten sesuai `standards/API_STANDARDS.md` — naming, HTTP method/status code yang benar, pagination, filtering — Selesai (2026-09-20), skor 90/100
 * [x] 5.2 Versioning strategy (URI vs header) dan kapan breaking change benar-benar butuh versi baru — Selesai (2026-09-20), skor 92/100
-* [ ] 5.3 Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten (bukan stack trace mentah) sesuai `standards/ERROR_HANDLING_STANDARDS.md`
+* [x] 5.3 Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten (bukan stack trace mentah) sesuai `standards/ERROR_HANDLING_STANDARDS.md` — Selesai (2026-09-22), skor 94/100 (revisi dari 84/100)
 * [ ] 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` — kontrak sebagai sumber kebenaran, bukan dokumentasi belakangan
 * [ ] 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar
 
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1 skor 90/100, Lesson 5.2 skor 92/100, keduanya selesai & direview). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
+Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1 skor 90/100, Lesson 5.2 skor 92/100, Lesson 5.3 skor 94/100 setelah revisi, ketiganya selesai & direview). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
 
-Current Lesson: 5.2 — Versioning strategy (URI vs header) dan kapan breaking change benar-benar butuh versi baru — Selesai (2026-09-20), skor 92/100. Gap utama: kriteria "kapan v1 boleh dihapus" belum operasional (belum sebut pemantauan traffic/`Sunset` header), Bagian 2 belum eksplisit menolak Accept header untuk skenario itu.
+Current Lesson: 5.3 — Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten — Selesai (2026-09-22), skor 94/100 (revisi dari 84/100). Ketiga gap dari review pertama sudah ditutup: Bagian 1 sekarang punya narasi skenario input konkret per celah + `@ValidDiscount` cross-field langsung di rewrite DTO; Bagian 2 menunjukkan `DuplicateReviewException extends BusinessException` (ketangkep `handleBusiness()` tanpa handler baru) dan slip "404 vs 422" sudah dikoreksi jadi "400 vs 422"; Interview Q1 sekarang sebut exception spesifik (`MethodArgumentNotValidException` vs `ConstraintViolationException`) dan gotcha silent no-op `@Validated`.
 
-Next: Lanjut Lesson 5.3 (Validation layer — `@Valid`, custom validator, error response konsisten). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Lanjut Lesson 5.4 (Dokumentasi API-first dengan OpenAPI/Swagger). Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
