@@ -133,7 +133,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
 
-- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md (scope diperluas 2026-09-04 jadi "hijrah menyeluruh", 14 modul — lihat "Registration History" di domain file)
+- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md (scope diperluas 2026-09-04 jadi "hijrah menyeluruh", 14 modul — lihat "Registration History" di domain file). Reuse 2026-09-25 untuk `courses/hafalan-shalat/roadmap.md` (hafalan bacaan shalat, Draft menunggu approval, standalone + cross-ref Module 6-7 khusyuk-ibadah)
 
 ## Paused (2026-09-03, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap ~70-80% dengan `emotional-resilience`/`self-love`/`stoicism`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
 
@@ -182,6 +182,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 ## Paused (2026-09-13, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain baru terpisah dipilih (bukan extend `relationships`, yang secara eksplisit mengecualikan matchmaking spesifik agama/budaya) meski Module 2 dirujuk-silang ke `islamic-worship` untuk hindari duplikasi ~90%, dikonfirmasi lewat AskUserQuestion kedua dan ketiga — lihat "Registration History" di domain file)
 
 - `islamic-marriage-readiness` — domains/islamic-marriage-readiness/DOMAIN.md — Status: Paused — Course: courses/islamic-marriage-readiness/roadmap.md (diperluas 2026-09-20 — Module 5.5 "Ketika Ada Satu Nama di Hati", Proposed Extension menunggu approval, lihat "Registration History" di domain file)
+
+## Paused (2026-09-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; domain standalone dipilih (bukan extend `emotional-resilience`) meski overlap parsial di Module 3/11/13/14, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file; course masih Draft menunggu approval)
+
+- `emotional-awareness` — domains/emotional-awareness/DOMAIN.md — Status: Paused — Course: courses/emosi/roadmap.md
 
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
