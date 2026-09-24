@@ -55,7 +55,7 @@ Lessons:
 
 Mini Project: Higiene Audit Checklist — jalankan checklist higiene dasar (mandi, gigi, kuku, rambut) selama 1 minggu penuh, catat konsistensi harian dan hari yang bolong beserta alasannya.
 
-Status: In Progress (Lesson 1.1 selesai 2026-09-17, skor 92/100)
+Status: In Progress (Lesson 1.1 selesai 2026-09-17, skor 92/100; Lesson 1.2 Exercises+Assessment direview 2026-09-24, skor 84/100, log higiene 7 hari masih berjalan; Lesson 1.3 materi diberikan 2026-09-24, menunggu jawaban Task/Exercises/Assessment)
 
 ---
 
@@ -264,6 +264,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Fondasi: Higiene Dasar & Mindset Grooming Sehat
 
-Current Lesson: 1.1 Kenapa grooming penting untuk presentasi diri, dan kenapa ini bukan soal vanity/insecurity — kerangka ABCs of Image (Appearance, Behaviour, Communication) dari AICI (Selesai 2026-09-17, skor 92/100)
+Current Lesson: 1.3 Membongkar mitos looksmaxxing/red-pill — materi diberikan 2026-09-24, menunggu jawaban Task/Exercises/Assessment (Lesson 1.1 selesai skor 92/100; Lesson 1.2 skor 84/100, log higiene 7 hari masih berjalan)
 
-Next Lesson: 1.2 Higiene dasar harian — mandi, cuci rambut, kuku, dan higiene mulut
+Next Lesson: 1.4 Peta 9 pilar course ini dan hubungannya dengan `masculine-development`
