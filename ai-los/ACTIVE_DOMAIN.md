@@ -195,6 +195,14 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `inner-home` — domains/inner-home/DOMAIN.md — Status: Paused — Course: courses/aku-rumah-semua-orang/roadmap.md
 
+## Paused (2026-09-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope standalone + cross-reference dipilih user meski overlap dengan `pandai-bicara` 8.2, `emotional-resilience` Module 3-5, `psychology` Module 11-12, domain baru `communication-styles` adalah asumsi mentor — lihat "Registration History" di domain file; riset menemukan buku sumber dikritik sebagai pseudosains sehingga course dibangun dengan label bukti eksplisit; course masih Draft menunggu approval)
+
+- `communication-styles` — domains/communication-styles/DOMAIN.md — Status: Paused — Course: courses/surrounded-by-idiots/roadmap.md
+
+## Paused (2026-09-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope standalone + cross-reference dipilih user meski overlap dengan `happiness` Module 5-6, `live-your-youth` Module 13-15, `character-development` 9.3-9.4, `warm-charisma` Module 4-5, domain baru `ichigo-ichie` adalah asumsi mentor — lihat "Registration History" di domain file; riset menemukan sebagian klaim populer (mere presence HP) gagal replikasi sehingga course dibangun dengan label bukti eksplisit; course masih Draft menunggu approval)
+
+- `ichigo-ichie` — domains/ichigo-ichie/DOMAIN.md — Status: Paused — Course: courses/ichigo-ichie/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 `when-they-pull-away` juga TIDAK dapat domain baru — reuse domain `relationships` (Paused di atas), pola sama seperti tiga contoh di atas. Course: `courses/when-they-pull-away/roadmap.md` — dibuat 2026-09-20, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone dipilih meski overlap dengan Module 12 `relationships` (cross-referenced eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course.
