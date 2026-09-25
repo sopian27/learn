@@ -7,7 +7,7 @@
 * Basis: outline "Slow Living" buatan user (12 Part, 34 modul, 30-Day Slow Living Challenge, Final Project My Slow Life Blueprint, My Slow Living Code 15 butir, Final Reminder). Urutan Part dan isi dipertahankan; 34 modul dilipat jadi 15 modul course karena hasil audit overlap.
 * Difficulty: Level 0 (hidup terburu-buru dan reaktif: bangun langsung HP, makan sambil scrolling, semua terasa urgent, istirahat terasa bersalah, ukuran cukup ditentukan orang lain) → Level 3 (bisa membedakan urgensi nyata dari buatan, punya batas digital dan kerja yang teruji, mengambil jeda sebelum bereaksi, punya ritme harian-mingguan yang realistis, tahu apa yang cukup, dan punya Blueprint serta Slow Living Code yang lahir dari bukti hidup sendiri)
 * Level: Beginner → Intermediate
-* Estimated Duration: 15 modul, 2-4 lesson/modul (±42 lesson) + 30-Day Slow Living Challenge (paralel) + Final Project. Pace mengikuti praktik nyata, bukan dikebut.
+* Estimated Duration: 15 modul, 2-4 lesson/modul (±44 lesson) + 30-Day Slow Living Challenge (paralel) + Final Project. Pace mengikuti praktik nyata, bukan dikebut.
 * Prerequisites: Tidak ada prasyarat teknis. Kesediaan mengisi Pace Log dari hari nyata sejak Module 1 dan kesediaan meletakkan HP untuk beberapa latihan.
 
 ---
@@ -30,6 +30,7 @@
   * `khusyuk-ibadah` Module 6-7 (memperlambat bacaan, persiapan tidak terburu-buru), 13 (tawakal, sabar); `ikhlas` — Part XI.
   * `life-mastery`, `daily-momentum` Module 6, `live-your-youth` 8.3 (Integrated Life Calendar), `work-management` Module 9 — Part XII.
   * Tidak ada course yang membahas kerangka Slow Movement, sosiologi waktu, boredom/doing nothing sebagai topik, atau kritik komersialisasi slow living.
+* **Perluasan 2026-09-25 (outline "A Gentle Reminder — Pelan-Pelan Kembali kepada yang Penting", 24 modul, 8 Part):** user paste outline tanpa instruksi, override guard 50% lewat AskUserQuestion, pilih audit overlap dulu, lalu memilih **extend `slow-living`** (opsi A). Hasil audit: ±90% outline sudah punya rumah (`self-love`, `not-caring` 9-14, `human-approval`, `stoicism` 6, `ichigo-ichie`, `when-they-pull-away`, `daily-momentum`, `khusyuk-ibadah`, dan course ini). Hanya dua celah nyata, ditambahkan sebagai **lesson 2.4 dan 14.4** (bukan modul baru, supaya penomoran dan capstone tidak berubah; deviasi kecil dari rekomendasi awal "1 modul gabungan" karena kedua topik jatuh di tempat berbeda dalam alur course). Tidak ada course atau domain baru. Format 30-hari dan "Final Project" outline sudah dicakup oleh 30-Day Challenge dan Module 15 course ini; **3 pertanyaan malam khas outline tidak dimasukkan**, ditawarkan bila user mau menambahkannya ke format Pace Log. Sumber 2.4 dan 14.4 ditulis dari ingatan dan **belum diverifikasi lewat web** (user memilih tanpa riset web); dicek ulang saat lesson ditulis.
 * **Cross-reference (tidak diduplikasi):**
   * Module 3 ↔ `ichigo-ichie` 2-3, `brain-mastery` 2.1, `work-management` 5.2.
   * Module 4 ↔ `murakami-running` 3.2-3.3 (solitude, Wilson 2014), `live-your-youth` 13.
@@ -58,6 +59,7 @@ Asumsi di atas menunggu konfirmasi/koreksi user saat approval, sebelum Lesson 1 
 * [ ] Menjelaskan asal-usul Slow Movement dan apa yang dikritik darinya (komersialisasi, akses), dan membedakan slow living dari malas dan dari estetika
 * [ ] Menjelaskan kenapa kita terburu-buru (kecepatan sebagai nilai budaya, busyness sebagai status, time famine) dengan bukti dan batasnya
 * [ ] Membedakan sibuk dari bermakna, dan urgensi nyata dari urgensi buatan
+* [ ] Membedakan tenggat nyata dari tenggat warisan ("aku sudah terlambat") dan mengambil langkah berikutnya tanpa perlu tahu seluruh jalan
 * [ ] Mengenali autopilot dan memakai Pause → Notice → Choose sebagai alat kecil
 * [ ] Duduk dengan "tidak ada apa-apa" beberapa menit dan menjelaskan apa yang terjadi (boredom, bukan mistik)
 * [ ] Menetapkan batas digital pribadi dari bukti nyata, dan menggeser konsumsi ke partisipasi
@@ -80,6 +82,8 @@ Asumsi di atas menunggu konfirmasi/koreksi user saat approval, sebelum Lesson 1 
 |---|---|---|
 | Module 1 (Apa Itu Slow Living?) | 1 | **Native** — asal-usul, kritik, dan batas |
 | Module 2 (The Speed Trap), Module 3 (Busy ≠ Productive) | 2 | **Native** — sosiologi waktu dan bukti |
+| "A Gentle Reminder" Module 1 (Kamu Tidak Terlambat) | 2.4 | **Native** — jam sosial dan tenggat warisan (perluasan 2026-09-25) |
+| "A Gentle Reminder" Module 2 (Tidak Perlu Tahu Seluruh Jalan) | 14.4 | **Native** — ketidakpastian dan langkah berikutnya (perluasan 2026-09-25) |
 | Module 4 (Getting Out of Autopilot), Module 5 (One Thing at a Time) | 3 | Ringkas + rujukan `ichigo-ichie` 2-3 |
 | Module 6 (The Art of Doing Nothing) | 4 | **Native** — boredom |
 | Module 7 (Your Phone Is Not Your Life), 8 (Digital Boundaries), 9 (Consume Less, Experience More) | 5 | Ringkas + rujukan `digital-social-media-wisdom`; sudut partisipasi native |
@@ -125,7 +129,9 @@ Lessons:
 * [ ] 2.2 Time famine dan busyness sebagai status — Perlow (1999, tim software engineering, interupsi dan heroisme individu), Bellezza dkk. (2017, busyness sebagai status; terikat konteks budaya); relevansi untuk kerja software engineer; batas generalisasi
 * [ ] 2.3 Busy vs meaningful — 12 jam kerja dengan hampir nol output penting; output vs aktivitas (rujukan `work-management` Module 2); audit tiga hari: apa yang benar-benar menghasilkan sesuatu; bagaimana tidak menghakimi orang yang sibuk karena keadaan
 
-Mini Project: Audit sibuk vs bermakna dua hari: daftar semua aktivitas, tandai output nyata; satu hal "sibuk" yang kupertahankan karena status atau takut tertinggal.
+* [ ] 2.4 Jam sosial dan "aku sudah terlambat" — (perluasan dari audit "A Gentle Reminder", 2026-09-25) age norms dan social clock (Neugarten, Moore & Lowe 1965; nama dan tahun dicek ulang dari sumber primer saat lesson ditulis), perbandingan timeline lewat media sosial, kenapa "terlambat" sering ukuran orang lain yang dipinjam; **batas jujur:** sebagian jendela memang menyempit (kesehatan, usia produktif tertentu, tenggat nyata), jadi lesson ini bukan janji "kamu tidak pernah terlambat" tapi pemisahan antara tenggat nyata dan tenggat yang diwarisi; rujukan `emosi` 9 (perbandingan), `human-approval`, `not-caring` 5; label bukti: teori sosiologi dan pengamatan, bukan temuan kausal
+
+Mini Project: Audit sibuk vs bermakna dua hari: daftar semua aktivitas, tandai output nyata; satu hal "sibuk" yang kupertahankan karena status atau takut tertinggal. Tambahan 2.4: tulis satu "aku sudah terlambat untuk ___", lalu pisahkan: tenggat nyata (bukti apa?) atau tenggat warisan (dari siapa?).
 
 Status: Not started
 
@@ -316,8 +322,9 @@ Lessons:
 * [ ] 14.1 Your ideal day — Morning, Work, Afternoon, Evening, Night; dirancang dari bukti Pace Log Module 1-13, bukan angan; versi realistis vs versi ideal; rujukan `daily-momentum` 6
 * [ ] 14.2 Your slow week — work time, family time, exercise, learning, social time, solitude, worship, entertainment, rest; jangan isi setiap jam; leave white space; rujukan `live-your-youth` 8.3 dan `work-management` 3
 * [ ] 14.3 Life Audit — More, Less, Stop, Start, Protect; batas: "tidak mengikuti timeline orang lain" tidak boleh jadi alasan menolak umpan balik nyata
+* [ ] 14.4 Tidak perlu tahu seluruh jalan — (perluasan dari audit "A Gentle Reminder", 2026-09-25) hidup dengan ketidakpastian dan "langkah berikutnya saja"; intolerance of uncertainty (Carleton 2016 dan literatur terkait, dicek ulang saat lesson ditulis); beda menerima ketidakjelasan dengan menunda keputusan; rencana kecil yang bisa direvisi vs rencana lengkap sebagai bentuk kontrol; rujukan `stoicism` 6 (dichotomy of control), `not-caring`, `khusyuk-ibadah` 13 (tawakal, tanpa mengubah fikih); batas: bagian ini bukan pengganti perencanaan nyata untuk keputusan berisiko tinggi (uang, kesehatan, hukum); label bukti: literatur psikologi kecemasan (klinis, jangan digeneralisasi) + kerangka refleksi
 
-Mini Project: Satu hari ideal realistis dan satu minggu dengan dua blok kosong; Life Audit lima kolom dengan satu tindakan kecil per kolom.
+Mini Project: Satu hari ideal realistis dan satu minggu dengan dua blok kosong; Life Audit lima kolom dengan satu tindakan kecil per kolom. Tambahan 14.4: satu keputusan yang kutunda menunggu "tahu semuanya"; tulis langkah berikutnya terkecil, dan apa yang akan kulihat setelah langkah itu.
 
 Status: Not started
 
