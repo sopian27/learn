@@ -207,6 +207,10 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `slow-living` — domains/slow-living/DOMAIN.md — Status: Paused — Course: courses/slow-living/roadmap.md
 
+## Paused (2026-09-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope domain baru + cross-reference dipilih user (rekomendasi mentor), nama domain `scalping-trading` adalah asumsi mentor — lihat "Registration History" di domain file; tidak ada course existing yang mengajarkan trading jangka pendek, irisan tipis dengan `investing-stocks`/`cryptocurrency`/`anti-scam-risk-management`; riset menemukan mayoritas day trader ritel merugi (Chague dkk., Barber dkk., ESMA) dan klaim populer SMC/ICT tidak tervalidasi, sehingga course dibangun dengan label bukti eksplisit, hipotesis awal "belum punya edge", dan Verdict yang mengizinkan hasil "berhenti"; course masih Draft menunggu approval)
+
+- `scalping-trading` — domains/scalping-trading/DOMAIN.md — Status: Paused — Course: courses/scalper-mind/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 `when-they-pull-away` juga TIDAK dapat domain baru — reuse domain `relationships` (Paused di atas), pola sama seperti tiga contoh di atas. Course: `courses/when-they-pull-away/roadmap.md` — dibuat 2026-09-20, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone dipilih meski overlap dengan Module 12 `relationships` (cross-referenced eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course.
