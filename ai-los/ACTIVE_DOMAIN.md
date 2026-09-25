@@ -195,6 +195,8 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 `when-they-pull-away` juga TIDAK dapat domain baru — reuse domain `relationships` (Paused di atas), pola sama seperti tiga contoh di atas. Course: `courses/when-they-pull-away/roadmap.md` — dibuat 2026-09-20, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone dipilih meski overlap dengan Module 12 `relationships` (cross-referenced eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course.
 
+`never-split-the-difference` juga TIDAK dapat domain baru — reuse domain `power-negotiation-strategy` (Paused di atas), asumsi mentor (user memilih "putuskan setelah audit overlap"). Course: `courses/never-split-the-difference/roadmap.md` — dibuat 2026-09-25, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone Voss + cross-reference dipilih meski overlap dengan `putin-code-strategic-thinking` 5-7/15-16 dan `entrepreneurship` Module 9 (dirujuk eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course dan "Registration History" di domain file. Course masih Draft menunggu approval.
+
 ---
 
 # Default Domain
