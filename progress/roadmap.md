@@ -186,9 +186,17 @@ Rasional lengkap, sumber riset, house rule, dan breakdown modul tiap entri berik
 
 * **Hafalan Shalat seperti Delisa — Lancar, Paham, dan Khusyuk** — `courses/hafalan-shalat/roadmap.md` — Domain: islamic-worship (reuse, bukan domain baru; scope domain diperluas ringan). Status: Draft, menunggu approval. 15 modul + 30-Day Challenge + Final Test + Personal Shalat Code. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; overlap dengan `khusyuk-ibadah` Module 6-7 dikonfirmasi kedua kali: standalone + cross-reference (course ini fokus hafalan/murojaah, makna mendalam dirujuk ke sana). Takhrij tiap bacaan diverifikasi saat lesson digenerate.
 
+## 2026-09-25 — GAMEPLAN (extend `entrepreneurship`, bukan course baru)
+
+* **GAMEPLAN — Strategi Bisnis dari Nol Sampai Triliun** (basis buku Andrew Susanto) — Proposed Extension Module 14-19 di `courses/entrepreneurship/roadmap.md` (outline 22 modul user dipadatkan jadi 6 setelah overlap-audit). Domain: entrepreneurship (draft, belum terdaftar). Status: Draft, menunggu approval — belum masuk hitungan Module Completion course itu. User memilih "gabung ke course existing" lewat AskUserQuestion saat Course Aktif "Character Development" pas di garis 50% (3/6 module). Isi per bab bukunya belum diverifikasi; ada ketegangan scope dengan batas bootstrapped/weekend-only domain — dicatat di Module 14.
+
 ## 2026-09-25 — Emosi (Emotional Literacy)
 
 * **Emosi — Memahami, Menghadapi, dan Mengelola Diri** — `courses/emosi/roadmap.md` — Domain baru: emotional-literacy (`domains/emotional-literacy/DOMAIN.md`, draft, belum terdaftar). Status: Draft, menunggu approval. 17 modul (16 dari brief user + Capstone 30-Day Challenge/"My Emotional Manual"), 53 lesson. Scope dipersempit atas pilihan user (AskUserQuestion): modul 3, 8, 9, 11, 13, 14 cross-ref berat ke `emotional-resilience`/`self-love`/`not-caring`/`courage-to-try`/`child-healing`/`character-development`/`when-they-pull-away`; gap native: kosakata/granularity emosi, marah (nol coverage di repo), takut vs cemas, sedih, ekspektasi lintas-emosi, sisi indulgence dari tiga respons. Guard tidak terpicu (Character Development pas 50%, bukan di bawah). Buku *Emosi* (Tristanti W., Jendela, Sept 2025) terverifikasi ada, tapi daftar isi/teks tidak dibaca — 16 modul = struktur brief user, bukan TOC buku.
+
+## 2026-09-25 — 65 Rahasia Pandai Bicara
+
+* **65 Rahasia Pandai Bicara — Komunikasi dengan Jelas, Menarik, dan Berkelas** — `courses/pandai-bicara/roadmap.md` — Domain baru: pandai-bicara (`domains/pandai-bicara/DOMAIN.md`, registered paused). Status: Draft, menunggu approval. 9 modul (8 dari outline user + Capstone), 36 lesson + 30-Day Challenge paralel. Dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; scope standalone + cross-reference dipilih user. Overlap audit (baca lesson-level): Bagian II-IV outline sebagian besar sudah tercakup `communication-skills` Module 3-6, Bagian I/V/VII sebagian `public-speaking` — dijaga ringkas + rujukan; gap asli: kejelasan bicara (Module 1), analogi/contoh (4.3), spotlight effect + liking gap (5.1), menyampaikan hal sulit/penolakan/kritik SBI (Module 6), de-escalation dan minta maaf (Module 7), adaptasi audiens (8.2). Domain baru = asumsi mentor, bisa diganti reuse `communication-skills`. Tidak ada buku sumber yang diverifikasi; outline = kerangka.
 
 ## 2026-09-21 — Thinking, Struggle & Meaning
 

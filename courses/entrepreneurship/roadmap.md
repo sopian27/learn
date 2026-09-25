@@ -247,6 +247,126 @@ Status: Not started
 
 ---
 
+## Module 14 — Gameplan & Long Game (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul 14-19 (satu perluasan)**: Ditambahkan 2026-09-25 atas permintaan course "GAMEPLAN — Strategi Membangun Bisnis dari Nol Sampai Triliun" (basis buku *Gameplan: Strategi Kembangkan Bisnis dari Nol Sampai Triliun*, Andrew Susanto — keberadaan buku, penulis (founder/CEO Pusat Gadai Indonesia), dan tema besarnya (risiko, membaca peluang, sengaja menolak peluang, uang/pertumbuhan/stabilitas/integritas, permainan jangka panjang) sudah dicek lewat listing toko buku dan resensi; **isi per bab belum diverifikasi ke bukunya langsung** — outline 22 modul yang user tempel adalah kerangka user sendiri, bukan ringkasan buku). User memilih **gabung ke course existing**, bukan course baru, lewat `AskUserQuestion` (guard "Course Creation Discipline" terpicu: Course Aktif `character-development` pas di garis 50%, 3/6 module). Dipetakan ke `entrepreneurship` (bukan `business-knowledge`, yang khusus judgment bisnis sebagai karyawan/engineer — lihat `domains/entrepreneurship/DOMAIN.md` "Scope").
+
+**Hasil overlap-audit (22 modul GAMEPLAN vs 13 modul existing)**: 22 modul dipadatkan jadi 6 modul (14-19), bukan ditambah 1:1. Sudah tercakup dan TIDAK diulang: "Mulai dari Nol" (G2 → Module 2-6), mindset dasar (G3 → 1.1, sisi gambling-vs-risiko dilipat ke Module 15), profit/margin/unit economics dasar (G6 → 5.2, 11.1), bookkeeping (G7 sebagian → 11.1). Gap nyata yang ditutup 14-19: strategi & horizon panjang, evaluasi peluang & opportunity cost, cash flow tingkat lanjut (working capital, liquidity, debt), risk management & keputusan di bawah ketidakpastian, sistem/people/leadership/scaling, competitive advantage, integritas, dan uang-vs-makna. Cross-reference, bukan duplikasi: G22 (Personal Gameplan) beririsan dengan `courses/life-mastery` dan `courses/the-art-of-becoming`; G18 (Money vs Meaning) beririsan dengan `courses/personal-finance` Module 18 — lesson terkait hanya menautkan, tidak mengulang.
+
+**Ketegangan scope yang harus diputuskan saat approval**: domain ini secara eksplisit bootstrapped + weekend-only dan mengecualikan "perencanaan bisnis skala VC/unicorn". Module 16-18 (growth, people, scale) berpotensi keluar dari batas itu. Resolusi yang diusulkan: materi diajarkan sebagai **kerangka berpikir yang diuji pada skala bisnis kecil milik learner sendiri** ("bagaimana ini akan pecah kalau tumbuh 10x?"), bukan perencanaan ekspansi triliunan atau fundraising. Jika user ingin cakupan skala penuh, itu perlu revisi `domains/entrepreneurship/DOMAIN.md` "Scope" secara eksplisit.
+
+Description: Sebelum taktik apapun — permainan apa yang ingin dimenangkan? Melengkapi Module 1.4 (target angka + exit criteria untuk bisnis sampingan) dengan pertanyaan yang lebih besar: definisi sukses, horizon waktu, dan jenis bisnis yang ingin dibangun.
+
+Lessons:
+
+* [ ] 14.1 Gameplan: tujuan, visi, dan definisi sukses — short game vs long game, growth vs sustainability, uang vs impact, business vs lifestyle business
+* [ ] 14.2 Long game & compounding — reputasi, relasi, brand, sistem, talenta, dan modal sebagai aset yang menumpuk; pola "10 tahun > 10 hari" dan kenapa keuntungan cepat yang merusak reputasi adalah trade yang buruk
+* [ ] 14.3 Lima level builder (bekerja di bisnis → menjalankan → membangun sistem → berjalan tanpa saya → membangun organisasi yang terus berkembang) — memetakan posisi jujur saat ini dan bottleneck untuk naik level
+* [ ] 14.4 Personal Gameplan 10 tahun (skill, income, aset, bisnis, network, reputasi, impact, lifestyle) — sengaja tipis dan menautkan ke `life-mastery`/`the-art-of-becoming` untuk sisi pribadi, fokus di sisi bisnisnya
+
+Mini Project: **My 10-Year Business Gameplan** — 1-2 halaman: definisi sukses, jenis permainan (short/long, lifestyle/scalable), dan level builder saat ini.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 15 — Membaca Peluang, Opportunity Cost & Berani Bilang "Tidak" (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-25 (lihat catatan di Module 14). Menggabungkan G3 (sisi risk-taking vs gambling), G4, G5, dan G20 dari outline GAMEPLAN. Melengkapi Module 3.3/5.1 (penyaringan ide dan scoring kandidat untuk *memulai*) dengan disiplin menolak peluang *setelah* bisnis berjalan.
+
+Description: Tidak semua peluang layak diambil, dan keputusan terpenting sering berupa apa yang sengaja tidak dikerjakan.
+
+Lessons:
+
+* [ ] 15.1 Evaluasi peluang: market, demand, kompetisi, margin, kebutuhan modal, kompleksitas operasional, timing — kerangka Opportunity → Upside → Downside → Probability → Decision
+* [ ] 15.2 Risk-taking wirausaha vs gambling — downside yang terbatas dan terukur vs taruhan asimetris yang bisa mematikan
+* [ ] 15.3 Opportunity cost, shiny object syndrome, FOMO, overexpansion — pertanyaan "kalau saya ambil ini, apa yang harus saya korbankan?"
+* [ ] 15.4 Daftar "Apa yang Sengaja Tidak Saya Lakukan" — peluang/bisnis/customer/pengeluaran/ekspansi yang ditolak, beserta kriterianya
+
+Mini Project: Analisis 3 peluang nyata dengan kerangka 15.1 + dokumen "What I Will NOT Do" berisi minimal 6 penolakan beserta alasannya.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 16 — Cash Flow, Liquidity & Healthy Growth (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-25. Menggabungkan sisa G6, G7, G8. Module 11 existing hanya mengajarkan bookkeeping sederhana dan metrik solo operator; working capital, liquidity, burn rate, dan utang belum tersentuh.
+
+Description: Bisnis yang terlihat besar belum tentu sehat — bisnis profitable bisa mati karena kehabisan kas.
+
+Lessons:
+
+* [ ] 16.1 Revenue vs profit vs cash: kenapa bisnis profitable bisa bangkrut — operating cash flow, working capital, payment cycle (piutang & utang dagang)
+* [ ] 16.2 Liquidity, burn rate, cash reserve — uji ketahanan "kalau revenue turun 6 bulan, apakah bisnis bertahan?"
+* [ ] 16.3 Utang dalam bisnis — kapan utang mempercepat, kapan menjerat; cost of capital dan return on investment
+* [ ] 16.4 Growth vs healthy growth — customer/revenue/geografi/produk/distribusi/partnership dan tanda pertumbuhan yang menggerogoti kas atau kualitas
+
+Mini Project: Stress test kas bisnis (nyata atau rancangan Capstone): proyeksi 12 bulan + skenario revenue turun 50% selama 6 bulan, dengan keputusan yang akan diambil.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 17 — Risk Management, Decision Making & Krisis (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-25. Menggabungkan G11, G12, G13, G14. Module 4.4 dan 12.2-12.3 hanya menyentuh keputusan lanjut/pivot/stop; belum ada kerangka risiko dan keputusan sistematis.
+
+Description: Bertanya bukan hanya "berapa besar peluang untung", tapi "kalau gagal, seberapa besar kerugiannya" — lalu mengambil keputusan dengan informasi tidak sempurna dan bertahan saat krisis.
+
+Lessons:
+
+* [ ] 17.1 Jenis risiko bisnis: downside, konsentrasi, operasional, finansial, people, regulasi, reputasi — kemungkinan × dampak
+* [ ] 17.2 Risk management loop: Identify → Measure → Mitigate → Monitor → Adapt, dengan risk register (Market/Finance/People/Operation)
+* [ ] 17.3 Keputusan dengan informasi tidak sempurna: Facts → Assumptions → Options → Risk → Expected Outcome → Decision; bias (confirmation, sunk cost, emosi) dan peran intuisi vs data
+* [ ] 17.4 Simulasi krisis (revenue turun, customer pergi, kas menipis, partner bermasalah, turnover, kompetitor agresif, regulasi berubah) — "apa yang harus saya lindungi terlebih dahulu?"
+
+Mini Project: Risk register untuk satu ide bisnis + satu tabletop exercise krisis dengan urutan prioritas perlindungan tertulis.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 18 — Sistem, People & Scale Without Breaking (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-25. Menggabungkan G9, G10, G16, G21. **Terkena ketegangan scope** (lihat catatan Module 14): diajarkan sebagai kerangka berpikir pada skala kecil, bukan ekspansi besar. Melengkapi Module 12.1 (otomasi/delegasi untuk solo operator).
+
+Description: Bisnis yang bergantung pada satu orang tidak bisa besar, dan pertumbuhan menambah kompleksitas, risiko, orang, dan kebutuhan modal sekaligus.
+
+Lessons:
+
+* [ ] 18.1 Sistem: SOP, proses, reporting, KPI, otomasi, internal control — "kalau semua keputusan menunggu kamu, kamu belum membangun sistem"
+* [ ] 18.2 People: rekrutmen, budaya, insentif, akuntabilitas, trust — membangun pemimpin yang mengambil keputusan, bukan karyawan yang bergantung
+* [ ] 18.3 Delegasi dan struktur organisasi — apa yang boleh dan tidak boleh didelegasikan, dan kapan
+* [ ] 18.4 Scale Without Breaking — revenue naik tetapi complexity/risk/people/capital ikut naik; uji "bisakah sistem kita menanggung pertumbuhan?" pada bisnis kecil sendiri
+
+Mini Project: Peta ketergantungan pada founder (keputusan/proses yang macet tanpa Anda) + rencana menghilangkan tiga yang terbesar.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 19 — Competitive Advantage, Integritas & Money vs Meaning + My Gameplan (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-25. Menggabungkan G15, G17, G18, plus Final Project & Personal Gameplan Principles dari outline GAMEPLAN. Lesson 19.3 menautkan (tidak mengulang) `courses/personal-finance` Module 18. 30-Day Gameplan Challenge dari outline user **tidak dijadikan lesson** — beririsan dengan Module 3-5 dan latihan mingguan course; bisa dipakai sebagai jadwal opsional saat approval.
+
+Description: Kenapa customer tetap memilih Anda, batas etika yang tidak dinegosiasikan demi keuntungan, dan apa yang dibangun setelah angka tercapai.
+
+Lessons:
+
+* [ ] 19.1 Competitive advantage: harga, kualitas, brand, distribusi, network, teknologi, operational excellence, customer experience, trust — alasan customer tetap memilih, bukan sekadar produk
+* [ ] 19.2 Integritas dalam bisnis: kejujuran, fairness, customer/karyawan/partner, compliance, keputusan yang untung tapi salah — uji "kalau tidak pernah diketahui publik, apakah tetap benar?"
+* [ ] 19.3 Money vs meaning: wealth, impact, purpose, kontribusi, lapangan kerja, legacy — bisnis menghasilkan profit + kesempatan + keamanan + dampak
+* [ ] 19.4 Menyusun **My Business Gameplan** (12 bagian: Problem, Customer, Solution, Value, Business Model, Cost, Competitive Advantage, Risk, System, Long Game, What I Will NOT Do, Impact) dan 10 Personal Business Principles
+
+Mini Project / Extension Capstone: dokumen **My Business Gameplan** (12 bagian) + 10 prinsip bisnis pribadi, direview dengan kriteria domain (Validation Rigor, Unit Economics, Time Feasibility, Legal/Compliance) plus dua lensa baru usulan: **Risk Awareness** dan **Integrity**. Bisa menjadi bagian dari Capstone Module 13 atau dokumen terpisah — diputuskan saat approval.
+
+Referensi riset (usulan, diverifikasi per lesson sesuai `standards/UNIVERSAL_STANDARDS.md` "Vetting a Source"): *Gameplan* — Andrew Susanto (sumber utama kerangka, belum dibaca per bab); sumber silang yang biasa dipakai untuk topik terkait: Kahneman *Thinking, Fast and Slow* (bias keputusan), Annie Duke *Thinking in Bets* (keputusan vs hasil), Taleb *Antifragile* (ruin risk), Porter *Competitive Strategy* (competitive advantage). Klaim spesifik dari buku Susanto tidak boleh dijadikan lesson sebelum bukunya dibaca learner atau sumber per-bab diverifikasi.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 13 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 13 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/entrepreneurship/DOMAIN.md` bagian "Project Tiers".
