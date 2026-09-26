@@ -259,6 +259,14 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 - `nietzsche-philosophy` — domains/nietzsche-philosophy/DOMAIN.md — Status: Paused — Course: courses/manusia-yang-asyik-dengan-dirinya/roadmap.md
 
+## Paused (2026-09-27, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user memilih "audit overlap dulu" lalu "course terlipat ~6 modul" lewat AskUserQuestion; nama domain `aging-preparation` adalah asumsi mentor — lihat "Registration History" di domain file; audit menemukan ±75% outline sudah punya rumah di `personal-finance` M3/5/9/11/15/17, `home-fitness`, `mens-health`, `live-your-youth`, `life-mastery`, `sandwich-generation`, sehingga course dilipat jadi 6 modul dengan label bukti eksplisit; course masih Draft menunggu approval)
+
+- `aging-preparation` — domains/aging-preparation/DOMAIN.md — Status: Paused — Course: courses/persiapan-masa-tua/roadmap.md
+
+## Paused (2026-09-27, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit memilih "audit overlap dulu" lalu "standalone terlipat ~6 modul" lewat AskUserQuestion (override guard); nama domain `weekend-farming` adalah asumsi mentor — lihat "Registration History" di domain file; audit menemukan ±75-80% outline adalah metode bisnis generik yang sudah punya rumah di `entrepreneurship` (Draft, 0/13), sedangkan biologi tanaman/ikan, unit economics barang hidup, kemasan makhluk hidup, dan karantina antar-area belum punya rumah; riset menemukan aturan KT-3/SATS-DN/KI-D2/KI-D3 belum diverifikasi ke teks hukum, sumber biologi baru sumber hobiis, dan klaim outline (cupang ruang kecil, spesies "mudah", modal Rp500rb-1jt) dilabel; course masih Draft menunggu approval)
+
+- `weekend-farming` — domains/weekend-farming/DOMAIN.md — Status: Paused — Course: courses/weekend-farming/roadmap.md
+
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
 `when-they-pull-away` juga TIDAK dapat domain baru — reuse domain `relationships` (Paused di atas), pola sama seperti tiga contoh di atas. Course: `courses/when-they-pull-away/roadmap.md` — dibuat 2026-09-20, permintaan langsung user, saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; standalone dipilih meski overlap dengan Module 12 `relationships` (cross-referenced eksplisit, tidak diduplikasi) — lihat "Catatan Scope" di roadmap course.

@@ -195,6 +195,49 @@ Status: Not started
 
 ---
 
+# Proposed Extension (Draft — menunggu approval)
+
+Asal: audit overlap terhadap outline "LONG-TERM MEMORY — Melatih Daya Ingat Jangka Panjang" (2026-09-27). Sekitar 70-75% isi outline sudah tercakup Modul 1-10. Extension ini hanya menutup gap nyata, bukan membuat course baru. Penomoran Modul 1-10 tidak diubah; modul ini diberi nomor 5.5 supaya referensi silang yang sudah ada tetap valid. Jika disetujui, nomor bisa dirapikan jadi 1-11 dalam satu pass terpisah.
+
+## Module 5.5 — Chunking, Association & Makna
+
+Description: Melengkapi Modul 5 (elaborasi) dengan tiga hal yang belum punya lesson sendiri: chunking dan batas working memory, association/analogi sebagai retrieval hook, serta peran emosi dan makna pribadi. Ditutup dengan ritual harian yang memadatkan seluruh teknik course jadi kebiasaan kecil yang bisa diukur. Setiap klaim di modul ini wajib diberi label tingkat bukti (riset primer / heuristik praktik / metafora), sesuai bagian "Review Style" `domains/memory-mastery/DOMAIN.md`.
+
+Lessons:
+
+* [ ] 5.5.1 Chunking dan batas working memory — dari Miller (1956, "7±2") ke revisi Cowan (2001, sekitar 4 chunk); kenapa chunking membantu (Chase & Simon 1973, pemain catur ahli mengingat posisi bermakna, bukan posisi acak); cara memecah materi belajar jadi chunk bermakna
+* [ ] 5.5.2 Association sebagai retrieval hook — menghubungkan konsep baru ke jaringan pengetahuan lama; analogi dan cerita sebagai hook. Wajib kalibrasi: Dunlosky et al. (2013) menilai keyword mnemonic dan imagery rendah utility untuk materi konseptual, jadi lesson ini memisahkan bukti (elaborative connection, cerita untuk daftar berurutan: Bower & Clark 1969) dari heuristik ("otak suka jaringan" itu metafora, bukan mekanisme terbukti)
+* [ ] 5.5.3 Emosi, makna pribadi, dan self-reference effect — riset yang mendukung (Symons & Johnson 1997; McGaugh: arousal emosional memodulasi konsolidasi) dan batasnya (stres tinggi justru mengganggu retrieval; de Quervain et al. 1998). Output lesson: cara menambah relevansi personal tanpa menambah tekanan
+* [ ] 5.5.4 Ritual harian "5-5-5" dan skor recall mingguan — draft: 5 menit recall tanpa catatan materi kemarin, 5 menit belajar materi baru, 5 menit tulis ulang/jelaskan (Feynman mini). Angka 5-5-5 itu heuristik desain kebiasaan, bukan hasil riset; nilainya diuji lewat skor recall sendiri (benar/total x 100, dicatat tiap minggu dan dibandingkan baseline Modul 1)
+
+Sisa outline yang TIDAK dijadikan lesson baru (cross-reference saja):
+
+* Interval 1/3/7/14/30/60 hari: dicakup 3.4. Wajib dilabeli heuristik; Cepeda et al. (2008) menunjukkan jarak optimal bergantung pada berapa lama materi harus diingat, bukan satu deret angka universal
+* Reconsolidation (Nader et al. 2000): cukup satu paragraf tambahan di 1.1 atau 8.1 sebagai konteks kenapa retrieval memperkuat memori; bukan lesson sendiri
+* Pola SWE "What/Why/How/Trade-off/Failure/Application": jadi template pertanyaan elaboratif di 5.2 (dan dipakai ulang di 9.1 untuk materi konsep)
+* "Terima bahwa lupa itu normal": sudah ada di 2.4 (desirable difficulty)
+
+Mini Project: Jalankan ritual 5-5-5 selama 7 hari pada satu course aktif, catat skor recall harian, lalu tulis satu paragraf: bagian mana yang benar-benar membantu retensi (dilihat dari skor) dan bagian mana cuma terasa produktif.
+
+Sumber (dicatat dari pengetahuan, belum diverifikasi ulang ke paper aslinya; verifikasi tiap sumber sebelum lesson terkait ditulis):
+
+* Miller (1956), The Magical Number Seven, Plus or Minus Two
+* Cowan (2001), The magical number 4 in short-term memory
+* Chase & Simon (1973), Perception in chess
+* Bower & Clark (1969), Narrative stories as mediators for serial learning
+* Symons & Johnson (1997), The self-reference effect in memory: a meta-analysis
+* McGaugh (2004), The amygdala modulates the consolidation of memories of emotionally arousing experiences
+* de Quervain et al. (1998), Stress and glucocorticoids impair retrieval of long-term spatial memory
+* Cepeda et al. (2008), Spacing effects in learning: a temporal ridgeline of optimal retention
+* Nader, Schafe & LeDoux (2000), Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval
+* Dunlosky et al. (2013), Improving students' learning with effective learning techniques
+
+Prasyarat: Modul 2 dan 5 selesai; Modul 3.4 sebaiknya selesai (ritual 5-5-5 memakai logika spacing manual).
+
+Status: Proposed (belum disetujui, belum masuk hitungan Module Completion)
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 10 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 10 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/memory-mastery/DOMAIN.md` bagian "Project Tiers" ("Capstone / Portfolio Project — akhir course").

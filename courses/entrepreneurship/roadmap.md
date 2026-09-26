@@ -367,6 +367,36 @@ Status: Draft — menunggu approval, belum dimulai
 
 ---
 
+## Module 20 — Online Selling Operations: Marketplace, Fulfilment & Retention (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal**: Bagian perluasan 2026-09-27 dari outline "Online Business for Beginners — Dari Nol sampai Pembeli Pertama". Audit overlap: ±80% outline sudah punya rumah di Module 1-13 (mindset/weekend model M1, model bisnis M2, validasi M3-4, MVP M6, marketing M7, pricing & penjualan pertama M8, cash flow M11, scaling M12, 90 hari/eksperimen M4.4 + M12.2 + Capstone, template bisnis M5.4). Module ini hanya menutup ±20% yang belum ada: mekanik marketplace, operasional produk fisik, fulfilment/after-sales, retention, konten pendukung jualan, dan profit riil versi marketplace. Modul ini **bukan** course terpisah; tidak menambah bahan yang sudah ada di M2-M8, hanya menautkannya.
+
+**Status bukti**: Semua angka dan aturan platform (fee, ongkir, kebijakan retur, algoritma pencarian marketplace) **belum diverifikasi** — harus diambil dari dokumentasi resmi Shopee/Tokopedia/TikTok Shop/dsb. saat lesson digenerate, dengan tanggal akses. Klaim "customer kedua lebih mudah didapat daripada customer baru" dan sejenisnya di outline asal diperlakukan sebagai heuristik, bukan fakta, sampai ada sumber. Lesson tidak boleh mengutip fee/persentase dari ingatan.
+
+Tautan: `courses/weekend-farming` (Draft 2026-09-27) sudah membahas tanaman/ikan hidup (karantina, kemasan makhluk hidup, unit economics barang hidup). Module ini tidak mengulangnya; hanya operasional marketplace umum untuk produk non-hidup atau yang tidak dicakup di sana.
+
+Prasyarat: Module 5 (unit economics dasar) dan Module 8 (penjualan pertama). Cocok dikerjakan setelah Module 6 jika model terpilih adalah reseller/produk fisik kecil (M2.2); dilewati atau dibaca ringan jika model terpilih jasa/produk digital.
+
+Description: Dari "punya produk dan ide harga" ke "toko online yang benar-benar menerima pesanan, mengirim, dan membuat pembeli kembali" — dengan waktu Sabtu-Minggu saja.
+
+Lessons:
+
+* [ ] 20.1 Mekanik toko marketplace — judul, foto, deskripsi, harga, variasi, dan ulasan sebagai sinyal kepercayaan; apa yang bisa dioptimasi weekend-only dan apa yang tidak (aturan platform diverifikasi ke dokumentasi resmi)
+* [ ] 20.2 Operasional produk fisik skala kecil — sourcing supplier, stok kecil dan risiko stok mati, packaging, ongkir, retur; kapan dropship vs stok sendiri (menautkan M2.2, tidak mengulang)
+* [ ] 20.3 Profit riil versi marketplace — fee platform, ongkir yang ditanggung, biaya retur, iklan platform, dan nilai waktu weekend; memperluas unit economics M5.2 dan cash flow M11 dengan komponen yang belum ada di sana
+* [ ] 20.4 Konten pendukung jualan — bauran Education / Proof / Offer untuk produk yang dijual; membaca ulasan negatif kompetitor sebagai sumber unmet needs dan bahasa customer (menautkan M4.2 Mom Test dan M7.3 copywriting; berbeda dari `courses/content-creation` yang fokus channel/faceless)
+* [ ] 20.5 Fulfilment, after-sales & retention — pengiriman tepat waktu, follow-up, minta feedback, menangani komplain; repeat rate dan Customer Lifetime Value sederhana (memperluas M11.2 yang baru menyebut repeat rate)
+
+Mini Project: "Toko Uji 30 Hari" — satu listing/toko marketplace nyata untuk model terpilih di M5 (atau simulasi terdokumentasi jika model bukan produk fisik), dengan kalkulasi profit riil per pesanan, checklist fulfilment, dan log feedback pembeli. Direview dengan kriteria domain Unit Economics dan Time Feasibility.
+
+Batas: modul ini tidak menjanjikan hasil penjualan. "Pembeli pertama" adalah hasil eksperimen dengan satu dua transaksi nyata, bukan target yang dijamin. Jika learner belum punya ide produk konkret, mulai dari M3-M5 dulu; modul ini tidak menggantikan validasi.
+
+Referensi riset (usulan, diverifikasi per lesson sesuai `standards/UNIVERSAL_STANDARDS.md` "Vetting a Source"): pusat bantuan/seller-education resmi marketplace yang dipakai (dicatat tanggal akses), ketentuan pajak/omzet UMKM yang sudah dibahas di M10 (tidak diulang), dan sumber ulasan produk nyata dari marketplace pilihan learner. Outline asal (pihak ketiga, belum diverifikasi per bagian) tidak dipakai sebagai sumber klaim.
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
 # Capstone Project
 
 Description: Lihat Module 13 di atas untuk rincian lengkap. Capstone course ini SATU dengan Capstone Project Module 13 — tidak ada proyek terpisah tambahan di luar modul, konsisten dengan `domains/entrepreneurship/DOMAIN.md` bagian "Project Tiers".
