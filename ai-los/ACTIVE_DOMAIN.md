@@ -133,7 +133,7 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 
 ## Paused (2026-09-02, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course masih Draft menunggu approval)
 
-- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md (scope diperluas 2026-09-04 jadi "hijrah menyeluruh", 14 modul — lihat "Registration History" di domain file). Reuse 2026-09-25 untuk `courses/hafalan-shalat/roadmap.md` (hafalan bacaan shalat, Draft menunggu approval, standalone + cross-ref Module 6-7 khusyuk-ibadah)
+- `islamic-worship` — domains/islamic-worship/DOMAIN.md — Status: Paused — Course: courses/khusyuk-ibadah/roadmap.md (scope diperluas 2026-09-04 jadi "hijrah menyeluruh", 14 modul — lihat "Registration History" di domain file). Reuse 2026-09-25 untuk `courses/hafalan-shalat/roadmap.md` (hafalan bacaan shalat, Draft menunggu approval, standalone + cross-ref Module 6-7 khusyuk-ibadah). Reuse 2026-09-26 untuk `courses/ihya-ulumuddin/roadmap.md` (peta baca *Ihya' 'Ulum al-Din*, 16 modul, Draft menunggu approval, standalone + cross-ref ke course tazkiyah; user override guard 50% lewat AskUserQuestion, audit overlap dulu)
 
 ## Paused (2026-09-03, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 module) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; course standalone dipilih meski overlap ~70-80% dengan `emotional-resilience`/`self-love`/`stoicism`, dikonfirmasi lewat AskUserQuestion kedua — lihat "Registration History" di domain file)
 
@@ -214,6 +214,26 @@ A "domain" is a subject-matter field (software-engineering, personal-finance, pu
 ## Paused (2026-09-25, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope standalone + cross-reference dipilih user (rekomendasi mentor) dibanding reuse `military-strategy`/`world-history` atau extension `48-laws-of-power`/`putin-code`, nama domain `three-kingdoms-strategy` adalah asumsi mentor — lihat "Registration History" di domain file; tidak ada course existing yang membedah Tiga Kerajaan, irisan pada kerangka umum dengan `military-strategy`/`48-laws-of-power`/`putin-code-strategic-thinking`/`geopolitics`; riset menemukan buku sumber user bersumber retelling novel (penulis tertulis "Han Nugra", bukan "HSN Nugra", belum dikonfirmasi) dan banyak episode terkenal (panah jerami, angin timur, Empty Fort) diragukan sebagai catatan sejarah, sehingga course dibangun dengan label bukti eksplisit; course masih Draft menunggu approval)
 
 - `three-kingdoms-strategy` — domains/three-kingdoms-strategy/DOMAIN.md — Status: Paused — Course: courses/strategi-tanpa-moral/roadmap.md
+
+## Paused (2026-09-26, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope "audit overlap dulu" dipilih user, domain baru `expectation-management` adalah asumsi mentor — lihat "Registration History" di domain file; audit menemukan ±85% outline sudah punya rumah di `emosi` Module 10/`not-caring` 14-15/`child-healing` 8-9/`emotional-resilience`/`when-they-pull-away`, sehingga course dilipat jadi 10 modul + capstone dengan label bukti eksplisit; course masih Draft menunggu approval)
+
+- `expectation-management` — domains/expectation-management/DOMAIN.md — Status: Paused — Course: courses/control-your-expectations/roadmap.md
+
+## Paused (2026-09-26, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi lanjut lewat AskUserQuestion; scope standalone 25 modul sesuai outline user, domain baru `crash-bandicoot-universe` adalah asumsi mentor — lihat "Registration History" di domain file; tidak ada course Crash di repo, riset menandai koreksi outline (N. Gin/N. Tropy bukan mutant hewan, konflik sumber Aku Aku-Uka Uka, status canon game pasca-Naughty Dog); course masih Draft menunggu approval)
+
+- `crash-bandicoot-universe` — domains/crash-bandicoot-universe/DOMAIN.md — Status: Paused — Course: courses/crash-bandicoot-universe/roadmap.md
+
+## Paused (2026-09-26, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; scope "full standalone" dipilih user, dan Modul 10/11 outline (Nusantara dan Dunia, Kerajaan) dihapus atas keputusan user karena dimiliki `indonesia-history`, sehingga course 16 modul; nama domain `nusantara-culture` adalah asumsi mentor — lihat "Registration History" di domain file; course di-approve user 2026-09-26 sebagai Draft, tetap Paused, belum Course Aktif)
+
+- `nusantara-culture` — domains/nusantara-culture/DOMAIN.md — Status: Paused — Course: courses/budaya-nusantara/roadmap.md
+
+## Paused (2026-09-26, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) dan `male-grooming` masih Module 1 — user eksplisit konfirmasi override guard lewat AskUserQuestion; scope "audit overlap dulu" dipilih user, nama domain `sundanese-culture` adalah asumsi mentor — lihat "Registration History" di domain file; audit menemukan `budaya-nusantara` hanya menyebut Sunda sekilas (2.3, 3.3, 9.1), sehingga overlap nyata hanya di metode dan course dilipat dari 25 jadi 20 modul; riset menandai asal rumusan silih asih/asah/asuh belum terverifikasi dan Baduy tidak mengenal undak-usuk; course masih Draft menunggu approval)
+
+- `sundanese-culture` — domains/sundanese-culture/DOMAIN.md — Status: Paused — Course: courses/budaya-sunda/roadmap.md
+
+## Paused (2026-09-26, permintaan langsung user, dibuat saat Course Aktif "Character Development" pas di garis 50% (3/6 modul) — user eksplisit konfirmasi override guard lewat AskUserQuestion; scope "audit overlap dulu" dipilih user, nama domain `minangkabau-culture` adalah asumsi mentor — lihat "Registration History" di domain file; audit menemukan `budaya-nusantara` hanya menyebut Minangkabau sekilas (2.2, 4.2, 4.4, 5.2, 8.4, 12.1), sehingga overlap nyata hanya di metode dan course dilipat dari 35 jadi 25 modul; riset menandai Marapalam, rendang, dan klaim "matriarki" sebagai klaim yang perlu label bukti; course masih Draft menunggu approval)
+
+- `minangkabau-culture` — domains/minangkabau-culture/DOMAIN.md — Status: Paused — Course: courses/budaya-minangkabau/roadmap.md
 
 `illuminati`, `islamic-caliphate`, dan `world-war-history` TIDAK dapat domain baru — ketiganya reuse domain `world-history` (sudah Active di atas), sama seperti `directors-signature` reuse `film-criticism` dan `presidential-communication` reuse `public-speaking`. Rasional lengkap ada di masing-masing "Catatan Scope" di `courses/<nama>/roadmap.md`.
 
