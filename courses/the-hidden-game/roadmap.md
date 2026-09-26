@@ -67,7 +67,7 @@ Description: Inti Part 1 user. Membedah taktik manipulasi spesifik yang BELUM di
 
 Lessons:
 
-* [ ] 2.1 Gaslighting — tahapan (Robin Stern), tanda peringatan, dan cara merespons tanpa balik menggaslight
+* [ ] 2.1 Gaslighting — tahapan (Robin Stern), tanda peringatan, dan cara merespons tanpa balik menggaslight. *(Proposed sub-topic, menunggu persetujuan; asal audit overlap "Know Your Enemy" 2026-09-26)* Bedakan gaslighting dari **perbedaan pendapat** dan **beda ingatan yang jujur**: pola berulang + tujuan membuat korban meragukan persepsinya vs dua orang yang mengingat berbeda; cara menguji dengan bukti (catatan, saksi, dokumen) sebelum melabeli; risiko menyebut "gaslighting" terlalu cepat
 * [ ] 2.2 Love bombing sebagai coercive control (Steven Hassan) — dikontraskan eksplisit dengan limerence/infatuation normal yang sudah dibahas `mastering-attraction`
 * [ ] 2.3 Guilt-tripping dan fear tactics — pola George Simon, disilangkan ke FOG manipulation (`self-sovereignty`) tanpa mengulang
 * [ ] 2.4 Social pressure dan deception — kapan tekanan sosial normal vs manipulatif, kapan deception jadi manipulasi vs sekadar privasi wajar
