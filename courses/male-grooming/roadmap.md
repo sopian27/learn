@@ -55,7 +55,7 @@ Lessons:
 
 Mini Project: Higiene Audit Checklist — jalankan checklist higiene dasar (mandi, gigi, kuku, rambut) selama 1 minggu penuh, catat konsistensi harian dan hari yang bolong beserta alasannya.
 
-Status: In Progress (Lesson 1.1 selesai 2026-09-17, skor 92/100; Lesson 1.2 Exercises+Assessment direview 2026-09-24, skor 84/100, log higiene 7 hari masih berjalan; Lesson 1.3 selesai 2026-09-27, skor 82/100 setelah revisi Assessment 1 dan 2)
+Status: In Progress (Lesson 1.1 selesai 2026-09-17, skor 92/100; Lesson 1.2 Exercises+Assessment direview 2026-09-24, skor 84/100, log higiene 7 hari masih berjalan; Lesson 1.3 selesai 2026-09-27, skor 82/100 setelah revisi Assessment 1 dan 2; Lesson 1.4 materi diberikan 2026-09-27, menunggu jawaban Applied Practice/Exercises/Assessment)
 
 ---
 
@@ -264,6 +264,6 @@ Overall Completion: 0%
 
 Current Module: Module 1 — Fondasi: Higiene Dasar & Mindset Grooming Sehat
 
-Current Lesson: 1.4 Peta 9 pilar course ini dan hubungannya dengan `masculine-development` (Lesson 1.1 selesai skor 92/100; Lesson 1.2 skor 84/100, log higiene 7 hari masih berjalan; Lesson 1.3 selesai 2026-09-27, skor 82/100)
+Current Lesson: 1.4 Peta 9 pilar course ini dan hubungannya dengan `masculine-development` (Lesson 1.1 selesai skor 92/100; Lesson 1.2 skor 84/100, log higiene 7 hari masih berjalan; Lesson 1.3 selesai 2026-09-27, skor 82/100; Lesson 1.4 materi diberikan 2026-09-27, menunggu jawaban)
 
-Next Lesson: Mini Project Module 1 (Higiene Audit Checklist), bergantung pada log higiene 7 hari dari Lesson 1.2
+Next Lesson: Review jawaban Lesson 1.4, lalu Mini Project Module 1 (Higiene Audit Checklist), bergantung pada log higiene 7 hari dari Lesson 1.2
