@@ -130,11 +130,11 @@ Lessons:
 * [x] 5.2 Versioning strategy (URI vs header) dan kapan breaking change benar-benar butuh versi baru — Selesai (2026-09-20), skor 92/100
 * [x] 5.3 Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten (bukan stack trace mentah) sesuai `standards/ERROR_HANDLING_STANDARDS.md` — Selesai (2026-09-22), skor 94/100 (revisi dari 84/100)
 * [x] 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` — kontrak sebagai sumber kebenaran, bukan dokumentasi belakangan — Selesai (2026-09-22), skor 90/100
-* [ ] 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar
+* [x] 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar — Selesai (2026-09-28), skor 89/100. Kuat di jebakan race condition tanpa `@Version`, alasan `ON CONFLICT` vs catch exception, dan reaksi klien yang benar terhadap `412`. Gap: diagnosis kode `PUT` di Bagian 1 sempat melenceng dari perilaku aktual kode yang diberikan (bukan salah konsep, tapi belum mengikat ke baris kode spesifik), `weightGram` dideklarasikan di `PatchProductRequest` tapi gak pernah dibaca, dan baris "concurrent duplicate → 409" perlu dibedakan dari desain blocking-then-replay di Coding section. Jawaban + review lengkap di vault `Module 5 - REST API Production-Grade.md`.
 
 Mini Project: Desain ulang & dokumentasikan (OpenAPI) sebuah API CRUD yang sebelumnya asal-asalan (endpoint tidak konsisten, error response berbeda-beda tiap controller) menjadi kontrak yang production-grade dan konsisten.
 
-Status: In Progress
+Status: In Progress — semua 5 lesson selesai & direview (90/92/94/90/89), lanjut Mini Project Module 5
 
 ---
 
@@ -344,8 +344,8 @@ Module Completion: 2/15
 
 Overall Completion: 13%
 
-Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1 skor 90/100, Lesson 5.2 skor 92/100, Lesson 5.3 skor 94/100 setelah revisi, ketiganya selesai & direview). Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
+Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1-5.5 semua selesai & direview: 90/92/94/90/89). Tinggal Mini Project Module 5 sebelum modul ini tuntas penuh. Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
 
-Current Lesson: 5.3 — Validation layer yang benar: `@Valid`, custom validator, error response yang konsisten — Selesai (2026-09-22), skor 94/100 (revisi dari 84/100). Ketiga gap dari review pertama sudah ditutup: Bagian 1 sekarang punya narasi skenario input konkret per celah + `@ValidDiscount` cross-field langsung di rewrite DTO; Bagian 2 menunjukkan `DuplicateReviewException extends BusinessException` (ketangkep `handleBusiness()` tanpa handler baru) dan slip "404 vs 422" sudah dikoreksi jadi "400 vs 422"; Interview Q1 sekarang sebut exception spesifik (`MethodArgumentNotValidException` vs `ConstraintViolationException`) dan gotcha silent no-op `@Validated`.
+Current Lesson: 5.5 — Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar — Selesai (2026-09-28), skor 89/100. Kuat di jebakan race condition tanpa `@Version` (jawaban terbaik di submission ini), alasan `ON CONFLICT DO NOTHING` vs catch `DataIntegrityViolationException`, dan reaksi klien yang benar terhadap `412` (jangan blind-retry). Gap: audit kode `PUT` di Bagian 1 sempat jelasin risiko textbook PUT yang gak cocok sama perilaku aktual kode di soal (kode itu justru gak pernah bisa menghapus field, bukan sebaliknya); `weightGram` dideklarasikan di `PatchProductRequest` tapi gak pernah dibaca di method `patch()`; baris "concurrent duplicate → 409" perlu dibedakan dari desain blocking-then-replay yang dipakai di Coding section (409 lebih pas untuk pola `IN_PROGRESS` eksplisit, wilayah Module 12.3). Review lengkap di vault `Module 5 - REST API Production-Grade.md`.
 
-Next: Lesson 5.5 materi + task sudah digenerate ke vault (2026-09-27), menunggu jawaban untuk direview; lalu Mini Project Module 5. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Next: Mini Project Module 5 — desain ulang & dokumentasikan (OpenAPI) API CRUD asal-asalan jadi kontrak production-grade, menyatukan 5.1-5.5. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.

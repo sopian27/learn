@@ -36,9 +36,9 @@ Course Completion: 0/6 module (0%)
 
 Resume 2026-08-19 atas permintaan eksplisit user, mengisi slot Mastering Claude yang sudah selesai (override cap 2-course-aktif).
 
-Current Module: Module 4 — Spring Core & IoC Deep Dive (in progress) — dilanjutkan atas pilihan eksplisit user sebelum evidence Mini Project Module 3 dituntaskan
-Current Lesson: 4.2 Dependency Injection: constructor vs setter vs field injection — belum digenerate
-Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Mini Project), Module 3 5/5 lesson selesai tapi Mini Project evidence Deliverable 2/4 belum tuntas (utang terbuka), Module 4 in progress (Lesson 4.1 selesai skor 88/100)
+Current Module: Module 5 — REST API Production-Grade — semua 5 lesson selesai & direview (90/92/94/90/89), tinggal Mini Project Module 5
+Current Lesson: 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH`, `ETag`/optimistic concurrency dasar — Selesai (2026-09-28), skor 89/100
+Course Completion: 2/15 module tuntas penuh (13%) — Module 1 & 2 tuntas (termasuk Mini Project), Module 3 5/5 lesson selesai tapi Mini Project evidence Deliverable 2/4 belum tuntas (utang terbuka), Module 4 tuntas penuh (2026-09-20, termasuk Mini Project skor 88/100), Module 5 5/5 lesson selesai (90/92/94/90/89), Mini Project Module 5 belum dikerjakan
 
 | Lesson | Status | Task |
 | ------ | ------ | ---- |
@@ -61,6 +61,16 @@ Course Completion: 2/15 module (13%) — Module 1 & 2 tuntas penuh (termasuk Min
 | 3.5 JVM flags production-relevan: heap sizing (container-aware), GC selection, jaring pengaman | Selesai (2026-09-09), skor 88/100 | Dikerjakan, direview |
 | Module 3 Mini Project — Diagnosis & perbaikan memory leak aplikasi Spring Boot | Dijawab & direview (2026-09-10), skor 70/100 | Dikerjakan, direview — evidence Deliverable 2/4 perlu diulang |
 | 4.1 IoC Container & `ApplicationContext`: bean definition, bean lifecycle (instantiation → DI → post-processing → destruction) | Selesai (2026-09-11), skor 88/100 | Dikerjakan, direview |
+| 4.2 Dependency Injection: constructor vs setter vs field injection — kenapa constructor injection jadi standar | Selesai (2026-09-11), skor 92/100 | Dikerjakan, direview |
+| 4.3 Bean scope (singleton, prototype, request, session) dan kapan tiap scope relevan | Selesai (2026-09-12), skor 92/100 | Dikerjakan, direview |
+| 4.4 AOP & Proxy: JDK dynamic proxy vs CGLIB, kenapa `@Transactional`/`@Cacheable` gagal pada self-invocation | Selesai (2026-09-19), skor 91/100 | Dikerjakan, direview |
+| 4.5 Circular dependency & cara Spring (gagal) mengatasinya | Selesai (2026-09-20), skor 93/100 | Dikerjakan, direview |
+| Module 4 Mini Project — Diagnosis & perbaikan bug self-invocation `@Transactional` | Dijawab & direview (2026-09-20), skor 88/100 | Dikerjakan, direview |
+| 5.1 Desain resource & kontrak REST konsisten sesuai `standards/API_STANDARDS.md` | Selesai (2026-09-20), skor 90/100 | Dikerjakan, direview |
+| 5.2 Versioning strategy (URI vs header) dan kapan breaking change butuh versi baru | Selesai (2026-09-20), skor 92/100 | Dikerjakan, direview |
+| 5.3 Validation layer: `@Valid`, custom validator, error response konsisten | Selesai (2026-09-22), skor 94/100 (revisi dari 84/100) | Dikerjakan, direview |
+| 5.4 Dokumentasi API-first dengan OpenAPI/Swagger sesuai `standards/OPENAPI_STANDARDS.md` | Selesai (2026-09-22), skor 90/100 | Dikerjakan, direview |
+| 5.5 Idempotency & konvensi REST lanjut: `PUT` vs `PATCH`, `ETag`/optimistic concurrency dasar | Selesai (2026-09-28), skor 89/100 | Dikerjakan, direview |
 
 ---
 
