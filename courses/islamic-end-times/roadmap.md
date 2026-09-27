@@ -5,7 +5,7 @@
 * Course Name: Tanda-Tanda Kiamat dalam Islam (Ashrat as-Sa'ah) — dari 0 sampai Expert
 * Category: Islamic End Times (Domain: islamic-end-times — lihat `domains/islamic-end-times/DOMAIN.md`)
 * Difficulty: Level 0 (belum tahu klasifikasi tanda kecil/besar, belum tahu urutan peristiwa akhir zaman menurut hadits) → Level 4 (mampu mengutip dalil Qur'an & hadits sahih untuk tiap tanda dengan rujukan persis, menjelaskan urutan lengkap fitnah→Dajjal→Isa AS→Ya'juj Ma'juj→tanda besar lain→kiamat, memahami status dalil yang diperdebatkan tanpa memihak sepihak, dan memisahkan dalil kuat dari israiliyyat/klaim viral kontemporer)
-* Estimated Duration: 10 modul (9 konten + capstone), rata-rata 3 lesson/modul (~29 lesson). Modul 1 (fondasi klasifikasi & metodologi) wajib dituntaskan lebih dulu karena jadi kerangka rujukan semua modul sesudahnya
+* Estimated Duration: 11 modul (10 konten + capstone), rata-rata 3 lesson/modul (~33 lesson). Modul 1 (fondasi klasifikasi & metodologi) wajib dituntaskan lebih dulu karena jadi kerangka rujukan semua modul sesudahnya
 * Prerequisites: Tidak ada prasyarat teknis. Diperlukan kesediaan menerima bahwa sebagian klaim populer soal tanda kiamat (identifikasi Dajjal/Mahdi dengan tokoh kontemporer, prediksi waktu) ternyata tidak didukung dalil kuat — course ini bukan untuk menggugurkan keimanan pada tanda-tanda kiamat (yang didukung Qur'an & hadits sahih), tapi menguatkannya di atas dasar yang benar. Course ini secara eksplisit BUKAN deep-dive Ya'juj Ma'juj (lihat `courses/islamic-eschatology/roadmap.md`), BUKAN kajian akhlak/keteladanan tokoh, dan BUKAN kajian fiqh amalan akhir zaman — lihat "Catatan Scope" di bawah untuk pembagian eksplisit.
 
 ---
@@ -21,7 +21,8 @@
 * [ ] Menjelaskan dalil tanda-tanda besar lain (Dabbah, Dukhan, matahari terbit dari barat, tiga khasf, api dari Yaman) dengan status dan urutan relatifnya
 * [ ] Menjelaskan status dalil Imam Mahdi yang diperdebatkan ulama hadits, dan perbandingan pandangan Sunni-Syiah secara non-sektarian
 * [ ] Mengenali pola israiliyyat, hadits lemah (studi kasus *Kitab al-Fitan* Nu'aym ibn Hammad), dan mendebunk klaim viral kontemporer yang mencocokkan tanda kiamat dengan tokoh/peristiwa spesifik
-* [ ] Menyusun "Peta Urutan Lengkap Tanda Kiamat" personal — timeline bersumber dalil dari tanda kecil sampai kiamat besar
+* [ ] Menjelaskan urutan proses akhirat pasca-kiamat besar — sangkakala, kebangkitan (ba'ts), Padang Mahsyar, hisab, mizan, shirath — dengan dalil Qur'an & hadits sahih dan rujukan persis tiap tahap
+* [ ] Menyusun "Peta Urutan Lengkap Tanda Kiamat sampai Akhirat" personal — timeline bersumber dalil dari tanda kecil sampai Jannah/Naar
 * [ ] Menghasilkan Ashrat as-Sa'ah Timeline Portfolio sebagai Capstone Project, disimpan ke `portofolio/`
 
 ---
@@ -35,6 +36,8 @@ Overlap check dilakukan terhadap domain/course yang berpotensi tumpang tindih, s
 * **`courses/islamic-caliphate/roadmap.md`** (domain `world-history`) — course itu historiografi politik-administratif kekhalifahan, eksplisit BUKAN devosional. Course ini (Modul 8, Imam Mahdi) murni sisi dalil eskatologis & posisi dalam urutan kiamat, bukan spekulasi politik — cross-reference ke situ kalau dibutuhkan konteks politik kekhalifahan.
 
 **Verdict**: Tidak ada tumpang tindih substantif. Course ini adalah payung luas semua tanda kiamat dalam Islam, yang belum tersentuh domain manapun di repo (Ya'juj Ma'juj sudah dicover terpisah dan hanya di-cross-reference, bukan diulang).
+
+**Approval & perluasan 2026-09-28**: Course di-approve, domain didaftarkan ke `ai-los/ACTIVE_DOMAIN.md`. Modul 10 "Proses Akhirat" ditambahkan atas permintaan user (paste dokumen "Akhir Zaman & Tanda-Tanda Kiamat" yang juga bahas ba'ts/mahsyar/hisab/mizan/shirath/Jannah-Naar, di luar scope draft asli yang murni tanda-tanda). Capstone lama (Modul 10) jadi Modul 11, tidak ada modul lain yang berubah. Lihat "Registration History" di `domains/islamic-end-times/DOMAIN.md` untuk rasional lengkap.
 
 ---
 
@@ -188,15 +191,32 @@ Status: Not started
 
 ---
 
-## Module 10 — Sintesis & Capstone: Timeline Lengkap Portfolio
+## Module 10 — Proses Akhirat: Dari Kebangkitan sampai Jannah/Naar
+
+Description: Setelah kiamat besar terjadi, hadits dan Al-Qur'an menjelaskan urutan proses akhirat — sangkakala, kebangkitan, pengumpulan, hisab, mizan, shirath, sampai keputusan final. Modul ini dibatasi pada dalil eksplisit, tidak menambah detail perkara gaib di luar wahyu.
+
+Lessons:
+
+* [ ] 10.1 Tiupan sangkakala (Az-Zumar 39:68) dan kebangkitan (al-Ba'ts) — dalil dan urutan dua tiupan
+* [ ] 10.2 Padang Mahsyar dan hisab — buku amal kanan/kiri (Al-Insyiqaq 84:7-12, Al-Isra 17:71), amal seberat zarrah (Az-Zalzalah 99:6-8)
+* [ ] 10.3 Mizan (Al-Anbiya 21:47) dan shirath (hadits sahih Abu Sa'id al-Khudri/Abu Hurairah, Sahih Muslim Kitab al-Iman) — dalil, status keautentikan, dan disclosure eksplisit soal batas detail gaib
+* [ ] 10.4 Jannah dan Naar sebagai keputusan final — ringkasan dalil, kenapa detail rincian penuh (bentuk fisik, skala) tidak diklaim di luar yang disebut wahyu
+
+Mini Project: Tanda Kiamat Verification File — satu tahap proses akhirat (hisab, mizan, atau shirath), dalil dan status keautentikannya, plus catatan eksplisit batas detail gaib yang tidak boleh ditambah.
+
+Status: Not started
+
+---
+
+## Module 11 — Sintesis & Capstone: Timeline Lengkap Portfolio
 
 Description: Penutup course — menyatukan seluruh Tanda Kiamat Verification File jadi satu portofolio koheren, plus sintesis personal.
 
 Lessons:
 
-* [ ] 10.1 Review menyeluruh: peta lengkap tanda kecil → fitnah → tanda besar berurutan (Dajjal → Isa AS → Ya'juj Ma'juj → tanda besar lain) → area yang legitim diperdebatkan (Mahdi) → area yang jelas legenda/tak berdasar
-* [ ] 10.2 Menyusun "Peta Urutan Lengkap Tanda Kiamat" personal — satu halaman ringkas yang bisa dipakai sebagai rujukan cepat kalau bertemu klaim baru di masa depan
+* [ ] 11.1 Review menyeluruh: peta lengkap tanda kecil → fitnah → tanda besar berurutan (Dajjal → Isa AS → Ya'juj Ma'juj → tanda besar lain) → area yang legitim diperdebatkan (Mahdi) → proses akhirat (ba'ts → mahsyar → hisab → mizan → shirath) → Jannah/Naar → area yang jelas legenda/tak berdasar
+* [ ] 11.2 Menyusun "Peta Urutan Lengkap Tanda Kiamat sampai Akhirat" personal — satu halaman ringkas yang bisa dipakai sebagai rujukan cepat kalau bertemu klaim baru di masa depan
 
-Capstone / Portfolio Project: **Ashrat as-Sa'ah Timeline Portfolio** — kumpulan minimal 10 Tanda Kiamat Verification File dari seluruh modul (tanda kecil, fitnah, Dajjal, Isa AS, Ya'juj Ma'juj ringkas, Dabbah/Dukhan/matahari terbit barat, Mahdi, israiliyyat/klaim viral) plus "Peta Urutan Lengkap Tanda Kiamat" penutup, disimpan ke `portofolio/`.
+Capstone / Portfolio Project: **Ashrat as-Sa'ah Timeline Portfolio** — kumpulan minimal 12 Tanda Kiamat Verification File dari seluruh modul (tanda kecil, fitnah, Dajjal, Isa AS, Ya'juj Ma'juj ringkas, Dabbah/Dukhan/matahari terbit barat, Mahdi, israiliyyat/klaim viral, proses akhirat ba'ts-mahsyar-hisab-mizan-shirath-Jannah/Naar) plus "Peta Urutan Lengkap Tanda Kiamat sampai Akhirat" penutup, disimpan ke `portofolio/`.
 
 Status: Not started
