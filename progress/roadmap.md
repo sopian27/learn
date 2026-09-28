@@ -769,6 +769,14 @@ Atas paste dokumen "1001 MALAM — Belajar Kehidupan dari Kisah, Tipu Daya, Cint
 
 ---
 
+## 2026-09-28 — Dongeng Nusantara
+
+Atas paste dokumen "DONGENG NUSANTARA — Menjelajahi Indonesia Lewat Cerita, Karakter, dan Hikmah" (22 cerita dari 11 wilayah, 6 tipe tokoh, 10 pola besar, tiga lensa membaca, 30 hari, Story Journal, Final Project 5 lapis) dengan instruksi "buatkan course". Dibuat saat Course Aktif "Character Development" tepat di garis 50% (3/6 modul) — guard "di bawah 50%" tidak terpicu secara literal, dicatat transparan mengikuti preseden. Tanpa AskUserQuestion (instruksi langsung, default overlap masuk akal).
+
+* **Dongeng Nusantara — Menjelajahi Indonesia Lewat Cerita, Karakter, dan Hikmah** — `courses/dongeng-nusantara/roadmap.md` — Domain: **baru** `nusantara-folktales` (registered paused, lihat `domains/nusantara-folktales/DOMAIN.md`). Status: Draft, menunggu approval (Not Started, belum Course Aktif, belum ada Lesson 1). 11 modul + Capstone (±42 lesson): memahami dongeng, Sumatra, Jawa Barat, Jawa Tengah, Jawa Timur-Bali, Kalimantan-Sulawesi, NTB-Maluku-Papua, tipe tokoh + 10 pola (dengan uji kontra-contoh), mesin moral + tiga lensa, kehidupan modern + bias cerita, 30 Hari, Capstone Analisis 5 Lapis. Audit overlap (grep lintas `courses/`): Sangkuriang/Lutung Kasarung sudah di `budaya-sunda` Modul 15, Malin Kundang di `budaya-minangkabau` 4.3/12.2, sebutan sekilas di `budaya-nusantara` 8.4, metode baca-cerita mirip `1001-malam` tetapi korpus/kerangka beda — cerita itu ringkas + rujuk-silang, sisanya konten baru. **Koreksi dari riset (ringkasan sekunder, teks primer belum diverifikasi):** Keong Mas bagian siklus Panji (dipindah ke Jawa Timur), Kancil tradisi Melayu-Jawa bukan Sumatra, Prambanan ±850 M bukan semalam (Sewu 249 candi), kaldera Toba ±73.700 tahun lalu dipisah dari cerita, "Nene Datu" tidak ditemukan sebagai judul (diganti Nene Luhu — asumsi mentor), Panji/La Galigo dicatat UNESCO Memory of the World 2017/2011, Calon Arang punya versi bertentangan (Pramoedya 1957, Toeti Heraty 2000). Label wajib [Cerita]/[Budaya-Tafsir]/[Kritis]. Belum masuk hitungan Module Completion, bukan Course Aktif ketiga.
+
+---
+
 # Course Belum Dibuat (gap dari Master Goal)
 
 * Freelance & International Career Readiness (sisa gap, dipersempit) — profil Upwork/Toptal, proposal writing, client management, kontrak & pembayaran internasional, reputasi/rating — belum ada folder `courses/`. Sisi kredensial-nya (sertifikasi/TOEFL/portfolio) sudah dipecah jadi `courses/credential-strategy/roadmap.md` (entri 2026-08-12), sisi kemasan/distribusi umum (CV/LinkedIn/personal branding/portfolio/networking/job search) sudah dipecah jadi `courses/career-reinvention/roadmap.md` (entri 2026-08-13 di atas) — sisa murni operasional bisnis freelance (Upwork/Toptal profile, proposal, kontrak, pricing) — bisa mulai paralel begitu ada portofolio awal
