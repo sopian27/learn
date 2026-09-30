@@ -25,7 +25,7 @@ Course Completion: 8/8 module + Enterprise Project selesai (100%)
 ### 2. Communication Skills — `courses/communication-skills/roadmap.md`
 
 Current Module: Module 1 — Foundations: Mindset & Mengelola Kecemasan Sosial sebagai Introvert
-Current Lesson: 1.4 Energy management ala introvert — materi diberikan (2026-09-19), Applied Practice + Assessment berjalan (1.1-1.2 selesai, 1.3 dilewati — overlap Character Development)
+Current Lesson: 2.1 Bahasa tubuh dasar — Module 1 lengkap (2026-10-01, 1.1-1.2 dan 1.4 selesai, 1.3 dilewati — overlap Character Development)
 Course Completion: 0/9 module (0%)
 
 Status: Resumed 2026-09-13, mengisi slot Course Aktif ke-2 gantiin Mastering Claude yang sudah Selesai. Domain: `domains/communication-skills/DOMAIN.md`. Materi lengkap disimpan di vault Obsidian (`Courses/Communication Skills/`), bukan di sini — lihat `ai-los/OBSIDIAN_SYNC.md`.
