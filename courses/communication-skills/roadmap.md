@@ -54,7 +54,7 @@ Lessons:
 
 Mini Project: Rekam video pendek diri sendiri memperkenalkan diri, lalu review sendiri postur & kontak mata memakai kriteria Module 2.
 
-Status: Not started
+Status: In progress — materi Lesson 2.1 ditulis ke vault (2026-10-01), menunggu Applied Practice + Assessment
 
 ---
 
@@ -195,6 +195,6 @@ Overall Completion: 0%
 
 Current Module: Module 2 — Nonverbal Communication & Presence
 
-Current Lesson: 1.4 Energy management ala introvert — selesai (2026-10-01), Applied Practice + Assessment direview (1.1-1.2 selesai, 1.3 dilewati — overlap Character Development). Module 1 lengkap.
+Current Lesson: 2.1 Bahasa tubuh dasar — materi sudah ditulis ke vault (2026-10-01), menunggu Applied Practice + Exercises + Assessment
 
 Next Lesson: 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions
