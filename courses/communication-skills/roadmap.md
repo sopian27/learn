@@ -54,7 +54,7 @@ Lessons:
 
 Mini Project: Rekam video pendek diri sendiri memperkenalkan diri, lalu review sendiri postur & kontak mata memakai kriteria Module 2.
 
-Status: In progress — Lesson 2.1 selesai (2026-10-02), lanjut Lesson 2.2 (materi belum ditulis ke vault)
+Status: In progress — Lesson 2.1 selesai (2026-10-02), Lesson 2.2 materi sudah ditulis ke vault (2026-10-02), menunggu Applied Practice/Exercises/Assessment
 
 ---
 
