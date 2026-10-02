@@ -47,14 +47,14 @@ Description: Sinyal yang dikirim dan diterima sebelum satu kata pun diucapkan �
 
 Lessons:
 
-* [ ] 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions
+* [x] 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions (selesai 2026-10-02, lulus konsep + audit; carry-over: eksperimen kontak mata di SUDS 30–40 dengan SUDS turun, belum terbukti)
 * [ ] 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya
 * [ ] 2.3 Sinyal "approachability" — apa yang membuat orang lain merasa nyaman mendekat atau didekati
 * [ ] 2.4 Membaca sinyal lawan bicara — tanda ingin melanjutkan percakapan vs tanda ingin mengakhiri, tanpa overinterpretasi
 
 Mini Project: Rekam video pendek diri sendiri memperkenalkan diri, lalu review sendiri postur & kontak mata memakai kriteria Module 2.
 
-Status: In progress — materi Lesson 2.1 ditulis ke vault (2026-10-01), menunggu Applied Practice + Assessment
+Status: In progress — Lesson 2.1 selesai (2026-10-02), lanjut Lesson 2.2 (materi belum ditulis ke vault)
 
 ---
 
@@ -195,6 +195,6 @@ Overall Completion: 0%
 
 Current Module: Module 2 — Nonverbal Communication & Presence
 
-Current Lesson: 2.1 Bahasa tubuh dasar — materi sudah ditulis ke vault (2026-10-01), menunggu Applied Practice + Exercises + Assessment
+Current Lesson: 2.2 Nada suara & pacing (belum dimulai). Carry-over dari 2.1: eksperimen kontak mata di situasi SUDS 30–40 dengan catatan SUDS sebelum/sesudah dan data kontak mata itu sendiri.
 
-Next Lesson: 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions
+Next Lesson: 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya
