@@ -134,7 +134,7 @@ Lessons:
 
 Mini Project: Desain ulang & dokumentasikan (OpenAPI) sebuah API CRUD yang sebelumnya asal-asalan (endpoint tidak konsisten, error response berbeda-beda tiap controller) menjadi kontrak yang production-grade dan konsisten.
 
-Status: In Progress — semua 5 lesson selesai & direview (90/92/94/90/89), lanjut Mini Project Module 5
+Status: Selesai (2026-10-03) — semua 5 lesson selesai & direview (90/92/94/90/89). Mini Project Module 5 direview ulang 7 kali, skor akhir 95/100 (dari 72). Deliverable 1–6 dan Production Discussion sudah terjawab. Sisa catatan non-blocker: cleanup TTL idempotency belum ada kodenya (desain saja), dan jalur 409 untuk request concurrent duplicate belum dipilih. Review lengkap di vault `Module 5 - REST API Production-Grade.md`.
 
 ---
 
