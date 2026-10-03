@@ -152,7 +152,7 @@ Lessons:
 
 Mini Project: Diberi endpoint yang lambat karena N+1 query & index yang salah — Anda diminta membaca `EXPLAIN` plan, mendiagnosis akar masalah, memperbaikinya (fetch strategy + index), dan mengukur perbaikannya dengan angka (before/after).
 
-Status: Not Started
+Status: In Progress — Lesson 6.1 materi + lab (10 eksperimen Postgres di Docker) + exercise dikirim ke vault (2026-10-03), menunggu jawaban. Catatan: SQL lab belum diverifikasi di Postgres asli saat materi ditulis (Docker daemon mati), contoh plan di materi = ilustrasi bentuk.
 
 ---
 
@@ -340,12 +340,14 @@ Status: Not Started
 
 # Overall Progress
 
-Module Completion: 2/15
+Module Completion: 4/15 (Module 1, 2, 4, 5 selesai penuh; Module 3 masih In Progress — utang Mini Project)
 
-Overall Completion: 13%
+Overall Completion: 27%
 
 Current Module: Module 5 — REST API Production-Grade — **In Progress** (Lesson 5.1-5.5 semua selesai & direview: 90/92/94/90/89). Tinggal Mini Project Module 5 sebelum modul ini tuntas penuh. Module 4 **Selesai** (2026-09-20, termasuk Mini Project). Module 3 masih **In Progress** karena evidence Mini Project-nya belum diulang (lihat catatan Module 3 di atas).
 
 Current Lesson: 5.5 — Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` semantics, `ETag`/optimistic concurrency dasar — Selesai (2026-09-28), skor 89/100. Kuat di jebakan race condition tanpa `@Version` (jawaban terbaik di submission ini), alasan `ON CONFLICT DO NOTHING` vs catch `DataIntegrityViolationException`, dan reaksi klien yang benar terhadap `412` (jangan blind-retry). Gap: audit kode `PUT` di Bagian 1 sempat jelasin risiko textbook PUT yang gak cocok sama perilaku aktual kode di soal (kode itu justru gak pernah bisa menghapus field, bukan sebaliknya); `weightGram` dideklarasikan di `PatchProductRequest` tapi gak pernah dibaca di method `patch()`; baris "concurrent duplicate → 409" perlu dibedakan dari desain blocking-then-replay yang dipakai di Coding section (409 lebih pas untuk pola `IN_PROGRESS` eksplisit, wilayah Module 12.3). Review lengkap di vault `Module 5 - REST API Production-Grade.md`.
 
-Next: Mini Project Module 5 — desain ulang & dokumentasikan (OpenAPI) API CRUD asal-asalan jadi kontrak production-grade, menyatukan 5.1-5.5. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Update 2026-10-03: Module 5 **Selesai penuh** (Mini Project 95/100). Sekarang di **Module 6, Lesson 6.1** (Indexing mendalam) — materi, lab, dan exercise sudah di vault `Module 6 - Database & Persistence Mendalam.md`, menunggu jawaban Anda.
+
+Next: kerjakan lab + Exercise 6.1 → review → 6.2. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
