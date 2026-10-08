@@ -48,13 +48,13 @@ Description: Sinyal yang dikirim dan diterima sebelum satu kata pun diucapkan �
 Lessons:
 
 * [x] 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions (selesai 2026-10-02, lulus konsep + audit; carry-over: eksperimen kontak mata di SUDS 30–40 dengan SUDS turun, belum terbukti)
-* [ ] 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya
+* [x] 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya (selesai bersyarat 2026-10-08, lulus konsep; carry-over: data pola suara dengan angka, uji satu setelan 3x di kasir, data kontak mata 2.1)
 * [ ] 2.3 Sinyal "approachability" — apa yang membuat orang lain merasa nyaman mendekat atau didekati
 * [ ] 2.4 Membaca sinyal lawan bicara — tanda ingin melanjutkan percakapan vs tanda ingin mengakhiri, tanpa overinterpretasi
 
 Mini Project: Rekam video pendek diri sendiri memperkenalkan diri, lalu review sendiri postur & kontak mata memakai kriteria Module 2.
 
-Status: In progress — Lesson 2.1 selesai (2026-10-02), Lesson 2.2 materi sudah ditulis ke vault (2026-10-02), menunggu Applied Practice/Exercises/Assessment
+Status: In progress — Lesson 2.1 dan 2.2 selesai (2.2 bersyarat, 2026-10-08), Lesson 2.3 berikutnya
 
 ---
 
@@ -195,6 +195,6 @@ Overall Completion: 0%
 
 Current Module: Module 2 — Nonverbal Communication & Presence
 
-Current Lesson: 2.2 Nada suara & pacing (belum dimulai). Carry-over dari 2.1: eksperimen kontak mata di situasi SUDS 30–40 dengan catatan SUDS sebelum/sesudah dan data kontak mata itu sendiri.
+Current Lesson: 2.3 Approachability (belum dimulai). Carry-over dari 2.2: data pola suara dengan angka, uji satu setelan 3x di kasir dengan SUDS, dan data kontak mata dari 2.1.
 
-Next Lesson: 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya
+Next Lesson: 2.3 Approachability — apa yang membuat orang nyaman mendekat atau didekati
