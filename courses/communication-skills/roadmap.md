@@ -49,12 +49,12 @@ Lessons:
 
 * [x] 2.1 Bahasa tubuh dasar — open posture, kontak mata yang natural (bukan menatap tajam), microexpressions (selesai 2026-10-02, lulus konsep + audit; carry-over: eksperimen kontak mata di SUDS 30–40 dengan SUDS turun, belum terbukti)
 * [x] 2.2 Nada suara & pacing — bagaimana kalimat yang sama bisa berarti sangat berbeda tergantung cara mengucapkannya (selesai 2026-10-10, carry-over dikerjakan; data jeda dan kontak mata dibawa ke Mini Project)
-* [ ] 2.3 Sinyal "approachability" — apa yang membuat orang lain merasa nyaman mendekat atau didekati
+* [x] 2.3 Sinyal "approachability" — apa yang membuat orang lain merasa nyaman mendekat atau didekati (selesai 2026-10-19, konsep lulus setelah revisi; Applied Practice opsional, tidak dikerjakan)
 * [ ] 2.4 Membaca sinyal lawan bicara — tanda ingin melanjutkan percakapan vs tanda ingin mengakhiri, tanpa overinterpretasi
 
 Mini Project: Rekam video pendek diri sendiri memperkenalkan diri, lalu review sendiri postur & kontak mata memakai kriteria Module 2.
 
-Status: In progress — Lesson 2.1 dan 2.2 selesai (2.2 tutup 2026-10-10), Lesson 2.3 berikutnya
+Status: In progress — Lesson 2.1 dan 2.2 selesai (2.2 tutup 2026-10-10), Lesson 2.3 selesai (2026-10-19), Lesson 2.4 berikutnya (materi sudah di vault, belum dikerjakan)
 
 ---
 
@@ -195,6 +195,6 @@ Overall Completion: 0%
 
 Current Module: Module 2 — Nonverbal Communication & Presence
 
-Current Lesson: 2.3 Approachability (belum dimulai). Terbuka dari 2.2: ukur durasi jeda dan kontak mata di rekaman Mini Project.
+Current Lesson: 2.4 Membaca sinyal lawan bicara (materi dibuat 2026-10-19, belum dikerjakan). Terbuka dari 2.2: ukur durasi jeda dan kontak mata di rekaman Mini Project.
 
-Next Lesson: 2.3 Approachability — apa yang membuat orang nyaman mendekat atau didekati
+Next Lesson: Mini Project Module 2 (video perkenalan diri), lalu Module 3
