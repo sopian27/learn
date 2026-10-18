@@ -144,7 +144,7 @@ Description: Modul paling menentukan untuk "dipercaya proyek besar" — kebanyak
 
 Lessons:
 
-* [ ] 6.1 Indexing mendalam: B-tree index, composite index, kapan index justru memperlambat write, `EXPLAIN`/query plan membaca hasilnya sesuai `standards/SQL_STANDARDS.md`
+* [x] 6.1 Indexing mendalam: B-tree index, composite index, kapan index justru memperlambat write, `EXPLAIN`/query plan membaca hasilnya sesuai `standards/SQL_STANDARDS.md` — Selesai (2026-10-18), skor 90/100 (Eksperimen 9 dilewati)
 * [ ] 6.2 Normalisasi vs denormalisasi yang sadar trade-off (bukan dogma), desain skema sesuai `standards/DATABASE_STANDARDS.md`
 * [ ] 6.3 JPA/Hibernate internals: lazy vs eager loading, N+1 query problem dan cara mendeteksinya, `@Transactional` read-only untuk optimisasi
 * [ ] 6.4 Migrasi database terkontrol dengan Flyway (`standards/FLYWAY_STANDARDS.md`) — kenapa `ddl-auto: update` adalah anti-pattern di production
@@ -152,7 +152,7 @@ Lessons:
 
 Mini Project: Diberi endpoint yang lambat karena N+1 query & index yang salah — Anda diminta membaca `EXPLAIN` plan, mendiagnosis akar masalah, memperbaikinya (fetch strategy + index), dan mengukur perbaikannya dengan angka (before/after).
 
-Status: In Progress — Lesson 6.1 materi + lab (10 eksperimen Postgres di Docker) + exercise dikirim ke vault (2026-10-03), menunggu jawaban. Catatan: SQL lab belum diverifikasi di Postgres asli saat materi ditulis (Docker daemon mati), contoh plan di materi = ilustrasi bentuk.
+Status: In Progress — Lesson 6.1 selesai (2026-10-18), skor 90/100. Eksperimen 9 dilewati atas keputusan user (butuh `pg_sleep`/`pg_stat_force_next_flush()` sebelum baca statistik jika mau diulang). Lab SQL terbukti jalan di Postgres 17 (Eksperimen 1–8, 10). Next: 6.2.
 
 ---
 
@@ -350,4 +350,4 @@ Current Lesson: 5.5 — Idempotency & konvensi REST lanjut: `PUT` vs `PATCH` sem
 
 Update 2026-10-03: Module 5 **Selesai penuh** (Mini Project 95/100). Sekarang di **Module 6, Lesson 6.1** (Indexing mendalam) — materi, lab, dan exercise sudah di vault `Module 6 - Database & Persistence Mendalam.md`, menunggu jawaban Anda.
 
-Next: kerjakan lab + Exercise 6.1 → review → 6.2. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
+Update 2026-10-18: 6.1 selesai (90/100, Eksperimen 9 dilewati). Next: 6.2. Utang tetap terbuka: ulangi Deliverable 2 & 4 Mini Project Module 3 dengan `jcmd GC.heap_dump` + VisualVM (bukan `Thread.print`) sebelum Module 3 dianggap tuntas penuh.
