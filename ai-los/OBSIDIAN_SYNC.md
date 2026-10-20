@@ -25,3 +25,17 @@ Enterprise Project / Capstone (course selesai penuh)
 
 * File: `Courses/<Nama Course>/Enterprise Project.md` (atau nama capstone-nya sesuai roadmap), isi = materi capstone lengkap (sama pola dengan file module)
 * **Final Course Wisdom wajib ikut ditulis ke file ini**, bukan cuma ditampilkan di chat — section `## Final Course Wisdom` di akhir file, isi teks reflection lengkap (bukan placeholder/link balik ke chat)
+
+Feature work (superpowers: brainstorming/spec, plan, review, approval) — dokumen ke vault, bukan chat
+
+Folder: `Features/<Nama Project>/<Nama Feature Title Case>/` (project ini = `learn`). Aturan ini juga ada di `C:\Users\eluon\.claude\CLAUDE.md` supaya berlaku di semua project.
+
+* Default path superpowers (`docs/superpowers/specs|plans/`) DIGANTI: tulis langsung ke folder vault di atas. User instruction override default skill.
+* 1 dokumen = 1 file, nama per tahap/agent:
+  * `Spec.md` (hasil brainstorming/design)
+  * `Plan.md` (hasil writing-plans)
+  * `Review - <nama agent>.md` (mis. `Review - code-reviewer.md`, `Review - security-auditor.md`)
+  * `Approval.md` (keputusan user + status, tanggal)
+* Tiap subagent nulis file-nya SENDIRI ke vault; prompt subagent wajib menyebut path tujuan. Subagent balik ke chat cuma: path file + verdict 1-2 baris.
+* Chat session = ringkasan singkat + link `[[...]]` ke file. Jangan paste isi spec/plan/review ke chat (lihat feedback no chat/vault duplication).
+* Sebelum tulis: cek file sudah ada; kalau ada, update bagian relevan, jangan overwrite buta.

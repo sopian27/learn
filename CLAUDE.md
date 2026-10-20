@@ -29,6 +29,10 @@ When multiple documents overlap or conflict, resolve using this precedence order
 
 If multiple documents overlap, the standards directory has the highest priority; within standards/, a domain's own domain-specific standards (if any, under domains/<name>/standards/) take priority over standards/UNIVERSAL_STANDARDS.md, which takes priority over kernel defaults.
 
+# Feature Work Documents
+
+Saat mengerjakan feature (spec, plan, review, approval — termasuk output skill superpowers), tulis dokumen ke Obsidian vault `Features/<Nama Project>/<Nama Feature>/`, satu file per tahap/agent, bukan di chat dan bukan di `docs/superpowers/`. Subagent menulis file-nya sendiri dan hanya mengembalikan path + verdict singkat. Aturan lengkap: `ai-los/OBSIDIAN_SYNC.md`.
+
 # Learning Files
 
 Maintain roadmap.md, progress.md, notes.md, cheatsheet.md, resources.md, projects.md, interview.md, and journal.md under `progress/` at the repository root. Update them whenever appropriate.
