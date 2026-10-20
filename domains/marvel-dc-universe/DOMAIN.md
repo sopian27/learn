@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Marvel & DC Universe (Sejarah, Lore, dan Filosofi Comic Book Universe)
 
 ## Scope
@@ -53,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz identifikasi (origin/kekuatan/villain/tim/issue number ikonik), drill "spot the publisher" (diberi satu elemen karakter/filosofi tanpa nama penerbit, learner mengidentifikasi Marvel atau DC berdasarkan pola desain), drill "which era" (mengurutkan momen komik ke Golden/Silver/Bronze/Modern Age berdasarkan konteksnya), dan latihan "comics vs adaptation" (diberi satu adegan/plot poin populer, learner mengidentifikasi apakah itu sesuai comics asli, adaptasi film/TV, atau keduanya dengan cara berbeda).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

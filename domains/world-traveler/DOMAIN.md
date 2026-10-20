@@ -53,6 +53,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz recall checklist framework (mengingat 3 lapisan: Hard Facts/Soft Culture/Practical, dan komponen apa saja di tiap lapisan), drill "spot the stereotype vs fact" (diberi satu klaim budaya, learner menilai apakah itu fakta bersumber, kecenderungan wajar, atau stereotip berlebihan beserta alasan), latihan dialog role-play skenario budaya (skrip pendek dengan pilihan respons, mengecek pemahaman etiquette kontekstual), dan self-audit memakai empat kriteria Review Style di atas sebelum Country Dossier disubmit.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa praktisi berbeda untuk menilai negara/perjalanan yang sama:

@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Pirate History (Sejarah Bajak Laut & Privateering — dari Piracy Kuno sampai Piracy Modern)
 
 ## Scope
@@ -74,6 +76,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat (membedakan piracy/privateering/perang secara hukum, mengenali elemen definisi UNCLOS Art. 101), drill "spot the myth" (diberi satu narasi campuran fakta terdokumentasi + trope Hollywood — peta harta karun, walking the plank, penutup mata — learner mengidentifikasi mana yang mana beserta sumbernya), dan self-audit memakai empat kriteria Review Style di atas sebelum Ship's Log Entry disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

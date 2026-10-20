@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah rating self-report motivasi/enjoyment (skala 1-10) sebelum-sesudah Applied Practice sebagai data assessment utama domain ini (bukan kuis akademik formal), dan evaluasi skenario singkat: diberi 1 situasi belajar yang terasa berat, learner memilih teknik paling tepat dari course ini beserta alasannya berbasis sumber domain.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan bagaimana peneliti motivasi (lab Deci & Ryan, SDT), learning scientist (Bjork/Roediger, kognisi & memori), peneliti behavior design (BJ Fogg, Stanford) mendekati masalah "membuat belajar terasa menyenangkan" dibanding konten "produktivitas viral"/"study hack" media sosial yang sering menjual jalan pintas tanpa dasar riset (mis. klaim "belajar tanpa effort", teknik tanpa bukti seperti learning styles VAK yang sudah dibantah riset). Highlight kesenjangan kualitas bukti, mirip pola yang sudah dipakai `domains/self-love/DOMAIN.md` dan `domains/psychology/DOMAIN.md`.

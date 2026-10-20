@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Refleksi tertulis singkat setelah bagian teori tiap lesson, plus evaluasi skenario: diberi situasi ambigu (mis. "kerja keras tidak diapresiasi atasan", "kebaikan dibalas dengan sikap dingin", "pendapat ditolak mentah-mentah di depan orang banyak"), learner menjelaskan bagaimana tauhid/tawakal/ikhlas diterapkan di situasi itu secara konkret — bukan quiz hafalan dalil.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Ulama tazkiyatun nafs klasik** (Ibnu Qayyim, Al-Ghazali, Ibnu Rajab) — lensa ikhlas dan tawakal sebagai penyucian hati.

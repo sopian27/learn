@@ -51,6 +51,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Checklist self-diagnostic terstruktur tiap modul (skala 1-5 untuk kontrol napas, kepercayaan pitch, level tegang) untuk mengubah sensasi subjektif jadi tracking semi-kuantitatif, plus kuis ear-training "cold" berkala (interval/pitch matching lewat deskripsi nada atau lagu referensi) untuk memisahkan masalah pendengaran (ear) dari masalah produksi suara (technique).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Cathrine Sadolin (CVT)** — pendekatan sistematis berbasis sains untuk CCM, originator klasifikasi mode vokal yang dipakai domain ini.

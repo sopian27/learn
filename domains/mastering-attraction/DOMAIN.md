@@ -66,6 +66,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Skenario pilihan-terbuka: diberi situasi ambigu (mis. "rekan kerja perempuan sering membalas chat cepat dan ramah", "terus memikirkan seseorang yang baru dikenal seminggu", "ditolak saat mencoba berkenalan"), learner menjelaskan interpretasi yang tepat dan respons yang sehat memakai kerangka modul yang relevan — bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Peneliti limerence & cinta (Tennov, Sternberg, Fisher)** — lensa akademik membedakan obsesi dari cinta matang.

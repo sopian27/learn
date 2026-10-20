@@ -242,9 +242,15 @@ Lessons:
 * [ ] 13.1 Machiavelli, *The Prince* — teori kekuasaan klasik, dibaca kritis dengan konteks Firenze abad ke-16; bandingkan konsep virtù/fortuna dengan situational awareness Modul 2
 * [ ] 13.2 Realisme politik Kissinger (*Diplomacy*) — lensa kepentingan negara jangka panjang, dibandingkan dengan pola diplomasi/negosiasi Modul 5-7
 * [ ] 13.3 Lee Kuan Yew sebagai kontras — pemimpin otoriter-teknokratis dengan legitimasi hasil ekonomi berbeda; apa yang sama (konsolidasi kekuasaan, kontrol informasi) dan apa yang berbeda (institusi anti-korupsi, transisi kekuasaan) dibanding kasus utama course
-* [ ] 13.4 Robert Greene, *48 Laws of Power* — sistematisasi taktik pop-strategy, disilangkan kritis ke seluruh studi kasus Modul 1-12: hukum mana yang benar-benar didukung bukti historis, mana yang overclaim
+* [ ] 13.4 Robert Greene — metode bedah kritis: tiap prinsip diuji 6 pertanyaan (klaim, contoh historis, evidence psikologis, keterbatasan, cara mengenali saat dipakai orang lain, cara menerapkan versi etis) sebelum dianggap valid
+* [ ] 13.5 *The 48 Laws of Power* — pilih 5 hukum representatif, uji lewat metode 13.4, disilangkan kritis ke studi kasus Modul 1-12: hukum mana yang benar-benar didukung bukti historis, mana yang overclaim
+* [ ] 13.6 *The Art of Seduction* — psikologi daya tarik/pengaruh, dikontraskan tegas dengan house rule anti-manipulasi domain ini (lihat "Domain-Specific Standards") dan penolakan taktik pickup-artist di `domains/relationships/DOMAIN.md` — dipelajari untuk MENGENALI pola, bukan panduan praktik
+* [ ] 13.7 *The 33 Strategies of War* — strategi konflik & kompetisi, dibandingkan Sun Tzu/Clausewitz sebagai tradisi strategi klasik yang lebih dulu ada
+* [ ] 13.8 *Mastery* — jalur apprenticeship-ke-keahlian, disilangkan ke riset deliberate practice (Anders Ericsson) supaya tidak berhenti di anekdot survivorship-bias
+* [ ] 13.9 *The Laws of Human Nature* — sintesis pop-psikologi (narsisme, ego, envy, perilaku kelompok), disilangkan wajib ke `domains/psychology/DOMAIN.md` (Module 11 Personality, Module 12 Social Psychology) sebelum dianggap otoritatif
+* [ ] 13.10 Power Over Yourself — penutup: kekuasaan tertinggi adalah self-control/disiplin atas diri sendiri (ego, desire, perhatian, waktu), bukan mengendalikan orang lain; disilangkan ke `domains/character-development/DOMAIN.md` Module 7-9 (Atomic Habits, validasi/ego, spotlight effect/ketenangan batin) — bukan diajarkan ulang dari nol di sini
 
-Mini Project: Strategic Power Case Analysis — pilih satu prinsip dari Machiavelli ATAU Kissinger, uji apakah prinsip itu benar-benar menjelaskan pola yang sudah dipelajari di studi kasus utama course, atau gagal menjelaskan sebagian besarnya.
+Mini Project: Strategic Power Case Analysis — pilih satu prinsip dari Machiavelli, Kissinger, ATAU satu buku Greene, uji apakah prinsip itu benar-benar menjelaskan pola yang sudah dipelajari di studi kasus utama course, atau gagal menjelaskan sebagian besarnya.
 
 Status: Not started
 

@@ -76,6 +76,8 @@ Di atas Universal Review Rubric (`ai-los/CORE_LOS.md`), tambahkan empat lensa:
 
 Self-assessment inventory (kategori pengalaman yang sudah/belum pernah dicoba, dicek jujur), skenario studi kasus (dilema trade-off pengalaman vs tabungan/karier, learner memutuskan dan menjelaskan alasan), dan refleksi jurnal terstruktur berbasis Experience Log.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Peneliti dan penulis yang jadi kerangka rujukan utama: Oliver Burkeman, Tim Urban, Bronnie Ware, Thomas Gilovich & Amit Kumar, Elizabeth Dunn & Michael Norton, Daniel Kahneman, Gavin de Becker, Ryder Carroll. Untuk konteks keamanan perjalanan, rujukan resmi: US State Department, WHO, CDC — sama seperti `domains/world-traveler/DOMAIN.md`.

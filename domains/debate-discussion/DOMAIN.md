@@ -57,6 +57,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (komponen Toulmin, klasifikasi fallacy, format debat), drill fallacy-spotting terukur (skor benar/salah dari rekaman debat/diskusi publik nyata), dan — mengikuti model NSDA/WSDC — feedback lisan/tertulis dari partner debat atau audiens nyata setelah setiap ronde level Intermediate ke atas, plus self-review terstruktur dari rekaman memakai lima kriteria Review Style di atas.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk situasi argumen yang sama: filsuf argumentasi akademik (Toulmin/Walton — struktur formal, definisi presisi fallacy) vs pelatih/juri debat kompetitif (NSDA/WSDC/BP — kecepatan, strategi ronde, penjurian praktis) vs psikolog persuasi (Cialdini — riset eksperimen tentang apa yang benar-benar mengubah pikiran orang) vs ahli prosedur parlementer (Robert's Rules — keadilan struktural dalam forum multi-pihak). Kontraskan eksplisit dengan **sofis** (retorika yang berusaha menang dengan cara apa pun — cherry-picking, gish gallop, serangan personal) sebagai anti-model yang ditolak domain ini, sejalan dengan house rule "Substansi di atas gaya" di `domains/public-speaking/DOMAIN.md`.

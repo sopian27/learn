@@ -236,8 +236,9 @@ Lessons:
 * [ ] 11.2 Dari pacaran serius ke tunangan/menikah — sinyal kesiapan yang sebenarnya (bukan cuma lamanya waktu)
 * [ ] 11.3 Percakapan besar sebelum commitment — finansial, keluarga, nilai hidup, rencana jangka panjang
 * [ ] 11.4 Red flag level tinggi yang wajib jadi dealbreaker di tahap ini — kontrol, kekerasan, ketidakjujuran besar
+* [ ] 11.5 "Don't Marry Yet" — membedakan motif menikah: karena siap membangun kehidupan bersama vs karena takut kesepian, tekanan umur/keluarga, ingin "disembuhkan" pasangan, atau butuh validasi. Pertanyaan inti: "Apakah saya ingin menikah karena siap, atau karena ingin seseorang menyelesaikan masalah dalam hidup saya?" — disilangkan ke 3.3 (settling) dan Investment Model Rusbult (11.1) supaya evaluasi berbasis kesiapan nyata, bukan hanya menghindari red flag
 
-Mini Project: Dokumen "kesiapan commitment" — checklist percakapan besar yang sudah/belum dilakukan, beserta hasilnya.
+Mini Project: Dokumen "kesiapan commitment" — checklist percakapan besar yang sudah/belum dilakukan, beserta hasilnya, plus jawaban jujur tertulis untuk pertanyaan inti 11.5.
 
 Status: Not started
 

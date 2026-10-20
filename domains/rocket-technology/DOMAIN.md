@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Teknologi Roket (Rocket Technology) — propulsi, struktur, aerodinamika peluncuran, dan mekanika orbit dasar untuk kendaraan peluncur (launch vehicle), dari fondasi fisika sampai desain kendaraan peluncur tingkat literasi-terapan.
 
 ## Scope
@@ -72,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori, problem set kuantitatif terarah gaya Sutton & Biblarz/MIT OCW 16.512 dengan kunci jawaban untuk self-check, dan review kode simulasi (learner menjalankan simulasi ascent-nya sendiri, membandingkan delta-v/altitude hasil terhadap ekspektasi teoretis, menjelaskan deviasi bila ada) sebagai bentuk assessment applied.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

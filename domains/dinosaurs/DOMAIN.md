@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Dinosaurs (Paleontologi & Dunia Dinosaurus) — dari metode ilmiah paleontologi & pembentukan fosil, geologis Mesozoikum, anatomi & klasifikasi kladistik, biologi kelompok utama (theropoda/T-Rex, raptor, sauropoda, ornithischia), perilaku berbasis bukti, paleoekologi, kepunahan K-Pg, sampai rekonstruksi ilmiah modern.
 
 ## Scope
@@ -74,6 +76,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (skenario "apakah klaim ini fakta, inferensi, hipotesis, atau spekulasi?" untuk menguji disiplin epistemik, bukan hafalan nama dinosaurus), latihan klasifikasi klaim (5 klaim per modul topik-terbuka diklasifikasi dengan justifikasi), latihan konstruksi cladogram sederhana dengan kunci jawaban untuk self-check, dan review laporan tertulis (dicek terhadap sumber primer/institusional yang dirujuk, bukan cuma kelancaran narasi).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

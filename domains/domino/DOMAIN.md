@@ -58,6 +58,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Kuis probabilitas terukur (menghitung peluang lawan memegang keping tertentu dari state papan yang diberikan), drill tracking kecepatan (tally keping keluar dari histori langkah tertulis, dibatasi waktu), skenario decision-making (diberi state papan & tangan, pilih langkah terbaik dan justifikasi pakai EV/blocking/inferensi), dan tes inferensi buta (diberi hanya histori langkah yang dimainkan/dilewati, rekonstruksi kemungkinan isi tangan lawan).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Domino tidak punya figur setara grandmaster catur yang dikenal luas secara global — tidak ada "Kasparov-nya domino". Karena itu domain ini eksplisit memakai kerangka **"expert club/tournament player"** umum sebagai pembanding, disintesis dari dua tradisi yang punya budaya kompetitif domino kuat dan terdokumentasi:

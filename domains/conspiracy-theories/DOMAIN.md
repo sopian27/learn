@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Studi Teori Konspirasi (Conspiracy Theory Studies)
 
 ## Scope
@@ -59,6 +61,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz singkat setelah bagian teori tiap lesson (mengenali red flag penalaran konspirasionis: unfalsifiability, "something must be wrong" reasoning, over-attribution niat jahat/agency, proportionality bias — mengikuti tipologi Brotherton/Barkun dalam skenario yang diberikan), ditambah drill "spot the claim" pendek (diberi satu klaim, identifikasi kategori buktinya), dan self-audit memakai lima kriteria Review Style di atas sebelum Case File Analysis disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

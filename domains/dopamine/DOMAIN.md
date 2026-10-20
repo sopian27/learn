@@ -68,6 +68,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, quiz identifikasi jalur/reseptor/istilah (mesolimbic vs nigrostriatal, wanting vs liking, fixed vs variable ratio), dan evaluasi skenario "spot the mechanism" — diberi satu contoh perilaku (mis. checking notifikasi HP, gacha game, olahraga rutin), learner mengidentifikasi mekanisme reward yang bekerja (reinforcement schedule, prediction error, allostasis) berdasarkan sumber domain ini.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan lensa berbeda untuk topik yang sama, ditekankan eksplisit tiap kali rigor berbeda:

@@ -21,7 +21,10 @@
 * [ ] Mempraktikkan kepemimpinan atas diri sendiri — tanggung jawab, pengambilan keputusan di bawah tekanan, dan regulasi emosi (termasuk mengenali pola depresi pria yang sering tersembunyi)
 * [ ] Bertindak berani (fisik/moral/vital) meski rasa takut tetap ada, dikalibrasi lewat golden mean Aristoteles antara pengecut dan nekat *(Module 7, menunggu approval)*
 * [ ] Menjaga konsistensi antara nilai pribadi dan tindakan nyata (integritas), termasuk saat tidak ada yang mengawasi atau saat konsisten itu mahal *(Module 8, menunggu approval)*
-* [ ] Menghasilkan Personal High-Value Man Operating System sebagai Capstone Project, mengintegrasikan sistem yang sudah dibangun di domain lain (character-development, self-love, relationships, personal-finance/entrepreneurship) dan Module 7-8 (keberanian, integritas) tanpa mengulangnya
+* [ ] Menjaga standar tinggi tanpa terjebak perfeksionisme — membedakan striving yang sehat dari kritik-diri yang melumpuhkan, dan memutuskan kapan cukup baik untuk dirilis vs kapan layak dipoles *(Module 9, menunggu approval)*
+* [ ] Melatih kesabaran strategis — menahan diri demi hasil jangka panjang tanpa jatuh ke pasif atau menunda-nunda, dan membaca kapan bertahan vs kapan mengganti strategi *(Module 10, menunggu approval)*
+* [ ] Membedakan versi sehat dari ambisi, disiplin, dan kemandirian dari versi tidak sehatnya (keserakahan, obsesi, isolasi) *(Module 11, menunggu approval)*
+* [ ] Menghasilkan Personal High-Value Man Operating System sebagai Capstone Project, mengintegrasikan sistem yang sudah dibangun di domain lain (character-development, self-love, relationships, personal-finance/entrepreneurship) dan Module 7-11 (keberanian, integritas, standar tinggi, kesabaran strategis, batas sehat ambisi-disiplin-kemandirian) tanpa mengulangnya
 
 ---
 
@@ -195,6 +198,79 @@ Mini Project: Integrity Audit — pilih 3 nilai inti dari Personal Values & Purp
 Referensi riset: lihat sumber 15-19 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
 
 Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 9 — Standar Tinggi tanpa Perfeksionisme: Kapan Cukup Baik, Kapan Layak Dipoles (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-09-25 hasil audit overlap atas outline "Elite Mindset" (18 modul; ~15 sudah tercakup course lain, 3 gap asli — lihat "Catatan Scope Tambahan 2026-09-25" di bawah Module 11). Perfeksionisme sebagai penghambat *mencoba* sudah dibedah di `courage-to-try` Module 3 — modul ini **tidak mengulangnya**. Yang baru di sini adalah sisi sebaliknya: bagaimana mempertahankan standar tinggi dan memutuskan *kapan berhenti memoles* (satisficing, minimum viable quality, ship vs polish). **Belum masuk hitungan progress course.** Paling berguna dipelajari setelah Module 4 (standar berasal dari nilai) dan sebelum Module 6 capstone — urutan aktual ditentukan user saat approval.
+
+Description: Standar tinggi dan perfeksionisme sering dianggap satu hal, padahal riset memisahkan keduanya: *perfectionistic strivings* (standar personal tinggi) cenderung terkait hasil positif, sedangkan *perfectionistic concerns* (takut salah, kritik-diri keras) terkait distres. Modul ini melatih membedakan keduanya, lalu memakai kerangka keputusan (satisficing, "cukup baik" per konteks, biaya marginal poles) untuk menentukan kapan sebuah pekerjaan layak dirilis dan kapan layak dipoles.
+
+Lessons:
+
+* [ ] 9.1 Dua wajah perfeksionisme — *strivings* vs *concerns* (Stoeber & Otto, 2006; Hewitt & Flett, dimensi perfeksionisme) — kenapa "standar tinggi" tidak otomatis sehat maupun tidak sehat (cross-ref `courage-to-try` Module 3 untuk perfeksionisme sebagai penghambat mencoba, tidak diulang)
+* [ ] 9.2 Maximizer vs satisficer (Herbert Simon; Schwartz et al., 2002, JPSP) — kenapa mengejar "terbaik mutlak" menurunkan kepuasan dan kecepatan, dan kapan maximizing tetap layak (keputusan tinggi-taruhan, sulit dibalik)
+* [ ] 9.3 Standar berdasarkan konteks — mengklasifikasi pekerjaan (reversibel vs ireversibel, taruhan rendah vs tinggi) untuk menentukan tingkat kualitas yang pantas; hukum pengembalian menurun sebagai prinsip ekonomi umum (bukan angka "80/20" dogmatis)
+* [ ] 9.4 Rilis, umpan balik, iterasi — memakai umpan balik nyata sebagai pengganti poles tanpa akhir, plus kriteria "selesai" tertulis sebelum mulai (cross-ref `courage-to-try` Module 9 untuk implementation intentions)
+
+Mini Project: Definition-of-Done Audit — pilih 3 pekerjaan nyata minggu ini (kerja/belajar/personal), tuliskan kriteria "cukup baik" SEBELUM mulai, catat berapa lama biasanya memoles setelah kriteria terpenuhi, dan evaluasi apakah poles tambahan mengubah hasil.
+
+Referensi riset: lihat sumber 21-23 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 10 — Kesabaran Strategis: Menahan Diri demi Hasil Jangka Panjang (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-09-25, bagian sama dengan Module 9. Grep lintas `courses/` untuk "strategic patience" menghasilkan nol hit; compounding hanya dibahas di konteks uang (`personal-finance`) dan delayed gratification di sana juga — modul ini mengangkatnya ke mindset umum tanpa mengulang materi finansial. **Belum masuk hitungan progress course.** Paling berguna setelah Module 4 dan sebelum Module 6 capstone.
+
+Description: Kesabaran yang dimaksud bukan menunggu pasif. Modul ini memisahkan tiga hal yang sering tercampur: menunda kepuasan (self-control), bertahan pada tujuan jangka panjang (grit), dan menoleransi proses/frustrasi tanpa marah (patience sebagai karakter). Lalu dipakai ke keputusan strategis: kapan bertahan, kapan menyesuaikan strategi, dan kenapa efek kecil yang konsisten terakumulasi sementara hasilnya belum terlihat.
+
+Lessons:
+
+* [ ] 10.1 Temporal discounting dan present bias (Frederick, Loewenstein & O'Donoghue, 2002; Laibson, 1997) — kenapa otak melebih-lebihkan imbalan dekat, dan cara mendesain lingkungan agar pilihan jangka panjang lebih mudah (cross-ref `personal-finance` untuk delayed gratification di konteks uang)
+* [ ] 10.2 Patience sebagai kekuatan karakter (Schnitker & Emmons, 2007; Schnitker, 2012) — tiga tipe kesabaran (menghadapi kesulitan hidup, frustrasi harian, menunggu interpersonal) dan kaitannya dengan kesejahteraan
+* [ ] 10.3 Grit dan batasnya (Duckworth et al., 2007) — konsistensi minat dan ketekunan usaha, dibaca kritis: kapan bertahan adalah kebajikan dan kapan itu sunk-cost (cross-ref `character-development` Module 3)
+* [ ] 10.4 Kesabaran strategis vs pasif — memakai kerangka keputusan (indikator kemajuan, tanggal tinjau, kriteria ganti arah) dan memahami waktu pembentukan kebiasaan yang bervariasi (Lally et al., 2010) tanpa mengklaim angka ajaib "21 hari"
+
+Mini Project: Long-Game Ledger — pilih 1 tujuan jangka panjang (6-12 bulan), tuliskan indikator kemajuan mingguan yang bisa diukur, tanggal tinjau tiap bulan, dan kriteria eksplisit kapan akan bertahan vs mengganti strategi. Jalankan 4 minggu, catat momen godaan jalan pintas dan apa yang dipilih.
+
+Referensi riset: lihat sumber 24-28 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Module 11 — Ambisi, Disiplin, Kemandirian: Batas Sehat vs Tidak Sehat (Proposed Extension — menunggu approval, belum termasuk hitungan "Module Completion" di bawah)
+
+**Catatan asal modul ini**: Ditambahkan 2026-09-25, versi ringkas (*lite*) dari modul "Elite vs Superiority" pada outline asal. Confidence vs ego sudah tercakup `character-development`/`lowering-the-ego` dan tidak dimasukkan. Yang belum ada: tiga pasangan berikut. **Belum masuk hitungan progress course.** Paling berguna setelah Module 5 dan sebelum Module 6 capstone. Sejalan dengan house rule domain: "bernilai tinggi" tidak pernah berarti merendahkan orang lain.
+
+Description: Ambisi, disiplin, dan kemandirian adalah kekuatan yang bisa berubah menjadi masalah bila tidak dikalibrasi. Modul ini memakai riset untuk membedakan versi sehat dan tidak sehat pada tiga pasangan: ambisi vs keserakahan, disiplin vs obsesi, dan kemandirian vs isolasi — plus tanda peringatan dini dan kapan perlu bicara dengan profesional.
+
+Lessons:
+
+* [ ] 11.1 Tujuan intrinsik vs ekstrinsik (Kasser & Ryan, 1993) — ambisi yang berpusat pada pertumbuhan, hubungan, kontribusi vs pada kekayaan/citra/status semata, dan dampaknya pada kesejahteraan
+* [ ] 11.2 Passion harmonis vs obsesif (Vallerand et al., 2003) — kapan disiplin tinggi tetap fleksibel dan kapan berubah jadi dorongan kompulsif yang merusak hubungan, kesehatan, dan tidur (cross-ref Module 2 untuk fondasi fisik)
+* [ ] 11.3 Kemandirian vs isolasi — otonomi (Self-Determination Theory, Deci & Ryan; Chirkov et al., 2003) tidak sama dengan menolak bantuan; dampak isolasi sosial pada kesehatan (Holt-Lunstad et al., 2010) dan kaitannya dengan restrictive emotionality (cross-ref Module 5.1)
+* [ ] 11.4 Kalibrasi diri — checklist tanda peringatan dini per pasangan, dan kapan eskalasi ke psikolog/dokter berlisensi (sesuai "Domain-Specific Standards")
+
+Mini Project: Balance Audit — untuk masing-masing dari tiga pasangan, tulis 2 tanda perilaku yang menunjukkan sisi sehat dan 2 yang menunjukkan sisi tidak sehat, isi dengan contoh nyata dari 2 minggu terakhir, lalu tentukan satu penyesuaian kecil per pasangan.
+
+Referensi riset: lihat sumber 29-32 di `domains/masculine-development/DOMAIN.md` bagian "Trusted Sources / Research Priority".
+
+Status: Draft — menunggu approval, belum dimulai
+
+---
+
+## Catatan Scope Tambahan (2026-09-25 — hasil audit overlap outline "Elite Mindset")
+
+Outline asal berisi 18 modul, plus tantangan 30 hari dan proyek "My Elite Code". User memilih audit overlap dulu tanpa membuat course baru, lalu meminta hasil gap ditambahkan ke course ini saja. Modul 9-11 di atas menutup tiga gap asli (perfeksionisme/standar tinggi, kesabaran strategis, ambisi-disiplin-kemandirian sehat). Sisanya sudah tercakup course lain dan sengaja tidak diduplikasi.
+
+Batasan audit: berbasis judul modul dan grep kata kunci di `courses/*/roadmap.md`, bukan pembacaan isi tiap lesson. Gap yang tercatat sudah dicek lewat grep lintas course, tapi belum diverifikasi dengan membaca isi lesson course terkait.
+
+Belum ditambahkan (ditandai untuk keputusan user nanti): "standar per area hidup" dari M2, rantai Skill → Value → Income → Assets → Freedom dari M15, dan pemilihan skill dengan leverage tertinggi dari M8. Ketiganya tercakup sebagian, jadi tidak dianggap gap penuh.
 
 ---
 

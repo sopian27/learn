@@ -74,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (prinsip overload, FITT-VP, kebutuhan protein, dll), **self-assessment baseline test** terstruktur (mis. push-up max test, squat depth test, plank hold, skrining mobility bahu/pinggul/hamstring dasar) di awal dan berkala sepanjang course, serta **form-check video review** terhadap kriteria progresi eksplisit per gerakan (checklist tingkat/step ala Convict Conditioning) sebagai bentuk assessment applied, bukan cuma kuis teori.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: sains olahraga akademik (NSCA/ACSM — prinsip terkontrol dan berbasis riset) vs sistem progresi calisthenics battle-tested (Paul Wade/Al Kavadlo — teruji dari pengalaman ekstrem dunia nyata) vs movement education berbasis skill (GMB Fitness — integrasi strength+mobility+skill, bukan cuma reps) vs fisioterapi klinis (Kelly Starrett, DPT — mobility & injury prevention dari latar belakang medis nyata) vs strength-without-load ala militer/Soviet (StrongFirst/Pavel Tsatsouline — prinsip tension untuk kekuatan maksimal tanpa beban). Kontraskan eksplisit dengan konten influencer fitness media sosial yang menjual hasil instan ("six-pack 30 hari") tanpa dasar progresi aman atau kredensial — ditandai domain ini sebagai sumber yang ditolak, bukan model yang ditiru.

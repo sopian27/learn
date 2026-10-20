@@ -23,6 +23,20 @@ Every lesson, in any domain, follows this order:
 
 ---
 
+# Reasoned-Choice Exercises
+
+For every domain except `software-engineering`, step 6 (Exercises) and the concept-check part of step 9 (Assessment) use the Reasoned-Choice format (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`):
+
+- Scenario question with options A/B/C plus D = "Others" (learner writes their own answer).
+- A one-sentence reason is mandatory for EVERY choice, not only "Others".
+- Mentor feedback judges the reasoning, not just the letter. If D was chosen, say whether it beats A/B/C.
+- Questions are scenario/trade-off based, not fact recall; distractors are plausible.
+- Real-world behavioral assessment a domain already defines (conversation log, self-assessment inventory, practice log) stays as is; this format replaces only the quiz/concept-check/case-study part.
+
+**Mini Project form**: default is a real-practice artifact as the domain's Applied Practice Definition describes. Only a domain whose `DOMAIN.md` declares `Domain Type: knowledge` (right under `## Domain Name`) may use an essay as its Mini Project.
+
+---
+
 # Hands-on First
 
 Theory is at most 20% of any lesson. Applied Practice is at least 80%. Never let a lesson stay purely theoretical — always produce or attempt something concrete, in whatever medium the domain uses.

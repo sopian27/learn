@@ -68,6 +68,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz singkat setelah bagian teori tiap lesson (mengenali teknik propaganda/retorika dan membedakan klaim fakta vs klaim nilai dalam kutipan nyata), drill SIFT ("diberi satu klaim viral, jalankan 4 langkah SIFT"), drill Moral Foundations ("diberi satu pernyataan politik, identifikasi foundation mana yang ditekankan"), dan self-audit memakai lima kriteria Review Style di atas sebelum Brief disubmit untuk direview.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan empat lensa berbeda untuk menganalisis klaim/isu yang sama:

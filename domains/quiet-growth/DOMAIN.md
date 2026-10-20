@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment locus-of-evaluation inventory (terinspirasi kerangka Rogers, versi ringkas), dan evaluasi skenario studi kasus (situasi mengumumkan niat vs merahasiakan, situasi privasi yang mengarah isolasi vs sehat, learner mengidentifikasi respons ideal berdasarkan sumber-sumber domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Carl Rogers (psikologi humanistik klasik — locus of evaluation) vs Deci & Ryan (psikologi motivasi kontemporer — Self-Determination Theory) vs Wicklund & Gollwitzer/Gollwitzer dkk. (psikologi sosial eksperimental — symbolic self-completion & goal disclosure) vs Ericsson (psikologi kognitif/expertise — deliberate practice) vs Csikszentmihalyi (psikologi positif — flow) vs James Clear (praktisi — systems vs goals) — dikontraskan eksplisit dengan budaya "performative growth"/personal branding (cross-ref `career-reinvention`, `tech-builder-mindset`) yang domain ini bukan menolaknya secara umum, tapi membedakan kapan visibilitas itu perlu (karier, portofolio profesional) vs kapan justru merusak follow-through pertumbuhan personal.

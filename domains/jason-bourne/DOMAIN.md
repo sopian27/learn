@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Jason Bourne — Spycraft & Survival Mindset
 
 ## Scope
@@ -66,6 +68,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz singkat setelah bagian teori tiap lesson (mengenali kondisi Cooper's Color Code dari skenario, membedakan tahap OODA Loop, mengenali baseline/anomaly dari deskripsi situasi), drill "spot the anomaly" (diberi deskripsi/gambar situasi, identifikasi apa yang janggal), recall test singkat setelah latihan observasi, dan self-audit memakai kriteria Review Style di atas sebelum submit Field Journal/Realism Audit.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Black Hole (Fisika Lubang Hitam) — dari geometri Schwarzschild & Kerr sampai termodinamika black hole, radiasi Hawking, information paradox, astrofisika akresi, bukti observasional (EHT, LIGO), dan black hole cosmology.
 
 ## Scope
@@ -80,6 +82,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (skenario "apa yang terjadi pada observer yang jatuh ke black hole vs observer jauh" untuk menguji pemahaman struktur kausal, bukan hafalan rumus), problem set numerik terarah gaya MIT OCW 8.962 dengan kunci jawaban untuk self-check, sesi Socratic derivation (learner diminta menurunkan satu langkah kunci — mis. kenapa ISCO ada di r=6M untuk Schwarzschild — sebelum diberi tahu jawabannya, sesuai `# Challenge` di `CLAUDE.md` root), dan review studi kasus tertulis untuk modul observasional (dicek terhadap sumber primer EHT/LIGO yang dirujuk).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

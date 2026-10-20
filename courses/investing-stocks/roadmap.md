@@ -81,7 +81,7 @@ Lessons:
 
 * [ ] 4.1 Cash flow statement: operating/investing/financing — kenapa "profit besar" bisa menipu tanpa cash flow operasional sehat
 * [ ] 4.2 Rasio likuiditas & leverage (current ratio, debt-to-equity) — mengenali risiko struktur modal
-* [ ] 4.3 Rasio profitabilitas & efisiensi (ROE, ROA, net margin, asset turnover)
+* [ ] 4.3 Rasio profitabilitas & efisiensi (ROE, ROA, ROIC, net margin, asset turnover) plus free cash flow (operating cash flow dikurangi capex) — "apakah laba benar-benar jadi cash?" (ditambahkan 2026-09-25 dari draft "Rencanakan Uangmu"; ROIC & FCF sebelumnya belum eksplisit)
 * [ ] 4.4 Merangkai seluruh rasio jadi satu financial health snapshot untuk 1 emiten pilihan sendiri
 
 Mini Project: Financial health snapshot 1 halaman (rasio + interpretasi) untuk 1 emiten IDX pilihan learner, berbasis laporan keuangan riil dari Module 3-4.
@@ -128,7 +128,7 @@ Description: Melengkapi DCF dengan cara valuasi yang lebih cepat dan lazim dipak
 
 Lessons:
 
-* [ ] 7.1 P/E, P/B, EV/EBITDA — cara pakai yang benar dan jebakan umum (mis. P/E rendah karena earnings tidak berkelanjutan)
+* [ ] 7.1 P/E, P/B, EV/EBITDA, dividend yield, FCF yield — cara pakai yang benar dan jebakan umum (mis. P/E rendah karena earnings tidak berkelanjutan; selalu tanya "mengapa murah?" sebelum menyimpulkan undervalued; dividend yield & FCF yield ditambahkan 2026-09-25 dari draft "Rencanakan Uangmu")
 * [ ] 7.2 PEG ratio — menyesuaikan multiple dengan pertumbuhan untuk saham growth
 * [ ] 7.3 Comparables: membandingkan multiple antar-perusahaan sejenis, termasuk kekhususan sektor IDX (bank lazim pakai P/B, komoditas lazim pakai EV/EBITDA)
 * [ ] 7.4 Menggabungkan hasil DCF (Module 6) + relative valuation jadi satu kesimpulan valuasi yang koheren
@@ -160,7 +160,7 @@ Description: Alat analisis terbaik tidak berguna bila dikalahkan bias sendiri sa
 
 Lessons:
 
-* [ ] 9.1 Bias kognitif umum dalam investasi: loss aversion, confirmation bias, herd behavior, recency bias
+* [ ] 9.1 Bias kognitif umum dalam investasi: loss aversion, confirmation bias, herd behavior, recency bias, overconfidence, plus perilaku panic selling & FOMO buying (overconfidence/panic selling/FOMO ditambahkan 2026-09-25 dari draft "Rencanakan Uangmu")
 * [ ] 9.2 Siklus pasar ala Howard Marks — greed & fear, kenapa "this time is different" jarang benar
 * [ ] 9.3 Menghadapi drawdown nyata — membedakan "thesis salah" (harus jual) vs "market panic sementara" (harus tahan)
 * [ ] 9.4 Membangun aturan investasi pribadi (personal investment policy) untuk mencegah keputusan impulsif saat volatilitas tinggi

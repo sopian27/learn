@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Skenario evaluasi (mis. "diundang ke acara yang venue-nya tidak jelas levelnya", "melihat teman membeli barang bermerek besar-besaran", "punya budget terbatas untuk satu momen penting") — learner menentukan keputusan/reaksi dan menjelaskan alasan berbasis kerangka Module 1-4, bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Domain-Specific Standards
 
 `domains/quiet-luxury/standards/` belum ada file terpisah, house rule eksplisit:

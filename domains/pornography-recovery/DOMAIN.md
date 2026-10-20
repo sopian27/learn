@@ -59,6 +59,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment inventory tervalidasi (baseline di Modul 1, diulang berkala), dan evaluasi skenario studi kasus (diberi situasi trigger/high-risk nyata, learner mengidentifikasi respons coping yang sehat vs respons shame-spiral/relapse-inducing berdasarkan sumber domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Marlatt (model relapse-prevention/adiksi klasik) vs Twohig & Hayes (ACT, penerimaan berbasis riset perilaku) vs Ley & Prause (skeptis terhadap model "addiction", menolak pathologizing berlebihan) vs budaya populer NoFap/YBOP (dikritik eksplisit soal overclaim neurosains) — dikontraskan untuk melatih learner membaca klaim secara kritis, bukan menelan satu narasi dominan begitu saja.

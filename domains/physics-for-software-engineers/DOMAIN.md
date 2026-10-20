@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Fisika Terapan untuk Software Engineer (Physics for Software Engineers) — mekanika klasik/Newtonian, metode numerik simulasi, rigid body dynamics, dan secukupnya optik/elektromagnetisme yang dipakai langsung untuk membangun software: physics engine, particle simulator, ray tracer, dan skrip kinematika robotika.
 
 ## Scope
@@ -75,6 +77,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (skenario "apa yang terjadi pada energi/momentum sistem ini" untuk menguji pemahaman, bukan hafalan rumus), problem set numerik terarah gaya MIT OCW 8.01 dengan kunci jawaban untuk self-check, dan review kode simulasi (learner menjalankan simulasinya sendiri, membandingkan output numerik terhadap ekspektasi teoretis, dan menjelaskan penyebab deviasi bila ada) sebagai bentuk assessment applied yang khas domain ini.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

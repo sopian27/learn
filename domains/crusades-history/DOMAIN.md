@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Crusades History (Sejarah Perang Salib — dari Dunia Sebelum 1095 sampai Warisannya di Era Modern)
 
 ## Scope
@@ -73,6 +75,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat (kronologi kampanye utama, membedakan Crusader States dari kerajaan Eropa biasa, mengenali penulis kronik kunci per tradisi), drill "identify the chronicle bias" (diberi satu narasi peristiwa dari sudut pandang satu tradisi kronik, learner mengidentifikasi kemungkinan bias/framing dan memprediksi bagaimana tradisi lain mungkin menceritakannya berbeda), dan self-audit memakai empat kriteria Review Style di atas sebelum Tri-Chronicle Dossier disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

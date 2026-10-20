@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Quantum Computing untuk Software Engineer (Quantum Computing for Engineers) — kuantum sebagai model komputasi baru: qubit, superposisi, entanglement, gerbang kuantum, sirkuit kuantum, algoritma kuantum (Deutsch-Jozsa, Grover, Shor), dan implementasi nyata lewat Qiskit (dan sekilas Cirq) di simulator maupun hardware kuantum sungguhan.
 
 ## Scope
@@ -64,6 +66,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Problem set matematis terarah (hitung tangan state vector setelah serangkaian gerbang, lalu verifikasi lewat kode — gaya Nielsen & Chuang end-of-chapter exercises), quiz konseptual algoritma (mis. "kenapa Grover butuh ~π√N/4 iterasi, bukan kurang/lebih"), dan review kode sirkuit (learner menjalankan sirkuitnya sendiri, membandingkan distribusi hasil measurement terhadap prediksi teori, menjelaskan penyebab deviasi bila ada — terutama saat sudah menyentuh hardware nyata).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

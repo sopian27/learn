@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Biologi untuk Software Engineer (Biology for Software Engineers) — biologi sel & molekuler, genetika, evolusi, sistem tubuh manusia, neuroscience, ekologi, dan bioinformatika/AI-in-biology, dijembatani eksplisit ke software engineering lewat analogi arsitektur DAN latihan bioinformatika ringan berbasis Python.
 
 ## Scope
@@ -72,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (skenario "apa yang terjadi jika mekanisme X gagal" untuk menguji pemahaman mekanisme, bukan hafalan istilah), kuis genetika/evolusi bergaya Khan Academy dengan kunci jawaban untuk self-check, dan review artefak (baik dokumen analogi maupun kode bioinformatika — learner mempresentasikan analogi/kode-nya dan menjelaskan alasan desainnya) sebagai bentuk assessment applied yang khas domain ini.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

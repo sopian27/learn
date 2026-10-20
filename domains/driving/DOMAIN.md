@@ -54,6 +54,8 @@ Setiap beberapa modul, review secara eksplisit merekomendasikan sesi bersama ins
 
 Quiz rambu-rambu & aturan lalu lintas (meniru format ujian teori AVIS Korlantas) setelah bagian teori tiap lesson, ditambah pertanyaan skenario hazard perception ("apa yang kamu lakukan jika...") ala ujian defensive driving, plus self-reported skill checklist berkala untuk melacak kesiapan menuju tahap berikutnya (siap ujian teori → siap ujian praktik → siap jalan raya → siap kondisi lanjut → siap car-control lanjut).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan tiga bar berbeda untuk masalah mengemudi yang sama: **standar minimum legal Korlantas/Satpas** (cukup untuk lulus SIM A dan sah mengemudi), **advanced/defensive driver ala IAM RoadSmart** (police-system car control, framework IPSGA, membaca bahaya lebih awal — dianggap gold standard sipil di UK), dan **performance/car-control expert ala Skip Barber/Bob Bondurant** (kontrol mobil di batas traksi: pengereman darurat, pemulihan skid, racing line). Tiga tingkat kompetensi yang jelas berbeda untuk skill dasar yang sama — membantu learner tahu di tahap mana dia berada dan apa artinya "expert" di ujung roadmap course ini.

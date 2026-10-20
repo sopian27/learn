@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 String Theory untuk Software Engineer (String Theory for Software Engineers) — quantum mechanics dasar, general relativity secukupnya (sebagai jembatan, bukan pengulangan), dinamika string relativistik, kuantisasi, extra dimensions, compactification (Calabi-Yau), D-branes, dualitas (T-duality, S-duality, mirror symmetry), dan matematika pendukungnya (geometri diferensial, complex manifold, teori grup) — semuanya dijembatani ke kode: simulasi & visualisasi yang bisa dijalankan dan diperiksa.
 
 ## Scope
@@ -76,6 +78,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (skenario "apa yang terjadi pada spektrum massa kalau radius compactification diperbesar/diperkecil" untuk menguji pemahaman, bukan hafalan rumus), problem set numerik terarah gaya MIT 8.251 dengan kunci jawaban untuk self-check, sesi Socratic derivation (learner diminta menurunkan satu langkah kunci — mis. syarat mass-shell — sebelum diberi tahu jawabannya, sesuai `# Challenge` di `CLAUDE.md` root), dan review kode simulasi (learner menjalankan sendiri, membandingkan output numerik ke solusi analitik, menjelaskan deviasi bila ada).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

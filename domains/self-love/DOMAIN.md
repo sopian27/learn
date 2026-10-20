@@ -52,6 +52,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment inventory (Self-Compassion Scale versi ringkas dari Neff), dan evaluasi skenario studi kasus (diberi situasi orang mengalami kegagalan/kritik/inner-critic yang menyerang, learner mengidentifikasi respons self-compassionate yang sehat vs respons toxic-positivity atau self-indulgent berdasarkan sumber domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Kristin Neff/Christopher Germer (riset & program klinis self-compassion) vs Steven Hayes/ACT (penerimaan berbasis riset perilaku) vs CBT klasik (Beck/Burns — restrukturisasi kognitif) vs Brené Brown (riset kualitatif shame/vulnerability, gaya populer) vs Tara Brach (praktisi klinis, pendekatan mindfulness) — dikontraskan eksplisit dengan pop-culture "self-love" yang ditolak domain ini: afirmasi tanpa struktur, toxic positivity (menyangkal kesulitan nyata), dan konten "main character energy" yang condong ke entitlement/narsisme.

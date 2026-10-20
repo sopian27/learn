@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (mekanisme network, hukum disclosure, prinsip SEO dasar), self-review terstruktur dari data funnel nyata (klik, CTR, EPC) begitu ada traffic, dan **"red flag audit"** berkala: diberi contoh pitch/course/skema afiliasi sungguhan, learner diminta mengidentifikasi tanda skema hasil-instan atau MLM terselubung berdasarkan house rules di bawah — penting karena ruang ini padat scam.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: pendekatan SEO/white-hat jangka panjang (Authority Hacker — niche site dibangun sebagai aset, butuh waktu tapi risiko modal rendah) vs pendekatan audience-first/transparan (Pat Flynn — bangun kepercayaan dulu, promosikan yang benar-benar dipakai/diyakini) vs publisher afiliasi skala enterprise (NerdWallet/Wirecutter — standar editorial tinggi, tim riset besar, skala jauh di atas individu tapi prinsipnya sama) vs jalur paid-traffic/arbitrage (modal besar, hasil lebih cepat tapi risiko rugi nyata dan lebih rentan kena kebijakan platform). Kontraskan eksplisit dengan "guru" yang jualan kursus cara jadi kaya dari affiliate marketing tanpa bukti hasil nyata dari affiliate marketing itu sendiri — ditandai sebagai red flag klasik di industri ini, bukan model yang ditiru.

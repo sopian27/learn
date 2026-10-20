@@ -60,6 +60,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (jenis kulit, keluarga fragrance, bentuk tubuh/wajah, dsb.), self-assessment inventory (kuis jenis kulit ala AAD, identifikasi bentuk wajah & bentuk tubuh sendiri, analisis warna dasar), review praktis terhadap artefak yang diterapkan (checklist "apakah potongan rambut ini cocok bentuk wajah", "apakah konsentrasi & musim fragrance ini tepat"), dan evaluasi skenario menjelang Capstone (diberi situasi penampilan nyata — wawancara kerja, kencan, acara formal — learner merancang look yang sesuai dan menjelaskan alasannya).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: dermatolog bersertifikasi (AAD — berbasis riset klinis) vs image consultant bersertifikasi (AICI — kerangka ABCs of Image holistik) vs barber terlatih (kurikulum Milady — teknis potongan & tekstur rambut) vs kritikus/ilmuwan parfum (Luca Turin — sains penciuman + kritik independen) vs tailor/stylist tradisi klasik (Alan Flusser — proporsi & permanent fashion) vs praktisi konten gaya hidup (Antonio Centeno — praktikal tapi harus disilangkan). Dikontraskan eksplisit dengan komunitas **looksmaxxing/red-pill** yang menjual obsesi rasio wajah, prosedur berbahaya ("bone smashing"), atau penampilan sebagai alat dominasi/manipulasi — ditolak total sebagai model yang ditiru domain ini.

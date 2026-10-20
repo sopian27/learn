@@ -44,6 +44,8 @@ Selain Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sco
 
 Pertanyaan recall singkat setelah sesi baca (isi buku, argumen inti, bagian yang paling menantang), audit reading log (deteksi streak yang tidak masuk akal), dan self-assessment memakai empat kriteria Review Style sebelum submit Mini/Intermediate/Capstone Project.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan pembaca sistematis (Ryan Holiday dengan commonplace book, Bill Gates dengan ringkasan blog tiap buku, Warren Buffett yang disebut menghabiskan ~80% waktu kerjanya membaca) dengan pembaca kasual yang membaca tanpa sistem (mulai banyak buku, jarang selesai, tidak ada catatan, tidak ingat isi buku sebulan kemudian) — untuk menunjukkan bahwa hasil beda bukan karena "lebih pintar", tapi karena sistem membaca yang disengaja.

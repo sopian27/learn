@@ -57,6 +57,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Kuis konsep singkat (identifikasi role/counter/timing objective dari deskripsi situasi), drill "baca situasi" pada satu momen match tertentu (apa keputusan macro paling tepat dari state map yang diberikan — gold, timer objective, posisi musuh), latihan draft dengan batas waktu (memakai draft simulator atau papan draft manual), dan review replay terukur (self-audit memakai lensa Review Style di atas sebelum diajukan review), plus tracking hasil kuantitatif (win rate, rank progression, MMR/star trend) sebagai bukti progres nyata, bukan cuma perasaan "sudah jago".
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa perspektif untuk isu yang sama — "bagaimana pemain/tim kuat sungguhan membaca permainan":

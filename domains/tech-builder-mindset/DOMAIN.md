@@ -57,6 +57,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Uji "akan bertahan tidak pola ini kena benturan KONSTRAIN saya" (self-critique tertulis terhadap batasan nyata learner: waktu, modal, posisi, tim); kuis sintesis mencocokkan pola → praktisi → sumber primer; roleplay tertulis "staff engineer skeptis" yang menantang learner mempertahankan satu prinsip operasi yang diklaim diambil dari seorang praktisi, memaksa learner membedakan pemahaman dalam vs kutipan permukaan.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 **Case-study builders** (sumber pola konkret, dipelajari lewat sumber primer di atas):

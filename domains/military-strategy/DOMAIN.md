@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Military Strategy (Strategic Studies / Studi Strategi Militer)
 
 ## Scope
@@ -72,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (membedakan level of war dari skenario yang diberikan, mengenali prinsip perang mana yang berlaku pada suatu situasi), drill "identify the framework" (diberi ringkasan kampanye, tentukan kerangka teori mana yang paling relevan menjelaskannya dan kenapa), dan self-audit memakai lima kriteria Review Style di atas sebelum Strategic Case Analysis disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

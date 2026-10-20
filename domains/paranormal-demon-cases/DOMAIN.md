@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Studi Kasus Paranormal & Demonologi Terapan (Paranormal Case Studies) — dipelajari sebagai investigative journalism/psikologi anomalistik/media literacy, bukan sebagai kepercayaan yang dianut atau ditolak apriori.
 
 ## Scope
@@ -66,6 +68,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz singkat setelah bagian teori tiap lesson (mengenali mekanisme psikologis anomalistik dalam skenario yang diberikan, membedakan sumber primer berkepentingan dari sumber independen), drill "spot the evidentiary gap" pendek (diberi satu klaim kasus, identifikasi bukti apa yang hilang/tidak diverifikasi), dan self-audit memakai lima kriteria Review Style di atas sebelum Paranormal Case File disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

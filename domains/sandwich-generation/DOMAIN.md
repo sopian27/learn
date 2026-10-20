@@ -58,6 +58,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah evaluasi skenario studi kasus (diberi situasi keluarga sandwich anonim — konflik alokasi finansial, batas kabur, atau ketegangan pra-nikah — learner mengidentifikasi red flag dan merekomendasikan langkah berikutnya berbasis kerangka domain ini), serta self-audit terhadap empat kriteria Review Style di atas sebelum artefak diajukan review.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: pendekatan CFP/perencana keuangan bersertifikat (Miura, CFP Board — mekanika perencanaan finansial caregiver formal) vs lensa demografis-empiris (Pew Research, AARP/NAC — data skala besar, bukan preskripsi) vs lensa praktisi Indonesia (Ligwina Hananto/QM Financial — kontekstual lokal, tapi komersial) vs lensa psikologi akademik lintas budaya (Yeh & Bedford — filial piety sebagai konstruk terukur, bukan asumsi budaya) vs lensa boundaries terapis (Tawwab, cross-ref `relationships` — mekanika penetapan batas). Perbandingan ini secara eksplisit menghindari menjadikan satu budaya/tradisi sebagai "benar" — kerangka reciprocal vs authoritarian filial piety dipakai justru supaya learner bisa mengevaluasi situasinya sendiri tanpa dipaksa memilih antara "budaya Timur" dan "budaya Barat" secara stereotip.

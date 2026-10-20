@@ -62,6 +62,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment ringkas (adaptasi ringkas dari prinsip self-concordance untuk mengevaluasi keotentikan tujuan pribadi — dipakai sebagai alat refleksi, bukan instrumen diagnostik klinis), dan evaluasi skenario (diberi satu klaim manifestasi populer, learner memisahkan mekanisme psikologis nyata dari klaim metafisik yang belum terverifikasi, sesuai Mysticism vs Mechanism Check).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Gabriele Oettingen/Peter Gollwitzer (WOOP, ilmiah, NYU) vs Rhonda Byrne/*The Secret* dan komunitas Law of Attraction populer (mistis, klaim metafisik tak terverifikasi tapi teknik permukaannya — journaling, scripting, visualisasi — dipertahankan) vs Steven Hayes/ACT (psychological flexibility, klinis) vs positive psychology (Martin Seligman, Laura King) — dikontraskan eksplisit dengan pola yang ditolak domain ini: visualisasi murni tanpa rencana (Oettingen risk), "lepaskan kontrol" yang jadi pasrah pasif, dan klaim "alam semesta akan memberi" tanpa tindakan nyata.

@@ -60,6 +60,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment inventory (Satisfaction With Life Scale ringkas dari Diener, dan PANAS ringkas untuk affect — dipakai sebagai alat refleksi tren pribadi, bukan instrumen diagnostik klinis), dan evaluasi skenario (diberi situasi orang mengejar pencapaian/validasi/kesenangan sesaat, learner mengidentifikasi apakah itu hedonic murni, eudaimonic, atau kombinasi, dan menyusun alternatif berbasis kerangka domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Martin Seligman (pendiri positive psychology, model PERMA) vs Sonja Lyubomirsky (riset intervensi empiris RCT) vs Ed Diener (pengukuran SWB/life satisfaction) vs Daniel Kahneman (bias kognitif dalam menilai kebahagiaan, hedonic treadmill) vs Mihaly Csikszentmihalyi (flow/engagement) vs Viktor Frankl (meaning eksistensial, klinis) — dikontraskan eksplisit dengan pop-culture "chase your bliss"/manifestasi tanpa struktur, konten motivasi generik media sosial, dan hustle culture yang menyamakan kebahagiaan dengan pencapaian tanpa batas.

@@ -57,6 +57,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, skenario go/no-go (diberi kondisi cuaca/medan/kondisi tim tertentu, learner memutuskan lanjut/mundur dan menjelaskan alasan berbasis prinsip domain ini — bukan tebakan), dan self-assessment checklist kesiapan yang disilangkan ke kerangka kompetensi *Freedom of the Hills*/AMGA per level objektif.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: **guide bersertifikat IFMGA/AMGA** (standar kompetensi teknis penuh, terlatih puluhan hari praktik langsung) vs **instruktur wilderness leadership NOLS** (fokus keputusan kelompok & expedition behavior di ekspedisi panjang) vs **analis insiden AAC** (pembelajaran dari data kecelakaan nyata, bukan teori) vs **pendaki akhir pekan berpengalaman tanpa sertifikasi formal**. Kontraskan eksplisit dengan pola "confidently under-qualified" — pendaki yang percaya diri berlebih tanpa kompetensi/persiapan yang sepadan dengan objektifnya — ditandai sebagai pola yang harus dihindari, bukan ditiru, konsisten dengan tema berulang di laporan AAC *Accidents in North American Climbing*.

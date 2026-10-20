@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (termasuk soal logic/physics, bukan cuma ethics), analisis kutipan teks primer (diberi kutipan dari Meditations/Enchiridion/Letters, learner menjelaskan makna + konteks filosofisnya), dan evaluasi skenario ("bagaimana respons Stoic yang tepat atas situasi X" dibandingkan dengan respons "broicism" yang keliru).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: klasikus akademik (A.A. Long, John Sellars, Christopher Gill — akurasi historis/tekstual) vs sejarawan filsafat kuno (Pierre Hadot — praktik sebagai *way of life*) vs filsuf kontemporer gerakan Modern Stoicism (Massimo Pigliucci, William Irvine) vs psikoterapis yang menjembatani ke CBT (Donald Robertson) — dikontraskan eksplisit dengan popularisasi berlebihan ("broicism", motivational-quote Stoicism) yang ditandai domain ini sebagai penyederhanaan, bukan ditolak total (tetap dirujuk sebagai pintu masuk populer, tapi tidak jadi otoritas).

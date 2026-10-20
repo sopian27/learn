@@ -57,6 +57,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (mekanisme algoritma, struktur hook, teori editing), self-review terstruktur dari analitik konten sendiri yang sudah publish (retention graph, CTR, average view duration) memakai lima kriteria Review Style di atas, dan "content audit" berkala (mengikuti pendekatan berbasis data Derral Eves) yang membandingkan beberapa konten terakhir terhadap pola nyata, bukan sekadar perasaan.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: panduan resmi platform (YouTube Creator Academy/TikTok Academy — apa kata platform itu sendiri, paling aman & terkini soal kebijakan) vs teori craft editing klasik (Walter Murch — prinsip naratif editing yang timeless, independen dari algoritma platform manapun) vs pendekatan berbasis data (Derral Eves — apa yang benar-benar berkorelasi dengan pertumbuhan dari analitik channel sungguhan, bukan mitos soal algoritma) vs sistemizer creator-economy (Justin Welsh — sistem produksi solo-creator yang profesional, batching & repurposing). Kontraskan eksplisit dengan konten "cara cepat kaya dari YouTube faceless" ala guru instan yang menjanjikan hasil tanpa craft nyata — ditandai domain ini sebagai red flag, bukan model yang ditiru (lihat Domain-Specific Standards).

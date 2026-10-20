@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz retrieval-practice singkat atas materi course ini sendiri setelah tiap bagian teori (course ini sengaja mempraktikkan tekniknya sendiri ke materinya sendiri — meta-consistency), ditambah data skor retensi self-test before-after dari Applied Practice sebagai bukti assessment utama, dan evaluasi skenario: diberi 1 materi course lain nyata milik learner, learner merancang rencana retensi (kombinasi teknik) dan membela pilihannya berdasarkan evidence hierarchy Dunlosky.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan bagaimana cognitive psychology lab (Bjork Learning & Forgetting Lab UCLA, Roediger/Karpicke lab WashU) dan komunitas rekayasa spaced repetition open-source (SuperMemo, pengembang algoritma FSRS di Anki) mendekati "cara membuat ingatan bertahan lama", dibanding konten "hack belajar" media sosial yang sering menjual jalan pintas tanpa dasar riset (klaim speed-reading ekstrem, "unlock ingatan fotografis", learning styles VAK yang sudah dibantah riset — echo pola yang sama di `domains/learning-science/DOMAIN.md`).
