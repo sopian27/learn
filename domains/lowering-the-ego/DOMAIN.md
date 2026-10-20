@@ -50,6 +50,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Refleksi tertulis singkat per lesson ("apa yang paling menyentuh dan kenapa"), plus skenario evaluasi (mis. "rekan kerja mengkritik pekerjaanmu di depan tim" atau "temanmu baru saja naik jabatan/diterima kerja impian") — learner mengidentifikasi reaksi ego yang mungkin muncul dan memilih respons tawadhu berbasis dalil + psikologi yang sudah dipelajari, bukan quiz hafalan dalil semata.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Ulama tazkiyatun nafs** (Al-Ghazali — *Ihya' Ulumuddin* bab kibr dan tawadhu; Ibnu Qayyim, Ibnu Rajab) — kedalaman spiritual penyucian hati dari sombong.

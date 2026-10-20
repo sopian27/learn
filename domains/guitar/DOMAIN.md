@@ -50,6 +50,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz teori singkat setelah bagian teori tiap lesson (pengenalan interval/chord/tangga nada dari sumber musictheory.net), drill "baca chord chart cold" (diberi chord chart baru yang belum pernah dilihat, learner memainkan dengan waktu persiapan terbatas untuk melatih reading di bawah tekanan), dan log latihan mingguan yang mencatat progres BPM/metronome per skill sebagai self-evaluation kuantitatif selain rekaman performa di atas.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa berbeda untuk skill yang sama, relevan dengan kombinasi "instrumen klasik, repertoar pop/rock" milik learner:

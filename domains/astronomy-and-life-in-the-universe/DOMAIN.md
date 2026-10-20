@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Astronomy & Life in the Universe untuk Software Engineer (Astronomi Deskriptif + Astrobiologi/SETI/Fermi Paradox, dijembatani lewat simulasi & data science)
 
 ## Scope
@@ -74,6 +76,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah teori (termasuk uji klasifikasi epistemik terhadap klaim baru yang belum dibahas), problem set numerik terarah gaya MIT OCW dengan kunci jawaban untuk Modul A, dan review tertulis (learner mempertahankan kesimpulan Modul B-nya terhadap pertanyaan "bukti apa yang akan mengubah pendapatmu?" — kegagalan menjawab ini secara konkret dianggap belum menguasai modul).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -65,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Self-evaluation checklist terhadap syarat resmi tiap kampus/beasiswa target (bukan asumsi), mock interview (simulasi wawancara admisi/beasiswa termasuk simulasi LGD ala LPDP) dengan transkrip/rekaman yang direview memakai Review Style di atas, dan cross-check konsistensi antar dokumen (SOP vs CV vs Personal Statement beasiswa tidak boleh saling bertentangan).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: pemberi beasiswa pemerintah (LPDP — menilai komitmen kembali ke Indonesia sebagai kriteria eksplisit) vs beasiswa internasional lain (Fulbright/Chevening/Erasmus Mundus — kriteria & proses berbeda meski tujuan mirip) vs admission officer universitas (menilai fit akademik & riset, bukan kontribusi ke negara asal) vs education/admission consultant profesional (Shemmassian Academic Consulting dan sejenisnya — pendekatan sistematis berbasis data ratusan aplikasi) vs alumni penerima beasiswa/mahasiswa S2 sungguhan (pengalaman langsung, termasuk yang menjalani sambil bekerja). Kontraskan eksplisit dengan "jasa essay generik/template" yang menjual SOP seragam untuk semua pelamar — ditandai domain ini sebagai red flag, karena admission committee dan reviewer LPDP terlatih mengenali essay generik/template.

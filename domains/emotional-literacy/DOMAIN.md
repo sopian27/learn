@@ -78,6 +78,8 @@ Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) plu
 
 Pra-lesson: pertanyaan tebak-dulu ("kalau kamu ditanya emosi apa saat itu, apa jawabanmu sebelum baca materi?"). Pasca-lesson: (1) 3-5 pertanyaan pemahaman, (2) satu tugas "beda emosi vs interpretasi vs tindakan" pada kasus, (3) skenario keputusan ("sedang sangat marah pada rekan kerja lewat chat — apa langkah pertamamu dan kenapa?"). Kuis gaya interview di akhir course (pertanyaan refleksi + skenario).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Peneliti emosi (Barrett, Gross, Lieberman, Tangney, Bonanno) sebagai sumber bukti; praktisi klinis (CBT, DBT, ACT — Beck, Linehan, Hayes) sebagai kerangka teknik; penulis populer (Tristanti W. dalam bahasa Indonesia; Goleman, Brown, Brach) sebagai bacaan pembanding Tier **B/C**. Untuk kritik: tidak semua emosi bisa "dikelola" sendiri (trauma, gangguan suasana hati), budaya yang berbeda memaknai ekspresi emosi berbeda, dan "kenali emosimu" bisa berubah jadi self-surveillance berlebihan (Module 15 menyentuh ini).

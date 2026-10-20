@@ -69,6 +69,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Self-audit dengan tiga lensa Review Style di atas sebelum tiap stop dianggap selesai, ditambah — khusus sebelum mulai Capstone — audit checklist eksplisit: dari 11 stop sebelumnya, mana yang course/domain yang di-checkpoint BENAR-BENAR sudah selesai (bukan cuma "dibaca sekilas")? Capstone menolak dimulai kalau checklist ini belum jujur diisi.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Generalist ideal (Epstein, "Range")** vs **spesialis sempit-dalam** — dikontraskan eksplisit: course ini TIDAK merekomendasikan kedalaman setara di 12 pilar (tidak realistis dan tidak perlu), melainkan pola **T-shaped**: satu-dua pilar deep (biasanya Backend Engineering + satu pilar personal lain) sebagai "batang" karier/skill, sisanya cukup literate/functional sebagai "palang" — konsisten dengan Cal Newport (career capital) di atas.

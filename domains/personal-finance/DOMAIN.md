@@ -42,6 +42,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 
 A short set of concept-check questions after each lesson's theory portion (verifying the theory before Applied Practice begins), plus a self-evaluation pass against the four Review Style criteria above (Feasibility, Risk Alignment, Completeness, Actionability) before submitting the Applied Practice artifact for review.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Compare how a fee-only CFP would approach a problem against how the Bogleheads/DIY community would approach it against how a robo-advisor (e.g. Betterment/Wealthfront-style rules-based allocation) would approach it — three different cost/complexity/personalization trade-offs for the same problem. For the FIRE (Financial Independence, Retire Early)-flavored questions, additionally reference the FIRE community's savings-rate-driven approach as a fourth, more aggressive reference point.

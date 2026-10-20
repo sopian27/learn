@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Budaya Nusantara — Memahami Kekayaan Indonesia dari Akar hingga Modernitas (antropologi budaya dan sosial Indonesia, dibaca lewat geografi, perdagangan, agama, dan perubahan modern)
 
 ## Scope
@@ -96,6 +98,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Studi kasus tertulis dengan delapan mata rantai dan label bukti; soal "mana yang terdokumentasi dan mana yang generalisasi"; membandingkan dua penjelasan atas satu praktik (mis. asal-usul batik, asal sebuah makanan); Stereotype Audit; membaca satu potongan etnografi klasik bersama kritiknya; refleksi tertulis tentang satu nilai budaya sendiri (apa yang diambil, apa yang dikritik). Bukan quiz hafalan nama suku, rumah adat, atau tarian.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

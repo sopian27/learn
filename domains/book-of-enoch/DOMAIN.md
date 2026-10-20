@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Book of Enoch (Kitab Henokh — terutama 1 Enoch/Ethiopic Enoch, dengan singgungan terpisah ke 2 Enoch & 3 Enoch)
 
 ## Scope
@@ -53,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (mengurutkan lima bagian 1 Enoch & era dugaannya, membedakan witness manuskrip), drill "spot the source" (diberi satu klaim tentang Enoch, learner mengidentifikasi apakah didukung fragmen Aram Qumran, hanya ada di Ge'ez Etiopia, atau klaim pseudohistori populer tanpa dasar tekstual), dan self-audit memakai empat kriteria Review Style di atas sebelum Text Analysis File disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

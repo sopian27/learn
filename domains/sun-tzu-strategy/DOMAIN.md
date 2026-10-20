@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Sun Tzu Strategy — The Power of Sun Tzu: Prinsip, Taktik & Strategi Menjadi Pemenang (Sunzi *Bingfa* dibaca dari teksnya, lalu diterapkan ke karier, bisnis, negosiasi, dan keputusan sehari-hari)
 
 ## Scope
@@ -100,6 +102,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Studi kasus tertulis dengan Strategic Situation Brief, Ledger Kutipan, soal "mana yang ada di teks dan mana kerangka modern", perbandingan dua terjemahan untuk satu kalimat, latihan Fact/Assumption/Interpretation/Unknown, Consequence Tree, Plan A/B/C, dan refleksi tertulis singkat. Final Test 10 pertanyaan outline dipertahankan sebagai penjelasan tertulis, bukan pilihan ganda. Bukan quiz hafalan kutipan atau nama bab.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

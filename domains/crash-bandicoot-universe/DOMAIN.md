@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Crash Bandicoot Universe (Lore, Timeline, Karakter, Multiverse, dan Desain Game Franchise *Crash Bandicoot*)
 
 ## Scope
@@ -57,6 +59,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Final Test 15 pertanyaan (dari outline user), drill timeline (urutkan peristiwa), quiz identifikasi (karakter/topeng/lokasi), dan latihan "confirmed vs interpretation" (diberi klaim, pelajar memberi label dan bukti).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

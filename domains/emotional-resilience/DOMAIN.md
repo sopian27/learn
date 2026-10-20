@@ -76,6 +76,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment inventory (adaptasi ringkas dari konsep Rejection Sensitivity Questionnaire milik Downey dan daftar distorsi kognitif Burns — dipakai sebagai alat refleksi, bukan instrumen diagnostik klinis), dan evaluasi skenario (diberi skenario kritik tajam/penolakan/kejadian sulit nyata, learner mengidentifikasi distorsi kognitif yang berpotensi muncul dan menyusun respons berbasis kerangka domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Beck Institute for Cognitive Behavior Therapy & Linehan Institute (DBT) — praktik klinis berbasis bukti — vs Albert Ellis/REBT (langsung, konfrontatif terhadap irrational belief) vs pendekatan Stoic klasik (dichotomy of control, kerangka filosofis) — dikontraskan eksplisit dengan pola toxic yang ditolak domain ini: "jangan baper" tanpa proses batin (toxic detachment), menekan emosi lalu meledak (suppression a la Gross), dan people-pleasing yang disamarkan sebagai "sabar"/"berlapang dada".

@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (identifikasi prinsip resiprositas di balik suatu norma, mengenali kapan suatu permintaan dianggap "merepotkan" vs wajar), skenario judgment (diberi situasi sosial ambigu — teman lupa bayar utang kecil, diminta pinjam barang mahal, obrolan mengarah ke topik sensitif di kantor — learner menentukan respons dan menjelaskan alasan), review praktis terhadap log/artefak nyata (apakah sinyal tak tertulis terbaca dengan tepat, apakah respons proporsional), dan evaluasi skenario menjelang Capstone (rangkaian situasi sosial lintas konteks yang harus dinavigasi berurutan, learner menjelaskan keputusan di tiap langkah).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: otoritas etiket praktis (Emily Post Institute, Miss Manners — panduan langsung "apa yang harus dilakukan") vs sains persuasi/perilaku (Cialdini — kenapa norma ini punya daya ikat psikologis) vs sosiologi interaksi (Goffman — kerangka analitis untuk membaca situasi sosial apa pun, termasuk yang belum ada panduannya) vs sumber institusional modern untuk konteks spesifik (HBR/SHRM untuk kerja, Debrett's untuk pembanding budaya). Dikontraskan dengan norma sosial Indonesia sendiri (utang budi, gotong royong, unggah-ungguh) supaya learner tidak menganggap norma Barat sebagai satu-satunya standar "benar".

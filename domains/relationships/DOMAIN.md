@@ -63,6 +63,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment inventory tervalidasi (mis. attachment style questionnaire ringkas, values clarification exercise, Sternberg triangle self-rating), dan evaluasi kasus studi (diberi skenario hubungan anonim — termasuk skenario konflik, pelanggaran trust, atau putus/patah hati — learner mengidentifikasi red/green flag serta merekomendasikan langkah berikutnya berbasis kerangka domain ini) sebagai bentuk "quiz" domain ini.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: pendekatan Gottman Institute (riset empiris prediktor pernikahan, komunikasi & trust & konflik) vs Levine & Heller/klinisi attachment (pola kelekatan) vs Sternberg (kerangka formal tiga-komponen cinta) vs Helen Fisher (lensa evolusioner/antropologis & neurosains untuk atraksi dan penolakan) vs Esther Perel (terapis, desire & otonomi dalam komitmen) vs Nedra Tawwab (terapis, boundaries praktis) — dikontraskan eksplisit dengan pendekatan pickup-artist/seduction-community yang ditolak domain ini (house rule sama seperti `communication-skills`), dan dengan model grief populer yang tidak akurat (Kübler-Ross linear stages dipakai di luar konteks aslinya) yang dikoreksi lewat riset Bonanno.

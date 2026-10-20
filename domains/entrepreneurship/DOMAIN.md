@@ -53,6 +53,8 @@ Di atas Universal Review Rubric (Strengths / Weaknesses / Actionable Improvement
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah "gut-check pitch review" — learner mempresentasikan idenya dalam 1-2 menit seolah ke calon customer/investor sebelum lanjut ke Applied Practice, untuk memaksa kejelasan sebelum eksekusi.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan tiga cara pendekatan masalah yang sama: founder ala **Y Combinator/VC-backed** (cepat, growth-first, siap bakar modal), founder **Indie Hackers/bootstrapped solo** (lambat tapi sustainable, profit dari awal, paling dekat dengan constraint learner), dan pemilik **UMKM tradisional Indonesia** (modal kecil, jaringan lokal, sering informal). Tiga trade-off kecepatan/modal/risiko yang berbeda untuk masalah bisnis yang sama.

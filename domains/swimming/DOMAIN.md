@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (biomekanika stroke, fisiologi water competency, tanda-tanda tenggelam ala Instinctive Drowning Response), self-review video terstruktur memakai empat kriteria Review Style di atas, dan studi kasus skenario keselamatan (mis. "kamu melihat seseorang diam di air dengan kepala mendongak dan tidak bergerak — apa yang kamu lakukan, langkah demi langkah?") khusus untuk modul deep-water safety, survival swimming, open-water, dan rescue awareness.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: badan pengajaran teknik terstruktur (Swim England — progresi stage-by-stage berbasis puluhan tahun kurikulum nasional) vs otoritas water safety berbasis riset (American Red Cross — water competency, kurikulum belajar-renang) vs pelatih teknik kompetitif (ASCA — biomekanika stroke level pelatih bersertifikat) vs riset keselamatan air murni (Francesco Pia — Instinctive Drowning Response, RNLI — cold water shock & open-water risk). Kontraskan eksplisit dengan mitos populer budaya pop soal tenggelam (mis. gambaran film: orang tenggelam berteriak & mengibas tangan dramatis) — domain ini menandai itu sebagai salah secara faktual dan berbahaya bila dipercaya.

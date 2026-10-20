@@ -90,6 +90,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment inventory (versi ringkas Masculine Norms Inventory terinspirasi riset Levant, dipakai untuk kesadaran diri bukan skor "maskulinitas"), dan evaluasi skenario studi kasus (diberi situasi pria menghadapi tekanan/keputusan/godaan mitos toxic, learner mengidentifikasi respons berbasis riset domain ini vs respons toxic/manosphere yang ditolak).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: APA/riset psikologi akademik (Levant, Damon) vs praktisi klinis berpengalaman pria (Terrence Real) vs kerangka filosofis klasik (Frankl, Stoic — cross-ref `character-development`) vs badan kesehatan resmi (ACSM/WHO/AAD untuk fisik & grooming) — dikontraskan eksplisit dengan mitos manosphere/red-pill yang ditolak total domain ini (Andrew Tate dan sejenisnya, taktik pickup-artist, narasi "alpha vs beta/sigma").

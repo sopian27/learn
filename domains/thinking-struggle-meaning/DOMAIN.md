@@ -51,6 +51,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat tiap bagian (mis. "apa beda materialisme dialektika dengan sekadar 'berpikir logis'?", "apa perbedaan oikeiôsis... (n/a, domain lain)" — pertanyaan spesifik ke isi buku bersangkutan), analisis kutipan primer (diberi satu kutipan dari buku terkait, learner jelaskan makna + konteksnya), dan pertanyaan reflektif open-ended sesuai "Pertanyaan Utama" tiap bagian di roadmap course (dijawab tertulis, dinilai lewat Review Style di atas — bukan benar/salah).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan lensa: sejarawan/biografer (Harry A. Poeze — akurasi fakta Tan Malaka) vs pembaca filsafat murni (bagaimana seorang epistemolog membaca MADILOG sebagai teks logika/materialisme) vs psikiater-eksistensialis (Frankl sendiri, dan tradisi logoterapi sesudahnya) vs peneliti perilaku/desain pengalaman (Heath brothers, Gottman — pendekatan behavioral-science ke momen kecil). Kontraskan eksplisit "membaca tokoh sebagai pahlawan yang diromantisasi" vs "membaca tokoh sebagai manusia dengan pilihan, harga, dan keterbatasan nyata" — ini pembeda utama domain ini dari sekadar apresiasi biografi.

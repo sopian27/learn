@@ -52,6 +52,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (mengenali kapan jabat tangan vs membungkuk, membedakan monochronic/polychronic, decoding satu contoh dress code undangan), skenario judgment (diberi situasi ambigu — bertemu klien dari budaya berbeda, terlambat karena macet, undangan bertuliskan "smart casual", antrean yang diserobot — learner menentukan respons yang tepat dan menjelaskan alasannya), dan evaluasi menjelang Capstone (rangkaian situasi lintas keempat area yang harus dinavigasi berurutan).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: referensi protokol bisnis internasional (Morrison & Conaway) vs kerangka antropologi akademik (Hall) vs otoritas etiket institusional (Emily Post, Debrett's) vs gerakan civility berbasis riset perilaku (Forni, Johns Hopkins Civility Project). Dikontraskan dengan norma sosial Indonesia sendiri (salam, jam karet vs penghormatan waktu formal, budaya antre) supaya learner tidak menganggap satu standar sebagai satu-satunya cara "benar".

@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Sejarah Indonesia (Indonesian History — Nusantara Kuno sampai Indonesia Modern)
 
 ## Scope
@@ -63,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (mengurutkan kronologi kerajaan/era, mengidentifikasi jenis sumber), drill "spot the single narrative" (diberi satu paragraf yang menyajikan peristiwa kontes — mis. G30S — dari satu sisi saja, learner mengidentifikasi sisi mana yang hilang dan kenapa), dan self-audit memakai empat kriteria Review Style di atas sebelum Case File disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

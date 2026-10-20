@@ -82,6 +82,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan reflektif per lesson (mis. audit satu ekspektasi yang membuatku kecewa dengan format Expectation Log, tulis prediksi dengan angka kepercayaan lalu bandingkan dengan hasil, ubah satu ekspektasi tak terucap jadi kalimat permintaan), kasus ambigu (kapan "menurunkan ekspektasi" adalah kedewasaan, kapan itu menormalisasi perilaku buruk), dan refleksi tertulis singkat. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Ekonomi perilaku dan neurosains keputusan** (Kőszegi & Rabin, Abeler, Rutledge) — lensa bukti bahwa reaksi ditentukan oleh titik acuan.

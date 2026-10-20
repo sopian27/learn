@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Budaya Sunda — Mengenal Tanah, Karakter, Tradisi, dan Falsafah Urang Sunda (studi budaya regional: satu kelompok budaya dibaca lewat geografi, sejarah, bahasa, nilai, seni, agama, dan perubahan modern)
 
 ## Scope
@@ -88,6 +90,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Studi kasus tertulis dengan label bukti; soal "mana yang terdokumentasi dan mana yang generalisasi"; Register Ladder (dengan pemeriksaan penutur); tabel sumber sejarah dan keterbatasannya; membaca satu potongan naskah atau etnografi bersama kritiknya; Stereotype Audit; Keep/Adapt/Question Table; refleksi tertulis. Bukan quiz hafalan nama tarian, rumah adat, atau raja.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

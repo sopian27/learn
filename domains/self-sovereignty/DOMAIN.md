@@ -65,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Self-assessment inventory ringkas (adaptasi Rotter I-E Scale dan kerangka differentiation of self Bowen, dipakai sebagai alat refleksi bukan instrumen diagnostik klinis), ditambah evaluasi skenario (diberi situasi tekanan sosial/manipulasi/provokasi, learner mengidentifikasi taktik yang mungkin bermain dan menyusun respons berbasis sumber domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa: Murray Bowen/Michael Kerr (family systems, klinis) vs Julian Rotter (psikologi kepribadian klasik) vs Jack Brehm (psikologi sosial motivasional) vs Robert Cialdini (psikologi persuasi/pemasaran, dibaca terbalik) vs Jennifer Freyd/Susan Forward (riset & klinis manipulasi interpersonal) vs Deci & Ryan (psikologi motivasi) vs Rushworth Kidder (etika praktis) — dikontraskan eksplisit dengan pop-psychology "jadi tidak peduli siapa pun"/"jadi dingin" yang ditolak domain ini (itu emotional cutoff, bukan differentiation sehat).

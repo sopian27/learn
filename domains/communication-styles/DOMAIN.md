@@ -74,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan terstruktur per lesson (mis. tulis ulang satu pesan yang sama untuk empat penerima; ubah "dia Red, jadi galak" menjadi hipotesis yang bisa diuji; petakan satu konflik nyata ke OBSERVE-INTERPRET-VERIFY-ADAPT-REVIEW), skenario ambigu yang sengaja tidak cocok warna manapun, dan refleksi tertulis singkat. Bukan quiz hafalan ciri warna.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Psikolog kepribadian dan sosial** (Wiggins, Fleeson, Ross) — lensa bukti; menjaga model tetap jujur terhadap batasnya.

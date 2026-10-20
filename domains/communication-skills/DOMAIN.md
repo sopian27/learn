@@ -52,6 +52,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (memverifikasi pemahaman teori sebelum Applied Practice), ditambah self-reflection log memakai empat kriteria Review Style di atas (Presence, Authenticity, Reciprocity, Comfort Progression) segera setelah setiap percakapan nyata dilakukan — selagi ingatan masih segar.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan empat lensa berbeda untuk situasi percakapan yang sama: pendekatan Dale Carnegie (minat tulus & rapport klasik) vs pendekatan Vanessa Van Edwards (behavioral science, membaca sinyal nonverbal) vs pendekatan Marshall Rosenberg/NVC (empati, mendengar tanpa menghakimi) vs pendekatan CBT/exposure-therapy (khusus kecemasan sosial — bagaimana psikolog klinis akan menyusun latihan bertahap untuk introvert). Untuk lesson berkonteks ketertarikan romantis, tambahkan lensa kelima: Mark Manson (authenticity/vulnerability) dikontraskan eksplisit dengan pendekatan seduction-community yang ditolak domain ini.

@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Three Kingdoms Strategy — Membaca Kekuasaan, Strategi, dan Perilaku Manusia lewat Sam Kok (Sejarah vs Novel)
 
 ## Scope
@@ -84,6 +86,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Studi kasus tertulis dengan sembilan kolom plus label bukti, rekonstruksi keputusan, soal "mana yang tercatat dan mana yang novel", membandingkan dua versi cerita (Sanguozhi vs novel), latihan memetakan insentif dan sumber kekuasaan, dan refleksi tertulis singkat. Bukan quiz hafalan nama tokoh atau tanggal.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

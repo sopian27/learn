@@ -82,6 +82,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Skenario pilihan-ganda-terbuka: diberi situasi ambigu (mis. "rekan kerja menyindir di depan tim", "unggahan media sosial dikomentari negatif", "kesalahan kerja bertahun lalu masih terus terpikir"), learner menjelaskan apakah ini layak dipedulikan penuh/sebagian/tidak sama sekali dan kenapa, memakai kerangka modul yang relevan — bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Filsuf Stoic (Epictetus, ala [[stoicism]])** — lensa dikotomi kendali.

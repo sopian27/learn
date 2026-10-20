@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Islamic End Times / Ashrat as-Sa'ah (Tanda-Tanda Hari Kiamat dalam Islam — kiamat kecil & besar, urutan lengkap peristiwa akhir zaman)
 
 ## Scope
@@ -61,6 +63,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (istilah dasar: ashrat sughra/kubra, fitnah, khasf, urutan hadits Nawwas bin Sam'an), drill "spot dalil kuat vs legenda/klaim viral" (diberi satu klaim populer tentang tanda kiamat, learner mengidentifikasi apakah didukung ayat/hadits sahih, hadits lemah, atau tanpa dasar sama sekali), dan self-audit memakai lima kriteria Review Style di atas sebelum Verification File disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

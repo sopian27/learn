@@ -83,6 +83,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan reflektif per lesson (mis. audit kalender dengan kategori dari outline, tulis satu keputusan besar dengan Decision Journal lalu tinjau setelah tanggal tinjau, ubah satu tugas jadi delegasi outcome, tulis pesan SPRD 3 menit, petakan insentif orang yang menolak idemu), kasus ambigu (kapan delegasi jadi melepas tanggung jawab, kapan "kecepatan keputusan" jadi ceroboh), dan **Final Test 10 pertanyaan** dari outline dijawab dengan kata sendiri. Bukan quiz hafalan.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Executive transition advisory** (Ty Wiggins/Russell Reynolds Associates; Michael Watkins/IMD) — lensa apa yang dilakukan CEO baru dalam 12 bulan pertama.

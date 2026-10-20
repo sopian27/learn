@@ -88,6 +88,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan hitung dan simulasi (expectancy, losing streak, ukuran posisi, biaya vs target), latihan baca chart historis tanpa melihat hasil (blind study), kasus ambigu (kapan "jangan ubah sistem karena beberapa loss" benar, dan kapan itu sunk-cost), backtest sederhana dengan catatan overfitting, dan refleksi tertulis singkat setelah simulasi hari buruk. Bukan quiz hafalan istilah candlestick.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Peneliti perilaku dan pasar** (Barber, Odean, Chague dkk., Osler, Kahneman & Tversky) — lensa bukti tentang siapa yang untung, kenapa, dan kapan psikologi merusak keputusan.

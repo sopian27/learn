@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Nietzsche Philosophy — Manusia yang Asyik dengan Dirinya: belajar nyaman dengan diri sendiri lewat pemikiran Friedrich Nietzsche, dibaca dari teksnya.
 
 ## Scope
@@ -97,6 +99,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Jurnal terbaca-dari-teks, Ledger Kutipan, soal "mana yang ada di teks dan mana adaptasi modern", perbandingan dua terjemahan untuk satu kalimat, penjelasan tertulis atas satu konsep (mis. eternal recurrence sebagai kosmologi vs uji afirmasi), perbandingan dengan Stoisisme, dan refleksi tertulis. Nietzsche Mirror dijawab tertulis, bukan pilihan ganda. Bukan quiz hafalan kutipan atau tahun.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

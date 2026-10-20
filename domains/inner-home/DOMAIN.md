@@ -69,6 +69,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan terstruktur per lesson (mis. ubah "aku selalu ada untuk semua orang" jadi peta peran dengan biaya energi; tulis ulang balasan yang otomatis "iya" jadi versi dengan jeda; pilah satu kasus jadi bagian "mendukung" vs "menyelamatkan"), skenario ambigu, refleksi tertulis singkat. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Peneliti** (Singer & Klimecki, Baumeister & Leary, Bohns & Flynn) — lensa bukti empiris.

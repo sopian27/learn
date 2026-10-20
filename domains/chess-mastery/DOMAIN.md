@@ -59,6 +59,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Tes puzzle rating terukur (tactics, dengan batas waktu), kuis evaluasi posisi (mengidentifikasi imbalance dari posisi yang diberikan), latihan kalkulasi dengan batas waktu (memakai worksheet candidate moves), spaced-repetition review cycle (metode Woodpecker — set puzzle yang sama diulang, mengukur peningkatan kecepatan & akurasi), dan partai latihan terukur (online rated atau lawan sungguhan, hasil & performance rating dicatat).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa tradisi pelatihan untuk isu yang sama — "bagaimana pemain kuat sungguhan membangun kekuatannya": tradisi Soviet klasik (Dvoretsky-Yusupov — metodologi berpikir mendalam, kalkulasi presisi, pemahaman posisi lewat prinsip) vs tradisi modern berbantuan data/engine (pelatihan era AlphaZero/Stockfish — evaluasi objektif, gaya dinamis yang lebih berani secara materi) vs metode empiris berbasis repetisi terukur (Axel Smith/Woodpecker — bukti nyata seorang pemain dewasa naik ke gelar GM lewat latihan taktik terstruktur, bukan bakat bawaan). Juga bandingkan gaya positional klasik (Nimzowitsch/Karpov — prophylaxis, kontrol jangka panjang) vs gaya dinamis modern (Kasparov/Carlsan — inisiatif, ketidakseimbangan aktif) sebagai dua filosofi sah yang sama-sama didukung hasil turnamen nyata, bukan satu "cara benar" tunggal.

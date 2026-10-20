@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Kombinasi: quiz konsep tiap modul, critique paper asli (dikasih 1 paper nyata, user diminta menemukan flaw metodologi/statistik di dalamnya), dan self-audit checklist reproducibility di Capstone (data tersedia? kode/langkah analisis terdokumentasi? klaim sesuai evidence?).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Karl Popper (falsifiability) dan Thomas Kuhn (paradigma) untuk fondasi filsafat sains; John Ioannidis untuk kritik reproducibility; tim PRISMA/Cochrane untuk standar systematic review; komunitas Open Science (Center for Open Science/OSF) untuk praktik reproducibility modern; dibandingkan dengan pola "riset" konten viral media sosial yang sering overclaim dari studi tunggal kecil tanpa replikasi.

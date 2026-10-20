@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Budaya Padang & Minangkabau — Memahami Ranah Minang, Adat, Merantau, dan Cara Hidup Masyarakat Minangkabau (studi budaya regional: satu kelompok budaya dibaca lewat tanah, adat, kekerabatan matrilineal, Islam, merantau, ekonomi, seni, dan perubahan modern)
 
 ## Scope
@@ -104,6 +106,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Studi kasus tertulis dengan label bukti; soal "mana yang terdokumentasi, mana tradisi/legenda, mana generalisasi"; tabel sumber sejarah Minangkabau dan keterbatasannya; membaca satu potongan etnografi (mis. Sanday atau Benda-Beckmann) bersama kritiknya; Three-Question Audit atas satu konflik; Merantau Map keluarga sendiri; Stereotype Audit; Keep/Adapt/Question Table; refleksi tertulis. Bukan quiz hafalan nama datuk, motif ukiran, atau nama tarian.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

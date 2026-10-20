@@ -54,6 +54,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Practice test bergaya JLPT (moji-goi/vocab-kanji pilihan ganda, bunpou/grammar pilihan ganda, reading comprehension paragraf, listening comprehension dari audio) setelah tiap modul/section, dipetakan ke level JLPT N5-N1 yang sesuai; dikte Kanji/kosakata untuk melatih akurasi listening-ke-tulisan; dan roleplay assessment tak berskrip (diberi skenario percakapan baru yang belum pernah dilatih, harus merespons spontan dengan keigo yang sesuai) untuk menguji produksi real-time, bukan cuma jawaban yang sudah dihafal.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa berbeda untuk skill yang sama:

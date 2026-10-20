@@ -43,6 +43,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 
 A short concept-check quiz after each lesson's theory portion (node behavior, expression syntax, trigger types), plus periodically a "trace the execution" exercise — given a workflow JSON or screenshot, predict the data shape at a specific node before running it — and a self-evaluation pass against the four Review Style criteria above before submitting Applied Practice for review.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Compare how n8n's own official template library approaches a problem against how Zapier or Make.com would solve the same automation (more constrained, more polished no-code UX, usually more expensive at scale) against how a developer would solve it with raw code/serverless functions (fully flexible, no vendor lock-in, but no visual debugging and higher build/maintenance cost). For AI-agent-specific questions, additionally reference n8n's own AI Agent documentation patterns and well-known community template authors on n8n.io/workflows as the "expert automation builder" reference point, versus a beginner's naive single-prompt approach.

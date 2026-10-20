@@ -80,6 +80,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Soal hitungan tertulis dengan langkah (bukan pilihan ganda), tabel kebenaran, eksperimen Java kecil (overflow, floating point), interpretasi tabel percentile, hitungan Little's Law dan availability dengan asumsi ditulis, estimasi Fermi dengan rentang, dan Final Test 15 pertanyaan outline dijawab tertulis secara intuitif. Bukan hafalan rumus.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **SRE dan performance engineer** (Google SRE, Gregg, Tene) — lensa latency, reliability, dan kapasitas.

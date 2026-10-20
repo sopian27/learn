@@ -90,6 +90,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Studi kasus tertulis: satu Future Journal lengkap, satu set skenario 2x2 dengan indikator, satu backcasting, satu Future Radar mingguan (4 minggu), satu evaluasi prediksi yang sudah jatuh tempo (termasuk yang salah), dan capstone "The Next 10 Years". Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Futurist / foresight practitioner** (Shell scenarios, Schwartz, Voros, Hodgson/Curry) — lensa skenario dan horizon.

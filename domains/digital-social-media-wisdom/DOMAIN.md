@@ -67,6 +67,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Self-audit terstruktur per modul (checklist konkret: apakah data nyata sudah dikumpulkan, apakah protocol sudah diuji minimal jumlah sesi/hari yang disyaratkan), plus drill singkat "identifikasi sinyal algoritma" (Module 3) dan "identifikasi trigger HALT dari skenario nyata" (Module 5, menerapkan kerangka `pornography-recovery`).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa berbeda untuk isu yang sama:

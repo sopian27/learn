@@ -65,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz singkat setelah bagian teori tiap lesson (mengenali tahap siklus intelijen, membedakan jenis-jenis INT, mengenali bias kognitif analis dari skenario yang diberikan), drill "grade the source" (diberi deskripsi sumber, tentukan rating reliabilitas & kredibilitasnya), latihan ACH mini (diberi 2-3 hipotesis dan sekumpulan bukti, isi matriks konsistensi), dan self-audit memakai lima kriteria Review Style di atas sebelum Intelligence Estimate Memo disubmit untuk direview.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan empat lensa berbeda untuk mengevaluasi skenario/kasus yang sama:

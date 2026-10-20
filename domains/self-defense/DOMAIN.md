@@ -59,6 +59,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment checklist form teknik fisik (dipasangkan dengan review video), dan evaluasi skenario tertulis (diberi situasi konfrontasi, learner mengurutkan respons yang tepat di sepanjang eskalasi awareness→de-escalation→fisik→escape, plus — khusus Module 8 — identifikasi prinsip hukum umum yang relevan TANPA memberi vonis hukum pasti).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Rory Miller (praktisi koreksi, dinamika kekerasan nyata & psikologi kekerasan) vs Gavin de Becker (prediksi ancaman, konteks proteksi selebriti/korporat) vs Krav Maga Global (sistem militer-derivatif diadaptasi sipil, efficiency & simultaneous defense-attack) vs Gracie University (pedagogi BJJ self-defense terstruktur hampir satu abad) vs CPI (de-escalation verbal berbasis institusional, non-marial) vs Cooper/Ayoob Color Code (situational awareness ala penegak hukum sipil) — dikontraskan eksplisit dengan mindset olahraga tarung kompetitif (BJJ/MMA sport rules) yang tujuannya berbeda (menang pertandingan vs bertahan hidup tanpa aturan).

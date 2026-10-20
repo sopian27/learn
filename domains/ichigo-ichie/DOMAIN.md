@@ -77,6 +77,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan reflektif per lesson (mis. tulis ulang satu hari dengan dua momen yang sebenarnya terlewat, bedakan perhatian yang dipilih dan yang direbut, uji satu aturan digital selama tiga hari lalu evaluasi), kasus ambigu (kapan foto menolong, kapan mengganggu), dan refleksi tertulis singkat. Bukan quiz hafalan istilah Jepang.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Tradisi teh dan estetika Jepang** (Sen no Rikyū, Okakura Kakuzō, tradisi Urasenke/Omotesenke sebagai rujukan hidup) — lensa asal-usul dan sikap tuan rumah–tamu.

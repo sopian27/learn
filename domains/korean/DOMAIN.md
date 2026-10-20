@@ -51,6 +51,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Practice test bergaya TOPIK (kosakata-grammar pilihan ganda, reading comprehension paragraf, listening comprehension dari audio) setelah tiap modul/section, dipetakan ke level TOPIK yang sesuai; 받아쓰기 (dictation drill) untuk melatih akurasi listening-ke-tulisan; dan roleplay assessment tak berskrip (diberi skenario percakapan baru yang belum pernah dilatih, harus merespons spontan) untuk menguji produksi real-time, bukan cuma jawaban yang sudah dihafal.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa berbeda untuk skill yang sama:

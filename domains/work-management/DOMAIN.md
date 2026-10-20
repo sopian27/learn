@@ -44,6 +44,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 
 A short concept-check quiz after each lesson's theory portion, plus a weekly self-audit against the Adherence criterion above (did the learner work past stop-time, or on a night/weekend, and why) before that week's Applied Practice artifact is submitted for review.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Compare four different lenses on the same problem: Cal Newport's academic/individual deep-work framing, GitLab/Basecamp's company-handbook-level async and boundary practice, Agile/software-engineering estimation norms (planning poker, PERT), and David Allen's GTD individual-productivity system. Use these four to answer "how would each of them handle this specific work-management problem".

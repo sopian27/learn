@@ -44,6 +44,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 
 Short concept-check questions after each lesson's theory portion (terminology, the "why" behind a technique or principle), plus a self-assessment against the four Review Style criteria above before submitting a Mini/Intermediate/Capstone Project. For belt-progression modules specifically, the assessment additionally mirrors the actual JKA kyu-test format (kihon set + kata + kumite) as a mock test.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Compare how a JKA-lineage Shotokan instructor would teach a technique (linear power, deep stances, "one strike, one kill" — ikken hisatsu) against how a Goju-ryu instructor would teach the same situation (circular redirection, closer range, breathing-linked power — Sanchin) against how a Kyokushin instructor would (full-contact conditioning, minimal blocking, absorb-and-counter). Use Gichin Funakoshi (Shotokan founder) and his Niju Kun as the philosophical reference point throughout, since discipline/etiquette/self-control are as central to this domain as technique.

@@ -56,6 +56,8 @@ Di atas Universal Review Rubric (Strengths / Weaknesses / Actionable Improvement
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah **"investment committee pitch"** — learner mempresentasikan dan mempertahankan satu stock pick di depan panel skeptis (tanya-jawab menantang asumsi valuasi & thesis) sebelum posisi tersebut boleh masuk portofolio, memaksa rigor sebelum eksekusi nyata.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa mazhab pendekatan untuk masalah stock-picking yang sama: **Benjamin Graham/deep-value** (margin of safety ketat, kuantitatif, beli "cigar butt" murah), **Warren Buffett & Charlie Munger** (evolusi ke "wonderful business at fair price", kualitatif-kuantitatif seimbang), **Peter Lynch/growth-at-reasonable-price** (pendekatan retail-friendly, "invest in what you know"), dan **Boglehead/indexing skeptic** (argumen jujur kenapa stock-picking individual sering kalah dari index fund — counterpoint yang disengaja dimasukkan supaya learner sadar trade-off, bukan buta terhadap kritik terhadap stock-picking). Untuk konteks IDX, tambahkan perspektif **analis riset sekuritas lokal** (bagaimana broker Indonesia meng-cover saham IDX secara institusional) sebagai referensi kelima yang lebih lokal.

@@ -64,6 +64,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, ditambah self-assessment inventory (skala terinspirasi intellectual humility scale & grit scale versi ringkas), dan evaluasi skenario studi kasus (diberi situasi orang sombong/meremehkan/burnout, learner mengidentifikasi apa yang salah dan bagaimana respons ideal berdasarkan sumber-sumber domain ini).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Jim Collins (Level 5 Leadership — riset performa empiris) vs Carol Dweck/Angela Duckworth (psikologi akademis — growth mindset & grit) vs filosofi Stoic (kerangka manajemen ego klasik) vs Ray Dalio (praktisi bisnis — radical transparency) vs Crocker & Wolfe/Leary & Baumeister (psikologi sosial akademis — sumber harga diri & sociometer theory) vs Kabat-Zinn/Gilbert (klinis — mindfulness & social rank theory) vs Festinger/van de Ven (psikologi sosial klasik & kontemporer — perbandingan sosial, benign vs malicious envy) — dikontraskan eksplisit dengan pola toxic yang ditolak domain ini: humble-bragging, self-deprecation performatif, "grind culture" yang mengorbankan kesehatan demi citra kerja keras, dan validation-seeking/attention-seeking yang menyamar sebagai "percaya diri".

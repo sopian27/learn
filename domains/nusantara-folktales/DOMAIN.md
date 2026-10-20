@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Nusantara Folktales (Dongeng Nusantara — Membaca Cerita Rakyat Indonesia sebagai Cermin Budaya dan Manusia)
 
 ## Scope
@@ -54,6 +56,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Latihan klasifikasi (dongeng/legenda/mite/fabel dengan kriteria Bascom) pada cerita yang belum dibahas; latihan "versi mana?" (membandingkan dua versi satu cerita dan menjelaskan perbedaannya); latihan "fakta atau tradisi?" (memisahkan klaim yang bisa diverifikasi dari yang tidak, mis. Danau Toba geologi vs cerita); self-audit Story Journal sebelum direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

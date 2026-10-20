@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Refleksi tertulis singkat + latihan terstruktur tiap lesson (mis. ubah "saya merasa tidak enak" jadi kalimat emosi spesifik; ubah "kamu selalu ___" jadi "saya merasa ___ karena ___"; pisahkan satu masalah ke lima lapisan). Diselingi skenario ambigu yang harus dianalisis learner. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Peneliti emosi** (Barrett, Gross, Tangney, Bushman) — lensa bukti empiris.

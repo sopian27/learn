@@ -94,6 +94,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat per lesson (skenario "apa yang terjadi pada `dy/dx` bila...", bukan hafalan rumus), soal matematika kecil dengan kunci untuk self-check, kode Java dengan tes JUnit yang membandingkan analitik vs numerik, dan **Final Test** dari outline: menjelaskan dengan kata sendiri function/limit/derivative/integral, rate of change, sensitivity, optimum, akumulasi, partial derivative, gradient, kenapa gradient descent bekerja, kenapa chain rule penting untuk neural network (jawaban boleh merujuk ML course), dan beda solusi analitik vs numerik, serta 5 kemampuan software (implement derivative/integral/gradient descent, membuat grafik, menganalisis performance). **Final Challenge 10 pertanyaan** dijawab pada capstone.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Performance/capacity engineer** (Gunther, Harchol-Balter, praktik SRE) — lensa kurva load-latency, saturation, dan capacity planning; menekankan validasi model terhadap data.

@@ -62,6 +62,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, latihan kalibrasi terukur (memberi serangkaian prediksi trivia/estimasi dengan confidence level, dibandingkan dengan akurasi nyata — adaptasi ringan metodologi Good Judgment Project milik Tetlock), dan evaluasi skenario (diberi rekaman/deskripsi situasi sosial atau keputusan cepat nyata, learner mengidentifikasi sinyal yang relevan, membuat prediksi eksplisit, dan menjelaskan dasar pattern-nya sebelum hasil dibuka).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa tradisi untuk isu yang sama — "kapan intuisi bisa dipercaya": tradisi Naturalistic Decision Making (Gary Klein — mempelajari expert nyata di lapangan, percaya intuisi terlatih) vs tradisi heuristics-and-biases (Daniel Kahneman — awalnya skeptis terhadap intuisi tak terverifikasi) — dengan paper 2009 mereka berdua sebagai titik rekonsiliasi resmi (jadi kerangka utama domain ini, bukan memilih salah satu kubu). Bandingkan juga dua tradisi praktik kalibrasi: pemain poker profesional (Annie Duke — kalibrasi intuitif di bawah insentif finansial langsung) vs superforecaster (Philip Tetlock — kalibrasi eksplisit numerik lewat Good Judgment Project) sebagai dua jalur berbeda menuju hasil yang sama: intuisi yang diuji, bukan sekadar dipercaya.

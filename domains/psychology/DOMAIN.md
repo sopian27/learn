@@ -48,6 +48,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 
 A short concept-check quiz after each lesson's theory portion, plus a "myth vs. fact" check before Applied Practice begins — testing whether a popular-psychology claim related to the lesson is actually supported by the evidence (per Lilienfeld et al.'s mythbusting tradition), before the learner applies the real concept.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Compare how a research psychologist (peer-reviewed empirical approach), a licensed clinical psychologist (APA Division 12 empirically-supported-treatment approach, e.g. CBT/ACT), and the pop-psychology/self-help industry would each approach the same question or claim — highlighting differences in evidence quality and epistemic humility. Reference figures across subfields: Wundt/James (founding), Skinner (behaviorism), Piaget/Erikson/Bowlby (development/attachment), Bandura (social-cognitive), Kahneman & Tversky (judgment/decision-making), Beck (CBT), Seligman (positive psychology). Reference organizations: APA, British Psychological Society (BPS), NIMH, WHO (ICD-11 as the alternate classification to DSM-5-TR).

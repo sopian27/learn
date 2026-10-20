@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Famous Criminal Cases (Kasus Kriminal Terkenal Dunia)
 
 ## Scope
@@ -51,6 +53,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 ## Assessment Form
 
 A short concept-check quiz after each lesson's theory portion, plus a "myth vs. fact" check before Applied Practice begins each module — testing a popular true-crime claim related to the lesson (e.g. "fingerprint matching is infallible," "a confession means the case is solved," "DNA evidence can't be wrong") against the documented evidence before the learner applies the real method. Mirrors `domains/serial-killers/DOMAIN.md`'s assessment structure.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -76,6 +76,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan reflektif dan hands-on per lesson (mis. hitung HPP satu unit dari nota nyata, tulis rencana cull/jual sebelum breeding, kasus "ikan mati 3 dalam seminggu: variabel apa yang salah?", kasus "produk segar tidak laku sebelum layu: apa yang berubah?"), pengamatan langsung di rak/akuarium, dan refleksi tertulis singkat. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Penghobi/breeder kecil dan komunitas** (grup hobi, forum, marketplace ikan/tanaman hias) — lensa praktik nyata: harga, pasar, dan kebiasaan, dengan label "belum diverifikasi" sampai dicek.

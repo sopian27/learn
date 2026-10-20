@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Teori Relativitas (Relativitas Khusus & Umum / Special & General Relativity)
 
 ## Scope
@@ -63,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (skenario "apa yang diamati observer A vs observer B" untuk menguji pemahaman relativitas simultanitas/frame, bukan hafalan rumus), problem set numerik terarah gaya MIT OCW dengan kunci jawaban untuk self-check, dan sesi Socratic derivation — learner diminta menurunkan satu langkah kunci sebelum diberi tahu jawabannya, sesuai `# Challenge` di `CLAUDE.md` root ("Reveal the full solution only after I have attempted it").
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

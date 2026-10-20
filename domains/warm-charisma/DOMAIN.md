@@ -58,6 +58,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (identifikasi jenis CLT dari kutipan tokoh publik, membedakan gaya humor affiliative vs aggressive dari contoh dialog), skenario judgment (diberi situasi sosial — teman bercerita masalah, obrolan kelompok butuh humor, kenalan baru di acara networking — learner menentukan respons dan menjelaskan alasan berbasis kerangka modul), review praktis terhadap Charisma Log (apakah teknik diterapkan tepat konteks, apakah reaksi lawan bicara teramati akurat), dan evaluasi skenario menjelang Capstone (rangkaian interaksi sosial lintas konteks yang harus dinavigasi, learner menjelaskan pilihan di tiap momen).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: periset kepemimpinan/karisma eksperimental (Antonakis — apa yang benar-benar terukur meningkatkan persepsi karisma) vs psikolog kompetensi sosial (Riggio — pemetaan skill jadi enam dimensi terukur) vs psikolog sosial stereotype (Fiske/Cuddy — dasar ilmiah warmth-first) vs pengajar humor terapan (Aaker/Bagdonas, Stanford GSB) vs periset empati (Ickes) vs periset perilaku organisasi generosity (Grant) vs praktisi networking (Ferrazzi) vs sintesis coaching populer (Cabane — selalu dikontraskan ke sumber riset di atas, tidak berdiri sendiri).

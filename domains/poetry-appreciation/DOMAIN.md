@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Poetry Appreciation (Apresiasi Puisi Indonesia & Dunia)
 
 ## Scope
@@ -72,6 +74,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz identifikasi istilah sastra singkat (bedakan metafora/simile/simbol/alegori/personifikasi/ironi dari kutipan), latihan **unseen poem** ala I.A. Richards (diberi satu puisi baru — belum pernah dibahas di course — dari salah satu penyair yang dipelajari, atau penyair lain dari tradisi sama, lalu terapkan kerangka close reading tanpa bantuan konteks penulis dulu), dan self-audit memakai lima kriteria Review Style di atas sebelum entri Journal disubmit.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

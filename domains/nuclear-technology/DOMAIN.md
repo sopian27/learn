@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Teknologi Nuklir (Nuclear Technology) — sains, keselamatan, dan kebijakan nuklir tingkat literasi publik/teknis.
 
 ## Scope
@@ -69,6 +71,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Concept-check singkat setelah tiap bagian teori (termasuk soal fisika dasar, bukan cuma hafalan istilah), soal hitungan (kritikalitas sederhana, peluruhan radioaktif, dosis radiasi), dan analisis studi kasus (diberi ringkasan insiden atau skenario kebijakan, learner diminta mengidentifikasi root cause/trade-off dan membandingkan dengan kerangka institusional yang benar).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

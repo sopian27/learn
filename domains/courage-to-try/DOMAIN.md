@@ -70,6 +70,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson, self-assessment inventory (versi ringkas Performance Failure Appraisal Inventory dari Conroy, dan skala perfeksionisme ringkas dari Hewitt & Flett), dan evaluasi skenario studi kasus (diberi situasi orang menunda/menghindar mencoba sesuatu, learner mengidentifikasi mekanisme yang menahan — fear of failure/perfeksionisme/analysis paralysis — dan intervensi berbasis domain ini yang paling tepat).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: Bandura (self-efficacy berbasis mastery experience) vs motivational-speaker "confidence hype" tanpa dasar riset (ditolak domain ini); Kahneman/Tversky & Schwartz (decision science untuk overthinking) vs "just trust your gut" tanpa kerangka; Gollwitzer/Oettingen (implementation intentions/WOOP, riset ketat) vs goal-setting motivasi populer yang berhenti di niat; Duckworth/Seligman (explanatory style setelah gagal) vs "positive thinking" generik. Dikontraskan eksplisit dengan pop-culture "just be confident"/"fake it till you make it" tanpa struktur yang ditolak domain ini — keberanian mencoba di sini selalu dibangun dari mekanisme psikologis yang teruji, bukan slogan.

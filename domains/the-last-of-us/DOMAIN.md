@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 The Last of Us Universe (Lore, Sejarah, dan Filosofi Dunia *The Last of Us*)
 
 ## Scope
@@ -56,6 +58,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz identifikasi (tahap infected/faksi/lokasi/simbol), drill timeline (mengurutkan peristiwa kosong dari deskripsi), dan latihan "spot the divergence" (diberi satu adegan/plot poin, learner mengidentifikasi apakah itu sesuai game, serial HBO, atau keduanya dengan cara berbeda).
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

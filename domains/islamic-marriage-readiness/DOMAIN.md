@@ -55,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Refleksi tertulis singkat setelah bagian teori tiap lesson, plus evaluasi skenario (mis. "bagaimana menyikapi proses ta'aruf yang gagal", "bagaimana membedakan kritik yang membangun vs kritik yang menyakiti ego") di mana learner mengidentifikasi prinsip yang relevan dan memilih respons yang sejalan dengan dalil/nilai yang sudah dipelajari.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: **ulama tazkiyatun nafs klasik** (Ibnu Qayyim soal cinta dan adab nikah) vs **ahli hadits** (status keshahihan dalil-dalil pernikahan yang sering dikutip populer, termasuk yang diperselisihkan) vs **ulama kontemporer lintas ormas** (penerapan ta'aruf dan kesiapan nikah zaman sekarang) vs **riset psikologi hubungan modern** (dirujuk dari [[relationships]] — Gottman, Sternberg — untuk topik yang memang beririsan seperti komunikasi dan cinta dewasa, tanpa dijadikan otoritas agama). Dikontraskan eksplisit dengan konten dakwah media sosial soal jodoh yang viral tapi tanpa rujukan dalil jelas (mis. klaim "jodoh adalah cerminan diri" sebagai hadits, padahal bukan) — ditolak kecuali disebut eksplisit sebagai opini/motivasi populer, bukan dalil.

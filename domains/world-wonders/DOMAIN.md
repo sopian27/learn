@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 World Wonders (Keajaiban Dunia — Kuno & Modern, Alam, Bangunan Monumental, Rekayasa, dan Kisah di Baliknya)
 
 ## Scope
@@ -66,6 +68,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat (mencocokkan situs ke daftar asalnya, kronologi pembangunan, teknik konstruksi kunci), drill "spot the pseudo-archaeology" (diberi narasi campuran fakta arkeologis + klaim populer, learner mengidentifikasi mana yang mana beserta sumbernya), dan self-audit memakai empat kriteria Review Style di atas sebelum Wonder Dossier disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -71,6 +71,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz singkat "spot the tactic" (diberi skrip pesan/pitch nyata, identifikasi prinsip Cialdini + red flag yang dipakai), drill red-flag kontrak (diberi klausul, tandai mana yang bermasalah), skenario due-diligence cepat (5 menit, entitas fiktif/nyata, tentukan legal/tidak lewat registry resmi), dan self-audit memakai empat kriteria Review Style di atas sebelum Case File disubmit untuk direview.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan empat lensa berbeda untuk kasus yang sama:

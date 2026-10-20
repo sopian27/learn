@@ -73,6 +73,8 @@ Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Score) plu
 
 Pra-lesson: pertanyaan tebak-dulu ("apa pendapatmu tentang X sebelum baca Murakami?"). Pasca-lesson: (1) 3-5 pertanyaan pemahaman, (2) satu tugas "beda klaim vs bukti" (tempelkan satu klaim, beri Tier), (3) skenario keputusan ("motivasi hilang + nyeri lutut ringan — apa yang kamu lakukan dan kenapa?"). Kuis gaya interview di akhir course.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Murakami sendiri (novelis-pelari, sumber primer); *Born to Run* (Christopher McDougall) dan *Running with the Kenyans*/*Once a Runner* sebagai bacaan pembanding (Tier **B/C**, opsional); ilmuwan olahraga/kesehatan (ACSM, WHO, ECSS) sebagai sumber bukti; Cal Newport/Mason Currey sebagai rujukan rutinitas kerja; untuk kritik: pembanding "tidak semua orang bisa/mau berlari" (disabilitas, kondisi kronis, kesehatan) — jalan kaki, berenang, atau aktivitas repetitif lain sah sebagai padanan "running" di seluruh course.

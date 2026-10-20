@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Film Criticism & Analysis
 
 ## Scope
@@ -50,6 +52,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (identifikasi shot type/editing technique/elemen mise-en-scène dari deskripsi atau cuplikan), drill "spot the technique" pada adegan pendek (tonton ulang satu adegan sambil mengidentifikasi teknik yang baru dipelajari secara real-time), dan self-audit memakai empat kriteria Review Style di atas sebelum Film Critique Log disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

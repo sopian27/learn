@@ -51,6 +51,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Kuis konsep protokol/mekanisme setelah tiap modul, latihan skenario "spot the scam/rug pull" (diberi deskripsi proyek fiktif, identifikasi red flags), tantangan forensik on-chain (diberi satu transaction hash nyata, jelaskan apa yang terjadi lewat block explorer), dan mock due-diligence defense (learner mempresentasikan investment thesis-nya, lalu ditantang/di-steelman-kan mengikuti pendekatan `domains/critical-thinking/DOMAIN.md`).
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa berbeda untuk topik yang sama:

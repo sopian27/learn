@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Arabian Nights Wisdom (1001 Malam — Membaca Kisah Klasik sebagai Laboratorium Psikologi Manusia)
 
 ## Scope
@@ -53,6 +55,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz singkat "identifikasi lapisan" (plot/karakter/konflik/psikologi/wisdom, dari 5 Lapisan Lesson 28) pada satu kutipan cerita yang belum dibahas; latihan "asli atau tambahan?" (menebak dan memverifikasi apakah satu elemen cerita berasal dari manuskrip inti atau tambahan Galland-era); self-audit 7 Pertanyaan (Lesson 29) sebelum Night Journal entry disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Love Stories of Famous People (Kisah Cinta Tokoh Terkenal — Naratif Biografis Lintas Zaman & Negara)
 
 ## Scope
@@ -49,6 +51,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz singkat "pisahkan fakta/kesaksian/legenda" dari satu narasi campuran tokoh tertentu setelah bagian teori tiap lesson, plus evaluasi skenario: diberi ringkasan kisah pasangan yang belum dibahas, learner mengidentifikasi lensa relasi (`relationships`) mana yang paling relevan dan pelajaran apa yang sahih ditarik.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

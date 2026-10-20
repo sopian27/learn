@@ -65,6 +65,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Concept-check singkat setelah bagian teori tiap lesson (struktur, teori persuasi, riset anxiety), self-review terstruktur dari rekaman video sendiri memakai empat kriteria Review Style di atas, dan (mengikuti model Toastmasters) evaluasi lisan/tertulis dari minimal satu audiens nyata setelah setiap penampilan level Intermediate ke atas.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan beberapa lensa untuk topik yang sama: fondasi klasik (Aristotle — ethos/pathos/logos, akurasi retorika sebagai disiplin filosofis) vs akademik komunikasi kontemporer (Stephen Lucas, riset communication apprehension McCroskey/Ayres — berbasis riset terkontrol) vs metodologi praktik berulang (Toastmasters — belajar lewat siklus tampil-dievaluasi, bukan teori semata) vs kurator ide modern (Chris Anderson/TED — talk berbasis ide untuk audiens umum) vs konsultan presentasi korporat (Nancy Duarte — struktur naratif untuk konteks bisnis). Kontraskan eksplisit dengan "motivational speaker" gaya hype yang minim substansi — ditandai domain ini sebagai retorika kosong, bukan model yang ditiru.

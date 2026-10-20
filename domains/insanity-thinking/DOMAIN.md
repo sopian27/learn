@@ -78,6 +78,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Studi kasus tertulis: satu sesi brainstorming nyata yang dinilai kuantitas dan keliaran idenya, satu Confusion Protocol lengkap, satu Experiment Loop dengan hasil (termasuk yang gagal), penerapan trio 10x/Zero-Based/Subtraction pada satu masalah nyata, dan Insanity Filter lengkap untuk satu keputusan nyata. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Peneliti kreativitas dan inovasi** (Osborn, IDEO/Tom Kelley, David Epstein) — lensa ideation dan cross-disciplinary.

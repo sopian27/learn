@@ -42,6 +42,8 @@ Di atas Universal Review Rubric (`ai-los/CORE_LOS.md`):
 
 Concept-check singkat setelah tiap teori (menguji pemahaman sebelum Applied Practice), plus self-evaluation memakai empat kriteria Review Style di atas sebelum submit artefak.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Bandingkan tiga sudut pandang untuk tiap dilema alokasi: (1) Bill Perkins/kerangka *Die With Zero* — optimalkan pengalaman berbobot usia; (2) komunitas FIRE (`personal-finance` sumber #6) — optimalkan kemandirian finansial lebih dulu; (3) fee-only CFP tradisional — optimalkan keamanan/warisan konservatif. Ketiganya sengaja bertentangan arah di beberapa titik (khususnya soal kapan "cukup aman" untuk mulai membelanjakan) — course ini melatih membuat keputusan sendiri di antara ketiganya, bukan mengikuti satu otoritas.

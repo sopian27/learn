@@ -52,6 +52,8 @@ Tiga lensa di atas Universal Review Rubric (`ai-los/CORE_LOS.md`):
 
 Pertanyaan self-audit tiap lesson yang secara eksplisit mengecek batas domain: "apakah konsep ini beririsan dengan course lain yang sudah dibahas — kalau ya, sudah dirujuk bukan diulang?" — mencegah domain sempit ini merayap balik jadi duplikasi domain lain.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Peneliti resilience (Emmy Werner, Ann Masten, Albert Bandura, Michele Borba sebagai synthesizer populer); peneliti identitas/distinctiveness (Marilynn Brewer, Snyder & Fromkin); penulis dokumen prinsip hidup (Benjamin Franklin, Ray Dalio).

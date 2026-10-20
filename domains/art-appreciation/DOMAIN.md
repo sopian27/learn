@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Art Appreciation (Apresiasi Seni Rupa — Melihat, Warna, Komposisi, Simbol, Filosofi, Sejarah Seni)
 
 ## Scope
@@ -75,6 +77,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz identifikasi istilah seni singkat (bedakan simbol/motif/alegori/simile visual; identifikasi gerakan/periode dari ciri formal), latihan **unseen artwork** (diberi satu karya baru — belum pernah dibahas di course — dari periode/seniman yang dipelajari, atau seniman lain dari gerakan sama, lalu terapkan metode Feldman tanpa bantuan konteks penulis dulu), dan self-audit memakai lima kriteria Review Style di atas sebelum entri Journal disubmit.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

@@ -56,6 +56,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Quiz konsep singkat setelah bagian teori tiap lesson (identifikasi teknik dari kutipan Tolkien/GRRM/Knight atau contoh lain), latihan "spot the technique" pada satu paragraf/scene pendek (identifikasi struktur scene/sequel, foreshadowing, subtext dalam dialog), dan self-audit memakai lima kriteria Review Style di atas sebelum Story Notebook entry disubmit untuk direview.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 Tiga studi kasus utama, dibandingkan secara eksplisit dan berulang lintas modul (bukan satu modul sendiri per penulis):

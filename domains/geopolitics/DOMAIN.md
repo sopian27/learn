@@ -4,6 +4,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Geopolitics (Analisis Geopolitik & Kepentingan Negara)
 
 ## Scope
@@ -71,6 +73,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 ## Assessment Form
 
 Quiz konsep singkat setelah bagian teori tiap lesson (mengenali mazhab realis/liberal/konstruktivis dari sebuah penjelasan skenario), drill "identify the interest" (diberi potongan berita/situasi, tentukan kepentingan keamanan/ekonomi/prestise apa yang mendorong aktor tersebut), dan self-audit memakai lima kriteria Review Style di atas sebelum Geopolitical Brief disubmit untuk direview.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

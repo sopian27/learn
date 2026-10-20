@@ -2,6 +2,8 @@
 
 ## Domain Name
 
+Domain Type: knowledge
+
 Serial Killer Psychology (Psikologi Serial Killer)
 
 ## Scope
@@ -47,6 +49,8 @@ On top of the Universal Review Rubric (Strengths / Weaknesses / Actionable Impro
 ## Assessment Form
 
 A short concept-check quiz after each lesson's theory portion, plus — mirroring `domains/psychology/DOMAIN.md` — a "myth vs. fact" check before Applied Practice begins each module, testing whether a popular true-crime claim related to the lesson (e.g. "serial killers are geniuses," "you can always spot one") holds up against the documented evidence before the learner applies the real framework.
+
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
 
 ## Practitioner Reference Frame
 

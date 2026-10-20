@@ -86,6 +86,8 @@ Di atas Universal Review Rubric (Strengths/Weaknesses/Actionable Improvements/Sc
 
 Latihan reflektif per lesson (mis. audit satu hari dengan tiga urgensi yang ternyata buatan, uji satu aturan digital tiga hari lalu evaluasi, tulis "cukup baik" untuk satu pekerjaan dan kirim), kasus ambigu (kapan melambat adalah kebijaksanaan, kapan penghindaran), dan refleksi tertulis singkat. Bukan quiz hafalan istilah.
 
+**Exercise format (all non-SE domains):** Reasoned-Choice per `ai-los/CORE_LOS.md` "Reasoned-Choice Exercises" (`templates/EXERCISE_REASONED_CHOICE_TEMPLATE.md`) — A/B/C + D "Others", one-sentence reason required for every choice. It replaces the quiz/concept-check/case-study part above; any real-practice assessment above stays.
+
 ## Practitioner Reference Frame
 
 - **Gerakan Slow** (Petrini, Honoré, Parkins & Craig) — lensa asal-usul dan sikap kritis terhadap kultus kecepatan.
