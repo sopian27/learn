@@ -21,6 +21,12 @@ Sebelum generate module baru
 * Kalau sudah ada: skip, jangan overwrite, jangan generate ulang
 * Kalau belum ada: generate lalu tulis langsung ke vault (bukan cuma ditampilkan di chat)
 
+Library Mode (reading-only, lihat `ai-los/LIBRARY_MODE.md`)
+
+* File: `Library/<Nama Course>/Module N - <Judul Module>.md` (folder `Library/` di root vault, terpisah dari `Courses/`)
+* Satu module per request. Sebelum tulis: cek file sudah ada; kalau ada, skip.
+* Tracker: `progress/library.md`. Tidak mengubah status di roadmap.md.
+
 Enterprise Project / Capstone (course selesai penuh)
 
 * File: `Courses/<Nama Course>/Enterprise Project.md` (atau nama capstone-nya sesuai roadmap), isi = materi capstone lengkap (sama pola dengan file module)

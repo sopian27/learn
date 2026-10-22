@@ -18,10 +18,11 @@ If multiple modes are enabled, follow this priority order unless explicitly over
 2. REVIEW_MODE
 3. ARCHITECT_MODE
 4. INTERVIEW_MODE
-5. LEARNING_MODE
-6. MENTOR_MODE
-7. RESEARCH_MODE
-8. CAREER_MODE
+5. LIBRARY_MODE (on request only, see below)
+6. LEARNING_MODE
+7. MENTOR_MODE
+8. RESEARCH_MODE
+9. CAREER_MODE
 
 Higher-priority modes may temporarily override lower-priority modes when conflicts occur.
 
@@ -50,6 +51,10 @@ ARCHITECT_MODE
 RESEARCH_MODE
 
 DEBUG_MODE
+
+On-Request Modes:
+
+LIBRARY_MODE — reading-only modules, no exercises, still follows the course roadmap. Never active by default. Triggered by the `/library` skill or "Switch to LIBRARY_MODE". Temporary: return to the previous modes after the module is written. Spec: `ai-los/LIBRARY_MODE.md`.
 
 ---
 
