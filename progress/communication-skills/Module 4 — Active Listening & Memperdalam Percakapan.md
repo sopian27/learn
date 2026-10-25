@@ -18,3 +18,13 @@
   1. jangan menggali informasi yang sensitif
   2. kalau jawaban narsum udah pendek, udah ganti topic, jangan di lanjutin
   3. nyambung tapi malah kebablasan nyeritain pengalaman diri sendiri
+
+  # Pertanyaan Terbuka vs Tertutup, dan Follow-up yang Menunjukkan Minat Asli
+    * Bentuk pertanyaan menentukan kedalaman jawaban: tertutup untuk konfirmasi, terbuka untuk cerita. Keduanya punya tempat.
+
+  # Self-disclosure Resiprokal: Keterbukaan Bertahap yang Membangun Kedekatan
+   self disclosure adalah saling membuka hal tentang diri, bergantian, dengan kedalaman yang naik pelan-pelan.
+   1. bertahap : mulai dari obrolan yang ringan
+   2. bergantian : jangan oversharing dan mendominasi
+   3. terstruktur : ada aturan main
+

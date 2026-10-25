@@ -1,0 +1,2 @@
+﻿# Friendliness & Warmth Signaling
+
