@@ -31,4 +31,9 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | communication-skills | 7.3 | Lesson 7.3 - Vulnerability Terkontrol sebagai Alat Kedekatan, Bukan Oversharing.md | 2026-10-25 | Dibuat |
 | communication-skills | 7.4 | Lesson 7.4 - Menangani Penolakan Secara Sehat, Ditolak Orangnya vs Ditolak Momennya.md | 2026-10-25 | Dibuat |
 | communication-skills | 8.1 | Lesson 8.1 - Meminta Kontak, Momen yang Tepat dan Menerima Jawaban Apa Pun.md | 2026-10-25 | Dibuat |
+| communication-skills | 8.2 | Lesson 8.2 - Follow-up Chat Pertama dan Mengajak Kencan Tanpa Menekan.md | 2026-10-25 | Dibuat |
+| communication-skills | 8.3 | Lesson 8.3 - Kencan Pertama, Persiapan Ringan dan Menjaga Percakapan Tetap Mengalir.md | 2026-10-25 | Dibuat |
+| communication-skills | 8.4 | Lesson 8.4 - Setelah Kencan, Membaca Sinyal Lanjut atau Tidak dan Menerima dengan Legawa.md | 2026-10-25 | Dibuat |
 | backend-fundamentals | 6.3 | Lesson 6.3 - JPA Hibernate Internals, Lazy vs Eager, N+1, Read-Only Transaction.md | 2026-10-23 | Dibuat |
+| communication-skills | 9.1 | Lesson 9.1 - Menyusun Social Practice Plan Pribadi, Frekuensi, Jenis Interaksi, dan Target Bertahap 4-8 Minggu.md | 2026-10-25 | Dibuat |
+| communication-skills | 9.3 | Lesson 9.3 - Mengenali Red Flag yang Butuh Eskalasi ke Profesional vs yang Cukup Dilatih Mandiri.md | 2026-10-25 | Dibuat |
