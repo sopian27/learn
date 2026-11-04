@@ -77,6 +77,42 @@
   Terapin: 
   Sebelum fan-out, tulis satu baris per panggilan: "kalau ini gagal/lambat, checkout lanjut atau berhenti?"
 
-  2.4 Virtual Threads (Java 25)
+  # Virtual Threads (Java 25)
+  pool adalah sekumpulan resource yang sudah disiapkan agar bisa digunakan ulang tanpa harus dibuat atau dihancurkan terus menerus.
+
+  static void run(ExecutorService ex, int n, long sleepMs) {
+        IntStream.range(0, n).forEach(i -> ex.submit(() -> {
+            try { Thread.sleep(sleepMs); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+        }));
+  }
+
+  thread/worker : pekerja
+  n : banyaknya task atau pekerjaan
+  sleep : simulasi waktu pengerjaan
+  blocking : thread harus nunggu sampai suatu operasi selesai sebelum bisa melanjutkan pekerjaan berikutnya
+  non blocking : thread tidak perlu berhenti , dia bisa lanjut
+  sync : pemanggil harus menunggu hasil dalam alur normalnya
+  async : pemanggil tidak perlu menunggu hasil secara langsung
+  
+  virtual thread :
+  1. untung besarr kalau beban io dengan banyak request konkuren untuk web backend
+  2. tidak untung buat cpu bound
+  3. jangan pool virtual thread, pool itu untuk membatasi resource mahal, virtual thread itu muraah buat satu per task
+
+  jangan dilakukan :
+  1. bikin newfixthreadpool berisi virtual thread dengan anggapan jadi lebih cepet, salah dia lebih banyak, bukan lebih cepat
+  2. pake vt di cpu-bound itu gak ngaruh 
+  
+  best case:
+  1. service yang blocking io dan kewalahan karena thread pool habis, padahal cpu masih longgar
+  2. di java 25 lebih ideal
+
+  aturan emas:
+  sebelum menambah kapasitas, cari dulu apa yang sebenarnya habis, dan kalau satu batas dibuang, pastikan ada batas lain yang menggunakannya
+
+  Terapin: 
+  Waktu performa jelek, tulis dulu satu baris "yang jenuh itu apa: thread, CPU, DB, atau jaringan?" sebelum mengubah konfigurasi apa pun.
+
+
   2.5 Bug concurrency di production: deadlock, livelock, stale read, baca thread dump
 
