@@ -21,8 +21,32 @@
   Thread-safe itu soal melindungi invariant, bukan soal menempelkan synchronized di method.
 
   # java.util.concurrent: ExecutorService, thread pool sizing, ConcurrentHashMap vs Collections.synchronizedMap
+
+  1. jangan new thread di jalur request, pakai pool yang ukurannya di putuskan
+  2. ukur dulu cpu bound atau i/o bound 
+  3. queue berbatas + rejection policy yang disengaja, supaya overload terlihat cepat
+  4. untuk map yang dibagi: conccurrentHashMap + operasi atomik (merge, compute), synchronizeMap hanya layak untuk beban kecil yang sederhana
+
+  jangan di lakukan :
+  1. asal copy newFixThreadPool tanpa sadar kalau queue tumbuh tanpa batas
+  2. satu pool untuk semua jenis task, padahal harusnya dipisah antara cpu dan io
+  3. mengganggap ketika udah pake concurrentHashMap otomatis thread safe, padahal get lalu put tetep race
+  4. lupa shutdown pool, thread non daemon menahan jvm tidak bisa berhenti
+  5. jangan tambah pool kalau bottleneck nya db
+  6. jangan pakai cache in memory kalau datanya harus konsisten antar pod
+
+  best case :
+  1. kerja paralel yang bisa dipisah
+  2. cache atau counter in memory yang diakses banyak request
+
+  Aturan Emas:
+  Pool bukan soal berapa banyak thread yang lu punya, tapi soal apa yang terjadi saat kerjaan datang lebih cepat dari yang bisa lu selesaikan.
+
+  Terapin:
+  Tiap bikin pool, tulis jawaban "kalau queue penuh, apa yang terjadi?" sebelum nulis angka ukurannya.
+
+  # CompletableFuture: composing async, exception handling, vs reactive
   
-  2.3 CompletableFuture: composing async, exception handling, vs reactive
   2.4 Virtual Threads (Java 25)
   2.5 Bug concurrency di production: deadlock, livelock, stale read, baca thread dump
 
