@@ -52,16 +52,40 @@ Target: about 5 minutes of reading, roughly 700-900 words max. Cut depth before 
 Per lesson file:
 
 1. **Peta** (only on the first lesson of a module): lessons of the module (copied from roadmap) and one short paragraph on why this module matters for the reader. Other lessons skip it.
-2. **Isi lesson**: Why, How, Trade-offs / Alternatives. A text diagram or table where it clarifies. One real-world example (companies such as Netflix, Uber, Stripe, GitHub, Gojek where fitting). Course-specific frameworks from the course roadmap still apply (e.g. evidence labels, SHADOW for `100-tokoh-dunia`).
+2. **Isi lesson**: told as a **story** by default (see Storytelling below), still covering Why, How, Trade-offs / Alternatives. A text diagram or table where it clarifies. One real-world example (companies such as Netflix, Uber, Stripe, GitHub, Gojek where fitting). Course-specific frameworks from the course roadmap still apply (e.g. evidence labels, SHADOW for `100-tokoh-dunia`).
 3. **Kesalahan umum**: 2-3 short bullets.
 4. **Cara pakai di kerjaan** (mandatory, never dropped):
    * Kapan dipakai
    * Kapan dihindari
    * Checklist (3-6 items, shorter for non-technical courses)
 5. **Satu hal yang bisa dicoba minggu ini**: exactly one line, clearly optional.
-6. **Ringkasan**: 3 bullets.
+6. **Aturan Emas** (mandatory, one per lesson): ONE memorable sentence the reader can carry into daily life, plus one line on how to apply it.
+   * Technical courses: a golden rule for work (code, review, debugging, design, working with the team).
+   * Non-technical courses: a golden rule for communicating with other people (what to say or do in a real conversation).
+   * Must be a distilled principle from this lesson, not a repeat of the summary or the checklist. Format: `> **Aturan Emas:** <kalimat>` then `Terapin: <satu baris situasi nyata>`.
+7. **Ringkasan**: 3 bullets.
+
+## Storytelling (default for "Isi lesson")
+
+Open the lesson body with one short fictional scenario and let it carry the concept, instead of a plain explanation.
+
+* Structure: **Babak 1 Setup** (tokoh + situasi, 1 paragraph) → **Babak 2 Tension** (what goes wrong or feels awkward; the *Why* surfaces here) → **Babak 3 Payoff** (same situation replayed with the technique applied) → **Apa yang bisa diambil** (How: table / rule of thumb / ready-to-use phrases) → Trade-offs → Real-world example.
+* Characters are short-named and relatable to the course audience (rekan kerja, teman, tim engineering). Add one italic line stating the characters and events are fictional. Never use real people for invented scenes; for `100-tokoh-dunia` stay with sourced facts and the evidence labels, no invented dialogue.
+* Technical courses: the story is a short incident or code-review scene (e.g. a bug in production, a PR discussion) leading into the concept; keep code blocks outside the story.
+* The story must serve the lesson. Keep it within the word target by making the scenes compact; cut story before cutting "Cara pakai di kerjaan".
+* User can opt out per call with "tanpa cerita" / "versi ringkas"; then use the plain Why/How/Trade-offs layout.
 
 Language and tone: Bahasa Indonesia, casual **lu/gua** style so the text feels alive (like a senior friend ngobrol), simple words, deep content. Technical terms stay in English. Still honest and accurate; casual does not mean sloppy. Java 25 / Spring Boot examples when the course is technical.
+
+## Technical Courses: Companion Playground
+
+For technical software engineering courses (Java, Spring, SQL, DB, Kafka, etc.), the lesson ships with a small runnable companion in `playground/`, so the theory can be seen working. This is a demo to run and poke, NOT an exercise: no tasks, no grading, no "to do later".
+
+* **Query / DB lessons**: prepare tables + dummy data as a `.sql` file in `playground/sql-practice/<module>-<topic>-sample-data.sql` (idempotent: `DROP TABLE IF EXISTS` first, header with the `psql` run command). Reuse an existing sample-data file if its tables already fit; extend it instead of duplicating. Include the example queries from the lesson as commented blocks at the bottom.
+* **Code lessons**: a tiny dummy project/class under `playground/<course>/<topic>/` that reproduces the lesson's story (the bug, then the fix) with real-world-shaped names (Order, Payment, Product...). Keep it single-file or minimal-build (e.g. `java Demo.java`), runnable in one command, with a short `README.md` (run command + what to look for).
+* The lesson file mentions the companion path in "Satu hal yang bisa dicoba" (still one optional line) and may reference it in "Cara pakai di kerjaan".
+* Size: the companion must stay small (about 50-120 lines). One lesson = one companion. Non-technical courses skip this.
+* Playground rules (`playground/PLAYGROUND_RULES.md`) apply: readable, not production-grade.
 
 ---
 
@@ -110,6 +134,10 @@ The target lesson followed the roadmap order.
 
 The file exists in the vault under `Library/<Nama Course>/`.
 
+For technical courses, the companion playground file exists and the lesson links its path.
+
 `progress/library.md` has the row.
 
 "Cara pakai di kerjaan" is present and concrete.
+
+"Aturan Emas" is present: work-oriented for technical courses, communication-oriented for non-technical courses.
