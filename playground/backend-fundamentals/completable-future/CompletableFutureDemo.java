@@ -24,22 +24,26 @@ public class CompletableFutureDemo {
                 .thenCombine(fraud, (po, f) -> po + "," + f).join();
         System.out.println("1b paralel   : " + ms(t) + " ms -> " + par + " (harapan ~200)");
 
-        // 2a: exception dibungkus CompletionException; join() melempar bungkusannya, bukan aslinya.
+        // 2a: exception dibungkus CompletionException; join() melempar bungkusannya,
+        // bukan aslinya.
         try {
             CompletableFuture.supplyAsync(() -> fail("fraud"), IO).join();
         } catch (CompletionException e) {
             System.out.println("2a join melempar CompletionException, penyebab asli: " + e.getCause());
         }
 
-        // 2b: exceptionally = fallback. Tanpa ini satu layanan gagal menjatuhkan seluruh rantai.
+        // 2b: exceptionally = fallback. Tanpa ini satu layanan gagal menjatuhkan
+        // seluruh rantai.
         String safe = CompletableFuture.supplyAsync(() -> fail("promo"), IO)
                 .exceptionally(ex -> "promo=0 (fallback)").join();
         System.out.println("2b fallback  : " + safe);
 
-        // 2c: tanpa join/get/handler, error hilang diam-diam (tidak ada log, tidak ada stack trace).
+        // 2c: tanpa join/get/handler, error hilang diam-diam (tidak ada log, tidak ada
+        // stack trace).
         CompletableFuture<String> silent = CompletableFuture.supplyAsync(() -> fail("ongkir"), IO);
         sleepQuietly(100);
-        System.out.println("2c future gagal tapi tidak ada yang tahu: isCompletedExceptionally=" + silent.isCompletedExceptionally());
+        System.out.println("2c future gagal tapi tidak ada yang tahu: isCompletedExceptionally="
+                + silent.isCompletedExceptionally());
 
         // 3: layanan hilir macet 3 detik. orTimeout memotong jadi 300 ms lalu fallback.
         t = System.nanoTime();
@@ -65,6 +69,10 @@ public class CompletableFutureDemo {
     }
 
     static void sleepQuietly(long ms) {
-        try { Thread.sleep(ms); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
 }

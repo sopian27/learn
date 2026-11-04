@@ -47,6 +47,36 @@
 
   # CompletableFuture: composing async, exception handling, vs reactive
   
+  thenApply : transformasi hasil
+  thenCompose : langkah berikutnya async return completablefuture
+  thencombine : join dua future independence
+  alloff : tunggu banyak future
+  anyof : ambil yang tercepat
+
+  - panggilan idependence dengan supplyasync + then combine
+  - putuskan per layanan : wajib (error merambat) atau opsional (berikan fallback)
+  - semua panggilan hilir diberikan timeout
+  - rantai selalu berakhir di join 
+
+  jangan di lakukan :
+  1. supplyasync tanpa executor untuk task blocking (menguras pool)
+  2. memakai thenapply saat langkah selanjutnya adalah result sync jadinya future bersarang
+  3. lupa join() error hilang diam-diam, atau execption tidak di tangkap error di telan tanpa melihat cause()
+  4. memanggil get() / join() di tengah rantai bukannya async malah balik jadi sync
+
+  best case :
+  1. satu req bisa beberapa panggilan dan bisa paralel
+  2. ada layanan yang bisa fallback kalau gagal
+
+  jangan di lakukan :
+  1. panggilan saling bergantung, sequential lebih sederhana
+
+  aturan emas:
+  Kerja paralel itu mudah dibuat; yang bikin aman adalah memutuskan dari awal apa yang terjadi saat salah satu bagiannya gagal atau lambat.
+
+  Terapin: 
+  Sebelum fan-out, tulis satu baris per panggilan: "kalau ini gagal/lambat, checkout lanjut atau berhenti?"
+
   2.4 Virtual Threads (Java 25)
   2.5 Bug concurrency di production: deadlock, livelock, stale read, baca thread dump
 
