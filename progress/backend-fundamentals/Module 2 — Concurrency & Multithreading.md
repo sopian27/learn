@@ -114,5 +114,20 @@
   Waktu performa jelek, tulis dulu satu baris "yang jenuh itu apa: thread, CPU, DB, atau jaringan?" sebelum mengubah konfigurasi apa pun.
 
 
-  2.5 Bug concurrency di production: deadlock, livelock, stale read, baca thread dump
+  # Bug concurrency di production: deadlock, livelock, stale read, baca thread dump
 
+  deadlock : thread saling nunggu lock yang dipegang lawan, cpu rendah dan request macet
+  livelock : thread sibuk bereaksi satu sama lain, tapi tidak ada yang maju, cpu tinggi dan request macet
+  stale read : thread baca nilai lama, intermitten benar atau salah
+
+  jangan di lakukan :
+  1. jangan memegang lock sambil request IO, itu memperbesar peluang deadlock
+  2. restart tanpa thread dump, akar masalah tidak pernah ketahuan
+  3. jangan bilang deadlock sebelum mendapatkan bukti investigasi dari thread dump
+  4. jangan buat lock untuk jaga-jaga, lebih banyak lock berarti lebih banyak deadlock
+
+  aturan emas:
+  saat sistem macet, ambil bukti dulu sebelum memperbaiki, restart cuman menghapus saksi, bukan masalahnya
+  
+  terapin:
+  Waktu ada kejadian aneh di kerjaan atau di hidup, catat dulu apa yang terlihat (waktu, kondisi, siapa terlibat) sebelum mengubah apa pun.
