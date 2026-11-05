@@ -17,6 +17,19 @@
   pas review PR yang nambah `static` collection atau cache, tanya satu hal: "Siapa yang menghapus isinya, dan kapan?"
   
   # Garbage Collector: GC generasional, G1, ZGC, trade-off throughput vs latency
+
+  best base :
+  1. saat latency naik tapi rata rata normal
+
+  jangan di lakukan :
+  1. jangan tuning flag gc detail tanpa bukti dari log
+  2. jangan pake zgc karena alasan modern
+
+  Aturan Emas:
+  Jangan ganti obat sebelum tahu penyakitnya; ukur dulu, baru tuning.
+
+  Terapin:
+  pas ada keluhan "lambat", minta log GC atau grafik pause dulu, baru diskusi collector atau flag.
   
   3. Memory leak klasik di Spring Boot: static collection, listener, `ThreadLocal`
   
