@@ -78,3 +78,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 2.3 | Lesson 2.3 - CompletableFuture, Composing Async, Exception Handling, dan Kapan Reactive.md | 2026-11-04 | Dibuat |
 | backend-fundamentals | 2.4 | Lesson 2.4 - Virtual Threads Java 25, Beda dengan Platform Thread, dan Kapan Benar-benar Menguntungkan.md | 2026-11-05 | Dibuat |
 | backend-fundamentals | 2.5 | Lesson 2.5 - Bug Concurrency di Production, Deadlock, Livelock, Stale Read, dan Cara Baca Thread Dump.md | 2026-11-05 | Dibuat |
+| backend-fundamentals | 3.1 | Lesson 3.1 - Memory Model JVM, Heap vs Stack vs Metaspace, Object Lifecycle, dan Kapan Eligible GC.md | 2026-11-05 | Dibuat |
