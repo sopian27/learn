@@ -82,3 +82,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 3.2 | Lesson 3.2 - Garbage Collector, GC Generasional, G1, ZGC, dan Trade-off Throughput vs Latency.md | 2026-11-05 | Dibuat |
 | backend-fundamentals | 3.3 | Lesson 3.3 - Memory Leak Klasik di Spring Boot, Static Collection, Listener, dan ThreadLocal.md | 2026-11-05 | Dibuat |
 | backend-fundamentals | 3.4 | Lesson 3.4 - Baca Heap Dump dan Thread Dump, jcmd, VisualVM, dan JFR.md | 2026-11-06 | Dibuat |
+| backend-fundamentals | 3.5 | Lesson 3.5 - JVM Flags Production-Relevan Secukupnya, Heap Sizing, GC Selection, dan Container.md | 2026-11-06 | Dibuat |

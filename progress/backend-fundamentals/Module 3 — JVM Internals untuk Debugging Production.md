@@ -68,4 +68,14 @@
   sebelum restart ambil dump dulu satu menit lebih baik daripada berjam jam nebak
   
   # JVM flags production-relevan secukupnya
+  jangan di lakukan :
+  1. Tuning mendalam (region size, thread GC, dan sejenisnya) tanpa data GC log dan profil.
+  2. Menyalin konfigurasi service lain yang beban dan ukuran heap-nya beda.
+
+  Aturan Emas:
+  Jangan set yang lu nggak bisa jelaskan.
+
+  Terapin:
+  saat review PR yang menambah flag JVM, tanya "flag ini ngubah apa, dan angka apa yang membuktikan?" Kalau jawabannya kosong, hapus.
+
 
