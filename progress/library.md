@@ -84,3 +84,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 3.4 | Lesson 3.4 - Baca Heap Dump dan Thread Dump, jcmd, VisualVM, dan JFR.md | 2026-11-06 | Dibuat |
 | backend-fundamentals | 3.5 | Lesson 3.5 - JVM Flags Production-Relevan Secukupnya, Heap Sizing, GC Selection, dan Container.md | 2026-11-06 | Dibuat |
 | backend-fundamentals | 4.1 | Lesson 4.1 - IoC Container dan ApplicationContext, Bean Definition dan Bean Lifecycle.md | 2026-11-06 | Dibuat |
+| backend-fundamentals | 4.2 | Lesson 4.2 - Dependency Injection, Constructor vs Setter vs Field Injection.md | 2026-11-06 | Dibuat |

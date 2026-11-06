@@ -29,6 +29,24 @@
   
   # Dependency Injection: constructor vs setter vs field injection
   
+  keuntungan constructor injection :
+  1. immutability : field final tidak bisa diubah setelah dibuat
+  2. testability : unit test lebih mudah
+  3. fail-fast : dependency kurang = gagal, langsung ketahuan
+  4. desain jujur : constructor panjang langsung keliatan
+
+  jangan di lakukan :
+  1. field injection itu mengorbankan testability dan kejujuran design
+  2. lupa nge set field injection padahal wajib
+  3. constructor dengan lebih dari +6 field dibiarkan begitu saja
+
+  aturan emas:
+  dependency yang harusnya wajib harus mustahil terlupa, bukan cuma "biasanya ingat".
+
+  terapin:
+  saat review code, kalau liat autowired di field tanya kenapa gak via constructor
+
+
   3. Bean scope (singleton, prototype, request, session)
   4. AOP & Proxy: JDK dynamic proxy vs CGLIB, pitfall self-invocation
   5. Circular dependency dan cara Spring (gagal) mengatasinya
