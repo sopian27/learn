@@ -89,4 +89,19 @@
   saat "@Transactional kok nggak rollback", pertama-tama tanya "siapa yang memanggil method ini, proxy atau `this`?"
 
   5. Circular dependency dan cara Spring (gagal) mengatasinya
+  cara memutus siklus:
+  1. ekstrak bean ketiga yang memegang logika bersama
+  2. setter injection + allow circular references
+
+  jangan di lakukan :
+  1. nyalain allow circular references agar supaya apps bisa jalan
+  2. pindah ke field atau setter injection supaya error ilang
+  3. pakai @lazy dimana mana sebagai solusi default
+  4. dua service domain yang saling memanggil , lebih baik lewat bean ketiga atau event
+
+  aturan emas:
+  kalau dua hal saling butuh, jangan cari cara menyambungnya, cari hal ketiga yang bisa nyambungin tanpa mereka harus kenal
+
+  terapin:
+  saat review pr ada dua service yang saling inject
 
