@@ -1,4 +1,30 @@
 ﻿# Database & Persistence Mendalam
+
+  # Indexing mendalam
+  index default postgree adalah btree. Karena terurut btree bagus untuk equality (=), range, order by, min/max, like 'abc%'
+
+  best case :
+  equality dulu baru column sort
+
+  seq scan : planner membaca semua
+
+  index memperlambat write : tiap insert/update/delete harus update semua index, akibatnya write jadi lebih lama.
+
+  untuk data besar sebaiknya update index dengan CONCURRENTLY 
+
+  jangan di lakukan :
+  1. bikin index tanpa menggunakan explain, lalu mengganggap issue udah selesai karena ada index
+  2. urutan column composite terbalik 
+  3. menambah index di column yang sering di write tanpa ngitung dampak ke insert nya
+  4. bikin index buat jaga-jaga aja
+
+  Aturan Emas: 
+  Jangan nambah index karena yakin, tambah karena plan-nya bilang begitu.
+
+  Terapin: 
+  sebelum PR yang isinya CREATE INDEX, tempel EXPLAIN sebelum dan sesudah di deskripsi PR.
+
+  # Normalisasi vs denormalisasi yang sadar trade-off
   # JPA/Hibernate Internals: Lazy vs Eager, N+1, @Transactional(readOnly = true)
   persistance context :
   1. lazy : baru di query ketika object nya dipanggil 
