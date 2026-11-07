@@ -25,6 +25,18 @@
   sebelum PR yang isinya CREATE INDEX, tempel EXPLAIN sebelum dan sesudah di deskripsi PR.
 
   # Normalisasi vs denormalisasi yang sadar trade-off
+
+  jangan di lakukan :
+  1. Menganggap "normalisasi = lambat" tanpa pernah ukur join-nya; padahal join di kolom ter-index biasanya murah.
+  2. Denormalisasi duluan karena takut, lalu nggak ada yang tahu tabel mana sumber kebenaran.
+  3. Menyamakan snapshot historis dengan duplikasi, lalu "membersihkannya" dan merusak data lama.
+
+  Aturan Emas: 
+  Normalisasi dulu sebagai default, denormalisasi cuma kalau ada angka yang ngebuktiin dan ada jalan buat bangun ulang.
+
+  Terapin: 
+  sebelum nambah kolom salinan di PR, tulis di deskripsi: sumber kebenarannya di mana, siapa yang nulis, dan query apa yang membangunnya ulang.
+  
   # JPA/Hibernate Internals: Lazy vs Eager, N+1, @Transactional(readOnly = true)
   persistance context :
   1. lazy : baru di query ketika object nya dipanggil 
