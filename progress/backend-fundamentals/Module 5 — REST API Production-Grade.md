@@ -41,6 +41,12 @@
   Terapin: 
   pas review PR, cari throw di jalur input dan tanya "klien bakal liat status dan body apa?"; kalau jawabannya stack trace, tolak.
 
-Dokumentasi API-first dengan OpenAPI
-Idempotency & konvensi REST lanjut: PUT vs PATCH, ETag
+  # Dokumentasi API-first dengan OpenAPI
+  Aturan Emas: 
+  Dokumentasi yang nggak dijaga mesin cuma janji; jadiin kontrak itu yang menggugat kode, bukan sebaliknya.
+
+  Terapin: 
+  pas bikin atau review endpoint, tanya "kalau kode ini beda dari spec, apa yang bakal merah, dan di mana?"
+
+  # Idempotency & konvensi REST lanjut: PUT vs PATCH, ETag
 
