@@ -92,3 +92,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 5.2 | Lesson 5.2 - Versioning Strategy, URI vs Header, dan Kapan Breaking Change Butuh Versi Baru.md | 2026-11-07 | Dibuat |
 | backend-fundamentals | 5.3 | Lesson 5.3 - Validation Layer yang Benar dan Error Response Konsisten.md | 2026-11-07 | Dibuat |
 | backend-fundamentals | 5.4 | Lesson 5.4 - Dokumentasi API-first dengan OpenAPI, Kontrak sebagai Sumber Kebenaran.md | 2026-11-07 | Dibuat |
+| backend-fundamentals | 5.5 | Lesson 5.5 - Idempotency dan Konvensi REST Lanjut, PUT vs PATCH dan ETag.md | 2026-11-07 | Dibuat |

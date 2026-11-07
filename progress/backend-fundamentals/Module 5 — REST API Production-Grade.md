@@ -50,3 +50,22 @@
 
   # Idempotency & konvensi REST lanjut: PUT vs PATCH, ETag
 
+  Idempotent = dipanggil 1 kali atau 10 kali dengan input sama, efek ke server-nya sama.
+
+  GET, PUT, DELETE : idempotent
+  PATCH : tergantung
+  POST : tidak
+
+  PUT : replace
+  PATCH : ubah sebagian
+
+  jangan di lakukan :
+  1. put dipakai buat edit sebagian, jadi field yang gak dikirim ketimpa kosong
+  2. nganggep post itu aman untuk di retry
+
+  aturan emas:
+  jangan pernah nulis berdasarkan data yang lu nggak tahu masih sama atau gak, bawa versi yang dibaca, dan biar sistem yang nolak kalau emang udah beda
+
+  Terapin: 
+  pas review endpoint tulis, tanya "kalau dua orang edit ini barengan, atau request ini ke-retry, apa yang kejadian?"
+
