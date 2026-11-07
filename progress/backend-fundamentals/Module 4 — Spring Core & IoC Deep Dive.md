@@ -85,10 +85,8 @@
   Aturan Emas:
   Kalau sebuah anotasi tidak bekerja, curigai jalur panggilannya dulu, baru logikanya.
 
-  Terapin: 
+  Terapin:
   saat "@Transactional kok nggak rollback", pertama-tama tanya "siapa yang memanggil method ini, proxy atau `this`?"
-
-
 
   5. Circular dependency dan cara Spring (gagal) mengatasinya
 
