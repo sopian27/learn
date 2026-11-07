@@ -46,8 +46,49 @@
   terapin:
   saat review code, kalau liat autowired di field tanya kenapa gak via constructor
 
+  # Bean scope (singleton, prototype, request, session)
+  scope
+  1. singleton : hidup seumur aplikasi (1 per container) cocok untuk service, repo, client
+  2. prototype : container cuman buat, gak ngurusin destroy nya (1 per request)
+  3. request : 1 per HTTP (1 request)
+  4. session : 1 per HTTP session (1 session user)
 
-  3. Bean scope (singleton, prototype, request, session)
-  4. AOP & Proxy: JDK dynamic proxy vs CGLIB, pitfall self-invocation
+  singleton harus thread safe (jangan bocor), caranya :
+  1. simpan di param
+  2. variable lokal
+  3. atau thread safe
+
+  jangan di lakukan :
+  1. nyimpen data per-request di bean singleton (akibatnya jadi race condition)
+  2. ngira kalau prototype akan dibuat terus ketika request baru (padahal prototype juga di inject ke singleton)
+  
+  best case:
+  1. singleton (default) untuk service, repository, dan client yang stateless.
+  2. Prototype untuk objek stateful ringan yang tiap pemakai harus punya sendiri (builder, collector), diminta lewat `ObjectProvider`.
+
+  aturan emas:
+  Kalau banyak client berbagi satu objek, objek itu tidak boleh mengingat siapa pun.
+
+  Terapin: 
+  saat review `@Service`, scan field-nya; tiap field yang diubah setelah startup wajib dijawab, "siapa saja yang berbagi instance ini?"
+
+  # AOP & Proxy: JDK dynamic proxy vs CGLIB, pitfall self-invocation
+  aop (aspect oriented programming) : menaruh urusan lintas feature (trx, logging, security, cache, retry) di satu tempat, bukan di salin ke tiap method.
+
+  JDK-DYNAMIC PROXY : punya java bawaan
+  CGLIB : punya spring
+
+  jangan di lakukan :
+  1. nganggep `@Transactional`/`@Async`/`@Cacheable` bisa pake `this.method()` di class yang sama.
+  2. pake anotasi `@Transactional`/`@Async`/`@Cacheable` padahal method `private` atau class `final` (CGLIB gagal)
+
+  Aturan Emas:
+  Kalau sebuah anotasi tidak bekerja, curigai jalur panggilannya dulu, baru logikanya.
+
+  Terapin: 
+  saat "@Transactional kok nggak rollback", pertama-tama tanya "siapa yang memanggil method ini, proxy atau `this`?"
+
+
+
   5. Circular dependency dan cara Spring (gagal) mengatasinya
 
