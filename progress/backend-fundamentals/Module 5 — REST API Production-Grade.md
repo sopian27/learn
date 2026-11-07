@@ -25,7 +25,22 @@
   Terapin: 
   pas review PR yang nyentuh DTO response, tanya satu hal: "klien lama yang belum update bakal ngapain?"
 
-Validation layer yang benar dan error response konsisten
+  # Validation layer yang benar dan error response konsisten
+  dua lapis validasi:
+  1. format / struktur : DTO + @valid
+  2. aturan bisnis : service /domain
+
+  jangan di lakukan :
+  1. Jangan pernah kirim stack trace atau pesan exception mentah. Detailnya masuk log, klien cuma dapat traceId buat dilaporin ke support.
+  2. Validasi lempar exception biasa dan nggak ada handler global, jadinya 500 + stack trace.
+  3. jangan pindahin aturan bisnis yang butuh DB ke annotation. Jangan validasi ulang hal yang sama di tiga lapis (controller, service, repository) tanpa alasan.
+
+  Aturan Emas: 
+  Pesan error itu antarmuka buat orang yang lagi salah; tulis supaya dia tahu apa yang harus dibenerin, dan jangan pernah kasih peta rumah lu.
+
+  Terapin: 
+  pas review PR, cari throw di jalur input dan tanya "klien bakal liat status dan body apa?"; kalau jawabannya stack trace, tolak.
+
 Dokumentasi API-first dengan OpenAPI
 Idempotency & konvensi REST lanjut: PUT vs PATCH, ETag
 

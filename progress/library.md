@@ -90,3 +90,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 4.5 | Lesson 4.5 - Circular dependency dan cara Spring (gagal) mengatasinya.md | 2026-11-07 | Dibuat |
 | backend-fundamentals | 5.1 | Lesson 5.1 - Desain Resource dan Kontrak REST yang Konsisten, Naming, Method, Status Code, Pagination, Filtering.md | 2026-11-07 | Dibuat |
 | backend-fundamentals | 5.2 | Lesson 5.2 - Versioning Strategy, URI vs Header, dan Kapan Breaking Change Butuh Versi Baru.md | 2026-11-07 | Dibuat |
+| backend-fundamentals | 5.3 | Lesson 5.3 - Validation Layer yang Benar dan Error Response Konsisten.md | 2026-11-07 | Dibuat |
