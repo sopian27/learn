@@ -79,4 +79,28 @@
   3. create index di table besar tanpa concurrently
   4. jangan pakai R_ repeatable migration buat schema yang tumbuh itu hanya buat, view, function dan store procedure
 
+  # Connection pooling (HikariCP)
+  
+  maximumPoolSize : batas koneksi
+  connectionTimeout : berapa lama thread nunggu koneksi
+  leakDetectionThreshold : Log stack trace kalau koneksi ditahan terlalu lama
+  maxLifetime : Umur maksimum koneksi
+
+  penyebab klasik pool habis:
+  1. panggilan jaringan lambat di dalam @transaction
+  2. spring.jpa.open-in-view=true, panggilan ditahan sampai view selesai
+  3. query lambat karena index hilang
+  4. kebocoran koneksi karena jdbc yang lupa close
+  5. pool dinaikan padahal root cause karena lama menahan
+
+  jangan di lakukan :
+  1. naikin maximumPoolSize sebagai langkah pertama, dan gak liat pg_stat_activity dulu
+  2. lupa menghitung total koneksi semua pods terhadap max_connections
+  3. manggil api external di dalam transaksi , jadi koneksi di tahan (gabungin transaksi query dan io)
+
+  Aturan Emas: 
+  Kalau resource yang terbatas habis, cari siapa yang menahannya terlalu lama sebelum menambah jumlahnya.
+
+  Terapin: 
+  waktu muncul error pool timeout, buka pg_stat_activity dan thread dump dulu, baru putuskan apakah yang perlu diubah itu kodenya atau angkanya.
 
