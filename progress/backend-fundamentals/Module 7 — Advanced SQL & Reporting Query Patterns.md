@@ -29,8 +29,26 @@
   waktu review atau nulis query reporting, kalau lu harus baca subquery dari kurung terdalam, pecah jadi CTE bernama dulu sebelum ngasih komentar lain.
 
   # Window Function: Running Total, Top-N per Grup, Perbandingan Periode
-  
 
+  - `ROW_NUMBER`: selalu unik, yang kembar diurutkan sembarang.
+  - `RANK`: kembar dapat nomor sama, nomor berikutnya **loncat** (1, 2, 2, 4).
+  - `DENSE_RANK`: kembar dapat nomor sama, **tanpa loncat** (1, 2, 2, 3).  
+
+  window function : satu query baris utuh
+
+  jangan di lakukan :
+  1. window function di where. Error. Bungkus pakai CTE atau subquery, filter di luar.
+  2. **`ROW_NUMBER` padahal seri harus adil.** Salah satu produk kena "kalah" acak. Pakai `RANK` atau `DENSE_RANK`.
+  3. **Lupa `ORDER BY` eksplisit di `OVER`.** Hasil bergantung urutan fisik baris, jadi nggak deterministik. Tambah tie-breaker (misal `id`) kalau butuh hasil stabil.
+  4. table besar tanpa index, cek dulu dengan explain analyze
+  5. data kecil yang disimpan di satu tempat
+
+
+  Aturan Emas: 
+  Kalau ada nilai kembar, putuskan aturan serinya dulu sebelum nulis query ranking, karena angka yang bisa berubah tanpa data berubah itu bug.
+
+  Terapin: 
+  sebelum nulis `ROW_NUMBER`, tanya "kalau dua baris sama nilainya, siapa yang berhak tampil?", lalu pilih `RANK`/`DENSE_RANK` atau tambah tie-breaker.
 
 
   
