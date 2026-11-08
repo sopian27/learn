@@ -96,7 +96,25 @@
   Terapin:
   tiap kali lu nulis `+` atau `String.format` di dekat kata `SELECT`, `WHERE`, atau `ORDER BY`, berhenti dan ganti dengan parameter atau whitelist.
   
-  5. Performance query reporting: `EXPLAIN ANALYZE`, materialized view
+  # Performance query reporting: `EXPLAIN ANALYZE`, materialized view
+
+  Rekomendasi: tuning dulu, karena murah. Kalau setelah tuning query masih harus menjumlah jutaan baris dan data boleh telat beberapa menit sampai jam, pakai materialized view. Pindah ke summary table kalau butuh refresh inkremental
+
+  jangan di lakukan :
+  1. **Nambah index tanpa baca plan.** Index yang nggak dipakai cuma memperlambat write.
+  2. **Lupa `EXPLAIN ANALYZE` menjalankan query.** Untuk statement yang mengubah data, bungkus transaksi lalu rollback.
+  3.  **Materialized view tanpa jadwal refresh dan tanpa penanda "per kapan".** User kira angkanya real-time. Tampilkan `refreshed_at`.
+  4. Materialized view untuk angka yang harus real-time (saldo, stok).
+
+  best case:
+  1. Laporan lambat dan lu perlu tahu bagian mana yang lambat (`EXPLAIN ANALYZE`).
+  2. Dashboard yang dibuka banyak orang dengan angka yang boleh telat (MV atau summary table).
+
+  Aturan Emas: 
+  Ukur dulu, baru optimasi; dan kalau kerjanya memang harus besar, pindahkan kerjanya ke waktu sebelum ada yang nunggu.
+
+  Terapin: 
+  sebelum nambah index atau cache apa pun, tempel hasil `EXPLAIN ANALYZE` ke PR atau chat tim dan tunjuk node yang paling lambat.
 
 
   

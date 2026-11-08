@@ -373,7 +373,7 @@ id|jumlah   |diskon  |bersih   |diskon_dicap|
 
 SQL Error [42601]: ERROR: syntax error at or near "\"
   Position: 1
-  
+
 -- SALAH (di-concat mentah, psql :s menempel apa adanya): filter bocor, harusnya 12 baris (semua)
 SELECT count(*) FROM transaksi WHERE status = :s;
 
@@ -403,3 +403,86 @@ EXECUTE laporan('2026-08-01', '2026-10-01', 'gagal'' OR ''1''=''1', NULL);
 
 -- Bersihkan sebelum diulang
 DEALLOCATE laporan;
+
+
+-- ===== Contoh query Lesson 7.5 (EXPLAIN ANALYZE + materialized view) =====
+-- Tabel besar sengaja dibuat terpisah: 300 ribu baris biar planner punya alasan memilih rencana.
+DROP MATERIALIZED VIEW IF EXISTS mv_omzet_bulanan;
+DROP TABLE IF EXISTS transaksi_besar;
+CREATE TABLE transaksi_besar AS
+SELECT g AS id,
+       date_trunc('month', DATE '2025-01-01' + (g % 700))::date AS bulan,
+       (ARRAY['sukses','sukses','sukses','gagal','refund'])[1 + g % 5] AS status,
+       (10000 + (g * 37) % 490000)::numeric(12,2) AS jumlah
+FROM generate_series(1, 300000) g;
+ANALYZE transaksi_besar;
+
+-- 1) Baca plan query reporting. Cari: Seq Scan, "Rows Removed by Filter", Sort Method (disk?), actual time.
+EXPLAIN (ANALYZE, BUFFERS)
+SELECT bulan, SUM(jumlah) AS omzet
+FROM transaksi_besar
+WHERE status = 'sukses'
+GROUP BY bulan
+ORDER BY bulan;
+
+QUERY PLAN                                                                                                                                            |
+------------------------------------------------------------------------------------------------------------------------------------------------------+
+Finalize GroupAggregate  (cost=5657.54..5660.78 rows=24 width=36) (actual time=73.898..75.185 rows=23 loops=1)                                        |
+  Group Key: bulan                                                                                                                                    |
+  Buffers: shared hit=1928                                                                                                                            |
+  ->  Gather Merge  (cost=5657.54..5660.30 rows=24 width=36) (actual time=73.866..75.144 rows=23 loops=1)                                             |
+        Workers Planned: 1                                                                                                                            |
+        Workers Launched: 1                                                                                                                           |
+        Buffers: shared hit=1928                                                                                                                      |
+        ->  Sort  (cost=4657.53..4657.59 rows=24 width=36) (actual time=32.393..32.394 rows=12 loops=2)                                               |
+              Sort Key: bulan                                                                                                                         |
+              Sort Method: quicksort  Memory: 26kB                                                                                                    |
+              Buffers: shared hit=1928                                                                                                                |
+              Worker 0:  Sort Method: quicksort  Memory: 25kB                                                                                         |
+              ->  Partial HashAggregate  (cost=4656.68..4656.98 rows=24 width=36) (actual time=32.332..32.334 rows=12 loops=2)                        |
+                    Group Key: bulan                                                                                                                  |
+                    Batches: 1  Memory Usage: 32kB                                                                                                    |
+                    Buffers: shared hit=1920                                                                                                          |
+                    Worker 0:  Batches: 1  Memory Usage: 24kB                                                                                         |
+                    ->  Parallel Seq Scan on transaksi_besar  (cost=0.00..4125.88 rows=106159 width=10) (actual time=0.008..16.920 rows=90000 loops=2)|
+                          Filter: (status = 'sukses'::text)                                                                                           |
+                          Rows Removed by Filter: 60000                                                                                               |
+                          Buffers: shared hit=1920                                                                                                    |
+Planning:                                                                                                                                             |
+  Buffers: shared hit=20                                                                                                                              |
+Planning Time: 1.748 ms                                                                                                                               |
+Execution Time: 75.967 ms                                                                                                                             |
+
+-- 2) Tambah index lalu bandingkan lagi (planner bisa tetap pilih Seq Scan kalau 60% baris cocok).
+CREATE INDEX idx_tb_status_bulan ON transaksi_besar (status, bulan);
+ANALYZE transaksi_besar;
+-- ulangi query 1 di atas dan bandingkan "Execution Time"
+
+-- 3) Pre-aggregate: dashboard baca hasil jadi, bukan hitung ulang 300 ribu baris tiap request.
+CREATE MATERIALIZED VIEW mv_omzet_bulanan AS
+SELECT bulan, SUM(jumlah) AS omzet, COUNT(*) AS jumlah_transaksi
+FROM transaksi_besar
+WHERE status = 'sukses'
+GROUP BY bulan;
+CREATE UNIQUE INDEX ON mv_omzet_bulanan (bulan);   -- wajib kalau mau REFRESH ... CONCURRENTLY
+
+EXPLAIN ANALYZE SELECT * FROM mv_omzet_bulanan ORDER BY bulan;   -- hitungan ms, bukan ratusan ms
+
+QUERY PLAN                                                                                                       |
+-----------------------------------------------------------------------------------------------------------------+
+Sort  (cost=1.75..1.81 rows=23 width=44) (actual time=0.139..0.141 rows=23 loops=1)                              |
+  Sort Key: bulan                                                                                                |
+  Sort Method: quicksort  Memory: 25kB                                                                           |
+  ->  Seq Scan on mv_omzet_bulanan  (cost=0.00..1.23 rows=23 width=44) (actual time=0.040..0.043 rows=23 loops=1)|
+Planning Time: 1.250 ms                                                                                          |
+Execution Time: 0.185 ms                                                                                         |
+
+-- 4) Data berubah, MV basi sampai di-refresh.
+INSERT INTO transaksi_besar VALUES (300001, DATE '2025-01-01', 'sukses', 999999);
+SELECT omzet FROM mv_omzet_bulanan WHERE bulan = DATE '2025-01-01';   -- belum ketambah
+REFRESH MATERIALIZED VIEW CONCURRENTLY mv_omzet_bulanan;             -- tidak mengunci pembaca
+SELECT omzet FROM mv_omzet_bulanan WHERE bulan = DATE '2025-01-01';   -- sekarang ketambah
+
+omzet        |
+-------------+
+2053425928.00|
