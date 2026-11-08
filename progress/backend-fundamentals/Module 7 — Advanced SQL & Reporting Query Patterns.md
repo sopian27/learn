@@ -50,5 +50,34 @@
   Terapin: 
   sebelum nulis `ROW_NUMBER`, tanya "kalau dua baris sama nilainya, siapa yang berhak tampil?", lalu pilih `RANK`/`DENSE_RANK` atau tambah tie-breaker.
 
+  # Fungsi kondisional & agregasi kondisional: `CASE WHEN` di `SUM`/`COUNT`, `COALESCE`/`NULLIF`
+
+  `COALESCE`: ganti `NULL` dengan nilai pengganti
+  `NULLIF`: bikin `NULL` biar nggak meledak
+  GREATEST = jangan kurang dari batas minimum.
+  LEAST = jangan lebih dari batas maksimum.
+
+  `GREATEST`/`LEAST` **mengabaikan** `NULL`
+
+  jangan di lakukan:
+  1. **`CASE` tanpa `ELSE` di dalam `SUM`.** Hasil bisa `NULL`, bukan `0`. Tambah `ELSE 0` atau bungkus `COALESCE`.
+  2. **Bagi tanpa `NULLIF`.** Satu pembagi nol langsung `division by zero`. Pakai `NULLIF(pembagi, 0)`
+  3. **`COALESCE` asal-asalan di `AVG`.** Mengganti `NULL` jadi 0 ngubah arti rata-rata. Tanya dulu populasi mana yang dimaksud.
+  4. Logic bisnis write-path yang butuh validasi: taruh di Service, bukan di `CASE WHEN`.
+  5. Jangan pakai `COALESCE` buat nutupin bug data; kalau `NULL` itu tidak seharusnya ada, benerin sumbernya.
+
+  Aturan Emas: 
+  Putuskan dulu apa arti "tidak ada data" di laporan, karena `NULL`, `0`, dan kosong itu tiga jawaban berbeda untuk orang yang baca.
+
+  Terapin: 
+  sebelum selesai nulis query reporting, cari tiap `SUM`, pembagian, dan `AVG`, lalu tanya "kalau datanya kosong, angka ini harus tampil apa?"
+
+
+
+
+
+  4. Query reporting dinamis yang aman (filter dari parameter API, tanpa SQL injection)
+  5. Performance query reporting: `EXPLAIN ANALYZE`, materialized view
+
 
   

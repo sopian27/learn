@@ -2,7 +2,7 @@
 -- Jalankan: psql -U postgres -d belajar -f module7-sample-data.sql
 -- Aman diulang: semua tabel di-drop dulu.
 
-DROP TABLE IF EXISTS orders, users, penjualan_harian, omzet_bulanan, product_sales, employees, categories CASCADE;
+DROP TABLE IF EXISTS transaksi, orders, users, penjualan_harian, omzet_bulanan, product_sales, employees, categories CASCADE;
 
 -- 7.1 recursive CTE: kategori bertingkat
 CREATE TABLE categories (
@@ -93,6 +93,30 @@ SELECT u.id,
        50000 + ((u.id * g * 13700) % 200000),
        timestamp '2026-08-01' + ((u.id * 3 + g * 9) || ' days')::interval
 FROM   users u, generate_series(1, 6) AS g;
+
+-- 7.3 agregasi kondisional. Sengaja ada: diskon NULL, voucher dengan jumlah 0 (pembagi nol),
+-- dan bulan Agustus tanpa refund (SUM CASE tanpa ELSE jadi NULL).
+CREATE TABLE transaksi (
+    id     serial PRIMARY KEY,
+    bulan  date          NOT NULL,
+    metode text          NOT NULL,
+    status text          NOT NULL,
+    jumlah numeric(12,2) NOT NULL,
+    diskon numeric(12,2)
+);
+INSERT INTO transaksi (bulan, metode, status, jumlah, diskon) VALUES
+    ('2026-08-01', 'transfer', 'sukses', 500000, NULL),
+    ('2026-08-01', 'transfer', 'sukses', 300000, 50000),
+    ('2026-08-01', 'kartu',    'gagal',  200000, NULL),
+    ('2026-08-01', 'kartu',    'sukses', 450000, NULL),
+    ('2026-09-01', 'transfer', 'sukses', 700000, NULL),
+    ('2026-09-01', 'kartu',    'sukses', 250000, 25000),
+    ('2026-09-01', 'kartu',    'refund', 250000, NULL),
+    ('2026-09-01', 'voucher',  'sukses', 0,      NULL),
+    ('2026-10-01', 'transfer', 'gagal',  400000, NULL),
+    ('2026-10-01', 'kartu',    'sukses', 600000, 60000),
+    ('2026-10-01', 'voucher',  'sukses', 0,      NULL),
+    ('2026-10-01', 'voucher',  'gagal',  0,      NULL);
 
 -- cek cepat
 SELECT 'categories' AS tabel, count(*) FROM categories
@@ -276,3 +300,68 @@ id|user_id|total    |created_at             |rn|
 24|      4|178800.00|2026-10-06 00:00:00.000| 1|
 20|      4|124000.00|2026-09-27 00:00:00.000| 2|
 16|      4| 69200.00|2026-09-18 00:00:00.000| 3|
+-- ===== Contoh query Lesson 7.3 (uncomment satu per satu) =====
+
+-- Pivot manual per bulan. Agustus: refund_salah NULL (tanpa ELSE), refund_benar 0
+SELECT bulan,
+       SUM(CASE WHEN status = 'sukses' THEN 1 ELSE 0 END) AS sukses,
+       SUM(CASE WHEN status = 'gagal'  THEN 1 ELSE 0 END) AS gagal,
+       SUM(CASE WHEN status = 'refund' THEN 1 END)        AS refund_salah,
+       COALESCE(SUM(CASE WHEN status = 'refund' THEN 1 END), 0) AS refund_benar
+FROM   transaksi GROUP BY bulan ORDER BY bulan;
+
+bulan     |sukses|gagal|refund_salah|refund_benar|
+----------+------+-----+------------+------------+
+2026-08-01|     3|    1|            |           0|
+2026-09-01|     3|    0|           1|           1|
+2026-10-01|     2|    2|            |           0|
+
+-- Versi PostgreSQL: FILTER (hasil sama, lebih pendek)
+SELECT bulan,
+       COUNT(*) FILTER (WHERE status = 'sukses') AS sukses,
+       COUNT(*) FILTER (WHERE status = 'gagal')  AS gagal
+FROM   transaksi GROUP BY bulan ORDER BY bulan;
+
+bulan     |sukses|gagal|
+----------+------+-----+
+2026-08-01|     3|    1|
+2026-09-01|     3|    0|
+2026-10-01|     2|    2|
+
+-- NULLIF: voucher jumlahnya 0 semua. Hapus NULLIF dan liat "division by zero"
+SELECT metode,
+       SUM(diskon) / NULLIF(SUM(jumlah), 0) AS rasio_diskon
+FROM   transaksi GROUP BY metode ORDER BY metode;
+
+metode  |rasio_diskon          |
+--------+----------------------+
+kartu   |0.04857142857142857143|
+transfer|0.02631578947368421053|
+voucher |                      |
+
+-- COALESCE vs AVG: AVG ngabaikan NULL, jadi dua angka ini beda arti
+SELECT AVG(diskon) AS rata_yang_dapat_diskon,
+       AVG(COALESCE(diskon, 0)) AS rata_semua_transaksi
+FROM   transaksi;
+
+rata_yang_dapat_diskon|rata_semua_transaksi|
+----------------------+--------------------+
+    45000.000000000000|  11250.000000000000|
+
+-- GREATEST/LEAST: nilai bersih tidak boleh minus. Di PostgreSQL, GREATEST/LEAST mengabaikan NULL
+SELECT id, jumlah, diskon,
+       GREATEST(jumlah - COALESCE(diskon, 0), 0) AS bersih,
+       LEAST(COALESCE(diskon, 0), 50000)         AS diskon_dicap
+FROM   transaksi WHERE jumlah > 0 ORDER BY id;
+
+id|jumlah   |diskon  |bersih   |diskon_dicap|
+--+---------+--------+---------+------------+
+ 1|500000.00|        |500000.00|           0|
+ 2|300000.00|50000.00|250000.00|    50000.00|
+ 3|200000.00|        |200000.00|           0|
+ 4|450000.00|        |450000.00|           0|
+ 5|700000.00|        |700000.00|           0|
+ 6|250000.00|25000.00|225000.00|    25000.00|
+ 7|250000.00|        |250000.00|           0|
+ 9|400000.00|        |400000.00|           0|
+10|600000.00|60000.00|540000.00|       50000|
