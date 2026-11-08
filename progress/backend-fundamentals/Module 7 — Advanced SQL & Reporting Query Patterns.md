@@ -72,11 +72,30 @@
   Terapin: 
   sebelum selesai nulis query reporting, cari tiap `SUM`, pembagian, dan `AVG`, lalu tanya "kalau datanya kosong, angka ini harus tampil apa?"
 
+  # Query reporting dinamis yang aman (filter dari parameter API, tanpa SQL injection)
 
+  Nilai = parameter, jangan pernah ditempel
 
+  Filter opsional dalam satu query statis
 
+  Yang nggak bisa jadi parameter: whitelist
 
-  4. Query reporting dinamis yang aman (filter dari parameter API, tanpa SQL injection)
+  Validasi sekali, di satu tempat
+
+  jangan di lakukan :
+  1. **Merasa aman karena pakai `PreparedStatement`, tapi nilainya tetap di-concat.** Binding cuma melindungi kalau nilainya lewat `?` atau `:nama`.
+  2. **Meng-bind nama kolom.** `ORDER BY :kolom` dianggap string konstan, hasilnya sort nggak jalan. Pakai whitelist.
+  3. **Validasi cuma di frontend.** Request bisa dikirim langsung. Validasi di server, sekali, di satu tempat.
+  4. Menerima potongan SQL dari klien (misal `where=...`). Tolak desainnya.
+  5. Optional-NULL untuk puluhan filter di tabel besar: plan jadi generik. Pakai builder.
+  6. Escape manual (`replace("'", "''")`) sebagai pengganti binding.
+
+  Aturan Emas:
+  Perlakukan semua input dari luar sebagai data, bukan perintah, dan jangan pernah biarkan keduanya ketemu dalam satu string.
+
+  Terapin:
+  tiap kali lu nulis `+` atau `String.format` di dekat kata `SELECT`, `WHERE`, atau `ORDER BY`, berhenti dan ganti dengan parameter atau whitelist.
+  
   5. Performance query reporting: `EXPLAIN ANALYZE`, materialized view
 
 

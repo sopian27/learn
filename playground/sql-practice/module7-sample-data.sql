@@ -365,3 +365,41 @@ id|jumlah   |diskon  |bersih   |diskon_dicap|
  7|250000.00|        |250000.00|           0|
  9|400000.00|        |400000.00|           0|
 10|600000.00|60000.00|540000.00|       50000|
+
+-- ===== Contoh query Lesson 7.4 (jalankan di psql, satu per satu) =====
+
+-- Input jahil. Nilai ini sengaja berisi kutip dan OR.
+\set s '''gagal'' OR 1=1'
+
+SQL Error [42601]: ERROR: syntax error at or near "\"
+  Position: 1
+  
+-- SALAH (di-concat mentah, psql :s menempel apa adanya): filter bocor, harusnya 12 baris (semua)
+SELECT count(*) FROM transaksi WHERE status = :s;
+
+-- BENAR (:'s' di-quote sebagai satu nilai): harusnya 0 baris, karena tidak ada status itu
+SELECT count(*) FROM transaksi WHERE status = :'s';
+
+-- Status asli 'gagal' harusnya 3 baris
+SELECT count(*) FROM transaksi WHERE status = 'gagal';
+
+-- Filter opsional dalam satu query statis. NULL = filter tidak dipakai.
+PREPARE laporan(date, date, text, text) AS
+SELECT bulan, COUNT(*) AS jumlah_trx, SUM(jumlah) AS total
+FROM   transaksi
+WHERE  bulan BETWEEN $1 AND $2
+  AND  ($3::text IS NULL OR status = $3)
+  AND  ($4::text IS NULL OR metode = $4)
+GROUP  BY bulan ORDER BY bulan;
+
+-- Metode kartu saja, semua status: harusnya Agustus total 650000, September 500000
+EXECUTE laporan('2026-08-01', '2026-09-01', NULL, 'kartu');
+
+-- Semua metode, status gagal saja, Agustus s/d Oktober: harusnya 3 baris, 1 per bulan
+EXECUTE laporan('2026-08-01', '2026-10-01', 'gagal', NULL);
+
+-- Input jahil lewat parameter: harusnya tidak ada baris
+EXECUTE laporan('2026-08-01', '2026-10-01', 'gagal'' OR ''1''=''1', NULL);
+
+-- Bersihkan sebelum diulang
+DEALLOCATE laporan;

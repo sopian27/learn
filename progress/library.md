@@ -97,3 +97,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 6.2 | Lesson 6.2 - Normalisasi vs Denormalisasi yang Sadar Trade-off, Desain Skema Tanpa Dogma.md | 2026-11-07 | Dibuat |
 | backend-fundamentals | 6.5 | Lesson 6.5 - Connection Pooling HikariCP, Sizing yang Benar dan Gejala Pool Kehabisan Koneksi.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 7.3 | Lesson 7.3 - Agregasi Kondisional, CASE WHEN di SUM COUNT, GREATEST LEAST, COALESCE NULLIF.md | 2026-11-08 | Dibuat |
+| backend-fundamentals | 7.4 | Lesson 7.4 - Query Reporting Dinamis yang Aman, Parameter Binding dan Whitelist Filter.md | 2026-11-08 | Dibuat |
