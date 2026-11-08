@@ -99,3 +99,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 7.3 | Lesson 7.3 - Agregasi Kondisional, CASE WHEN di SUM COUNT, GREATEST LEAST, COALESCE NULLIF.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 7.4 | Lesson 7.4 - Query Reporting Dinamis yang Aman, Parameter Binding dan Whitelist Filter.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 7.5 | Lesson 7.5 - Performance Query Reporting, EXPLAIN ANALYZE dan Materialized View.md | 2026-11-08 | Dibuat |
+| backend-fundamentals | 8.1 | Lesson 8.1 - ACID Mendalam dan Konsekuensi Praktisnya, Bukan Cuma Definisi Akronim.md | 2026-11-08 | Dibuat |
