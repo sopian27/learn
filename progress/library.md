@@ -75,6 +75,9 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 7.3 | Lesson 7.3 - Etiket sebagai Tuan Rumah, Menyambut Tamu dan Membaca Kapan Tamu Ingin Pulang Tanpa Mengusir Terang-terangan.md | 2026-11-03 | Dibuat |
 | unwritten-social-rules | 7.4 | Lesson 7.4 - Durasi Kunjungan dan Sinyal Tak Tertulis untuk Mengakhiri, Membaca dan Memberi Sinyal Waktunya Pulang Tanpa Canggung.md | 2026-11-03 | Dibuat |
 | unwritten-social-rules | 8.1 | Lesson 8.1 - Topik yang Perlu Kalibrasi, Bukan Dilarang Mutlak Tapi Tahu Kapan dan ke Siapa.md | 2026-11-04 | Dibuat |
+| unwritten-social-rules | 8.2 | Lesson 8.2 - Membaca Kapan Orang Ingin Mengakhiri Obrolan.md | 2026-11-08 | Dibuat |
+| unwritten-social-rules | 8.3 | Lesson 8.3 - Boundary Percakapan, Menolak Topik yang Tidak Ingin Dibahas Tanpa Terasa Defensif atau Kasar.md | 2026-11-08 | Dibuat |
+| unwritten-social-rules | 8.4 | Lesson 8.4 - Diam yang Tepat, Kapan Diam Itu Sopan vs Kapan Terasa Aneh atau Dingin.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 2.3 | Lesson 2.3 - CompletableFuture, Composing Async, Exception Handling, dan Kapan Reactive.md | 2026-11-04 | Dibuat |
 | backend-fundamentals | 2.4 | Lesson 2.4 - Virtual Threads Java 25, Beda dengan Platform Thread, dan Kapan Benar-benar Menguntungkan.md | 2026-11-05 | Dibuat |
 | backend-fundamentals | 2.5 | Lesson 2.5 - Bug Concurrency di Production, Deadlock, Livelock, Stale Read, dan Cara Baca Thread Dump.md | 2026-11-05 | Dibuat |
@@ -100,3 +103,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 7.4 | Lesson 7.4 - Query Reporting Dinamis yang Aman, Parameter Binding dan Whitelist Filter.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 7.5 | Lesson 7.5 - Performance Query Reporting, EXPLAIN ANALYZE dan Materialized View.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 8.1 | Lesson 8.1 - ACID Mendalam dan Konsekuensi Praktisnya, Bukan Cuma Definisi Akronim.md | 2026-11-08 | Dibuat |
+| backend-fundamentals | 8.2 | Lesson 8.2 - Isolation Level, Dirty Read, Non-Repeatable Read, dan Phantom Read.md | 2026-11-08 | Dibuat |
