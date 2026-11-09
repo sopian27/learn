@@ -40,6 +40,24 @@
 
   # Hierarki yang tidak diucapkan: cara membaca dinamika kekuasaan informal tanpa terjebak politik kantor
 
+  struktur formal (jabatan di bagan organisasi)
+  jaringan informal (siapa yang sebenarnya didengar).
+
+  cara baca pola
+  1. Amati dulu, simpulkan belakangan
+  2. Hormati kedua jalur
+  3. Netral soal gosip
+  4. Jangan memilih kubu
+  5. Tanya, bukan menebak
+
+  jangan dilakukan :
+  1. Menganggap bagan organisasi sebagai satu-satunya peta, lalu melangkahi orang yang sebenarnya jadi penentu.
+  2. Ikut menambah komentar saat ada gosip atau keluhan soal atasan, sehingga lu dicap bagian dari drama.
+  3. Menyimpulkan dari satu kejadian ("dia pasti orangnya bos"), lalu memperlakukan orang berbeda berdasarkan tebakan itu.
+
+  Aturan Emas: Hormati dua jalur, yang tertulis di bagan dan yang dipercaya orang, dan jangan jadikan siapa pun sasaran omongan di belakang.
+Terapin: Sebelum membawa usulan ke atasan, bilang ke orang yang paling dipercaya timnya, "Boleh minta pendapat lu dulu?", lalu sebut masukannya waktu presentasi.
+
   # Jam kerja tak resmi dan boundary: kapan boleh pulang duluan, merespons pesan di luar jam kerja, cuti dan izin
 
 
