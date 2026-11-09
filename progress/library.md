@@ -104,3 +104,5 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 7.5 | Lesson 7.5 - Performance Query Reporting, EXPLAIN ANALYZE dan Materialized View.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 8.1 | Lesson 8.1 - ACID Mendalam dan Konsekuensi Praktisnya, Bukan Cuma Definisi Akronim.md | 2026-11-08 | Dibuat |
 | backend-fundamentals | 8.2 | Lesson 8.2 - Isolation Level, Dirty Read, Non-Repeatable Read, dan Phantom Read.md | 2026-11-08 | Dibuat |
+| unwritten-social-rules | 9.1 | Lesson 9.1 - Etiket Rapat Tak Tertulis, Datang Tepat Waktu, Siapa Bicara Duluan, dan Cara Menyela dengan Sopan.md | 2026-11-08 | Dibuat |
+| unwritten-social-rules | 9.2 | Lesson 9.2 - Komunikasi Tak Tertulis di Email dan Chat Kerja, Kapan Reply-All, Kecepatan Respons, dan Nada Formal vs Santai.md | 2026-11-08 | Dibuat |
