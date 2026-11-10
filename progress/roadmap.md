@@ -101,6 +101,8 @@ Rasional lengkap tiap course ada di "Catatan Scope" masing-masing `courses/<nama
 
 Rasional lengkap tiap course (kalibrasi, pemisahan dari course lain, breakdown modul, sumber riset) ada di "Catatan Scope"/"Learning Objectives" masing-masing `courses/<nama>/roadmap.md` — tidak diduplikasi di sini. Domain baru yang disebut "belum terdaftar" statusnya tercatat di banner DRAFT domain file itu sendiri (`domains/<name>/DOMAIN.md`).
 
+* **A Brief History of Time — Memahami Alam Semesta, Ruang, Waktu, dan Asal-Usul Segala Sesuatu** — `courses/brief-history-of-time/roadmap.md` (draft 2026-11-11) — Domain: astronomy-and-life-in-the-universe (reuse, tanpa domain baru) — Status: Not Started, menunggu approval. Sumber: file Notion user `notion/A brief history of a time ...md` (10 minggu → 10 modul + capstone).
+* **80/20 Learning** — `courses/80-20-learning/roadmap.md` (draft 2026-11-11) — Domain: learning-science — Status: Not Started, menunggu approval. Sumber: file Notion user `notion/80 20 LEARNING ...md` (90 bagian → 10 modul).
 * **NGINX & Kubernetes Ingress** — `courses/nginx-kubernetes-ingress/roadmap.md` (draft 2026-08-13) — Domain: software-engineering — Status: Not Started, menunggu approval.
 * **Scrum Master** — `courses/scrum-master/roadmap.md` (draft 2026-08-06) — Status: Not Started, menunggu approval.
 * **Engineering Culture & Senior Engineer Craft** — `courses/engineering-culture/roadmap.md` (draft 2026-08-07) — Status: Not Started, menunggu approval.
