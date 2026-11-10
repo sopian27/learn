@@ -95,6 +95,16 @@
   Terapin: 
   Sebelum menekan tombol posting foto bareng teman, kirim satu kalimat ke mereka, "Boleh gua post yang ini?"
 
-  
+  # Video call dan panggilan — etiket kamera menyala/mati, latar belakang, interupsi di rapat virtual
 
-11.4 Video call dan panggilan — etiket kamera menyala/mati, latar belakang, interupsi di rapat virtual
+  jangan di lakukan:
+  1. Lupa mute, lalu seluruh rapat mendengar obrolan atau suara latar lu.
+  2. Mematikan kamera tanpa sinyal sama sekali, sehingga pembicara menebak-nebak.
+  3. Menyela lewat suara terus-menerus, atau sebaliknya tidak pernah bicara karena takut tumpang tindih.
+
+  Aturan Emas: 
+  Di rapat virtual, jangan biarkan orang menebak: satu kalimat soal kamera, giliran, atau gangguan lu menghemat banyak salah paham.
+
+  Terapin: 
+  Kalau kamera atau mic lu bermasalah, tulis satu kalimat singkat di chat rapat, lalu lanjut.
+

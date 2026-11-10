@@ -115,3 +115,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 11.1 | Lesson 11.1 - Texting, Kecepatan Respons yang Wajar, Kapan Telepon Lebih Tepat daripada Chat, Nada Tertulis dan Typo.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.2 | Lesson 11.2 - Group Chat, Kapan Reply, Kapan Cukup React atau Emoji, Menghindari Spam Notifikasi, Keluar Grup dengan Sopan.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.3 | Lesson 11.3 - Media Sosial, Etiket Posting, Like dan Comment ke Unggahan Orang, Unfollow atau Mute tanpa Drama.md | 2026-11-10 | Dibuat |
+| unwritten-social-rules | 11.4 | Lesson 11.4 - Video Call dan Panggilan, Etiket Kamera Menyala atau Mati, Latar Belakang, Interupsi di Rapat Virtual.md | 2026-11-10 | Dibuat |
