@@ -55,9 +55,32 @@
   2. Ikut menambah komentar saat ada gosip atau keluhan soal atasan, sehingga lu dicap bagian dari drama.
   3. Menyimpulkan dari satu kejadian ("dia pasti orangnya bos"), lalu memperlakukan orang berbeda berdasarkan tebakan itu.
 
-  Aturan Emas: Hormati dua jalur, yang tertulis di bagan dan yang dipercaya orang, dan jangan jadikan siapa pun sasaran omongan di belakang.
-Terapin: Sebelum membawa usulan ke atasan, bilang ke orang yang paling dipercaya timnya, "Boleh minta pendapat lu dulu?", lalu sebut masukannya waktu presentasi.
+  Aturan Emas: 
+  Hormati dua jalur, yang tertulis di bagan dan yang dipercaya orang, dan jangan jadikan siapa pun sasaran omongan di belakang.
+
+  Terapin: 
+  Sebelum membawa usulan ke atasan, bilang ke orang yang paling dipercaya timnya, "Boleh minta pendapat lu dulu?", lalu sebut masukannya waktu presentasi.
 
   # Jam kerja tak resmi dan boundary: kapan boleh pulang duluan, merespons pesan di luar jam kerja, cuti dan izin
+
+  Jam kerja punya dua versi: yang tertulis di kontrak dan kebiasaan tim. Keduanya sering beda, dan nggak ada yang salah dengan itu. Tugasnya adalah tahu versi mana yang berlaku di tim lu, lalu bernegosiasi dengan sadar.
+
+  Pulang tepat waktu : boleh, kalau kerjaan beres
+  Pesan di luar jam kerja : urgent, dibalas
+  Cuti terencana : kasih tahu jauh hari
+  Izin mendadak (sakit, keluarga) : kabari secepatnya
+
+  "right to disconnect", yaitu hak untuk tidak membalas pesan kerja di luar jam kerja
+
+  jangan di lakukan:
+  1. Pulang diam-diam atau menghilang, lalu orang menyimpulkan sendiri bahwa lu nggak berkomitmen.
+  2. Selalu membalas pesan malam dalam hitungan menit, lalu kaget kalau ekspektasi itu jadi standar.
+  3. Mengabari cuti atau izin mendadak tanpa menyebut dampak ke kerjaan dan siapa yang bisa menggantikan.
+
+  Aturan Emas:
+  Boundary yang sehat itu dikomunikasikan, bukan dijalankan diam-diam, dan hormati juga boundary orang lain.
+  
+  Terapin: 
+  Sebelum pulang atau cuti, bilang satu kalimat kapan lu pergi, apa yang sudah beres, dan siapa yang bisa dihubungi.
 
 

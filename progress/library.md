@@ -107,3 +107,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 9.1 | Lesson 9.1 - Etiket Rapat Tak Tertulis, Datang Tepat Waktu, Siapa Bicara Duluan, dan Cara Menyela dengan Sopan.md | 2026-11-08 | Dibuat |
 | unwritten-social-rules | 9.2 | Lesson 9.2 - Komunikasi Tak Tertulis di Email dan Chat Kerja, Kapan Reply-All, Kecepatan Respons, dan Nada Formal vs Santai.md | 2026-11-08 | Dibuat |
 | unwritten-social-rules | 9.3 | Lesson 9.3 - Hierarki yang Tidak Diucapkan, Cara Membaca Dinamika Kekuasaan Informal Tanpa Terjebak Politik Kantor.md | 2026-11-10 | Dibuat |
+| unwritten-social-rules | 9.4 | Lesson 9.4 - Jam Kerja Tak Resmi dan Boundary, Kapan Boleh Pulang Duluan, Merespons Pesan di Luar Jam Kerja, Cuti dan Izin.md | 2026-11-10 | Dibuat |
