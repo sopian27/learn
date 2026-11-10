@@ -111,3 +111,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 10.1 | Lesson 10.1 - Siapa Mengajak Duluan dan Siapa Bayar di Kencan Awal, Norma yang Bergeser dan Cara Menavigasi Tanpa Asumsi Kaku.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 10.2 | Lesson 10.2 - Follow-up Setelah Kencan, Kapan dan Bagaimana Menghubungi Lagi, Membaca Minat Lewat Respons.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 10.3 | Lesson 10.3 - Etiket Ghosting dan Penolakan, Cara Menolak dengan Jelas dan Baik, Kenapa Ghosting Dianggap Melanggar Norma Tak Tertulis.md | 2026-11-10 | Dibuat |
+| unwritten-social-rules | 10.4 | Lesson 10.4 - Membawa Pasangan Kencan ke Lingkaran Sosial, Kapan Tepat Memperkenalkan ke Teman dan Keluarga.md | 2026-11-10 | Dibuat |

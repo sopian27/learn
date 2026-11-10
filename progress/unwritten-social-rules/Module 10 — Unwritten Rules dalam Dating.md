@@ -62,5 +62,24 @@
   Terapin: 
   Saat ada ajakan yang nggak mau lu lanjutkan, balas hari itu juga dengan "Makasih ya, tapi gua nggak lanjut. Semoga ketemu yang pas."
   
-* 10.4 Membawa pasangan kencan ke lingkaran sosial — kapan tepat memperkenalkan ke teman/keluarga
+   # Membawa pasangan kencan ke lingkaran sosial — kapan tepat memperkenalkan ke teman/keluarga
 
+   Memperkenalkan seseorang ke teman atau keluarga itu sinyal
+
+   Cara menavigasinya:
+   1. Sepakati dulu artinya
+   2. Mulai dari lingkaran kecil dan santai
+   3. Siapkan pasangan lu
+   4. Siapkan orang di lingkaran lu
+   5. Beri jalan keluar.
+
+   jangan di lakukan:
+   1. Mengajak tiba-tiba tanpa menjelaskan artinya, lalu pasangan atau keluarga menafsirkan sendiri.
+   2. Memperkenalkan sebagai "pacar" padahal belum disepakati, atau sebaliknya menyebut "cuma teman" di depan orang tanpa memberi tahu dulu.
+   3. Merajuk atau menganggap penolakan halus sebagai penolakan terhadap orangnya, padahal itu soal tempo.
+
+   Aturan Emas: 
+   Perkenalan itu pesan yang dibaca banyak orang, jadi sepakati artinya dengan orang yang lu ajak sebelum orang lain menafsirkannya.
+
+   Terapin: 
+   Sebelum membawa seseorang ke lingkaran lu, bilang dulu lu mengenalkannya sebagai apa dan tanya dia nyaman atau belum.
