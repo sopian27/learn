@@ -63,5 +63,38 @@
   Terapin: 
   Saat ada pengumuman di grup yang cuma butuh konfirmasi, kasih react, lalu simpan balasan teks untuk hal yang benar-benar menambah informasi.
 
-11.3 Media sosial — etiket posting (izin sebelum posting foto orang lain), like/comment ke unggahan orang, unfollow/mute tanpa drama
+  # Media sosial — etiket posting (izin sebelum posting foto orang lain), like/comment ke unggahan orang, unfollow/mute tanpa drama
+
+  Media sosial itu panggung semi-publik dengan penonton yang lu nggak lihat. Karena itu aturan dasarnya: lu yang mengunggah, lu yang menanggung dampaknya ke orang lain di dalam unggahan itu.
+
+  Etiket posting:
+  1. Foto ada wajah orang lain : tanya dulu
+  2. Foto anak kecil, orang yang lagi sakit, atau momen emosional : Izin eksplisit, atau jangan diposting
+  3. Tag orang lain : tag boleh setelah izin; kalau ragu, jangan tag
+  4. Lu diminta menghapus : langsung hapus
+
+  Like dan comment:
+  1. like itu dukungan kecil
+  2. comment lebih berat karena dibaca semua orang
+  3. candaan yang mempermalukan orang di kolom komentar , gak lucu
+  4. kabar duka, koment signkat
+  5. tinggalkan debat di column komentar
+
+  Unfollow atau mute tanpa drama:
+  1. mute dulu kalau lelah liat kontent nya
+  2. unfollow itu wajar untuk akun yang menguras energi
+  
+
+  jangan di lakukan:
+  1. Memposting foto orang lain tanpa tanya, lalu menganggap diamnya mereka sebagai izin.2. Komentar bercanda yang mempermalukan teman di ruang publik.
+  3. Unfollow atau block diam-diam dari orang dekat, lalu membiarkan mereka menebak-nebak
+
+  Aturan Emas: 
+  Kalau ada wajah orang lain di unggahan lu, tanya dulu; izin itu murah, tapi hilangnya rasa aman orang itu mahal.
+  
+  Terapin: 
+  Sebelum menekan tombol posting foto bareng teman, kirim satu kalimat ke mereka, "Boleh gua post yang ini?"
+
+  
+
 11.4 Video call dan panggilan — etiket kamera menyala/mati, latar belakang, interupsi di rapat virtual
