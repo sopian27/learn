@@ -40,6 +40,27 @@
   Terapin: 
   Setelah ketemu seseorang yang lu suka, kirim satu kalimat hangat malam itu juga, dan kalau ragu soal minatnya, tanya "mau ketemu lagi nggak?" dengan nada santai.
 
-* 10.3 Etiket ghosting dan penolakan — cara menolak dengan jelas dan baik, kenapa ghosting dianggap melanggar norma tak tertulis
+  # Etiket ghosting dan penolakan — cara menolak dengan jelas dan baik, kenapa ghosting dianggap melanggar norma tak tertulis
+
+  Menolak itu hak semua orang. Yang dianggap melanggar adalah menghilang tanpa kata, karena pihak lain dibiarkan menebak, dan menebak itu melelahkan.
+
+  Resep menolak dengan jelas dan baik:
+  1. Jelas dulu, ramah kemudian
+  2. Singkat
+  3. Satu kalimat apresiasi yang jujur
+  4. Jangan kasih alasan palsu
+  5. Jangan menilai orangnya.
+
+  jangan di lakukan:
+  1. Menunda membalas sampai "waktu yang pas", lalu pesannya jadi makin sulit dibalas dan akhirnya dihilangkan.
+  2. Menolak dengan alasan palsu atau samar ("lagi sibuk", "belum siap") yang membuat pihak lain menunggu.
+  3. Menyalahkan atau mengkritik orangnya saat menolak, padahal tujuannya cuma menutup dengan jelas.
+
+  Aturan Emas: 
+  Menolak itu hak lu, tapi menghilang itu mengambil hak orang lain untuk tahu, jadi tutup dengan satu kalimat jelas dan hangat.
+  
+  Terapin: 
+  Saat ada ajakan yang nggak mau lu lanjutkan, balas hari itu juga dengan "Makasih ya, tapi gua nggak lanjut. Semoga ketemu yang pas."
+  
 * 10.4 Membawa pasangan kencan ke lingkaran sosial — kapan tepat memperkenalkan ke teman/keluarga
 
