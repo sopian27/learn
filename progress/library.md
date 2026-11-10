@@ -113,3 +113,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 10.3 | Lesson 10.3 - Etiket Ghosting dan Penolakan, Cara Menolak dengan Jelas dan Baik, Kenapa Ghosting Dianggap Melanggar Norma Tak Tertulis.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 10.4 | Lesson 10.4 - Membawa Pasangan Kencan ke Lingkaran Sosial, Kapan Tepat Memperkenalkan ke Teman dan Keluarga.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.1 | Lesson 11.1 - Texting, Kecepatan Respons yang Wajar, Kapan Telepon Lebih Tepat daripada Chat, Nada Tertulis dan Typo.md | 2026-11-10 | Dibuat |
+| unwritten-social-rules | 11.2 | Lesson 11.2 - Group Chat, Kapan Reply, Kapan Cukup React atau Emoji, Menghindari Spam Notifikasi, Keluar Grup dengan Sopan.md | 2026-11-10 | Dibuat |
