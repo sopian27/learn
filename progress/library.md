@@ -116,3 +116,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 11.2 | Lesson 11.2 - Group Chat, Kapan Reply, Kapan Cukup React atau Emoji, Menghindari Spam Notifikasi, Keluar Grup dengan Sopan.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.3 | Lesson 11.3 - Media Sosial, Etiket Posting, Like dan Comment ke Unggahan Orang, Unfollow atau Mute tanpa Drama.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.4 | Lesson 11.4 - Video Call dan Panggilan, Etiket Kamera Menyala atau Mati, Latar Belakang, Interupsi di Rapat Virtual.md | 2026-11-10 | Dibuat |
+| backend-fundamentals | 8.3 | Lesson 8.3 - @Transactional Propagation, REQUIRED, REQUIRES_NEW, NESTED, dan Kapan Tiap Jenis Benar-Benar Dibutuhkan.md | 2026-11-10 | Dibuat |
