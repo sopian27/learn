@@ -55,3 +55,26 @@ SHOW fsync;
 fsync|
 -----+
 on   |
+-- ============================================================
+-- Lesson 8.2: Isolation level (butuh 2 sesi psql, A dan B)
+-- ============================================================
+
+-- 5) NON-REPEATABLE READ (READ COMMITTED, default Postgres)
+   Sesi A: BEGIN; SELECT balance FROM acid_accounts WHERE owner = 'Isryad';  -- 1000000
+   Sesi B: UPDATE acid_accounts SET balance = balance - 300000 WHERE owner = 'Isryad';  -- auto-commit
+   Sesi A: SELECT balance FROM acid_accounts WHERE owner = 'Isryad';  -- 700000 (beda!)
+   Sesi A: COMMIT;
+
+-- 6) REPEATABLE READ: sesi A melihat snapshot yang sama.
+   Sesi A: BEGIN ISOLATION LEVEL REPEATABLE READ; SELECT balance FROM acid_accounts WHERE owner = 'Isryad';
+   Sesi B: UPDATE acid_accounts SET balance = balance - 300000 WHERE owner = 'Isryad';
+   Sesi A: SELECT balance FROM acid_accounts WHERE owner = 'Isryad';  -- masih angka lama
+   Sesi A: UPDATE acid_accounts SET balance = balance - 1 WHERE owner = 'Isryad';
+           -- ERROR: could not serialize access due to concurrent update (SQLSTATE 40001) -> harus retry
+   Sesi A: ROLLBACK;
+
+-- 7) PHANTOM: di Postgres REPEATABLE READ, INSERT baru dari sesi B tidak muncul di sesi A.
+   Sesi A: BEGIN ISOLATION LEVEL REPEATABLE READ; SELECT count(*) FROM acid_accounts;  -- 2
+   Sesi B: INSERT INTO acid_accounts (owner, balance) VALUES ('Rakha', 100000);
+   Sesi A: SELECT count(*) FROM acid_accounts;  -- tetap 2
+   Sesi A: COMMIT;
