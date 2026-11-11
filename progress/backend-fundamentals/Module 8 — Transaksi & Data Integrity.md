@@ -115,5 +115,37 @@
   Waktu review PR yang menaruh @Transactional atau try/catch di method yang dipanggil dari method transaksional lain, minta penulisnya menjelaskan nasib kedua bagian kalau salah satunya gagal.
 
   # Optimistic vs pessimistic locking, `@Version`, `SELECT ... FOR UPDATE`
+
+  Optimistic (@version): 
+    Tidak mengunci; cek version saat tulis
+    Salah satu gagal, harus retry
+    Tidak menahan koneksi/lock
+    Banyak tabrakan = banyak retry sia-sia
+    Edit profil, data yang jarang diperebutkan
+
+  Pessimistic(For Update):
+    Kunci baris saat baca; lepas saat commit
+    Yang lain menunggu (karena di lock)
+    Tidak ada retry; urutan jelas
+    Baris panas: stok flash sale, saldo, kuota
+
+  frekuensi :
+  1. jarang : optimistic
+  2. sering : pesimistic
+
+  jangan di lakukan :
+  1. Mengira transaksi saja sudah cukup mencegah lost update.
+  2. Memasang `@Version` tapi tidak menangani `OptimisticLockException`.
+  3. Memakai `FOR UPDATE` tanpa timeout, atau mengunci banyak baris dengan urutan berbeda-beda.
+  4. Memakai optimistic untuk baris yang diperebutkan ratusan request per detik.
+
+  Optimistic murah saat tenang, mahal saat ramai.
+
+  Aturan Emas:
+  Sebelum menulis kode baca-ubah-simpan pada data bersama, tanya: "seberapa sering dua orang mengubah ini bersamaan?"; jawabannya menentukan apakah lu bayar di muka (kunci) atau bayar kalau tabrakan (retry).
+
+  Terapin: 
+  Waktu review PR yang menaruh `@Version` atau `FOR UPDATE`, minta penulisnya menyebut perkiraan tingkat tabrakan dan apa yang terjadi saat tabrakan itu datang.
+
   # Pengantar distributed transaction dan intuisi Saga
 

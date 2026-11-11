@@ -117,3 +117,5 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | unwritten-social-rules | 11.3 | Lesson 11.3 - Media Sosial, Etiket Posting, Like dan Comment ke Unggahan Orang, Unfollow atau Mute tanpa Drama.md | 2026-11-10 | Dibuat |
 | unwritten-social-rules | 11.4 | Lesson 11.4 - Video Call dan Panggilan, Etiket Kamera Menyala atau Mati, Latar Belakang, Interupsi di Rapat Virtual.md | 2026-11-10 | Dibuat |
 | backend-fundamentals | 8.3 | Lesson 8.3 - @Transactional Propagation, REQUIRED, REQUIRES_NEW, NESTED, dan Kapan Tiap Jenis Benar-Benar Dibutuhkan.md | 2026-11-10 | Dibuat |
+| backend-fundamentals | 8.4 | Lesson 8.4 - Optimistic vs Pessimistic Locking, @Version, SELECT FOR UPDATE, dan Kapan Pakai yang Mana.md | 2026-11-10 | Dibuat |
+| warm-charisma | 1.1 | Lesson 1.1 - Mitos vs Fakta Karisma, Riset Antonakis Learning Charisma dan 12 Charismatic Leadership Tactics.md | 2026-11-11 | Dibuat |
