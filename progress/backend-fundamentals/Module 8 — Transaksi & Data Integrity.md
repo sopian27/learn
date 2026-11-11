@@ -149,3 +149,210 @@
 
   # Pengantar distributed transaction dan intuisi Saga
 
+  Choreography
+  Tiap service bereaksi ke event service lain
+  Longgar, tanpa titik pusat
+  Alur tersebar, sulit dilacak saat bertambah
+  Alur pendek (2-3 langkah)
+
+  Orchestration
+  Satu orchestrator memerintah tiap langkah
+  Alur terbaca di satu tempat, mudah dilacak
+  Orchestrator jadi komponen yang harus dijaga
+  Alur panjang atau bercabang
+
+  ## Contoh Alur Pembayaran
+
+  **Skenario:** User membeli barang melalui sistem e-commerce.
+
+  ### 1. Choreography (Menggunakan Kafka)
+  Setiap service menerbitkan dan mengonsumsi event melalui Kafka.
+
+  **Alur Sukses ✅**
+
+  ```text
+    Order Service
+        |
+        | Publish: OrderCreated
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        | Consume: OrderCreated
+        v
+    Payment Service
+        |
+        | Publish: PaymentCompleted
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        | Consume: PaymentCompleted
+        v
+    Inventory Service
+        |
+        | Publish: InventoryReserved
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        | Consume: InventoryReserved
+        v
+    Order Service
+        |
+        v
+    ORDER_COMPLETED
+  ```
+
+  **Alur Gagal ❌ (Inventory gagal)**
+
+  ```text
+    Order Service
+        |
+        | OrderCreated
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        v
+    Payment Service
+        |
+        | PaymentCompleted
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        v
+    Inventory Service
+        |
+        | InventoryFailed
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        v
+    Payment Service
+        |
+        | Refund Payment
+        | Publish: PaymentRefunded
+        v
+    +------------------+
+    |       KAFKA      |
+    +------------------+
+        |
+        v
+    Order Service
+        |
+        v
+    ORDER_CANCELLED
+  ```
+
+  ### 2. Orchestration
+
+  Orchestrator mengendalikan seluruh urutan proses. Komunikasi dapat menggunakan HTTP/gRPC atau Kafka.
+
+  **Alur Sukses ✅**
+
+  ```text
+              Saga Orchestrator
+                      |
+                      | Create Order
+                      v
+                Order Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Process Payment
+                      v
+                Payment Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Reserve Stock
+                      v
+              Inventory Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      v
+                ORDER_COMPLETED
+  ```
+
+  **Alur Gagal ❌ (Inventory gagal)**
+
+  ```text
+              Saga Orchestrator
+                      |
+                      | Create Order
+                      v
+                Order Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Process Payment
+                      v
+                Payment Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Reserve Stock
+                      v
+              Inventory Service
+                      |
+                    FAILED
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Refund Payment
+                      v
+                Payment Service
+                      |
+                    SUCCESS
+                      |
+                      v
+              Saga Orchestrator
+                      |
+                      | Cancel Order
+                      v
+                Order Service
+                      |
+                      v
+                ORDER_CANCELLED
+  ```
+  jangan di lakukan:
+  1. Mengira @Transactional bisa menjangkau database service lain.
+  2. Menganggap kompensasi sama dengan rollback, padahal efek sampingnya sudah keluar.
+  3. Tidak membuat langkah dan kompensasi idempotent, lalu refund ganda saat retry.
+  4. Mengirim event setelah commit tanpa outbox, sehingga saga bisa mandek diam-diam.
+  5. Memecah jadi microservice tanpa alasan, lalu membayar kompleksitas Saga yang sebenarnya tidak perlu.
+  6. Data yang masih satu database: pakai satu transaksi lokal.
+  7. Alur yang menuntut konsistensi seketika tanpa data setengah jadi.
+  8. Langkah yang tidak bisa dikompensasi tapi ditaruh di tengah alur.
+
+  Aturan Emas: 
+  Sebelum memecah satu proses jadi beberapa sistem, tanya: "kalau langkah kedua gagal, siapa yang membereskan langkah pertama?"; kalau tidak ada jawaban konkret, jangan pecah dulu.
+
+  Terapin: 
+  Waktu review desain yang memanggil beberapa service berurutan, minta penulisnya menggambar tiap langkah beserta kompensasinya dan apa yang terjadi kalau proses mati di tengah.
