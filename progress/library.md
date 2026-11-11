@@ -120,3 +120,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 8.4 | Lesson 8.4 - Optimistic vs Pessimistic Locking, @Version, SELECT FOR UPDATE, dan Kapan Pakai yang Mana.md | 2026-11-10 | Dibuat |
 | warm-charisma | 1.1 | Lesson 1.1 - Mitos vs Fakta Karisma, Riset Antonakis Learning Charisma dan 12 Charismatic Leadership Tactics.md | 2026-11-11 | Dibuat |
 | backend-fundamentals | 8.5 | Lesson 8.5 - Pengantar Distributed Transaction, Kenapa Transaksi Lokal Tidak Cukup, dan Intuisi Saga Pattern.md | 2026-11-11 | Dibuat |
+| backend-fundamentals | 9.1 | Lesson 9.1 - Kapan Caching Benar-Benar Dibutuhkan, dan Kapan Cuma Menambah Kompleksitas.md | 2026-11-11 | Dibuat |
