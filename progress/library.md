@@ -121,3 +121,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | warm-charisma | 1.1 | Lesson 1.1 - Mitos vs Fakta Karisma, Riset Antonakis Learning Charisma dan 12 Charismatic Leadership Tactics.md | 2026-11-11 | Dibuat |
 | backend-fundamentals | 8.5 | Lesson 8.5 - Pengantar Distributed Transaction, Kenapa Transaksi Lokal Tidak Cukup, dan Intuisi Saga Pattern.md | 2026-11-11 | Dibuat |
 | backend-fundamentals | 9.1 | Lesson 9.1 - Kapan Caching Benar-Benar Dibutuhkan, dan Kapan Cuma Menambah Kompleksitas.md | 2026-11-11 | Dibuat |
+| backend-fundamentals | 9.2 | Lesson 9.2 - Pola Caching, Cache-Aside, Write-Through, Write-Behind.md | 2026-11-12 | Dibuat |
