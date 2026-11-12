@@ -102,6 +102,38 @@
   Terapin: 
   sebelum merge, tiap @Cacheable baru harus punya jawaban tertulis untuk "kapan entri ini kedaluwarsa dan siapa yang membuangnya".
 
-Masalah klasik: cache stampede, stale data, invalidation
+  # Masalah klasik: cache stampede, stale data, invalidation
+  
+  Cache stampede (thundering herd)
+  - Banyak request rebuild entri yang sama bersamaan, DB kewalahan.
+  - Cache product:100 kedaluwarsa. Dalam waktu bersamaan, 1.000 user meminta produk tersebut. Semua request mengalami cache miss dan membaca data yang sama ke DB
+  - Lock/single-flight per key, early refresh, jitter pada TTL.
+
+  Stale data
+  - Cache menyajikan nilai lama setelah sumber berubah.
+  - Harga produk di DB berubah dari Rp10.000 menjadi Rp15.000. Namun, Redis masih menyimpan harga Rp10.000 sehingga user menerima harga lama.
+  - Invalidation saat update, TTL pendek, versioned key.
+
+  Cache avalanche
+  - Banyak key kedaluwarsa serentak, atau Redis mati.
+  - Sebanyak 100.000 produk memiliki TTL 30 menit yang dibuat bersamaan. Ketika TTL habis, banyak request sekaligus menuju DB. Akibatnya, DB kewalahan.
+  - Jitter TTL, fallback ke DB dengan pembatasan, replikasi.
+
+  jangan di lakukan:
+  1. Mengira "cache melindungi DB" selalu benar, padahal saat miss serentak cache justru melipatgandakan beban.
+  2. Memberi TTL identik untuk semua key yang diisi dalam satu batch.
+  3. Mengandalkan TTL saja untuk data yang tidak boleh basi.
+  4. Memasang lock tanpa timeout, sehingga request menggantung kalau yang rebuild gagal.
+  5. Tidak mengukur hit rate, jadi tidak tahu kapan cache kosong beramai-ramai.
+  6. Serve stale untuk data yang tidak boleh basi (saldo, stok kritis).
+
+  Aturan Emas: 
+  Rancang cache untuk saat dia kosong dan saat dia bohong, bukan cuma saat dia penuh dan benar.
+
+  Terapin: 
+  di tiap code review cache, tanyakan "kalau entri ini kadaluarsa pas ramai, siapa yang ke DB, dan berapa banyak?"
+
+
+
 Redis sebagai lebih dari cache: rate limiting, distributed lock dasar
 

@@ -123,3 +123,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 9.1 | Lesson 9.1 - Kapan Caching Benar-Benar Dibutuhkan, dan Kapan Cuma Menambah Kompleksitas.md | 2026-11-11 | Dibuat |
 | backend-fundamentals | 9.2 | Lesson 9.2 - Pola Caching, Cache-Aside, Write-Through, Write-Behind.md | 2026-11-12 | Dibuat |
 | backend-fundamentals | 9.3 | Lesson 9.3 - Redis dari Spring Boot, Cacheable, CacheEvict, RedisTemplate, TTL dan Eviction.md | 2026-11-12 | Dibuat |
+| backend-fundamentals | 9.4 | Lesson 9.4 - Masalah Klasik Caching, Cache Stampede, Stale Data dan Invalidation.md | 2026-11-12 | Dibuat |
