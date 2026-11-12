@@ -133,7 +133,7 @@
   Terapin: 
   di tiap code review cache, tanyakan "kalau entri ini kadaluarsa pas ramai, siapa yang ke DB, dan berapa banyak?"
 
+  # Redis sebagai lebih dari cache: rate limiting, distributed lock dasar
 
-
-Redis sebagai lebih dari cache: rate limiting, distributed lock dasar
+  
 
