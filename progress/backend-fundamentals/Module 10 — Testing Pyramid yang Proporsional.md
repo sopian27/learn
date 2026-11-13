@@ -42,6 +42,84 @@
   Pas nulis test buat bug baru, tanya dulu "bisa nggak ini dites di unit?" sebelum bikin E2E.
   
   # Unit testing yang baik: JUnit 5, Mockito, mock vs stub vs spy, over-mocking
+
+  Stub
+  Memberikan jawaban tetap
+  Kita menentukan sendiri hasil yang dikembalikan dependency.
+
+  @Test
+  void getUser_shouldReturnUser() {
+      // Stub
+      when(userRepository.findById(1L))
+          .thenReturn(Optional.of(new User(1L, "Budi")));
+
+      User result = userService.getUser(1L);
+
+      assertEquals("Budi", result.getName());
+  }
+
+  Mock
+  Memeriksa interaksi
+  Kita ingin memastikan dependency dipanggil sesuai harapan.
+
+  @Test
+  void deleteUser_shouldCallRepository() {
+      userService.deleteUser(1L);
+
+      // Mock verification
+      verify(userRepository).deleteById(1L);
+  }
+
+  Spy
+  Memantau objek asli
+  Spy menggunakan objek asli, tetapi kita bisa memantau atau mengganti perilaku method tertentu.
+
+  @Test
+  void spyExample() {
+      List<String> users = new ArrayList<>();
+
+      List<String> spyList = spy(users);
+
+      spyList.add("Budi");
+
+      // Memeriksa hasil objek asli
+      assertEquals(1, spyList.size());
+
+      // Memeriksa interaksi
+      verify(spyList).add("Budi");
+  }
+
+  fake
+  Implementasi sederhana
+  Kita membuat implementasi dependency sendiri tanpa database sungguhan.
+
+  class FakeUserRepository implements UserRepository {
+
+      private final Map<Long, User> database = new HashMap<>();
+
+      @Override
+      public Optional<User> findById(Long id) {
+          return Optional.ofNullable(database.get(id));
+      }
+
+      @Override
+      public void save(User user) {
+          database.put(user.getId(), user);
+      }
+  }
+
+  jangan di lakukan:
+  1. Nulis verify(...) untuk semua dependency, sampai test merah tiap ada refactor tanpa perubahan perilaku.
+  2. Test tanpa assertion yang berarti (cuma mastiin "nggak error"), lalu dibanggain karena coverage tinggi.
+  3. Mock class yang lu miliki sendiri dan sederhana, padahal objek aslinya bisa dipakai langsung.
+  4. Jangan mock untuk ngetes query SQL atau mapping. Itu tugas integration test.
+  5. Jangan verify urutan atau jumlah panggilan internal kalau bukan kontrak.
+
+  Aturan Emas: 
+  Tes apa yang dihasilkan kode, bukan gimana kode itu bekerja.
+
+  Terapin: 
+  Pas review test, tanya "kalau implementasinya diganti tapi hasilnya sama, test ini masih hijau nggak?"
   
   # Integration testing dengan Testcontainers: database/Redis/Kafka asli, bukan H2
   

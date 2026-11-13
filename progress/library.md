@@ -128,3 +128,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 10.1 | Lesson 10.1 - Testing Pyramid yang Proporsional, Unit vs Integration vs E2E dan Bahaya Ice-Cream Cone.md | 2026-11-13 | Dibuat |
 | warm-charisma | 1.2 | Lesson 1.2 - Warmth-First, Bukan Competence-First, Model Stereotype Content Fiske dan Cuddy.md | 2026-11-13 | Dibuat |
 | warm-charisma | 1.3 | Lesson 1.3 - Enam Dimensi Kompetensi Sosial, Peta Diagnostik Diri dari Social Skills Inventory Riggio.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 10.2 | Lesson 10.2 - Unit Testing yang Baik, JUnit 5, Mockito dan Bahaya Over-Mocking.md | 2026-11-13 | Dibuat |
