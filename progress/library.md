@@ -125,3 +125,6 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 9.3 | Lesson 9.3 - Redis dari Spring Boot, Cacheable, CacheEvict, RedisTemplate, TTL dan Eviction.md | 2026-11-12 | Dibuat |
 | backend-fundamentals | 9.4 | Lesson 9.4 - Masalah Klasik Caching, Cache Stampede, Stale Data dan Invalidation.md | 2026-11-12 | Dibuat |
 | backend-fundamentals | 9.5 | Lesson 9.5 - Redis untuk Rate Limiting dan Distributed Lock.md | 2026-11-12 | Dibuat |
+| backend-fundamentals | 10.1 | Lesson 10.1 - Testing Pyramid yang Proporsional, Unit vs Integration vs E2E dan Bahaya Ice-Cream Cone.md | 2026-11-13 | Dibuat |
+| warm-charisma | 1.2 | Lesson 1.2 - Warmth-First, Bukan Competence-First, Model Stereotype Content Fiske dan Cuddy.md | 2026-11-13 | Dibuat |
+| warm-charisma | 1.3 | Lesson 1.3 - Enam Dimensi Kompetensi Sosial, Peta Diagnostik Diri dari Social Skills Inventory Riggio.md | 2026-11-13 | Dibuat |
