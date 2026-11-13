@@ -130,3 +130,4 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | warm-charisma | 1.3 | Lesson 1.3 - Enam Dimensi Kompetensi Sosial, Peta Diagnostik Diri dari Social Skills Inventory Riggio.md | 2026-11-13 | Dibuat |
 | backend-fundamentals | 10.2 | Lesson 10.2 - Unit Testing yang Baik, JUnit 5, Mockito dan Bahaya Over-Mocking.md | 2026-11-13 | Dibuat |
 | backend-fundamentals | 10.3 | Lesson 10.3 - Integration Testing dengan Testcontainers, Database Asli Bukan H2.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 10.4 | Lesson 10.4 - Contract Testing Dasar, Biar Klien Eksternal Nggak Kaget.md | 2026-11-13 | Dibuat |

@@ -152,6 +152,18 @@
   Sebelum percaya test hijau, tanya "ini jalan melawan sistem yang sama dengan production, atau tiruannya?"
   
   # Contract testing dasar
+
+  jangan di lakukan:
+  1. Nganggep test provider yang hijau berarti klien aman.
+  2. Rename atau hapus field langsung, tanpa masa transisi dan deprecation.
+  3. Kontrak ditulis terlalu lengkap (semua field), jadi tiap perubahan kecil bikin merah. Kontrak cukup field yang benar-benar dipakai consumer.
+  4. Kontrak ditulis sekali lalu dilupain, nggak jalan di CI.
+
+  Aturan Emas: 
+  Perubahan yang lu anggap aman bisa merusak orang yang nggak lu lihat.
+
+  Terapin: 
+  Sebelum rename atau hapus sesuatu yang dipakai orang lain, tanya "siapa yang baca ini, dan apa yang mereka asumsikan?"
  
   # Test sebagai dokumentasi hidup: penamaan, Given-When-Then, pesan gagal yang berguna
 
