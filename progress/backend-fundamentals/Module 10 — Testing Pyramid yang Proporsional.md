@@ -159,10 +159,10 @@
   3. Kontrak ditulis terlalu lengkap (semua field), jadi tiap perubahan kecil bikin merah. Kontrak cukup field yang benar-benar dipakai consumer.
   4. Kontrak ditulis sekali lalu dilupain, nggak jalan di CI.
 
-  Aturan Emas: 
+  Aturan Emas:
   Perubahan yang lu anggap aman bisa merusak orang yang nggak lu lihat.
 
-  Terapin: 
+  Terapin:
   Sebelum rename atau hapus sesuatu yang dipakai orang lain, tanya "siapa yang baca ini, dan apa yang mereka asumsikan?"
  
   # Test sebagai dokumentasi hidup: penamaan, Given-When-Then, pesan gagal yang berguna
