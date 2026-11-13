@@ -122,6 +122,34 @@
   Pas review test, tanya "kalau implementasinya diganti tapi hasilnya sama, test ini masih hijau nggak?"
   
   # Integration testing dengan Testcontainers: database/Redis/Kafka asli, bukan H2
+
+  Testcontainers nyalain Postgres/Redis/Kafka asli di Docker, dengan schema dari migration yang sama.
+
+  Testcontainers: perilaku sama dengan production, bug constraint/locking/query ketangkep.
+
+  H2 / in-memory: cepat dan nggak butuh apa-apa, tapi nyembunyiin bug yang spesifik ke database asli.
+
+  Mock repository: paling cepat, tapi nggak ngetes SQL, mapping, dan constraint sama sekali.
+
+  Jangan ngetes semuanya lewat container. Kalau piramida test berarti di tengah, di integration test.
+
+  jangan di lakukan:
+  1. Pakai H2 "mode PostgreSQL" lalu percaya hasilnya sama. Mode itu cuma meniru sebagian.
+  2. Ngandelin ddl-auto=create di test, jadi schema test beda dari hasil migration production.
+  3. Nyalain container baru di tiap test method, bikin suite lambat, lalu tim mematikan integration test.
+  4. Test saling bergantung ke data sisa test lain karena database nggak dibersihkan antar test.
+  5. Logic bisnis murni tanpa I/O: cukup unit test
+
+  best case:
+  1. Ngetes repository, query custom, migration, constraint, dan transaksi.
+  2. Ngetes integrasi nyata: cache Redis (TTL, serialisasi), consumer/producer Kafka.
+  3. Reproduksi bug production yang hanya muncul di database asli.
+
+  Aturan Emas: 
+  Test yang cuma ngetes tiruan cuma membuktikan tiruannya baik-baik saja.
+
+  Terapin: 
+  Sebelum percaya test hijau, tanya "ini jalan melawan sistem yang sama dengan production, atau tiruannya?"
   
   # Contract testing dasar
  
