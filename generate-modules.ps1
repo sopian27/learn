@@ -1,5 +1,5 @@
 #.\generate-modules.ps1 d:\learn\courses\communication-skills\roadmap.md D:\learn\progress\communication-skills
-# Generate satu file per MODULE (bukan per lesson): "Module N - Judul.md"
+# Generate satu file per MODULE: "Module N - Judul.md", berisi tree: "# Modul" lalu tiap lesson (sub-module) "   # Judul"
 
 param(
     [Parameter(Mandatory = $true)]
@@ -37,10 +37,24 @@ $invalid = [regex]::Escape(-join [IO.Path]::GetInvalidFileNameChars())
 $created = 0
 $skipped = 0
 
-foreach ($match in $moduleMatches) {
+for ($i = 0; $i -lt $moduleMatches.Count; $i++) {
 
+    $match  = $moduleMatches[$i]
     $number = $match.Groups[1].Value
     $title  = $match.Groups[2].Value.Trim()
+
+    # Blok teks modul ini: dari heading sampai heading Module berikutnya
+    $start = $match.Index
+    $end   = if ($i + 1 -lt $moduleMatches.Count) { $moduleMatches[$i + 1].Index } else { $content.Length }
+    $block = $content.Substring($start, $end - $start)
+
+    # Sub-module (lesson) = bullet checkbox "* [ ] teks"; judul pendek = teks sebelum ":" pertama
+    $lessonBody = ""
+    foreach ($lm in [regex]::Matches($block, '(?m)^\s*[*-]\s*\[[ xX]\]\s*(.+?)\s*$')) {
+        $lessonTitle = ($lm.Groups[1].Value -split ':|\s[\u2014\u2013]\s', 2)[0].Trim()
+        $lessonTitle = $lessonTitle -replace '^\d+\.\d+\s+', ''   # buang nomor "2.1 " kalau roadmap sudah menyertakan
+        $lessonBody += "   # $lessonTitle`n`n"
+    }
 
     # Judul bisa mengandung ":" dll yang ilegal di nama file Windows
     $safeTitle = ($title -replace "[$invalid]", '-').Trim()
@@ -54,7 +68,7 @@ foreach ($match in $moduleMatches) {
         continue
     }
 
-    Set-Content -LiteralPath $targetFile -Value "# $title`n" -Encoding UTF8
+    Set-Content -LiteralPath $targetFile -Value "# $title`n`n$lessonBody" -Encoding UTF8
 
     Write-Host "[CREATE] $fileName"
     $created++
