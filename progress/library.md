@@ -137,3 +137,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 11.3 | Lesson 11.3 - Password dan Secret Handling, Hashing BCrypt Argon2 dan Kenapa Secret Nggak Boleh Hardcoded.md | 2026-11-14 | Dibuat |
 | backend-fundamentals | 11.4 | Lesson 11.4 - OWASP Top 10 di Spring Boot, SQL Injection Broken Access Control dan Mass Assignment.md | 2026-11-14 | Dibuat |
 | backend-fundamentals | 11.5 | Lesson 11.5 - Input Validation dan Sanitization sebagai Lapisan Pertahanan, CORS yang Dikonfigurasi Benar.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 12.1 | Lesson 12.1 - Failure Mode di Sistem Terdistribusi, Timeout Partial Failure dan Cascading Failure.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 12.2 | Lesson 12.2 - Resilience4j, Retry dengan Backoff, Circuit Breaker, Timeout dan Bulkhead.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 12.3 | Lesson 12.3 - Idempotency di Sisi Consumer dan Producer, Kenapa Retry Tanpa Idempotency Berbahaya.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 12.4 | Lesson 12.4 - Graceful Degradation dan Fallback Strategy, Kapan Data Stale Lebih Baik dari Error Total.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 12.5 | Lesson 12.5 - Health Check dan Readiness Liveness Probe yang Benar, Kenapa Probe Salah Bisa Bikin Outage.md | 2026-11-14 | Dibuat |

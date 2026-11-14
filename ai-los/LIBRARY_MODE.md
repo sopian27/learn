@@ -59,11 +59,15 @@ Per lesson file:
    * Kapan dihindari
    * Checklist (3-6 items, shorter for non-technical courses)
 5. **Satu hal yang bisa dicoba minggu ini**: exactly one line, clearly optional.
-6. **Aturan Emas** (mandatory, one per lesson): ONE memorable sentence the reader can carry into daily life, plus one line on how to apply it.
+6. **Feynman Thinking** (mandatory, one per lesson): the lesson's core idea explained the way Richard Feynman would: simple words, one everyday analogy, no jargon.
+   * 3-5 sentences, about 80-120 words, counted inside the 700-900 word budget. Written as if explaining to a smart 12-year-old.
+   * Must end with one line `Tes Feynman:` = the one-sentence version of the module concept. If it cannot be said without jargon, the explanation is not yet simple enough.
+   * Must explain this lesson's module concept, not repeat the story or the summary. Format: `## Feynman Thinking` heading, then the paragraph.
+7. **Aturan Emas** (mandatory, one per lesson): ONE memorable sentence the reader can carry into daily life, plus one line on how to apply it.
    * Technical courses: a golden rule for work (code, review, debugging, design, working with the team).
    * Non-technical courses: a golden rule for communicating with other people (what to say or do in a real conversation).
    * Must be a distilled principle from this lesson, not a repeat of the summary or the checklist. Format: `> **Aturan Emas:** <kalimat>` then `Terapin: <satu baris situasi nyata>`.
-7. **Ringkasan**: 3 bullets.
+8. **Ringkasan**: 3 bullets.
 
 ## Storytelling (default for "Isi lesson")
 
@@ -139,5 +143,7 @@ For technical courses, the companion playground file exists and the lesson links
 `progress/library.md` has the row.
 
 "Cara pakai di kerjaan" is present and concrete.
+
+"Feynman Thinking" is present: plain-language, one analogy, ends with `Tes Feynman:` line.
 
 "Aturan Emas" is present: work-oriented for technical courses, communication-oriented for non-technical courses.
