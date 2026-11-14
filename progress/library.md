@@ -131,3 +131,9 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 10.2 | Lesson 10.2 - Unit Testing yang Baik, JUnit 5, Mockito dan Bahaya Over-Mocking.md | 2026-11-13 | Dibuat |
 | backend-fundamentals | 10.3 | Lesson 10.3 - Integration Testing dengan Testcontainers, Database Asli Bukan H2.md | 2026-11-13 | Dibuat |
 | backend-fundamentals | 10.4 | Lesson 10.4 - Contract Testing Dasar, Biar Klien Eksternal Nggak Kaget.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 10.5 | Lesson 10.5 - Test sebagai Dokumentasi Hidup, Nama Jelas, Given-When-Then dan Pesan Gagal.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 11.1 | Lesson 11.1 - Authentication vs Authorization, Spring Security Filter Chain dan Chain of Responsibility.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 11.2 | Lesson 11.2 - JWT dan OAuth2 OIDC, Cara Kerja dan Pitfall Umum.md | 2026-11-13 | Dibuat |
+| backend-fundamentals | 11.3 | Lesson 11.3 - Password dan Secret Handling, Hashing BCrypt Argon2 dan Kenapa Secret Nggak Boleh Hardcoded.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 11.4 | Lesson 11.4 - OWASP Top 10 di Spring Boot, SQL Injection Broken Access Control dan Mass Assignment.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 11.5 | Lesson 11.5 - Input Validation dan Sanitization sebagai Lapisan Pertahanan, CORS yang Dikonfigurasi Benar.md | 2026-11-14 | Dibuat |
