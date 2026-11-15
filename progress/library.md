@@ -152,3 +152,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 14.3 | Lesson 14.3 - Load Testing Dasar, Baseline Throughput dan Percentile p50 p95 p99.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 14.4 | Lesson 14.4 - Bottleneck Umum Backend, Query Lambat, Thread Pool Starvation dan Cache Miss.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 14.5 | Lesson 14.5 - Capacity Planning Secukupnya, Perkiraan Resource dari Hasil Load Test.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 15.1 | Lesson 15.1 - Perencanaan Capstone, Memilih Domain dan Desain Awal.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 15.2 | Lesson 15.2 - Implementasi Bertahap, Satu Pilar Satu Bukti.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 15.3 | Lesson 15.3 - Performance Pass, Ukur Dulu Baru Perbaiki.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 15.4 | Lesson 15.4 - Dokumentasi Capstone, README yang Bisa Dijalankan Orang Lain.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 15.5 | Lesson 15.5 - Code Review Penuh, Capstone Belum Selesai Sebelum Dicek.md | 2026-11-15 | Dibuat |
