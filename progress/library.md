@@ -147,3 +147,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 13.3 | Lesson 13.3 - Distributed Tracing, Trace ID dan Span ID Lintas Service.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 13.4 | Lesson 13.4 - Alerting yang Bermakna, Anti Alert Fatigue.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 13.5 | Lesson 13.5 - Debugging Insiden Production dari Log, Metric, dan Trace.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 14.1 | Lesson 14.1 - Mindset Performance Engineering, Ukur Dulu Baru Optimasi.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 14.2 | Lesson 14.2 - Profiling Aplikasi Java, CPU Profiling dan Hot Path.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 14.3 | Lesson 14.3 - Load Testing Dasar, Baseline Throughput dan Percentile p50 p95 p99.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 14.4 | Lesson 14.4 - Bottleneck Umum Backend, Query Lambat, Thread Pool Starvation dan Cache Miss.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 14.5 | Lesson 14.5 - Capacity Planning Secukupnya, Perkiraan Resource dari Hasil Load Test.md | 2026-11-15 | Dibuat |
