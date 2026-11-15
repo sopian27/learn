@@ -142,3 +142,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 12.3 | Lesson 12.3 - Idempotency di Sisi Consumer dan Producer, Kenapa Retry Tanpa Idempotency Berbahaya.md | 2026-11-14 | Dibuat |
 | backend-fundamentals | 12.4 | Lesson 12.4 - Graceful Degradation dan Fallback Strategy, Kapan Data Stale Lebih Baik dari Error Total.md | 2026-11-14 | Dibuat |
 | backend-fundamentals | 12.5 | Lesson 12.5 - Health Check dan Readiness Liveness Probe yang Benar, Kenapa Probe Salah Bisa Bikin Outage.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 13.1 | Lesson 13.1 - Structured Logging, Kenapa Log String Concat Itu Anti-Pattern, Logging sebagai Data JSON dan Correlation ID.md | 2026-11-14 | Dibuat |
+| backend-fundamentals | 13.2 | Lesson 13.2 - Metrics, RED dan USE Method, Expose Metrics via Micrometer dan Actuator.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 13.3 | Lesson 13.3 - Distributed Tracing, Trace ID dan Span ID Lintas Service.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 13.4 | Lesson 13.4 - Alerting yang Bermakna, Anti Alert Fatigue.md | 2026-11-15 | Dibuat |
+| backend-fundamentals | 13.5 | Lesson 13.5 - Debugging Insiden Production dari Log, Metric, dan Trace.md | 2026-11-15 | Dibuat |
