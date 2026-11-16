@@ -167,3 +167,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 2.3 | Lesson 2.3 - Resource Modeling, Memetakan Order Management Jadi Resource dan Sub-Resource.md | 2026-11-17 | Dibuat |
 | rest-api-design | 2.4 | Lesson 2.4 - URI Naming, Lowercase Hyphen Plural dan Tanpa Verb Biar API Bisa Ditebak.md | 2026-11-17 | Dibuat |
 | rest-api-design | 2.5 | Lesson 2.5 - RPC-style vs REST-style, Kapan Endpoint Non-CRUD Tetap Wajar.md | 2026-11-17 | Dibuat |
+| rest-api-design | 3.1 | Lesson 3.1 - RestController RequestMapping Path Variable vs Query Parameter, Kapan Pakai yang Mana.md | 2026-11-17 | Dibuat |
+| rest-api-design | 3.2 | Lesson 3.2 - Request Response Body Binding, RequestBody ResponseEntity untuk Kontrol Status Code dan Header.md | 2026-11-17 | Dibuat |
+| rest-api-design | 3.3 | Lesson 3.3 - Content Negotiation, Accept dan Content-Type, produces dan consumes untuk Format Request Response.md | 2026-11-17 | Dibuat |
+| rest-api-design | 3.4 | Lesson 3.4 - Layered Architecture untuk REST, Controller Service Repository dan Kenapa Controller Harus Tipis.md | 2026-11-17 | Dibuat |
