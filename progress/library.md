@@ -162,3 +162,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 1.3 | Lesson 1.3 - HTTP Status Code per Kategori, Memilih yang Tepat Bukan Default ke 200 atau 500.md | 2026-11-16 | Dibuat |
 | rest-api-design | 1.4 | Lesson 1.4 - Header Penting untuk API, Content-Type, Accept, ETag, Cache-Control, Location.md | 2026-11-16 | Dibuat |
 | rest-api-design | 1.5 | Lesson 1.5 - Statelessness, Kenapa Server REST Tidak Boleh Menyimpan Session Klien.md | 2026-11-16 | Dibuat |
+| rest-api-design | 2.1 | Lesson 2.1 - Enam Constraint REST Fielding, Mana yang Wajib dan Mana yang Opsional.md | 2026-11-16 | Dibuat |
+| rest-api-design | 2.2 | Lesson 2.2 - Richardson Maturity Model, Mengukur Seberapa RESTful API Lu Sebenarnya.md | 2026-11-16 | Dibuat |
+| rest-api-design | 2.3 | Lesson 2.3 - Resource Modeling, Memetakan Order Management Jadi Resource dan Sub-Resource.md | 2026-11-17 | Dibuat |
+| rest-api-design | 2.4 | Lesson 2.4 - URI Naming, Lowercase Hyphen Plural dan Tanpa Verb Biar API Bisa Ditebak.md | 2026-11-17 | Dibuat |
+| rest-api-design | 2.5 | Lesson 2.5 - RPC-style vs REST-style, Kapan Endpoint Non-CRUD Tetap Wajar.md | 2026-11-17 | Dibuat |
