@@ -157,3 +157,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | backend-fundamentals | 15.3 | Lesson 15.3 - Performance Pass, Ukur Dulu Baru Perbaiki.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 15.4 | Lesson 15.4 - Dokumentasi Capstone, README yang Bisa Dijalankan Orang Lain.md | 2026-11-15 | Dibuat |
 | backend-fundamentals | 15.5 | Lesson 15.5 - Code Review Penuh, Capstone Belum Selesai Sebelum Dicek.md | 2026-11-15 | Dibuat |
+| rest-api-design | 1.1 | Lesson 1.1 - Anatomy HTTP Request dan Response, Kenapa REST Menumpang di Atas HTTP.md | 2026-11-15 | Dibuat |
+| rest-api-design | 1.2 | Lesson 1.2 - HTTP Methods, Safety dan Idempotency, Kenapa GET Harus Safe dan PUT Idempotent.md | 2026-11-16 | Dibuat |
+| rest-api-design | 1.3 | Lesson 1.3 - HTTP Status Code per Kategori, Memilih yang Tepat Bukan Default ke 200 atau 500.md | 2026-11-16 | Dibuat |
+| rest-api-design | 1.4 | Lesson 1.4 - Header Penting untuk API, Content-Type, Accept, ETag, Cache-Control, Location.md | 2026-11-16 | Dibuat |
+| rest-api-design | 1.5 | Lesson 1.5 - Statelessness, Kenapa Server REST Tidak Boleh Menyimpan Session Klien.md | 2026-11-16 | Dibuat |
