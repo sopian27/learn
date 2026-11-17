@@ -175,3 +175,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 4.2 | Lesson 4.2 - Request DTO vs Response DTO, Kenapa Input dan Output Dipisah dan Kapan Boleh Digabung.md | 2026-11-17 | Dibuat |
 | rest-api-design | 4.3 | Lesson 4.3 - Mapping Manual Mapper vs MapStruct, Trade-off Kontrol vs Boilerplate.md | 2026-11-17 | Dibuat |
 | rest-api-design | 4.4 | Lesson 4.4 - Over-fetching dan Under-fetching, Mendesain DTO Sesuai Kebutuhan Konsumen Bukan Struktur Database.md | 2026-11-17 | Dibuat |
+| rest-api-design | 5.1 | Lesson 5.1 - Jakarta Bean Validation Dasar, NotNull Size Pattern Email dan Kapan Masing-masing Tepat.md | 2026-11-17 | Dibuat |
+| rest-api-design | 5.2 | Lesson 5.2 - Custom Validator untuk Business Rule yang Tidak Bisa Diekspresikan Anotasi Bawaan.md | 2026-11-17 | Dibuat |
+| rest-api-design | 5.3 | Lesson 5.3 - Validation Groups, Validasi Berbeda untuk Create vs Update pada DTO yang Sama.md | 2026-11-17 | Dibuat |
+| rest-api-design | 5.4 | Lesson 5.4 - Nested Object Validation dan Validasi Collection, Valid pada List Item Order.md | 2026-11-17 | Dibuat |
