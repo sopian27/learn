@@ -179,3 +179,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 5.2 | Lesson 5.2 - Custom Validator untuk Business Rule yang Tidak Bisa Diekspresikan Anotasi Bawaan.md | 2026-11-17 | Dibuat |
 | rest-api-design | 5.3 | Lesson 5.3 - Validation Groups, Validasi Berbeda untuk Create vs Update pada DTO yang Sama.md | 2026-11-17 | Dibuat |
 | rest-api-design | 5.4 | Lesson 5.4 - Nested Object Validation dan Validasi Collection, Valid pada List Item Order.md | 2026-11-17 | Dibuat |
+| rest-api-design | 6.1 | Lesson 6.1 - Kenapa Stack Trace Tidak Boleh Bocor ke Klien dan Apa yang Harus Ditampilkan Sebagai Gantinya.md | 2026-11-17 | Dibuat |
+| rest-api-design | 6.2 | Lesson 6.2 - RFC 9457 Problem Details for HTTP APIs, Struktur Standar dan ProblemDetail di Spring 6+.md | 2026-11-18 | Dibuat |
+| rest-api-design | 6.3 | Lesson 6.3 - Global Exception Handling dengan ControllerAdvice dan ExceptionHandler, Memetakan Exception Domain ke Status Code yang Tepat.md | 2026-11-18 | Dibuat |
+| rest-api-design | 6.4 | Lesson 6.4 - Error Contract sesuai API_STANDARDS, Error Code, Message, Timestamp, TraceId, Path, dan Details.md | 2026-11-18 | Dibuat |
+| rest-api-design | 6.5 | Lesson 6.5 - Error Klien 4xx vs Error Server 5xx, Actionable vs Di-log dan Dialert.md | 2026-11-18 | Dibuat |
