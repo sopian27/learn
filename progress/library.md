@@ -184,3 +184,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 6.3 | Lesson 6.3 - Global Exception Handling dengan ControllerAdvice dan ExceptionHandler, Memetakan Exception Domain ke Status Code yang Tepat.md | 2026-11-18 | Dibuat |
 | rest-api-design | 6.4 | Lesson 6.4 - Error Contract sesuai API_STANDARDS, Error Code, Message, Timestamp, TraceId, Path, dan Details.md | 2026-11-18 | Dibuat |
 | rest-api-design | 6.5 | Lesson 6.5 - Error Klien 4xx vs Error Server 5xx, Actionable vs Di-log dan Dialert.md | 2026-11-18 | Dibuat |
+| rest-api-design | 7.1 | Lesson 7.1 - Offset-based Pagination dengan Spring Data Pageable, Kelebihan Simpel dan Kelemahan Page Drift saat Data Berubah.md | 2026-11-18 | Dibuat |
+| rest-api-design | 7.2 | Lesson 7.2 - Cursor-based Pagination, Kapan Wajib Dipakai untuk Dataset Besar dan Real-time, Cara Implementasi di atas JPA.md | 2026-11-18 | Dibuat |
+| rest-api-design | 7.3 | Lesson 7.3 - Filtering Dinamis dengan JPA Specification atau Querydsl, Whitelist Field yang Boleh Difilter agar Kolom Sensitif Aman.md | 2026-11-18 | Dibuat |
+| rest-api-design | 7.4 | Lesson 7.4 - Sorting dengan Whitelist Field dan Default Sort yang Aman, Mencegah ORDER BY ke Kolom yang Tidak Diindeks.md | 2026-11-18 | Dibuat |
