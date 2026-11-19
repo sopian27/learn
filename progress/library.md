@@ -188,3 +188,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 7.2 | Lesson 7.2 - Cursor-based Pagination, Kapan Wajib Dipakai untuk Dataset Besar dan Real-time, Cara Implementasi di atas JPA.md | 2026-11-18 | Dibuat |
 | rest-api-design | 7.3 | Lesson 7.3 - Filtering Dinamis dengan JPA Specification atau Querydsl, Whitelist Field yang Boleh Difilter agar Kolom Sensitif Aman.md | 2026-11-18 | Dibuat |
 | rest-api-design | 7.4 | Lesson 7.4 - Sorting dengan Whitelist Field dan Default Sort yang Aman, Mencegah ORDER BY ke Kolom yang Tidak Diindeks.md | 2026-11-18 | Dibuat |
+| rest-api-design | 8.1 | Lesson 8.1 - Breaking vs Non-breaking Change, Definisi Konkret Field Baru Aman, Field Dihapus atau Tipe Berubah Breaking.md | 2026-11-19 | Dibuat |
+| rest-api-design | 8.2 | Lesson 8.2 - Strategi Versioning, URI, Header, Content Negotiation, Trade-off dan Mana yang Dipakai Stripe GitHub Google.md | 2026-11-19 | Dibuat |
+| rest-api-design | 8.3 | Lesson 8.3 - Deprecation Policy, Sunset Header, Deprecation Header, Komunikasi ke Konsumen dan Migration Window yang Wajar.md | 2026-11-19 | Dibuat |
+| rest-api-design | 8.4 | Lesson 8.4 - Consumer-driven Contract Testing, Kontrak Ditulis Consumer, Provider Verification dan Kenapa Test Server Saja Tidak Cukup.md | 2026-11-19 | Dibuat |
