@@ -192,3 +192,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 8.2 | Lesson 8.2 - Strategi Versioning, URI, Header, Content Negotiation, Trade-off dan Mana yang Dipakai Stripe GitHub Google.md | 2026-11-19 | Dibuat |
 | rest-api-design | 8.3 | Lesson 8.3 - Deprecation Policy, Sunset Header, Deprecation Header, Komunikasi ke Konsumen dan Migration Window yang Wajar.md | 2026-11-19 | Dibuat |
 | rest-api-design | 8.4 | Lesson 8.4 - Consumer-driven Contract Testing, Kontrak Ditulis Consumer, Provider Verification dan Kenapa Test Server Saja Tidak Cukup.md | 2026-11-19 | Dibuat |
+| rest-api-design | 9.1 | Lesson 9.1 - Authentication di Spring Security, JWT Stateless, Cara Kerja, Validasi, dan Kesalahan Umum Secret Lemah dan Expiry Tidak Dicek.md | 2026-11-19 | Dibuat |
+| rest-api-design | 9.2 | Lesson 9.2 - Authorization, Method-Level Security, Object-Level Authorization BOLA IDOR, dan Jangan Percaya id dari Request.md | 2026-11-19 | Dibuat |
+| rest-api-design | 9.3 | Lesson 9.3 - Mass Assignment Protection, Binding Otomatis ke Entity, DTO Whitelist, dan Field role atau isAdmin yang Tidak Boleh Diisi Klien.md | 2026-11-19 | Dibuat |
+| rest-api-design | 9.4 | Lesson 9.4 - Rate Limiting Dasar untuk API, Token Bucket dengan Redis, Response 429 dan Header Retry-After.md | 2026-11-19 | Dibuat |
+| rest-api-design | 9.5 | Lesson 9.5 - OWASP API Security Top 10 2023, Checklist Penuh dan Cara Mengeceknya.md | 2026-11-20 | Dibuat |
