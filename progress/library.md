@@ -197,3 +197,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 9.3 | Lesson 9.3 - Mass Assignment Protection, Binding Otomatis ke Entity, DTO Whitelist, dan Field role atau isAdmin yang Tidak Boleh Diisi Klien.md | 2026-11-19 | Dibuat |
 | rest-api-design | 9.4 | Lesson 9.4 - Rate Limiting Dasar untuk API, Token Bucket dengan Redis, Response 429 dan Header Retry-After.md | 2026-11-19 | Dibuat |
 | rest-api-design | 9.5 | Lesson 9.5 - OWASP API Security Top 10 2023, Checklist Penuh dan Cara Mengeceknya.md | 2026-11-20 | Dibuat |
+| rest-api-design | 10.1 | Lesson 10.1 - OpenAPI Specification, Struktur Dasar paths schemas components, dan Cara Membaca Sebelum Menulis.md | 2026-11-20 | Dibuat |
+| rest-api-design | 10.2 | Lesson 10.2 - springdoc-openapi, Generate Dokumentasi dari Kode lewat Operation Schema dan ApiResponse.md | 2026-11-20 | Dibuat |
+| rest-api-design | 10.3 | Lesson 10.3 - Contract-first vs Code-first, Kapan Spec YAML Jadi Sumber Kebenaran.md | 2026-11-20 | Dibuat |
+| rest-api-design | 10.4 | Lesson 10.4 - Dokumentasi OpenAPI Lengkap, Contoh Request Response, Kode Error, Rate Limit dan Versi.md | 2026-11-20 | Dibuat |
