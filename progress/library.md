@@ -201,3 +201,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 10.2 | Lesson 10.2 - springdoc-openapi, Generate Dokumentasi dari Kode lewat Operation Schema dan ApiResponse.md | 2026-11-20 | Dibuat |
 | rest-api-design | 10.3 | Lesson 10.3 - Contract-first vs Code-first, Kapan Spec YAML Jadi Sumber Kebenaran.md | 2026-11-20 | Dibuat |
 | rest-api-design | 10.4 | Lesson 10.4 - Dokumentasi OpenAPI Lengkap, Contoh Request Response, Kode Error, Rate Limit dan Versi.md | 2026-11-20 | Dibuat |
+| rest-api-design | 11.1 | Lesson 11.1 - Unit Test Service Layer dengan Mock Repository, Apa yang Layak dan Tidak Layak Diuji.md | 2026-11-20 | Dibuat |
+| rest-api-design | 11.2 | Lesson 11.2 - Slice Test WebMvcTest, Menguji Controller, Validation dan Error Handling Tanpa Naikkan Seluruh Context.md | 2026-11-20 | Dibuat |
+| rest-api-design | 11.3 | Lesson 11.3 - Integration Test Testcontainers, Database Sungguhan Bukan H2, Menangkap Bug Spesifik Dialect.md | 2026-11-20 | Dibuat |
+| rest-api-design | 11.4 | Lesson 11.4 - Menguji Skenario yang Sering Dilewatkan, Validasi, Authentication, Authorization dan Edge Case Pagination.md | 2026-11-20 | Dibuat |
+| rest-api-design | 11.5 | Lesson 11.5 - Contract Testing dengan Pact, Memastikan Konsumen dan Provider Tidak Diam-diam Beda Asumsi.md | 2026-11-21 | Dibuat |
