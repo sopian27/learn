@@ -96,10 +96,6 @@
    Tes Feynman: contract testing memastikan penyedia API tidak diam-diam mengubah hal yang dipakai pemakainya, dengan memeriksa daftar kebutuhan pemakai sebelum perubahan dirilis.
 
    Aturan Emas: Jangan ubah sesuatu yang dipakai orang lain tanpa tahu siapa pemakainya dan apa yang mereka pakai.
-   
+
    Terapin: sebelum rename atau hapus field API, cek kontrak consumer atau tanya tim pemakainya, bukan cuma andalkan test sendiri.
-
-
-
-
 
