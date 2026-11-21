@@ -206,3 +206,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 11.3 | Lesson 11.3 - Integration Test Testcontainers, Database Sungguhan Bukan H2, Menangkap Bug Spesifik Dialect.md | 2026-11-20 | Dibuat |
 | rest-api-design | 11.4 | Lesson 11.4 - Menguji Skenario yang Sering Dilewatkan, Validasi, Authentication, Authorization dan Edge Case Pagination.md | 2026-11-20 | Dibuat |
 | rest-api-design | 11.5 | Lesson 11.5 - Contract Testing dengan Pact, Memastikan Konsumen dan Provider Tidak Diam-diam Beda Asumsi.md | 2026-11-21 | Dibuat |
+| rest-api-design | 12.1 | Lesson 12.1 - Caching HTTP, ETag Last-Modified dan Cache-Control, Conditional Request untuk Mengurangi Payload.md | 2026-11-21 | Dibuat |
+| rest-api-design | 12.2 | Lesson 12.2 - Application-level Caching dengan Redis, Kapan Cache Response, Kapan Cache Query Result, Strategi Invalidation.md | 2026-11-22 | Dibuat |
+| rest-api-design | 12.4 | Lesson 12.4 - Response Compression dan Payload Minimization, Kapan gzip Membantu, Kapan Tidak.md | 2026-11-22 | Dibuat |
+| rest-api-design | 12.5 | Lesson 12.5 - Load Testing Dasar dengan k6, Mengukur Latency dan Throughput Sebelum dan Sesudah Optimasi.md | 2026-11-22 | Dibuat |
