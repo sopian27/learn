@@ -5,7 +5,7 @@
 * Course Name: REST API Design — dari 0 sampai Expert (Spring Boot)
 * Category: API Engineering (Backend) — course REST-only, standalone, dari fondasi HTTP sampai API governance level organisasi
 * Difficulty: Level 1 (paham HTTP/REST secara konseptual tapi belum pernah didesain sistematis) → Level 4 (bisa merancang, mengamankan, menguji, dan mengoperasikan REST API production-grade, plus menulis/menegakkan API governance untuk tim)
-* Estimated Duration: 15 modul, 3-5 lesson/modul, ~40-60 menit/lesson. Perkiraan ≈ 4-5 bulan pace sedang.
+* Estimated Duration: 14 modul, 2-5 lesson/modul, ~40-60 menit/lesson. Perkiraan ≈ 4-5 bulan pace sedang.
 * Prerequisites: Sudah bisa menulis Java & Spring Boot dasar (CRUD, JPA, controller) — course ini **tidak** mengajarkan syntax Java atau "apa itu Spring Boot" dari nol. "Dari 0" di course ini berarti dari 0 di sisi *desain* REST API (HTTP semantics, REST architectural style, standar production-grade) — bukan dari 0 pemrograman.
 
 ---
@@ -29,14 +29,13 @@ Referensi riset (dasar penyusunan modul):
 * [RFC 9110 — HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110) — fondasi Module 1
 * [RFC 9457 — Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457) (obsoletes RFC 7807) — fondasi Module 6
 * Roy Fielding, *Architectural Styles and the Design of Network-based Software Architectures* (disertasi REST asli, 2000) & Richardson Maturity Model — fondasi Module 2
-* [Google API Design Guide](https://cloud.google.com/apis/design), [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines), [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) — pembanding standar industri di Module 2, 7, 8, 15
+* [Google API Design Guide](https://cloud.google.com/apis/design), [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines), [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/) — pembanding standar industri di Module 2, 7, 8, 14
 * [Stripe API versioning](https://stripe.com/blog/api-versioning) & [Stripe API design](https://stripe.com/docs/api) — studi kasus praktisi Module 8
 * [OWASP API Security Top 10 (2023)](https://owasp.org/API-Security/editions/2023/en/0x00-header/) — fondasi Module 9
 * [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) & [springdoc-openapi docs](https://springdoc.org/) — fondasi Module 10
 * [Spring Framework — Web MVC docs](https://docs.spring.io/spring-framework/reference/web/webmvc.html), [Spring Data docs](https://docs.spring.io/spring-data/jpa/reference/), [Spring Security docs](https://docs.spring.io/spring-security/reference/) — hands-on Module 3, 7, 9
 * [Testcontainers docs](https://testcontainers.com/), Baeldung `@WebMvcTest`/`@SpringBootTest` guides — Module 11
-* [Resilience4j docs](https://resilience4j.readme.io/) — Module 13
-* [Micrometer docs](https://micrometer.io/docs), [OpenTelemetry docs](https://opentelemetry.io/docs/) — Module 14
+* [Resilience4j docs](https://resilience4j.readme.io/), [Micrometer docs](https://micrometer.io/docs), [OpenTelemetry docs](https://opentelemetry.io/docs/) — dirujuk dari `backend-fundamentals` Module 12-13; Module 13 course ini hanya bagian REST-specific
 * Martin Fowler, *Consumer-Driven Contracts* — Module 8
 * `standards/API_STANDARDS.md` & `standards/OPENAPI_STANDARDS.md` — kontrak konvensi repo ini, jadi rubric utama tiap Code Review lesson
 
@@ -278,51 +277,34 @@ Status: Not Started
 
 ---
 
-## Module 13 — Resilience Patterns
+## Module 13 — REST-specific Resilience & Observability
 
-Description: API production akan berhadapan dengan dependency yang gagal (database lambat, service lain down). Modul ini membangun ketahanan, bukan asumsi semua selalu berjalan lancar.
+Description: Resilience dan observability umum (timeout, retry, circuit breaker, structured logging, metrics, health probe, tracing) sudah dibahas di `courses/backend-fundamentals` Module 12 & 13 — modul ini **tidak mengulang**, hanya mengajarkan bagian yang spesifik di kontrak REST API: header `Idempotency-Key`, `202 Accepted` + status endpoint, dan asynchronous processing di baliknya. Lalu menerapkannya di Order Management API.
+
+Prerequisite (rujukan, bukan diulang): `backend-fundamentals` Module 12 (Resiliency & Fault Tolerance: retry/backoff, Resilience4j circuit breaker, idempotency, graceful degradation, health probe) dan Module 13 (Observability: structured logging + correlation ID, metrics RED/USE, distributed tracing).
 
 Lessons:
 
-* [ ] 13.1 Timeout & retry — kenapa retry tanpa backoff bisa memperparah insiden (retry storm)
-* [ ] 13.2 Circuit breaker dengan Resilience4j — state closed/open/half-open, kapan dipakai
-* [ ] 13.3 Idempotency key — mencegah efek ganda saat klien retry `POST` (contoh: create order dua kali karena network timeout)
-* [ ] 13.4 Graceful degradation & asynchronous processing — `202 Accepted` + status endpoint untuk operasi lambat, alih-alih membuat klien menunggu
+* [ ] 13.1 Idempotency key sebagai kontrak HTTP — header `Idempotency-Key` di `POST /orders`, penyimpanan key + hasil, response untuk duplicate (replay vs `409`/`422`), contoh create order dua kali karena network timeout
+* [ ] 13.2 `202 Accepted` + status endpoint — operasi lambat/async sebagai kontrak API (`Location`, `Retry-After`, resource status), alih-alih membuat klien menunggu
+* [ ] 13.3 Asynchronous processing di balik API — worker/queue yang mengeksekusi job setelah `202`, state machine job (`PENDING → PROCESSING → DONE/FAILED`), polling vs webhook callback (retry + signature), at-least-once delivery sehingga worker wajib idempotent, trade-off sync vs async
 
-Mini Project: Tambahkan idempotency key ke `POST /orders`, bungkus 1 dependency eksternal (simulasi payment service) dengan circuit breaker + timeout Resilience4j, buktikan API tetap merespons masuk akal saat dependency itu sengaja dimatikan.
+Mini Project: Di Order Management API: (1) tambahkan `Idempotency-Key` ke `POST /orders`, (2) buat 1 operasi lambat (mis. konfirmasi pembayaran simulasi) jadi `202` + status endpoint yang dieksekusi worker async (state machine job, hasil bisa diambil via polling atau webhook callback), (3) pakai ulang circuit breaker + timeout dari `backend-fundamentals` 12.2 untuk dependency payment simulasi, buktikan API tetap merespons masuk akal saat dependency dimatikan, (4) pastikan trace ID dari log (`backend-fundamentals` 13.1) muncul di error response Problem Details sehingga 1 request bisa ditelusuri penuh dari log.
 
 Status: Not Started
 
 ---
 
-## Module 14 — Observability
-
-Description: Saat insiden production terjadi jam 2 pagi, observability yang baik adalah beda antara debug 10 menit vs 3 jam.
-
-Lessons:
-
-* [ ] 14.1 Structured logging: request ID, trace ID, user ID (bukan data sensitif) — format yang bisa di-query, bukan `System.out.println`
-* [ ] 14.2 Correlation ID lintas service — memetakan satu request sampai ke semua layer yang dilaluinya
-* [ ] 14.3 Metrics dengan Micrometer/Prometheus: latency, error rate, throughput per endpoint (RED method)
-* [ ] 14.4 Health check & readiness check (Spring Actuator) — bedanya, dan kenapa keduanya penting untuk orchestrator
-* [ ] 14.5 Pengenalan distributed tracing (OpenTelemetry) — kapan logging & metrics tidak cukup
-
-Mini Project: Instrumentasi Order Management API — structured logging dengan trace ID di setiap request, metrics Micrometer untuk endpoint utama, health/readiness endpoint aktif, buktikan bisa menelusuri 1 request penuh dari log.
-
-Status: Not Started
-
----
-
-## Module 15 — Architecture, API Governance & Capstone
+## Module 14 — Architecture, API Governance & Capstone
 
 Description: Modul penutup — naik dari "API yang saya bangun" ke "standar API yang saya tegakkan untuk tim/organisasi", sekaligus menyatukan seluruh course jadi satu Capstone portfolio-ready.
 
 Lessons:
 
-* [ ] 15.1 API sebagai produk — perspektif konsumen API (internal & eksternal), kenapa consistency lintas tim lebih penting dari "API yang sempurna sendirian"
-* [ ] 15.2 API Review Checklist (`standards/API_STANDARDS.md`) — praktik code review khusus API, studi kasus Google/Microsoft/Zalando API guidelines
-* [ ] 15.3 API governance di organisasi nyata: style guide enforcement (linting OpenAPI), API lifecycle (design → review → publish → deprecate → sunset), siapa yang punya otoritas approve breaking change
-* [ ] 15.4 Menyatukan Module 1-14 jadi satu sistem koheren — code review penuh terhadap Order Management API dengan lensa "apakah ini siap jadi standar tim?"
+* [ ] 14.1 API sebagai produk — perspektif konsumen API (internal & eksternal), kenapa consistency lintas tim lebih penting dari "API yang sempurna sendirian"
+* [ ] 14.2 API Review Checklist (`standards/API_STANDARDS.md`) — praktik code review khusus API, studi kasus Google/Microsoft/Zalando API guidelines
+* [ ] 14.3 API governance di organisasi nyata: style guide enforcement (linting OpenAPI), API lifecycle (design → review → publish → deprecate → sunset), siapa yang punya otoritas approve breaking change
+* [ ] 14.4 Menyatukan Module 1-13 jadi satu sistem koheren — code review penuh terhadap Order Management API dengan lensa "apakah ini siap jadi standar tim?"
 
 Portfolio Project: Lihat "Capstone Project" di bawah.
 
@@ -332,7 +314,7 @@ Status: Not Started
 
 # Capstone Project
 
-Description: **Order Management API — Production-Grade, Portfolio-Ready.** Satu REST API lengkap yang menggabungkan seluruh skill Module 1-15, didesain, diimplementasikan, diamankan, didokumentasikan, diuji, dioptimasi, dan diobservasi seperti API yang benar-benar akan dipercaya klien freelance atau tim engineering nyata. Boleh diganti domain (bukan order management) kalau ada proyek kerja nyata yang lebih relevan untuk portofolio — struktur acceptance criteria tetap sama.
+Description: **Order Management API — Production-Grade, Portfolio-Ready.** Satu REST API lengkap yang menggabungkan seluruh skill Module 1-14, didesain, diimplementasikan, diamankan, didokumentasikan, diuji, dioptimasi, dan diobservasi seperti API yang benar-benar akan dipercaya klien freelance atau tim engineering nyata. Boleh diganti domain (bukan order management) kalau ada proyek kerja nyata yang lebih relevan untuk portofolio — struktur acceptance criteria tetap sama.
 
 Acceptance Criteria:
 
@@ -358,7 +340,7 @@ Status: Not Started
 
 # Overall Progress
 
-Module Completion: 0/15
+Module Completion: 0/14
 
 Overall Completion: 0%
 

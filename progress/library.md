@@ -210,3 +210,6 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 12.2 | Lesson 12.2 - Application-level Caching dengan Redis, Kapan Cache Response, Kapan Cache Query Result, Strategi Invalidation.md | 2026-11-22 | Dibuat |
 | rest-api-design | 12.4 | Lesson 12.4 - Response Compression dan Payload Minimization, Kapan gzip Membantu, Kapan Tidak.md | 2026-11-22 | Dibuat |
 | rest-api-design | 12.5 | Lesson 12.5 - Load Testing Dasar dengan k6, Mengukur Latency dan Throughput Sebelum dan Sesudah Optimasi.md | 2026-11-22 | Dibuat |
+| rest-api-design | 13.1 | Lesson 13.1 - Idempotency Key sebagai Kontrak HTTP, Header Idempotency-Key di POST orders, Replay vs 409 vs 422.md | 2026-11-22 | Dibuat |
+| rest-api-design | 13.2 | Lesson 13.2 - 202 Accepted dan Status Endpoint, Location, Retry-After, Resource Status.md | 2026-11-22 | Dibuat |
+| rest-api-design | 13.3 | Lesson 13.3 - Asynchronous Processing di Balik API, Worker dan Queue, State Machine Job, Polling vs Webhook, At-least-once Delivery.md | 2026-11-22 | Dibuat |

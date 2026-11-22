@@ -6,6 +6,6 @@
 
    # API governance di organisasi nyata
 
-   # Menyatukan Module 1-14 jadi satu sistem koheren
+   # Menyatukan Module 1-13 jadi satu sistem koheren
 
 
