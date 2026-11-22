@@ -213,3 +213,6 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 13.1 | Lesson 13.1 - Idempotency Key sebagai Kontrak HTTP, Header Idempotency-Key di POST orders, Replay vs 409 vs 422.md | 2026-11-22 | Dibuat |
 | rest-api-design | 13.2 | Lesson 13.2 - 202 Accepted dan Status Endpoint, Location, Retry-After, Resource Status.md | 2026-11-22 | Dibuat |
 | rest-api-design | 13.3 | Lesson 13.3 - Asynchronous Processing di Balik API, Worker dan Queue, State Machine Job, Polling vs Webhook, At-least-once Delivery.md | 2026-11-22 | Dibuat |
+| rest-api-design | 14.1 | Lesson 14.1 - API sebagai Produk, Perspektif Konsumen, Kenapa Konsistensi Lintas Tim Lebih Penting dari API Sempurna.md | 2026-11-22 | Dibuat |
+| rest-api-design | 14.2 | Lesson 14.2 - API Review Checklist, Praktik Code Review Khusus API, Studi Kasus Google, Microsoft, dan Zalando API Guidelines.md | 2026-11-22 | Dibuat |
+| rest-api-design | 14.3 | Lesson 14.3 - API Governance di Organisasi Nyata, Linting OpenAPI, API Lifecycle dari Design sampai Sunset, dan Siapa yang Approve Breaking Change.md | 2026-11-22 | Dibuat |
