@@ -2,7 +2,7 @@
 
    # Peran API Gateway
 
-   # Setup gateway (Kong atau Spring Cloud Gateway) di depan service REST/gRPC
+   # Setup gateway (Kong atau Spring Cloud Gateway) di depan service REST
 
    # Backend-for-Frontend (BFF)
 

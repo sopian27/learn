@@ -221,3 +221,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | api-engineering | 2.1 | Lesson 2.1 - Perbandingan Algoritma Rate Limiting, Token Bucket, Leaky Bucket, Fixed Window, Sliding Window Log dan Counter, Trade-off Akurasi vs Memori.md | 2026-11-23 | Dibuat |
 | api-engineering | 2.2 | Lesson 2.2 - Sliding Window dengan Redis + Lua Script (Atomic), Menutup Race Condition.md | 2026-11-23 | Dibuat |
 | api-engineering | 2.3 | Lesson 2.3 - Per-Client Quota dan Tier (Free vs Paid), Skema Quota di Gateway vs di Aplikasi.md | 2026-11-24 | Dibuat |
+| api-engineering | 3.1 | Lesson 3.1 - Schema Design, Type, Query, Mutation, Subscription, Prinsip Schema-First.md | 2026-11-24 | Dibuat |
+| api-engineering | 3.2 | Lesson 3.2 - Resolver di Spring for GraphQL, Menghubungkan ke Service dan Repository yang Sudah Ada.md | 2026-11-24 | Dibuat |
+| api-engineering | 3.3 | Lesson 3.3 - N+1 Problem di GraphQL dan Solusinya dengan DataLoader, Batching.md | 2026-11-24 | Dibuat |
+| api-engineering | 3.4 | Lesson 3.4 - Query Complexity dan Depth Limiting, Mencegah Query Jahat dan Mahal.md | 2026-11-24 | Dibuat |

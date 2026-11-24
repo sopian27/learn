@@ -2,10 +2,10 @@
 
 ## Course Information
 
-* Course Name: API Engineering — HATEOAS, Rate Limiting Lanjut, gRPC, GraphQL, WebSocket, dan Gateway
+* Course Name: API Engineering — HATEOAS, Rate Limiting Lanjut, GraphQL, WebSocket, dan Gateway
 * Category: API Engineering (Backend, hands-on multi-protokol) — layer implementasi di bawah `courses/system-design` (yang membahas REST vs gRPC vs GraphQL di level *keputusan* arsitektur, Module 9-10) dan lanjutan langsung dari `courses/rest-api-design` + `courses/backend-fundamentals`
-* Difficulty: Level 3 (sudah bisa desain REST API production-grade) → Level 4 (bisa membangun & mempertahankan permukaan API multi-protokol — REST, gRPC, GraphQL, WebSocket — lengkap dengan gateway dan rate limiting production-grade)
-* Estimated Duration: 6 modul, 3-4 lesson/modul, ~30-40 menit/lesson.
+* Difficulty: Level 3 (sudah bisa desain REST API production-grade) → Level 4 (bisa membangun & mempertahankan permukaan API multi-protokol — REST, GraphQL, WebSocket — lengkap dengan gateway dan rate limiting production-grade)
+* Estimated Duration: 5 modul, 3-5 lesson/modul, ~30-40 menit/lesson.
 * Prerequisites: `courses/rest-api-design` (REST end-to-end, sudah mencakup pagination, idempotency key, ETag, versioning, deprecation, contract testing, rate limiting dasar) dan `courses/backend-fundamentals` Module 5 — course ini **tidak** mengulang materi tersebut.
 
 ---
@@ -26,18 +26,18 @@ Yang **tetap** di course ini (belum dibahas di mana pun):
 
 * HATEOAS / hypermedia (di `rest-api-design` hanya muncul sebagai level 3 Richardson Maturity Model, konsep saja, tanpa implementasi)
 * Rate limiting lanjut: perbandingan algoritma penuh, sliding window dengan Lua, quota per tier
-* gRPC (cross-ref ke `courses/grpc-elasticsearch`), GraphQL, WebSocket/SSE, API Gateway/BFF, capstone multi-protokol
+* GraphQL, WebSocket/SSE, API Gateway/BFF, capstone multi-protokol
+* gRPC **dikeluarkan** dari course ini (2026-11-24) — dibahas penuh di `courses/grpc-elasticsearch`
 
 Asumsi yang masih perlu dikonfirmasi user:
 
-1. **Stack**: Java/Spring Boot (`grpc-spring-boot-starter`, Spring for GraphQL, Spring WebSocket/STOMP).
+1. **Stack**: Java/Spring Boot (Spring for GraphQL, Spring WebSocket/STOMP).
 2. **Gateway**: Kong atau Spring Cloud Gateway — belum diputuskan.
-3. **Capstone** menggabungkan REST+gRPC+WebSocket+Gateway; modul terberat, bisa dipecah jadi 2 tergantung kecepatan belajar.
+3. **Capstone** menggabungkan REST+WebSocket+Gateway; modul terberat, bisa dipecah jadi 2 tergantung kecepatan belajar.
 4. Domain reuse: **Order Management API** dari `courses/rest-api-design`, supaya tidak bikin domain baru.
 
 Referensi riset:
 
-* [gRPC official docs](https://grpc.io/docs/) & [Protocol Buffers docs](https://protobuf.dev/)
 * [GraphQL spec](https://spec.graphql.org/) & [Spring for GraphQL docs](https://docs.spring.io/spring-graphql/reference/)
 * *RESTful Web APIs* (Richardson & Amundsen) — HATEOAS/hypermedia
 * [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) — cross-ref `courses/cybersecurity`
@@ -50,11 +50,10 @@ Referensi riset:
 
 * [ ] Memahami & menerapkan HATEOAS/hypermedia dengan jujur soal kapan bermanfaat vs overkill
 * [ ] Mengimplementasikan rate limiting lanjut (sliding window, Lua atomic, quota per tier) dengan Redis
-* [ ] Membangun service & client gRPC dengan Protocol Buffers, memahami unary vs streaming RPC
 * [ ] Membangun API GraphQL: schema design, resolver, mengatasi N+1 dengan DataLoader
 * [ ] Membangun real-time API dengan WebSocket/STOMP, memahami trade-off vs Server-Sent Events
 * [ ] Mengonfigurasi API Gateway: routing, auth di edge, transformation, BFF pattern
-* [ ] Menyelesaikan capstone: satu domain diekspos lewat REST + gRPC + WebSocket di belakang gateway, portfolio-ready
+* [ ] Menyelesaikan capstone: satu domain diekspos lewat REST + WebSocket di belakang gateway, portfolio-ready
 
 ---
 
@@ -91,30 +90,16 @@ Status: Not Started
 
 ---
 
-## Module 3 — gRPC (cross-reference)
-
-Description: Depth gRPC penuh ada di `courses/grpc-elasticsearch` Module 1-5. Modul ini hanya penanda urutan dan integrasi ke domain course ini — jangan tulis ulang materinya.
-
-Lessons:
-
-* [ ] 3.1 Terapkan hasil `courses/grpc-elasticsearch`: 1 service gRPC (unary + 1 streaming method) untuk domain Order Management, dipakai capstone
-
-Mini Project: Reuse service gRPC dari `courses/grpc-elasticsearch`, sambungkan ke domain REST untuk komunikasi internal.
-
-Status: Not Started
-
----
-
-## Module 4 — GraphQL Fundamentals & Implementasi
+## Module 3 — GraphQL Fundamentals & Implementasi
 
 Description: Alternatif REST untuk client yang butuh fleksibilitas query — dan jebakan performanya.
 
 Lessons:
 
-* [ ] 4.1 Schema design: type, query, mutation, subscription — prinsip schema-first
-* [ ] 4.2 Resolver di Spring for GraphQL, menghubungkan ke service/repository yang sudah ada
-* [ ] 4.3 N+1 problem di GraphQL dan solusinya dengan DataLoader/batching
-* [ ] 4.4 Query complexity & depth limiting — mencegah query jahat/mahal
+* [ ] 3.1 Schema design: type, query, mutation, subscription — prinsip schema-first
+* [ ] 3.2 Resolver di Spring for GraphQL, menghubungkan ke service/repository yang sudah ada
+* [ ] 3.3 N+1 problem di GraphQL dan solusinya dengan DataLoader/batching
+* [ ] 3.4 Query complexity & depth limiting — mencegah query jahat/mahal
 
 Mini Project: Bangun 1 GraphQL API di atas domain yang sudah ada, termasuk DataLoader untuk N+1 yang sengaja dibuat dulu lalu diperbaiki.
 
@@ -122,16 +107,16 @@ Status: Not Started
 
 ---
 
-## Module 5 — WebSocket & Real-time API
+## Module 4 — WebSocket & Real-time API
 
 Description: Untuk kasus yang benar-benar butuh push dari server, bukan polling.
 
 Lessons:
 
-* [ ] 5.1 WebSocket protocol dasar: handshake, frame, full-duplex vs HTTP request-response
-* [ ] 5.2 STOMP over WebSocket dengan Spring — pub/sub topic, session management
-* [ ] 5.3 Server-Sent Events (SSE) sebagai alternatif lebih ringan — kapan cukup SSE, kapan butuh WebSocket
-* [ ] 5.4 Scaling WebSocket: sticky session, message broker eksternal (Redis pub/sub) untuk multi-instance
+* [ ] 4.1 WebSocket protocol dasar: handshake, frame, full-duplex vs HTTP request-response
+* [ ] 4.2 STOMP over WebSocket dengan Spring — pub/sub topic, session management
+* [ ] 4.3 Server-Sent Events (SSE) sebagai alternatif lebih ringan — kapan cukup SSE, kapan butuh WebSocket
+* [ ] 4.4 Scaling WebSocket: sticky session, message broker eksternal (Redis pub/sub) untuk multi-instance
 
 Mini Project: Notifikasi real-time update status order via WebSocket/STOMP, uji dengan lebih dari 1 client bersamaan.
 
@@ -139,19 +124,19 @@ Status: Not Started
 
 ---
 
-## Module 6 — API Gateway, Edge Concerns & Capstone
+## Module 5 — API Gateway, Edge Concerns & Capstone
 
 Description: Titik masuk tunggal yang menyatukan semua protokol, lalu digabung jadi capstone.
 
 Lessons:
 
-* [ ] 6.1 Peran API Gateway: routing, auth di edge, request/response transformation
-* [ ] 6.2 Setup gateway (Kong atau Spring Cloud Gateway) di depan service REST/gRPC
-* [ ] 6.3 Backend-for-Frontend (BFF): agregasi beberapa service jadi satu kontrak untuk client tertentu
-* [ ] 6.4 Auth & rate limiting di gateway vs di service — kapan masing-masing tepat (cross-ref OWASP API Security Top 10)
-* [ ] 6.5 Capstone: satukan REST (eksternal) + gRPC (internal) + WebSocket (real-time) di belakang gateway, kontrak terdokumentasi (OpenAPI + `.proto`)
+* [ ] 5.1 Peran API Gateway: routing, auth di edge, request/response transformation
+* [ ] 5.2 Setup gateway (Kong atau Spring Cloud Gateway) di depan service REST
+* [ ] 5.3 Backend-for-Frontend (BFF): agregasi beberapa service jadi satu kontrak untuk client tertentu
+* [ ] 5.4 Auth & rate limiting di gateway vs di service — kapan masing-masing tepat (cross-ref OWASP API Security Top 10)
+* [ ] 5.5 Capstone: satukan REST + GraphQL + WebSocket (real-time) di belakang gateway, kontrak terdokumentasi (OpenAPI + schema GraphQL)
 
-Mini Project: Pasang gateway di depan minimal 2 service (REST + gRPC/GraphQL), terapkan auth dan rate limiting di gateway.
+Mini Project: Pasang gateway di depan minimal 2 service (REST + GraphQL), terapkan auth dan rate limiting di gateway.
 
 Portfolio Project: Lihat "Capstone Project" di bawah.
 
@@ -161,12 +146,12 @@ Status: Not Started
 
 # Capstone Project
 
-Description: **Permukaan API Multi-Protokol untuk Satu Domain** — Order Management diekspos lewat REST untuk klien eksternal, gRPC untuk internal, dan WebSocket untuk notifikasi real-time, semuanya di belakang API Gateway dengan rate limiting.
+Description: **Permukaan API Multi-Protokol untuk Satu Domain** — Order Management diekspos lewat REST untuk klien eksternal, GraphQL untuk klien fleksibel, dan WebSocket untuk notifikasi real-time, semuanya di belakang API Gateway dengan rate limiting.
 
 Acceptance Criteria:
 
 * Kontrak REST terdokumentasi (OpenAPI) dan mengikuti `standards/API_STANDARDS.md`
-* Service gRPC punya `.proto` yang jelas, minimal 1 streaming method
+* GraphQL schema terdokumentasi, N+1 teratasi dengan DataLoader
 * WebSocket/STOMP endpoint berfungsi untuk minimal 1 skenario notifikasi real-time
 * API Gateway menegakkan rate limiting dan auth secara nyata (dibuktikan dengan test/demo)
 * Versioning, idempotency key, dan pola dari `rest-api-design` diterapkan di sistem gabungan
@@ -178,7 +163,7 @@ Status: Not Started
 
 # Overall Progress
 
-Module Completion: 0/6
+Module Completion: 0/5
 
 Overall Completion: 0%
 

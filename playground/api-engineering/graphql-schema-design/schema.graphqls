@@ -1,0 +1,28 @@
+# Lesson 3.1: schema-first. Kontrak ditulis dulu, resolver menyusul.
+type Query {
+  order(id: ID!): Order            # nullable: id nggak ketemu = null, bukan error
+  orders(first: Int = 10): [Order!]!
+}
+
+type Mutation {
+  cancelOrder(input: CancelOrderInput!): CancelOrderPayload!   # intent jelas, bukan updateOrder generik
+}
+
+type Subscription {
+  orderStatusChanged(id: ID!): Order!
+}
+
+type Order {
+  id: ID!
+  status: OrderStatus!
+  total: Int!
+  items: [Item!]!
+}
+
+type Item { sku: String!  qty: Int! }
+
+enum OrderStatus { PENDING PAID CANCELLED }
+
+input CancelOrderInput { id: ID!  reason: String }
+
+type CancelOrderPayload { order: Order  error: String }

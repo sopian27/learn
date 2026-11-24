@@ -16,7 +16,7 @@ Dibuat atas permintaan eksplisit user (2026-09-11): course gRPC + Elasticsearch 
 
 Keputusan cakupan (dikonfirmasi via AskUserQuestion 2026-09-11):
 
-1. **Overlap dengan `courses/api-engineering` Module 4 (gRPC Fundamentals & Implementasi, draft belum approved/mulai)** — diselesaikan dengan course ini berdiri sendiri, full depth. `courses/api-engineering` Module 4 di-slim jadi cross-reference ke course ini (lihat perubahan di file itu), supaya isi tidak dobel.
+1. **Overlap dengan `courses/api-engineering` Module 4 (gRPC Fundamentals & Implementasi, draft belum approved/mulai)** — diselesaikan dengan course ini berdiri sendiri, full depth. Modul gRPC di `courses/api-engineering` sudah dihapus seluruhnya (2026-11-24), jadi gRPC hanya dibahas di course ini.
 2. **Elasticsearch belum ada course sama sekali di repo** — satu-satunya singgungan sebelumnya cuma "Elasticsearch" sebagai komponen ELK di `courses/observability` Module 4.3 (log storage/Kibana), beda konteks total dari course ini (search engine sebagai read model aplikasi, Query DSL, relevance tuning). Tidak ada overlap.
 3. **Status slot**: didraft dulu menunggu approval, TIDAK langsung jadi "Course Aktif" ketiga — konsisten kebijakan cap 2-course-aktif (`progress/roadmap.md` update 2026-08-07). Kalau di-approve, ambil alih slot "Mastering Claude" yang sudah Selesai.
 
