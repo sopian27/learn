@@ -216,3 +216,8 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | rest-api-design | 14.1 | Lesson 14.1 - API sebagai Produk, Perspektif Konsumen, Kenapa Konsistensi Lintas Tim Lebih Penting dari API Sempurna.md | 2026-11-22 | Dibuat |
 | rest-api-design | 14.2 | Lesson 14.2 - API Review Checklist, Praktik Code Review Khusus API, Studi Kasus Google, Microsoft, dan Zalando API Guidelines.md | 2026-11-22 | Dibuat |
 | rest-api-design | 14.3 | Lesson 14.3 - API Governance di Organisasi Nyata, Linting OpenAPI, API Lifecycle dari Design sampai Sunset, dan Siapa yang Approve Breaking Change.md | 2026-11-22 | Dibuat |
+| api-engineering | 1.1 | Lesson 1.1 - HATEOAS dan Hypermedia, Konsep, Format HAL dan JSON-API, Kapan Bermanfaat dan Kapan Overkill.md | 2026-11-23 | Dibuat |
+| api-engineering | 1.2 | Lesson 1.2 - Implementasi HATEOAS dengan Spring HATEOAS pada Order Management API, Link self, cancel, dan items Berdasarkan State Order.md | 2026-11-23 | Dibuat |
+| api-engineering | 2.1 | Lesson 2.1 - Perbandingan Algoritma Rate Limiting, Token Bucket, Leaky Bucket, Fixed Window, Sliding Window Log dan Counter, Trade-off Akurasi vs Memori.md | 2026-11-23 | Dibuat |
+| api-engineering | 2.2 | Lesson 2.2 - Sliding Window dengan Redis + Lua Script (Atomic), Menutup Race Condition.md | 2026-11-23 | Dibuat |
+| api-engineering | 2.3 | Lesson 2.3 - Per-Client Quota dan Tier (Free vs Paid), Skema Quota di Gateway vs di Aplikasi.md | 2026-11-24 | Dibuat |
