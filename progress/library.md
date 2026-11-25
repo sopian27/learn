@@ -229,3 +229,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | api-engineering | 4.2 | Lesson 4.2 - STOMP over WebSocket dengan Spring, Pub-Sub Topic, Session Management.md | 2026-11-24 | Dibuat |
 | api-engineering | 4.3 | Lesson 4.3 - Server-Sent Events (SSE) sebagai Alternatif Lebih Ringan, Kapan Cukup SSE, Kapan Butuh WebSocket.md | 2026-11-24 | Dibuat |
 | api-engineering | 4.4 | Lesson 4.4 - Scaling WebSocket, Sticky Session, Message Broker Eksternal (Redis Pub-Sub) untuk Multi-Instance.md | 2026-11-25 | Dibuat |
+| api-engineering | 5.1 | Lesson 5.1 - Peran API Gateway, Routing, Auth di Edge, Request-Response Transformation.md | 2026-11-25 | Dibuat |
+| api-engineering | 5.2 | Lesson 5.2 - Setup Gateway (Kong atau Spring Cloud Gateway) di Depan Service REST.md | 2026-11-25 | Dibuat |
+| api-engineering | 5.3 | Lesson 5.3 - Backend-for-Frontend (BFF), Agregasi Beberapa Service jadi Satu Kontrak untuk Client Tertentu.md | 2026-11-25 | Dibuat |
+| api-engineering | 5.4 | Lesson 5.4 - Auth dan Rate Limiting di Gateway vs di Service.md | 2026-11-25 | Dibuat |

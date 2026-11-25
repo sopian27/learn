@@ -1,0 +1,19 @@
+openapi: 3.0.3
+info: {title: Orders API, version: 1.0.0, description: Orders.}
+servers: [{url: https://api.example.com}]
+tags: [{name: orders}]
+paths:
+  /v1/orders:
+    post:
+      operationId: createOrder
+      tags: [orders]
+      summary: Create order
+      description: Buat order baru.
+      x-owner: team-orders
+      responses:
+        "201": {description: Created}
+        "400":
+          description: Bad request
+          content:
+            application/problem+json:
+              schema: {type: object}

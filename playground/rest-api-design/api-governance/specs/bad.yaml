@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info: {title: Payments API, version: 1.0.0, description: Payments.}
+servers: [{url: https://api.example.com}]
+tags: [{name: payments}]
+paths:
+  /payments/get:
+    get:
+      operationId: getPayment
+      tags: [payments]
+      summary: Get payment
+      description: Ambil payment.
+      responses:
+        "200": {description: OK}
+        "500":
+          description: Error
+          content:
+            application/json:
+              schema: {type: object}

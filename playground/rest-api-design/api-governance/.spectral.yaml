@@ -1,0 +1,32 @@
+extends: ["spectral:oas"]
+rules:
+  path-versioned:
+    description: Path wajib diawali /v{n}/.
+    severity: error
+    given: $.paths[*]~
+    then:
+      function: pattern
+      functionOptions:
+        match: "^/v[0-9]+/"
+  path-no-verb:
+    description: Path jangan pakai kata kerja (create/get/update/delete).
+    severity: error
+    given: $.paths[*]~
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: "/(create|get|update|delete)([/{]|$)"
+  owner-required:
+    description: Tiap operation wajib x-owner supaya jelas siapa yang dihubungi.
+    severity: error
+    given: $.paths[*][get,post,put,patch,delete]
+    then:
+      field: x-owner
+      function: truthy
+  error-problem-json:
+    description: Response 4xx/5xx wajib application/problem+json.
+    severity: error
+    given: $.paths[*][*].responses[?(@property.match(/^[45]/))].content
+    then:
+      field: application/problem+json
+      function: truthy
