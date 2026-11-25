@@ -233,3 +233,6 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | api-engineering | 5.2 | Lesson 5.2 - Setup Gateway (Kong atau Spring Cloud Gateway) di Depan Service REST.md | 2026-11-25 | Dibuat |
 | api-engineering | 5.3 | Lesson 5.3 - Backend-for-Frontend (BFF), Agregasi Beberapa Service jadi Satu Kontrak untuk Client Tertentu.md | 2026-11-25 | Dibuat |
 | api-engineering | 5.4 | Lesson 5.4 - Auth dan Rate Limiting di Gateway vs di Service.md | 2026-11-25 | Dibuat |
+| code-review | 1.1 | Lesson 1.1 - Tujuan Sebenarnya dari Code Review (Defect Prevention, Knowledge Sharing, Konsistensi, Mentoring).md | 2026-11-25 | Dibuat |
+| code-review | 1.2 | Lesson 1.2 - Anatomy of a Bad Review vs a Great Review.md | 2026-11-25 | Dibuat |
+| code-review | 1.3 | Lesson 1.3 - Psychological Safety & Blameless Culture dalam Review.md | 2026-11-25 | Dibuat |
