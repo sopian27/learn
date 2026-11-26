@@ -236,3 +236,11 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | code-review | 1.1 | Lesson 1.1 - Tujuan Sebenarnya dari Code Review (Defect Prevention, Knowledge Sharing, Konsistensi, Mentoring).md | 2026-11-25 | Dibuat |
 | code-review | 1.2 | Lesson 1.2 - Anatomy of a Bad Review vs a Great Review.md | 2026-11-25 | Dibuat |
 | code-review | 1.3 | Lesson 1.3 - Psychological Safety & Blameless Culture dalam Review.md | 2026-11-25 | Dibuat |
+| code-review | 2.1 | Lesson 2.1 - Correctness & Edge Case Hunting.md | 2026-11-25 | Dibuat |
+| code-review | 2.2 | Lesson 2.2 - Architecture & SOLID dalam Konteks Review.md | 2026-11-25 | Dibuat |
+| code-review | 2.3 | Lesson 2.3 - Readability, Naming & Cognitive Load.md | 2026-11-25 | Dibuat |
+| code-review | 2.4 | Lesson 2.4 - Clean Code Principles - DRY, KISS, YAGNI & SoC.md | 2026-11-25 | Dibuat |
+| code-review | 2.5 | Lesson 2.5 - Code Smells & Refactoring Techniques.md | 2026-11-26 | Dibuat |
+| code-review | 2.6 | Lesson 2.6 - Method Design, Class Design, Cohesion & Coupling.md | 2026-11-26 | Dibuat |
+| code-review | 2.7 | Lesson 2.7 - Error Handling, Logging & Observability.md | 2026-11-26 | Dibuat |
+| code-review | 2.8 | Lesson 2.8 - Menilai Kecukupan Testing - Coverage vs Meaningful Tests.md | 2026-11-26 | Dibuat |
