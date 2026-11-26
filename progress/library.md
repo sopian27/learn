@@ -244,3 +244,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | code-review | 2.6 | Lesson 2.6 - Method Design, Class Design, Cohesion & Coupling.md | 2026-11-26 | Dibuat |
 | code-review | 2.7 | Lesson 2.7 - Error Handling, Logging & Observability.md | 2026-11-26 | Dibuat |
 | code-review | 2.8 | Lesson 2.8 - Menilai Kecukupan Testing - Coverage vs Meaningful Tests.md | 2026-11-26 | Dibuat |
+| code-review | 3.1 | Lesson 3.1 - Injection, Broken Auth & Sensitive Data Exposure dalam Diff.md | 2026-11-26 | Dibuat |
+| code-review | 3.2 | Lesson 3.2 - Input Validation & Sanitization Checklist.md | 2026-11-26 | Dibuat |
+| code-review | 3.3 | Lesson 3.3 - Secrets & Credential Handling.md | 2026-11-26 | Dibuat |
+| code-review | 3.4 | Lesson 3.4 - Dependency & Supply-Chain Awareness saat Review.md | 2026-11-26 | Dibuat |
