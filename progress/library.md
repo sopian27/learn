@@ -248,3 +248,7 @@ Status: `Dibuat` = file written to vault, `Dibaca` = user confirmed read.
 | code-review | 3.2 | Lesson 3.2 - Input Validation & Sanitization Checklist.md | 2026-11-26 | Dibuat |
 | code-review | 3.3 | Lesson 3.3 - Secrets & Credential Handling.md | 2026-11-26 | Dibuat |
 | code-review | 3.4 | Lesson 3.4 - Dependency & Supply-Chain Awareness saat Review.md | 2026-11-26 | Dibuat |
+| code-review | 4.1 | Lesson 4.1 - N+1 Query, Indexing & Database Access Patterns.md | 2026-11-26 | Dibuat |
+| code-review | 4.2 | Lesson 4.2 - Cache Correctness (Invalidation & Stampede).md | 2026-11-26 | Dibuat |
+| code-review | 4.3 | Lesson 4.3 - Concurrency Issues (Race Condition, Deadlock & Thread-Safety).md | 2026-11-26 | Dibuat |
+| code-review | 4.4 | Lesson 4.4 - Resource Leak (Connection, Thread & Memory).md | 2026-11-27 | Dibuat |
