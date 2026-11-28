@@ -793,3 +793,9 @@ Atas paste dokumen "DONGENG NUSANTARA — Menjelajahi Indonesia Lewat Cerita, Ka
 2. **Character Development** (`courses/character-development`) — Module 1,2,4 tuntas + Module 5 tuntas termasuk Mini Project (3/6, 50%), Module 6 Lesson 6.3 log 28 hari berjalan (target 2026-09-27). Paralel/append (belum masuk hitungan progress): Module 7 (Atomic Habits) tuntas penuh (2026-09-01); Module 8 (Haus Validasi/Gila Hormat/Iri Hati) Lesson 8.1 selesai skor 90/100 (2026-09-02); Module 9 (Spotlight Effect & Ketenangan Batin) Approved 2026-09-02, belum dimulai; Module 10 (Empathy, Accountability, Kepemimpinan Rendah Hati) Proposed Extension 2026-09-02, menunggu approval — menutup permintaan "Humble Confidence" lewat extend course ini alih-alih course baru.
 
 Semua prioritas lain (Backend Fundamentals, ML/LLM/Agents, Kubernetes, System Design, Scrum Master, Engineering Culture, Freelance Readiness, dll.) dipause bersama course-nya masing-masing di atas — resume kapan saja atas permintaan user, urutan lama tetap tercatat di git history file ini.
+
+## 2026-11-28 — coding-interview-university → Perluasan Computational Thinking, Bukan Course Baru
+
+Atas permintaan course dari [coding-interview-university](https://github.com/jwasham/coding-interview-university) dengan override eksplisit guard 50%. User memilih menambahkan yang belum dibahas ke course yang sudah ada.
+
+* **Computational Thinking & Algoritma (perluasan)** — `courses/computational-thinking/roadmap.md` — 14 jadi 17 modul: baru Modul 13 (representasi data), 14 (tries & string searching), 15 (cara komputer menjalankan program); lesson tambahan di Modul 2, 3, 9, dan Interview Readiness. Interview Readiness sekarang Modul 16, Capstone Modul 17. Design pattern dan system design tetap di course masing-masing. Progres tidak berubah (0/17), tidak ada lesson dibuat.
