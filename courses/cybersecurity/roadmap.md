@@ -5,7 +5,7 @@
 * Course Name: Cybersecurity — dari 0 sampai Expert (Application Security / Backend Engineer Track)
 * Category: Application Security / Secure Software Engineering
 * Difficulty: Level 1 (paham `standards/SECURITY_STANDARDS.md` sebagai aturan kode, belum pernah berpikir seperti security practitioner) → Level 4 (Expert, mampu menjalankan security assessment penuh & memimpin keputusan security architecture)
-* Estimated Duration: 10 modul, 3-4 lesson/modul, ~30-40 menit/lesson
+* Estimated Duration: 10 modul, 3-5 lesson/modul, ~30-40 menit/lesson
 * Prerequisites: Familiar Java/Spring Boot & AWS di level dasar (dari repo ini). Tidak perlu pengalaman security sebelumnya di luar mengikuti `standards/SECURITY_STANDARDS.md` saat coding.
 
 ---
@@ -50,6 +50,7 @@ Lessons:
 * [ ] 1.2 Threat modeling dengan STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege)
 * [ ] 1.3 Trust boundary & data flow diagram — memetakan di mana data melewati batas kepercayaan
 * [ ] 1.4 Risk assessment dasar: likelihood x impact, intuisi CVSS scoring
+* [ ] 1.5 Aturan main & etika pengujian: izin tertulis, scope/rules of engagement, UU ITE, responsible disclosure & bug bounty
 
 Mini Project: Threat model 1 sistem nyata (mis. aplikasi Spring Boot Anda sendiri) memakai STRIDE, hasilkan dokumen threat model dengan trust boundary yang teridentifikasi.
 
@@ -116,6 +117,7 @@ Lessons:
 * [ ] 5.1 Kelas injection: SQLi (termasuk jebakan raw query di balik ORM), command injection, SSRF, deserialization attack
 * [ ] 5.2 Output encoding & XSS — relevan juga untuk backend API-first yang datanya dikonsumsi frontend
 * [ ] 5.3 Menangani data sensitif: enkripsi at-rest/in-transit, PII handling, secure logging (tidak pernah log secret)
+* [ ] 5.4 Prompt injection & keamanan fitur LLM di backend: input tidak tepercaya, batas akses tool, data leakage
 
 Mini Project: Temukan & perbaiki kerentanan injection di kode contoh, tambahkan lapisan validasi input yang proper.
 
@@ -132,6 +134,8 @@ Lessons:
 * [ ] 6.1 Kerangka SLSA (Google): source threat, build threat, dependency threat
 * [ ] 6.2 Software Bill of Materials (SBOM) & dependency scanning (OWASP Dependency-Check/Snyk), risiko transitive dependency
 * [ ] 6.3 Supply chain hardening di CI/CD: signed commit, provenance, hosted build runner — rujuk `courses/ci-cd` Modul 5 untuk implementasi pipeline
+* [ ] 6.4 Serangan CI/CD dari sisi penyerang: PR berbahaya, pencurian token/secret runner, action/plugin pihak ketiga
+* [ ] 6.5 Bedah CVE nyata di lab lokal (CVE-2022-22965 Spring4Shell via Vulhub, bind 127.0.0.1 saja): syarat rentan, rantai eksploit, fix
 
 Mini Project: Setup dependency scanning + generate SBOM untuk 1 proyek nyata, triage dan perbaiki temuan yang ditemukan.
 
@@ -148,6 +152,7 @@ Lessons:
 * [ ] 7.1 IAM security deep-dive: least privilege policy, secret management — rujuk `courses/aws-api-integration` Modul 2 untuk implementasi
 * [ ] 7.2 Dasar keamanan network untuk backend engineer: VPC/security group, TLS everywhere, firewall rule (secukupnya untuk paham & review, bukan network engineering penuh)
 * [ ] 7.3 Dasar keamanan container/K8s — rujuk `courses/kubernetes` Modul 6 (SCC/RBAC/NetworkPolicy) untuk implementasi
+* [ ] 7.4 Asset discovery & attack surface: inventaris endpoint, subdomain, dan port milik sendiri (shadow API, actuator terbuka)
 
 Mini Project: Lakukan security review terhadap 1 deployment cloud yang ada (IAM policy, exposure network, secret) — hasilkan temuan + perbaikan.
 
@@ -164,6 +169,7 @@ Lessons:
 * [ ] 8.1 Metodologi manual security code review berbasis checklist OWASP ASVS
 * [ ] 8.2 SAST/DAST dalam praktik — dari lensa AppSec practitioner (bukan lensa pipeline-builder seperti di `courses/ci-cd` Modul 5)
 * [ ] 8.3 Menulis security test case: negative test, authorization test
+* [ ] 8.4 Fuzzing API & parser: input acak/termutasi untuk menemukan crash dan validasi yang bolong, hanya di environment sendiri
 
 Mini Project: Lakukan security code review penuh terhadap 1 PR/codebase nyata memakai checklist OWASP ASVS, tulis laporan temuan.
 
@@ -180,6 +186,8 @@ Lessons:
 * [ ] 9.1 Logging/monitoring untuk keamanan: mendeteksi anomali, bukan sekadar observability biasa
 * [ ] 9.2 Dasar incident response: langkah saat kerentanan/breach ditemukan, proses disclosure, postmortem
 * [ ] 9.3 Security dalam SDLC: shift-left, model security champion, threat modeling sebagai bagian design review
+* [ ] 9.4 Detection engineering dasar: aturan deteksi dari log, indicator of compromise, memakai threat intelligence
+* [ ] 9.5 Social engineering terhadap developer: phishing, pencurian token/session, dan pertahanannya
 
 Mini Project: Tulis runbook incident response untuk skenario hipotetis (mis. API key bocor ke repository publik).
 
@@ -200,6 +208,30 @@ Lessons:
 Portfolio Project: Lihat "Capstone Project" di bawah.
 
 Status: Not Started
+
+---
+
+# Referensi Latihan Tambahan (dari Awesome-Hacking, ditambahkan 2026-11-28)
+
+Sumber indeks: [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking). Link di bawah diambil dari README indeksnya; isi tiap sublist belum dinilai, jadi cek tanggal commit dan lisensi sebelum dipakai. Uji hanya sistem milik sendiri, lab lokal, atau target yang memberi izin tertulis.
+
+| Modul | Referensi |
+|---|---|
+| 1 | [awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty), [awesome-appsec](https://github.com/paragonie/awesome-appsec) |
+| 2-4 | [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries), [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist), [Hacker101](https://github.com/Hacker0x01/hacker101) |
+| 5 | [awesome-prompt-injection](https://github.com/Joe-B-Security/awesome-prompt-injection), [Awesome-AI-Security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) |
+| 6 | [awesome-cicd-attacks](https://github.com/TupleType/awesome-cicd-attacks), [Vulhub](https://github.com/vulhub/vulhub) |
+| 7 | [Awesome-Asset-Discovery](https://github.com/redhuntlabs/Awesome-Asset-Discovery) |
+| 8 | [static-analysis](https://github.com/analysis-tools-dev/static-analysis), [Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing) |
+| 9 | [awesome-detection-engineering](https://github.com/infosecB/awesome-detection-engineering), [awesome-incident-response](https://github.com/meirwah/awesome-incident-response), [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence), [awesome-iocs](https://github.com/sroberts/awesome-iocs), [awesome-social-engineering](https://github.com/giuliacassara/awesome-social-engineering) |
+| Latihan bebas | [awesome-ctf](https://github.com/apsdehal/awesome-ctf), [awesome-cyber-skills](https://github.com/joe-shenouda/awesome-cyber-skills) |
+
+Sengaja tidak dimasukkan:
+
+* Malware analysis, malware persistence, reversing, YARA: lihat `courses/systems-security-malware-analysis`.
+* Cryptography: lihat `courses/cryptography`.
+* Pentest penuh, red teaming, password cracking, OSINT: di luar angle AppSec backend (lihat Catatan Scope).
+* Mobile, IoT/hardware, ICS, vehicle, drone, cellular, RF, mainframe, Web3: bukan konteks backend Java/Spring.
 
 ---
 
