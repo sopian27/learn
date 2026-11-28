@@ -5,7 +5,7 @@
 * Course Name: Computational Thinking & Algoritma — dari 0 sampai Expert (dengan *The Art of Computer Programming* sebagai Referensi Mendalam)
 * Category: Computer Science Fundamentals (berpikir komputasional, struktur data, analisis algoritma) — melengkapi fondasi backend, bukan pengganti `courses/backend-fundamentals` maupun `courses/design-patterns`
 * Difficulty: Level 1 (bisa coding tapi belum punya kerangka berpikir algoritmik terstruktur, belum insting kompleksitas Big-O, belum pernah implementasi struktur data dari nol) → Level 4 (bisa mendesain & menganalisis algoritma sendiri, mengenali struktur data yang tepat untuk masalah produksi nyata, siap technical interview Senior/Staff)
-* Estimated Duration: 14 modul, 3-5 lesson per modul (20-45 menit/lesson, sesuai `ai-los/AI-LOS.md`)
+* Estimated Duration: 17 modul, 3-7 lesson per modul (20-45 menit/lesson, sesuai `ai-los/AI-LOS.md`)
 * Prerequisites: Bisa coding Java dasar (variable, loop, function, OOP dasar). Tidak perlu pernah belajar struktur data/algoritma formal sebelumnya — course ini mulai dari 0 untuk topik itu.
 
 ---
@@ -18,12 +18,14 @@ Berdasarkan jawaban kalibrasi Anda:
 2. **Bahasa**: **Java saja**, konsisten dengan stack profesional Anda. Semua struktur data diimplementasi dari nol di Java (bukan langsung pakai `java.util`), baru dibandingkan dengan implementasi built-in Java setelah paham cara kerja internalnya.
 3. **Tujuan**: **Fondasi CS + interview readiness**, condong ke praktis. Course ini secara eksplisit mengisi gap "fondasi terasa rapuh" dari `progress/roadmap.md` Gap Analysis — bukan proof-heavy/teoretis penuh. Bukti matematis dijelaskan secukupnya untuk paham *kenapa*, bukan untuk melatih kemampuan pembuktian formal.
 4. **Kenapa Modul 1 (Computational Thinking) wajib sebelum struktur data**: Tanpa kerangka dekomposisi/abstraksi/pattern recognition, algoritma dan struktur data akan terasa seperti daftar resep hafalan yang harus dicocokkan ke soal. Modul 1 melatih *cara mengenali* masalah seperti apa yang butuh solusi seperti apa — kerangka mental yang dipakai di semua modul setelahnya.
-5. **Kenapa ada Modul 14 (Capstone ke sistem nyata) alih-alih cuma problem set**: Sesuai `ai-los/CORE_LOS.md` Project Tiering, course harus berakhir di artefak produksi nyata. Modul 13 melatih pattern interview (LeetCode-style), tapi Modul 14 memaksa Anda menerapkan struktur data/algoritma yang tepat ke *fitur nyata dari pekerjaan Anda* — supaya ilmu ini tidak berhenti di "bisa jawab interview" tapi juga "bisa dipakai di kode produksi".
+5. **Kenapa ada Modul 17 (Capstone ke sistem nyata) alih-alih cuma problem set**: Sesuai `ai-los/CORE_LOS.md` Project Tiering, course harus berakhir di artefak produksi nyata. Modul 16 melatih pattern interview (LeetCode-style), tapi Modul 17 memaksa Anda menerapkan struktur data/algoritma yang tepat ke *fitur nyata dari pekerjaan Anda* — supaya ilmu ini tidak berhenti di "bisa jawab interview" tapi juga "bisa dipakai di kode produksi".
 6. **Irisan dengan course lain**: Course ini **tidak** mengulang arsitektur/design pattern (`courses/design-patterns`) atau production concern Spring Boot/database mendalam (`courses/backend-fundamentals`) — course ini murni lapisan CS fundamentals di bawah keduanya. Modul 7 (Trees) akan menyinggung B-Tree sebagai jembatan konseptual ke database indexing, tapi indexing production-grade tetap domain `backend-fundamentals`.
 
 Referensi riset yang dipakai menyusun roadmap ini: definisi & 4 elemen computational thinking mengikuti Jeannette Wing, ["Computational Thinking"](https://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational_Thinking.pdf) (CMU, 2006) dan ["Computational Thinking: What and Why?"](https://www.cs.cmu.edu/~CompThink/resources/TheLinkWing.pdf) (2010); struktur modul algoritma & struktur data mengikuti urutan kanonik *Introduction to Algorithms* (CLRS) dan *Algorithms* (Sedgewick & Wayne); status volume *The Art of Computer Programming* per riset terbaru — [Volume 4B terbit akhir 2022](https://www-cs-faculty.stanford.edu/~knuth/taocp.html), Volume 4C baru terbit sebagian (~275 halaman pertama), Volume 5 belum terbit — dipakai untuk memastikan pointer "TAOCP Deep Reference" di tiap modul merujuk ke volume yang benar-benar sudah ada.
 
 **2026-08-20 — Perluasan atas permintaan "Algorithmic Strategies 0-expert":** User minta course baru mencakup brute force, greedy, D&C, DP, backtracking, rekursi, graph, BFS/DFS, shortest path, MST, sliding window, two pointers, advanced problem solving. Dicek dulu terhadap course ini (0/14, belum dimulai) — hampir seluruh topik SUDAH tercakup: rekursi & D&C (Modul 4), graph/BFS-DFS/shortest path/MST (Modul 9), greedy/DP/backtracking (Modul 10), sliding window/two pointers (Modul 13). Hanya 2 gap nyata: **brute force** belum disebut eksplisit sebagai paradigma sendiri, dan **advanced problem solving** (kombinasi multi-paradigma) belum ada. Keputusan (dikonfirmasi user via AskUserQuestion): **diperluas, bukan course baru** — brute force ditambahkan sebagai lesson pembuka di Modul 10 (baseline sebelum greedy/DP/backtracking), advanced problem solving ditambahkan sebagai lesson baru di Modul 13 (kombinasi paradigma: bitmask DP, meet-in-the-middle, graph+DP). Tidak ada module baru, tidak ada renumbering. Dikerjakan sambil Course Aktif "Character Development" masih di bawah 50% (2/6 module, ~33%) — user eksplisit override guard `ai-los/COURSE_CREATION.md`/CLAUDE.md "Course Creation Discipline" saat dikonfirmasi via AskUserQuestion.
+
+**2026-11-28 — Gap dari [coding-interview-university](https://github.com/jwasham/coding-interview-university) (John Washam, CC-BY-SA-4.0):** daftar topik repo tersebut dibandingkan dengan judul modul dan lesson course ini; yang belum ada ditambahkan di sini (hanya daftar topik yang dipakai, materi lesson ditulis sendiri). Tambahan: lesson baru di Modul 2 (recurrence & master theorem, combinatorics & probability), Modul 3 (testing), Modul 9 (topological sort, strongly connected components, bipartite), dan Modul interview (proses interview, resume, ritme latihan); tiga modul baru — Modul 13 (representasi data), Modul 14 (tries & string searching), Modul 15 (cara komputer menjalankan program). Interview Readiness bergeser dari Modul 13 ke **Modul 16**, Capstone dari Modul 14 ke **Modul 17** (catatan bertanggal di atas memakai nomor lama). Tidak diulang di sini: design pattern (`courses/design-patterns`) dan system design (`courses/system-design`). Dikerjakan atas permintaan eksplisit user untuk melewati guard 50%.
 
 ---
 
@@ -40,6 +42,9 @@ Referensi riset yang dipakai menyusun roadmap ini: definisi & 4 elemen computati
 * [ ] Mengenali pattern soal interview umum (two pointers, sliding window, fast & slow pointers) dan bisa memetakannya ke struktur data/algoritma yang tepat
 * [ ] Siap technical interview level Senior/Staff untuk pertanyaan algoritma & struktur data
 * [ ] Tahu kapan dan di mana mencari kedalaman lebih lanjut di *The Art of Computer Programming* untuk topik spesifik, tanpa harus membacanya cover-to-cover
+* [ ] Paham representasi data tingkat rendah (bit, floating point, Unicode, endianness) dan bug nyata yang muncul darinya
+* [ ] Bisa mengimplementasikan trie dan LRU cache dari nol, serta paham dasar string searching
+* [ ] Punya model mental bagaimana program dijalankan: CPU, cache, process & thread, networking
 * [ ] Menyelesaikan proyek portofolio: identifikasi & refactor satu fitur nyata dari pekerjaan Anda memakai struktur data/algoritma yang lebih tepat, dengan benchmark before/after dan dokumentasi keputusan (ADR-style)
 
 ---
@@ -74,6 +79,8 @@ Lessons:
 * [ ] Menghitung kompleksitas waktu dari kode Java langsung (loop, nested loop, rekursi sederhana)
 * [ ] Kompleksitas ruang (space complexity) dan trade-off time vs space
 * [ ] Dasar matematika pendukung: summation, logaritma dalam konteks algoritma, induksi matematika secukupnya untuk memahami bukti korektnes sederhana
+* [ ] Recurrence relation & master theorem: menghitung kompleksitas algoritma rekursif
+* [ ] Combinatorics & probability secukupnya: n choose k, permutasi, expected value (dipakai di analisis hashing dan randomized algorithm)
 * [ ] **TAOCP Deep Reference**: Knuth *TAOCP Vol. 1, Ch. 1* — definisi formal notasi O yang jadi standar industri hari ini
 
 Mini Project: Ambil 5 potongan kode Java (loop bersarang, rekursi, pencarian linear) dan tentukan kompleksitas Big-O masing-masing dengan justifikasi tertulis.
@@ -93,6 +100,7 @@ Lessons:
 * [ ] Stack: implementasi dari nol (pakai array & linked list), use case nyata (undo history, expression evaluation, call stack)
 * [ ] Queue & deque: implementasi dari nol, use case nyata (task queue, BFS nanti di Modul 9)
 * [ ] Production Discussion: kapan `ArrayList` vs `LinkedList` vs `ArrayDeque` di Java, dan kenapa `LinkedList` jarang jadi pilihan tepat di praktik
+* [ ] Testing struktur data: unit test, edge case (kosong, satu elemen, penuh, resize), membandingkan hasil dengan `java.util` sebagai oracle
 
 Mini Project: Implementasi custom `MyLinkedList`, `MyStack`, `MyQueue` dari nol (tanpa `java.util`), lengkap dengan unit test JUnit.
 
@@ -202,6 +210,8 @@ Lessons:
 * [ ] BFS & DFS pada graph (bukan cuma tree) — deteksi cycle, connected components
 * [ ] Shortest path: Dijkstra's algorithm (pakai priority queue dari Modul 8), kenapa Bellman-Ford dibutuhkan untuk edge weight negatif
 * [ ] Minimum Spanning Tree: Kruskal's & Prim's algorithm
+* [ ] Topological sort & deteksi cycle di directed graph (DAG)
+* [ ] Strongly connected components dan pengecekan bipartite graph
 * [ ] Real-world: dependency resolution (build tools, package manager), routing (maps), rekomendasi sosial (LinkedIn/Facebook graph)
 
 Mini Project: Modelkan dependency graph antar service/module dari proyek nyata Anda (atau contoh yang diberikan), deteksi circular dependency pakai DFS, cari shortest path pakai Dijkstra.
@@ -262,7 +272,59 @@ Status: Not Started
 
 ---
 
-## Module 13 — Interview Readiness: Pattern-Based & Advanced Problem Solving
+## Module 13 — Representasi Data: Bit, Floating Point, Unicode, Endianness
+
+Description: Bagaimana angka dan teks sebenarnya disimpan. Sumber banyak bug produksi yang sulit dilacak: pembulatan uang, karakter rusak, data biner terbaca terbalik.
+
+Lessons:
+
+* [ ] Bit manipulation: AND, OR, XOR, NOT, shift, two's complement, trik umum (cek/set/clear bit, hitung jumlah bit)
+* [ ] Floating point (IEEE 754): kenapa `0.1 + 0.2 != 0.3`, dan kapan wajib `BigDecimal`
+* [ ] Unicode & encoding: code point, UTF-8 vs UTF-16, `char` vs code point di Java
+* [ ] Endianness: big-endian vs little-endian, `ByteBuffer`, network byte order
+
+Mini Project: Buat bitset sederhana dari nol, lalu tulis test yang mereproduksi 3 bug representasi data (pembulatan uang, panjang string berisi emoji, integer terbaca dengan byte order salah) beserta perbaikannya.
+
+Status: Not Started
+
+---
+
+## Module 14 — Tries & String Searching
+
+Description: Struktur data dan algoritma khusus teks: autocomplete, prefix search, pencarian pola.
+
+Lessons:
+
+* [ ] Trie dari nol: insert, search, prefix search, trade-off memori dibanding hash table
+* [ ] String searching: brute force, Rabin-Karp (rolling hash), KMP
+* [ ] Manipulasi string di Java: immutability, `StringBuilder`, biaya konkatenasi di dalam loop
+* [ ] Real-world: autocomplete, routing berbasis prefix, filter kata
+
+Mini Project: Autocomplete dengan trie dari nol, benchmark dibanding linear scan atas daftar kata besar.
+
+Status: Not Started
+
+---
+
+## Module 15 — Cara Komputer Menjalankan Program: CPU, Cache, Process, Thread, Networking
+
+Description: Lapisan di bawah kode: menjelaskan kenapa dua algoritma dengan Big-O sama bisa berbeda jauh kecepatannya. Level pengantar untuk interview dan debugging.
+
+Lessons:
+
+* [ ] Bagaimana komputer memproses program: CPU, register, instruction cycle, stack vs heap
+* [ ] Memory hierarchy & CPU cache: locality, kenapa array sering mengalahkan linked list
+* [ ] LRU cache dari nol (hash map + doubly linked list), cache eviction policy
+* [ ] Process vs thread: context switch, race condition, lock, deadlock (pengantar)
+* [ ] Networking dasar: IP, TCP vs UDP, apa yang terjadi saat HTTP request dikirim
+
+Mini Project: Implementasi LRU cache dari nol dengan test, lalu benchmark traversal array berurutan vs acak untuk melihat efek CPU cache.
+
+Status: Not Started
+
+---
+
+## Module 16 — Interview Readiness: Pattern-Based & Advanced Problem Solving
 
 Description: Menghubungkan semua struktur data & algoritma yang sudah dipelajari ke pattern soal interview yang berulang, lalu naik ke teknik advanced problem solving untuk soal yang tidak selesai dengan satu pattern tunggal — supaya soal baru terasa seperti variasi/kombinasi yang sudah dikenal, bukan tantangan asing.
 
@@ -274,6 +336,9 @@ Lessons:
 * [ ] Advanced problem solving: menggabungkan lebih dari satu paradigma dalam satu soal (contoh: DP + bitmask untuk state kompresi, meet-in-the-middle untuk memecah brute force jadi dua ruang lebih kecil, graph + DP untuk shortest path dengan constraint tambahan)
 * [ ] Strategi menghadapi soal baru: memetakan soal ke pattern + paradigma yang sudah dikuasai (Modul 1 computational thinking dipakai kembali di sini)
 * [ ] Mock interview session: 2-3 soal live, dinilai dari proses berpikir bukan cuma solusi akhir
+* [ ] Ritme latihan: flashcard dengan spaced repetition dan soal coding rutin per topik, mulai sejak modul awal bukan ditumpuk di akhir
+* [ ] Proses interview software engineer: tahapan, coding round, behavioral, pertanyaan untuk interviewer
+* [ ] Resume software engineer: menulis dampak terukur, bukan daftar tugas
 
 Mini Project: Selesaikan problem set campuran (8-10 soal, mencakup semua pattern di atas) dengan time-boxing ala interview asli.
 
@@ -281,7 +346,7 @@ Status: Not Started
 
 ---
 
-## Module 14 — Capstone: Terapkan ke Sistem Backend Nyata
+## Module 17 — Capstone: Terapkan ke Sistem Backend Nyata
 
 Description: Modul penutup yang memaksa semua yang dipelajari mendarat di kode produksi nyata, bukan berhenti di problem set.
 
@@ -300,7 +365,7 @@ Status: Not Started
 
 # Enterprise Project
 
-Description: (Diisi setelah Modul 14 selesai — akan disusun bersama saat mendekati akhir course, berdasarkan area kerja nyata Anda saat itu.)
+Description: (Diisi setelah Modul 17 selesai — akan disusun bersama saat mendekati akhir course, berdasarkan area kerja nyata Anda saat itu.)
 
 Acceptance Criteria:
 
@@ -310,7 +375,7 @@ Status: Not Started
 
 # Overall Progress
 
-Module Completion: 0/14
+Module Completion: 0/17
 
 Overall Completion: 0%
 
