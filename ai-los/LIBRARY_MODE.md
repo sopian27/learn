@@ -63,11 +63,15 @@ Per lesson file:
    * 3-5 sentences, about 80-120 words, counted inside the 700-900 word budget. Written as if explaining to a smart 12-year-old.
    * Must end with one line `Tes Feynman:` = the one-sentence version of the module concept. If it cannot be said without jargon, the explanation is not yet simple enough.
    * Must explain this lesson's module concept, not repeat the story or the summary. Format: `## Feynman Thinking` heading, then the paragraph.
-7. **Aturan Emas** (mandatory, one per lesson): ONE memorable sentence the reader can carry into daily life, plus one line on how to apply it.
+7. **First Principles Thinking** (mandatory, one per lesson): the lesson's core problem broken down the way Elon Musk describes first-principles reasoning: strip assumptions down to facts that are certainly true, then rebuild from there instead of copying by analogy.
+   * About 80-120 words, counted inside the 700-900 word budget. Tied to this course/lesson topic, not a generic explanation of the method and not about Musk himself. Never invent quotes.
+   * Format: `## First Principles Thinking (ala Elon Musk)` heading, then three bullets: `Asumsi umum:` (what people usually accept without checking), `Fakta dasar:` (2-3 things that are certainly true, e.g. physics, how the machine works, human needs), `Bangun ulang:` (the solution or conclusion derived only from those facts, and where it differs from the usual habit).
+   * No analogy here (that is Feynman's job). Do not repeat Feynman Thinking, Aturan Emas, or the summary. If the usual practice survives the breakdown, say so honestly.
+8. **Aturan Emas** (mandatory, one per lesson): ONE memorable sentence the reader can carry into daily life, plus one line on how to apply it.
    * Technical courses: a golden rule for work (code, review, debugging, design, working with the team).
    * Non-technical courses: a golden rule for communicating with other people (what to say or do in a real conversation).
    * Must be a distilled principle from this lesson, not a repeat of the summary or the checklist. Format: `> **Aturan Emas:** <kalimat>` then `Terapin: <satu baris situasi nyata>`.
-8. **Ringkasan**: 3 bullets.
+9. **Ringkasan**: 3 bullets.
 
 ## Storytelling (default for "Isi lesson")
 
@@ -145,5 +149,7 @@ For technical courses, the companion playground file exists and the lesson links
 "Cara pakai di kerjaan" is present and concrete.
 
 "Feynman Thinking" is present: plain-language, one analogy, ends with `Tes Feynman:` line.
+
+"First Principles Thinking" is present: `Asumsi umum` / `Fakta dasar` / `Bangun ulang`, tied to the lesson topic.
 
 "Aturan Emas" is present: work-oriented for technical courses, communication-oriented for non-technical courses.
